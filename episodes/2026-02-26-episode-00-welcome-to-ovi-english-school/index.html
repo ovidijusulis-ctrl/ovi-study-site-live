@@ -236,6 +236,7 @@ Part 1/1
     let activeSyncCueIndex = -1;
     let followAudio = true;
     let followPaused = false;
+    let syncRafId = 0;
     let autoScrollLockUntil = 0;
     let resumeNoticeUntil = 0;
     let transcriptAudio = null;
@@ -578,7 +579,10 @@ Part 1/1
     const resolveCueIndexAtTime = (timeSec) => {
       const t = Number(timeSec);
       if (!Number.isFinite(t) || !normalizedSyncCues.length) return -1;
-      const hysteresisSec = 0.12;
+      const playbackRate = (transcriptAudio && Number.isFinite(transcriptAudio.playbackRate) && transcriptAudio.playbackRate > 0)
+        ? transcriptAudio.playbackRate
+        : 1;
+      const hysteresisSec = Math.min(0.28, Math.max(0.12, 0.12 * playbackRate));
 
       if (activeSyncCueIndex >= 0) {
         const activeCue = normalizedSyncCues[activeSyncCueIndex];
@@ -656,6 +660,28 @@ Part 1/1
       const cueIndex = resolveCueIndexAtTime(transcriptAudio.currentTime);
       if (cueIndex === activeSyncCueIndex) return;
       applyCueClasses(cueIndex);
+    };
+
+    const stopSyncLoop = () => {
+      if (syncRafId) {
+        window.cancelAnimationFrame(syncRafId);
+        syncRafId = 0;
+      }
+    };
+
+    const runSyncLoop = () => {
+      if (!transcriptAudio || transcriptAudio.paused || transcriptAudio.ended) {
+        stopSyncLoop();
+        return;
+      }
+      syncCueFromAudio();
+      syncRafId = window.requestAnimationFrame(runSyncLoop);
+    };
+
+    const startSyncLoop = () => {
+      if (!transcriptAudio || transcriptAudio.paused || transcriptAudio.ended) return;
+      if (syncRafId) return;
+      syncRafId = window.requestAnimationFrame(runSyncLoop);
     };
 
     const seekToCueIndex = (cueIndex) => {
@@ -1060,9 +1086,16 @@ Part 1/1
       transcriptAudio.addEventListener("timeupdate", onAudioSync);
       transcriptAudio.addEventListener("seeking", onAudioSync);
       transcriptAudio.addEventListener("ratechange", onAudioSync);
-      transcriptAudio.addEventListener("play", onAudioSync);
+      transcriptAudio.addEventListener("play", () => {
+        onAudioSync();
+        startSyncLoop();
+      });
+      transcriptAudio.addEventListener("playing", startSyncLoop);
+      transcriptAudio.addEventListener("pause", stopSyncLoop);
+      transcriptAudio.addEventListener("ended", stopSyncLoop);
       transcriptAudio.addEventListener("loadedmetadata", onAudioSync);
       syncCueFromAudio();
+      startSyncLoop();
     }
 
     root.addEventListener("click", (event) => {
