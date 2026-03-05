@@ -155,54 +155,87 @@ Part 1/1
       if (!cues.length || !sentenceCatalog.length) {
         return { cues, avgScore: 0, strongMatchRatio: 0, driftDetected: false };
       }
+      const cueCount = cues.length;
+      const sentenceCount = sentenceCatalog.length;
+      const overlapScore = Array.from({ length: cueCount }, () => new Float64Array(sentenceCount));
+      const localScore = Array.from({ length: cueCount }, () => new Float64Array(sentenceCount));
 
-      let previousIndex = -1;
+      for (let i = 0; i < cueCount; i += 1) {
+        const cue = cues[i];
+        const cueText = String(cue.text || "").trim();
+        const expectedPos = cueCount > 1
+          ? (i / (cueCount - 1)) * Math.max(0, sentenceCount - 1)
+          : 0;
+        for (let j = 0; j < sentenceCount; j += 1) {
+          const sentence = sentenceCatalog[j];
+          const overlap = textOverlapScore(cueText, sentence.text);
+          overlapScore[i][j] = overlap;
+          let score = overlap;
+          if (cue.sectionName && sentence.sectionName === cue.sectionName) {
+            score += 0.05;
+          }
+          const progressPenalty = Math.min(0.2, Math.abs(j - expectedPos) * 0.0035);
+          score -= progressPenalty;
+          localScore[i][j] = score;
+        }
+      }
+
+      const parents = Array.from({ length: cueCount }, () => new Int32Array(sentenceCount).fill(-1));
+      let prev = new Float64Array(sentenceCount);
+      for (let j = 0; j < sentenceCount; j += 1) {
+        prev[j] = localScore[0][j];
+      }
+
+      for (let i = 1; i < cueCount; i += 1) {
+        const next = new Float64Array(sentenceCount);
+        let bestPrefixScore = -Infinity;
+        let bestPrefixIndex = 0;
+        for (let j = 0; j < sentenceCount; j += 1) {
+          if (prev[j] > bestPrefixScore) {
+            bestPrefixScore = prev[j];
+            bestPrefixIndex = j;
+          }
+          // Small penalty if many cues collapse onto one sentence.
+          const sameSentencePenalty = j === bestPrefixIndex ? 0.002 : 0;
+          next[j] = bestPrefixScore + localScore[i][j] - sameSentencePenalty;
+          parents[i][j] = bestPrefixIndex;
+        }
+        prev = next;
+      }
+
+      let endPos = 0;
+      let bestFinal = -Infinity;
+      for (let j = 0; j < sentenceCount; j += 1) {
+        if (prev[j] > bestFinal) {
+          bestFinal = prev[j];
+          endPos = j;
+        }
+      }
+
+      const assignedPos = new Int32Array(cueCount);
+      assignedPos[cueCount - 1] = endPos;
+      for (let i = cueCount - 1; i >= 1; i -= 1) {
+        assignedPos[i - 1] = parents[i][assignedPos[i]];
+      }
+
       let totalScore = 0;
       let strongMatchCount = 0;
-      const remapped = cues.map((cue) => {
-        const cueText = String(cue.text || "").trim();
-        const direct = sentenceByIndex.get(cue.sentenceIndex);
-        let bestIndex = Number.isFinite(cue.sentenceIndex) ? cue.sentenceIndex : -1;
-        let bestScore = direct ? textOverlapScore(cueText, direct.text) : 0;
-
-        // If direct sentence index does not match cue text well, search nearby forward range.
-        if (bestScore < 0.34) {
-          const searchStart = Math.max(0, previousIndex >= 0 ? previousIndex : (cue.sentenceIndex - 12));
-          const searchEnd = Math.min(sentenceCatalog.length - 1, searchStart + 60);
-          for (let pos = searchStart; pos <= searchEnd; pos += 1) {
-            const candidate = sentenceCatalog[pos];
-            if (!candidate || candidate.index < previousIndex) continue;
-            let score = textOverlapScore(cueText, candidate.text);
-            if (cue.sectionName && candidate.sectionName === cue.sectionName) {
-              score += 0.04;
-            }
-            if (score > bestScore) {
-              bestScore = score;
-              bestIndex = candidate.index;
-            }
-          }
-        }
-
-        if (!Number.isFinite(bestIndex) || bestIndex < 0) {
-          bestIndex = Math.max(previousIndex, 0);
-        }
-        if (bestIndex < previousIndex) {
-          bestIndex = previousIndex;
-        }
-        previousIndex = bestIndex;
-        totalScore += bestScore;
-        if (bestScore >= 0.42) strongMatchCount += 1;
-
+      const remapped = cues.map((cue, i) => {
+        const pos = Math.max(0, Math.min(sentenceCount - 1, assignedPos[i]));
+        const sentence = sentenceCatalog[pos];
+        const rawOverlap = overlapScore[i][pos];
+        totalScore += rawOverlap;
+        if (rawOverlap >= 0.42) strongMatchCount += 1;
         return {
           ...cue,
-          sentenceIndex: bestIndex,
-          _matchScore: Number(bestScore.toFixed(3)),
+          sentenceIndex: sentence.index,
+          _matchScore: Number(rawOverlap.toFixed(3)),
         };
       });
 
       const avgScore = remapped.length ? totalScore / remapped.length : 0;
       const strongMatchRatio = remapped.length ? strongMatchCount / remapped.length : 0;
-      const driftDetected = strongMatchRatio < 0.5 && avgScore < 0.34;
+      const driftDetected = strongMatchRatio < 0.56 && avgScore < 0.36;
       return { cues: remapped, avgScore, strongMatchRatio, driftDetected };
     };
     const remappedSync = remapSyncCues(rawSyncCues);
