@@ -1771,6 +1771,7 @@ const readModeEnabled = true;
       if (!(target instanceof Element)) return;
       if (target.closest("[data-vocab-fallback]")) return;
       if (target.closest("[data-word]")) return;
+      if (target.closest("[data-feedback-ui]")) return;
       closeFallback();
     });
 
