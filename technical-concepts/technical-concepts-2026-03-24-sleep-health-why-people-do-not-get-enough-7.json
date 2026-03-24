@@ -1,0 +1,108 @@
+{
+  "mode": "technical_concepts",
+  "cefrTarget": "A2",
+  "domainProfile": "technical",
+  "coreConcepts": [
+    {
+      "term": "sleep cycle",
+      "definition": "sleep cycle is a key sleep-health concept explained in simple steps.",
+      "whyItMatters": "sleep cycle can change sleep quality, energy, and concentration."
+    },
+    {
+      "term": "melatonin",
+      "definition": "melatonin is a key sleep-health concept explained in simple steps.",
+      "whyItMatters": "melatonin can change sleep quality, energy, and concentration."
+    },
+    {
+      "term": "cortisol",
+      "definition": "cortisol is a key sleep-health concept explained in simple steps.",
+      "whyItMatters": "cortisol can change sleep quality, energy, and concentration."
+    },
+    {
+      "term": "sleep debt",
+      "definition": "sleep debt is a key sleep-health concept explained in simple steps.",
+      "whyItMatters": "sleep debt can change sleep quality, energy, and concentration."
+    }
+  ],
+  "connectionMap": [
+    {
+      "label": "Screen light chain",
+      "chain": [
+        "Late screen light",
+        "Lower melatonin signal",
+        "Later sleep start"
+      ],
+      "explanation": "This chain links a daily behavior to a sleep outcome."
+    },
+    {
+      "label": "Stress chain",
+      "chain": [
+        "Stress pressure",
+        "Higher cortisol",
+        "Shallow sleep and wake-ups"
+      ],
+      "explanation": "This chain links a daily behavior to a sleep outcome."
+    }
+  ],
+  "miniCaseStudy": {
+    "scenario": "A learner sleeps late on weekdays and feels tired at school or work.",
+    "analysis": "Late light, late caffeine, and stress push the body clock later and reduce deep sleep quality.",
+    "takeaway": "Small routine changes can improve sleep timing and next-day concentration."
+  },
+  "trackingChecklist": [
+    {
+      "day": 1,
+      "focus": "Fixed sleep and wake time",
+      "note": "Write one short note about sleep quality and daytime energy."
+    },
+    {
+      "day": 2,
+      "focus": "No caffeine 8 hours before sleep",
+      "note": "Write one short note about sleep quality and daytime energy."
+    },
+    {
+      "day": 3,
+      "focus": "Screen-off routine 60 minutes before bed",
+      "note": "Write one short note about sleep quality and daytime energy."
+    },
+    {
+      "day": 4,
+      "focus": "Light evening meal timing",
+      "note": "Write one short note about sleep quality and daytime energy."
+    },
+    {
+      "day": 5,
+      "focus": "Low-light and low-noise room setup",
+      "note": "Write one short note about sleep quality and daytime energy."
+    },
+    {
+      "day": 6,
+      "focus": "Stress-down routine (breathing or journaling)",
+      "note": "Write one short note about sleep quality and daytime energy."
+    },
+    {
+      "day": 7,
+      "focus": "Weekly review of sleep quality and energy",
+      "note": "Write one short note about sleep quality and daytime energy."
+    }
+  ],
+  "practice": {
+    "comprehension": [
+      "What is one clear cause in this chain 1?",
+      "What is one clear cause in this chain 2?",
+      "What is one clear cause in this chain 3?"
+    ],
+    "discussion": [
+      "Which sleep habit is hardest to change for you 1?",
+      "Which sleep habit is hardest to change for you 2?"
+    ],
+    "speaking": [
+      "Explain one sleep cause and effect chain in your own words 1?",
+      "Explain one sleep cause and effect chain in your own words 2?"
+    ]
+  },
+  "coverage": {
+    "requiredLabels": [],
+    "requiredChains": []
+  }
+}
