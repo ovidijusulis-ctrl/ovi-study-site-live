@@ -225,19 +225,24 @@ const hasTechnicalConcepts = false;
     const sentenceByIndex = new Map(sentenceCatalog.map((entry) => [entry.index, entry]));
     const rawSyncCues = Array.isArray(syncCues)
       ? syncCues
-        .map((cue) => ({
-          startSec: Number(cue?.startSec),
-          endSec: Number(cue?.endSec),
-          sentenceIndex: Number(cue?.sentenceIndex),
-          text: String(cue?.text || "").trim(),
-          sectionName: String(cue?.sectionName || "").trim(),
-          modeVisibility: String(cue?.modeVisibility || "both").trim(),
-        }))
+        .map((cue) => {
+          const sectionName = String(cue?.sectionName || "").trim();
+          const isPracticeCue = sectionName.toUpperCase() === "PRACTICE";
+          return {
+            startSec: Number(cue?.startSec),
+            endSec: Number(cue?.endSec),
+            sentenceIndex: Number(cue?.sentenceIndex),
+            text: String(cue?.text || "").trim(),
+            sectionName,
+            modeVisibility: isPracticeCue ? "study" : String(cue?.modeVisibility || "both").trim(),
+          };
+        })
         .filter((cue) =>
           Number.isFinite(cue.startSec)
           && Number.isFinite(cue.endSec)
           && cue.endSec > cue.startSec
           && Number.isFinite(cue.sentenceIndex)
+          && cue.sectionName.toUpperCase() !== "PRACTICE"
         )
         .sort((a, b) => a.startSec - b.startSec)
       : [];
