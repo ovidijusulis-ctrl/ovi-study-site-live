@@ -1,0 +1,1 @@
+import{l as o,b as l}from"./vocab-popup-resolver.Bs-gVjsJ.js";import{i}from"./event-logger.JRBP1yL8.js";import"./signals.module.5DjgXsWM.js";import"./preact.module.IsPPbktY.js";import"./hooks.module.Bla9ZUYE.js";o();i();l(window);
