@@ -1,0 +1,182 @@
+{
+  "mode": "technical_concepts",
+  "cefrTarget": "B1",
+  "domainProfile": "technical",
+  "coreConcepts": [
+    {
+      "term": "trait",
+      "definition": "A trait is a broad pattern in how a person usually thinks, feels, or acts across time and in different situations.",
+      "whyItMatters": "It helps explain personality at a general level. A trait is wider than one single action."
+    },
+    {
+      "term": "habit",
+      "definition": "A habit is a repeated behavior. It often begins with a cue and becomes easier after many repetitions.",
+      "whyItMatters": "It explains why people often do the same action again without much effort."
+    },
+    {
+      "term": "habit loop",
+      "definition": "The habit loop is a simple model with three parts: cue, routine, and reward. A cue starts the action, the routine is the action, and the reward is the useful or pleasant result.",
+      "whyItMatters": "It shows the mechanism behind repeated behavior and helps people change habits step by step."
+    },
+    {
+      "term": "automaticity",
+      "definition": "Automaticity means an action can happen with less conscious effort because it has been repeated many times.",
+      "whyItMatters": "It explains why some actions feel easy and fast after practice."
+    },
+    {
+      "term": "basal ganglia",
+      "definition": "The basal ganglia are a brain area that helps repeated actions become more automatic.",
+      "whyItMatters": "This concept connects habit behavior to brain function in a clear way."
+    },
+    {
+      "term": "neuroplasticity",
+      "definition": "Neuroplasticity is the brain's ability to change through repeated use and experience.",
+      "whyItMatters": "It explains why practice can slowly change how easy or natural an action feels."
+    },
+    {
+      "term": "temperament",
+      "definition": "Temperament is a person's natural style, such as being more calm, more active, or more sensitive.",
+      "whyItMatters": "It shows that personality is not built only from habits. Some parts begin as natural tendencies."
+    },
+    {
+      "term": "identity-based change",
+      "definition": "Identity-based change means using repeated actions as proof of the kind of person you are becoming.",
+      "whyItMatters": "It helps explain how small habits can shape self-description over time."
+    }
+  ],
+  "connectionMap": [
+    {
+      "label": "Traits and Habits",
+      "chain": [
+        "trait",
+        "habit",
+        "identity-based change"
+      ],
+      "explanation": "A trait is a broad pattern, while a habit is a repeated action. When a person repeats an action many times, that action can become evidence for a self-description, and this supports identity-based change."
+    },
+    {
+      "label": "Why Repetition Feels Personal",
+      "chain": [
+        "habit",
+        "repeated action",
+        "self-description"
+      ],
+      "explanation": "People often use repeated action as proof when they describe themselves. If a person studies, exercises, or plans regularly, they may start to say that they are disciplined or organized."
+    },
+    {
+      "label": "The Habit Loop",
+      "chain": [
+        "cue",
+        "routine",
+        "reward"
+      ],
+      "explanation": "A cue starts the behavior, the routine is the behavior itself, and the reward makes the behavior feel useful or satisfying. Example: after dinner is the cue, reading for ten minutes is the routine, and feeling prepared is the reward."
+    },
+    {
+      "label": "What the Brain Automates",
+      "chain": [
+        "repetition",
+        "basal ganglia",
+        "automaticity",
+        "neuroplasticity"
+      ],
+      "explanation": "Repetition trains the brain. The basal ganglia help store repeated patterns, automaticity makes the action need less effort, and neuroplasticity explains how the brain changes with practice."
+    },
+    {
+      "label": "What Habits Cannot Explain Alone",
+      "chain": [
+        "temperament",
+        "social environment",
+        "values",
+        "deliberate choices"
+      ],
+      "explanation": "Habits matter, but they are not the full answer. Natural tendencies, family and culture, personal values, and conscious decisions also shape personality."
+    },
+    {
+      "label": "How Change Starts",
+      "chain": [
+        "small action",
+        "repetition",
+        "identity-based change"
+      ],
+      "explanation": "Change often begins with a small action repeated many times. Over time, the repeated action can support a new identity, such as seeing yourself as consistent or patient."
+    },
+    {
+      "label": "A Balanced Answer",
+      "chain": [
+        "stable traits",
+        "habits",
+        "environment",
+        "identity"
+      ],
+      "explanation": "Personality is not only a collection of habits. Stable traits and environment also matter, but habits can push identity and behavior in a clear direction over time."
+    }
+  ],
+  "miniCaseStudy": {
+    "scenario": "A person wants to become more organized. They choose one small action: after breakfast, they write a short task list every day.",
+    "analysis": "The cue is finishing breakfast. The routine is writing the list. The reward is a clearer plan and less stress. After repetition, the action becomes easier because of automaticity. The basal ganglia help the repeated action become more automatic, and neuroplasticity means the brain can change with this repeated use. If the person keeps doing this, they may begin to describe themselves as more organized. Still, this does not prove that all of personality is a habit. Their temperament, home environment, values, and choices also affect the result.",
+    "takeaway": "Habits can support personality change, but they work together with traits, brain change, environment, and deliberate choice."
+  },
+  "trackingChecklist": [
+    {
+      "day": 1,
+      "focus": "Learn the difference between a trait and a habit.",
+      "note": "Ask: Is this a broad pattern or one repeated action?"
+    },
+    {
+      "day": 2,
+      "focus": "Study the habit loop.",
+      "note": "Practice naming cue, routine, and reward in one everyday example."
+    },
+    {
+      "day": 3,
+      "focus": "Understand automaticity.",
+      "note": "Notice one action that feels easy now because of repetition."
+    },
+    {
+      "day": 4,
+      "focus": "Learn basal ganglia and neuroplasticity.",
+      "note": "Remember: one brain area supports automation, and the brain can change with practice."
+    },
+    {
+      "day": 5,
+      "focus": "Study what habits cannot explain alone.",
+      "note": "Review temperament, social environment, values, and deliberate choices."
+    },
+    {
+      "day": 6,
+      "focus": "Understand identity-based change.",
+      "note": "Think about how repeated action becomes evidence for self-description."
+    },
+    {
+      "day": 7,
+      "focus": "Build a balanced answer.",
+      "note": "Say clearly: personality is not only habits, but habits can shape direction over time."
+    }
+  ],
+  "practice": {
+    "comprehension": [
+      "What is a trait? Answer: A broad pattern in how a person usually thinks, feels, or acts across time and situations.",
+      "What is the difference between a habit and a trait? Answer: A habit is a repeated behavior, but a trait is a wider pattern used to describe personality.",
+      "What are the three parts of the habit loop? Answer: Cue, routine, and reward.",
+      "What does automaticity mean? Answer: It means an action needs less conscious effort after enough repetition.",
+      "Why is personality not only habits? Answer: Because temperament, social environment, values, and deliberate choices also shape personality."
+    ],
+    "discussion": [
+      "Do you think the trait model or the habit model explains personality better? Why?",
+      "Can repeated actions change how a person describes themselves? Give an example.",
+      "How is a stable trait different from a daily routine?",
+      "Which is stronger in personality: natural temperament or learned habits? Explain your view.",
+      "What habit in your life affects your identity, and how does it do that?"
+    ],
+    "speaking": [
+      "Explain the habit loop with one simple everyday example.",
+      "Describe automaticity and neuroplasticity in easy English.",
+      "Give a balanced answer to this question: Is personality just a collection of habits?"
+    ]
+  },
+  "coverage": {
+    "requiredLabels": [],
+    "requiredChains": []
+  }
+}
