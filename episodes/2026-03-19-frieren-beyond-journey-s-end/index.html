@@ -553,7 +553,89 @@ const listenQuestionItems = [{"index":0,"question":"Where did Frieren arrive?","
         usable,
       };
     };
+    const estimateInterpolatedWordWeight = (entry) => {
+      const tokenLength = String(entry?.normalizedToken || "").trim().length;
+      return Math.max(1, tokenLength);
+    };
+    const buildInterpolatedWordTimingMap = (cues) => {
+      if (!cues.length || !wordCatalog.length) {
+        return {
+          words: [],
+          coverageRatio: 0,
+          sentenceCoverageRatio: 0,
+          totalMappedWords: 0,
+          totalDomWords: 0,
+          usable: false,
+        };
+      }
+
+      const mappedWords = [];
+      let totalDomWords = 0;
+      let totalMappedWords = 0;
+      let sentencesWithDomWords = 0;
+      let sentencesWithUsableMapping = 0;
+
+      cues.forEach((cue) => {
+        const domWords = wordCatalogBySentence.get(cue.sentenceIndex) || [];
+        const cueStartSec = Number(cue?.startSec);
+        const cueEndSec = Number(cue?.endSec);
+        const cueDurationSec = cueEndSec - cueStartSec;
+        if (!domWords.length || !Number.isFinite(cueStartSec) || !Number.isFinite(cueEndSec) || cueDurationSec <= 0) {
+          return;
+        }
+
+        totalDomWords += domWords.length;
+        sentencesWithDomWords += 1;
+
+        const totalWeight = domWords.reduce(
+          (sum, entry) => sum + estimateInterpolatedWordWeight(entry),
+          0,
+        ) || domWords.length;
+        let cursorSec = cueStartSec;
+
+        domWords.forEach((domWord, index) => {
+          const isLast = index === domWords.length - 1;
+          const sliceDurationSec = isLast
+            ? Math.max(0.01, cueEndSec - cursorSec)
+            : Math.max(0.01, cueDurationSec * (estimateInterpolatedWordWeight(domWord) / totalWeight));
+          const nextEndSec = isLast
+            ? cueEndSec
+            : Math.min(cueEndSec, cursorSec + sliceDurationSec);
+
+          mappedWords.push({
+            sentenceIndex: cue.sentenceIndex,
+            wordIndex: domWord.wordIndex,
+            sentenceWordIndex: domWord.sentenceWordIndex,
+            startSec: cursorSec,
+            endSec: Math.max(cursorSec + 0.01, nextEndSec),
+            normalizedToken: domWord.normalizedToken,
+            interpolated: true,
+          });
+          cursorSec = nextEndSec;
+        });
+
+        totalMappedWords += domWords.length;
+        sentencesWithUsableMapping += 1;
+      });
+
+      const coverageRatio = totalDomWords ? Number((totalMappedWords / totalDomWords).toFixed(3)) : 0;
+      const sentenceCoverageRatio = sentencesWithDomWords
+        ? Number((sentencesWithUsableMapping / sentencesWithDomWords).toFixed(3))
+        : 0;
+      const usable = totalMappedWords >= 24 && coverageRatio >= 0.95 && sentenceCoverageRatio >= 0.65;
+      return {
+        words: usable
+          ? mappedWords.sort((a, b) => a.startSec - b.startSec)
+          : [],
+        coverageRatio,
+        sentenceCoverageRatio,
+        totalMappedWords,
+        totalDomWords,
+        usable,
+      };
+    };
     const wordTimingMap = buildWordTimingMap(normalizedSyncCues, rawSyncWords);
+    const interpolatedWordTimingMap = buildInterpolatedWordTimingMap(normalizedSyncCues);
     const practiceCueStartSec = normalizedPracticeSyncCues.length
       ? Number(normalizedPracticeSyncCues[0]?.startSec || 0)
       : -1;
@@ -567,16 +649,23 @@ const listenQuestionItems = [{"index":0,"question":"Where did Frieren arrive?","
       );
       normalizedSyncCues.length = 0;
     }
-    const effectiveWordTimingMap = (!syncDriftDetected && wordTimingMap.usable)
-      ? wordTimingMap
+    const effectiveWordTimingMap = !syncDriftDetected
+      ? (wordTimingMap.usable ? wordTimingMap : (interpolatedWordTimingMap.usable ? interpolatedWordTimingMap : {
+          words: [],
+          coverageRatio: 0,
+          sentenceCoverageRatio: 0,
+          totalMappedWords: 0,
+          totalDomWords: 0,
+          usable: false,
+        }))
       : {
-        words: [],
-        coverageRatio: 0,
-        sentenceCoverageRatio: 0,
-        totalMappedWords: 0,
-        totalDomWords: 0,
-        usable: false,
-      };
+          words: [],
+          coverageRatio: 0,
+          sentenceCoverageRatio: 0,
+          totalMappedWords: 0,
+          totalDomWords: 0,
+          usable: false,
+        };
     const wordTimingMapBySentence = new Map();
     effectiveWordTimingMap.words.forEach((entry) => {
       if (!wordTimingMapBySentence.has(entry.sentenceIndex)) {
