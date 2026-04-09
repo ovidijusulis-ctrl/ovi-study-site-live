@@ -114,6 +114,27 @@ Search
     const template = count === 1 ? copy.preview.matchingStatusOne : copy.preview.matchingStatusMany;
     return formatHeroCopy(template, { count });
   };
+  const normalizeSearchText = (value) =>
+    String(value || "").replace(/\s+/g, " ").trim();
+
+  const normalizeSearchFieldText = (value) =>
+    normalizeSearchText(value)
+      .toLowerCase()
+      .replace(/[^\p{L}\p{N}]+/gu, " ")
+      .replace(/\s+/g, " ")
+      .trim();
+
+  const normalizeSearchQuery = (value) =>
+    normalizeSearchText(value).toLowerCase();
+
+  const tokenizeSearchText = (value) =>
+    normalizeSearchFieldText(value)
+      .split(" ")
+      .map((part) => part.trim())
+      .filter(Boolean);
+
+  const escapeRegExp = (value) =>
+    String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
   const scrollToTarget = (selector) => {
     if (!selector) return;
@@ -154,40 +175,69 @@ Search
     && levelGuideButtons.length > 0
     && topicButtons.length > 0
   ) {
-    const cards = [...list.querySelectorAll(".episode-card")].map((el, index) => ({
-      el,
-      index,
-      date: String(el.dataset.date || ""),
-      slug: String(el.dataset.slug || ""),
-      episodeId: String(el.dataset.episodeId || ""),
-      category: String(el.dataset.category || "").toLowerCase(),
-      tags: String(el.dataset.tags || "").toLowerCase(),
-      topic: String(el.dataset.topic || "").toLowerCase(),
-      source: String(el.dataset.source || "").toLowerCase(),
-      discoveryTopics: String(el.dataset.discoveryTopics || "")
-        .toLowerCase()
-        .split("|")
-        .map((value) => value.trim())
-        .filter(Boolean),
-      primaryTopic: String(el.dataset.discoveryPrimary || "daily-life").toLowerCase(),
-      discoverySource: String(el.dataset.discoverySource || el.dataset.episodeType || "news").toLowerCase(),
-      cefrs: String(el.dataset.cefr || "")
-        .toUpperCase()
-        .split("|")
-        .map((value) => value.trim())
-        .filter(Boolean),
-      episodeType: String(el.dataset.episodeType || "news").toLowerCase(),
-      lessonFormat: String(el.dataset.lessonFormat || "story").toLowerCase(),
-      title: String(el.querySelector(".episode-card-title a, h2 a")?.textContent || "").trim(),
-      summary: String(el.querySelector(".episode-card-summary, .pinned-summary")?.textContent || "").trim(),
-      meta: [...el.querySelectorAll(".episode-card-meta span")]
+    const cards = [...list.querySelectorAll(".episode-card")].map((el, index) => {
+      const slug = String(el.dataset.slug || "");
+      const category = String(el.dataset.category || "").toLowerCase();
+      const tags = String(el.dataset.tags || "").toLowerCase();
+      const topic = String(el.dataset.topic || "").toLowerCase();
+      const source = String(el.dataset.source || "").toLowerCase();
+      const title = String(el.querySelector(".episode-card-title a, h2 a")?.textContent || "").trim();
+      const summary = String(el.querySelector(".episode-card-summary, .pinned-summary")?.textContent || "").trim();
+      const meta = [...el.querySelectorAll(".episode-card-meta span")]
         .map((node) => String(node.textContent || "").trim())
         .filter(Boolean)
-        .join(" • "),
-      levelText: String(el.querySelector(".episode-level")?.textContent || "").trim(),
-      typeText: String(el.querySelector(".episode-type")?.textContent || "").trim(),
-      accessText: String(el.querySelector(".episode-access")?.textContent || "").trim(),
-    }));
+        .join(" • ");
+      const levelText = String(el.querySelector(".episode-level")?.textContent || "").trim();
+      const typeText = String(el.querySelector(".episode-type")?.textContent || "").trim();
+      const accessText = String(el.querySelector(".episode-access")?.textContent || "").trim();
+
+      return {
+        el,
+        index,
+        date: String(el.dataset.date || ""),
+        slug,
+        episodeId: String(el.dataset.episodeId || ""),
+        category,
+        tags,
+        topic,
+        source,
+        discoveryTopics: String(el.dataset.discoveryTopics || "")
+          .toLowerCase()
+          .split("|")
+          .map((value) => value.trim())
+          .filter(Boolean),
+        primaryTopic: String(el.dataset.discoveryPrimary || "daily-life").toLowerCase(),
+        discoverySource: String(el.dataset.discoverySource || el.dataset.episodeType || "news").toLowerCase(),
+        cefrs: String(el.dataset.cefr || "")
+          .toUpperCase()
+          .split("|")
+          .map((value) => value.trim())
+          .filter(Boolean),
+        episodeType: String(el.dataset.episodeType || "news").toLowerCase(),
+        lessonFormat: String(el.dataset.lessonFormat || "story").toLowerCase(),
+        title,
+        summary,
+        meta,
+        levelText,
+        typeText,
+        accessText,
+        searchIndex: {
+          title: normalizeSearchFieldText(title),
+          topic: normalizeSearchFieldText(topic),
+          summary: normalizeSearchFieldText(summary),
+          meta: normalizeSearchFieldText(meta),
+          supporting: normalizeSearchFieldText([
+            slug,
+            source,
+            tags,
+            category,
+            levelText,
+            typeText,
+            accessText,
+          ].join(" ")),
+        },
+      };
+    });
     const heroStartSeed = heroStartCard ? {
       title: String(heroStartCard.dataset.previewTitle || "").trim(),
       summary: String(heroStartCard.dataset.previewSummary || "").trim(),
@@ -326,12 +376,6 @@ Search
     const getActiveMode = () =>
       sortButtons.find((btn) => btn.classList.contains("is-active"))?.dataset.sortBtn || "newest";
 
-    const normalizeSearchText = (value) =>
-      String(value || "").replace(/\s+/g, " ").trim();
-
-    const normalizeSearchQuery = (value) =>
-      normalizeSearchText(value).toLowerCase();
-
     const setActiveTopicButton = (topic) => {
       topicButtons.forEach((btn) => {
         const active = btn.dataset.topicBtn === topic;
@@ -359,26 +403,48 @@ Search
       return card.discoveryTopics.includes(topic);
     };
 
+    const scoreTokenMatch = (tokens, term) => {
+      if (!term || tokens.length === 0) return 0;
+      if (tokens.includes(term)) return 3;
+      if (tokens.some((token) => token.startsWith(term))) return 2;
+      return 0;
+    };
+
+    const scoreTextQueryMatch = (text, terms, query) => {
+      if (!text) return 0;
+      let score = 0;
+      if (query) {
+        const phrasePattern = new RegExp(`(^|\\s)${escapeRegExp(query)}(?=\\s|$)`, "u");
+        if (phrasePattern.test(text)) score += 5;
+      }
+      const tokens = tokenizeSearchText(text);
+      for (const term of terms) {
+        const tokenScore = scoreTokenMatch(tokens, term);
+        if (!tokenScore) return 0;
+        score += tokenScore;
+      }
+      return score;
+    };
+
+    const getQueryScore = (card, query) => {
+      const normalizedQuery = normalizeSearchFieldText(query);
+      if (!normalizedQuery) return 0;
+      const terms = normalizedQuery.split(" ").filter(Boolean);
+      if (terms.length === 0) return 0;
+
+      const titleScore = scoreTextQueryMatch(card.searchIndex.title, terms, normalizedQuery);
+      const topicScore = scoreTextQueryMatch(card.searchIndex.topic, terms, normalizedQuery);
+      const summaryScore = scoreTextQueryMatch(card.searchIndex.summary, terms, normalizedQuery);
+      const metaScore = scoreTextQueryMatch(card.searchIndex.meta, terms, normalizedQuery);
+      const supportScore = scoreTextQueryMatch(card.searchIndex.supporting, terms, normalizedQuery);
+      const totalScore = titleScore * 8 + topicScore * 6 + summaryScore * 3 + metaScore * 2 + supportScore;
+      return totalScore > 0 ? totalScore : 0;
+    };
+
     const matchesQuery = (card, query) => {
-      const normalizedQuery = normalizeSearchQuery(query);
+      const normalizedQuery = normalizeSearchFieldText(query);
       if (!normalizedQuery) return true;
-      const searchable = normalizeSearchQuery([
-        card.slug,
-        card.title,
-        card.summary,
-        card.topic,
-        card.meta,
-        card.source,
-        card.tags,
-        card.category,
-        card.levelText,
-        card.typeText,
-        card.accessText,
-      ].join(" "));
-      if (!searchable) return false;
-      if (searchable.includes(normalizedQuery)) return true;
-      const parts = normalizedQuery.split(" ").filter(Boolean);
-      return parts.every((part) => searchable.includes(part));
+      return getQueryScore(card, normalizedQuery) > 0;
     };
 
     const normalizePanel = (panel) => (VALID_PANELS.has(panel) ? panel : "start");
@@ -621,12 +687,19 @@ Search
 
     const getFilteredCards = (mode, level, topic, query) => {
       const comparator = comparators[mode] || comparators.newest;
+      const normalizedQuery = normalizeSearchFieldText(query);
       return cards
         .slice()
         .filter((card) => matchesLevel(card, level))
         .filter((card) => matchesTopic(card, topic))
         .filter((card) => matchesQuery(card, query))
-        .sort(comparator);
+        .sort((a, b) => {
+          if (normalizedQuery) {
+            const byQueryScore = getQueryScore(b, normalizedQuery) - getQueryScore(a, normalizedQuery);
+            if (byQueryScore !== 0) return byQueryScore;
+          }
+          return comparator(a, b);
+        });
     };
 
     const resolveSearchFallbackState = (mode, level, topic, query) => {
