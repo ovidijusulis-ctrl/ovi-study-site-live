@@ -4,188 +4,159 @@
   "domainProfile": "technical",
   "coreConcepts": [
     {
-      "term": "play the ball as it lies",
-      "definition": "Hit the ball from the place where it stops. Do not move it to an easier place unless a rule allows it.",
-      "whyItMatters": "This is a basic golf rule. It keeps the game fair because all players must accept the result of the shot."
-    },
-    {
-      "term": "fairway",
-      "definition": "The short, neat grass area on the course.",
-      "whyItMatters": "It is usually easier to hit from the fairway, so learners need to know this course area word."
-    },
-    {
-      "term": "rough",
-      "definition": "The taller grass next to the fairway.",
-      "whyItMatters": "A ball in the rough is often harder to hit, but the player usually still plays it there."
+      "term": "mark the ball",
+      "definition": "On the green, the player puts a small marker just behind the ball before lifting it.",
+      "whyItMatters": "This keeps the exact ball position clear and fair. The correct order is important: first mark, then lift."
     },
     {
       "term": "lie",
-      "definition": "The ball's resting place on the course.",
-      "whyItMatters": "The lie affects the next shot. A good lie is easier. A bad lie is harder. In golf, the lie is part of the test."
+      "definition": "The lie is how the ball sits on the ground, such as in short grass, rough, or a difficult position.",
+      "whyItMatters": "The player must play from that position and must not make the lie better in an unfair way."
     },
     {
-      "term": "relief",
-      "definition": "Permission to move the ball in a legal way under a rule.",
-      "whyItMatters": "Relief is an important exception to the usual rule. A player must know when moving the ball is legal."
+      "term": "loose impediments",
+      "definition": "These are small natural objects like a leaf, twig, or small stone that can usually be removed.",
+      "whyItMatters": "A player can remove them, but cannot change the ground or press grass down."
     },
     {
-      "term": "penalty stroke",
-      "definition": "One extra stroke added to the score.",
-      "whyItMatters": "Penalty strokes change the final score, so players must understand when they happen."
+      "term": "grounding the club",
+      "definition": "In a bunker, grounding the club means letting the club touch the sand before the stroke.",
+      "whyItMatters": "The player must not do this before the shot because touching the sand can give extra help or information."
     },
     {
-      "term": "out of bounds",
-      "definition": "A ball position outside the legal course area.",
-      "whyItMatters": "If a ball is out of bounds, the player usually adds a penalty stroke and plays again from the previous place."
+      "term": "penalty area relief",
+      "definition": "When the ball is in a penalty area, the player may move the ball under the rule and usually add one penalty stroke.",
+      "whyItMatters": "This gives a legal next step when normal play is difficult or impossible."
     },
     {
-      "term": "official Rules of Golf",
-      "definition": "The rule system used in golf, made by the R&A and the USGA.",
-      "whyItMatters": "Players use the official rules to make correct decisions during play."
+      "term": "stroke and distance",
+      "definition": "If a ball is lost or out of bounds, the player adds one penalty stroke, returns to the last place, and plays again.",
+      "whyItMatters": "This rule keeps play fair by making the player repeat the shot from the earlier place."
+    },
+    {
+      "term": "cause of ball movement",
+      "definition": "A player must check what made the ball move, such as the player, wind, or another outside cause.",
+      "whyItMatters": "The correct rule can change depending on the cause, so careful review is necessary."
+    },
+    {
+      "term": "if-rule sentence pattern",
+      "definition": "This is a simple grammar pattern for golf rules, such as: If the ball is on the green, the player marks it first.",
+      "whyItMatters": "It helps Hiroko explain rules clearly and check understanding in short, correct English."
     }
   ],
   "connectionMap": [
     {
-      "label": "basic rule decision",
+      "label": "green review flow",
       "chain": [
-        "ball stops",
-        "check the lie",
-        "play it there"
+        "ball on green",
+        "marker behind ball",
+        "lift ball",
+        "replace ball"
       ],
-      "explanation": "The first decision starts after the ball stops. The player checks the resting place, then usually plays from that same place."
+      "explanation": "This is the key review chain from the earlier lesson. The player should remember the order and say it clearly in English."
     },
     {
-      "label": "course area meaning",
+      "label": "fair play check",
       "chain": [
-        "fairway",
-        "short grass",
-        "easier shot"
+        "notice the place",
+        "choose the correct rule",
+        "avoid improving conditions",
+        "play legally"
       ],
-      "explanation": "The fairway is short grass, so it often gives a simpler next shot."
+      "explanation": "Golf rules depend on location and action. First check where the ball is, then follow the rule for that place."
     },
     {
-      "label": "course area meaning",
+      "label": "bunker control",
       "chain": [
-        "rough",
-        "tall grass",
-        "harder shot"
+        "ball in bunker",
+        "club stays above sand",
+        "make the stroke",
+        "ball leaves bunker"
       ],
-      "explanation": "The rough is taller grass, so the ball may sit deep and become more difficult to hit."
+      "explanation": "This chain reviews the bunker rule. The important test point is that the club should not touch the sand before the shot."
     },
     {
-      "label": "exception to the main rule",
+      "label": "penalty process",
       "chain": [
-        "hard position",
-        "rule allows relief",
-        "move ball legally"
+        "ball in penalty area",
+        "take relief",
+        "add one penalty stroke",
+        "play next shot"
       ],
-      "explanation": "A difficult position alone is not enough. The player can move the ball only when a rule gives relief."
+      "explanation": "This chain checks if the learner remembers both the action and the scoring result."
     },
     {
-      "label": "score change mechanism",
+      "label": "lost ball process",
       "chain": [
-        "rule broken or certain relief",
-        "penalty stroke",
-        "higher score"
+        "ball lost or out of bounds",
+        "add one penalty stroke",
+        "return to last place",
+        "hit again"
       ],
-      "explanation": "Some actions add one extra stroke. This makes the total score higher."
-    },
-    {
-      "label": "out of bounds process",
-      "chain": [
-        "ball leaves course area",
-        "penalty stroke",
-        "play again from previous place"
-      ],
-      "explanation": "Out of bounds has a clear result. The player adds a penalty stroke and usually returns to the earlier spot."
-    },
-    {
-      "label": "rule authority",
-      "chain": [
-        "R&A and USGA",
-        "official rules",
-        "same system for players"
-      ],
-      "explanation": "These organizations make the rules, so players follow one shared system."
-    },
-    {
-      "label": "review grammar pattern",
-      "chain": [
-        "usually",
-        "unless",
-        "rule allows relief"
-      ],
-      "explanation": "This pattern helps Hiroko explain golf rules clearly. Example: You usually play it there unless a rule allows relief."
+      "explanation": "This is the stroke and distance review pattern. It is a common test item because students often forget the return step."
     }
   ],
   "miniCaseStudy": {
-    "scenario": "A ball stops in the rough near a tree. The player wants to move it to the fairway because the shot is difficult.",
-    "analysis": "The main rule says to play the ball as it lies. The rough is a normal part of the course, so difficulty alone does not permit moving the ball. The player must first check whether a rule gives relief. If no rule gives relief, the ball stays there and the player plays from that spot. A correct answer uses both rule meaning and course vocabulary.",
-    "takeaway": "Do not move the ball just because the shot is hard. First check the lie, then check whether relief is allowed by a rule."
+    "scenario": "Review check: A ball stops on the green. The player lifts it first and marks the spot after that. Later, on another hole, the ball is in rough with a leaf near it. The player removes the leaf, then presses the grass down with a shoe. On the next hole, the ball is in a bunker, and the club touches the sand before the stroke.",
+    "analysis": "This review has three checks. First, on the green, the order is wrong. The player should mark first and then lift. Second, in the rough, removing a loose leaf is usually allowed, but pressing the grass down improves the lie and is not allowed. Third, in the bunker, the club should not touch the sand before the shot. These are good test points because they check order, permission, and place-based rules.",
+    "takeaway": "For golf rules, first check the place, then check the action. Use short English review sentences: If the ball is on the green, mark it first. If there is a loose leaf, you can remove it. If the ball is in a bunker, keep the club off the sand."
   },
   "trackingChecklist": [
     {
       "day": 1,
-      "focus": "Review core words: fairway, rough, lie, relief, penalty stroke, out of bounds",
-      "note": "Say each word and give one short meaning in simple English."
+      "focus": "Review the green rule and say the order aloud",
+      "note": "Practice this sentence three times: If the ball is on the green, the player marks it first."
     },
     {
       "day": 2,
-      "focus": "Main rule meaning",
-      "note": "Practice this sentence: You play the ball where it stops."
+      "focus": "Review lie and loose impediments",
+      "note": "Check the difference: removing a leaf is okay, but improving the ground is not okay."
     },
     {
       "day": 3,
-      "focus": "Course area contrast",
-      "note": "Compare fairway and rough with short sentences: The fairway is shorter. The rough is taller."
+      "focus": "Review bunker rule",
+      "note": "Say one full answer: If the ball is in a bunker, the player must not ground the club."
     },
     {
       "day": 4,
-      "focus": "Relief and limits",
-      "note": "Practice the pattern usually plus unless: You usually play it there unless a rule allows relief."
+      "focus": "Review penalty area relief and penalty stroke",
+      "note": "Make one short explanation with score language: A penalty stroke is an extra point on the score."
     },
     {
       "day": 5,
-      "focus": "Penalty understanding",
-      "note": "Answer this clearly: What is a penalty stroke? It is one extra stroke added to the score."
+      "focus": "Review stroke and distance",
+      "note": "Remember the full process: add one, go back, hit again."
     },
     {
       "day": 6,
-      "focus": "Out of bounds process",
-      "note": "Say the full action in order: out of bounds, penalty stroke, play again from the previous place."
+      "focus": "Grammar repair with if sentences",
+      "note": "Make four rule sentences with If the ball is..."
     },
     {
       "day": 7,
       "focus": "Mini self-test",
-      "note": "Explain the main golf rule in two or three sentences without looking at notes."
+      "note": "Answer the comprehension questions without looking at notes first, then check mistakes."
     }
   ],
   "practice": {
     "comprehension": [
-      "What does play the ball as it lies mean?",
-      "If the ball is in the rough, do you usually move it?",
-      "What is the difference between the fairway and the rough?",
+      "What is the correct order on the green: mark then lift, or lift then mark?",
       "What does lie mean in golf?",
-      "When can a player move the ball legally?",
-      "What is a penalty stroke?",
-      "What usually happens after a ball goes out of bounds?",
-      "Who makes the official Rules of Golf?",
-      "Is a difficult shot by itself a reason to move the ball?",
-      "Complete the rule: You usually play it there unless a rule allows what?"
+      "Can a player remove a small leaf near the ball?",
+      "In a bunker, should the club touch the sand before the stroke?",
+      "What happens in stroke and distance after a lost ball?"
     ],
     "discussion": [
-      "Why does play the ball as it lies help keep golf fair?",
-      "Why is the lie part of the test in golf?",
-      "Why do players need to know the difference between normal difficulty and legal relief?",
-      "How can one penalty stroke change a round?",
-      "Why is out of bounds a strict rule?"
+      "Why does golf need clear rules about marking the ball on the green?",
+      "What is the difference between removing a loose object and improving the lie?",
+      "Why is the cause of ball movement important in a rules review?",
+      "How does an if sentence help explain a golf rule clearly?"
     ],
     "speaking": [
-      "Explain the main rule in your own words.",
-      "Use these three words in one short explanation: rough, relief, penalty stroke.",
-      "Say two sentences with usually and unless about golf rules.",
-      "Describe what happens when a ball is out of bounds.",
-      "Compare a shot from the fairway with a shot from the rough."
+      "Explain this rule in one short answer: If the ball is on the green, what should the player do first?",
+      "Answer this test card: Your ball is in a bunker. What must you not do before the shot?",
+      "Ask and answer: What is stroke and distance, and when do players use it?",
+      "Give three review sentences with this pattern: If the ball is..., the player..."
     ]
   },
   "coverage": {
