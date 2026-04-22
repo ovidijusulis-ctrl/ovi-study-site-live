@@ -1,0 +1,125 @@
+{
+  "mode": "technical_concepts",
+  "cefrTarget": "B2",
+  "domainProfile": "technical",
+  "coreConcepts": [
+    {
+      "term": "Acidity",
+      "definition": "The fresh, sour quality that gives wine energy and shape.",
+      "whyItMatters": "It helps a wine feel lively instead of flat."
+    },
+    {
+      "term": "Malic acid and lactic acid",
+      "definition": "Malic acid is sharp and green-apple-like; lactic acid is softer and rounder.",
+      "whyItMatters": "This contrast explains why some wines feel crisp while others feel creamy."
+    },
+    {
+      "term": "Fermentation",
+      "definition": "The process in which yeast changes grape sugar into alcohol and aroma compounds.",
+      "whyItMatters": "It shapes both flavour and texture, not only alcohol level."
+    },
+    {
+      "term": "Oak and oxygen",
+      "definition": "Barrel contact and controlled oxygen exposure can add flavour and soften structure.",
+      "whyItMatters": "These winemaking choices can change the final style even with the same grape."
+    },
+    {
+      "term": "Tasting structure",
+      "definition": "A practical order for noticing acidity, texture, body, aroma, and winemaking clues.",
+      "whyItMatters": "It gives learners a repeatable method for understanding a glass of wine."
+    }
+  ],
+  "connectionMap": [
+    {
+      "label": "malolactic softening",
+      "chain": [
+        "malic acid",
+        "malolactic conversion",
+        "lactic acid",
+        "rounder texture"
+      ],
+      "explanation": "When malic acid changes into lactic acid, the wine usually feels less sharp and more rounded."
+    },
+    {
+      "label": "style building",
+      "chain": [
+        "climate",
+        "ripeness",
+        "acidity",
+        "body",
+        "final style"
+      ],
+      "explanation": "Climate affects ripeness and acidity, and that changes how light, fresh, or rich the wine feels."
+    },
+    {
+      "label": "winemaking influence",
+      "chain": [
+        "yeast",
+        "fermentation temperature",
+        "aroma compounds",
+        "texture"
+      ],
+      "explanation": "Yeast activity and fermentation temperature help shape aroma and the mouthfeel of the wine."
+    }
+  ],
+  "miniCaseStudy": {
+    "scenario": "A learner compares two Chardonnays, one from a cool region and one from a warmer region.",
+    "analysis": "The cooler wine is likely to keep higher acidity and a sharper profile, while the warmer wine may feel fuller and riper. Malolactic conversion or oak aging can make the warmer style feel even softer and creamier.",
+    "takeaway": "Do not judge a wine only by grape name. Region and winemaking choices change the result."
+  },
+  "trackingChecklist": [
+    {
+      "day": 1,
+      "focus": "Acidity",
+      "note": "Notice whether the wine makes your mouth water quickly."
+    },
+    {
+      "day": 2,
+      "focus": "Texture",
+      "note": "Decide whether the wine feels sharp, creamy, smooth, or firm."
+    },
+    {
+      "day": 3,
+      "focus": "Body",
+      "note": "Ask whether the wine feels light, medium, or full."
+    },
+    {
+      "day": 4,
+      "focus": "Aroma",
+      "note": "Smell before tasting and note fresh, ripe, oak, or yeast clues."
+    },
+    {
+      "day": 5,
+      "focus": "Oak and oxygen",
+      "note": "Look for signs of vanilla, toast, softness, or age."
+    },
+    {
+      "day": 6,
+      "focus": "Acid change",
+      "note": "Connect crisp styles with malic acid and softer styles with lactic acid."
+    },
+    {
+      "day": 7,
+      "focus": "Overall balance",
+      "note": "Explain how acidity, body, texture, and aroma work together."
+    }
+  ],
+  "practice": {
+    "comprehension": [
+      "What is the difference between malic acid and lactic acid?",
+      "Why can the same grape taste different in different wines?"
+    ],
+    "discussion": [
+      "Which factor seems most important in changing a wine’s style: climate or winemaking?",
+      "Why is a tasting order useful when you want to understand a wine clearly?"
+    ],
+    "speaking": [
+      "Describe a wine step by step using acidity, body, texture, and aroma.",
+      "Explain malolactic conversion in simple English to another student."
+    ]
+  },
+  "coverage": {
+    "requiredLabels": [],
+    "requiredChains": []
+  }
+}
