@@ -1,0 +1,167 @@
+{
+  "mode": "technical_concepts",
+  "cefrTarget": "B1",
+  "domainProfile": "technical",
+  "coreConcepts": [
+    {
+      "term": "frame",
+      "definition": "A frame is one single picture in an animation. Many frames shown quickly create the feeling of motion.",
+      "whyItMatters": "The frame is the basic unit of animation. If you understand frames, you can understand how still images become moving action."
+    },
+    {
+      "term": "frame rate",
+      "definition": "Frame rate is the number of frames shown in one second, such as 24 frames per second.",
+      "whyItMatters": "Frame rate changes how smooth or jumpy motion looks. A higher rate usually gives smoother movement."
+    },
+    {
+      "term": "key frame",
+      "definition": "A key frame is an important main pose in an action, like the start, middle, or end of a jump.",
+      "whyItMatters": "Key frames give structure to movement. They help animators plan the most important moments first."
+    },
+    {
+      "term": "in-between",
+      "definition": "An in-between is a frame placed between key frames to connect one main pose to the next.",
+      "whyItMatters": "In-betweens make motion look smooth and natural instead of sudden and stiff."
+    },
+    {
+      "term": "timing",
+      "definition": "Timing is the choice of how long an action takes and how many frames it uses.",
+      "whyItMatters": "Timing changes meaning. The same movement can feel fast, heavy, careful, funny, or angry depending on timing."
+    },
+    {
+      "term": "exaggeration",
+      "definition": "Exaggeration means making a movement, pose, or expression bigger or clearer than real life.",
+      "whyItMatters": "It helps the viewer read the action quickly and feel the emotion more strongly."
+    },
+    {
+      "term": "squash and stretch",
+      "definition": "Squash and stretch is a visual rule where a moving object becomes wider and shorter or longer and thinner during motion.",
+      "whyItMatters": "It shows weight, force, speed, and energy. It makes motion feel more alive."
+    },
+    {
+      "term": "body language",
+      "definition": "Body language is meaning shown by posture, gesture, and facial expression.",
+      "whyItMatters": "Animation is not only motion. It is also communication. Body language tells the viewer what a character feels or wants."
+    },
+    {
+      "term": "persistence of vision",
+      "definition": "Persistence of vision is the idea that the brain and eyes connect fast-changing images into one moving action.",
+      "whyItMatters": "This explains why animation works at all. The viewer does not only see separate pictures; the brain joins them into motion."
+    },
+    {
+      "term": "animation technique",
+      "definition": "An animation technique is the method used to create frames, such as hand-drawn animation, stop motion, or digital animation.",
+      "whyItMatters": "Different techniques use different tools, but they all depend on frames, timing, and small changes between images."
+    }
+  ],
+  "connectionMap": [
+    {
+      "label": "basic motion illusion",
+      "chain": [
+        "frame",
+        "frame rate",
+        "persistence of vision"
+      ],
+      "explanation": "A single frame is only one picture. When many frames appear at a certain speed, the brain connects them and sees movement."
+    },
+    {
+      "label": "building an action",
+      "chain": [
+        "key frame",
+        "in-between",
+        "timing"
+      ],
+      "explanation": "Animators first choose the main poses, then add connecting frames, then control how long each part lasts. This creates clear and believable action."
+    },
+    {
+      "label": "making motion expressive",
+      "chain": [
+        "body language",
+        "exaggeration",
+        "squash and stretch"
+      ],
+      "explanation": "A movement must show meaning, not only position. Body language gives emotion, exaggeration makes it clearer, and squash and stretch adds force and life."
+    },
+    {
+      "label": "same principle different tools",
+      "chain": [
+        "hand-drawn animation",
+        "stop motion",
+        "digital animation"
+      ],
+      "explanation": "In hand-drawn animation, each frame is drawn. In stop motion, a real object is moved and photographed. In digital animation, virtual models are posed on a computer. The tools change, but the motion idea stays the same."
+    }
+  ],
+  "miniCaseStudy": {
+    "scenario": "A ball moves across the screen, hits the ground, and jumps up again in three animation methods: hand-drawn, stop motion, and digital animation.",
+    "analysis": "In all three methods, the animator plans key frames first: the ball in the air, the moment of impact, and the ball rising again. In-between frames connect these poses. Timing controls whether the ball feels heavy or light. If the ball stays longer near the ground, it can feel heavy. Squash at impact and stretch during fast upward motion make the action clearer. In hand-drawn animation, the artist draws each change. In stop motion, the artist moves a real ball a little and takes one photo per step. In digital animation, the animator sets poses for a 3D ball and the software can help create in-between positions. The motion feels alive because the brain reads the sequence as one action, not as separate pictures.",
+    "takeaway": "Animation creates life by combining planned poses, small visual changes, and good timing. The method can change, but the mechanism is the same."
+  },
+  "trackingChecklist": [
+    {
+      "day": 1,
+      "focus": "Learn frame, frame rate, and persistence of vision",
+      "note": "Explain in simple English why many still pictures can look like movement."
+    },
+    {
+      "day": 2,
+      "focus": "Study key frames and in-betweens",
+      "note": "Describe a simple action like sitting down by naming the main poses and the connecting motion."
+    },
+    {
+      "day": 3,
+      "focus": "Practice timing",
+      "note": "Compare a fast wave and a slow wave and say how the feeling changes."
+    },
+    {
+      "day": 4,
+      "focus": "Study exaggeration and squash and stretch",
+      "note": "Use a bouncing ball example to explain weight and energy."
+    },
+    {
+      "day": 5,
+      "focus": "Study body language",
+      "note": "Describe how posture or face can show anger, fear, or confidence without words."
+    },
+    {
+      "day": 6,
+      "focus": "Compare animation techniques",
+      "note": "Say how hand-drawn, stop motion, and digital animation make frames in different ways."
+    },
+    {
+      "day": 7,
+      "focus": "Review full mechanism",
+      "note": "Give a short spoken explanation of how drawings seem alive, using at least five key terms."
+    }
+  ],
+  "practice": {
+    "comprehension": [
+      "What is a frame in animation?",
+      "Why does frame rate affect how smooth motion looks?",
+      "What is the job of a key frame?",
+      "How do in-betweens help movement?",
+      "How can timing change the meaning of the same action?",
+      "What does squash and stretch show in a bouncing ball?",
+      "Why is body language important in animation?",
+      "What is one main difference between stop motion and digital animation?"
+    ],
+    "discussion": [
+      "Why does the brain accept still images as movement so easily?",
+      "Which is more important for clear animation: timing or drawing skill? Why?",
+      "Why do animators often use exaggeration instead of exact real-life movement?",
+      "How can a simple head turn or hand movement change the message of a scene?",
+      "Which animation technique do you find most interesting: hand-drawn, stop motion, or digital? Why?"
+    ],
+    "speaking": [
+      "Explain how a jump is animated by using the words key frame, in-between, and timing.",
+      "Describe a bouncing ball and use squash, stretch, and frame rate in your answer.",
+      "Compare hand-drawn animation, stop motion, and digital animation in simple spoken English.",
+      "Give an example of body language that shows confidence, fear, or surprise.",
+      "Explain in your own words why drawings can seem alive on screen."
+    ]
+  },
+  "coverage": {
+    "requiredLabels": [],
+    "requiredChains": []
+  }
+}
