@@ -4,44 +4,54 @@
   "domainProfile": "technical",
   "coreConcepts": [
     {
-      "term": "risk",
-      "definition": "Risk is what could go wrong when the buyer changes or chooses a solution.",
-      "whyItMatters": "A good seller names risk clearly instead of pretending it does not exist."
-    },
-    {
-      "term": "stakes",
-      "definition": "stakes is a specific concept from Greek Mythology as a Cultural System; explain it by connecting it to the evidence and main question in the lesson.",
-      "whyItMatters": "It matters because the learner should use stakes to reason through the source material, not only memorize the word."
-    },
-    {
-      "term": "function",
-      "definition": "function is a specific concept from Greek Mythology as a Cultural System; explain it by connecting it to the evidence and main question in the lesson.",
-      "whyItMatters": "It matters because the learner should use function to reason through the source material, not only memorize the word."
-    },
-    {
-      "term": "form",
-      "definition": "form is a specific concept from Greek Mythology as a Cultural System; explain it by connecting it to the evidence and main question in the lesson.",
-      "whyItMatters": "It matters because the learner should use form to reason through the source material, not only memorize the word."
-    },
-    {
       "term": "oral tradition",
       "definition": "Oral tradition means stories, songs, and explanations passed by speaking before they were fixed in writing.",
-      "whyItMatters": "It matters because Greek myths changed through performance before poets and later writers preserved versions of them."
+      "whyItMatters": "It explains why one Greek myth could have more than one serious version in different places."
     },
     {
       "term": "source tradition",
-      "definition": "Source tradition means the chain of ancient texts, performances, and later summaries that preserve a myth.",
-      "whyItMatters": "It helps learners understand why one myth can have more than one serious version."
+      "definition": "Source tradition means the chain of ancient poems, hymns, performances, and later summaries that preserve a myth.",
+      "whyItMatters": "It helps learners ask which version of a myth they are reading, not only what happened in the plot."
+    },
+    {
+      "term": "ritual practice",
+      "definition": "Ritual practice means repeated religious actions such as offerings, festivals, prayers, or visits to sacred places.",
+      "whyItMatters": "It connects myths with real public religion, including places such as Eleusis and Delphi."
     },
     {
       "term": "pantheon",
       "definition": "A pantheon is the full group of gods worshipped in a religious culture.",
-      "whyItMatters": "It helps learners see Greek myth as a system of divine roles, not only separate stories."
+      "whyItMatters": "It lets learners see Zeus, Demeter, Hades, Athena, and other gods as a system of powers and roles."
     },
     {
       "term": "polytheism",
-      "definition": "Polytheism means belief in many gods, each with different powers and social meanings.",
-      "whyItMatters": "It explains why Greek myth connects weather, war, love, craft, harvest, and death to different divine figures."
+      "definition": "Polytheism means belief in many gods, often with different powers, personalities, and social meanings.",
+      "whyItMatters": "It explains why Greek myth can connect weather, farming, war, wisdom, death, family, and public life."
+    },
+    {
+      "term": "seasonal cycle",
+      "definition": "Seasonal cycle means the repeated pattern of growth, harvest, loss, barrenness, and return.",
+      "whyItMatters": "It makes the Persephone and Demeter myth both a family story and an explanation of agricultural change."
+    },
+    {
+      "term": "nostos",
+      "definition": "Nostos means homecoming, especially the difficult return after war or danger.",
+      "whyItMatters": "It helps explain why Odysseus is not only travelling, but testing identity, patience, and survival."
+    },
+    {
+      "term": "hubris",
+      "definition": "Hubris means dangerous overconfidence or overreach that ignores human limits.",
+      "whyItMatters": "It gives learners a precise word for the warning pattern in many Greek hero stories."
+    },
+    {
+      "term": "civic identity",
+      "definition": "Civic identity means how a city or community understands itself through shared names, heroes, places, and memories.",
+      "whyItMatters": "It explains why stories such as Theseus or the Trojan War could help communities imagine a shared past."
+    },
+    {
+      "term": "modern retelling",
+      "definition": "A modern retelling is a new version of an old myth made for a later audience, medium, or question.",
+      "whyItMatters": "It shows why Greek myths still appear in books, films, games, and classrooms today."
     }
   ],
   "connectionMap": [
@@ -49,82 +59,103 @@
       "label": "Myth function chain",
       "chain": [
         "oral tradition",
+        "source tradition",
         "ritual practice",
         "civic identity",
         "modern retelling"
       ],
-      "explanation": "A myth can move from spoken tradition into public ritual, community identity, and later cultural reuse."
+      "explanation": "A myth can move from spoken performance into written sources, public worship, shared memory, and later cultural reuse."
     },
     {
-      "label": "Interpretation chain",
+      "label": "Persephone interpretation chain",
       "chain": [
-        "source version",
-        "symbolic meaning",
-        "human question",
-        "discussion"
+        "family loss",
+        "seasonal cycle",
+        "ritual practice",
+        "human meaning"
       ],
-      "explanation": "A learner first checks the source version, then explains the symbol, the human issue, and a possible interpretation."
+      "explanation": "The Persephone myth links grief, farming, religious practice, and a pattern of loss and return."
+    },
+    {
+      "label": "Hero pattern chain",
+      "chain": [
+        "heroic task",
+        "human limit",
+        "hubris",
+        "suffering",
+        "reflection"
+      ],
+      "explanation": "Hero stories become more than adventures when strength, pride, pain, and responsibility are connected."
     }
   ],
   "miniCaseStudy": {
-    "scenario": "A learner explains why a Greek myth is not only an adventure story, but also a clue about ritual, power, and identity.",
-    "analysis": "The learner connects the ancient source, the social function, the symbol, and one modern retelling.",
-    "takeaway": "A strong myth explanation shows what the story did for people, not only what happened in the plot."
+    "scenario": "A learner explains why the Persephone myth is not only a dramatic story about a daughter and mother.",
+    "analysis": "The learner connects source tradition, seasonal cycle, ritual practice, and human grief.",
+    "takeaway": "A strong mythology explanation shows what the story did for people, not only what happened in the plot."
   },
   "trackingChecklist": [
     {
       "day": 1,
-      "focus": "risk",
-      "note": "Write one short example from the lesson."
+      "focus": "oral tradition",
+      "note": "Explain why myths can have different versions."
     },
     {
       "day": 2,
-      "focus": "stakes",
-      "note": "Write one short example from the lesson."
+      "focus": "source tradition",
+      "note": "Name one ancient source or kind of source from the lesson."
     },
     {
       "day": 3,
-      "focus": "function",
-      "note": "Write one short example from the lesson."
+      "focus": "ritual practice",
+      "note": "Connect one myth to worship or a sacred place."
     },
     {
       "day": 4,
-      "focus": "form",
-      "note": "Write one short example from the lesson."
+      "focus": "pantheon",
+      "note": "Group three gods by role or power."
     },
     {
       "day": 5,
-      "focus": "oral tradition",
-      "note": "Write one short example from the lesson."
+      "focus": "seasonal cycle",
+      "note": "Explain the Persephone myth as nature plus emotion."
     },
     {
       "day": 6,
-      "focus": "source tradition",
-      "note": "Write one short example from the lesson."
+      "focus": "nostos",
+      "note": "Use Odysseus to explain homecoming."
     },
     {
       "day": 7,
-      "focus": "pantheon",
-      "note": "Write one short example from the lesson."
+      "focus": "hubris",
+      "note": "Give one example of power going too far."
     }
   ],
   "practice": {
     "comprehension": [
-      "How does risk help explain what Greek myth did in ancient society?",
-      "How does stakes help explain what Greek myth did in ancient society?",
-      "How does function help explain what Greek myth did in ancient society?"
+      "Why does oral tradition help explain different versions of Greek myths?",
+      "How does ritual practice make myth part of public life?",
+      "Why is the Persephone myth connected to the seasonal cycle?"
     ],
     "discussion": [
-      "Which is more interesting in myth: risk, ritual practice, or modern retelling? Why?",
-      "Which is more interesting in myth: stakes, ritual practice, or modern retelling? Why?"
+      "Which concept is most useful for explaining Greek mythology: oral tradition, ritual practice, or civic identity? Why?",
+      "Why do stories about homecoming, pride, and loss still feel modern?"
     ],
     "speaking": [
-      "Explain risk with one myth or ancient source from the lesson.",
-      "Explain stakes with one myth or ancient source from the lesson."
+      "Explain pantheon with two gods from the lesson.",
+      "Explain hubris with one hero pattern from the lesson.",
+      "Explain modern retelling with one example from books, films, games, or school."
     ]
   },
   "coverage": {
-    "requiredLabels": [],
-    "requiredChains": []
+    "requiredLabels": [
+      "Myth function chain",
+      "Persephone interpretation chain",
+      "Hero pattern chain"
+    ],
+    "requiredChains": [
+      "oral tradition -> source tradition -> ritual practice -> civic identity -> modern retelling",
+      "family loss -> seasonal cycle -> ritual practice -> human meaning",
+      "heroic task -> human limit -> hubris -> suffering -> reflection"
+    ]
   }
 }
