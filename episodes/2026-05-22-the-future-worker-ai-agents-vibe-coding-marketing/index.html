@@ -284,6 +284,7 @@ const nextLessonOptionsJson = "{\"A1\":{\"cefr\":\"A1\",\"href\":\"/episodes/202
         flushActiveSeconds();
       };
 
+      const transcriptRoot = document.querySelector("[data-transcript-root]");
       const nativeAudio = document.querySelector(".audio-player audio");
       const isStudyAudioClipPlayback = () => (
         nativeAudio?.dataset?.studyAudioClip === "true"
