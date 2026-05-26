@@ -550,7 +550,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became what it is today by following a clear path from ancient cold treats to modern factories and global cafés.",
+        "sentence": "In ancient Rome, people used honey, fruit juice, and snow in luxury drinks.",
         "contextMeaning": "Here, \"ancient\" means very old or from long ago",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -1726,7 +1726,7 @@
       },
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "So before we begin, keep this question in mind: Comprehension Question: Discussion Question: What do you think is the main reason gelato feels rich in flavor?",
+        "sentence": "So before we begin, keep this question in mind: In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
         "contextMeaning": "Here, \"begin\" means to start",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -3844,6 +3844,29 @@
       }
     ]
   },
+  "churned": {
+    "word": "churned",
+    "definition": "To mix while freezing to make a smooth texture",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "It is churned with less air.",
+        "contextMeaning": "Here, \"churned\" means to mix while freezing to make a smooth texture",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "cinema": {
     "word": "cinema",
     "definition": "A place to watch movies",
@@ -4548,29 +4571,6 @@
         "sentence": "In this story, you will hear how one cafe uses coffee, fruit, and an old home to create that feeling.",
         "contextMeaning": "Here, \"coffee\" means a dark, hot drink made from beans, served in the cafe",
         "source": "episode-supported",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "cold": {
-    "word": "cold",
-    "definition": "Low in temperature",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became what it is today by following a clear path from ancient cold treats to modern factories and global cafés.",
-        "contextMeaning": "Here, \"cold\" means low in temperature",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -5621,6 +5621,52 @@
       }
     ]
   },
+  "craftsman": {
+    "word": "craftsman",
+    "definition": "A person skilled at making things by hand",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "One important person was Francesco Procopio dei Coltelli, a Sicilian craftsman who opened Café Procope in Paris in 1686.",
+        "contextMeaning": "Here, \"craftsman\" means a person skilled at making things by hand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "creamier": {
+    "word": "creamier",
+    "definition": "More smooth, soft, and rich like cream",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "This made the result closer to what modern learners recognize as gelato: smoother and creamier.",
+        "contextMeaning": "Here, \"creamier\" means more smooth, soft, and rich like cream",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "creatures": {
     "word": "creatures",
     "definition": "Living things or animals, often in stories",
@@ -5783,7 +5829,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "## Part 3: Sicily and Cultural Exchange Sicily played a practical role in the story of gelato as a Mediterranean connection point.",
+        "sentence": "Final Open Question: Why can a simple food like gelato become part of cultural identity while still changing in new places?",
         "contextMeaning": "Here, \"cultural\" means about how people live and think",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -5809,29 +5855,6 @@
         "sentence": "In many Silk Road cities, people became culturally mixed.",
         "contextMeaning": "Here, \"culturally\" means in a way that involves the mix of different people's customs and ideas",
         "source": "episode-supported",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "cultures": {
-    "word": "cultures",
-    "definition": "The ideas and way of life of a group",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "At the same time, local cultures added their own choices.",
-        "contextMeaning": "Here, \"cultures\" means the ideas and way of life of a group",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -6334,6 +6357,29 @@
       }
     ]
   },
+  "denser": {
+    "word": "denser",
+    "definition": "Thicker or heavier, with less air inside",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "It has a denser texture.",
+        "contextMeaning": "Here, \"denser\" means thicker or heavier, with less air inside",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "describe": {
     "word": "describe",
     "definition": "Say what something is like",
@@ -6384,7 +6430,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -6399,6 +6446,13 @@
         "sentence": "The visitor orders an iced coffee and a peach dessert.",
         "contextMeaning": "Here, \"dessert\" means a sweet dish, like cake or fruit, eaten after a meal",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Gelato is a specific style of frozen dessert with three practical traits: 1.",
+        "contextMeaning": "Here, \"dessert\" means sweet food eaten after a meal",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -6415,7 +6469,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -6430,6 +6485,13 @@
         "sentence": "The menu also has fruit desserts.",
         "contextMeaning": "Here, \"desserts\" means sweet foods made with fruit, eaten after the main food",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Long before gelato, people already used natural ice and snow to cool sweet drinks and desserts.",
+        "contextMeaning": "Here, \"desserts\" means sweet foods eaten after a meal",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -7922,20 +7984,12 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Every human must face it one day, even a king.",
-        "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "Answer Help: - Even without modern storage, people used mountains and ice houses to keep cold food refreshing and social.",
         "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -9040,8 +9094,7 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
     ],
     "contexts": [
       {
@@ -9105,13 +9158,6 @@
         "sentence": "That is why the Silk Road still feels important today.",
         "contextMeaning": "Here, \"feels\" means it seems or is still important today",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "So before we begin, keep this question in mind: Comprehension Question: Discussion Question: What do you think is the main reason gelato feels rich in flavor?",
-        "contextMeaning": "Here, \"feels\" means to notice something in your body or emotions",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -9750,8 +9796,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
     ],
     "contexts": [
       {
@@ -9766,13 +9811,6 @@
         "sentence": "Farmers grow food on rich land, and fishing towns bring in seafood from the coast.",
         "contextMeaning": "Here, \"food\" means things that are grown on the land for people to eat",
         "source": "episode-supported",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "Why do you think people care about where food comes from, not only how it tastes?",
-        "contextMeaning": "Here, \"food\" means things people eat",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -10098,6 +10136,29 @@
       }
     ]
   },
+  "frozen": {
+    "word": "frozen",
+    "definition": "Made very cold until it becomes hard or icy",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Gelato is a specific style of frozen dessert with three practical traits: 1.",
+        "contextMeaning": "Here, \"frozen\" means made very cold until it becomes hard or icy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "fruit": {
     "word": "fruit",
     "definition": "Sweet food that grows on trees",
@@ -10303,7 +10364,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -10311,6 +10373,13 @@
         "sentence": "Its strawberry parfaits and gelato feel fresh and seasonal.",
         "contextMeaning": "Here, \"gelato\" means a type of Italian ice cream that is very cold and sweet",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "When you hear \"gelato,\" what image comes to your mind first?",
+        "contextMeaning": "Here, \"gelato\" means an Italian-style frozen dessert",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -11373,7 +11442,6 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
@@ -11396,13 +11464,6 @@
         "sentence": "For example, AI can write text, answer questions, study patterns, and help people plan work.",
         "contextMeaning": "Here, \"help\" means to make it easier for people to do their jobs",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "Answer Help: - You can say: \"Less air means the flavor is packed into each scoop, so every bite feels thicker.\" ## Part 2: Ancient Frozen Desserts in Rome, Persia, and China Long before gelato, people already used natural ice and snow to cool sweet drinks and desserts.",
-        "contextMeaning": "Here, \"help\" means to make something easier for someone",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -11628,29 +11689,6 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system"
     ],
     "contexts": []
-  },
-  "history": {
-    "word": "history",
-    "definition": "Things that happened in the past",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became what it is today by following a clear path from ancient cold treats to modern factories and global cafés.",
-        "contextMeaning": "Here, \"history\" means things that happened in the past",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      }
-    ]
   },
   "holding": {
     "word": "holding",
@@ -12676,7 +12714,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -12684,6 +12723,13 @@
         "sentence": "Because both are nearby, cooks in Skåne can use ingredients from field and sea on the same plate.",
         "contextMeaning": "Here, \"ingredients\" means the food items that cooks use from the land and the sea",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In China, historical sources also mention crushed ice with sweet ingredients.",
+        "contextMeaning": "Here, \"ingredients\" means things used to make food",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -13375,7 +13421,7 @@
       },
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "So before we begin, keep this question in mind: Comprehension Question: Discussion Question: What do you think is the main reason gelato feels rich in flavor?",
+        "sentence": "So before we begin, keep this question in mind: In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
         "contextMeaning": "Here, \"keep\" means to continue to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -13547,17 +13593,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "Discussion Question: Why would a court kitchen support this kind of food experimentation?",
-        "contextMeaning": "Here, \"kitchen\" means the room where food is made",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "It may supply city gas, sell electricity, support kitchen and hot-water equipment, inspect safety, repair equipment, give energy-saving advice, and help companies design better energy systems.",
@@ -14017,29 +14055,6 @@
       "episode-2026-05-21-a2-apartment-repair-call"
     ],
     "contexts": []
-  },
-  "learn": {
-    "word": "learn",
-    "definition": "To get knowledge or skill",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became what it is today by following a clear path from ancient cold treats to modern factories and global cafés.",
-        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      }
-    ]
   },
   "learners": {
     "word": "learners",
@@ -14690,29 +14705,6 @@
         "sentence": "That location matters every day.",
         "contextMeaning": "Here, \"location\" means the exact place where something is",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "long": {
-    "word": "long",
-    "definition": "Not short",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "Answer Help: - You can say: \"Less air means the flavor is packed into each scoop, so every bite feels thicker.\" ## Part 2: Ancient Frozen Desserts in Rome, Persia, and China Long before gelato, people already used natural ice and snow to cool sweet drinks and desserts.",
-        "contextMeaning": "Here, \"long\" means not short",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -15425,6 +15417,29 @@
       }
     ]
   },
+  "matcha": {
+    "word": "matcha",
+    "definition": "Japanese powdered green tea",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruit became normal options.",
+        "contextMeaning": "Here, \"matcha\" means japanese powdered green tea",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "material": {
     "word": "material",
     "definition": "Things you need for a job or task",
@@ -15946,6 +15961,29 @@
       }
     ]
   },
+  "migration": {
+    "word": "migration",
+    "definition": "Movement of people from one place to another",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In the 20th and 21st centuries, gelato spread through travel, restaurants, and migration.",
+        "contextMeaning": "Here, \"migration\" means movement of people from one place to another",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "mild": {
     "word": "mild",
     "definition": "Not very strong or serious",
@@ -16003,6 +16041,29 @@
         "sentence": "Keep that in mind as we go.",
         "contextMeaning": "Here, \"mind\" means remember this idea as we continue",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "minus": {
+    "word": "minus",
+    "definition": "Below zero on a number scale",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "It is usually served warmer than many ice creams, around minus 12 to minus 14 degrees Celsius.",
+        "contextMeaning": "Here, \"minus\" means below zero on a number scale",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -16110,29 +16171,6 @@
         "sentence": "At the event, Honda showed two early hybrid models.",
         "contextMeaning": "Here, \"models\" means different types or versions of cars",
         "source": "episode-supported",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "modern": {
-    "word": "modern",
-    "definition": "New and current in style or method",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became what it is today by following a clear path from ancient cold treats to modern factories and global cafés.",
-        "contextMeaning": "Here, \"modern\" means new and current in style or method",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -18776,7 +18814,7 @@
       },
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "## Introduction ## Introduction Many people say gelato is \"Italian ice cream.\" That phrase is partly true but incomplete.",
+        "sentence": "Many people say gelato is \"Italian ice cream.\" That phrase is partly true but incomplete.",
         "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -20859,6 +20897,29 @@
       }
     ]
   },
+  "recipes": {
+    "word": "recipes",
+    "definition": "Instructions for making food",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In this period, recipes shifted to more dairy-based mixtures using milk, sugar, eggs, and flavorings.",
+        "contextMeaning": "Here, \"recipes\" means recipes are ways of making frozen desserts in different places and times",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "reckless": {
     "word": "reckless",
     "definition": "Not thinking about danger, doing silly things",
@@ -21329,7 +21390,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "## Part 7: Gelato Around the World In the 20th and 21st centuries, gelato spread through travel, restaurants, and migration.",
+        "sentence": "In the 20th and 21st centuries, gelato spread through travel, restaurants, and migration.",
         "contextMeaning": "Here, \"restaurants\" means a place where people buy and eat meals",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -23853,8 +23914,7 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
     ],
     "contexts": [
       {
@@ -23911,13 +23971,6 @@
         "sentence": "He opens a box of silk and tea and asks, “Where will this go?” That simple question opens a much bigger story.",
         "contextMeaning": "Here, \"simple\" means the question is not complicated",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "Can a simple food explain wider culture and trade history?",
-        "contextMeaning": "Here, \"simple\" means easy to understand or do",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -24254,6 +24307,29 @@
       }
     ]
   },
+  "smoother": {
+    "word": "smoother",
+    "definition": "More soft and even, without rough pieces",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "This made the result closer to what modern learners recognize as gelato: smoother and creamier.",
+        "contextMeaning": "Here, \"smoother\" means more soft and even, without rough pieces",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "snack": {
     "word": "snack",
     "definition": "A small amount of food eaten between meals",
@@ -24350,29 +24426,6 @@
         "sentence": "The area has traditional soba, heavy pasta dishes, healthy fish, and quiet cafes.",
         "contextMeaning": "Here, \"soba\" means a type of Japanese noodle",
         "source": "episode-supported",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "social": {
-    "word": "social",
-    "definition": "About people and how they connect with each other",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "Answer Help: - Even without modern storage, people used mountains and ice houses to keep cold food refreshing and social.",
-        "contextMeaning": "Here, \"social\" means about people and how they connect with each other",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -26844,6 +26897,29 @@
       }
     ]
   },
+  "texture": {
+    "word": "texture",
+    "definition": "How something feels in your mouth or hand",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "It has a denser texture.",
+        "contextMeaning": "Here, \"texture\" means how something feels in your mouth or hand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "than": {
     "word": "than",
     "definition": "Used to compare two things",
@@ -27342,8 +27418,7 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
     ],
     "contexts": [
       {
@@ -27407,13 +27482,6 @@
         "sentence": "Today’s story is about OpenAI, Elon Musk, Sam Altman, and a legal case in California.",
         "contextMeaning": "Here, \"today\" means happening or relating to this current day",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became what it is today by following a clear path from ancient cold treats to modern factories and global cafés.",
-        "contextMeaning": "Here, \"today\" means this day",
-        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -30314,7 +30382,7 @@
       },
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
+        "sentence": "So before we begin, keep this question in mind: In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
         "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -30542,8 +30610,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
     ],
     "contexts": [
       {
@@ -30556,13 +30623,6 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He challenged the order of the world.",
-        "contextMeaning": "Here, \"world\" means all the people and places on Earth",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-26-the-history-of-gelato",
-        "sentence": "## Part 7: Gelato Around the World In the 20th and 21st centuries, gelato spread through travel, restaurants, and migration.",
         "contextMeaning": "Here, \"world\" means all the people and places on Earth",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -30845,6 +30905,29 @@
         "sentence": "Near the start of one busy lunch service, a young chef in Malmö tasted a spoon of sauce and stopped.",
         "contextMeaning": "Here, \"young\" means a chef who is not old",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "yuzu": {
+    "word": "yuzu",
+    "definition": "A Japanese citrus fruit",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruit became normal options.",
+        "contextMeaning": "Here, \"yuzu\" means a Japanese citrus fruit",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
