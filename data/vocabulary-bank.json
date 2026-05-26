@@ -545,12 +545,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "In ancient Rome, people used honey, fruit juice, and snow in luxury drinks.",
+        "contextMeaning": "Here, \"ancient\" means very old or from long ago",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
         "contextMeaning": "Here, \"ancient\" means very old or from long ago",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -1084,7 +1092,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -1104,6 +1113,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
+        "contextMeaning": "Here, \"ask\" means to say a question or request",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They ask a harder question: what happens when a human being has more power, passion, or fame than ordinary life can safely contain?",
         "contextMeaning": "Here, \"ask\" means to say a question or request",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -2870,6 +2886,29 @@
       }
     ]
   },
+  "call": {
+    "word": "call",
+    "definition": "To phone or give a name to someone or something",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
+        "contextMeaning": "Here, \"call\" means to phone or give a name to someone or something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "called": {
     "word": "called",
     "definition": "Named or known as",
@@ -3262,6 +3301,29 @@
       }
     ]
   },
+  "carry": {
+    "word": "carry",
+    "definition": "To hold and take something somewhere",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
+        "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "cars": {
     "word": "cars",
     "definition": "Vehicles people use to travel",
@@ -3508,6 +3570,29 @@
       }
     ]
   },
+  "chaos": {
+    "word": "chaos",
+    "definition": "Disorder or confusion",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They often represent chaos, violence, or a world outside human order.",
+        "contextMeaning": "Here, \"chaos\" means the dangerous world that monsters often represent",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "character": {
     "word": "character",
     "definition": "A person in a story or game",
@@ -3725,7 +3810,8 @@
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -3748,6 +3834,13 @@
         "contextMeaning": "Here, \"choice\" means the act of picking one thing from many options",
         "source": "episode-supported",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "His family tries to avoid fate, yet each choice brings the feared result closer.",
+        "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -3762,12 +3855,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "At the same time, local cultures added their own choices.",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Theseus defeats the Minotaur, but he also makes careless choices that hurt people close to him.",
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -3788,7 +3889,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -3815,6 +3917,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He cannot choose his punishment, and he cannot finish the job.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They can suffer, choose badly, and die.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -3901,7 +4010,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -3909,6 +4019,13 @@
         "sentence": "These beliefs spread because travelers met people in cities and rest stops.",
         "contextMeaning": "Here, \"cities\" means large towns where travelers met people and traded goods",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Greatness can save others, but it can also break families, cities, and the hero's own life.",
+        "contextMeaning": "Here, \"cities\" means a large town where many people live",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -3927,7 +4044,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -3956,6 +4074,13 @@
         "sentence": "Imagine a trader in Xi’an, the old Chinese city where many journeys began.",
         "contextMeaning": "Here, \"city\" means a very big town in China where journeys started",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
+        "contextMeaning": "Here, \"city\" means a large town where many people live",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -4141,6 +4266,29 @@
         "sentence": "Because it is warmer and denser, each bite carries a clearer flavor signal.",
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "clearly": {
+    "word": "clearly",
+    "definition": "In an easy way to understand",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A modern hero is often expected to be kind, selfless, and clearly good.",
+        "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -4758,6 +4906,75 @@
       }
     ]
   },
+  "common": {
+    "word": "common",
+    "definition": "Happening often or seen often",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A common weakness is hubris, excessive pride that makes a person forget human limits and act as if they are equal to the gods.",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "communities": {
+    "word": "communities",
+    "definition": "A group of people living or working together",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Some communities honored them almost like powerful ancestors or local spirits.",
+        "contextMeaning": "Here, \"communities\" means a group of people living or working together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "community": {
+    "word": "community",
+    "definition": "A group of people living or working together",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A hero story explained where a community came from and what human beings should fear, admire, or question.",
+        "contextMeaning": "Here, \"community\" means a group of people living or working together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "companies": {
     "word": "companies",
     "definition": "Groups of people working together",
@@ -5203,7 +5420,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -5211,6 +5429,13 @@
         "sentence": "Employees must think about pipe maintenance, meter information, supply control, construction, emergency response, and safety inspections.",
         "contextMeaning": "Here, \"control\" means to manage or guide something carefully",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Greek myths also ask how much control humans really have.",
+        "contextMeaning": "Here, \"control\" means power to direct or manage something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -5667,6 +5892,29 @@
       }
     ]
   },
+  "creates": {
+    "word": "creates",
+    "definition": "To make something new",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The hero is exceptional, but exceptional power creates danger.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "creatures": {
     "word": "creatures",
     "definition": "Living things or animals, often in stories",
@@ -5855,6 +6103,29 @@
         "sentence": "In many Silk Road cities, people became culturally mixed.",
         "contextMeaning": "Here, \"culturally\" means in a way that involves the mix of different people's customs and ideas",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "culture": {
+    "word": "culture",
+    "definition": "The ideas and way of life of a group",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The Iliad and the Odyssey gave Greek culture deep examples of glory, anger, war, suffering, and return.",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -6115,12 +6386,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Adults used them to talk about pride, death, punishment, courage, and human problems.",
+        "contextMeaning": "Here, \"death\" means the end of life",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "One of the most important Greek ideas is kleos, glory or fame that lives after death.",
         "contextMeaning": "Here, \"death\" means the end of life",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -6595,7 +6874,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -6622,6 +6902,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The exact company matters because the daily work can be very different.",
+        "contextMeaning": "Here, \"different\" means not the same",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A Greek hero is different.",
         "contextMeaning": "Here, \"different\" means not the same",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -6946,7 +7233,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer"
+      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -6954,6 +7242,13 @@
         "sentence": "At Delphi, people went to ask for divine advice.",
         "contextMeaning": "Here, \"divine\" means advice that comes from gods or is god-like",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
+        "contextMeaning": "Here, \"divine\" means many heroes are close to gods but are not gods",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -7858,6 +8153,29 @@
       }
     ]
   },
+  "enough": {
+    "word": "enough",
+    "definition": "Not as much as needed",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
+        "contextMeaning": "Here, \"enough\" means not as much as needed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "enrich": {
     "word": "enrich",
     "definition": "To make someone richer or better",
@@ -8609,6 +8927,29 @@
     ],
     "contexts": []
   },
+  "families": {
+    "word": "families",
+    "definition": "The people related to you",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Greatness can save others, but it can also break families, cities, and the hero's own life.",
+        "contextMeaning": "Here, \"families\" means the people related to you",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "family": {
     "word": "family",
     "definition": "People who live together and love each other",
@@ -8622,7 +8963,8 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -8645,6 +8987,13 @@
         "contextMeaning": "Here, \"family\" means a car suitable for a mother, father, and children",
         "source": "episode-supported",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
+        "contextMeaning": "Here, \"family\" means the people related to you",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -8661,7 +9010,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -8681,6 +9031,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He was famous because he was very clever.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A story could also change because each city wanted to connect a famous hero to its own tombs, temples, families, or local history.",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -8814,13 +9171,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "For a short time, he escaped his fate, or his future that seemed decided.",
         "contextMeaning": "Here, \"fate\" means death is the fate Sisyphus tries to avoid",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
+        "contextMeaning": "Here, \"fate\" means a force that limits what humans can control",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -10190,6 +10555,29 @@
       }
     ]
   },
+  "full": {
+    "word": "full",
+    "definition": "Having no empty space left",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The darker idea is that humans choose without understanding the full meaning of their choices.",
+        "contextMeaning": "Here, \"full\" means having no empty space left",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "future": {
     "word": "future",
     "definition": "The time that will come after now",
@@ -10204,7 +10592,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -10231,6 +10620,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
+        "contextMeaning": "Here, \"future\" means the time after now",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Achilles does not only want to live; he wants his life to mean something so great that future generations will speak his name.",
         "contextMeaning": "Here, \"future\" means the time after now",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -10522,6 +10918,29 @@
       }
     ]
   },
+  "glory": {
+    "word": "glory",
+    "definition": "Fame and honor",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The Iliad and the Odyssey gave Greek culture deep examples of glory, anger, war, suffering, and return.",
+        "contextMeaning": "Here, \"glory\" means kleos, the memory that survives after death",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "go": {
     "word": "go",
     "definition": "To move from one place to another",
@@ -10702,6 +11121,29 @@
         "sentence": "Yamanashi is famous across Japan for fruit, especially peaches and grapes, so the sweets change with the season.",
         "contextMeaning": "Here, \"grapes\" means small, round fruits that grow on a vine, often eaten or made into juice",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "great": {
+    "word": "great",
+    "definition": "Very good",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Achilles' passion makes him great in battle, but the same passion makes him destructive.",
+        "contextMeaning": "Here, \"great\" means very good",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -11254,7 +11696,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -11267,6 +11710,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "When you hear \"gelato,\" what image comes to your mind first?",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "When you hear the word hero, do you imagine a good person, a brave person, or a powerful person?",
         "contextMeaning": "Here, \"hear\" means listening to sounds or words",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -11442,7 +11892,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -11471,6 +11922,13 @@
         "sentence": "It may supply city gas, sell electricity, support kitchen and hot-water equipment, inspect safety, repair equipment, give energy-saving advice, and help companies design better energy systems.",
         "contextMeaning": "Here, \"help\" means to make remembering easier",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "People try to escape them, but their actions often help the prophecy come true.",
+        "contextMeaning": "Here, \"help\" means to make something easier for someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -11514,6 +11972,29 @@
       }
     ]
   },
+  "helpers": {
+    "word": "helpers",
+    "definition": "A person or tool that helps",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
+        "contextMeaning": "Here, \"helpers\" means a person or tool that helps",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "helpful": {
     "word": "helpful",
     "definition": "Makes things easier or better",
@@ -11533,6 +12014,29 @@
         "sentence": "That may sound helpful, but it also brings a clear question.",
         "contextMeaning": "Here, \"helpful\" means makes things easier or better for you",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "helps": {
+    "word": "helps",
+    "definition": "To make something easier for someone",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Oedipus' intelligence helps him solve the riddle of the Sphinx, but his certainty pushes him toward a terrible truth.",
+        "contextMeaning": "Here, \"helps\" means to make something easier for someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -11652,6 +12156,29 @@
       }
     ]
   },
+  "heroism": {
+    "word": "heroism",
+    "definition": "Brave or great action",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The first important idea is that Greek heroism is complex.",
+        "contextMeaning": "Here, \"heroism\" means the complicated power and danger of being a hero",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "herring": {
     "word": "herring",
     "definition": "A small, shiny fish that swims in the sea",
@@ -11689,6 +12216,29 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system"
     ],
     "contexts": []
+  },
+  "history": {
+    "word": "history",
+    "definition": "Things that happened in the past",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A story could also change because each city wanted to connect a famous hero to its own tombs, temples, families, or local history.",
+        "contextMeaning": "Here, \"history\" means things that happened in the past",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "holding": {
     "word": "holding",
@@ -11736,6 +12286,29 @@
       }
     ]
   },
+  "home": {
+    "word": "home",
+    "definition": "The place where you live",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Why do so many old stories send the main character away from home?",
+        "contextMeaning": "Here, \"home\" means the place where you live",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "homecoming": {
     "word": "homecoming",
     "definition": "The journey back home after a long time",
@@ -11748,7 +12321,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea"
+      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -11763,6 +12337,13 @@
         "sentence": "Nostos means homecoming, especially a long return after war.",
         "contextMeaning": "Here, \"homecoming\" means the act of returning home, especially after a long absence or journey",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Another key idea is nostos, homecoming.",
+        "contextMeaning": "Here, \"homecoming\" means nostos, the hard return to ordinary human life",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -11978,7 +12559,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer"
+      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -11986,6 +12568,13 @@
         "sentence": "A key idea here is hubris, which means proud overreach.",
         "contextMeaning": "Here, \"hubris\" means too much pride, often leading someone to ignore limits and invite trouble",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A common weakness is hubris, excessive pride that makes a person forget human limits and act as if they are equal to the gods.",
+        "contextMeaning": "Here, \"hubris\" means pride that forgets human limits",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -12026,7 +12615,8 @@
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -12046,6 +12636,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "These examples show a shared human idea: people wanted a cold sweet option in warm weather, especially during celebrations.",
+        "contextMeaning": "Here, \"human\" means a person",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
         "contextMeaning": "Here, \"human\" means a person",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -12187,7 +12784,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -12252,6 +12850,13 @@
         "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The first important idea is that Greek heroism is complex.",
+        "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -12268,7 +12873,8 @@
     "episodes": [
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -12291,6 +12897,13 @@
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "One of the most important Greek ideas is kleos, glory or fame that lives after death.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -12307,7 +12920,8 @@
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-21-a2-bank-card-problem",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -12320,6 +12934,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Final Open Question: Why can a simple food like gelato become part of cultural identity while still changing in new places?",
+        "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "It was memory, religion, local identity, and moral thinking at the same time.",
         "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -12501,7 +13122,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -12523,6 +13145,13 @@
         "sentence": "That early mission is now very important in court.",
         "contextMeaning": "Here, \"important\" means something that has great meaning or value",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The first important idea is that Greek heroism is complex.",
+        "contextMeaning": "Here, \"important\" means having strong value or meaning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -13674,6 +14303,29 @@
       }
     ]
   },
+  "labor": {
+    "word": "labor",
+    "definition": "Hard jobs or difficult tasks",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Heracles has superhuman strength, but his life is marked by guilt, labor, and pain.",
+        "contextMeaning": "Here, \"labor\" means hard jobs or difficult tasks",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "labors": {
     "word": "labors",
     "definition": "Hard jobs or difficult tasks someone must do",
@@ -14136,9 +14788,41 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "People leave childhood, face fear, make difficult choices, and discover who they are.",
+        "contextMeaning": "Here, \"leave\" means to go away from a place",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "leaves": {
+    "word": "leaves",
+    "definition": "To go away from a place",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The hero leaves normal life and enters a dangerous space where ordinary rules no longer work.",
+        "contextMeaning": "Here, \"leaves\" means to go away from a place",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "legal": {
     "word": "legal",
@@ -14320,7 +15004,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -14328,6 +15013,13 @@
         "sentence": "Can this become useful in daily life, or is it still just a cool demo?",
         "contextMeaning": "Here, \"life\" means the way people live their lives every day",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Heracles has superhuman strength, but his life is marked by guilt, labor, and pain.",
+        "contextMeaning": "Here, \"life\" means the time when a person or animal is alive",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -14632,6 +15324,29 @@
       }
     ]
   },
+  "lives": {
+    "word": "lives",
+    "definition": "To have your home in a place or be alive",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The Minotaur lives in the Labyrinth, a hidden place inside civilization.",
+        "contextMeaning": "Here, \"lives\" means to have your home in a place or be alive",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "loads": {
     "word": "loads",
     "definition": "Lots of heavy things",
@@ -14667,7 +15382,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -14682,6 +15398,13 @@
         "sentence": "Some cafes here feel modern, but they also feel deeply local.",
         "contextMeaning": "Here, \"local\" means coming from or belonging to the area around the cafe",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A story could also change because each city wanted to connect a famous hero to its own tombs, temples, families, or local history.",
+        "contextMeaning": "Here, \"local\" means from this area",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -14705,6 +15428,29 @@
         "sentence": "That location matters every day.",
         "contextMeaning": "Here, \"location\" means the exact place where something is",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "long": {
+    "word": "long",
+    "definition": "Not short",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Many began as oral stories, told aloud long before they were written down.",
+        "contextMeaning": "Here, \"long\" means not short",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -15733,7 +16479,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-22-why-does-time-feel-faster-as-we-"
+      "episode-2026-04-22-why-does-time-feel-faster-as-we-",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -15741,6 +16488,13 @@
         "sentence": "Today, we will explore time, attention, memory, and routine in a simple way.",
         "contextMeaning": "Here, \"memory\" means the mind keeping past experiences",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "It was memory, religion, local identity, and moral thinking at the same time.",
+        "contextMeaning": "Here, \"memory\" means a thought from the past that you remember",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -16175,6 +16929,29 @@
       }
     ]
   },
+  "modern": {
+    "word": "modern",
+    "definition": "New and current in style or method",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A Greek hero is not always morally good in the modern sense.",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "moment": {
     "word": "moment",
     "definition": "A very short time, like a little second",
@@ -16556,7 +17333,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer"
+      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -16564,6 +17342,13 @@
         "sentence": "Because of that, the same myth could change from place to place.",
         "contextMeaning": "Here, \"myth\" means this is an old story that could be told in different ways in different places",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "This background matters because myth was not only entertainment.",
+        "contextMeaning": "Here, \"myth\" means an old story that explains something",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -17360,7 +18145,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -17375,6 +18161,13 @@
         "sentence": "Imagine a trader in Xi’an, the old Chinese city where many journeys began.",
         "contextMeaning": "Here, \"old\" means this city existed in the past, not now",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Why do so many old stories send the main character away from home?",
+        "contextMeaning": "Here, \"old\" means having lived for many years",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -17725,6 +18518,21 @@
       }
     ]
   },
+  "oral story": {
+    "word": "oral story",
+    "definition": "A story told aloud",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": []
+  },
   "orchestration": {
     "word": "orchestration",
     "definition": "Coordinating many parts",
@@ -17766,12 +18574,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "How is gelato different from ordinary ice cream in your experience?",
+        "contextMeaning": "Here, \"ordinary\" means normal, not special",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
         "contextMeaning": "Here, \"ordinary\" means normal, not special",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -18555,7 +19371,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -18683,6 +19500,36 @@
         "contextMeaning": "Here, \"people\" means many persons or humans",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
+        "contextMeaning": "Here, \"people\" means many persons or humans",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "perfect": {
+    "word": "perfect",
+    "definition": "Without mistakes or problems",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Greek heroes are impressive, but they are rarely perfect.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -18750,6 +19597,29 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system"
     ],
     "contexts": []
+  },
+  "person": {
+    "word": "person",
+    "definition": "One human being",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "When you hear the word hero, do you imagine a good person, a brave person, or a powerful person?",
+        "contextMeaning": "Here, \"person\" means one human being",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "pharmacy": {
     "word": "pharmacy",
@@ -19016,7 +19886,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -19080,6 +19951,13 @@
         "sentence": "A route is a path people travel from one place to another.",
         "contextMeaning": "Here, \"place\" means a specific location or spot on the earth",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The Minotaur lives in the Labyrinth, a hidden place inside civilization.",
+        "contextMeaning": "Here, \"place\" means a location or area",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -19532,6 +20410,29 @@
       }
     ]
   },
+  "power": {
+    "word": "power",
+    "definition": "Ability to do something or control something",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
+        "contextMeaning": "Here, \"power\" means ability to do something or control something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "practice": {
     "word": "practice",
     "definition": "To do something many times",
@@ -19881,7 +20782,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -19889,6 +20791,13 @@
         "sentence": "Because the team has not found the real problem yet.",
         "contextMeaning": "Here, \"problem\" means a difficulty or issue that needs to be solved",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A problem appears: a monster threatens a city, a king demands an impossible task, a family is cursed, or a prophecy creates fear.",
+        "contextMeaning": "Here, \"problem\" means something difficult that needs a solution",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -19985,6 +20894,29 @@
       }
     ]
   },
+  "prophecy": {
+    "word": "prophecy",
+    "definition": "A message about the future",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A problem appears: a monster threatens a city, a king demands an impossible task, a family is cursed, or a prophecy creates fear.",
+        "contextMeaning": "Here, \"prophecy\" means a prediction that often shapes the hero's choices",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "proportion": {
     "word": "proportion",
     "definition": "The size of one part compared with the whole",
@@ -20050,7 +20982,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -20063,6 +20996,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "When a child gets an internship offer, a parent may feel proud and worried at the same time.",
+        "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Some heroes are proud, violent, selfish, or reckless.",
         "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -20722,7 +21662,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -20808,6 +21749,13 @@
         "contextMeaning": "Here, \"real\" means true, not made up",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "This structure mirrors real experience.",
+        "contextMeaning": "Here, \"real\" means true, not made up",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -20822,7 +21770,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -20830,6 +21779,13 @@
         "sentence": "But this story is really about work, time, and competition.",
         "contextMeaning": "Here, \"really\" means the story is truly or very much about these things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Greek myths also ask how much control humans really have.",
+        "contextMeaning": "Here, \"really\" means truly or very much",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -21439,6 +22395,29 @@
         "sentence": "They use restraints, brakes, and strong rules.",
         "contextMeaning": "Here, \"restraints\" means things used to keep riders safe on the ride",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "result": {
+    "word": "result",
+    "definition": "What happens in the end",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "His family tries to avoid fate, yet each choice brings the feared result closer.",
+        "contextMeaning": "Here, \"result\" means what happens in the end",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -22077,7 +23056,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -22092,6 +23072,13 @@
         "sentence": "They talked about safe AI and the future of powerful technology.",
         "contextMeaning": "Here, \"safe\" means they spoke about AI that is not dangerous",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The hero becomes heroic only by crossing a border between safe life and the unknown.",
+        "contextMeaning": "Here, \"safe\" means free from danger",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -22361,7 +23348,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -22369,6 +23357,13 @@
         "sentence": "Would you let AI read your tabs to save time?",
         "contextMeaning": "Here, \"save\" means to use less time than usual",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
+        "contextMeaning": "Here, \"save\" means to keep something from loss or danger",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -22874,6 +23869,29 @@
       }
     ]
   },
+  "searches": {
+    "word": "searches",
+    "definition": "To look for something",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A special person enters danger, faces chaos, meets inner weakness, suffers a cost, and searches for meaning.",
+        "contextMeaning": "Here, \"searches\" means to look for something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "seasonal": {
     "word": "seasonal",
     "definition": "Food that is best to eat at a certain time of year",
@@ -23131,12 +24149,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Sisyphus was clever, but he often used his clever mind in a selfish way.",
+        "contextMeaning": "Here, \"selfish\" means thinking only about yourself",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Some heroes are proud, violent, selfish, or reckless.",
         "contextMeaning": "Here, \"selfish\" means thinking only about yourself",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -23914,7 +24940,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -23972,6 +24999,13 @@
         "contextMeaning": "Here, \"simple\" means the question is not complicated",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Odysseus needs intelligence and patience more than simple strength to return home.",
+        "contextMeaning": "Here, \"simple\" means easy to understand or do",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -23986,7 +25020,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3"
+      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -23994,6 +25029,13 @@
         "sentence": "Then famous singers come out on stage.",
         "contextMeaning": "Here, \"singers\" means people who sing songs for others to hear",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Singers and poets changed details as they performed, so myths often have different versions.",
+        "contextMeaning": "Here, \"singers\" means a person who sings",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -24588,7 +25630,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -24601,6 +25644,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
+        "contextMeaning": "Here, \"something\" means a thing, idea, or question",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Achilles does not only want to live; he wants his life to mean something so great that future generations will speak his name.",
         "contextMeaning": "Here, \"something\" means a thing, idea, or question",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -24772,7 +25822,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -24780,6 +25831,13 @@
         "sentence": "Eurovision can feel special for new learners.",
         "contextMeaning": "Here, \"special\" means different and important in a good way",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
+        "contextMeaning": "Here, \"special\" means different in a meaningful way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -25461,7 +26519,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -25474,6 +26533,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "The story is part of mythology: old stories about gods, heroes, monsters, and life.",
+        "contextMeaning": "Here, \"stories\" means things people tell about events or ideas",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Why do so many old stories send the main character away from home?",
         "contextMeaning": "Here, \"stories\" means things people tell about events or ideas",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -25530,7 +26596,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -25594,6 +26661,13 @@
         "sentence": "Today’s story is about OpenAI, Elon Musk, Sam Altman, and a legal case in California.",
         "contextMeaning": "Here, \"story\" means an account of events about certain people and a legal matter",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "A story could also change because each city wanted to connect a famous hero to its own tombs, temples, families, or local history.",
+        "contextMeaning": "Here, \"story\" means something told about people or events",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -27247,7 +28321,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -27311,6 +28386,13 @@
         "sentence": "The Silk Road connected distant regions for a very long time.",
         "contextMeaning": "Here, \"time\" means for a very long period, like many years",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Can someone be heroic and dangerous at the same time?",
+        "contextMeaning": "Here, \"time\" means what we measure in minutes, hours, and days",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -27567,7 +28649,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -27580,6 +28663,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "A safe customer visit depends on training, scheduling, tools, records, communication, and emergency rules.",
+        "contextMeaning": "Here, \"tools\" means a tool can be software the AI calls to search, check, write, or publish",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Perseus receives divine tools before facing Medusa.",
         "contextMeaning": "Here, \"tools\" means a tool can be software the AI calls to search, check, write, or publish",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
@@ -27935,6 +29025,29 @@
     ],
     "contexts": []
   },
+  "transformation": {
+    "word": "transformation",
+    "definition": "Deep change",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
+        "contextMeaning": "Here, \"transformation\" means the hero returns changed or cannot return safely",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "travel": {
     "word": "travel",
     "definition": "To go from one place to another",
@@ -27947,7 +29060,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -27962,6 +29076,13 @@
         "sentence": "People often choose it for school runs, work trips, and weekend travel.",
         "contextMeaning": "Here, \"travel\" means to go on a journey, especially to a distant place",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The myth makes that inner process visible as travel, combat, danger, and return.",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -28058,6 +29179,29 @@
       }
     ]
   },
+  "true": {
+    "word": "true",
+    "definition": "Real or happens for sure",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "People try to escape them, but their actions often help the prophecy come true.",
+        "contextMeaning": "Here, \"true\" means people’s actions make the prediction happen for real",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "trust": {
     "word": "trust",
     "definition": "Believe that someone or something is good and safe",
@@ -28123,12 +29267,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He wanted control more than truth.",
+        "contextMeaning": "Here, \"truth\" means what is real or correct",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Oedipus' intelligence helps him solve the riddle of the Sphinx, but his certainty pushes him toward a terrible truth.",
         "contextMeaning": "Here, \"truth\" means what is real or correct",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -30370,7 +31522,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -30383,6 +31536,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "So before we begin, keep this question in mind: In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
+        "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "When you hear the word hero, do you imagine a good person, a brave person, or a powerful person?",
         "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -30452,7 +31612,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -30493,6 +31654,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "When you hear \"gas company,\" what kind of work do you imagine?",
+        "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "The hero leaves normal life and enters a dangerous space where ordinary rules no longer work.",
         "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -30586,12 +31754,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He works hard, but he never wins.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Later, poets such as Homer and Hesiod shaped these older traditions into famous literary works.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -30610,7 +31786,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -30623,6 +31800,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He challenged the order of the world.",
+        "contextMeaning": "Here, \"world\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "They often represent chaos, violence, or a world outside human order.",
         "contextMeaning": "Here, \"world\" means all the people and places on Earth",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -30640,7 +31824,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
@@ -30648,6 +31833,13 @@
         "sentence": "Science fiction means stories about space, future technology, and strange worlds.",
         "contextMeaning": "Here, \"worlds\" means places like planets, perhaps with aliens or different rules",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
+        "sentence": "Many Greek heroes stand between human and divine worlds.",
+        "contextMeaning": "Here, \"worlds\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
