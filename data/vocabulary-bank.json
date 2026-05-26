@@ -450,6 +450,29 @@
     ],
     "contexts": []
   },
+  "alone": {
+    "word": "alone",
+    "definition": "By yourself, without other people",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "What an Intern May Actually See An intern will probably not do dangerous technical work alone.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "altman": {
     "word": "altman",
     "definition": "This is a name",
@@ -507,6 +530,29 @@
         "sentence": "Best Buy, a large American electronics store, lowered the price of Metroid Prime 4: Beyond to $39.99 for the physical Nintendo Switch version.",
         "contextMeaning": "Here, \"american\" means the shop is from the United States",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ancient": {
+    "word": "ancient",
+    "definition": "Very old or from long ago",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became the way it is today by following a clear historical path from ancient ice to modern factories and global cafés.",
+        "contextMeaning": "Here, \"ancient\" means very old or from long ago",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -1037,7 +1083,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -1052,6 +1099,13 @@
         "sentence": "That quick discount made people ask a new question.",
         "contextMeaning": "Here, \"ask\" means to say words to get information about something",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
+        "contextMeaning": "Here, \"ask\" means to say a question or request",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -1659,7 +1713,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -1667,6 +1722,13 @@
         "sentence": "This case did not begin with police, crime scenes, or handcuffs.",
         "contextMeaning": "Here, \"begin\" means this story did not start with police or bad things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "So before we begin, keep this simple question in mind: Comprehension Question: Discussion Question: What do you think is the main reason gelato feels rich in flavor?",
+        "contextMeaning": "Here, \"begin\" means to start",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -1882,6 +1944,29 @@
         "sentence": "Best Buy, a large American electronics store, lowered the price of Metroid Prime 4: Beyond to $39.99 for the physical Nintendo Switch version.",
         "contextMeaning": "Here, \"best\" means the name of a big shop that sells things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "better": {
+    "word": "better",
+    "definition": "More good than before or than something else",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Answer Help: - Courts often had stable food supply, better tools, and strong social reasons to show status through food.",
+        "contextMeaning": "Here, \"better\" means more good than before or than something else",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -2858,7 +2943,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -2866,6 +2952,13 @@
         "sentence": "Do you want a calm local meal, or something bigger and more modern?",
         "contextMeaning": "Here, \"calm\" means a meal that is not too busy or exciting, but simple and local",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "That is why energy work needs rules, training, checklists, calm explanations, and quick response when something seems wrong.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -3080,7 +3173,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -3088,6 +3182,13 @@
         "sentence": "Today we will look at Microsoft’s update, what it can do, and why some people may feel excited while others feel careful.",
         "contextMeaning": "Here, \"careful\" means thinking well about privacy and control",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "So even if the student does not work in gas forever, the internship can teach transferable skills: safety thinking, careful observation, teamwork, customer communication, report writing, and respect for infrastructure.",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -3646,6 +3747,29 @@
         "sentence": "Then you stop and think, which one was the best choice?",
         "contextMeaning": "Here, \"choice\" means the act of picking one thing from many options",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "choices": {
+    "word": "choices",
+    "definition": "The thing you decide to pick",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruits became common local choices.",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -5175,6 +5299,21 @@
       }
     ]
   },
+  "corporate group": {
+    "word": "corporate group",
+    "definition": "Connected companies under a larger business",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": []
+  },
   "costly": {
     "word": "costly",
     "definition": "Costs a lot of money",
@@ -5551,6 +5690,29 @@
       }
     ]
   },
+  "cultural": {
+    "word": "cultural",
+    "definition": "About how people live and think",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "## Part 3: Sicily and Cultural Exchange Sicily is not just a tasty place for gelato—it is a bridge place.",
+        "contextMeaning": "Here, \"cultural\" means about how people live and think",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "culturally": {
     "word": "culturally",
     "definition": "About people's ways of living and thinking",
@@ -5570,6 +5732,29 @@
         "sentence": "In many Silk Road cities, people became culturally mixed.",
         "contextMeaning": "Here, \"culturally\" means in a way that involves the mix of different people's customs and ideas",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "culture": {
+    "word": "culture",
+    "definition": "The ideas and way of life of a group",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Do you think a food history can explain current culture today?",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -5665,6 +5850,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "customer service": {
+    "word": "customer service",
+    "definition": "Helping customers with questions or problems",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": []
   },
   "daily": {
     "word": "daily",
@@ -5823,6 +6023,29 @@
         "sentence": "Adults used them to talk about pride, death, punishment, courage, and human problems.",
         "contextMeaning": "Here, \"death\" means the end of life",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "decarbonization": {
+    "word": "decarbonization",
+    "definition": "Reducing carbon emissions",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "For the internship, the student should ask future-focused questions: \"How is the company preparing for decarbonization?\" \"What skills will young employees need?\" \"How are customer needs changing?\" These questions make the student look serious.",
+        "contextMeaning": "Here, \"decarbonization\" means the pressure that makes energy companies change",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -6208,7 +6431,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -6221,6 +6446,20 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Different versions of the story give different details, but one famous idea is the same: Sisyphus tried to get away from death.",
+        "contextMeaning": "Here, \"different\" means not the same",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "How is gelato different from ordinary ice cream in your experience?",
+        "contextMeaning": "Here, \"different\" means not the same",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "The exact company matters because the daily work can be very different.",
         "contextMeaning": "Here, \"different\" means not the same",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -6888,7 +7127,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -6903,6 +7143,13 @@
         "sentence": "That early mission is now very important in court.",
         "contextMeaning": "Here, \"early\" means from the beginning of the company's history",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In Persia and parts of the Middle East, early sweet chilled drinks and ices used flavored herbs and syrups.",
+        "contextMeaning": "Here, \"early\" means near the beginning of a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -7434,6 +7681,29 @@
       }
     ]
   },
+  "enough": {
+    "word": "enough",
+    "definition": "Not as much as needed",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "Safety thinking means noticing risks early, following procedures, checking small details, and understanding that \"probably okay\" is not good enough in some jobs.",
+        "contextMeaning": "Here, \"enough\" means not as much as needed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "enrich": {
     "word": "enrich",
     "definition": "To make someone richer or better",
@@ -7560,12 +7830,28 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Every human must face it one day, even a king.",
+        "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "That is warmer than many ice creams, so the flavor feels stronger even when the fat level is similar.",
+        "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "So even if the student does not work in gas forever, the internship can teach transferable skills: safety thinking, careful observation, teamwork, customer communication, report writing, and respect for infrastructure.",
         "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -7686,6 +7972,29 @@
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
     ],
     "contexts": []
+  },
+  "exactly": {
+    "word": "exactly",
+    "definition": "In a very clear way, with no doubt",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "But the best question is not only, \"Is Tokyo Gas famous?\" A better question is, \"What exactly will my child see, learn, and practice during this internship?\" A famous company name can be useful, but a clear learning experience matters more.",
+        "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "example": {
     "word": "example",
@@ -8624,7 +8933,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -8688,6 +8998,13 @@
         "sentence": "That is why the Silk Road still feels important today.",
         "contextMeaning": "Here, \"feels\" means it seems or is still important today",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "That is warmer than many ice creams, so the flavor feels stronger even when the fat level is similar.",
+        "contextMeaning": "Here, \"feels\" means to notice something in your body or emotions",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -9326,7 +9643,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -9341,6 +9659,13 @@
         "sentence": "Farmers grow food on rich land, and fishing towns bring in seafood from the coast.",
         "contextMeaning": "Here, \"food\" means things that are grown on the land for people to eat",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Why do you think people care about where food comes from, not only how it tastes?",
+        "contextMeaning": "Here, \"food\" means things people eat",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -9359,6 +9684,29 @@
       "episode-2026-05-22-australia-branch-business-catch-up"
     ],
     "contexts": []
+  },
+  "foods": {
+    "word": "foods",
+    "definition": "Things people eat",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Answer Help: - You can say: \"Less air means the flavor is packed into each scoop, so every bite feels thicker.\" ## Part 2: Ancient Frozen Desserts in Rome, Persia, and China Long before gelato, people already knew how to cool sweet foods.",
+        "contextMeaning": "Here, \"foods\" means things people eat",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "football": {
     "word": "football",
@@ -9654,7 +10002,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -9662,6 +10011,36 @@
         "sentence": "The Kofu Basin has strong sunshine, clean mountain water, and famous fruit farms.",
         "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants, like peaches and grapes",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "They used mountain ice, snow, fruit juice, honey, and sometimes wine.",
+        "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants or trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "fruits": {
+    "word": "fruits",
+    "definition": "Sweet food that grows on plants or trees",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruits became common local choices.",
+        "contextMeaning": "Here, \"fruits\" means sweet food that grows on plants or trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -9679,7 +10058,8 @@
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -9701,6 +10081,13 @@
         "sentence": "They talked about safe AI and the future of powerful technology.",
         "contextMeaning": "Here, \"future\" means they spoke about AI that is not dangerous and what will happen later",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "# Understanding a Tokyo Gas Group Internship Lesson Goal: Help a parent understand what a Tokyo Gas Group internship can teach, how city gas and LPG work, and how to judge the future of an energy company.",
+        "contextMeaning": "Here, \"future\" means the time after now",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -9978,6 +10365,29 @@
         "sentence": "We are talking about Meta Ray-Ban smart glasses and a new feature called virtual writing.",
         "contextMeaning": "Here, \"glasses\" means eyewear, specifically the type with lenses",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "global": {
+    "word": "global",
+    "definition": "Connected to the whole world",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became the way it is today by following a clear historical path from ancient ice to modern factories and global cafés.",
+        "contextMeaning": "Here, \"global\" means connected to the whole world",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -10403,6 +10813,29 @@
       }
     ]
   },
+  "habits": {
+    "word": "habits",
+    "definition": "Usual things people do often",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "## Useful Topic Vocabulary internship - short work experience for a student corporate group - connected companies under a larger business infrastructure - basic systems that society uses every day customer service - helping customers with questions or problems work culture - the normal habits and values inside a workplace transferable skill - a skill useful in many jobs decarbonization - reducing carbon emissions renewable energy - energy from sources such as sun or wind warning sign - a signal that something may be wrong",
+        "contextMeaning": "Here, \"habits\" means usual things people do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "half-time": {
     "word": "half-time",
     "definition": "The middle part of a game",
@@ -10690,7 +11123,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -10698,6 +11133,20 @@
         "sentence": "Today you will hear next to, fitting room, cash, and card is not working.",
         "contextMeaning": "Here, \"hear\" means you will listen to these words",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "When you hear \"gelato,\" what picture comes to your mind first?",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "When you hear \"gas company,\" what kind of work do you imagine?",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -10870,7 +11319,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -10892,6 +11342,13 @@
         "sentence": "For example, AI can write text, answer questions, study patterns, and help people plan work.",
         "contextMeaning": "Here, \"help\" means to make it easier for people to do their jobs",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Answer Help: - You can say: \"Less air means the flavor is packed into each scoop, so every bite feels thicker.\" ## Part 2: Ancient Frozen Desserts in Rome, Persia, and China Long before gelato, people already knew how to cool sweet foods.",
+        "contextMeaning": "Here, \"help\" means to make something easier for someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -11110,6 +11567,29 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system"
     ],
     "contexts": []
+  },
+  "history": {
+    "word": "history",
+    "definition": "Things that happened in the past",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became the way it is today by following a clear historical path from ancient ice to modern factories and global cafés.",
+        "contextMeaning": "Here, \"history\" means things that happened in the past",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "holding": {
     "word": "holding",
@@ -11591,7 +12071,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -11649,6 +12130,13 @@
         "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "Other Tokyo Gas Group companies show different sides of the same idea.",
+        "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -11664,7 +12152,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -11679,6 +12168,13 @@
         "sentence": "We will see how goods, ideas, and beliefs moved between Asia, the Middle East, North Africa, and Europe.",
         "contextMeaning": "Here, \"ideas\" means new thoughts and ways of thinking were shared",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Because these ideas arrived by trade routes, Sicily became an early meeting point of ingredients and techniques.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -11695,7 +12191,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
-      "episode-2026-05-21-a2-bank-card-problem"
+      "episode-2026-05-21-a2-bank-card-problem",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -11703,6 +12200,13 @@
         "sentence": "These dogs feel connected to Japanese identity.",
         "contextMeaning": "Here, \"identity\" means the feeling or character that connects a dog breed with a country or culture",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "From snow treats in ancient courts to machine-stable modern gelato, we can see a repeating pattern: traditions survive when they combine identity with adaptation.",
+        "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -12061,6 +12565,29 @@
     ],
     "contexts": []
   },
+  "infrastructure": {
+    "word": "infrastructure",
+    "definition": "Basic systems that society uses every day",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "Would you feel more interested in big-city infrastructure work or local community service work?",
+        "contextMeaning": "Here, \"infrastructure\" means gas pipes, supply systems, meters, safety response, and energy facilities",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "ingredients": {
     "word": "ingredients",
     "definition": "Things you use to make food",
@@ -12340,6 +12867,29 @@
         "sentence": "Eurovision is a huge international TV music contest.",
         "contextMeaning": "Here, \"international\" means involving people or things from more than one country",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "internship": {
+    "word": "internship",
+    "definition": "Short work experience for a student",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "# Understanding a Tokyo Gas Group Internship Lesson Goal: Help a parent understand what a Tokyo Gas Group internship can teach, how city gas and LPG work, and how to judge the future of an energy company.",
+        "contextMeaning": "Here, \"internship\" means a chance to observe real company life before choosing a career",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -12728,7 +13278,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -12743,6 +13295,20 @@
         "sentence": "Instead of using paper files or many different tools, a firm can keep its work in one system.",
         "contextMeaning": "Here, \"keep\" means to store or save information in a place",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "So before we begin, keep this simple question in mind: Comprehension Question: Discussion Question: What do you think is the main reason gelato feels rich in flavor?",
+        "contextMeaning": "Here, \"keep\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "Keep the exact internship company as the student's first research target.",
+        "contextMeaning": "Here, \"keep\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -12911,9 +13477,49 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Discussion Question: Why would a court kitchen support this kind of food experimentation?",
+        "contextMeaning": "Here, \"kitchen\" means the room where food is made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "It may supply city gas, sell electricity, support kitchen and hot-water equipment, inspect safety, repair equipment, give energy-saving advice, and help companies design better energy systems.",
+        "contextMeaning": "Here, \"kitchen\" means the room where food is made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "kitchens": {
+    "word": "kitchens",
+    "definition": "The room where food is made",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "During Arab influence, syrup-based frozen treats and fruit preparations spread through kitchens.",
+        "contextMeaning": "Here, \"kitchens\" means the room where food is made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "know": {
     "word": "know",
@@ -13343,6 +13949,37 @@
     ],
     "contexts": []
   },
+  "learn": {
+    "word": "learn",
+    "definition": "To get knowledge or skill",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became the way it is today by following a clear historical path from ancient ice to modern factories and global cafés.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "learners": {
     "word": "learners",
     "definition": "People who are learning something",
@@ -13362,6 +13999,29 @@
         "sentence": "Short episodes are also good for language learners.",
         "contextMeaning": "Here, \"learners\" means students who are learning English",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "learns": {
+    "word": "learns",
+    "definition": "To get knowledge or skill",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "For an internship, both can be valuable if the student learns how energy reaches real people.",
+        "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -13819,6 +14479,29 @@
       }
     ]
   },
+  "listening": {
+    "word": "listening",
+    "definition": "Hearing and paying attention",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "A sales proposal may depend on listening carefully to what a restaurant, hotel, factory, or family really needs.",
+        "contextMeaning": "Here, \"listening\" means hearing and paying attention",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "litter": {
     "word": "litter",
     "definition": "Sand or small stones for a cat's toilet",
@@ -13946,6 +14629,29 @@
         "sentence": "That location matters every day.",
         "contextMeaning": "Here, \"location\" means the exact place where something is",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "long": {
+    "word": "long",
+    "definition": "Not short",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Answer Help: - You can say: \"Less air means the flavor is packed into each scoop, so every bite feels thicker.\" ## Part 2: Ancient Frozen Desserts in Rome, Persia, and China Long before gelato, people already knew how to cool sweet foods.",
+        "contextMeaning": "Here, \"long\" means not short",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -15324,6 +16030,29 @@
       }
     ]
   },
+  "modern": {
+    "word": "modern",
+    "definition": "New and current in style or method",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became the way it is today by following a clear historical path from ancient ice to modern factories and global cafés.",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "moment": {
     "word": "moment",
     "definition": "A very short time, like a little second",
@@ -15529,6 +16258,29 @@
         "sentence": "I can move easily in this one.",
         "contextMeaning": "Here, \"move\" means his decision to change what he is doing",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "moves": {
+    "word": "moves",
+    "definition": "To go from one place to another",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "City gas usually moves through underground pipelines.",
+        "contextMeaning": "Here, \"moves\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -15913,6 +16665,29 @@
         "sentence": "Because both are nearby, cooks in Skåne can use ingredients from field and sea on the same plate.",
         "contextMeaning": "Here, \"nearby\" means close to the place where the cooks are",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "networks": {
+    "word": "networks",
+    "definition": "A group of connected parts",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Salt, citrus, almonds, sugar techniques, and dairy handling all moved through these trade networks.",
+        "contextMeaning": "Here, \"networks\" means a group of connected parts",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -16881,6 +17656,29 @@
     ],
     "contexts": []
   },
+  "ordinary": {
+    "word": "ordinary",
+    "definition": "Normal, not special",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "How is gelato different from ordinary ice cream in your experience?",
+        "contextMeaning": "Here, \"ordinary\" means normal, not special",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "organize": {
     "word": "organize",
     "definition": "To put things in order",
@@ -17656,7 +18454,9 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -17767,6 +18567,20 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Why do people still tell very old stories?",
+        "contextMeaning": "Here, \"people\" means many persons or humans",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Why do you think people care about where food comes from, not only how it tastes?",
+        "contextMeaning": "Here, \"people\" means many persons or humans",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "People may share the same family name, but each person has a different job.",
         "contextMeaning": "Here, \"people\" means many persons or humans",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -17887,7 +18701,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why"
+      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -17895,6 +18711,20 @@
         "sentence": "This is where the phrase controlled risk becomes useful.",
         "contextMeaning": "Here, \"phrase\" means a small group of words that helps explain controlled risk",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "## Introduction ## Introduction Many people say gelato is just \"Italian ice cream,\" but that phrase is too narrow.",
+        "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "So \"energy company\" is a better phrase because the work connects fuel, safety, equipment, customers, and future energy.",
+        "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -18056,7 +18886,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -18120,6 +18951,13 @@
         "sentence": "A route is a path people travel from one place to another.",
         "contextMeaning": "Here, \"place\" means a specific location or spot on the earth",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "## Part 3: Sicily and Cultural Exchange Sicily is not just a tasty place for gelato—it is a bridge place.",
+        "contextMeaning": "Here, \"place\" means a location or area",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -18584,7 +19422,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -18655,6 +19494,13 @@
         "sentence": "Visit ovi english dot com for the transcript and practice.",
         "contextMeaning": "Here, \"practice\" means do exercises to learn English better on the website",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "But the best question is not only, \"Is Tokyo Gas famous?\" A better question is, \"What exactly will my child see, learn, and practice during this internship?\" A famous company name can be useful, but a clear learning experience matters more.",
+        "contextMeaning": "Here, \"practice\" means to do something again to get better",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -18740,7 +19586,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2"
+      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -18755,6 +19602,13 @@
         "sentence": "The city is preparing for Eurovision 2025.",
         "contextMeaning": "Here, \"preparing\" means the place is getting ready for a big event",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "For the internship, the student should ask future-focused questions: \"How is the company preparing for decarbonization?\" \"What skills will young employees need?\" \"How are customer needs changing?\" These questions make the student look serious.",
+        "contextMeaning": "Here, \"preparing\" means getting ready",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -19042,12 +19896,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "They could be angry, proud, jealous, and dangerous.",
+        "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "## Introduction ## Introduction When a child gets an internship offer, a parent may feel proud and worried at the same time.",
         "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -19707,7 +20569,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -19793,6 +20656,13 @@
         "contextMeaning": "Here, \"real\" means true, not made up",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
+        "contextMeaning": "Here, \"real\" means true, not made up",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -19807,7 +20677,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -19815,6 +20686,13 @@
         "sentence": "But this story is really about work, time, and competition.",
         "contextMeaning": "Here, \"really\" means the story is truly or very much about these things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "A sales proposal may depend on listening carefully to what a restaurant, hotel, factory, or family really needs.",
+        "contextMeaning": "Here, \"really\" means truly or very much",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -20085,6 +20963,21 @@
       }
     ]
   },
+  "renewable energy": {
+    "word": "renewable energy",
+    "definition": "Energy from sources such as sun or wind",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": []
+  },
   "rep": {
     "word": "rep",
     "definition": "A person who works for a company",
@@ -20321,6 +21214,29 @@
     ],
     "contexts": []
   },
+  "restaurants": {
+    "word": "restaurants",
+    "definition": "A place where people buy and eat meals",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "## Part 7: Gelato Around the World In the 20th and 21st centuries, gelato became part of travel, restaurants, and global dessert culture.",
+        "contextMeaning": "Here, \"restaurants\" means a place where people buy and eat meals",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "restraint": {
     "word": "restraint",
     "definition": "Something that holds you so you don’t fall",
@@ -20424,7 +21340,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -20432,6 +21349,13 @@
         "sentence": "One is a hotel, one is a train ticket, and one is a review page.",
         "contextMeaning": "Here, \"review\" means information about what someone thought of a place",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "One bad review does not prove a company is bad, but repeated patterns are worth noticing.",
+        "contextMeaning": "Here, \"review\" means to study again and remember",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -20839,6 +21763,52 @@
         "sentence": "Ticket Staff: One-way or round trip?",
         "contextMeaning": "Here, \"round trip\" means going somewhere and coming back",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "route": {
+    "word": "route",
+    "definition": "A path or way to go somewhere",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "Discussion Question: Which would teach an intern more: a big city gas network or a local LPG service route?",
+        "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "routes": {
+    "word": "routes",
+    "definition": "A path or way to go somewhere",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Because these ideas arrived by trade routes, Sicily became an early meeting point of ingredients and techniques.",
+        "contextMeaning": "Here, \"routes\" means a path or way to go somewhere",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -21779,7 +22749,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer"
+      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -21794,6 +22765,13 @@
         "sentence": "This myth gave Greek listeners a simple, powerful picture of seasonal change.",
         "contextMeaning": "Here, \"seasonal\" means this story showed a simple picture of changes that happen each year",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruits became common local choices.",
+        "contextMeaning": "Here, \"seasonal\" means happening at a time of year",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -22409,7 +23387,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -22417,6 +23396,13 @@
         "sentence": "The company is preparing a shared base for many future hybrid cars.",
         "contextMeaning": "Here, \"shared\" means the company is getting ready to make a base that many cars will use together",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Still, these traditions show a shared pattern: people wanted cold sweets for refreshment, especially in hot weather and during celebrations.",
+        "contextMeaning": "Here, \"shared\" means used by more than one",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -22554,7 +23540,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep"
+      "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -22562,6 +23549,13 @@
         "sentence": "Then they found it in shops, on screens, and in daily products.",
         "contextMeaning": "Here, \"shops\" means the real stores and pop-up places where fans can see Chiikawa goods",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "That changed in one practical step: cafés and public shops started serving Italian-style frozen sweets to regular customers.",
+        "contextMeaning": "Here, \"shops\" means a place where you buy things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -22738,6 +23732,29 @@
         "sentence": "Musk and Altman were once on the same side.",
         "contextMeaning": "Here, \"side\" means in the past, these two people were in the same group",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "sides": {
+    "word": "sides",
+    "definition": "One part or surface of something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "Other Tokyo Gas Group companies show different sides of the same idea.",
+        "contextMeaning": "Here, \"sides\" means one part or surface of something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -23276,6 +24293,29 @@
       }
     ]
   },
+  "social": {
+    "word": "social",
+    "definition": "About people and how they connect with each other",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Answer Help: - Courts often had stable food supply, better tools, and strong social reasons to show status through food.",
+        "contextMeaning": "Here, \"social\" means about people and how they connect with each other",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sofa": {
     "word": "sofa",
     "definition": "A long, soft seat for more than one person",
@@ -23433,12 +24473,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "The rock in the Sisyphus story can mean hard work, stress, daily problems, responsibility, or something we cannot easily get away from.",
+        "contextMeaning": "Here, \"something\" means a thing, idea, or question",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
         "contextMeaning": "Here, \"something\" means a thing, idea, or question",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -25312,6 +26360,29 @@
       }
     ]
   },
+  "taste": {
+    "word": "taste",
+    "definition": "To try food or drink with your mouth",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Answer Help: - Cafés combine food, conversation, and repeat customers, so a new taste spreads through social repetition.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "tasted": {
     "word": "tasted",
     "definition": "To know food by your tongue",
@@ -26187,7 +27258,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -26251,6 +27323,13 @@
         "sentence": "Today’s story is about OpenAI, Elon Musk, Sam Altman, and a legal case in California.",
         "contextMeaning": "Here, \"today\" means happening or relating to this current day",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "# The History of Gelato Lesson Goal: Learn how gelato became the way it is today by following a clear historical path from ancient ice to modern factories and global cafés.",
+        "contextMeaning": "Here, \"today\" means this day",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -26681,6 +27760,21 @@
       }
     ]
   },
+  "transferable skill": {
+    "word": "transferable skill",
+    "definition": "A skill useful in many jobs",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": []
+  },
   "travel": {
     "word": "travel",
     "definition": "To go from one place to another",
@@ -27108,7 +28202,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -27128,6 +28223,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "[OPENING] Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
+        "contextMeaning": "Here, \"understand\" means to know what something means",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "# Understanding a Tokyo Gas Group Internship Lesson Goal: Help a parent understand what a Tokyo Gas Group internship can teach, how city gas and LPG work, and how to judge the future of an energy company.",
         "contextMeaning": "Here, \"understand\" means to know what something means",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -27622,7 +28724,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -27630,6 +28733,13 @@
         "sentence": "Silk was very famous and very valuable.",
         "contextMeaning": "Here, \"valuable\" means silk was worth a lot, so many people wanted it",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "For an internship, both can be valuable if the student learns how energy reaches real people.",
+        "contextMeaning": "Here, \"valuable\" means worth a lot or very useful",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -28248,6 +29358,21 @@
       }
     ]
   },
+  "warning sign": {
+    "word": "warning sign",
+    "definition": "A signal that something may be wrong",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": []
+  },
   "warrior": {
     "word": "warrior",
     "definition": "A brave fighter",
@@ -28386,6 +29511,29 @@
       }
     ]
   },
+  "weak": {
+    "word": "weak",
+    "definition": "Not strong",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "But this does not mean the internship is automatically weak.",
+        "contextMeaning": "Here, \"weak\" means not strong",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "weaken": {
     "word": "weaken",
     "definition": "To make something less strong",
@@ -28428,6 +29576,29 @@
         "sentence": "Mini recap: if the pipeline weakens, future revenue can weaken too.",
         "contextMeaning": "Here, \"weakens\" means makes the sales process or future money less strong",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "weather": {
+    "word": "weather",
+    "definition": "Rain, sun, or air outside",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-the-history-of-gelato"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Still, these traditions show a shared pattern: people wanted cold sweets for refreshment, especially in hot weather and during celebrations.",
+        "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -29069,7 +30240,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -29077,6 +30249,13 @@
         "sentence": "Our key word is milestone.",
         "contextMeaning": "Here, \"word\" means a single unit of language",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "The Italian word **sorbetto** is linked to this history.",
+        "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -29143,7 +30322,9 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -29180,8 +30361,37 @@
         "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "## Part 6: Machines, Scale, and Consistency Before industrial equipment, gelato work was hard and variable.",
+        "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "# Understanding a Tokyo Gas Group Internship Lesson Goal: Help a parent understand what a Tokyo Gas Group internship can teach, how city gas and LPG work, and how to judge the future of an energy company.",
+        "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
+  },
+  "work culture": {
+    "word": "work culture",
+    "definition": "The normal habits and values inside a workplace",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+    ],
+    "contexts": []
   },
   "workflow": {
     "word": "workflow",
@@ -29255,12 +30465,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He works hard, but he never wins.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "If the internship is in Yamanashi, it may be connected to Tokyo Gas Yamanashi, a regional company that works with city gas and propane gas.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -29279,7 +30497,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -29292,6 +30512,20 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He challenged the order of the world.",
+        "contextMeaning": "Here, \"world\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "## Part 7: Gelato Around the World In the 20th and 21st centuries, gelato became part of travel, restaurants, and global dessert culture.",
+        "contextMeaning": "Here, \"world\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+        "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
         "contextMeaning": "Here, \"world\" means all the people and places on Earth",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -29309,7 +30543,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -29317,6 +30552,13 @@
         "sentence": "Science fiction means stories about space, future technology, and strange worlds.",
         "contextMeaning": "Here, \"worlds\" means places like planets, perhaps with aliens or different rules",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-26-the-history-of-gelato",
+        "sentence": "Through history, Sicily connected different trading regions around the Mediterranean: Arab, North African, Byzantine, and Italian worlds.",
+        "contextMeaning": "Here, \"worlds\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
