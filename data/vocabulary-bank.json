@@ -12484,7 +12484,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -12497,6 +12498,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "That is why energy work needs rules, training, checklists, calm explanations, and quick response when something seems wrong.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The dog acts calm even though the situation is clearly terrible.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -13351,12 +13359,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Because it is warmer and denser, each bite carries a clearer flavor signal.",
+        "contextMeaning": "Here, \"carries\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The image may look the same, but the meaning depends on who uses it, where it appears, and what message it carries.",
         "contextMeaning": "Here, \"carries\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -13551,7 +13567,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-why-cats-act-so-strange"
+      "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -13559,6 +13576,36 @@
         "sentence": "A cat sits on a table, looks at a spoon, and slowly pushes it to the floor.",
         "contextMeaning": "Here, \"cat\" means a furry pet that likes to play and explore",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "For example, imagine a photo of a confused cat.",
+        "contextMeaning": "Here, \"cat\" means a small pet animal with fur",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cat's": {
+    "word": "cat's",
+    "definition": "A small pet animal with fur",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The cat's side usually represents a calm, confused, or stubborn answer.",
+        "contextMeaning": "Here, \"cat's\" means a small pet animal with fur",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -13689,7 +13736,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-why-cats-act-so-strange"
+      "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -13697,6 +13745,13 @@
         "sentence": "Today’s story begins with a simple news hook: scientists and animal experts are again explaining why cats do such strange things at home.",
         "contextMeaning": "Here, \"cats\" means the small, furry pets that live with people",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "These were pictures of cats with funny captions written in strange, broken English.",
+        "contextMeaning": "Here, \"cats\" means a small pet animal with fur",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -15952,12 +16007,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "At the same time, local cultures added their own choices.",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This makes the format perfect for comparing two choices.",
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -17004,9 +17067,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The dog acts calm even though the situation is clearly terrible.",
+        "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "A modern hero is often expected to be kind, selfless, and clearly good.",
@@ -17029,7 +17100,8 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -17049,6 +17121,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Do you think a person can be clever but still make bad choices?",
+        "contextMeaning": "Here, \"clever\" means smart in a quick or skillful way",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A very clever meme may disappear if nobody sees it at the right time.",
         "contextMeaning": "Here, \"clever\" means smart in a quick or skillful way",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -23205,6 +23284,29 @@
       }
     ]
   },
+  "create": {
+    "word": "create",
+    "definition": "To make something new",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The labels create the joke.",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "created": {
     "word": "created",
     "definition": "Made or brought into being",
@@ -23271,9 +23373,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Doge captions often use short broken phrases like \"such wow,\" \"very cool,\" \"much happy,\" or \"so scare.\" The grammar is not normal English, but it creates a playful voice.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The hero is exceptional, but exceptional power creates danger.",
@@ -23726,7 +23836,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -23739,6 +23850,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Final Open Question: Why can a simple food like gelato become part of cultural identity while still changing in new places?",
+        "contextMeaning": "Here, \"cultural\" means about how people live and think",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This changed memes from slow cultural ideas into fast digital culture.",
         "contextMeaning": "Here, \"cultural\" means about how people live and think",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -23779,9 +23897,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This changed memes from slow cultural ideas into fast digital culture.",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The Iliad and the Odyssey gave Greek culture deep examples of glory, anger, war, suffering, and return.",
@@ -26796,6 +26922,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -26823,6 +26950,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The exact company matters because the daily work can be very different.",
+        "contextMeaning": "Here, \"different\" means not the same",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "In English, you can use the same sentence pattern with different words.",
         "contextMeaning": "Here, \"different\" means not the same",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -28241,6 +28375,52 @@
       }
     ]
   },
+  "dog": {
+    "word": "dog",
+    "definition": "A common animal kept as a pet",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The original image came from a Shiba Inu dog named Kabosu.",
+        "contextMeaning": "Here, \"dog\" means a common animal kept as a pet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dog's": {
+    "word": "dog's",
+    "definition": "A common animal kept as a pet",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "But Doge became famous not only because of the dog's face.",
+        "contextMeaning": "Here, \"dog's\" means a common animal kept as a pet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "dollars": {
     "word": "dollars",
     "definition": "Money used in some countries",
@@ -29618,7 +29798,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -29633,6 +29814,13 @@
         "sentence": "That early mission is now very important in court.",
         "contextMeaning": "Here, \"early\" means from the beginning of the company's history",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "One famous early internet meme was LOLcats.",
+        "contextMeaning": "Here, \"early\" means near the beginning of a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -30014,6 +30202,29 @@
         "sentence": "We will see how goods, ideas, and beliefs moved between Asia, the Middle East, North Africa, and Europe.",
         "contextMeaning": "Here, \"east\" means the part of the world in the direction of the sunrise, like Asia",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "easy": {
+    "word": "easy",
+    "definition": "Not hard",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This is why memes feel easy to understand.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -31621,7 +31832,8 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -31748,6 +31960,13 @@
         "sentence": "Welcome to Ovi English School.",
         "contextMeaning": "Here, \"english\" means this is the name of the school where you learn English",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "In English, you can use the same sentence pattern with different words.",
+        "contextMeaning": "Here, \"english\" means the language used in England and many other places",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -32161,6 +32380,29 @@
       }
     ]
   },
+  "episodes": {
+    "word": "episodes",
+    "definition": "One lesson or show in a series",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Later, it grew into a larger world with characters, battles, and story-like episodes.",
+        "contextMeaning": "Here, \"episodes\" means one lesson or show in a series",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "equipment": {
     "word": "equipment",
     "definition": "Tools or machines you need to work",
@@ -32570,12 +32812,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Every human must face it one day, even a king.",
+        "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "It can be a picture, a short video, a phrase, a sound, a dance, a joke, or even a style of speaking.",
         "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -35925,6 +36175,7 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -35945,6 +36196,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He was famous because he was very clever.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "One famous early internet meme was LOLcats.",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -36717,7 +36975,8 @@
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -36802,6 +37061,13 @@
         "sentence": "Some cafes here feel modern, but they also feel deeply local.",
         "contextMeaning": "Here, \"feel\" means some cafes seem new, but they also seem very connected to the area",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This is why memes feel easy to understand.",
+        "contextMeaning": "Here, \"feel\" means to notice something in your body or emotions",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -42187,6 +42453,29 @@
       }
     ]
   },
+  "grammar": {
+    "word": "grammar",
+    "definition": "Rules for making correct sentences",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A good meme works almost like grammar.",
+        "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "grandfather": {
     "word": "grandfather",
     "definition": "Your father's or mother's father",
@@ -42638,7 +42927,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -42646,6 +42936,13 @@
         "sentence": "OpenAI is an artificial intelligence company and research group.",
         "contextMeaning": "Here, \"group\" means a number of people working together for a common goal",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Memes help people feel like they belong to a group.",
+        "contextMeaning": "Here, \"group\" means a number of people or things together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -43949,7 +44246,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -43957,6 +44255,13 @@
         "sentence": "It can help one person create a useful business, or help one person spread low-quality, confusing, or harmful work faster than ever.",
         "contextMeaning": "Here, \"harmful\" means work that can hurt people or cause problems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Another danger is that memes can hide harmful messages inside humor.",
+        "contextMeaning": "Here, \"harmful\" means a joke can be harmful if it spreads hate, lies, or cruelty",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -46566,6 +46871,7 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -46633,6 +46939,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A meme is an idea that people copy, change, and share.",
+        "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The first important idea is that Greek heroism is complex.",
         "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
@@ -46655,6 +46968,7 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -46675,6 +46989,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Because ideas moved on trade routes, Sicily became one of the earliest points where recipe techniques mixed across regions.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "He used it to talk about ideas that spread from person to person, almost like genes spread biological information.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -46733,6 +47054,7 @@
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -46748,6 +47070,13 @@
         "sentence": "Final Open Question: Why can a simple food like gelato become part of cultural identity while still changing in new places?",
         "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "It is also identity.",
+        "contextMeaning": "Here, \"identity\" means belonging to a group that understands the same joke",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       },
       {
@@ -47316,6 +47645,7 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -47338,6 +47668,13 @@
         "sentence": "That early mission is now very important in court.",
         "contextMeaning": "Here, \"important\" means something that has great meaning or value",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The important thing is not the object itself.",
+        "contextMeaning": "Here, \"important\" means having strong value or meaning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -49502,6 +49839,29 @@
       }
     ]
   },
+  "internet": {
+    "word": "internet",
+    "definition": "The worldwide system that connects computers",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The word \"meme\" is older than the internet.",
+        "contextMeaning": "Here, \"internet\" means the worldwide system that connects computers",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "interns": {
     "word": "interns",
     "definition": "People who learn and work for a short time",
@@ -51163,7 +51523,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -51183,6 +51544,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "So before we begin, keep this question in mind: In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
+        "contextMeaning": "Here, \"keep\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This teaches an important lesson: memes do not always keep the same meaning.",
         "contextMeaning": "Here, \"keep\" means to continue to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -52056,7 +52424,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -52064,6 +52433,13 @@
         "sentence": "Copilot is a chatbot, which means users can type questions and get answers in everyday language.",
         "contextMeaning": "Here, \"language\" means this is the way people communicate using words",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "People enjoyed the cute cat, the silly language, and the easy format.",
+        "contextMeaning": "Here, \"language\" means words and grammar people use to communicate",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -53650,6 +54026,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -53658,6 +54035,13 @@
         "sentence": "Can this become useful in daily life, or is it still just a cool demo?",
         "contextMeaning": "Here, \"life\" means the way people live their lives every day",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Sometimes life is stressful, but people pretend everything is okay.",
+        "contextMeaning": "Here, \"life\" means the time when a person or animal is alive",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -59189,6 +59573,29 @@
       }
     ]
   },
+  "meme": {
+    "word": "meme",
+    "definition": "An idea, joke, image, or style people copy and share",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "What meme did you understand immediately the first time you saw it?",
+        "contextMeaning": "Here, \"meme\" means an internet joke or pattern that people remix",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "memorable": {
     "word": "memorable",
     "definition": "Something you will remember for a long time",
@@ -59472,6 +59879,29 @@
         "sentence": "A city might have a Chinese merchant, a Persian scholar, and an Arab traveler in the same market.",
         "contextMeaning": "Here, \"merchant\" means a person who buys and sells goods for a living",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "message": {
+    "word": "message",
+    "definition": "Information sent from one person to another",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The image may look the same, but the meaning depends on who uses it, where it appears, and what message it carries.",
+        "contextMeaning": "Here, \"message\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -61739,7 +62169,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -61747,6 +62178,13 @@
         "sentence": "I can move easily in this one.",
         "contextMeaning": "Here, \"move\" means his decision to change what he is doing",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This shows how memes can move from jokes into business, money, and public culture.",
+        "contextMeaning": "Here, \"move\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -61889,6 +62327,29 @@
         "sentence": "A car gives movement, but it also needs brakes.",
         "contextMeaning": "Here, \"movement\" means the car can move or go forward",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "moves": {
+    "word": "moves",
+    "definition": "To go from one place to another",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Today, culture also moves through memes.",
+        "contextMeaning": "Here, \"moves\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -62108,7 +62569,8 @@
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
-      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2"
+      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -62130,6 +62592,13 @@
         "sentence": "So this year, Eurovision is not only about music.",
         "contextMeaning": "Here, \"music\" means songs and sounds that people listen to for enjoyment",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "But when you click it, it sends you to Rick Astley's 1987 music video \"Never Gonna Give You Up.\" The joke is not only the song.",
+        "contextMeaning": "Here, \"music\" means sounds made for listening and enjoyment",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -63374,7 +63843,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-why-cats-act-so-strange"
+      "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -63382,6 +63852,13 @@
         "sentence": "Today’s story begins with a simple news hook: scientists and animal experts are again explaining why cats do such strange things at home.",
         "contextMeaning": "Here, \"news\" means a story about something that happened recently",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A person may see bad news every day and feel overwhelmed.",
+        "contextMeaning": "Here, \"news\" means stories or information about real events",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -64288,7 +64765,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -64380,6 +64858,13 @@
         "sentence": "Zoroastrianism began in ancient Persia, which is now Iran.",
         "contextMeaning": "Here, \"now\" means in the present day, like Iran is today",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "People now communicate with images, sounds, references, jokes, and short videos.",
+        "contextMeaning": "Here, \"now\" means right now, at this time",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -65249,6 +65734,7 @@
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -65264,6 +65750,13 @@
         "sentence": "Imagine a trader in Xi’an, the old Chinese city where many journeys began.",
         "contextMeaning": "Here, \"old\" means this city existed in the past, not now",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "It can show old vs new, duty vs fun, good decision vs bad decision, or safe choice vs exciting choice.",
+        "contextMeaning": "Here, \"old\" means having lived for many years",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -65640,7 +66133,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -65648,6 +66142,13 @@
         "sentence": "One Friday in the United States, many Nintendo fans noticed a surprising deal online.",
         "contextMeaning": "Here, \"online\" means the good offer was seen on the internet, not in a shop",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Online, a joke can travel across the world in a few hours.",
+        "contextMeaning": "Here, \"online\" means connected through the internet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -69103,6 +69604,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -69233,6 +69735,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A meme is an idea that people copy, change, and share.",
+        "contextMeaning": "Here, \"people\" means many persons or humans",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
         "contextMeaning": "Here, \"people\" means many persons or humans",
@@ -69275,9 +69784,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The two images were not originally connected, but together they create a perfect argument.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Greek heroes are impressive, but they are rarely perfect.",
@@ -69650,9 +70167,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "One person adds the words, \"When the teacher says there is a test today.\" Another person uses the same cat and writes, \"When your phone is at 1% battery.\" The picture is the same, but the situation changes.",
+        "contextMeaning": "Here, \"person\" means one human being",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "When you hear the word hero, do you imagine a good person, a brave person, or a powerful person?",
@@ -69831,6 +70356,29 @@
       }
     ]
   },
+  "photo": {
+    "word": "photo",
+    "definition": "A picture taken with a camera",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "For example, imagine a photo of a confused cat.",
+        "contextMeaning": "Here, \"photo\" means a picture taken with a camera",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "photographs": {
     "word": "photographs",
     "definition": "Pictures made with a camera",
@@ -69867,7 +70415,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -69888,6 +70437,36 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "So \"energy company\" is a better phrase because the work connects fuel, safety, equipment, customers, and future energy.",
         "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Do you usually understand image memes, video memes, sound memes, or phrase memes fastest?",
+        "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "phrases": {
+    "word": "phrases",
+    "definition": "Short groups of words that have a meaning",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Doge captions often use short broken phrases like \"such wow,\" \"very cool,\" \"much happy,\" or \"so scare.\" The grammar is not normal English, but it creates a playful voice.",
+        "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
@@ -69982,6 +70561,29 @@
         "sentence": "Where is the shuttle pickup?",
         "contextMeaning": "Here, \"pickup\" means the place where the hotel shuttle stops",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "picture": {
+    "word": "picture",
+    "definition": "An image you can look at",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A meme is not just a funny picture.",
+        "contextMeaning": "Here, \"picture\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -72328,6 +72930,29 @@
         "sentence": "Today Maya practises travel English in three places: New York in the USA, London in England, and Berlin in Germany.",
         "contextMeaning": "Here, \"practises\" means maya is learning and using travel English in different places",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "prank": {
+    "word": "prank",
+    "definition": "A joke that tricks someone",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "In this prank, someone sends you a link that looks like it will lead to something interesting.",
+        "contextMeaning": "Here, \"prank\" means a surprise joke like Rickrolling",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -76311,6 +76936,7 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -76394,6 +77020,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "These jobs are not the same as Sisyphus's punishment because they can help real people.",
+        "contextMeaning": "Here, \"real\" means true, not made up",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A silly dog picture can become part of a real financial conversation.",
         "contextMeaning": "Here, \"real\" means true, not made up",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -78640,7 +79273,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -78648,6 +79282,13 @@
         "sentence": "It appears across the Gemini app, Google Flow, and YouTube Shorts Remix, where users can transform or remix video with prompts and references.",
         "contextMeaning": "Here, \"remix\" means change videos by mixing them with new ideas or parts",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "People can also remix it immediately.",
+        "contextMeaning": "Here, \"remix\" means using an existing image or idea in a new way",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -83597,7 +84238,8 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -83619,6 +84261,13 @@
         "sentence": "If almost anyone can create plausible video, images, or edited scenes, then the infrastructure for provenance becomes part of the product.",
         "contextMeaning": "Here, \"scenes\" means parts of videos or pictures shown to people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Many memes use photos, movie scenes, songs, art, or videos that someone else created.",
+        "contextMeaning": "Here, \"scenes\" means parts of a story or show",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -84432,7 +85081,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -84440,6 +85090,13 @@
         "sentence": "On Thursday, May 15, 2025, Eurovision held its second semifinal.",
         "contextMeaning": "Here, \"second\" means it is the next one after the first one",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Second, they have a simple emotional idea.",
+        "contextMeaning": "Here, \"second\" means the number two in order",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -86301,7 +86958,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -86314,6 +86972,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "These examples show a shared human idea: people wanted a cold sweet option in warm weather, especially during celebrations.",
+        "contextMeaning": "Here, \"shared\" means used by more than one",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "They often use shared culture to express meaning.",
         "contextMeaning": "Here, \"shared\" means used by more than one",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -86917,7 +87582,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -86925,6 +87591,36 @@
         "sentence": "What if you could send a short reply without opening your bag or tapping a screen?",
         "contextMeaning": "Here, \"short\" means a message that does not take much time to write",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "It can be a picture, a short video, a phrase, a sound, a dance, a joke, or even a style of speaking.",
+        "contextMeaning": "Here, \"short\" means not long",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "shorts": {
+    "word": "shorts",
+    "definition": "Not long",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "TikTok, Instagram, YouTube Shorts, X, and Reddit all reward content that gets attention quickly.",
+        "contextMeaning": "Here, \"shorts\" means not long",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -87439,7 +88135,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -87447,6 +88144,13 @@
         "sentence": "Musk and Altman were once on the same side.",
         "contextMeaning": "Here, \"side\" means in the past, these two people were in the same group",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "On the left side, there is a woman crying and shouting.",
+        "contextMeaning": "Here, \"side\" means one part or surface of something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -87822,6 +88526,7 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -87879,6 +88584,13 @@
         "sentence": "He opens a box of silk and tea and asks, “Where will this go?” That simple question opens a much bigger story.",
         "contextMeaning": "Here, \"simple\" means the question is not complicated",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Second, they have a simple emotional idea.",
+        "contextMeaning": "Here, \"simple\" means easy to understand or do",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -88790,7 +89502,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -88798,6 +89511,13 @@
         "sentence": "In Kofu, a small cafe can show you a lot about Yamanashi life.",
         "contextMeaning": "Here, \"small\" means not large in size",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The internet is very good at taking small pieces of culture and putting them together in surprising ways.",
+        "contextMeaning": "Here, \"small\" means not large",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -89919,6 +90639,7 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -89932,6 +90653,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
+        "contextMeaning": "Here, \"something\" means a thing, idea, or question",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "In this prank, someone sends you a link that looks like it will lead to something interesting.",
         "contextMeaning": "Here, \"something\" means a thing, idea, or question",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -90993,6 +91721,29 @@
         "sentence": "Final Speaking Task Useful Topic Vocabulary Do you think a hero must be morally good, or can a hero be great but dangerous?",
         "contextMeaning": "Here, \"speaking\" means the task where you talk about heroes",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "speaks": {
+    "word": "speaks",
+    "definition": "To say words out loud",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "People do not only copy the picture; they copy the way Doge \"speaks.\" That is why Doge became more than one photo.",
+        "contextMeaning": "Here, \"speaks\" means to say words out loud",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -96462,7 +97213,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -96470,6 +97222,13 @@
         "sentence": "One Friday in the United States, many Nintendo fans noticed a surprising deal online.",
         "contextMeaning": "Here, \"surprising\" means it was not expected, so fans were surprised to see the good offer",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The internet is very good at taking small pieces of culture and putting them together in surprising ways.",
+        "contextMeaning": "Here, \"surprising\" means not expected",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -97596,6 +98355,29 @@
       }
     ]
   },
+  "talk": {
+    "word": "talk",
+    "definition": "To speak with someone",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "He used it to talk about ideas that spread from person to person, almost like genes spread biological information.",
+        "contextMeaning": "Here, \"talk\" means to speak with someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "talked": {
     "word": "talked",
     "definition": "Used words to say things",
@@ -98170,6 +98952,29 @@
       }
     ]
   },
+  "teacher": {
+    "word": "teacher",
+    "definition": "A person who helps students learn",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "One person adds the words, \"When the teacher says there is a test today.\" Another person uses the same cat and writes, \"When your phone is at 1% battery.\" The picture is the same, but the situation changes.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "teaches": {
     "word": "teaches",
     "definition": "Shows you how to do something",
@@ -98181,7 +98986,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer"
+      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -98189,6 +98995,13 @@
         "sentence": "Odysseus also teaches an important Greek value: proper treatment between guest and host.",
         "contextMeaning": "Here, \"teaches\" means odysseus shows an important Greek idea about being a good guest",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "This teaches an important lesson: memes do not always keep the same meaning.",
+        "contextMeaning": "Here, \"teaches\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -98680,6 +99493,29 @@
         "sentence": "The nurse checks her temperature and says, \"You have a mild fever.\" Riko asks, \"Is it serious?\" The nurse says, \"The doctor will check you now.\" The doctor looks at Riko's throat and asks a few more questions.",
         "contextMeaning": "Here, \"temperature\" means the nurse checks how hot Riko's body is",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "template": {
+    "word": "template",
+    "definition": "A pattern people can reuse",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "First, they have a clear template.",
+        "contextMeaning": "Here, \"template\" means the visual shape or format of a meme",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -101139,6 +101975,7 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -101203,6 +102040,13 @@
         "sentence": "The Silk Road connected distant regions for a very long time.",
         "contextMeaning": "Here, \"time\" means for a very long period, like many years",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "What meme did you understand immediately the first time you saw it?",
+        "contextMeaning": "Here, \"time\" means what we measure in minutes, hours, and days",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -101528,7 +102372,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -101592,6 +102437,13 @@
         "sentence": "Today’s story is about OpenAI, Elon Musk, Sam Altman, and a legal case in California.",
         "contextMeaning": "Here, \"today\" means happening or relating to this current day",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "One person adds the words, \"When the teacher says there is a test today.\" Another person uses the same cat and writes, \"When your phone is at 1% battery.\" The picture is the same, but the situation changes.",
+        "contextMeaning": "Here, \"today\" means this day",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -101922,6 +102774,7 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -101977,6 +102830,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "A safe customer visit depends on training, scheduling, tools, records, communication, and emergency rules.",
+        "contextMeaning": "Here, \"tools\" means a tool can be software the AI calls to search, check, write, or publish",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "They are small emotional tools.",
         "contextMeaning": "Here, \"tools\" means a tool can be software the AI calls to search, check, write, or publish",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
@@ -104081,12 +104941,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He wanted control more than truth.",
+        "contextMeaning": "Here, \"truth\" means what is real or correct",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The meme is funny, but it also tells the truth.",
         "contextMeaning": "Here, \"truth\" means what is real or correct",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -104786,7 +105654,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -104806,6 +105675,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "[OPENING] Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
+        "contextMeaning": "Here, \"understand\" means to know what something means",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "What meme did you understand immediately the first time you saw it?",
         "contextMeaning": "Here, \"understand\" means to know what something means",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -106964,7 +107840,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -106972,6 +107849,36 @@
         "sentence": "Nintendo is a Japanese video game company.",
         "contextMeaning": "Here, \"video\" means games played on a screen",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Do you usually understand image memes, video memes, sound memes, or phrase memes fastest?",
+        "contextMeaning": "Here, \"video\" means moving pictures on a screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "videos": {
+    "word": "videos",
+    "definition": "Moving pictures on a screen",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The girlfriend can represent something responsible, like \"studying.\" The other woman can represent something tempting, like \"watching videos.\" The boyfriend can represent the person making the bad choice.",
+        "contextMeaning": "Here, \"videos\" means moving pictures on a screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -110432,6 +111339,7 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -110445,6 +111353,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "So before we begin, keep this question in mind: In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
+        "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "The word \"meme\" is older than the internet.",
         "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -110472,7 +111387,8 @@
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -110502,6 +111418,13 @@
         "contextMeaning": "Here, \"words\" means the specific language used to explain something",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "One person adds the words, \"When the teacher says there is a test today.\" Another person uses the same cat and writes, \"When your phone is at 1% battery.\" The picture is the same, but the situation changes.",
+        "contextMeaning": "Here, \"words\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -110522,6 +111445,7 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -110563,6 +111487,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "When you hear \"gas company,\" what kind of work do you imagine?",
+        "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "That is why memes are common during exams, busy work periods, social problems, bad news, and stressful events.",
         "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -110618,6 +111549,29 @@
         "sentence": "This network worked for many centuries, from around the second century BCE until the 15th century.",
         "contextMeaning": "Here, \"worked\" means the network was active and used for many years",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "worker": {
+    "word": "worker",
+    "definition": "A person who does a job",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A worker may have too many tasks.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -110781,12 +111735,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He works hard, but he never wins.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "A good meme works almost like grammar.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -110859,6 +111821,7 @@
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
@@ -110872,6 +111835,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He challenged the order of the world.",
+        "contextMeaning": "Here, \"world\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "Online, a joke can travel across the world in a few hours.",
         "contextMeaning": "Here, \"world\" means all the people and places on Earth",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -111214,6 +112184,29 @@
         "sentence": "For example, AI can write text, answer questions, study patterns, and help people plan work.",
         "contextMeaning": "Here, \"write\" means to create words or sentences",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "writes": {
+    "word": "writes",
+    "definition": "To make words with a pen, keyboard, or screen",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+        "sentence": "One person adds the words, \"When the teacher says there is a test today.\" Another person uses the same cat and writes, \"When your phone is at 1% battery.\" The picture is the same, but the situation changes.",
+        "contextMeaning": "Here, \"writes\" means to make words with a pen, keyboard, or screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
