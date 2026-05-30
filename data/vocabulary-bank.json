@@ -3871,6 +3871,37 @@
       }
     ]
   },
+  "anything": {
+    "word": "anything",
+    "definition": "Any thing at all",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "It also gives you one more chance to ask, \"Do I need to do anything else?\" Phone support: Customer: Hello.",
+        "contextMeaning": "Here, \"anything\" means any thing at all",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Ask before you agree to anything.",
+        "contextMeaning": "Here, \"anything\" means any thing at all",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "anywhere": {
     "word": "anywhere",
     "definition": "Any place at all",
@@ -3928,9 +3959,26 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "She moved to a new apartment.",
+        "contextMeaning": "Here, \"apartment\" means a set of rooms you live in",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "Lina says, \"It is apartment 405, not 504.\" She checks the street name too.",
+        "contextMeaning": "Here, \"apartment\" means a set of rooms you live in",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "app": {
     "word": "app",
@@ -4949,7 +4997,11 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -4983,6 +5035,34 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They ask a harder question: what happens when a human being has more power, passion, or fame than ordinary life can safely contain?",
+        "contextMeaning": "Here, \"ask\" means to say a question or request",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "How can you ask for help politely?",
+        "contextMeaning": "Here, \"ask\" means to say a question or request",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "You can ask for a new delivery time, pickup at a shop, or delivery to a neighbor.",
+        "contextMeaning": "Here, \"ask\" means to say a question or request",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "You need to describe the symptom and ask for a clear next step.",
+        "contextMeaning": "Here, \"ask\" means to say a question or request",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "A fix sentence can be simple: \"I corrected it,\" \"I sent the new version,\" or \"I called the customer.\" If you are not sure, ask for approval before the next action.",
         "contextMeaning": "Here, \"ask\" means to say a question or request",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -5667,6 +5747,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "attempted delivery": {
+    "word": "attempted delivery",
+    "definition": "The driver tried to deliver",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+    ],
+    "contexts": []
   },
   "attention": {
     "word": "attention",
@@ -8640,7 +8735,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -8653,6 +8749,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "So before we begin, keep this question in mind: In simple terms, gelato means \"frozen\" in Italian, but the word also points to style.",
+        "contextMeaning": "Here, \"begin\" means to start",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Sara does not begin by pointing at every box.",
         "contextMeaning": "Here, \"begin\" means to start",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -12419,12 +12522,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
+        "contextMeaning": "Here, \"call\" means to phone or give a name to someone or something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "What information do you need before you call a delivery office?",
         "contextMeaning": "Here, \"call\" means to phone or give a name to someone or something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -12539,7 +12650,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -12559,6 +12671,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "The dog acts calm even though the situation is clearly terrible.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "How can you sound calm and responsible?",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -16103,7 +16222,9 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -16137,6 +16258,20 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They can suffer, choose badly, and die.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Write your old address there.\" This is better than saying, \"I do not understand everything.\" Choose one box or one word.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "She needs to explain the problem and choose a safe delivery option.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -20323,7 +20458,8 @@
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -20380,6 +20516,13 @@
         "sentence": "First, confirm the exact company, location, and department.",
         "contextMeaning": "Here, \"confirm\" means make sure the company, place, and group are correct",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "Address check: Worker: Can you confirm the address?",
+        "contextMeaning": "Here, \"confirm\" means repeat the plan before ending the call",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -22561,6 +22704,21 @@
       }
     ]
   },
+  "correct file": {
+    "word": "correct file",
+    "definition": "The right file",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+    ],
+    "contexts": []
+  },
   "correction": {
     "word": "correction",
     "definition": "Fixing something that is wrong",
@@ -24144,7 +24302,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -24152,6 +24312,20 @@
         "sentence": "Imagine a sales team that wants to impress a customer fast.",
         "contextMeaning": "Here, \"customer\" means a person who buys goods or services",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "It also gives you one more chance to ask, \"Do I need to do anything else?\" Phone support: Customer: Hello.",
+        "contextMeaning": "Here, \"customer\" means a person who buys something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Main problem: Customer: Calls work, but mobile data does not work.",
+        "contextMeaning": "Here, \"customer\" means a person who buys something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -24626,6 +24800,29 @@
       }
     ]
   },
+  "data": {
+    "word": "data",
+    "definition": "Facts or numbers used for study or decisions",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "What do you do when your phone data stops working?",
+        "contextMeaning": "Here, \"data\" means facts or numbers used for study or decisions",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "dates": {
     "word": "dates",
     "definition": "Days on the calendar",
@@ -24860,6 +25057,29 @@
         "sentence": "For the internship, the student should ask future-focused questions: \"How is the company preparing for decarbonization?\" \"What skills will young employees need?\" \"How are customer needs changing?\" These questions make the student look serious.",
         "contextMeaning": "Here, \"decarbonization\" means the pressure that makes energy companies change",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "decide": {
+    "word": "decide",
+    "definition": "To make a choice",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "You can say, \"It may delay the report,\" \"It may confuse the customer,\" or \"It may make the numbers look wrong.\" This helps your manager decide what to do next.",
+        "contextMeaning": "Here, \"decide\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -26567,7 +26787,9 @@
     "episodes": [
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -26589,6 +26811,20 @@
         "sentence": "They open one page, then another, then forget where they saw a useful detail.",
         "contextMeaning": "Here, \"detail\" means a small piece of information on the page",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "She says, \"My package did not arrive.\" Then she adds one detail: \"The tracking page says delivery was attempted at 2:15.\" This order helps the worker understand quickly.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "The worker asks, \"When did it start?\" Ken says, \"It started this morning after I restarted the phone.\" This detail is useful.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -27000,7 +27236,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -27041,6 +27278,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "A Greek hero is different.",
+        "contextMeaning": "Here, \"different\" means not the same",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Some offices have different counters.",
         "contextMeaning": "Here, \"different\" means not the same",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -31909,7 +32153,8 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -32037,6 +32282,13 @@
         "contextMeaning": "Here, \"english\" means this is the name of the school where you learn English",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "Is it hard to explain a mistake in English?",
+        "contextMeaning": "Here, \"english\" means the language used in England and many other places",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -32082,12 +32334,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
+        "contextMeaning": "Here, \"enough\" means not as much as needed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Sara gives them to the worker and asks, \"Is this enough?\" The worker says, \"Yes, we also need your phone number on the form.\" Documents are part of the process.",
         "contextMeaning": "Here, \"enough\" means not as much as needed",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -32337,7 +32597,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -32345,6 +32606,13 @@
         "sentence": "The entrance is quiet.",
         "contextMeaning": "Here, \"entrance\" means the place to go inside is quiet",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "Maybe the driver went to another entrance.",
+        "contextMeaning": "Here, \"entrance\" means the main door or side door",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -35719,6 +35987,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "extra charge": {
+    "word": "extra charge",
+    "definition": "More money to pay",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": []
   },
   "extreme": {
     "word": "extreme",
@@ -40094,6 +40377,29 @@
       }
     ]
   },
+  "form": {
+    "word": "form",
+    "definition": "A paper or online page to fill in",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Have you ever filled in a form in another language?",
+        "contextMeaning": "Here, \"form\" means sara fills in an address form",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "formal": {
     "word": "formal",
     "definition": "Done in a clear and serious way",
@@ -43541,6 +43847,29 @@
       }
     ]
   },
+  "habit": {
+    "word": "habit",
+    "definition": "A usual action you do often",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "It is a better habit.",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "habits": {
     "word": "habits",
     "definition": "Usual things people do often",
@@ -45287,12 +45616,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Oedipus' intelligence helps him solve the riddle of the Sphinx, but his certainty pushes him toward a terrible truth.",
+        "contextMeaning": "Here, \"helps\" means to make something easier for someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "A simple structure helps.",
         "contextMeaning": "Here, \"helps\" means to make something easier for someone",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -46220,7 +46557,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -46233,6 +46571,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "Good signs include clear internship details, structured training, helpful mentors, serious safety procedures, honest employee interviews, reasonable overtime culture, and future-energy projects.",
+        "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "You can be honest and professional with short English.",
         "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -46994,7 +47339,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -47070,6 +47416,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The first important idea is that Greek heroism is complex.",
+        "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Worker: Good idea.",
         "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -47672,7 +48025,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -47680,6 +48034,13 @@
         "sentence": "This is where business impact becomes important.",
         "contextMeaning": "Here, \"impact\" means the effect or change that happens to business, like on money or work",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "The impact is not too dramatic.",
+        "contextMeaning": "Here, \"impact\" means the team may feel confused",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -52115,12 +52476,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "It may supply city gas, sell electricity, support kitchen and hot-water equipment, inspect safety, repair equipment, give energy-saving advice, and help companies design better energy systems.",
+        "contextMeaning": "Here, \"kitchen\" means the room where food is made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "She ordered a small kitchen tool.",
         "contextMeaning": "Here, \"kitchen\" means the room where food is made",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -53590,7 +53959,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -53605,6 +53975,13 @@
         "sentence": "The first test should answer whether repeat demand is strong enough before a lease and fit-out.",
         "contextMeaning": "Here, \"lease\" means agreement to rent a place for business",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "She has her ID card, lease, and phone.",
+        "contextMeaning": "Here, \"lease\" means a document for Sara's apartment",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -58067,6 +58444,29 @@
       }
     ]
   },
+  "map": {
+    "word": "map",
+    "definition": "A drawing that shows where places are",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Ken turns off Wi-Fi and opens a map.",
+        "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "mario": {
     "word": "mario",
     "definition": "A popular game character",
@@ -59581,7 +59981,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -59589,6 +59990,13 @@
         "sentence": "That is a meeting where company leaders explain future plans.",
         "contextMeaning": "Here, \"meeting\" means a time when people get together to talk about important things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "She sent a meeting file to the wrong team chat.",
+        "contextMeaning": "Here, \"meeting\" means a planned time when people talk together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -59985,6 +60393,29 @@
         "sentence": "A city might have a Chinese merchant, a Persian scholar, and an Arab traveler in the same market.",
         "contextMeaning": "Here, \"merchant\" means a person who buys and sells goods for a living",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "message": {
+    "word": "message",
+    "definition": "Information sent from one person to another",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "You can say, \"I sent the wrong file,\" \"I used the old version,\" or \"I missed the message.\" Start with the fact.",
+        "contextMeaning": "Here, \"message\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -60767,7 +61198,8 @@
       "episode-2026-05-21-a1-hotel-check-in",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -60803,6 +61235,13 @@
         "sentence": "A mistake can affect a home, a restaurant, a factory, or many people in one area.",
         "contextMeaning": "Here, \"mistake\" means a wrong action can hurt many places or people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "Is it hard to explain a mistake in English?",
+        "contextMeaning": "Here, \"mistake\" means sending the file to the wrong chat",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -61016,6 +61455,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "mobile data": {
+    "word": "mobile data",
+    "definition": "Internet from your phone company",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": []
   },
   "model": {
     "word": "model",
@@ -62253,7 +62707,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -62266,6 +62721,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This shows how memes can move from jokes into business, money, and public culture.",
+        "contextMeaning": "Here, \"move\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Worker: When did you move?",
         "contextMeaning": "Here, \"move\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -64865,7 +65327,10 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -64969,6 +65434,27 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "People now communicate with images, sounds, references, jokes, and short videos.",
+        "contextMeaning": "Here, \"now\" means right now, at this time",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "Now Lina asks about the next action.",
+        "contextMeaning": "Here, \"now\" means right now, at this time",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "He says, \"Now it works.",
+        "contextMeaning": "Here, \"now\" means right now, at this time",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "Emi says, \"I deleted the message and sent the correct file to the right chat.\" Now her manager knows the first repair is already done.",
         "contextMeaning": "Here, \"now\" means right now, at this time",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -65840,7 +66326,8 @@
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -65860,6 +66347,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Why do so many old stories send the main character away from home?",
+        "contextMeaning": "Here, \"old\" means having lived for many years",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "She asks, \"Does this mean my old address?\" The worker says, \"Yes.",
         "contextMeaning": "Here, \"old\" means having lived for many years",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -68001,7 +68495,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-supermarket-find-and-pay"
+      "episode-2026-05-21-a1-supermarket-find-and-pay",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -68009,6 +68504,13 @@
         "sentence": "The package is heavy, so she chooses a small bag.",
         "contextMeaning": "Here, \"package\" means the box or bag she wants to carry is heavy",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "A delivery problem can feel stressful because you cannot see the package.",
+        "contextMeaning": "Here, \"package\" means the item Lina ordered",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -69695,7 +70197,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -69834,6 +70337,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
+        "contextMeaning": "Here, \"people\" means many persons or humans",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "What documents do people often need at an office?",
         "contextMeaning": "Here, \"people\" means many persons or humans",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -70426,7 +70936,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -70434,6 +70945,13 @@
         "sentence": "Your phone vibrates.",
         "contextMeaning": "Here, \"phone\" means a device for talking to people",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "What do you do when your phone data stops working?",
+        "contextMeaning": "Here, \"phone\" means a device used to call or message people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -70646,6 +71164,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "pickup point": {
+    "word": "pickup point",
+    "definition": "A place to collect a package",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+    ],
+    "contexts": []
   },
   "picture": {
     "word": "picture",
@@ -70945,7 +71478,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -71021,6 +71555,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The Minotaur lives in the Labyrinth, a hidden place inside civilization.",
+        "contextMeaning": "Here, \"place\" means a location or area",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "package - something sent to you attempted delivery - the driver tried to deliver entrance - a door into a building pickup point - a place to collect a package confirm - check that something is correct",
         "contextMeaning": "Here, \"place\" means a location or area",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -73758,7 +74299,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -73773,6 +74315,13 @@
         "sentence": ": She confirms it to prevent confusion about dates and times.",
         "contextMeaning": "Here, \"prevent\" means to stop people from getting confused about dates and times",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "You can ask, \"How can I prevent this next time?\" or \"Should I use a checklist?\" Say the mistake: Worker: I sent the meeting file to the wrong chat.",
+        "contextMeaning": "Here, \"prevent\" means checking before sending next time",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -74207,7 +74756,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -74220,6 +74771,20 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "A problem appears: a monster threatens a city, a king demands an impossible task, a family is cursed, or a prophecy creates fear.",
+        "contextMeaning": "Here, \"problem\" means something difficult that needs a solution",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "What feels difficult when you explain a delivery problem?",
+        "contextMeaning": "Here, \"problem\" means something difficult that needs a solution",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Which is harder: explaining the problem or understanding the answer?",
         "contextMeaning": "Here, \"problem\" means something difficult that needs a solution",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -77050,7 +77615,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -77147,6 +77713,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "This structure mirrors real experience.",
+        "contextMeaning": "Here, \"real\" means true, not made up",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Test one real action, like opening a map, sending a message, or loading a website with Wi-Fi off.",
         "contextMeaning": "Here, \"real\" means true, not made up",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -77413,7 +77986,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
-      "episode-2026-05-21-a1-supermarket-find-and-pay"
+      "episode-2026-05-21-a1-supermarket-find-and-pay",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -77421,6 +77995,13 @@
         "sentence": "B: Here is your receipt and your bag.",
         "contextMeaning": "Here, \"receipt\" means this is a paper that shows you paid for something",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "You may need a ticket number, a stamp, or a receipt.",
+        "contextMeaning": "Here, \"receipt\" means sara may need proof after submitting",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -80677,7 +81258,8 @@
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -80706,6 +81288,13 @@
         "sentence": "A good internship is not about giving a student full responsibility too early.",
         "contextMeaning": "Here, \"responsibility\" means having the job to do everything by yourself too soon",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "Then she asks, \"Should I send a short note?\" This step shows responsibility.",
+        "contextMeaning": "Here, \"responsibility\" means emi explains and fixes the mistake",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -86137,6 +86726,29 @@
       }
     ]
   },
+  "sentence": {
+    "word": "sentence",
+    "definition": "A group of words with one full idea",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "What is a good first sentence after a mistake?",
+        "contextMeaning": "Here, \"sentence\" means a group of words with one full idea",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sentences": {
     "word": "sentences",
     "definition": "Groups of words that make a complete thought",
@@ -86648,6 +87260,29 @@
         "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruit became normal options.",
         "contextMeaning": "Here, \"sesame\" means black small seeds used as a flavor in Japan",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "setting": {
+    "word": "setting",
+    "definition": "An option on a phone",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "She says, \"Your plan has data, but the network setting is off.\" Ken asks, \"Do I need a new plan?\" The worker says, \"No.",
+        "contextMeaning": "Here, \"setting\" means the worker changes one setting",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -87638,6 +88273,29 @@
       }
     ]
   },
+  "shop": {
+    "word": "shop",
+    "definition": "To buy things in a store or online",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "You can ask for a new delivery time, pickup at a shop, or delivery to a neighbor.",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "shopping": {
     "word": "shopping",
     "definition": "Buying things from stores",
@@ -87719,7 +88377,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -87732,6 +88391,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "It can be a picture, a short video, a phrase, a sound, a dance, a joke, or even a style of speaking.",
+        "contextMeaning": "Here, \"short\" means not long",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "Then she asks, \"Should I send a short note?\" This step shows responsibility.",
         "contextMeaning": "Here, \"short\" means not long",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -88272,7 +88938,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -88285,6 +88952,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "On the left side, there is a woman crying and shouting.",
+        "contextMeaning": "Here, \"side\" means one part or surface of something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "Then she asks, \"Was the driver at the main door or the side door?\" This step matters because many delivery problems are address problems.",
         "contextMeaning": "Here, \"side\" means one part or surface of something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -88663,7 +89337,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -88732,6 +89407,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Odysseus needs intelligence and patience more than simple strength to return home.",
+        "contextMeaning": "Here, \"simple\" means easy to understand or do",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "A simple structure helps.",
         "contextMeaning": "Here, \"simple\" means easy to understand or do",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -89552,12 +90234,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "The work was heavy and slow.",
+        "contextMeaning": "Here, \"slow\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Office English is easier when you slow the task down.",
         "contextMeaning": "Here, \"slow\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -89638,7 +90328,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -89646,6 +90337,13 @@
         "sentence": "In Kofu, a small cafe can show you a lot about Yamanashi life.",
         "contextMeaning": "Here, \"small\" means not large in size",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "What kind of small mistakes happen at work?",
+        "contextMeaning": "Here, \"small\" means not large",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -90769,7 +91467,10 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -90803,6 +91504,27 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Achilles does not only want to live; he wants his life to mean something so great that future generations will speak his name.",
+        "contextMeaning": "Here, \"something\" means a thing, idea, or question",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "form - a paper or online page to fill in update - change old information lease - a rental agreement submit - give a form officially receipt - paper that proves something was received",
+        "contextMeaning": "Here, \"something\" means a thing, idea, or question",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "package - something sent to you attempted delivery - the driver tried to deliver entrance - a door into a building pickup point - a place to collect a package confirm - check that something is correct",
+        "contextMeaning": "Here, \"something\" means a thing, idea, or question",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "mistake - something done wrong impact - the result of a problem correct file - the right file prevent - stop from happening again responsibility - owning your action",
         "contextMeaning": "Here, \"something\" means a thing, idea, or question",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -96130,6 +96852,29 @@
       }
     ]
   },
+  "submit": {
+    "word": "submit",
+    "definition": "Give a form officially",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Confirm where to submit the form.",
+        "contextMeaning": "Here, \"submit\" means sara submits the form at the counter",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "subsidiary": {
     "word": "subsidiary",
     "definition": "A company controlled by another company",
@@ -99139,7 +99884,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2"
+      "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -99154,6 +99900,13 @@
         "sentence": "team went to Cuba.",
         "contextMeaning": "Here, \"team\" means a group of people who do something together",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "She sent a meeting file to the wrong team chat.",
+        "contextMeaning": "Here, \"team\" means a group of people working together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -101865,7 +102618,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -101880,6 +102634,13 @@
         "sentence": "One is a hotel, one is a train ticket, and one is a review page.",
         "contextMeaning": "Here, \"ticket\" means a paper that allows you to travel on a train",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "You may need a ticket number, a stamp, or a receipt.",
+        "contextMeaning": "Here, \"ticket\" means a paper or digital pass for travel or entry",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -102814,7 +103575,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -102857,6 +103619,13 @@
         "sentence": "A tool waits for you.",
         "contextMeaning": "Here, \"tool\" means a thing ready to help when you use it",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "She ordered a small kitchen tool.",
+        "contextMeaning": "Here, \"tool\" means a tool can be software the AI calls to search",
+        "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
       }
     ]
@@ -105761,7 +106530,9 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
     ],
     "contexts": [
       {
@@ -105788,6 +106559,20 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "What meme did you understand immediately the first time you saw it?",
+        "contextMeaning": "Here, \"understand\" means to know what something means",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Write your old address there.\" This is better than saying, \"I do not understand everything.\" Choose one box or one word.",
+        "contextMeaning": "Here, \"understand\" means to know what something means",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "She says, \"My package did not arrive.\" Then she adds one detail: \"The tracking page says delivery was attempted at 2:15.\" This order helps the worker understand quickly.",
         "contextMeaning": "Here, \"understand\" means to know what something means",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -105860,7 +106645,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -105868,6 +106654,13 @@
         "sentence": "Because the seller understands the gap, the next step is clear.",
         "contextMeaning": "Here, \"understands\" means knows and comprehends the customer's situation or problem",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "She says, \"I need to update my address.\" The worker understands the main purpose.",
+        "contextMeaning": "Here, \"understands\" means to know what something means",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -106482,7 +107275,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -106511,6 +107305,13 @@
         "sentence": "Please update the schedule note.\" Emi says, \"Thank you.",
         "contextMeaning": "Here, \"update\" means change the schedule note to show new information",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "She visits a city office because she needs to update her address.",
+        "contextMeaning": "Here, \"update\" means sara updates her address",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -106699,7 +107500,10 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -106733,6 +107537,27 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "[OPENING] Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Then Sara adds, \"I moved last week.\" This is a useful pattern: \"I need to...\" plus the action.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "Then give one useful detail.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "The worker asks, \"When did it start?\" Ken says, \"It started this morning after I restarted the phone.\" This detail is useful.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -108395,6 +109220,29 @@
       }
     ]
   },
+  "visits": {
+    "word": "visits",
+    "definition": "To go to a place or person for a time",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "He visits a phone store and asks for help.",
+        "contextMeaning": "Here, \"visits\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "visual": {
     "word": "visual",
     "definition": "Related to what you can see",
@@ -109616,6 +110464,29 @@
         "sentence": "This matters because many people browse in a messy way.",
         "contextMeaning": "Here, \"way\" means the manner or style in which something is done",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "weak": {
+    "word": "weak",
+    "definition": "Not strong",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "You may worry about sounding rude, weak, or confused.",
+        "contextMeaning": "Here, \"weak\" means not strong",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -110870,6 +111741,29 @@
       }
     ]
   },
+  "wi-fi": {
+    "word": "wi-fi",
+    "definition": "Internet from a router",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "His phone can call, but mobile data does not work outside Wi-Fi.",
+        "contextMeaning": "Here, \"wi-fi\" means ken turns it off to test data",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "wider": {
     "word": "wider",
     "definition": "More big from side to side",
@@ -111447,7 +112341,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -111484,6 +112379,13 @@
         "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "Write your old address there.\" This is better than saying, \"I do not understand everything.\" Choose one box or one word.",
+        "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -111503,7 +112405,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -111547,6 +112450,13 @@
         "contextMeaning": "Here, \"words\" means a small piece of language with meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Phone problems can be hard because workers may use technical words.",
+        "contextMeaning": "Here, \"words\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -111568,7 +112478,9 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
@@ -111623,6 +112535,20 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The hero leaves normal life and enters a dangerous space where ordinary rules no longer work.",
+        "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "His phone can call, but mobile data does not work outside Wi-Fi.",
+        "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "What kind of small mistakes happen at work?",
         "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -111686,12 +112612,44 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "A worker may have too many tasks.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
+        "sentence": "The page may have many boxes, and the office worker may speak quickly.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+        "sentence": "She says, \"My package did not arrive.\" Then she adds one detail: \"The tracking page says delivery was attempted at 2:15.\" This order helps the worker understand quickly.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "He says, \"Calls work, but mobile data does not work.\" This is better than \"My phone is broken.\" It tells the worker which part has a problem.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+        "sentence": "You can ask, \"How can I prevent this next time?\" or \"Should I use a checklist?\" Say the mistake: Worker: I sent the meeting file to the wrong chat.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -111858,7 +112816,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
@@ -111878,6 +112837,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Later, poets such as Homer and Hesiod shaped these older traditions into famous literary works.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "You can separate phone functions with \"but.\" For example, \"Wi-Fi works, but mobile data does not work.\" Or, \"Messages work, but calls do not work.\" This helps the worker test the right thing.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112867,12 +113833,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-30-a2-phone-store-explain-data-problem"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "We may think, \"I just did this yesterday.\" That is why the story stays famous.",
+        "contextMeaning": "Here, \"yesterday\" means the day before today",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
+        "sentence": "Say, \"It started yesterday,\" \"It started after the update,\" or \"I noticed it on the train.\" A time detail is better than a long guess.",
         "contextMeaning": "Here, \"yesterday\" means the day before today",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
