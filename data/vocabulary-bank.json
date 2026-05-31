@@ -2716,12 +2716,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "An intern will probably not do dangerous technical work alone.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A burger alone may feel cheap, but a burger with fries and a drink may feel like a better deal.",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -3261,6 +3269,29 @@
         "sentence": "Flash was presented as fast enough for interactive products and capable enough for agentic coding, multimodal understanding, document analysis, and complex enterprise tasks.",
         "contextMeaning": "Here, \"analysis\" means careful study of papers and information",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "anchoring": {
+    "word": "anchoring",
+    "definition": "Judging one price by comparing it with another price",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Restaurants may also use anchoring.",
+        "contextMeaning": "Here, \"anchoring\" means an expensive item can make other items seem cheaper",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -9367,6 +9398,29 @@
       }
     ]
   },
+  "better": {
+    "word": "better",
+    "definition": "More good than before or than something else",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Because of this, restaurants design menus to make some choices feel safer, more exciting, or better value.",
+        "contextMeaning": "Here, \"better\" means more good than before or than something else",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "betting": {
     "word": "betting",
     "definition": "Thinking something will happen or be true",
@@ -12105,7 +12159,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -12127,6 +12182,13 @@
         "sentence": "Honda gave this update at its yearly business briefing.",
         "contextMeaning": "Here, \"business\" means information about the company's work and plans",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A good menu can help customers choose and help the business survive.",
+        "contextMeaning": "Here, \"business\" means work that involves buying or selling things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -12651,7 +12713,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -12679,6 +12742,13 @@
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "How can you sound calm and responsible?",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A cafe may use white, green, and wood colors to feel calm or natural.",
+        "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
@@ -16181,7 +16251,8 @@
     "episodes": [
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -16201,6 +16272,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Theseus defeats the Minotaur, but he also makes careless choices that hurt people close to him.",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Because of this, restaurants design menus to make some choices feel safer, more exciting, or better value.",
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -16224,7 +16302,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -16275,6 +16354,13 @@
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "They scan, compare, feel hungry, and choose quickly.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -16289,12 +16375,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-international-transport-get-to-the-right-place",
         "sentence": "At the train ticket machine, she chooses English.",
+        "contextMeaning": "Here, \"chooses\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "menu psychology - how menu design affects customer choices influence - to change what someone thinks or chooses uncertainty - the feeling of not being sure social proof - feeling safer because other people like something perceived value - how useful or fair a price feels urgency - the feeling that you should act now anchoring - judging one price by comparing it with another price expectation - what you imagine will happen",
         "contextMeaning": "Here, \"chooses\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -23519,6 +23613,52 @@
       }
     ]
   },
+  "creamy": {
+    "word": "creamy",
+    "definition": "Smooth, soft, and rich like cream",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Words like \"homemade,\" \"local,\" \"fresh,\" \"crispy,\" \"creamy,\" and \"slow-cooked\" help customers imagine texture, quality, and care.",
+        "contextMeaning": "Here, \"creamy\" means smooth, soft, and rich like cream",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "create": {
+    "word": "create",
+    "definition": "To make something new",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "They also create an image of the restaurant.",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "created": {
     "word": "created",
     "definition": "Made or brought into being",
@@ -23586,7 +23726,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -23599,6 +23740,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The hero is exceptional, but exceptional power creates danger.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The food may be similar, but the second name creates a stronger picture.",
         "contextMeaning": "Here, \"creates\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24304,7 +24452,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -24324,6 +24473,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "Main problem: Customer: Calls work, but mobile data does not work.",
+        "contextMeaning": "Here, \"customer\" means a person who buys something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A customer may be hungry, tired, with friends, or unsure about unfamiliar dishes.",
         "contextMeaning": "Here, \"customer\" means a person who buys something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24387,6 +24543,52 @@
         "sentence": "It can mean a sales or customer-service company connected to Tokyo Gas.",
         "contextMeaning": "Here, \"customer-service\" means a company that helps customers of Tokyo Gas",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "customer's": {
+    "word": "customer's",
+    "definition": "A person who buys something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The food has not changed yet, but the customer's expectations have already changed.",
+        "contextMeaning": "Here, \"customer's\" means a person who buys something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "customers": {
+    "word": "customers",
+    "definition": "A person who buys something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "If you owned a cafe, which dish would you want customers to notice first?",
+        "contextMeaning": "Here, \"customers\" means a person who buys something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -26686,7 +26888,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -26709,6 +26912,13 @@
         "contextMeaning": "Here, \"dessert\" means sweet food eaten after a meal",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Instead of choosing a main dish, side dish, drink, and dessert separately, the customer can choose one set.",
+        "contextMeaning": "Here, \"dessert\" means sweet food eaten after a meal",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -26725,7 +26935,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -26745,6 +26956,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Long before gelato, people already used natural ice and snow to cool sweet drinks and desserts.",
+        "contextMeaning": "Here, \"desserts\" means sweet foods eaten after a meal",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "In Japan, cafes and restaurants often use sakura desserts in spring, peach drinks in summer, chestnut sweets in autumn, and warm soups in winter.",
         "contextMeaning": "Here, \"desserts\" means sweet foods eaten after a meal",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -27237,7 +27455,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -27285,6 +27504,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "Some offices have different counters.",
+        "contextMeaning": "Here, \"different\" means not the same",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Softer colors create a different message.",
         "contextMeaning": "Here, \"different\" means not the same",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -30538,12 +30764,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This is why memes feel easy to understand.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "In that moment, the menu can reduce stress by showing clear categories, popular items, or easy combinations.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -33150,7 +33384,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -33163,6 +33398,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "It can be a picture, a short video, a phrase, a sound, a dance, a joke, or even a style of speaking.",
+        "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Even prices are designed carefully.",
         "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -37328,7 +37570,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -37418,6 +37661,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This is why memes feel easy to understand.",
+        "contextMeaning": "Here, \"feel\" means to notice something in your body or emotions",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "What makes a menu feel expensive, cheap, friendly, or confusing?",
         "contextMeaning": "Here, \"feel\" means to notice something in your body or emotions",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -37641,7 +37891,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -37705,6 +37956,13 @@
         "sentence": "That is why the Silk Road still feels important today.",
         "contextMeaning": "Here, \"feels\" means it seems or is still important today",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Colors can affect how a menu feels.",
+        "contextMeaning": "Here, \"feels\" means to notice something in your body or emotions",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -39926,7 +40184,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -39941,6 +40200,13 @@
         "sentence": "Farmers grow food on rich land, and fishing towns bring in seafood from the coast.",
         "contextMeaning": "Here, \"food\" means things that are grown on the land for people to eat",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Have you ever ordered food because the photo looked delicious?",
+        "contextMeaning": "Here, \"food\" means things people eat",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -40898,7 +41164,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -40906,6 +41173,13 @@
         "sentence": "First, remember four useful food words: crispy, rich, light, and fresh.",
         "contextMeaning": "Here, \"fresh\" means food that is newly made or prepared",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "If a dish looks colorful, fresh, and warm, the customer can imagine eating it more easily.",
+        "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -41092,6 +41366,29 @@
         "sentence": "This makes the conversation friendly and easy.",
         "contextMeaning": "Here, \"friendly\" means talking that feels kind and happy",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "friends": {
+    "word": "friends",
+    "definition": "A person you like and trust",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A customer may be hungry, tired, with friends, or unsure about unfamiliar dishes.",
+        "contextMeaning": "Here, \"friends\" means a person you like and trust",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -42632,6 +42929,29 @@
       }
     ]
   },
+  "goals": {
+    "word": "goals",
+    "definition": "Something you want to reach or achieve",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The restaurant also has business goals.",
+        "contextMeaning": "Here, \"goals\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "goddess": {
     "word": "goddess",
     "definition": "A very special woman who is like a god",
@@ -43797,6 +44117,29 @@
         "sentence": "The local partner could manage a pop-up or shared cafe event, while the Japanese company provides brand design, menu guidance, training, product supply, and quality standards.",
         "contextMeaning": "Here, \"guidance\" means help with making menus",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "guide": {
+    "word": "guide",
+    "definition": "Help that shows you what to do",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "It is also a quiet guide.",
+        "contextMeaning": "Here, \"guide\" means help that shows you what to do",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -45289,7 +45632,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -45323,6 +45667,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "People try to escape them, but their actions often help the prophecy come true.",
+        "contextMeaning": "Here, \"help\" means to make something easier for someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A good menu can help customers choose and help the business survive.",
         "contextMeaning": "Here, \"help\" means to make something easier for someone",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -45617,7 +45968,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -45630,6 +45982,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "A simple structure helps.",
+        "contextMeaning": "Here, \"helps\" means to make something easier for someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Menu psychology helps us become smarter customers.",
         "contextMeaning": "Here, \"helps\" means to make something easier for someone",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -47022,7 +47381,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -47049,6 +47409,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
+        "contextMeaning": "Here, \"human\" means a person",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "It sits between business and human behavior.",
         "contextMeaning": "Here, \"human\" means a person",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -47340,7 +47707,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -47423,6 +47791,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "Worker: Good idea.",
+        "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The key idea is perceived value.",
         "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -48129,7 +48504,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -48163,6 +48539,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The first important idea is that Greek heroism is complex.",
+        "contextMeaning": "Here, \"important\" means having strong value or meaning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The important skill is noticing how the design works.",
         "contextMeaning": "Here, \"important\" means having strong value or meaning",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -49130,7 +49513,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -49143,6 +49527,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "In China, historical sources also mention crushed ice with sweet ingredients.",
+        "contextMeaning": "Here, \"ingredients\" means things used to make food",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Sometimes they are dishes the restaurant wants to sell more of because they are profitable, easy to prepare, or made with ingredients that need to be used soon.",
         "contextMeaning": "Here, \"ingredients\" means things used to make food",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -52007,7 +52398,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -52034,6 +52426,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This teaches an important lesson: memes do not always keep the same meaning.",
+        "contextMeaning": "Here, \"keep\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The price is still visible, but the design tries to keep attention on the food.",
         "contextMeaning": "Here, \"keep\" means to continue to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -55575,7 +55974,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -55590,6 +55990,13 @@
         "sentence": "This made the cities lively and strong.",
         "contextMeaning": "Here, \"lively\" means full of activity, energy, and excitement",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "These colors can make the restaurant feel casual and lively.",
+        "contextMeaning": "Here, \"lively\" means full of life and energy",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -55723,7 +56130,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -55743,6 +56151,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "A story could also change because each city wanted to connect a famous hero to its own tombs, temples, families, or local history.",
+        "contextMeaning": "Here, \"local\" means from this area",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "\"Slow-cooked spicy chicken curry with local vegetables\" sounds richer and more special.",
         "contextMeaning": "Here, \"local\" means from this area",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -60351,6 +60766,21 @@
       }
     ]
   },
+  "menu psychology": {
+    "word": "menu psychology",
+    "definition": "How menu design affects customer choices",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": []
+  },
   "merchandise": {
     "word": "merchandise",
     "definition": "Things you can buy with pictures or names",
@@ -61661,7 +62091,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -61669,6 +62100,13 @@
         "sentence": "It may sound like a story only for tech experts, but it is also a story about promises, trust, money, and change.",
         "contextMeaning": "Here, \"money\" means the financial resources or funds involved in the situation",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Set meals can also make customers spend more money without feeling bad.",
+        "contextMeaning": "Here, \"money\" means what people use to buy things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -65330,7 +65768,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -65455,6 +65894,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "Emi says, \"I deleted the message and sent the correct file to the right chat.\" Now her manager knows the first repair is already done.",
+        "contextMeaning": "Here, \"now\" means right now, at this time",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "If a menu says \"Only this month\" or \"Summer Special,\" customers may feel they should order now before the chance disappears.",
         "contextMeaning": "Here, \"now\" means right now, at this time",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -66791,7 +67237,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -66827,6 +67274,13 @@
         "sentence": "You have six tabs open.",
         "contextMeaning": "Here, \"open\" means visible or active on the computer",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "When you open a restaurant menu, where do your eyes usually go first?",
+        "contextMeaning": "Here, \"open\" means not closed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -70198,7 +70652,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -70347,8 +70802,30 @@
         "contextMeaning": "Here, \"people\" means many persons or humans",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Photos are powerful because people eat with their eyes first.",
+        "contextMeaning": "Here, \"people\" means many persons or humans",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
+  },
+  "perceived value": {
+    "word": "perceived value",
+    "definition": "How useful or fair a price feels",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": []
   },
   "percent": {
     "word": "percent",
@@ -70967,12 +71444,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "For example, imagine a photo of a confused cat.",
+        "contextMeaning": "Here, \"photo\" means a picture taken with a camera",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Have you ever ordered food because the photo looked delicious?",
         "contextMeaning": "Here, \"photo\" means a picture taken with a camera",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -70998,6 +71483,29 @@
         "sentence": "Reports say the collection includes early scripts, storyboards, handwritten notes, and photographs.",
         "contextMeaning": "Here, \"photographs\" means photos kept in the collection",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "photos": {
+    "word": "photos",
+    "definition": "A picture taken with a camera",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The page design, photos, colors, names, labels, and prices can push our attention toward some dishes and away from others.",
+        "contextMeaning": "Here, \"photos\" means a picture taken with a camera",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -71479,7 +71987,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -71562,6 +72071,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "package - something sent to you attempted delivery - the driver tried to deliver entrance - a door into a building pickup point - a place to collect a package confirm - check that something is correct",
+        "contextMeaning": "Here, \"place\" means a location or area",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "If a restaurant wants to sell a dish, it may place it in one of these strong positions.",
         "contextMeaning": "Here, \"place\" means a location or area",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -72882,6 +73398,29 @@
         "sentence": "Gold Coast may be better for tourism, design events, pop-ups, and partner-led activity.",
         "contextMeaning": "Here, \"pop-ups\" means temporary shops or events for a short time",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "popular": {
+    "word": "popular",
+    "definition": "Liked by many people",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "In that moment, the menu can reduce stress by showing clear categories, popular items, or easy combinations.",
+        "contextMeaning": "Here, \"popular\" means liked by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -76796,7 +77335,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -76853,6 +77393,13 @@
         "sentence": "Some old houses now live a second life as quiet cafes.",
         "contextMeaning": "Here, \"quiet\" means calm and without much noise",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "It is also a quiet guide.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -77494,7 +78041,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -77502,6 +78050,13 @@
         "sentence": "Would you let AI read your tabs to save time?",
         "contextMeaning": "Here, \"read\" means to look at words and understand",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Most customers do not read every word carefully.",
+        "contextMeaning": "Here, \"read\" means to look at words and understand them",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -81377,6 +81932,29 @@
       }
     ]
   },
+  "restaurant": {
+    "word": "restaurant",
+    "definition": "A place where people buy and eat meals",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "When you open a restaurant menu, where do your eyes usually go first?",
+        "contextMeaning": "Here, \"restaurant\" means a place where people buy and eat meals",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "restaurants": {
     "word": "restaurants",
     "definition": "A place where people buy and eat meals",
@@ -81388,12 +81966,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "In the 20th and 21st centuries, gelato spread through travel, restaurants, and migration.",
+        "contextMeaning": "Here, \"restaurants\" means a place where people buy and eat meals",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Because of this, restaurants design menus to make some choices feel safer, more exciting, or better value.",
         "contextMeaning": "Here, \"restaurants\" means a place where people buy and eat meals",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -83976,7 +84562,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -83996,6 +84583,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The hero becomes heroic only by crossing a border between safe life and the unknown.",
+        "contextMeaning": "Here, \"safe\" means free from danger",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Words like \"Chef's Special,\" \"Most Popular,\" or \"Recommended\" tell the customer that the dish is a safe choice.",
         "contextMeaning": "Here, \"safe\" means free from danger",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -85685,7 +86279,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -85705,6 +86300,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruit became normal options.",
+        "contextMeaning": "Here, \"seasonal\" means happening at a time of year",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Seasonal menus also make a restaurant feel fresh.",
         "contextMeaning": "Here, \"seasonal\" means happening at a time of year",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -88939,7 +89541,8 @@
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -88959,6 +89562,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "Then she asks, \"Was the driver at the main door or the side door?\" This step matters because many delivery problems are address problems.",
+        "contextMeaning": "Here, \"side\" means one part or surface of something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Instead of choosing a main dish, side dish, drink, and dessert separately, the customer can choose one set.",
         "contextMeaning": "Here, \"side\" means one part or surface of something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -89338,7 +89948,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -89414,6 +90025,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "A simple structure helps.",
+        "contextMeaning": "Here, \"simple\" means easy to understand or do",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The photo answers a simple question: \"What will I get?\" However, too many photos can change the feeling of the restaurant.",
         "contextMeaning": "Here, \"simple\" means easy to understand or do",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -90859,6 +91477,21 @@
       }
     ]
   },
+  "social proof": {
+    "word": "social proof",
+    "definition": "Feeling safer because other people like something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": []
+  },
   "socially": {
     "word": "socially",
     "definition": "About people and how they live or act",
@@ -91470,7 +92103,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -91525,6 +92159,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "mistake - something done wrong impact - the result of a problem correct file - the right file prevent - stop from happening again responsibility - owning your action",
+        "contextMeaning": "Here, \"something\" means a thing, idea, or question",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "This is social proof: people feel more comfortable choosing something that other people already like.",
         "contextMeaning": "Here, \"something\" means a thing, idea, or question",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -92618,7 +93259,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -92631,6 +93273,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
+        "contextMeaning": "Here, \"special\" means different in a meaningful way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Words like \"Chef's Special,\" \"Most Popular,\" or \"Recommended\" tell the customer that the dish is a safe choice.",
         "contextMeaning": "Here, \"special\" means different in a meaningful way",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -97393,6 +98042,29 @@
       }
     ]
   },
+  "summer": {
+    "word": "summer",
+    "definition": "The warm season of the year",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "If a menu says \"Only this month\" or \"Summer Special,\" customers may feel they should order now before the chance disappears.",
+        "contextMeaning": "Here, \"summer\" means the warm season of the year",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sunday": {
     "word": "sunday",
     "definition": "The day after Saturday and before Monday",
@@ -99660,12 +100332,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "People could buy and taste it in shared spaces.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The offer is not only about taste.",
         "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -100877,12 +101557,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "It has a denser texture.",
+        "contextMeaning": "Here, \"texture\" means how something feels in your mouth or hand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Words like \"homemade,\" \"local,\" \"fresh,\" \"crispy,\" \"creamy,\" and \"slow-cooked\" help customers imagine texture, quality, and care.",
         "contextMeaning": "Here, \"texture\" means how something feels in your mouth or hand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -106532,7 +107220,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -106573,6 +107262,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "She says, \"My package did not arrive.\" Then she adds one detail: \"The tracking page says delivery was attempted at 2:15.\" This order helps the worker understand quickly.",
+        "contextMeaning": "Here, \"understand\" means to know what something means",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A family restaurant or tourist restaurant may use many photos because it wants customers to understand quickly.",
         "contextMeaning": "Here, \"understand\" means to know what something means",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -107404,7 +108100,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -107412,6 +108109,13 @@
         "sentence": "The language is practical: location, problem, urgency, access, and appointment time.",
         "contextMeaning": "Here, \"urgency\" means how quickly the problem must be fixed or helped",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Limited-time offers work because they create urgency.",
+        "contextMeaning": "Here, \"urgency\" means limited-time offers create urgency",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -107503,7 +108207,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -107558,6 +108263,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "The worker asks, \"When did it start?\" Ken says, \"It started this morning after I restarted the phone.\" This detail is useful.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "It is how useful the price feels.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -109794,7 +110506,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -109816,6 +110529,13 @@
         "sentence": "They do not want to buy a new one yet.",
         "contextMeaning": "Here, \"want\" means they do not wish to get a new machine right now",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "If you owned a cafe, which dish would you want customers to notice first?",
+        "contextMeaning": "Here, \"want\" means to wish to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -109888,7 +110608,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -109911,6 +110632,13 @@
         "contextMeaning": "Here, \"wants\" means honda wishes to have these types of cars",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "A family restaurant or tourist restaurant may use many photos because it wants customers to understand quickly.",
+        "contextMeaning": "Here, \"wants\" means to wish to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -109925,12 +110653,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "A clean room, warm food, safe home, and steady job all have value.",
+        "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "If a dish looks colorful, fresh, and warm, the customer can imagine eating it more easily.",
         "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -110679,12 +111415,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "These examples show a shared human idea: people wanted a cold sweet option in warm weather, especially during celebrations.",
+        "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Seasonal items connect food with weather, mood, and memory.",
         "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -112342,7 +113086,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -112386,6 +113131,13 @@
         "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Most customers do not read every word carefully.",
+        "contextMeaning": "Here, \"word\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -112406,7 +113158,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -112457,6 +113210,13 @@
         "contextMeaning": "Here, \"words\" means a small piece of language with meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Words like \"Chef's Special,\" \"Most Popular,\" or \"Recommended\" tell the customer that the dish is a safe choice.",
+        "contextMeaning": "Here, \"words\" means a small piece of language with meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -112480,7 +113240,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -112549,6 +113310,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "What kind of small mistakes happen at work?",
+        "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "Limited-time offers work because they create urgency.",
         "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112817,7 +113585,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -112844,6 +113613,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "You can separate phone functions with \"but.\" For example, \"Wi-Fi works, but mobile data does not work.\" Or, \"Messages work, but calls do not work.\" This helps the worker test the right thing.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The important skill is noticing how the design works.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
