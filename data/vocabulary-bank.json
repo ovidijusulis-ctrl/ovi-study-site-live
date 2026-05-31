@@ -1386,7 +1386,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -1400,6 +1401,13 @@
         "episodeId": "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
         "sentence": "Government policy can change too, and that can affect what buyers do.",
         "contextMeaning": "Here, \"affect\" means it can change what people who buy things decide to do",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "The way these choices are organized can affect what you notice, what you ignore, and what feels easy to select.",
+        "contextMeaning": "Here, \"affect\" means change what you see, ignore, or find easy to pick",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -5988,6 +5996,29 @@
       }
     ]
   },
+  "attract": {
+    "word": "attract",
+    "definition": "To make someone look or pay attention",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "The first few options may attract more attention simply because they appear first.",
+        "contextMeaning": "Here, \"attract\" means first options get more attention because they come first",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "attracted": {
     "word": "attracted",
     "definition": "Feeling interested or liking something a lot",
@@ -6006,6 +6037,29 @@
         "episodeId": "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
         "sentence": "A business owner is attracted by the Gold Coast lifestyle, tourism, and growth, but wants to avoid making a decision only because the place feels exciting.",
         "contextMeaning": "Here, \"attracted\" means the business owner likes the Gold Coast for many reasons",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "attractive": {
+    "word": "attractive",
+    "definition": "Nice or good to look at or choose",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Small details such as the order of options, the words on a button, or a message about popularity can make one choice feel more attractive than another.",
+        "contextMeaning": "Here, \"attractive\" means make one choice look better or nicer than another",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -6475,7 +6529,8 @@
     "episodes": [
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -6496,6 +6551,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "Neither system is automatically \"better.\" They solve different problems.",
         "contextMeaning": "Here, \"automatically\" means not always true that one system is better by itself",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "The default may be helpful, but it should not automatically become your choice.",
+        "contextMeaning": "Here, \"automatically\" means becoming your choice without you thinking",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -6566,9 +6628,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "\"Learn more\" suggests that there is additional information available before making a decision.",
+        "contextMeaning": "Here, \"available\" means ready to use or get",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
   },
   "average": {
     "word": "average",
@@ -12330,13 +12401,44 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-phone-problems-english-everyday-help"
+      "episode-2026-05-14-phone-problems-english-everyday-help",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-phone-problems-english-everyday-help",
         "sentence": "Tech Helper: Try holding the power button.",
         "contextMeaning": "Here, \"button\" means the small part to press to turn the phone on/off",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Small details such as the order of options, the words on a button, or a message about popularity can make one choice feel more attractive than another.",
+        "contextMeaning": "Here, \"button\" means words on a small thing you press on a screen",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "buttons": {
+    "word": "buttons",
+    "definition": "Small parts you press to do something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Consider two buttons.",
+        "contextMeaning": "Here, \"buttons\" means two things you can press",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -13496,7 +13598,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -13573,6 +13676,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "It is about helping the student observe real work carefully and ask better questions.",
         "contextMeaning": "Here, \"carefully\" means watching real work with attention to learn well",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Think more carefully about your own decisions when using digital products.",
+        "contextMeaning": "Here, \"carefully\" means think with more attention about your choices using digital things",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -15053,7 +15163,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -15179,6 +15290,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The final question is not only, \"Is Tokyo Gas famous?\" or \"Is gas safe forever?\" A better final question is: \"Will this internship help my child understand real work, energy systems, safety, customers, teamwork, and the future?\" If the answer is yes, the internship may be valuable even if the energy industry changes later.",
         "contextMeaning": "Here, \"changes\" means the energy industry may become different in the future",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Even though the options may be similar, the label changes the feeling people have about them.",
+        "contextMeaning": "Here, \"changes\" means makes people feel different about the options",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -16292,7 +16410,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -16322,6 +16441,13 @@
         "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "What helps you feel confident when making a choice online?",
+        "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -16339,7 +16465,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -16369,6 +16496,13 @@
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "When you use an app, visit a website, or look at a menu, you are often presented with many choices.",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -16390,7 +16524,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -16445,6 +16580,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "They scan, compare, feel hungry, and choose quickly.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Do you usually choose the first option you see, or do you compare several options?",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -16579,13 +16721,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
         "sentence": "Here, that simply means coffee chosen and prepared with extra care.",
         "contextMeaning": "Here, \"chosen\" means coffee picked carefully to make it special",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Many people accept the default option simply because it is already chosen.",
+        "contextMeaning": "Here, \"chosen\" means already picked option that people accept",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -19343,12 +19493,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "A common weakness is hubris, excessive pride that makes a person forget human limits and act as if they are equal to the gods.",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "For example, if an app already has a common setting selected, users can continue without spending extra time choosing.",
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -23798,12 +23956,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "They also create an image of the restaurant.",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "One says \"Start now.\" The other says \"Learn more.\" Both may lead to useful information, but they create different impressions.",
         "contextMeaning": "Here, \"create\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -25456,12 +25622,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "You can say, \"It may delay the report,\" \"It may confuse the customer,\" or \"It may make the numbers look wrong.\" This helps your manager decide what to do next.",
+        "contextMeaning": "Here, \"decide\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Understanding how design guides choices does not remove your ability to decide.",
         "contextMeaning": "Here, \"decide\" means to make a choice",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -25627,13 +25801,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "The future worker is a director, tester, editor, and ethical decision-maker.",
         "contextMeaning": "Here, \"decision-maker\" means someone who decides what is right and best",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Learning to recognize these design features can help you become a more thoughtful and confident decision-maker.",
+        "contextMeaning": "Here, \"decision-maker\" means a person who makes choices and decides what to do",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -25872,6 +26054,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "default option": {
+    "word": "default option",
+    "definition": "An option that is already selected or presented as the normal choice",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": []
   },
   "defeat": {
     "word": "defeat",
@@ -26645,7 +26842,8 @@
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -26687,6 +26885,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "You describe what you want in normal language, and AI creates a first version.",
         "contextMeaning": "Here, \"describe\" means say what you want using normal words",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Because labels can influence decisions, it is useful to focus on the actual option rather than only the words used to describe it.",
+        "contextMeaning": "Here, \"describe\" means say words about the option to explain it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -26866,6 +27071,29 @@
         "sentence": "Traders crossed deserts, mountains, and long empty areas.",
         "contextMeaning": "Here, \"deserts\" means large, dry areas of land with sand and very little rain",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "deserve": {
+    "word": "deserve",
+    "definition": "To be good enough for something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "A good habit is to look beyond the first option and check whether other choices deserve attention.",
+        "contextMeaning": "Here, \"deserve\" means other choices should get attention too",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -27750,7 +27978,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -27763,6 +27992,13 @@
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "But some people see him differently.",
+        "contextMeaning": "Here, \"differently\" means in a different way",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Urgency messages work differently.",
         "contextMeaning": "Here, \"differently\" means in a different way",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -28738,7 +28974,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -28752,6 +28989,13 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "The first audio glasses are expected before display glasses.",
         "contextMeaning": "Here, \"display\" means glasses that show images or information",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Menus, apps, and websites do more than display information.",
+        "contextMeaning": "Here, \"display\" means show information on menus, apps, and websites",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -30947,13 +31191,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
         "sentence": "Which country situation feels easiest for you?",
         "contextMeaning": "Here, \"easiest\" means which country is the most simple for you",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "People often focus on what is easiest to see.",
+        "contextMeaning": "Here, \"easiest\" means what is simple to notice or look at",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -31034,7 +31286,8 @@
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -31054,6 +31307,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "In that moment, the menu can reduce stress by showing clear categories, popular items, or easy combinations.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "The way these choices are organized can affect what you notice, what you ignore, and what feels easy to select.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -33791,7 +34051,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -33966,6 +34227,13 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "Staff: Is it difficult every time?",
         "contextMeaning": "Here, \"every\" means is it hard each time it happens",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "They help people move through a process more quickly because they do not need to make every decision from the beginning.",
+        "contextMeaning": "Here, \"every\" means not needing to make all decisions from the start",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -37354,7 +37622,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -37424,6 +37693,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "The main change is not that AI can write faster than a person.",
         "contextMeaning": "Here, \"faster\" means doing writing in less time than a person can",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "This can make the experience easier and faster.",
+        "contextMeaning": "Here, \"faster\" means making the experience quicker to do",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -39796,7 +40072,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -39831,6 +40108,13 @@
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "Ichinose connects kawara products with a coffee/cafe style concept, so the story fits a showroom-cafe.",
         "contextMeaning": "Here, \"fits\" means the story matches well with the showroom-cafe idea",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "They help people notice whether they are making a decision because it truly fits their needs or because the design is guiding them toward it.",
+        "contextMeaning": "Here, \"fits\" means is right for what people need",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -43242,7 +43526,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -43250,6 +43535,13 @@
         "sentence": "A Canadian company called Clio has reached a big business goal.",
         "contextMeaning": "Here, \"goal\" means something the company wanted to achieve",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "The goal is not to avoid apps, websites, or menus.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -43265,12 +43557,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "The restaurant also has business goals.",
+        "contextMeaning": "Here, \"goals\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "The more aware you become of these influences, the easier it is to make decisions that match your own goals.",
         "contextMeaning": "Here, \"goals\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -44534,12 +44834,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "It is a better habit.",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "A good habit is to look beyond the first option and check whether other choices deserve attention.",
         "contextMeaning": "Here, \"habit\" means a usual action you do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -44988,7 +45296,8 @@
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -45051,6 +45360,13 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "What problems can happen in an apartment?",
         "contextMeaning": "Here, \"happen\" means what problems can come in an apartment",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "This can happen even when those options are useful or important.",
+        "contextMeaning": "Here, \"happen\" means this can occur even if options are good",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -45195,7 +45511,8 @@
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -45274,6 +45591,13 @@
         "contextMeaning": "Here, \"happens\" means what takes place when someone has too much power or feeling",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "This happens because attention is limited.",
+        "contextMeaning": "Here, \"happens\" means it takes place because people cannot pay attention to everything",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -45290,7 +45614,8 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -45311,6 +45636,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They ask a harder what happens when a human being has more power, passion, or fame than ordinary life can safely contain?",
         "contextMeaning": "Here, \"harder\" means they ask a more difficult question about what happens",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "On the other hand, options that are hidden, lower on the page, or harder to access may receive less attention.",
+        "contextMeaning": "Here, \"harder\" means options that are more difficult to reach",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -46612,7 +46944,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -46640,6 +46973,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The Minotaur lives in the Labyrinth, a hidden place inside civilization.",
         "contextMeaning": "Here, \"hidden\" means a place that is secret or hard to find",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "On the other hand, options that are hidden, lower on the page, or harder to access may receive less attention.",
+        "contextMeaning": "Here, \"hidden\" means options that are not easy to find",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -48650,13 +48990,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "A Brisbane showroom-cafe, supported by Gold Coast relationships, looks more realistic than immediate roof-tile import.",
         "contextMeaning": "Here, \"immediate\" means bringing roof tiles right away without waiting",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "\"Start now\" suggests immediate action.",
+        "contextMeaning": "Here, \"immediate\" means action that should start without any delay",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -50532,7 +50880,8 @@
     "episodes": [
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "2026-05-25-a1-grammar-core-gaps-test"
+      "2026-05-25-a1-grammar-core-gaps-test",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -50546,6 +50895,13 @@
         "episodeId": "2026-05-25-a1-grammar-core-gaps-test",
         "sentence": "Part 4 checks daily habits, classroom instructions, can, time words, and small words like and, but, and or.",
         "contextMeaning": "Here, \"instructions\" means words that tell you how to do things in class",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Both social proof and urgency can be useful, but it is important to remember that they are influences, not instructions.",
+        "contextMeaning": "Here, \"instructions\" means rules or steps to follow, not just ideas",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -53349,13 +53705,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "What is more important in the AI age: knowing many facts or asking better questions?",
         "contextMeaning": "Here, \"knowing\" means having many facts in the time of AI",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Sometimes people appreciate knowing what others prefer.",
+        "contextMeaning": "Here, \"knowing\" means having information about what others like",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -53531,6 +53895,29 @@
       }
     ]
   },
+  "label": {
+    "word": "label",
+    "definition": "A word or phrase used to describe an option",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "For example, a menu item marked as \"popular\" may seem more trustworthy than an item with no label.",
+        "contextMeaning": "Here, \"label\" means a word or phrase used to describe an option",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "labeled": {
     "word": "labeled",
     "definition": "Put a name or sign on something",
@@ -53550,6 +53937,29 @@
         "sentence": "Is it enough for synthetic media to be labeled, or should some kinds of generated media be restricted before they spread?",
         "contextMeaning": "Here, \"labeled\" means marked so people know it is made by AI",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "labels": {
+    "word": "labels",
+    "definition": "A word or phrase used to describe an option",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Designers make choices about order, labels, pictures, warnings, and many other details.",
+        "contextMeaning": "Here, \"labels\" means label means a word or phrase used to describe an option",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -54460,6 +54870,29 @@
       }
     ]
   },
+  "learn": {
+    "word": "learn",
+    "definition": "To get knowledge or skill",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "One says \"Start now.\" The other says \"Learn more.\" Both may lead to useful information, but they create different impressions.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "learned": {
     "word": "learned",
     "definition": "Got new knowledge or information",
@@ -54601,7 +55034,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -54692,6 +55126,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "But the best question is not only, \"Is Tokyo Gas famous?\" A better question is, \"What exactly will my child see, learn, and practice during this internship?\" A famous company name can be useful, but a clear learning experience matters more.",
         "contextMeaning": "Here, \"learning\" means getting new knowledge or skills",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Learning to recognize these design features can help you become a more thoughtful and confident decision-maker.",
+        "contextMeaning": "Here, \"learning\" means getting better at knowing design features to choose well",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -54957,6 +55398,29 @@
         "sentence": "One important feature is a tiny screen placed in the lens area, so the wearer can read short information without looking down at a phone.",
         "contextMeaning": "Here, \"lens\" means the clear glass part of the glasses where the screen is",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "less": {
+    "word": "less",
+    "definition": "Not as much or smaller amount",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "These choices can make some options stand out while others receive less attention.",
+        "contextMeaning": "Here, \"less\" means some choices get smaller or fewer looks from people",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -60300,7 +60764,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -60545,6 +61010,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": ": Hubris means excessive pride; it is dangerous because it makes humans forget their limits and challenge divine order.",
         "contextMeaning": "Here, \"means\" means says that hubris is too much pride and is bad",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "It means that design can guide attention and influence the decision process.",
+        "contextMeaning": "Here, \"means\" means says that design can help guide what you look at and choose",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -61250,6 +61722,29 @@
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "You can say, \"I sent the wrong file,\" \"I used the old version,\" or \"I missed the message.\" Start with the fact.",
         "contextMeaning": "Here, \"message\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "messages": {
+    "word": "messages",
+    "definition": "Information sent from one person to another",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Two other common tools are social proof and urgency messages.",
+        "contextMeaning": "Here, \"messages\" means information sent from one person to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -64576,7 +65071,8 @@
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -64598,6 +65094,13 @@
         "sentence": "Near the start of one busy lunch service, a young chef in Malmö tasted a spoon of sauce and stopped.",
         "contextMeaning": "Here, \"near\" means close to the beginning of a busy time",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Items near the top, in the center, or on the first screen are often easier to see.",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -65729,7 +66232,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-21-what-is-gintama"
+      "episode-2026-05-21-what-is-gintama",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -65743,6 +66247,13 @@
         "episodeId": "episode-2026-05-21-what-is-gintama",
         "sentence": "When a normally funny character becomes serious, it feels powerful.",
         "contextMeaning": "Here, \"normally\" means usually funny characters become serious sometimes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Under pressure, people may make faster decisions than they normally would.",
+        "contextMeaning": "Here, \"normally\" means most of the time, not when in a hurry",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -67592,7 +68103,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -67600,6 +68112,13 @@
         "sentence": "One Friday in the United States, many Nintendo fans noticed a surprising deal online.",
         "contextMeaning": "Here, \"online\" means the good offer was seen on the internet, not in a shop",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "What helps you feel confident when making a choice online?",
+        "contextMeaning": "Here, \"online\" means connected through the internet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -68282,13 +68801,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
         "sentence": "Clio’s success shows that lawyers need organized, reliable software.",
         "contextMeaning": "Here, \"organized\" means software that keeps things tidy and easy to use for lawyers",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "The way these choices are organized can affect what you notice, what you ignore, and what feels easy to select.",
+        "contextMeaning": "Here, \"organized\" means how choices are put in order or arranged",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71945,7 +72472,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -71972,6 +72500,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Do you usually understand image memes, video memes, sound memes, or phrase memes fastest?",
+        "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Label - A word or phrase used to describe an option.",
         "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -72128,13 +72663,44 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "A meme is not just a funny picture.",
         "contextMeaning": "Here, \"picture\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "One option appears at the top of the page with a large picture.",
+        "contextMeaning": "Here, \"picture\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "pictures": {
+    "word": "pictures",
+    "definition": "An image you can look at",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Designers make choices about order, labels, pictures, warnings, and many other details.",
+        "contextMeaning": "Here, \"pictures\" means an image you can look at",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -72532,6 +73098,29 @@
         "sentence": "One important feature is a tiny screen placed in the lens area, so the wearer can read short information without looking down at a phone.",
         "contextMeaning": "Here, \"placed\" means the tiny screen is put in the lens part of glasses",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "placement": {
+    "word": "placement",
+    "definition": "The position of an item on a page or screen",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "It simply shows that placement can influence what people notice and consider.",
+        "contextMeaning": "Here, \"placement\" means the position of an item on a page or screen",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -73842,12 +74431,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "In that moment, the menu can reduce stress by showing clear categories, popular items, or easy combinations.",
+        "contextMeaning": "Here, \"popular\" means liked by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Have you ever bought, signed up for, or selected something because it was marked as \"popular\"?",
         "contextMeaning": "Here, \"popular\" means liked by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -74685,7 +75282,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -74713,6 +75311,36 @@
         "episodeId": "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
         "sentence": "Do you prefer hot drinks or cold drinks?",
         "contextMeaning": "Here, \"prefer\" means which kind of drink you like more",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Sometimes people appreciate knowing what others prefer.",
+        "contextMeaning": "Here, \"prefer\" means like something more than other things",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "preferences": {
+    "word": "preferences",
+    "definition": "What you like or want best",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Because of this, it is important to check whether the default option matches your own needs and preferences.",
+        "contextMeaning": "Here, \"preferences\" means your own needs and what you like",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -79294,13 +79922,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "This made the result closer to what modern learners recognize as gelato: smoother and creamier.",
         "contextMeaning": "Here, \"recognize\" means people today know this food as gelato because it looks like it",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Recognize common design tools such as defaults, placement, labels, social proof, and urgency messages.",
+        "contextMeaning": "Here, \"recognize\" means know common tools used in design like labels and messages",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -82580,12 +83216,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "His family tries to avoid fate, yet each choice brings the feared result closer.",
+        "contextMeaning": "Here, \"result\" means what happens in the end",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "As a result, design can make one choice feel simpler or more important than another.",
         "contextMeaning": "Here, \"result\" means what happens in the end",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -85054,7 +85698,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -85081,6 +85726,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "Words like \"Chef's Special,\" \"Most Popular,\" or \"Recommended\" tell the customer that the dish is a safe choice.",
+        "contextMeaning": "Here, \"safe\" means free from danger",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Labels can also affect how safe or attractive an option feels.",
         "contextMeaning": "Here, \"safe\" means free from danger",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -86521,7 +87173,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -86534,6 +87187,13 @@
       {
         "episodeId": "episode-2026-05-27-international-transport-get-to-the-right-place",
         "sentence": "She looks at the screen, but she does not understand one part.",
+        "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Items near the top, in the center, or on the first screen are often easier to see.",
         "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -88368,7 +89028,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -88376,6 +89037,13 @@
         "sentence": "She says, \"Your plan has data, but the network setting is off.\" Ken asks, \"Do I need a new plan?\" The worker says, \"No.",
         "contextMeaning": "Here, \"setting\" means the worker changes one setting",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "For example, if an app already has a common setting selected, users can continue without spending extra time choosing.",
+        "contextMeaning": "Here, \"setting\" means a choice already picked in an app",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -90540,13 +91208,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "With AI agents, one person may be able to run a simpler version of that whole team.",
         "contextMeaning": "Here, \"simpler\" means an easier or less difficult form of the team",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "As a result, design can make one choice feel simpler or more important than another.",
+        "contextMeaning": "Here, \"simpler\" means one choice feels easier or more important than another",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -92018,7 +92694,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": []
   },
@@ -92728,7 +93405,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -92840,6 +93518,13 @@
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "Sometimes you need help at a clinic.",
         "contextMeaning": "Here, \"sometimes\" means you need help at the clinic at some times, not always",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Sometimes people appreciate knowing what others prefer.",
+        "contextMeaning": "Here, \"sometimes\" means at some times, people like to know others' choices",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -97587,6 +98272,29 @@
       }
     ]
   },
+  "strong": {
+    "word": "strong",
+    "definition": "Having a lot of power",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "However, defaults can also influence decisions in a strong way.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "stronger": {
     "word": "stronger",
     "definition": "More powerful or better",
@@ -101743,6 +102451,29 @@
       }
     ]
   },
+  "ten": {
+    "word": "ten",
+    "definition": "The number after nine",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Imagine a menu with ten choices.",
+        "contextMeaning": "Here, \"ten\" means a menu with 10 different choices",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "tense": {
     "word": "tense",
     "definition": "Feeling nervous or worried, not relaxed",
@@ -103355,6 +104086,29 @@
       }
     ]
   },
+  "thoughtful": {
+    "word": "thoughtful",
+    "definition": "Careful and thinking before acting",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Learning to recognize these design features can help you become a more thoughtful and confident decision-maker.",
+        "contextMeaning": "Here, \"thoughtful\" means being careful and thinking when you make choices",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "thoughts": {
     "word": "thoughts",
     "definition": "Things you think in your mind",
@@ -104940,7 +105694,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -105009,6 +105764,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Perseus receives divine tools before facing Medusa.",
+        "contextMeaning": "Here, \"tools\" means a tool can be software the AI calls to search, check, write, or publish",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Two other common tools are social proof and urgency messages.",
         "contextMeaning": "Here, \"tools\" means a tool can be software the AI calls to search, check, write, or publish",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
@@ -107102,6 +107864,29 @@
       }
     ]
   },
+  "trustworthy": {
+    "word": "trustworthy",
+    "definition": "Good to believe, honest and safe",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "For example, a menu item marked as \"popular\" may seem more trustworthy than an item with no label.",
+        "contextMeaning": "Here, \"trustworthy\" means looks more good and safe to choose",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "truth": {
     "word": "truth",
     "definition": "What is real or correct",
@@ -108730,6 +109515,21 @@
       }
     ]
   },
+  "urgency message": {
+    "word": "urgency message",
+    "definition": "A message suggesting that time, seats, or stock may be limited",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": []
+  },
   "urgent": {
     "word": "urgent",
     "definition": "Needing quick action",
@@ -108828,7 +109628,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -108897,6 +109698,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "It is how useful the price feels.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Even if both options are useful, many people will notice the first one more quickly.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -110363,7 +111171,8 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -110467,6 +111276,13 @@
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "As the conversation continues, she explains where the problem is, when it started, how serious it is, and when a repair worker can visit.",
+        "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "When you use an app, visit a website, or look at a menu, you are often presented with many choices.",
         "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -111414,6 +112230,29 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": []
+  },
+  "warnings": {
+    "word": "warnings",
+    "definition": "Signs or messages that tell you to be careful",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Designers make choices about order, labels, pictures, warnings, and many other details.",
+        "contextMeaning": "Here, \"warnings\" means messages or signs that tell you to watch out",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
   },
   "warrior": {
     "word": "warrior",
