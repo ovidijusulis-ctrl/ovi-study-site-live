@@ -1813,7 +1813,8 @@
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -1834,6 +1835,13 @@
         "episodeId": "episode-2026-05-21-a2-work-schedule-change",
         "sentence": "What is it?\" Emi writes, \"I have a clinic appointment on Friday afternoon.",
         "contextMeaning": "Here, \"afternoon\" means the time on Friday after lunch when Emi has an appointment",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Staff: We can send someone tomorrow afternoon.",
+        "contextMeaning": "Here, \"afternoon\" means the time after lunch tomorrow when someone can come",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -3992,7 +4000,8 @@
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -4005,6 +4014,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "Lina says, \"It is apartment 405, not 504.\" She checks the street name too.",
+        "contextMeaning": "Here, \"apartment\" means a set of rooms you live in",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "What problems can happen in an apartment?",
         "contextMeaning": "Here, \"apartment\" means a set of rooms you live in",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -4736,6 +4752,29 @@
         "sentence": "It is usually served warmer than many ice creams, around minus 12 to minus 14 degrees Celsius.",
         "contextMeaning": "Here, \"around\" means means near minus 12 to minus 14 degrees",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "arrange": {
+    "word": "arrange",
+    "definition": "Plan a time or place for something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Arrange a repair time.",
+        "contextMeaning": "Here, \"arrange\" means plan a time for the repair to happen",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -7186,6 +7225,29 @@
       "episode-2026-05-21-a1-supermarket-find-and-pay"
     ],
     "contexts": []
+  },
+  "bathroom": {
+    "word": "bathroom",
+    "definition": "A room with a toilet and sink",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "-- Is it in the kitchen, bathroom, or another room?",
+        "contextMeaning": "Here, \"bathroom\" means a room with a toilet, not the kitchen or other room",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
   },
   "battens": {
     "word": "battens",
@@ -11750,7 +11812,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -11771,6 +11834,13 @@
         "episodeId": "episode-2026-05-21-a2-apartment-repair-call",
         "sentence": "You need to explain what is broken, how urgent it is, and when someone can come.",
         "contextMeaning": "Here, \"broken\" means something in the home that does not work right",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Who do you contact when something is broken?",
+        "contextMeaning": "Here, \"broken\" means something is not working or is damaged",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -17374,7 +17444,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -17387,6 +17458,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "A modern hero is often expected to be kind, selfless, and clearly good.",
+        "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Maria needs to explain the problem clearly so the repair office can help her.",
         "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -20553,7 +20631,8 @@
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -20617,6 +20696,13 @@
         "sentence": "Address check: Worker: Can you confirm the address?",
         "contextMeaning": "Here, \"confirm\" means repeat the plan before ending the call",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Confirm the next step.",
+        "contextMeaning": "Here, \"confirm\" means say yes to be sure about the next step",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -22146,6 +22232,29 @@
       }
     ]
   },
+  "convenient": {
+    "word": "convenient",
+    "definition": "Good and easy time for you",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "What times are usually convenient for a repair visit?",
+        "contextMeaning": "Here, \"convenient\" means what times are good for a repair visit",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "conventional": {
     "word": "conventional",
     "definition": "Normal or usual way to do something",
@@ -22192,7 +22301,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -22283,6 +22393,13 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Cafes mix regular customers, repeated service, and conversation, so tastes can spread fast.",
         "contextMeaning": "Here, \"conversation\" means talking in cafes helps new food tastes spread quickly",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "As the conversation continues, she explains where the problem is, when it started, how serious it is, and when a repair worker can visit.",
+        "contextMeaning": "Here, \"conversation\" means talking and explaining the problem and repair time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -24724,6 +24841,29 @@
       }
     ]
   },
+  "damage": {
+    "word": "damage",
+    "definition": "Harm that breaks or hurts something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Is it causing damage or danger?",
+        "contextMeaning": "Here, \"damage\" means is it making something broken or hurt",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "dance": {
     "word": "dance",
     "definition": "Moving your body to music",
@@ -24808,7 +24948,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -24836,6 +24977,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They explain how ancient people thought about courage, danger, family, power, fate, and the gods.",
         "contextMeaning": "Here, \"danger\" means things that can cause harm in old stories",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Is it causing damage or danger?",
+        "contextMeaning": "Here, \"danger\" means is it making a risk to people",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -25321,6 +25469,29 @@
         "sentence": "For a short time, he escaped his fate, or his future that seemed decided.",
         "contextMeaning": "Here, \"decided\" means his future was already fixed and could not change",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "decides": {
+    "word": "decides",
+    "definition": "To make a choice",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "She decides to contact the apartment repair office.",
+        "contextMeaning": "Here, \"decides\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -27072,7 +27243,8 @@
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -27177,6 +27349,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Singers and poets changed details as they performed, so myths often have different versions.",
         "contextMeaning": "Here, \"details\" means singers and poets changed small parts of the stories",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Give simple details about when it started.",
+        "contextMeaning": "Here, \"details\" means give small information about when the problem began",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -29061,6 +29240,29 @@
       }
     ]
   },
+  "door": {
+    "word": "door",
+    "definition": "The part you open to enter a room",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "The door lock is hard to open.",
+        "contextMeaning": "Here, \"door\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "doorbell": {
     "word": "doorbell",
     "definition": "A button to ring and make a sound at a door",
@@ -30711,7 +30913,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -30725,6 +30928,13 @@
         "episodeId": "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
         "sentence": "Because of that location, many visitors can travel there easily.",
         "contextMeaning": "Here, \"easily\" means visitors can travel to the city without problems",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "-- Can the repair worker find it easily?",
+        "contextMeaning": "Here, \"easily\" means can the worker find it without trouble",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -33514,7 +33724,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -33682,6 +33893,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "What energy services do you use every day without thinking about them?",
         "contextMeaning": "Here, \"every\" means energy services you use each day",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Staff: Is it difficult every time?",
+        "contextMeaning": "Here, \"every\" means is it hard each time it happens",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -39837,7 +40055,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -39872,6 +40091,13 @@
         "episodeId": "episode-2026-05-21-a2-apartment-repair-call",
         "sentence": "It started last night, and now the floor is wet.\" This answer gives the place, the problem, and the time.",
         "contextMeaning": "Here, \"floor\" means the place under the sink that is wet",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "The water is slowly leaking onto the floor.",
+        "contextMeaning": "Here, \"floor\" means the water is coming out onto the bottom of the room",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -42466,7 +42692,8 @@
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -42494,6 +42721,13 @@
         "episodeId": "episode-2026-05-21-a2-apartment-repair-call",
         "sentence": "Say your apartment number, what is broken, when it started, whether it is getting worse, and when you are available.",
         "contextMeaning": "Here, \"getting\" means if the problem is becoming worse over time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "The floor is getting wet.",
+        "contextMeaning": "Here, \"getting\" means the floor is starting to become wet",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -44654,7 +44888,8 @@
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -44710,6 +44945,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "They tell the customer what will happen next.",
         "contextMeaning": "Here, \"happen\" means they tell the customer what will take place after now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "What problems can happen in an apartment?",
+        "contextMeaning": "Here, \"happen\" means what problems can come in an apartment",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -50993,7 +51235,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -51161,6 +51404,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Introduction Greek myths are not only old adventure stories.",
         "contextMeaning": "Here, \"introduction\" means the first part about Greek myths",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Introduction Maria lives in an apartment.",
+        "contextMeaning": "Here, \"introduction\" means the first part that tells about Maria",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -52876,7 +53126,8 @@
     "episodes": [
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -52889,6 +53140,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "She ordered a small kitchen tool.",
+        "contextMeaning": "Here, \"kitchen\" means the room where food is made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "One morning, she sees water under the kitchen sink.",
         "contextMeaning": "Here, \"kitchen\" means the room where food is made",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -56204,7 +56462,8 @@
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -56253,6 +56512,36 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "This is why the first research step is simple: write down the exact company name, location, department, and internship program title.",
         "contextMeaning": "Here, \"location\" means the exact place of the company",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "What information should you give about the location of a problem?",
+        "contextMeaning": "Here, \"location\" means the place where the problem is",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "lock": {
+    "word": "lock",
+    "definition": "A thing that keeps a door closed and safe",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "The door lock is hard to open.",
+        "contextMeaning": "Here, \"lock\" means the thing that keeps the door closed is hard to open",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -80700,7 +80989,8 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -80758,6 +81048,13 @@
         "contextMeaning": "Here, \"repair\" means fix machines or equipment that do not work",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Learn how to contact an apartment repair office and explain a problem at home.",
+        "contextMeaning": "Here, \"repair\" means fix a problem in the apartment at home",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -80775,6 +81072,29 @@
       "episode-2026-05-21-a2-apartment-repair-call"
     ],
     "contexts": []
+  },
+  "repair worker": {
+    "word": "repair worker",
+    "definition": "A person who fixes things",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "The repair worker will check the sink tomorrow morning.",
+        "contextMeaning": "Here, \"repair worker\" means the repair worker can come tomorrow morning",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "repeat": {
     "word": "repeat",
@@ -90899,6 +91219,29 @@
         "sentence": "Older Metroid Prime games were often slower and more enclosed.",
         "contextMeaning": "Here, \"slower\" means older games moved less fast than new ones",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "slowly": {
+    "word": "slowly",
+    "definition": "Not fast",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "The water is slowly leaking onto the floor.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -104207,7 +104550,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -104242,6 +104586,13 @@
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "We study, work, cook, care for family, and start again tomorrow.",
         "contextMeaning": "Here, \"tomorrow\" means we do things again the next day",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "### Model Moment Staff: A repair worker can come tomorrow morning.",
+        "contextMeaning": "Here, \"tomorrow\" means the repair worker can come the day after today",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -106294,7 +106645,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-05-21-what-is-gintama"
+      "episode-2026-05-21-what-is-gintama",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -106322,6 +106674,13 @@
         "episodeId": "episode-2026-05-21-what-is-gintama",
         "sentence": "Sometimes they get into trouble.",
         "contextMeaning": "Here, \"trouble\" means sometimes they have problems or bad situations",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "I have trouble getting inside.",
+        "contextMeaning": "Here, \"trouble\" means i have a problem going inside",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -108131,9 +108490,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Which problem is more urgent: a leaking sink or a broken light?",
+        "contextMeaning": "Here, \"urgent\" means which problem needs help faster, sink or light",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "usage": {
     "word": "usage",
@@ -109735,7 +110103,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -109834,6 +110203,13 @@
         "sentence": "If you want more clear English and culture stories, visit ovi english dot com.",
         "contextMeaning": "Here, \"visit\" means go to the website for more English and culture stories",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "As the conversation continues, she explains where the problem is, when it started, how serious it is, and when a repair worker can visit.",
+        "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -111864,13 +112240,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-a2-apartment-repair-call",
         "sentence": "It started last night, and now the floor is wet.\" This answer gives the place, the problem, and the time.",
         "contextMeaning": "Here, \"wet\" means the floor has water on it now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "The floor is getting wet.",
+        "contextMeaning": "Here, \"wet\" means the floor has water on it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -112598,6 +112982,29 @@
         "sentence": "Committed means strongly willing to continue until something is finished.",
         "contextMeaning": "Here, \"willing\" means wanting very much to keep going until done",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "window": {
+    "word": "window",
+    "definition": "An opening with glass in a wall",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Maria: It is in the kitchen, under the window.",
+        "contextMeaning": "Here, \"window\" means an opening with glass in a wall",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -113384,7 +113791,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -113418,6 +113826,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "You can ask, \"How can I prevent this next time?\" or \"Should I use a checklist?\" Say the mistake: Worker: I sent the meeting file to the wrong chat.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "As the conversation continues, she explains where the problem is, when it started, how serious it is, and when a repair worker can visit.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -113477,7 +113892,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-14-phone-problems-english-everyday-help",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -113512,6 +113928,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
         "contextMeaning": "Here, \"working\" means the real world where people do their jobs",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Resident: My heater is not working.",
+        "contextMeaning": "Here, \"working\" means the heater is not doing its job",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -113586,6 +114009,7 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
@@ -113613,6 +114037,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "You can separate phone functions with \"but.\" For example, \"Wi-Fi works, but mobile data does not work.\" Or, \"Messages work, but calls do not work.\" This helps the worker test the right thing.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "Maria: Yes, that works for me.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -113942,7 +114373,8 @@
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -113970,6 +114402,13 @@
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "Can a simple punishment feel worse than a scary punishment?",
         "contextMeaning": "Here, \"worse\" means not good, more bad than before",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
+        "sentence": "-- Could the problem become worse?",
+        "contextMeaning": "Here, \"worse\" means can the problem become more bad",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
