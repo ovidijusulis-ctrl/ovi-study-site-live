@@ -6637,9 +6637,17 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "When the phone is not in either place, I decide that continuing to search randomly may not be the best use of the limited time available.",
+        "contextMeaning": "Here, \"available\" means ready to use or get",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "\"Learn more\" suggests that there is additional information available before making a decision.",
@@ -6790,7 +6798,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -6846,6 +6855,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "A review agent checks whether the English is clear for B1 learners.",
         "contextMeaning": "Here, \"b\" means a level of English learners to check",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "A1 A2 B1 B2 Final Reflection Think about the same situation at each level.",
+        "contextMeaning": "Here, \"b\" means a name for one of the levels in learning English",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -7017,7 +7033,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -7025,6 +7042,13 @@
         "sentence": "One hand is holding a bag.",
         "contextMeaning": "Here, \"bag\" means a container for carrying things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "It is not in my bag.",
+        "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -8994,6 +9018,29 @@
         "sentence": "Then everything returns to the beginning.",
         "contextMeaning": "Here, \"beginning\" means everything goes back to the start again",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "begins": {
+    "word": "begins",
+    "definition": "To start",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Instead, I go directly to the information desk and say, “Excuse me, I lost my phone.” The staff member begins by asking practical questions.",
+        "contextMeaning": "Here, \"begins\" means to start",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -12957,6 +13004,7 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
@@ -12984,6 +13032,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "How can you sound calm and responsible?",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "However, I stay calm and wait for news.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -13969,9 +14024,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-report-a-lost-item"
+      "episode-2026-05-21-a2-report-a-lost-item",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "It has a blue case.",
+        "contextMeaning": "Here, \"case\" means the blue case helps staff know which phone to look for",
+        "source": "manual_release_repair",
+        "confidence": "trusted"
+      }
+    ]
   },
   "cases": {
     "word": "cases",
@@ -22008,6 +22072,29 @@
       }
     ]
   },
+  "contact email": {
+    "word": "contact email",
+    "definition": "Email for contacting you",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "The staff member asks for my contact email.",
+        "contextMeaning": "Here, \"contact email\" means the staff ask for a contact email so they can send news about the phone",
+        "source": "manual_release_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "contactless": {
     "word": "contactless",
     "definition": "Without touching something to pay",
@@ -22979,6 +23066,29 @@
         "episodeId": "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
         "sentence": "2: Their working traits, such as cooperation, energy, and trainability, also made them good family companions.",
         "contextMeaning": "Here, \"cooperation\" means working well with others as a good family dog",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cooperative": {
+    "word": "cooperative",
+    "definition": "Willing to help and work together",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Before the interaction ends, I say, “Thank you for helping me,” because appreciation helps maintain a positive and cooperative conversation.",
+        "contextMeaning": "Here, \"cooperative\" means talking nicely to keep a good help talk",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -24216,6 +24326,7 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
@@ -24236,6 +24347,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "AI-generated content may be: This creates a special workplace risk.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "At the end of the conversation, I say, “Thank you for helping me.” Being polite is important because it creates clear and positive communication.",
         "contextMeaning": "Here, \"creates\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -25810,12 +25928,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "You can say, \"It may delay the report,\" \"It may confuse the customer,\" or \"It may make the numbers look wrong.\" This helps your manager decide what to do next.",
+        "contextMeaning": "Here, \"decide\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Because time is limited, I decide to ask for help instead of searching around the station by myself.",
         "contextMeaning": "Here, \"decide\" means to make a choice",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -26883,6 +27009,29 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": ": It is important because different group companies and departments can offer very different internship experiences.",
         "contextMeaning": "Here, \"departments\" means groups in a company that give different internships",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "departs": {
+    "word": "departs",
+    "definition": "Goes away from a place",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Later, I say, “Thank you for helping me.” - station = a place for trains - ticket = paper or digital travel pass - leaves = departs - bag = a bag for your things - coat pocket = pocket in a coat - information desk = place to ask questions - lost = missing - case = phone cover - ticket machines = machines for tickets - contact email = email address - form = information paper or screen - lost and found = place for missing items - nervous = worried - check = look for I am at a train station after buying a ticket.",
+        "contextMeaning": "Here, \"departs\" means the train leaves the station to start its trip",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -29315,6 +29464,29 @@
         "sentence": "It may mean it was less distinct in memory.",
         "contextMeaning": "Here, \"distinct\" means easy to remember as different from other days",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "distinguish": {
+    "word": "distinguish",
+    "definition": "See how things are different",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I answer, “It is a black phone with a blue case.” This description is simple, but it is specific enough to distinguish the phone from many others.",
+        "contextMeaning": "Here, \"distinguish\" means show how the phone is different from others",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -31926,7 +32098,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -31934,6 +32107,13 @@
         "sentence": "A fast pitch can sound efficient, but it may miss the real need.",
         "contextMeaning": "Here, \"efficient\" means the fast pitch seems quick and good",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "There is a balance between giving detailed answers and keeping the conversation efficient.",
+        "contextMeaning": "Here, \"efficient\" means quick and useful",
+        "source": "manual_release_repair",
         "confidence": "trusted"
       }
     ]
@@ -43723,7 +43903,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -43751,6 +43932,13 @@
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "This workflow encourages efficiency without giving up responsibility.",
         "contextMeaning": "Here, \"giving\" means this way helps work go fast without losing control",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I try to remember my recent actions and tell them, “I used it near the ticket machines.” Giving clear details is useful because it helps other people understand what they are looking for.",
+        "contextMeaning": "Here, \"giving\" means sharing clear details to help others understand",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -45810,7 +45998,8 @@
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -45873,6 +46062,13 @@
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "What happened?",
         "contextMeaning": "Here, \"happened\" means asking what took place or occurred",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "My train will leave soon, and I would like to know what happened to my phone.",
+        "contextMeaning": "Here, \"happened\" means what took place with the phone before now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -50645,9 +50841,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I walk to the information desk.",
+        "contextMeaning": "Here, \"information desk\" means the information desk is where the learner asks about the lost phone",
+        "source": "manual_release_repair",
+        "confidence": "trusted"
+      }
+    ]
   },
   "infrastructure": {
     "word": "infrastructure",
@@ -53311,7 +53516,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea"
+      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -53326,6 +53532,13 @@
         "sentence": "Let’s begin the journey in clear English, one step at a time.",
         "contextMeaning": "Here, \"journey\" means the start of the adventure or travel",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "As I prepare for my journey, I notice that my phone is missing.",
+        "contextMeaning": "Here, \"journey\" means a long trip",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -53657,7 +53870,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -53692,6 +53906,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "It is keeping a daily-life system safe.",
         "contextMeaning": "Here, \"keeping\" means making sure a daily-life system stays safe and works well",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "There is a balance between giving detailed answers and keeping the conversation efficient.",
+        "contextMeaning": "Here, \"keeping\" means to make the talk short but clear",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -55445,6 +55666,29 @@
       }
     ]
   },
+  "learner": {
+    "word": "learner",
+    "definition": "A person who is learning",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "- randomly = without a clear plan - available = ready to be used - distinguish = show the difference between things - accurate = correct and reliable - update = new information - efficient = done without wasting time - consistent = staying the same and clear - cooperative = willing to work together [PRACTICE] Where did the learner last use the phone?",
+        "contextMeaning": "Here, \"learner\" means the person who last used the phone",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "learners": {
     "word": "learners",
     "definition": "People who are learning something",
@@ -56657,7 +56901,8 @@
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast"
+      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -56679,6 +56924,13 @@
         "sentence": "A pop-up, market stall, partner event, or limited online offer may show whether customers care.",
         "contextMeaning": "Here, \"limited\" means an online offer that is only for a short time or few people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Because time is limited, I decide to ask for help.",
+        "contextMeaning": "Here, \"limited\" means time is limited because the train leaves soon",
+        "source": "manual_release_repair",
         "confidence": "trusted"
       }
     ]
@@ -58299,6 +58551,29 @@
         "sentence": "In this lesson, Maya loses her phone at a station.",
         "contextMeaning": "Here, \"loses\" means maya does not have her phone at the station",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "lost and found": {
+    "word": "lost and found",
+    "definition": "A place for missing things",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Please wait by lost and found.",
+        "contextMeaning": "Here, \"lost and found\" means lost and found is where the learner waits while staff check for the phone",
+        "source": "manual_release_repair",
         "confidence": "trusted"
       }
     ]
@@ -63468,7 +63743,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3"
+      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -63490,6 +63766,13 @@
         "sentence": "A close, tense game stops for a moment.",
         "contextMeaning": "Here, \"moment\" means a very short period of time",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I think for a moment and say, “I used it near the ticket machines.” This information may help the staff look for it.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -65632,6 +65915,7 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
@@ -65654,6 +65938,13 @@
         "sentence": "Near the start of one busy lunch service, a young chef in Malmö tasted a spoon of sauce and stopped.",
         "contextMeaning": "Here, \"near\" means close to the beginning of a busy time",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "“Where did you last use it?” I say, “Near the ticket machines.” The staff member asks for my name.",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -74511,7 +74802,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -74623,6 +74915,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "Vibe coding changes the entry point.",
         "contextMeaning": "Here, \"point\" means the place where the program starts running",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I tell them, “I used it near the ticket machines.” By providing the most recent location I remember, I give the staff a clear starting point for their search.",
+        "contextMeaning": "Here, \"point\" means the place where the phone was last used",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -74780,7 +75079,8 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -74852,6 +75152,13 @@
         "contextMeaning": "Here, \"polite\" means english for work time must be kind and respectful",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "At the end of the conversation, I say, “Thank you for helping me.” Being polite is important because it creates clear and positive communication.",
+        "contextMeaning": "Here, \"polite\" means being nice helps make good talk with others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -74868,7 +75175,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -74889,6 +75197,13 @@
         "episodeId": "episode-2026-05-21-a2-work-schedule-change",
         "sentence": "When you need a schedule change, use this order: ask politely, give a brief reason, suggest another time, and confirm the final plan.",
         "contextMeaning": "Here, \"politely\" means asking in a nice way when you want to change the schedule",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I walk to the information desk and say, “Excuse me, I lost my phone.” The staff member responds politely and asks, “What does it look like?” I explain that it is a black phone with a blue case.",
+        "contextMeaning": "Here, \"politely\" means the staff talks in a nice and kind way to help",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -88171,6 +88486,29 @@
       }
     ]
   },
+  "search": {
+    "word": "search",
+    "definition": "To look for something",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "When the phone is not in either place, I decide that continuing to search randomly may not be the best use of the limited time available.",
+        "contextMeaning": "Here, \"search\" means to look for something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "searches": {
     "word": "searches",
     "definition": "To look for something",
@@ -92851,7 +93189,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -92864,6 +93203,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "Office English is easier when you slow the task down.",
+        "contextMeaning": "Here, \"slow\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "For example, a short description may be fast but unclear, while too many details can slow communication.",
         "contextMeaning": "Here, \"slow\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -96941,7 +97287,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -96949,6 +97296,13 @@
         "sentence": "Station Staff: Take the Blue Line toward Central Station.",
         "contextMeaning": "Here, \"station\" means place where trains or buses stop",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I am at a station.",
+        "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -101985,7 +102339,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -102034,6 +102389,13 @@
         "episodeId": "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
         "sentence": "She takes them to the cashier.",
         "contextMeaning": "Here, \"takes\" means she moves the things to the cashier",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "This step takes a little extra time, but it also makes future communication easier if there is an update.",
+        "contextMeaning": "Here, \"takes\" means needs a little more time for this step",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -105149,7 +105511,8 @@
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -105247,6 +105610,13 @@
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "Can you say three health problems in English?",
         "contextMeaning": "Here, \"three\" means say the number of health problems asked in English",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Write or say three sentences about what you would do if you lost your phone at a station.",
+        "contextMeaning": "Here, \"three\" means say or write three sentences about losing a phone",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -105579,7 +105949,8 @@
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -105599,6 +105970,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "You may need a ticket number, a stamp, or a receipt.",
+        "contextMeaning": "Here, \"ticket\" means a paper or digital pass for travel or entry",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I buy a ticket.",
         "contextMeaning": "Here, \"ticket\" means a paper or digital pass for travel or entry",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -107373,7 +107751,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -107395,6 +107774,13 @@
         "sentence": "You are standing on a busy train.",
         "contextMeaning": "Here, \"train\" means a vehicle that travels on tracks",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "My train leaves soon.",
+        "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -108040,7 +108426,8 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -108060,6 +108447,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The myth makes that inner process visible as travel, combat, danger, and return.",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "Before I travel, I want to check my phone, but I quickly realize that it is missing.",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -109482,7 +109876,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -109496,6 +109891,13 @@
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "- Rewrite unclear text.",
         "contextMeaning": "Here, \"unclear\" means text that is hard to understand and needs fixing",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "For example, a short description may be fast but unclear, while too many details can slow communication.",
+        "contextMeaning": "Here, \"unclear\" means not easy to understand or confusing talk",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -110647,6 +111049,7 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
@@ -110717,6 +111120,13 @@
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "It is useful to say what hurts, answer a few questions, and understand the next step.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I try to remember my recent actions and tell them, “I used it near the ticket machines.” Giving clear details is useful because it helps other people understand what they are looking for.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -116675,7 +117085,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -116683,6 +117094,13 @@
         "sentence": "For example, AI can write text, answer questions, study patterns, and help people plan work.",
         "contextMeaning": "Here, \"write\" means to create words or sentences",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+        "sentence": "I write the information on a form.",
+        "contextMeaning": "Here, \"write\" means to make words with a pen, keyboard, or screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
