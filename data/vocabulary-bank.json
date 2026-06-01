@@ -1441,7 +1441,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2"
+      "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -1455,6 +1456,13 @@
         "episodeId": "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
         "sentence": "It affected many performers.",
         "contextMeaning": "Here, \"affected\" means many performers had problems because of it",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Useful Topic Vocabulary Can you think of a time when the way information was displayed affected your choice?",
+        "contextMeaning": "Here, \"affected\" means changed the choice because of how info was shown",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -5907,7 +5915,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -5999,6 +6008,13 @@
         "sentence": "In other words, Search is being asked to move from retrieval toward delegated attention.",
         "contextMeaning": "Here, \"attention\" means care and focus that is given by the system",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "This happens because attention is limited.",
+        "contextMeaning": "Here, \"attention\" means what people look at or notice first",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -6628,7 +6644,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -6642,6 +6659,13 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "It also described agentic booking and shopping features that can compare availability, call businesses in selected categories, or help manage purchases.",
         "contextMeaning": "Here, \"availability\" means if things or services can be used or bought",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Which has a stronger effect on you: seeing what other people chose or seeing a message about limited availability?",
+        "contextMeaning": "Here, \"availability\" means how much something is left or can be taken",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -26467,6 +26491,29 @@
     ],
     "contexts": []
   },
+  "defaults": {
+    "word": "defaults",
+    "definition": "Options or settings already chosen for you",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Defaults can be useful.",
+        "contextMeaning": "Here, \"defaults\" means defaults are choices that are already selected before the user decides",
+        "source": "operator_reviewed_popup_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "defeat": {
     "word": "defeat",
     "definition": "To win against someone or something",
@@ -29447,6 +29494,29 @@
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Menus, apps, and websites do more than display information.",
         "contextMeaning": "Here, \"display\" means show information on menus, apps, and websites",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "displayed": {
+    "word": "displayed",
+    "definition": "Shown so people can see",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Useful Topic Vocabulary Can you think of a time when the way information was displayed affected your choice?",
+        "contextMeaning": "Here, \"displayed\" means shown in a way people can look at",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -35164,6 +35234,29 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The exact company matters because the daily work can be very different.",
         "contextMeaning": "Here, \"exact\" means the specific company that is important for the work",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "examine": {
+    "word": "examine",
+    "definition": "Look at carefully",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "When do you think a default option is helpful, and when should people examine it more carefully?",
+        "contextMeaning": "Here, \"examine\" means look closely to decide if it is good",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -52560,7 +52653,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -52735,6 +52829,13 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "Introduction Maria lives in an apartment.",
         "contextMeaning": "Here, \"introduction\" means the first part that tells about Maria",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Introduction Many people think that menus, apps, and websites simply show information.",
+        "contextMeaning": "Here, \"introduction\" means the first part that tells what is coming",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -54397,7 +54498,8 @@
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -54425,6 +54527,13 @@
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "What kinds of information should people be careful about sharing online?",
         "contextMeaning": "Here, \"kinds\" means different types of information to be careful about online",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Which kinds of labels attract your attention most strongly?",
+        "contextMeaning": "Here, \"kinds\" means different types of labels that you notice the most",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -69698,6 +69807,29 @@
       }
     ]
   },
+  "option": {
+    "word": "option",
+    "definition": "One possible choice",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "One option appears at the top of the page with a large picture.",
+        "contextMeaning": "Here, \"option\" means one choice a person can select",
+        "source": "operator_reviewed_popup_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "options": {
     "word": "options",
     "definition": "Different choices you can pick from",
@@ -69788,7 +69920,8 @@
     "episodes": [
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -69803,6 +69936,13 @@
         "sentence": "They often represent chaos, violence, or a world outside human order.",
         "contextMeaning": "Here, \"order\" means the normal way people live with rules",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Designers make choices about order, labels, pictures, warnings, and many other details.",
+        "contextMeaning": "Here, \"order\" means where options appear compared with other options",
+        "source": "operator_reviewed_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -77089,7 +77229,8 @@
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -77139,6 +77280,13 @@
         "sentence": "But it also creates pressure.",
         "contextMeaning": "Here, \"pressure\" means feeling stress or worry because of their role",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "At the same time, urgency can create pressure.",
+        "contextMeaning": "Here, \"pressure\" means the rushed feeling urgency messages can create",
+        "source": "operator_reviewed_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -79266,7 +79414,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -79274,6 +79423,13 @@
         "sentence": "The page design, photos, colors, names, labels, and prices can push our attention toward some dishes and away from others.",
         "contextMeaning": "Here, \"push\" means guide attention toward some dishes",
         "source": "manual_popup_repair/runtime_trust",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "However, social proof can also push people too strongly if they stop thinking about their own needs.",
+        "contextMeaning": "Here, \"push\" means influence people too strongly toward a choice",
+        "source": "operator_reviewed_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -110567,7 +110723,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
     ],
     "contexts": [
       {
@@ -110609,6 +110766,13 @@
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "This ability demonstrates understanding and accountability.",
         "contextMeaning": "Here, \"understanding\" means showing you know and understand the situation well",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+        "sentence": "Understanding how design guides choices does not remove your ability to decide.",
+        "contextMeaning": "Here, \"understanding\" means knowing how design helps people choose",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
