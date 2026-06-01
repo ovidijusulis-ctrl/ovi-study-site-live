@@ -13749,7 +13749,7 @@
       },
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-        "sentence": "Host: Please be careful going home.",
+        "sentence": "Karaoke is just for fun.\" At the end, say, \"Thank you for coming.\" \"It was nice talking with you.\" \"Please be careful going home.\" If a customer drank too much, say, \"Maybe some water first.",
         "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -16621,7 +16621,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -16655,6 +16656,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "What helps you feel confident when making a choice online?",
+        "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The customer asks, \"What is shochu?\" The host gives a simple answer and offers another choice.",
         "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -33659,6 +33667,29 @@
       }
     ]
   },
+  "enjoy": {
+    "word": "enjoy",
+    "definition": "To like doing something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Please relax and enjoy.",
+        "contextMeaning": "Here, \"enjoy\" means to like doing something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "enjoyed": {
     "word": "enjoyed",
     "definition": "Felt happy or liked something a lot",
@@ -34583,7 +34614,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-        "sentence": "Core lines: Host: Good evening.",
+        "sentence": "Mini roleplay: Customer: Good evening.",
         "contextMeaning": "Here, \"evening\" means the later part of the day before night",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -44332,7 +44363,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -44352,6 +44384,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "The goal is not to avoid apps, websites, or menus.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The goal is not a long speech.",
         "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -73175,12 +73214,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Greek heroes are impressive, but they are rarely perfect.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "You do not need perfect English.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -87357,8 +87404,8 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "The goal is to make the customer feel welcome and safe.",
-        "contextMeaning": "Here, \"safe\" means free from danger",
-        "source": "popup_support_router/teaching_lexicon_trusted",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -93859,20 +93906,12 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "The water is slowly leaking onto the floor.",
-        "contextMeaning": "Here, \"slowly\" means not fast",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-        "sentence": "Say them slowly.",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -109066,7 +109105,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -109093,6 +109133,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "Before I travel, I want to check my phone, but I quickly realize that it is missing.",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Use safe topics first: travel, food, music, karaoke, and the local area.",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -113279,7 +113326,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -113390,6 +113438,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "When you use an app, visit a website, or look at a menu, you are often presented with many choices.",
+        "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Now practice the full visit.",
         "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
