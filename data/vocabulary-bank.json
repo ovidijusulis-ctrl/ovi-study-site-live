@@ -1856,7 +1856,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "Staff: We can send someone tomorrow afternoon.",
+        "sentence": "We can send someone tomorrow afternoon.",
         "contextMeaning": "Here, \"afternoon\" means the time after lunch tomorrow when someone can come",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -2794,21 +2794,13 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-27-the-hero-story-in-greek-myth"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Many began as oral stories, told aloud long before they were written down.",
         "contextMeaning": "Here, \"aloud\" means told by speaking out loud so people hear",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Practice saying the key phrases aloud.",
-        "contextMeaning": "Here, \"aloud\" means say the important phrases so you hear them out loud",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -4335,8 +4327,7 @@
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-21-a2-work-schedule-change"
     ],
     "contexts": [
       {
@@ -4799,7 +4790,7 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "Arrange a repair time.",
         "contextMeaning": "Here, \"arrange\" means plan a time for the repair to happen",
-        "source": "authored_reading_vocabulary",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -7362,7 +7353,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "-- Is it in the kitchen, bathroom, or another room?",
+        "sentence": "Is it in the kitchen, bathroom, or another room?",
         "contextMeaning": "Here, \"bathroom\" means a room with a toilet, not the kitchen or other room",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -14024,18 +14015,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-report-a-lost-item",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-21-a2-report-a-lost-item"
     ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-        "sentence": "It has a blue case.",
-        "contextMeaning": "Here, \"case\" means the blue case helps staff know which phone to look for",
-        "source": "manual_release_repair",
-        "confidence": "trusted"
-      }
-    ]
+    "contexts": []
   },
   "cases": {
     "word": "cases",
@@ -17428,8 +17410,7 @@
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -17674,13 +17655,6 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "But the best question is not only, \"Is Tokyo Gas famous?\" A better question is, \"What exactly will my child see, learn, and practice during this internship?\" A famous company name can be useful, but a clear learning experience matters more.",
         "contextMeaning": "Here, \"clear\" means easy to understand or see",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Short, clear sentences can help you communicate at a clinic.",
-        "contextMeaning": "Here, \"clear\" means sentences that are easy to understand at the clinic",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -18055,8 +18029,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-21-a2-work-schedule-change"
     ],
     "contexts": [
       {
@@ -19729,8 +19702,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -19744,13 +19716,6 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "Some of the most valuable lessons may look quiet: how adults prepare, check, communicate, and take responsibility.",
         "contextMeaning": "Here, \"communicate\" means how grown-ups share information and ideas",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Short, clear sentences can help you communicate at a clinic.",
-        "contextMeaning": "Here, \"communicate\" means use sentences to talk or share ideas at the clinic",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -22068,29 +22033,6 @@
         "sentence": "Always confirm the visit time and contact method before the call ends.",
         "contextMeaning": "Here, \"contact\" means the way to reach someone before the call ends",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "contact email": {
-    "word": "contact email",
-    "definition": "Email for contacting you",
-    "cefrLevel": "B2",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-        "sentence": "The staff member asks for my contact email.",
-        "contextMeaning": "Here, \"contact email\" means the staff ask for a contact email so they can send news about the phone",
-        "source": "manual_release_repair",
         "confidence": "trusted"
       }
     ]
@@ -30496,8 +30438,7 @@
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-21-a2-clinic-appointment-symptoms"
     ],
     "contexts": [
       {
@@ -30518,13 +30459,6 @@
         "episodeId": "episode-2026-05-21-a2-clinic-appointment-symptoms",
         "sentence": "The nurse asks, \"Do you have a cough?\" Riko says, \"A little, but not all the time.\" The nurse asks, \"Can you eat and drink?\" Riko says, \"I can drink water, but it hurts when I swallow.\" These answers are useful because they are not only yes or no.",
         "contextMeaning": "Here, \"drink\" means riko can take water into her mouth",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Can I drink water?",
-        "contextMeaning": "Here, \"drink\" means to take water into your mouth to swallow",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -31679,7 +31613,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "-- Can the repair worker find it easily?",
+        "sentence": "Can the repair worker find it easily?",
         "contextMeaning": "Here, \"easily\" means can the worker find it without trouble",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -32098,8 +32032,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer"
     ],
     "contexts": [
       {
@@ -32107,13 +32040,6 @@
         "sentence": "A fast pitch can sound efficient, but it may miss the real need.",
         "contextMeaning": "Here, \"efficient\" means the fast pitch seems quick and good",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-        "sentence": "There is a balance between giving detailed answers and keeping the conversation efficient.",
-        "contextMeaning": "Here, \"efficient\" means quick and useful",
-        "source": "manual_release_repair",
         "confidence": "trusted"
       }
     ]
@@ -34700,7 +34626,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "Staff: Is it difficult every time?",
+        "sentence": "Is it difficult every time?",
         "contextMeaning": "Here, \"every\" means is it hard each time it happens",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -37651,7 +37577,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "- Fairness.",
+        "sentence": "Fairness.",
         "contextMeaning": "Here, \"fairness\" means being kind and equal is an important part to think about",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -39155,8 +39081,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-21-a2-clinic-appointment-symptoms"
     ],
     "contexts": []
   },
@@ -39731,29 +39656,6 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "If an agent can send emails, edit files, publish content, buy products, or change code, one mistake can become real damage.",
         "contextMeaning": "Here, \"files\" means documents that an agent can change or fix",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "fill": {
-    "word": "fill",
-    "definition": "To write information in empty spaces",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "### Dialogue 4 Nurse: Please fill in this form.",
-        "contextMeaning": "Here, \"fill\" means write your answers on the paper the nurse gives you",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -41821,8 +41723,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form"
     ],
     "contexts": [
       {
@@ -48916,8 +48817,7 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
     ],
     "contexts": [
       {
@@ -50176,7 +50076,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "--- Have you ever read something that sounded convincing but later turned out to be inaccurate?",
+        "sentence": "Have you ever read something that sounded convincing but later turned out to be inaccurate?",
         "contextMeaning": "Here, \"inaccurate\" means not correct or true",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -50841,18 +50741,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-21-a1-train-station-platform-help"
     ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-        "sentence": "I walk to the information desk.",
-        "contextMeaning": "Here, \"information desk\" means the information desk is where the learner asks about the lost phone",
-        "source": "manual_release_repair",
-        "confidence": "trusted"
-      }
-    ]
+    "contexts": []
   },
   "infrastructure": {
     "word": "infrastructure",
@@ -52386,8 +52277,7 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-apartment-repair-explain-the-problem"
     ],
     "contexts": [
       {
@@ -52562,13 +52452,6 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "Introduction Maria lives in an apartment.",
         "contextMeaning": "Here, \"introduction\" means the first part that tells about Maria",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Introduction Sometimes you need help at a clinic.",
-        "contextMeaning": "Here, \"introduction\" means the first part that tells about needing help at a clinic",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -53952,8 +53835,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
     ],
     "contexts": [
       {
@@ -53961,13 +53843,6 @@
         "sentence": "Our key word is milestone.",
         "contextMeaning": "Here, \"key\" means the most important or central part",
         "source": "episode-supported",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Practice saying the key phrases aloud.",
-        "contextMeaning": "Here, \"key\" means the most important phrases to practice saying",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -55682,7 +55557,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-        "sentence": "- randomly = without a clear plan - available = ready to be used - distinguish = show the difference between things - accurate = correct and reliable - update = new information - efficient = done without wasting time - consistent = staying the same and clear - cooperative = willing to work together [PRACTICE] Where did the learner last use the phone?",
+        "sentence": "randomly = without a clear plan - available = ready to be used - distinguish = show the difference between things - accurate = correct and reliable - update = new information - efficient = done without wasting time - consistent = staying the same and clear - cooperative = willing to work together [PRACTICE] Where did the learner last use the phone?",
         "contextMeaning": "Here, \"learner\" means the person who last used the phone",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -56901,8 +56776,7 @@
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast"
     ],
     "contexts": [
       {
@@ -56924,13 +56798,6 @@
         "sentence": "A pop-up, market stall, partner event, or limited online offer may show whether customers care.",
         "contextMeaning": "Here, \"limited\" means an online offer that is only for a short time or few people",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-        "sentence": "Because time is limited, I decide to ask for help.",
-        "contextMeaning": "Here, \"limited\" means time is limited because the train leaves soon",
-        "source": "manual_release_repair",
         "confidence": "trusted"
       }
     ]
@@ -58551,29 +58418,6 @@
         "sentence": "In this lesson, Maya loses her phone at a station.",
         "contextMeaning": "Here, \"loses\" means maya does not have her phone at the station",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "lost and found": {
-    "word": "lost and found",
-    "definition": "A place for missing things",
-    "cefrLevel": "B2",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-        "sentence": "Please wait by lost and found.",
-        "contextMeaning": "Here, \"lost and found\" means lost and found is where the learner waits while staff check for the phone",
-        "source": "manual_release_repair",
         "confidence": "trusted"
       }
     ]
@@ -63653,7 +63497,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "### Model Moment Reception: Hello.",
+        "sentence": "Hello.",
         "contextMeaning": "Here, \"model\" means a short example of what to say at reception",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -70130,7 +69974,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "- Outdated.",
+        "sentence": "Outdated.",
         "contextMeaning": "Here, \"outdated\" means information that is old and not correct anymore",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -82866,7 +82710,7 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "Learn how to contact an apartment repair office and explain a problem at home.",
         "contextMeaning": "Here, \"repair\" means fix a problem in the apartment at home",
-        "source": "authored_reading_vocabulary",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -82885,29 +82729,6 @@
       "episode-2026-05-21-a2-apartment-repair-call"
     ],
     "contexts": []
-  },
-  "repair worker": {
-    "word": "repair worker",
-    "definition": "A person who fixes things",
-    "cefrLevel": "A2",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "The repair worker will check the sink tomorrow morning.",
-        "contextMeaning": "Here, \"repair worker\" means the repair worker can come tomorrow morning",
-        "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
   },
   "repeat": {
     "word": "repeat",
@@ -83936,8 +83757,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
     ],
     "contexts": [
       {
@@ -83951,13 +83771,6 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "Employees must think about pipe maintenance, meter information, supply control, construction, emergency response, and safety inspections.",
         "contextMeaning": "Here, \"response\" means workers must act quickly when there is a problem",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Useful response: Thank you for your help.",
-        "contextMeaning": "Here, \"response\" means a good thing to say to thank someone for help",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -84928,7 +84741,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "- Rewrite unclear text.",
+        "sentence": "Rewrite unclear text.",
         "contextMeaning": "Here, \"rewrite\" means write the unclear text again to make it better",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -89625,7 +89438,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "--- Why do you think employees sometimes forget to consider data sensitivity when they are trying to work quickly?",
+        "sentence": "Why do you think employees sometimes forget to consider data sensitivity when they are trying to work quickly?",
         "contextMeaning": "Here, \"sensitivity\" means being careful about private or important data at work",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -92624,7 +92437,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "### Model Moment Nurse: Can you sit here, please?",
+        "sentence": "Can you sit here, please?",
         "contextMeaning": "Here, \"sit\" means the nurse asks you to put your bottom on a chair",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -96460,8 +96273,7 @@
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-22-australia-branch-business-catch-up"
     ],
     "contexts": [
       {
@@ -96496,13 +96308,6 @@
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "The company needs observations about rent, customer flow, menu prices, staff, and reactions to Japanese craft.",
         "contextMeaning": "Here, \"staff\" means workers in the company who help customers",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Staff: What is the problem?",
-        "contextMeaning": "Here, \"staff\" means the people working at the clinic who ask questions",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -98245,8 +98050,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-21-a1-pharmacy-ask-for-medicine"
     ],
     "contexts": [
       {
@@ -98260,13 +98064,6 @@
         "episodeId": "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
         "sentence": "You can say, \"I have a headache,\" \"I have a cough,\" or \"My stomach hurts.\" Then you can ask, \"What can I take?\" This is enough for many small daily problems.",
         "contextMeaning": "Here, \"stomach\" means the part of your body that can feel pain",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Useful Speaking Patterns What can you say if your stomach hurts?",
-        "contextMeaning": "Here, \"stomach\" means the body part that can hurt and you talk about",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -105511,7 +105308,6 @@
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
@@ -105603,13 +105399,6 @@
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Explain your answer using at least three steps from the workflow.",
         "contextMeaning": "Here, \"three\" means use at least this number of steps from the workflow",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
-        "sentence": "Can you say three health problems in English?",
-        "contextMeaning": "Here, \"three\" means say the number of health problems asked in English",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -105725,8 +105514,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-21-a2-clinic-appointment-symptoms"
     ],
     "contexts": [
       {
@@ -106906,7 +106694,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "### Model Moment Staff: A repair worker can come tomorrow morning.",
+        "sentence": "A repair worker can come tomorrow morning.",
         "contextMeaning": "Here, \"tomorrow\" means the repair worker can come the day after today",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -109440,7 +109228,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "--- Have you ever read something that sounded convincing but later turned out to be inaccurate?",
+        "sentence": "Have you ever read something that sounded convincing but later turned out to be inaccurate?",
         "contextMeaning": "Here, \"turned\" means changed later to be not correct or true",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -109889,7 +109677,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "- Rewrite unclear text.",
+        "sentence": "Rewrite unclear text.",
         "contextMeaning": "Here, \"unclear\" means text that is hard to understand and needs fixing",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -110969,7 +110757,7 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "Which problem is more urgent: a leaking sink or a broken light?",
         "contextMeaning": "Here, \"urgent\" means which problem needs help faster, sink or light",
-        "source": "authored_reading_vocabulary",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -111586,7 +111374,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-        "sentence": "- Vague.",
+        "sentence": "Vague.",
         "contextMeaning": "Here, \"vague\" means content that is not clear or has little detail",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -115552,7 +115340,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "Maria: It is in the kitchen, under the window.",
+        "sentence": "It is in the kitchen, under the window.",
         "contextMeaning": "Here, \"window\" means an opening with glass in a wall",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -116531,7 +116319,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "Resident: My heater is not working.",
+        "sentence": "My heater is not working.",
         "contextMeaning": "Here, \"working\" means the heater is not doing its job",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -116649,7 +116437,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "Maria: Yes, that works for me.",
+        "sentence": "Yes, that works for me.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -117013,7 +116801,7 @@
       },
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
-        "sentence": "-- Could the problem become worse?",
+        "sentence": "Could the problem become worse?",
         "contextMeaning": "Here, \"worse\" means can the problem become more bad",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
