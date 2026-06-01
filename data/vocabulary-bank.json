@@ -17890,13 +17890,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
         "sentence": "It may click, choose, or complete a task.",
         "contextMeaning": "Here, \"click\" means press a button to do a task",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Click a sentence to jump the audio.",
+        "contextMeaning": "Here, \"click\" means press on a sentence to start the sound there",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -21667,13 +21675,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-phone-problems-english-everyday-help"
+      "episode-2026-05-14-phone-problems-english-everyday-help",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-phone-problems-english-everyday-help",
         "sentence": "Mika: Sorry, my phone is not connecting.",
         "contextMeaning": "Here, \"connecting\" means phone is not joining the internet or call network",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Part 3 checks sentence control: comparing choices, saying how often something happens, and connecting reasons, results, and timing.",
+        "contextMeaning": "Here, \"connecting\" means linking ideas like reasons and results in sentences",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -22733,7 +22749,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -22831,6 +22848,13 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "As the conversation continues, she explains where the problem is, when it started, how serious it is, and when a repair worker can visit.",
         "contextMeaning": "Here, \"conversation\" means talking and explaining the problem and repair time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Finish by saying your own short service conversation: ask for help, compare two options, explain one past problem, and say your plan.",
+        "contextMeaning": "Here, \"conversation\" means a short talk where you ask and answer questions",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -28130,6 +28154,29 @@
         "sentence": "QUESTION: Why might a buyer choose a deeper diagnosis before a quick demo?",
         "contextMeaning": "Here, \"diagnosis\" means the process of identifying the nature of a problem",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "diagnostic": {
+    "word": "diagnostic",
+    "definition": "A quick test to see what you know",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "2026-06-01-a2-practical-grammar-check"
+    ],
+    "contexts": [
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Start with a quick A2 diagnostic.",
+        "contextMeaning": "Here, \"diagnostic\" means a short test to check your A2 English level",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -38553,7 +38600,8 @@
     "episodes": [
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "2026-05-25-a1-grammar-core-gaps-test"
+      "2026-05-25-a1-grammar-core-gaps-test",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -38574,6 +38622,13 @@
         "episodeId": "2026-05-25-a1-grammar-core-gaps-test",
         "sentence": "[PRACTICE] Answer the cards, read the feedback, then try missed parts again from the results panel.",
         "contextMeaning": "Here, \"feedback\" means words that say if your answers are right or wrong",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "[PRACTICE] Answer the cards, read the feedback, then retry missed targets from the results panel.",
+        "contextMeaning": "Here, \"feedback\" means information you read about your answers to learn",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -40017,7 +40072,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "2026-05-18-beginner-grammar-ladder-first-check",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -40059,6 +40115,13 @@
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "This punishment is terrible because he can never finish.",
         "contextMeaning": "Here, \"finish\" means end or complete something",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Finish by saying your own short service conversation: ask for help, compare two options, explain one past problem, and say your plan.",
+        "contextMeaning": "Here, \"finish\" means to complete your short talk at the end",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -46115,7 +46178,8 @@
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -46199,6 +46263,13 @@
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "This happens because attention is limited.",
         "contextMeaning": "Here, \"happens\" means it takes place because people cannot pay attention to everything",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Part 3 checks sentence control: comparing choices, saying how often something happens, and connecting reasons, results, and timing.",
+        "contextMeaning": "Here, \"happens\" means how often something takes place or occurs",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -53647,6 +53718,29 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "In ancient Rome, people used honey, fruit juice, and snow in luxury drinks.",
         "contextMeaning": "Here, \"juice\" means liquid taken from fruit used in old drinks",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "jump": {
+    "word": "jump",
+    "definition": "Move quickly from one place to another",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "2026-06-01-a2-practical-grammar-check"
+    ],
+    "contexts": [
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Click a sentence to jump the audio.",
+        "contextMeaning": "Here, \"jump\" means go straight to the sound from the sentence you press",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -67724,7 +67818,8 @@
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -67773,6 +67868,13 @@
         "episodeId": "episode-2026-05-21-a2-work-schedule-change",
         "sentence": "Add one exact number, time, or object.",
         "contextMeaning": "Here, \"object\" means add one exact thing, number, or time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Part 1 checks service and shopping language: polite requests, offers, some and any, object pronouns, and size problems.",
+        "contextMeaning": "Here, \"object\" means words that replace things in sentences after verbs",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -69431,7 +69533,8 @@
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -69452,6 +69555,13 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "In Japan, matcha, yuzu, black sesame, and seasonal fruit became normal options.",
         "contextMeaning": "Here, \"options\" means different tastes people can choose in Japan",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Finish by saying your own short service conversation: ask for help, compare two options, explain one past problem, and say your plan.",
+        "contextMeaning": "Here, \"options\" means two different things you can pick between in the talk",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71083,7 +71193,8 @@
     "confidence": "trusted",
     "episodes": [
       "2026-05-18-beginner-grammar-ladder-first-check",
-      "2026-05-25-a1-grammar-core-gaps-test"
+      "2026-05-25-a1-grammar-core-gaps-test",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -71097,6 +71208,13 @@
         "episodeId": "2026-05-25-a1-grammar-core-gaps-test",
         "sentence": "[PRACTICE] Answer the cards, read the feedback, then try missed parts again from the results panel.",
         "contextMeaning": "Here, \"panel\" means place on screen with results and practice parts",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "[PRACTICE] Answer the cards, read the feedback, then retry missed targets from the results panel.",
+        "contextMeaning": "Here, \"panel\" means the screen area showing your results and options",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -75098,7 +75216,8 @@
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -75175,6 +75294,13 @@
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "At the end of the conversation, I say, “Thank you for helping me.” Being polite is important because it creates clear and positive communication.",
         "contextMeaning": "Here, \"polite\" means being nice helps make good talk with others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Part 1 checks service and shopping language: polite requests, offers, some and any, object pronouns, and size problems.",
+        "contextMeaning": "Here, \"polite\" means making requests in a nice and respectful way",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -76066,7 +76192,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
-      "episode-2026-05-21-weekly-catch-up-conversation-a2"
+      "episode-2026-05-21-weekly-catch-up-conversation-a2",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -76081,6 +76208,13 @@
         "sentence": "Today I want to practise ___.",
         "contextMeaning": "Here, \"practise\" means do something again to get better",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Then practise the grammar that helps you ask for help, compare choices, explain past events, and talk about plans.",
+        "contextMeaning": "Here, \"practise\" means use grammar exercises to improve your English skills",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -77989,6 +78123,29 @@
         "sentence": "It may sound like a story only for tech experts, but it is also a story about promises, trust, money, and change.",
         "contextMeaning": "Here, \"promises\" means things that people said they would do or be",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "pronouns": {
+    "word": "pronouns",
+    "definition": "Words that take the place of names",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "2026-06-01-a2-practical-grammar-check"
+    ],
+    "contexts": [
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Part 1 checks service and shopping language: polite requests, offers, some and any, object pronouns, and size problems.",
+        "contextMeaning": "Here, \"pronouns\" means words like him, her, or it used after verbs",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -83554,7 +83711,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
@@ -83568,6 +83726,13 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "Google Search received one of the most consequential changes: AI Mode is moving onto Gemini 3.5 Flash, and the search box itself is being redesigned for longer, more multimodal requests.",
         "contextMeaning": "Here, \"requests\" means longer and different kinds of questions people ask in the search box",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "Part 1 checks service and shopping language: polite requests, offers, some and any, object pronouns, and size problems.",
+        "contextMeaning": "Here, \"requests\" means asking for help or things in a kind way",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -84371,13 +84536,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "2026-05-18-beginner-grammar-ladder-first-check"
+      "2026-05-18-beginner-grammar-ladder-first-check",
+      "2026-06-01-a2-practical-grammar-check"
     ],
     "contexts": [
       {
         "episodeId": "2026-05-18-beginner-grammar-ladder-first-check",
         "sentence": "[PRACTICE] Answer the grammar cards, read the feedback, then retry missed targets from the results panel.",
         "contextMeaning": "Here, \"retry\" means try again the things you got wrong before",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "2026-06-01-a2-practical-grammar-check",
+        "sentence": "[PRACTICE] Answer the cards, read the feedback, then retry missed targets from the results panel.",
+        "contextMeaning": "Here, \"retry\" means do the missed questions one more time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
