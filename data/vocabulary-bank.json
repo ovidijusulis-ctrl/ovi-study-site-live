@@ -61414,6 +61414,29 @@
       }
     ]
   },
+  "mean": {
+    "word": "mean",
+    "definition": "To have a meaning or result",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "This does not mean every menu is dishonest.",
+        "contextMeaning": "Here, \"mean\" means the writer is saying that menu design is not always dishonest",
+        "source": "manual_popup_repair/runtime_trust",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "meaning": {
     "word": "meaning",
     "definition": "What something shows or stands for",
@@ -79065,6 +79088,29 @@
         "sentence": "Musk argues that OpenAI moved away from its original purpose.",
         "contextMeaning": "Here, \"purpose\" means the first reason or goal for what they wanted",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "push": {
+    "word": "push",
+    "definition": "To guide someone or something in a direction",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-31-the-psychology-of-menus"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "The page design, photos, colors, names, labels, and prices can push our attention toward some dishes and away from others.",
+        "contextMeaning": "Here, \"push\" means guide attention toward some dishes",
+        "source": "manual_popup_repair/runtime_trust",
         "confidence": "trusted"
       }
     ]
@@ -99422,7 +99468,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -99472,6 +99519,13 @@
         "sentence": "The rock in the Sisyphus story can mean hard work, stress, daily problems, responsibility, or something we cannot easily get away from.",
         "contextMeaning": "Here, \"stress\" means feeling worried or tired from hard work or problems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-05-31-the-psychology-of-menus",
+        "sentence": "In that moment, the menu can reduce stress by showing clear categories, popular items, or easy combinations.",
+        "contextMeaning": "Here, \"stress\" means worry or pressure that makes choosing harder",
+        "source": "manual_popup_repair/runtime_trust",
         "confidence": "trusted"
       }
     ]
