@@ -300,19 +300,20 @@
     "generatedBy": "popup_support_router_v1"
   },
   "careful": {
-    "simpleMeaning": "Paying attention to avoid mistakes",
-    "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes.",
-    "sentence": "Karaoke is just for fun.\" At the end, say, \"Thank you for coming.\" \"It was nice talking with you.\" \"Please be careful going home.\" If a customer drank too much, say, \"Maybe some water first.",
-    "sourceSentence": "Karaoke is just for fun.\" At the end, say, \"Thank you for coming.\" \"It was nice talking with you.\" \"Please be careful going home.\" If a customer drank too much, say, \"Maybe some water first.",
-    "example": "Karaoke is just for fun.\" At the end, say, \"Thank you for coming.\" \"It was nice talking with you.\" \"Please be careful going home.\" If a customer drank too much, say, \"Maybe some water first.",
-    "source": "popup_support_router/teaching_lexicon_trusted",
+    "simpleMeaning": "paying attention so you stay safe",
+    "definition": "paying attention so you stay safe",
+    "contextMeaning": "the host says this when the customer leaves",
+    "sentence": "Please be careful going home.",
+    "sourceSentence": "Please be careful going home.",
+    "example": "Please be careful going home.",
+    "source": "manual_runtime_trust_review",
     "popupMode": "prebuilt_safe",
     "supportAction": "simplify",
-    "simpleMeaningSource": "teaching_lexicon_trusted",
-    "contextMeaningSource": "teaching_lexicon_trusted",
-    "translationJa": "注意深い",
-    "translationEs": "cuidadoso",
-    "generatedBy": "popup_support_router_v1"
+    "simpleMeaningSource": "manual_runtime_trust_review",
+    "contextMeaningSource": "manual_runtime_trust_review",
+    "translationJa": "気をつけて",
+    "translationEs": "ten cuidado",
+    "generatedBy": "manual_review_2026_06_02"
   },
   "worker": {
     "simpleMeaning": "A person who does a job",
@@ -1823,5 +1824,37 @@
     "cefr": "A2",
     "example": "The introduction tells you what the lesson is about.",
     "source": "codex_curated"
+  },
+  "strong": {
+    "simpleMeaning": "with a lot of alcohol or strong taste",
+    "definition": "with a lot of alcohol or strong taste",
+    "contextMeaning": "the customer does not want a strong drink",
+    "sentence": "Customer: I do not want a strong drink.",
+    "sourceSentence": "Customer: I do not want a strong drink.",
+    "example": "I do not want a strong drink.",
+    "source": "manual_runtime_trust_review",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "explain",
+    "simpleMeaningSource": "manual_runtime_trust_review",
+    "contextMeaningSource": "manual_runtime_trust_review",
+    "translationJa": "強い（お酒が強い）",
+    "translationEs": "fuerte",
+    "generatedBy": "manual_review_2026_06_02"
+  },
+  "light": {
+    "simpleMeaning": "not strong or heavy",
+    "definition": "not strong or heavy",
+    "contextMeaning": "a drink that is easier to drink and not too strong",
+    "sentence": "If you want something light, I recommend a highball.",
+    "sourceSentence": "If you want something light, I recommend a highball.",
+    "example": "I recommend something light.",
+    "source": "manual_runtime_trust_review",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "explain",
+    "simpleMeaningSource": "manual_runtime_trust_review",
+    "contextMeaningSource": "manual_runtime_trust_review",
+    "translationJa": "軽い・強くない",
+    "translationEs": "ligero",
+    "generatedBy": "manual_review_2026_06_02"
   }
 }

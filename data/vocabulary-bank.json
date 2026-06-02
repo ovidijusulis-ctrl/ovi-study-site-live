@@ -13858,9 +13858,9 @@
       },
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-        "sentence": "Karaoke is just for fun.\" At the end, say, \"Thank you for coming.\" \"It was nice talking with you.\" \"Please be careful going home.\" If a customer drank too much, say, \"Maybe some water first.",
-        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
-        "source": "popup_support_router/teaching_lexicon_trusted",
+        "sentence": "Please be careful going home.",
+        "contextMeaning": "Here, \"careful\" means the host says this when the customer leaves",
+        "source": "manual_runtime_trust_review",
         "confidence": "trusted"
       }
     ]
@@ -57490,7 +57490,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -57533,6 +57534,13 @@
         "sentence": "In another month, it may offer grape jelly, fruit parfait, or a light cake with local fruit.",
         "contextMeaning": "Here, \"light\" means a cake that is not heavy, made with local fruit",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "If you want something light, I recommend a highball.",
+        "contextMeaning": "Here, \"light\" means a drink that is easier to drink and not too strong",
+        "source": "manual_runtime_trust_review",
         "confidence": "trusted"
       }
     ]
@@ -101148,7 +101156,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -101163,6 +101172,13 @@
         "sentence": "However, defaults can also influence decisions in a strong way.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Customer: I do not want a strong drink.",
+        "contextMeaning": "Here, \"strong\" means the customer does not want a strong drink",
+        "source": "manual_runtime_trust_review",
         "confidence": "trusted"
       }
     ]
