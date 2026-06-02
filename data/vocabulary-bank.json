@@ -848,7 +848,8 @@
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -884,6 +885,13 @@
         "sentence": "Gold Coast may be better for tourism, design events, pop-ups, and partner-led activity.",
         "contextMeaning": "Here, \"activity\" means events or things to do led by partners",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Karaoke is optional.",
+        "contextMeaning": "Here, \"activity\" means karaoke is an activity in the snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -2408,6 +2416,29 @@
         "sentence": "It just sends an alarm.",
         "contextMeaning": "Here, \"alarm\" means a warning signal your body sends",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "alcohol": {
+    "word": "alcohol",
+    "definition": "Drinks like beer, whisky, or shochu",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "I do not want a strong drink.",
+        "contextMeaning": "Here, \"alcohol\" means a drink type some customers avoid",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -4849,7 +4880,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-21-a2-apartment-repair-call"
+      "episode-2026-05-21-a2-apartment-repair-call",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -4885,6 +4917,13 @@
         "sentence": "I will keep the bowl there.\" The worker asks, \"Will you be home between two and four?\" Omar says, \"Yes, I can be home then.\" The worker says, \"The repair person will call when they arrive.\" Omar says, \"Please call my mobile number.",
         "contextMeaning": "Here, \"arrive\" means when the repair person comes to the home",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Please be careful going home.",
+        "contextMeaning": "Here, \"arrive\" means get home after leaving the snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -5425,7 +5464,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -5587,6 +5627,13 @@
         "sentence": "Greek myth asks whether glory is worth suffering.",
         "contextMeaning": "Here, \"asks\" means the story wants to know if glory is worth pain",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The customer asks about shochu.",
+        "contextMeaning": "Here, \"asks\" means what the customer does",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -7321,7 +7368,8 @@
       "episode-2026-04-29-how-animation-creates-movement-why-drawings-seem-alive",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -7350,6 +7398,13 @@
         "sentence": "The reception worker or nurse may ask basic questions.",
         "contextMeaning": "Here, \"basic\" means easy questions the nurse or worker may ask you",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Seat charge means a basic charge for sitting here.",
+        "contextMeaning": "Here, \"basic\" means the simple charge for sitting",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -8572,6 +8627,29 @@
         "sentence": "In Queensland, roof tiling includes cutting and fixing roof tiles, battens, bedding, pointing, flashing, sarking, skylights, and maintenance.",
         "contextMeaning": "Here, \"bedding\" means material under roof tiles to help hold them safely",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "beer": {
+    "word": "beer",
+    "definition": "An alcoholic drink",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "We have beer.",
+        "contextMeaning": "Here, \"beer\" means one drink choice at the snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -10617,6 +10695,29 @@
       }
     ]
   },
+  "boiled": {
+    "word": "boiled",
+    "definition": "Cooked in hot water",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "They are boiled and served with salt.",
+        "contextMeaning": "Here, \"boiled\" means how edamame is prepared",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "bold": {
     "word": "bold",
     "definition": "Very bright or strong looking",
@@ -12549,7 +12650,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-phone-problems-english-everyday-help",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -12564,6 +12666,13 @@
         "sentence": "Small details such as the order of options, the words on a button, or a message about popularity can make one choice feel more attractive than another.",
         "contextMeaning": "Here, \"button\" means words on a small thing you press on a screen",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Use the support language button when you want Japanese help.",
+        "contextMeaning": "Here, \"button\" means the support language control",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -13722,7 +13831,8 @@
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -13742,6 +13852,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "What kinds of information should people be careful about sharing online?",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Karaoke is just for fun.\" At the end, say, \"Thank you for coming.\" \"It was nice talking with you.\" \"Please be careful going home.\" If a customer drank too much, say, \"Maybe some water first.",
         "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -15048,7 +15165,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -15239,6 +15357,13 @@
         "contextMeaning": "Here, \"change\" means stories became different because cities wanted to add their own parts",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Change the customer detail and keep the host answer warm.",
+        "contextMeaning": "Here, \"change\" means change one practice detail",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
       }
     ]
   },
@@ -15366,7 +15491,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -15500,6 +15626,13 @@
         "sentence": "Even though the options may be similar, the label changes the feeling people have about them.",
         "contextMeaning": "Here, \"changes\" means makes people feel different about the options",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Change one detail: the drink, the food, the country, or the karaoke answer.",
+        "contextMeaning": "Here, \"changes\" means practice with a different detail",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -16305,6 +16438,29 @@
       }
     ]
   },
+  "chewy": {
+    "word": "chewy",
+    "definition": "Needing time to bite and eat",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Dried squid is chewy and salty.",
+        "contextMeaning": "Here, \"chewy\" means how dried squid can feel",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "chicago": {
     "word": "chicago",
     "definition": "A big city in the United States",
@@ -16339,7 +16495,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -16347,6 +16504,13 @@
         "sentence": "In this lesson, Daniel ordered chicken noodles without peanuts because he has an allergy.",
         "contextMeaning": "Here, \"chicken\" means the type of meat in Daniel's noodles",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Karaage is Japanese fried chicken.",
+        "contextMeaning": "Here, \"chicken\" means karaage is Japanese fried chicken",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -16668,7 +16832,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -16702,6 +16867,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "When you use an app, visit a website, or look at a menu, you are often presented with many choices.",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "After the customer sits down, ask, \"What would you like to drink?\" If the customer is not sure, ask, \"What do you usually drink?\" You can give simple choices.",
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -19575,7 +19747,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-21-a2-bank-card-problem"
+      "episode-2026-05-21-a2-bank-card-problem",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -19611,6 +19784,13 @@
         "sentence": "Ken asks, \"Is this a safe place to continue, or should I call again from home?\" The worker says, \"If you are not comfortable, please call again from a private place.\" The worker checks the account and says, \"The card was blocked because the payment looked unusual.",
         "contextMeaning": "Here, \"comfortable\" means if Ken does not feel safe, he should call from home",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The first job is to make the customer feel welcome and safe.",
+        "contextMeaning": "Here, \"comfortable\" means how the customer should feel",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -22782,7 +22962,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "2026-06-01-a2-practical-grammar-check"
+      "2026-06-01-a2-practical-grammar-check",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -22888,6 +23069,13 @@
         "sentence": "Finish by saying your own short service conversation: ask for help, compare two options, explain one past problem, and say your plan.",
         "contextMeaning": "Here, \"conversation\" means a short talk where you ask and answer questions",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Practice natural conversation at a snack bar.",
+        "contextMeaning": "Here, \"conversation\" means host and customer speaking practice",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -25507,7 +25695,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -25543,6 +25732,13 @@
         "sentence": "Is it causing damage or danger?",
         "contextMeaning": "Here, \"danger\" means is it making a risk to people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Get home safely means arrive home without danger.",
+        "contextMeaning": "Here, \"danger\" means what safely means avoiding",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -28244,6 +28440,29 @@
       }
     ]
   },
+  "dictionary": {
+    "word": "dictionary",
+    "definition": "Word help",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The dictionary and grammar cards give support.",
+        "contextMeaning": "Here, \"dictionary\" means popup word help in the lesson",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "dies": {
     "word": "dies",
     "definition": "Stops living",
@@ -29348,7 +29567,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -29370,6 +29590,13 @@
         "sentence": "The dish arrives with peanuts on top.",
         "contextMeaning": "Here, \"dish\" means the plate of food comes with peanuts on top",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Houtou is a warm noodle dish with vegetables.",
+        "contextMeaning": "Here, \"dish\" means one small food at the snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -29579,6 +29806,29 @@
         "sentence": "The Silk Road connected distant regions for a very long time.",
         "contextMeaning": "Here, \"distant\" means far away places that were connected for a long time",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "distilled": {
+    "word": "distilled",
+    "definition": "Made by heating and cooling alcohol",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Shochu is Japanese alcohol.",
+        "contextMeaning": "Here, \"distilled\" means a simple detail about shochu",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -30490,6 +30740,29 @@
       }
     ]
   },
+  "drank": {
+    "word": "drank",
+    "definition": "Had alcohol or another drink",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "If a customer drank too much, offer water.",
+        "contextMeaning": "Here, \"drank\" means a customer had drinks before going home",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "drawings": {
     "word": "drawings",
     "definition": "Pictures made by hand with pencil or pen",
@@ -30621,6 +30894,29 @@
       }
     ]
   },
+  "dried": {
+    "word": "dried",
+    "definition": "With water removed",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "These foods can be simple: edamame, pickles, dried squid, karaage, nuts, or a small home-style dish.",
+        "contextMeaning": "Here, \"dried\" means a way squid can be prepared",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "drink": {
     "word": "drink",
     "definition": "Something you put in your mouth to swallow",
@@ -30634,7 +30930,8 @@
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-05-21-a2-clinic-appointment-symptoms"
+      "episode-2026-05-21-a2-clinic-appointment-symptoms",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -30657,6 +30954,36 @@
         "contextMeaning": "Here, \"drink\" means riko can take water into her mouth",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "What would you like to drink?",
+        "contextMeaning": "Here, \"drink\" means a customer order",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "drinking": {
+    "word": "drinking",
+    "definition": "Having drinks",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "A snack bar is a small local drinking place.",
+        "contextMeaning": "Here, \"drinking\" means what people do in a snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
       }
     ]
   },
@@ -30677,7 +31004,8 @@
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -30727,6 +31055,13 @@
         "sentence": "Long before gelato, people already used natural ice and snow to cool sweet drinks and desserts.",
         "contextMeaning": "Here, \"drinks\" means liquid things people drink, like sweet drinks cooled with ice",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Drinks are separate.",
+        "contextMeaning": "Here, \"drinks\" means beer, highball, shochu, tea, or soft drinks",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -31781,7 +32116,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -31796,6 +32132,13 @@
         "sentence": "People often focus on what is easiest to see.",
         "contextMeaning": "Here, \"easiest\" means what is simple to notice or look at",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Which small food is easiest for a foreign customer to try?",
+        "contextMeaning": "Here, \"easiest\" means the simplest food for a customer to try",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -33651,6 +33994,29 @@
       }
     ]
   },
+  "enjoy": {
+    "word": "enjoy",
+    "definition": "To like doing something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Please relax and enjoy.",
+        "contextMeaning": "Here, \"enjoy\" means to like doing something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "enjoyed": {
     "word": "enjoyed",
     "definition": "Felt happy or liked something a lot",
@@ -34554,6 +34920,29 @@
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "Even prices are designed carefully.",
         "contextMeaning": "Here, \"even\" means used to make the idea stronger or more surprising",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "evening": {
+    "word": "evening",
+    "definition": "The later part of the day before night",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Mini roleplay: Customer: Good evening.",
+        "contextMeaning": "Here, \"evening\" means the later part of the day before night",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -36624,7 +37013,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -36829,6 +37219,13 @@
         "contextMeaning": "Here, \"explain\" means tell how old people thought about big ideas",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "I am happy to explain.",
+        "contextMeaning": "Here, \"explain\" means tell the customer how it works",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
       }
     ]
   },
@@ -36946,7 +37343,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -37017,6 +37415,13 @@
         "sentence": "This mixed identity explains why heroes can do what ordinary people cannot.",
         "contextMeaning": "Here, \"explains\" means shows the reason for heroes’ special abilities",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The host explains a highball.",
+        "contextMeaning": "Here, \"explains\" means what the host does for hard words",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -41528,7 +41933,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -41550,6 +41956,13 @@
         "sentence": "Have you ever ordered food because the photo looked delicious?",
         "contextMeaning": "Here, \"food\" means things people eat",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Do you have food?",
+        "contextMeaning": "Here, \"food\" means small foods in the snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -42596,6 +43009,29 @@
     ],
     "contexts": []
   },
+  "fried": {
+    "word": "fried",
+    "definition": "Cooked in hot oil",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Karaage is Japanese fried chicken.",
+        "contextMeaning": "Here, \"fried\" means how karaage is cooked",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "friend": {
     "word": "friend",
     "definition": "A person you like and trust",
@@ -42666,7 +43102,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -42709,6 +43146,13 @@
         "sentence": "This makes the conversation friendly and easy.",
         "contextMeaning": "Here, \"friendly\" means talking that feels kind and happy",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Ask a friendly question safely.",
+        "contextMeaning": "Here, \"friendly\" means good host conversation style",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -44309,7 +44753,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -44329,6 +44774,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "The goal is not to avoid apps, websites, or menus.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The goal is not a long speech.",
         "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -44542,6 +44994,29 @@
         "sentence": ": Did you practise golf recently?",
         "contextMeaning": "Here, \"golf\" means playing the game with a ball and stick",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "goodbye": {
+    "word": "goodbye",
+    "definition": "Words when someone leaves",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Thank you for coming. Please be careful going home.",
+        "contextMeaning": "Here, \"goodbye\" means the end of the customer visit",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -46444,7 +46919,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -46473,6 +46949,13 @@
         "sentence": "On the other hand, options that are hidden, lower on the page, or harder to access may receive less attention.",
         "contextMeaning": "Here, \"harder\" means options that are more difficult to reach",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "A few useful workplace words are harder.",
+        "contextMeaning": "Here, \"harder\" means words that need extra support",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -48360,6 +48843,29 @@
       }
     ]
   },
+  "home-style": {
+    "word": "home-style",
+    "definition": "Simple like home cooking",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Some places have a small home-style dish.",
+        "contextMeaning": "Here, \"home-style\" means a small friendly food style",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "homecoming": {
     "word": "homecoming",
     "definition": "The journey back home after a long time",
@@ -48842,6 +49348,29 @@
         "sentence": "Home repair English is useful when you rent an apartment or stay in shared housing.",
         "contextMeaning": "Here, \"housing\" means homes or places where people live together",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "houtou": {
+    "word": "houtou",
+    "definition": "A Yamanashi noodle dish",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Houtou is famous here.",
+        "contextMeaning": "Here, \"houtou\" means local food the host recommends",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -50582,7 +51111,8 @@
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -50597,6 +51127,13 @@
         "sentence": "What menu items should be included?",
         "contextMeaning": "Here, \"included\" means means what food choices should be part of the menu",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Are drinks included?",
+        "contextMeaning": "Here, \"included\" means already in the charge",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -52630,7 +53167,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -53471,7 +54009,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -53535,6 +54074,13 @@
         "sentence": "Which Japanese flavor would you try first in gelato?",
         "contextMeaning": "Here, \"japanese\" means a flavor that comes from Japan for gelato",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "This is a Japanese snack bar.",
+        "contextMeaning": "Here, \"japanese\" means the snack bar style or food",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -54218,12 +54764,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "They think Sisyphus is strong because he keeps going.",
+        "contextMeaning": "Here, \"keeps\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The customer asks, \"Is food included?\" The host answers politely and keeps the explanation short.",
         "contextMeaning": "Here, \"keeps\" means to continue to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -54425,7 +54979,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea"
+      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -54433,6 +54988,13 @@
         "sentence": "They are a rich seafaring people who welcome strangers kindly.",
         "contextMeaning": "Here, \"kindly\" means they welcome strangers in a nice and friendly way",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Listen kindly and answer warmly.",
+        "contextMeaning": "Here, \"kindly\" means how the host should answer",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -57347,7 +57909,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -57376,6 +57939,13 @@
         "sentence": "They can notice lines that changed.",
         "contextMeaning": "Here, \"lines\" means sentences in the story or joke that changed",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The main lines are short and clear.",
+        "contextMeaning": "Here, \"lines\" means workplace phrases for the host",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -58023,7 +58593,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -58052,6 +58623,13 @@
         "sentence": "\"Slow-cooked spicy chicken curry with local vegetables\" sounds richer and more special.",
         "contextMeaning": "Here, \"local\" means from this area",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "It is a small local drinking place.",
+        "contextMeaning": "Here, \"local\" means a small neighborhood place",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -61843,7 +62421,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -62103,6 +62682,13 @@
         "sentence": "It means that design can guide attention and influence the decision process.",
         "contextMeaning": "Here, \"means\" means says that design can help guide what you look at and choose",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Seat charge means a basic charge for sitting here.",
+        "contextMeaning": "Here, \"means\" means explains a word or charge",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -63129,6 +63715,29 @@
       }
     ]
   },
+  "microphone": {
+    "word": "microphone",
+    "definition": "A tool for singing or speaking louder",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Karaoke means singing with music and a microphone.",
+        "contextMeaning": "Here, \"microphone\" means used for karaoke",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "microsoft": {
     "word": "microsoft",
     "definition": "A big computer company name",
@@ -63785,7 +64394,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -63814,6 +64424,13 @@
         "sentence": "In many Silk Road cities, people became culturally mixed.",
         "contextMeaning": "Here, \"mixed\" means people from many cultures lived together",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "A highball is whisky and soda.",
+        "contextMeaning": "Here, \"mixed\" means how whisky and soda make a highball",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -67245,7 +67862,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -67253,6 +67871,13 @@
         "sentence": "They can remind people of hoto, a wide noodle from Yamanashi.",
         "contextMeaning": "Here, \"noodle\" means a type of pasta that is long and flat",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "It is a warm noodle dish with vegetables.",
+        "contextMeaning": "Here, \"noodle\" means part of houtou",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -68037,6 +68662,29 @@
         "sentence": "You may talk to a person at the reception desk or a nurse.",
         "contextMeaning": "Here, \"nurse\" means a helper at the clinic who talks to you",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "nuts": {
+    "word": "nuts",
+    "definition": "Small hard seeds people eat",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "These foods can be simple: edamame, pickles, dried squid, karaage, nuts, or a small home-style dish.",
+        "contextMeaning": "Here, \"nuts\" means a simple snack with drinks",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -69093,6 +69741,29 @@
       }
     ]
   },
+  "on the rocks": {
+    "word": "on the rocks",
+    "definition": "Served with ice",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Whisky can be on the rocks.",
+        "contextMeaning": "Here, \"on the rocks\" means one way to drink whisky",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "on-site": {
     "word": "on-site",
     "definition": "At the same place where work happens",
@@ -69399,6 +70070,29 @@
         "sentence": "It may sound like a story only for tech experts, but it is also a story about promises, trust, money, and change.",
         "contextMeaning": "Here, \"only\" means not just for one group of people, but for others too",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "oolong": {
+    "word": "oolong",
+    "definition": "A kind of tea",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "You can drink it with oolong tea.",
+        "contextMeaning": "Here, \"oolong\" means a mixer or soft drink choice",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -69806,6 +70500,29 @@
       }
     ]
   },
+  "optional": {
+    "word": "optional",
+    "definition": "You can choose it",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Karaoke is optional.",
+        "contextMeaning": "Here, \"optional\" means karaoke is not required",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "options": {
     "word": "options",
     "definition": "Different choices you can pick from",
@@ -69957,7 +70674,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -69965,6 +70683,13 @@
         "sentence": "The visitor orders an iced coffee and a peach dessert.",
         "contextMeaning": "Here, \"orders\" means the visitor asks for iced coffee and peach dessert",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Before the customer orders, explain the seat charge.",
+        "contextMeaning": "Here, \"orders\" means what the customer does after sitting",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -72754,7 +73479,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -72762,6 +73488,13 @@
         "sentence": "Is glory worth suffering, or is a long peaceful life more valuable?",
         "contextMeaning": "Here, \"peaceful\" means a long calm life is more important than being famous",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "It is peaceful here.",
+        "contextMeaning": "Here, \"peaceful\" means how the host describes Yamanashi",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -73144,12 +73877,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Greek heroes are impressive, but they are rarely perfect.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "You do not need perfect English.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -73972,6 +74713,29 @@
       }
     ]
   },
+  "pickles": {
+    "word": "pickles",
+    "definition": "Vegetables kept in salt or vinegar",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Today we have edamame, pickles, dried squid, and karaage.",
+        "contextMeaning": "Here, \"pickles\" means a small food served with drinks",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "pickup": {
     "word": "pickup",
     "definition": "A place where someone meets you",
@@ -74342,7 +75106,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -74441,6 +75206,13 @@
         "sentence": "If a restaurant wants to sell a dish, it may place it in one of these strong positions.",
         "contextMeaning": "Here, \"place\" means a location or area",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "What is this place?",
+        "contextMeaning": "Here, \"place\" means the snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -75614,7 +76386,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -75643,6 +76416,13 @@
         "sentence": "I walk to the information desk and say, “Excuse me, I lost my phone.” The staff member responds politely and asks, “What does it look like?” I explain that it is a black phone with a blue case.",
         "contextMeaning": "Here, \"politely\" means the staff talks in a nice and kind way to help",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Answer politely and keep it short.",
+        "contextMeaning": "Here, \"politely\" means how the host answers",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -79383,7 +80163,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -79398,6 +80179,13 @@
         "sentence": "However, social proof can also push people too strongly if they stop thinking about their own needs.",
         "contextMeaning": "Here, \"push\" means influence people too strongly toward a choice",
         "source": "operator_reviewed_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Do not push them.",
+        "contextMeaning": "Here, \"push\" means what the host should not do with karaoke",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -82523,7 +83311,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
-      "episode-2026-05-21-what-is-gintama"
+      "episode-2026-05-21-what-is-gintama",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -82552,6 +83341,13 @@
         "sentence": "It wants the audience to relax, laugh, and enjoy the strange energy of the characters.",
         "contextMeaning": "Here, \"relax\" means feel calm and not worried",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "People drink, talk, relax, and sometimes sing karaoke.",
+        "contextMeaning": "Here, \"relax\" means what customers do in a snack bar",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -86193,7 +86989,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -86201,6 +86998,13 @@
         "sentence": "Full roleplay: introduce, ask, and compare A: Now let's practise.",
         "contextMeaning": "Here, \"roleplay\" means act like different people in a practice talk",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Practice the full visit roleplay.",
+        "contextMeaning": "Here, \"roleplay\" means host and customer speaking practice",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -87284,7 +88088,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -87320,6 +88125,13 @@
         "sentence": "Labels can also affect how safe or attractive an option feels.",
         "contextMeaning": "Here, \"safe\" means free from danger",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The goal is to make the customer feel welcome and safe.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -87660,6 +88472,29 @@
       }
     ]
   },
+  "salt": {
+    "word": "salt",
+    "definition": "White seasoning",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Edamame are young soybeans with salt.",
+        "contextMeaning": "Here, \"salt\" means used with edamame",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "salty": {
     "word": "salty",
     "definition": "Tastes like salt",
@@ -87671,7 +88506,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -87679,6 +88515,13 @@
         "sentence": "Torimotsu is cooked in a sweet and salty sauce, so it feels rich and strong.",
         "contextMeaning": "Here, \"salty\" means having a taste like salt, often mixed with sweet",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Dried squid is chewy and salty.",
+        "contextMeaning": "Here, \"salty\" means how dried squid can taste",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -89126,6 +89969,29 @@
       }
     ]
   },
+  "seat": {
+    "word": "seat",
+    "definition": "A place to sit",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Please have a seat.",
+        "contextMeaning": "Here, \"seat\" means where the customer sits",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "seat charge": {
     "word": "seat charge",
     "definition": "A basic charge for sitting",
@@ -90241,7 +91107,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -90284,6 +91151,13 @@
         "sentence": "The roof tile side needs a separate compliance path.",
         "contextMeaning": "Here, \"separate\" means needs its own way to follow the rules",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Drinks are separate.",
+        "contextMeaning": "Here, \"separate\" means drinks cost extra",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -90537,7 +91411,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -90560,6 +91435,13 @@
         "contextMeaning": "Here, \"serve\" means the cafe gives peach tart with fresh fruit in summer",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "What drinks and small foods do you serve?",
+        "contextMeaning": "Here, \"serve\" means what the snack bar offers",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
       }
     ]
   },
@@ -90575,7 +91457,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -90590,6 +91473,13 @@
         "sentence": "It is usually served warmer than many ice creams, around minus 12 to minus 14 degrees Celsius.",
         "contextMeaning": "Here, \"served\" means means gelato is given to people to eat",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "They are boiled and served with salt.",
+        "contextMeaning": "Here, \"served\" means how edamame comes to the customer",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -90636,7 +91526,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -90644,6 +91535,13 @@
         "sentence": "It serves soba, tempura, and Torimotsu.",
         "contextMeaning": "Here, \"serves\" means gives soba, tempura, and Torimotsu to customers",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The snack bar mainly serves drinks and small foods.",
+        "contextMeaning": "Here, \"serves\" means what the snack bar does",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -91471,7 +92369,8 @@
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -91500,6 +92399,13 @@
         "sentence": "**Bruto Carpigiani** in Bologna is especially associated with this shift.",
         "contextMeaning": "Here, \"shift\" means the change in how things were done",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Practice one real snack bar visit in simple English.",
+        "contextMeaning": "Here, \"shift\" means one period of snack bar work",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -91839,7 +92745,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -91861,6 +92768,13 @@
         "sentence": "Then she asks, \"Should I send a short note?\" This step shows responsibility.",
         "contextMeaning": "Here, \"short\" means not long",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The main lines are short and clear.",
+        "contextMeaning": "Here, \"short\" means good for A1 or A2 speech",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -92361,7 +93275,8 @@
     "episodes": [
       "episode-2026-04-29-how-animation-creates-movement-why-drawings-seem-alive",
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -92383,6 +93298,13 @@
         "sentence": "Imagine someone asks, \"What is the best English school near me for a shy high-school student?\" The AI may read websites, reviews, maps, prices, lesson descriptions, and teacher profiles.",
         "contextMeaning": "Here, \"shy\" means a student who feels nervous to talk or meet others",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "I am not a good singer.",
+        "contextMeaning": "Here, \"shy\" means how a customer may feel about karaoke",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -93020,7 +93942,8 @@
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
-      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3"
+      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -93042,6 +93965,13 @@
         "sentence": "Will Shakira sing?",
         "contextMeaning": "Here, \"sing\" means will Shakira make music with her voice",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Customers sometimes sing karaoke.",
+        "contextMeaning": "Here, \"sing\" means what customers may do for karaoke",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -93089,7 +94019,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -93104,6 +94035,13 @@
         "sentence": "Eurovision is not only about singing.",
         "contextMeaning": "Here, \"singing\" means using voice to make music, but not the only thing",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Karaoke means singing with music and a microphone.",
+        "contextMeaning": "Here, \"singing\" means karaoke activity",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -93159,7 +94097,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -93174,6 +94113,13 @@
         "sentence": "Can you sit here, please?",
         "contextMeaning": "Here, \"sit\" means the nurse asks you to put your bottom on a chair",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Please have a seat.",
+        "contextMeaning": "Here, \"sit\" means what the customer does after welcome",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -93283,7 +94229,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-why-cats-act-so-strange"
+      "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -93291,6 +94238,13 @@
         "sentence": ": Why do many cats enjoy sitting in boxes?",
         "contextMeaning": "Here, \"sitting\" means to be inside boxes resting or staying still",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Seat charge means a basic charge for sitting here.",
+        "contextMeaning": "Here, \"sitting\" means what the seat charge covers",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -94156,7 +95110,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-weekly-catch-up-conversation-a2"
+      "episode-2026-05-21-weekly-catch-up-conversation-a2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -94164,6 +95119,13 @@
         "sentence": ": What small thing made you smile this week?",
         "contextMeaning": "Here, \"smile\" means what small thing made you feel happy this week",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Speak slowly and smile.",
+        "contextMeaning": "Here, \"smile\" means a warm way to speak at work",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -94283,6 +95245,29 @@
       }
     ]
   },
+  "smoothly": {
+    "word": "smoothly",
+    "definition": "Without problems",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "What sentence do you want to say smoothly?",
+        "contextMeaning": "Here, \"smoothly\" means speaking with good flow",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "snack": {
     "word": "snack",
     "definition": "A small amount of food eaten between meals",
@@ -94356,7 +95341,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep"
+      "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -94364,6 +95350,13 @@
         "sentence": "Fans can buy plush toys, keychains, stickers, snacks, clothes, and stationery.",
         "contextMeaning": "Here, \"snacks\" means small foods sold as part of Chiikawa goods",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Snack bar can sound like a place for snacks and soft drinks.",
+        "contextMeaning": "Here, \"snacks\" means small food served with drinks",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -94484,6 +95477,29 @@
       }
     ]
   },
+  "soda": {
+    "word": "soda",
+    "definition": "Sparkling water or fizzy drink",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "A highball is whisky and soda.",
+        "contextMeaning": "Here, \"soda\" means mixed with whisky for a highball",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sofa": {
     "word": "sofa",
     "definition": "A long, soft seat for more than one person",
@@ -94527,7 +95543,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -94542,6 +95559,13 @@
         "sentence": "He added more dill, a soft green herb, then sent out a plate of herring and potatoes.",
         "contextMeaning": "Here, \"soft\" means the cake made from apples was not hard",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "We also have soft drinks.",
+        "contextMeaning": "Here, \"soft\" means soft drinks have no alcohol",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -95137,7 +96161,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -95257,6 +96282,13 @@
         "sentence": "Sometimes people appreciate knowing what others prefer.",
         "contextMeaning": "Here, \"sometimes\" means at some times, people like to know others' choices",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "People drink, talk, relax, and sometimes sing karaoke.",
+        "contextMeaning": "Here, \"sometimes\" means some visits include karaoke",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -95448,7 +96480,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -95505,6 +96538,13 @@
         "sentence": "The goal is to sound responsible, not dramatic.",
         "contextMeaning": "Here, \"sound\" means try to seem responsible, not upset or loud",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "In English, snack bar can sound like a place for food and soft drinks, so foreign customers may need a simple explanation.",
+        "contextMeaning": "Here, \"sound\" means to seem or appear",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -95724,6 +96764,29 @@
         "sentence": "Skåne is the southernmost region of Sweden.",
         "contextMeaning": "Here, \"southernmost\" means the part of the country that is furthest south",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "soybeans": {
+    "word": "soybeans",
+    "definition": "Beans used in Japanese food",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Edamame are young soybeans.",
+        "contextMeaning": "Here, \"soybeans\" means edamame are young soybeans",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -96391,7 +97454,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -96406,6 +97470,13 @@
         "sentence": "He showed his first draft of the speech to his teacher.",
         "contextMeaning": "Here, \"speech\" means a talk he wrote to say to others",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Practice real workplace speech.",
+        "contextMeaning": "Here, \"speech\" means real workplace speaking",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -96949,6 +98020,29 @@
         "sentence": "Another classic technique is squash and stretch.",
         "contextMeaning": "Here, \"squash\" means a shape change that shows force or impact",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "squid": {
+    "word": "squid",
+    "definition": "A sea animal used as food",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Dried squid is chewy and salty.",
+        "contextMeaning": "Here, \"squid\" means dried squid is a snack with drinks",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -102653,6 +103747,29 @@
       }
     ]
   },
+  "system": {
+    "word": "system",
+    "definition": "How something works",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "How does it work here?",
+        "contextMeaning": "Here, \"system\" means the seat charge and drink rules",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "system thinking": {
     "word": "system thinking",
     "definition": "Understanding how parts connect",
@@ -103619,12 +104736,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "A teacher might use AI to generate possible discussion questions.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "The teacher is the foreign customer.",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -107435,7 +108560,8 @@
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -107478,6 +108604,13 @@
         "sentence": "A repair worker can come tomorrow morning.",
         "contextMeaning": "Here, \"tomorrow\" means the repair worker can come the day after today",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Maybe I will try it tomorrow.",
+        "contextMeaning": "Here, \"tomorrow\" means when the customer may try houtou",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -108890,6 +110023,29 @@
       }
     ]
   },
+  "translations": {
+    "word": "translations",
+    "definition": "Words in another language",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Use the support language button when you want Japanese help.",
+        "contextMeaning": "Here, \"translations\" means japanese help for hard words",
+        "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "transparency": {
     "word": "transparency",
     "definition": "Being clear so people can understand",
@@ -108996,7 +110152,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -109023,6 +110180,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "Before I travel, I want to check my phone, but I quickly realize that it is missing.",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Use safe topics first: travel, food, music, karaoke, and the local area.",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -111628,7 +112792,8 @@
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -111718,6 +112883,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Even if both options are useful, many people will notice the first one more quickly.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "You need short, warm, useful English for one real shift.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112460,7 +113632,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -112468,6 +113641,13 @@
         "sentence": "At the same time, the land gives vegetables, dairy, fruit, and grain.",
         "contextMeaning": "Here, \"vegetables\" means food from the land that is plants to eat",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "It is a warm noodle dish with vegetables.",
+        "contextMeaning": "Here, \"vegetables\" means part of houtou",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -113201,7 +114381,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -113312,6 +114493,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "When you use an app, visit a website, or look at a menu, you are often presented with many choices.",
+        "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Now practice the full visit.",
         "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -114134,7 +115322,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -114147,6 +115336,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "If a dish looks colorful, fresh, and warm, the customer can imagine eating it more easily.",
+        "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "You need short, warm, useful English for one real shift.",
         "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -114172,6 +115368,29 @@
         "sentence": "It is usually served warmer than many ice creams, around minus 12 to minus 14 degrees Celsius.",
         "contextMeaning": "Here, \"warmer\" means means gelato is less cold than ice cream",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "warmly": {
+    "word": "warmly",
+    "definition": "In a kind and friendly way",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Say goodbye warmly.",
+        "contextMeaning": "Here, \"warmly\" means how the host says goodbye",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -116577,7 +117796,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -116592,6 +117812,13 @@
         "sentence": "That is a wonderful gift, and it may inspire the next generation of writers.",
         "contextMeaning": "Here, \"wonderful\" means the gift is very good and special",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Wonderful. Please have a seat.",
+        "contextMeaning": "Here, \"wonderful\" means a warm answer to a customer",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
@@ -116944,7 +118171,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -116999,6 +118227,13 @@
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "The reception worker or nurse may ask basic questions.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "This lesson is for a snack bar worker or host.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -117173,7 +118408,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -117188,6 +118424,13 @@
         "sentence": "What workplace situation would you most want your child to observe?",
         "contextMeaning": "Here, \"workplace\" means the place where your child might watch people working",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+        "sentence": "Practice real workplace speech.",
+        "contextMeaning": "Here, \"workplace\" means the snack bar job setting",
+        "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
       }
     ]
