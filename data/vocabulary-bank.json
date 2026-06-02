@@ -61,7 +61,9 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -103,6 +105,20 @@
         "episodeId": "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
         "sentence": "It is about a new museum.",
         "contextMeaning": "Here, \"about\" means it tells what the story or talk is for",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "It is about a veteran named John Follmer and an old Japanese garden.",
+        "contextMeaning": "Here, \"about\" means tells the story is about a man and a garden",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "This is not only a story about technology.",
+        "contextMeaning": "Here, \"about\" means the story talks about technology and other things",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -915,6 +931,29 @@
         "sentence": "Mel Brooks is a famous American comedian, writer, actor, and film director.",
         "contextMeaning": "Here, \"actor\" means he plays roles in movies or shows",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "actress": {
+    "word": "actress",
+    "definition": "A woman who plays parts in stories",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Then she was an actress.",
+        "contextMeaning": "Here, \"actress\" means a woman who plays roles in movies and TV",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -2272,7 +2311,9 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -2293,6 +2334,20 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "Artificial intelligence, or AI, means computer systems that can do tasks that seem intelligent.",
         "contextMeaning": "Here, \"ai\" means computer programs that can do smart things like humans",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
+        "contextMeaning": "Here, \"ai\" means a computer program that can help make travel plans",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "How should Europe build AI?",
+        "contextMeaning": "Here, \"ai\" means computer programs that help with jobs and decisions",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -3429,6 +3484,29 @@
       }
     ]
   },
+  "angeles": {
+    "word": "angeles",
+    "definition": "Part of a city name",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "It happens in Los Angeles, California.",
+        "contextMeaning": "Here, \"angeles\" means second part of the city name Los Angeles",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "anger": {
     "word": "anger",
     "definition": "Feeling very mad or upset",
@@ -4101,13 +4179,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
         "sentence": "It is the app people use to open websites.",
         "contextMeaning": "Here, \"app\" means this is a program people use to go to different pages on the internet",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You open a website or an app and hope technology can do the hard work.",
+        "contextMeaning": "Here, \"app\" means a program you use on your phone or computer",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -4684,6 +4770,29 @@
       }
     ]
   },
+  "arms": {
+    "word": "arms",
+    "definition": "The parts of your body from shoulder to hand",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They bite your arms and legs.",
+        "contextMeaning": "Here, \"arms\" means the upper limbs of your body that get bitten",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "around": {
     "word": "around",
     "definition": "In many places near or all over",
@@ -4881,7 +4990,8 @@
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-a2-apartment-repair-call",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -4924,6 +5034,13 @@
         "sentence": "Please be careful going home.",
         "contextMeaning": "Here, \"arrive\" means get home after leaving the snack bar",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "But then the mosquitoes arrive.",
+        "contextMeaning": "Here, \"arrive\" means to come to the place where you are",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -5095,7 +5212,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -5103,6 +5221,13 @@
         "sentence": "OpenAI is an artificial intelligence company and research group.",
         "contextMeaning": "Here, \"artificial\" means made by humans, not found in nature",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
+        "contextMeaning": "Here, \"artificial\" means not real, made by people to help with thinking",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -5321,7 +5446,8 @@
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -5427,6 +5553,13 @@
         "sentence": "Judgment means asking: Is this true?",
         "contextMeaning": "Here, \"asking\" means to say a question to check if it is true",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "But behind the excitement, people were asking a serious question.",
+        "contextMeaning": "Here, \"asking\" means wanting to find an answer to a serious question",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -9299,7 +9432,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -9384,6 +9518,13 @@
         "sentence": "But behind that simple picture, there is a deeper question.",
         "contextMeaning": "Here, \"behind\" means underneath the simple picture, there is a harder question",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "But behind the excitement, people were asking a serious question.",
+        "contextMeaning": "Here, \"behind\" means under the happy feeling, there was a serious question",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -10061,7 +10202,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -10075,6 +10218,20 @@
         "episodeId": "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
         "sentence": "For many players, this looked like the first big price drop for the game.",
         "contextMeaning": "Here, \"big\" means a very important or significant price reduction for the game",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "For years, big tech companies have promised exactly that.",
+        "contextMeaning": "Here, \"big\" means very large companies that make technology",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"big\" means important or large promises made at the event",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -10432,7 +10589,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -10461,6 +10619,13 @@
         "sentence": "Because it is warmer and denser, each bite carries a clearer flavor signal.",
         "contextMeaning": "Here, \"bite\" means one small piece of food you eat that has flavor",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They bite your arms and legs.",
+        "contextMeaning": "Here, \"bite\" means to hurt your skin by cutting it",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -10822,13 +10987,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
         "sentence": "Example: Finishing her first book was a big milestone for Nina.",
         "contextMeaning": "Here, \"book\" means the story Nina wrote and completed",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Maybe you have a drink, a book, or dinner with family.",
+        "contextMeaning": "Here, \"book\" means something you read for fun or learning",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -11806,7 +11979,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -11835,6 +12009,13 @@
         "sentence": "There is no bright sign and no busy glass front.",
         "contextMeaning": "Here, \"bright\" means the sign does not shine with strong light here",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"bright\" means screens that shine with strong light at the event",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -12077,7 +12258,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -12085,6 +12267,13 @@
         "sentence": ": Why should the company be careful with broad roofing claims?",
         "contextMeaning": "Here, \"broad\" means claims that talk about many things without details",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "A generic answer is an answer that feels broad, common, and not very personal.",
+        "contextMeaning": "Here, \"broad\" means not small or detailed, but general",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -12301,6 +12490,29 @@
         "sentence": "safety buffer",
         "contextMeaning": "Here, \"buffer\" means extra money or time kept for safety",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "build": {
+    "word": "build",
+    "definition": "To make or put things together",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "How should Europe build AI?",
+        "contextMeaning": "Here, \"build\" means to make or create AI technology",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -12808,6 +13020,29 @@
       }
     ]
   },
+  "buzz": {
+    "word": "buzz",
+    "definition": "Make a low, humming sound",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They buzz near your ears.",
+        "contextMeaning": "Here, \"buzz\" means make a sound close to your ears",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "c": {
     "word": "c",
     "definition": "A letter used to show a level or grade",
@@ -13006,13 +13241,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "Today’s story is about OpenAI, Elon Musk, Sam Altman, and a legal case in California.",
         "contextMeaning": "Here, \"california\" means the name of a state in the USA where the story is happening",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "It happens in Los Angeles, California.",
+        "contextMeaning": "Here, \"california\" means the state where Los Angeles city is",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -13069,7 +13312,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -13141,6 +13385,13 @@
         "contextMeaning": "Here, \"called\" means the city has the name Corinth",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"called\" means the event’s name is VivaTech",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
       }
     ]
   },
@@ -13161,7 +13412,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -13211,6 +13463,13 @@
         "sentence": "Keep it calm and clear.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Very quickly, a calm night feels uncomfortable.",
+        "contextMeaning": "Here, \"calm\" means a quiet and peaceful night before mosquitoes come",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -13373,6 +13632,29 @@
         "sentence": "A Canadian company called Clio has reached a big business goal.",
         "contextMeaning": "Here, \"canadian\" means the company is from Canada",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "candles": {
+    "word": "candles",
+    "definition": "Small sticks that burn to give light",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They do not want to light candles that may not work well.",
+        "contextMeaning": "Here, \"candles\" means things people burn to help keep bugs away",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -14649,7 +14931,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -14706,6 +14989,13 @@
         "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
         "contextMeaning": "Here, \"center\" means the hero is the most important part of many stories",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "That common problem is the center of today’s story.",
+        "contextMeaning": "Here, \"center\" means the most important part of the story here",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -16341,7 +16631,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why"
+      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -16349,6 +16640,13 @@
         "sentence": "The safety comes from the design, the track, and the checks.",
         "contextMeaning": "Here, \"checks\" means safety tests done on the ride and track",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"checks\" means aI looks at school tests to find problems",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -16899,7 +17197,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -16963,6 +17262,13 @@
         "sentence": "Do you usually choose the first option you see, or do you compare several options?",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"choose\" means aI picks who will get a job",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -17261,7 +17567,8 @@
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -17297,6 +17604,13 @@
         "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
         "contextMeaning": "Here, \"city\" means a large town where many people live",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You would name a city, and the system would search for flights, hotels, and activities.",
+        "contextMeaning": "Here, \"city\" means a large town you want to visit",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -19385,7 +19699,9 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -19441,6 +19757,20 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "Visit ovi english dot com for the transcript and practice.",
         "contextMeaning": "Here, \"com\" means this is the ending part of the website address",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"com\" means the last part of the website address",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"com\" means the last part of the website address ovi english dot com",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -19923,7 +20253,8 @@
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -19945,6 +20276,13 @@
         "sentence": "For example, if an app already has a common setting selected, users can continue without spending extra time choosing.",
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "That common problem is the center of today’s story.",
+        "contextMeaning": "Here, \"common\" means a problem that many people have or see often",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -20076,7 +20414,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -20084,6 +20423,13 @@
         "sentence": "At the same time, AI companies are changing what lawyers expect from software.",
         "contextMeaning": "Here, \"companies\" means groups of people working together",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "For years, big tech companies have promised exactly that.",
+        "contextMeaning": "Here, \"companies\" means groups of people who sell things or services",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -20195,7 +20541,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -20231,6 +20578,13 @@
         "sentence": "OpenAI is an artificial intelligence company and research group.",
         "contextMeaning": "Here, \"company\" means a group of people working together for business",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "A company named Thermacell has introduced Liv 2.",
+        "contextMeaning": "Here, \"company\" means a business that makes or sells products",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -22902,7 +23256,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -22910,6 +23265,13 @@
         "sentence": "What times are usually convenient for a repair visit?",
         "contextMeaning": "Here, \"convenient\" means what times are good for a repair visit",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "For many people, that sounds modern and convenient.",
+        "contextMeaning": "Here, \"convenient\" means easy and helpful for people",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -24464,7 +24826,8 @@
     "episodes": [
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -24486,6 +24849,13 @@
         "sentence": "One says \"Start now.\" The other says \"Learn more.\" Both may lead to useful information, but they create different impressions.",
         "contextMeaning": "Here, \"create\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
+        "contextMeaning": "Here, \"create\" means make a travel plan for your trip",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -28972,6 +29342,29 @@
       }
     ]
   },
+  "dinner": {
+    "word": "dinner",
+    "definition": "The meal you eat in the evening",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Maybe you have a drink, a book, or dinner with family.",
+        "contextMeaning": "Here, \"dinner\" means the evening meal with your family",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "direct": {
     "word": "direct",
     "definition": "Straight from the source, not through others",
@@ -30374,7 +30767,10 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -30472,6 +30868,27 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "Visit ovi english dot com for the transcript and practice.",
         "contextMeaning": "Here, \"dot\" means this is the symbol '.' used in a website address",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"dot\" means the word 'dot' means the '.' in the website address",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"dot\" means the word used to say '.' in the website address",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"dot\" means the word 'dot' means the '.' in the website address",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -30798,7 +31215,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-15-how-to-buy-a-home-in-japan-as"
+      "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -30813,6 +31231,13 @@
         "sentence": "For many people, that dream feels exciting.",
         "contextMeaning": "Here, \"dream\" means a wish that people want to happen",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"dream\" means a wish about traveling that many people know",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -30931,7 +31356,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -30960,6 +31386,13 @@
         "sentence": "What would you like to drink?",
         "contextMeaning": "Here, \"drink\" means a customer order",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Maybe you have a drink, a book, or dinner with family.",
+        "contextMeaning": "Here, \"drink\" means something you can drink, like water or juice, with family",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -31896,7 +32329,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea"
+      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -31904,6 +32338,13 @@
         "sentence": "He tells his men to tie him to the ship’s mast and block their own ears.",
         "contextMeaning": "Here, \"ears\" means men cover these to not hear the sounds",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They buzz near your ears.",
+        "contextMeaning": "Here, \"ears\" means the parts on your head that hear sounds",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -33856,7 +34297,10 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -33990,6 +34434,27 @@
         "sentence": "Is it hard to explain a mistake in English?",
         "contextMeaning": "Here, \"english\" means the language used in England and many other places",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"english\" means the language used on the website ovi english dot com",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"english\" means the website is about learning the English language",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"english\" means the website is about learning the English language",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -34800,7 +35265,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -34843,6 +35309,13 @@
         "sentence": "\"Old Greek\" means from Ancient Greece, a very old culture in Europe.",
         "contextMeaning": "Here, \"europe\" means a big part of the world where Greece is",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "How should Europe build AI?",
+        "contextMeaning": "Here, \"europe\" means the place where people want to make AI carefully",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -34936,7 +35409,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -34944,6 +35418,13 @@
         "sentence": "Mini roleplay: Customer: Good evening.",
         "contextMeaning": "Here, \"evening\" means the later part of the day before night",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Imagine a warm evening at home.",
+        "contextMeaning": "Here, \"evening\" means the time of day when the sun goes down",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -34959,13 +35440,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
         "sentence": "At the event, Honda showed two early hybrid models.",
         "contextMeaning": "Here, \"event\" means a special occasion where things are shown",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"event\" means a special meeting where people show new technology",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -35596,6 +36085,29 @@
       }
     ]
   },
+  "exactly": {
+    "word": "exactly",
+    "definition": "Just right, no mistake",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "For years, big tech companies have promised exactly that.",
+        "contextMeaning": "Here, \"exactly\" means said something very clearly and correctly",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "examine": {
     "word": "examine",
     "definition": "Look at carefully",
@@ -36182,7 +36694,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -36197,6 +36710,13 @@
         "sentence": "That is why many people follow it with excitement.",
         "contextMeaning": "Here, \"excitement\" means people feel very happy and interested when they watch it",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "But behind the excitement, people were asking a serious question.",
+        "contextMeaning": "Here, \"excitement\" means the happy and busy feeling at the event",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -38368,7 +38888,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -38398,6 +38919,13 @@
         "contextMeaning": "Here, \"family\" means the people related to you",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Maybe you have a drink, a book, or dinner with family.",
+        "contextMeaning": "Here, \"family\" means the people you live with and eat dinner with",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
       }
     ]
   },
@@ -38417,7 +38945,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -38460,6 +38989,13 @@
         "sentence": "The Centre Pompidou is a famous museum in Paris, France.",
         "contextMeaning": "Here, \"famous\" means many people know the museum in Paris",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"famous\" means the tech event that many people know about",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -38671,7 +39207,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -38699,6 +39236,13 @@
         "episodeId": "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
         "sentence": "Before, many fans asked, “Is this game finally here?” After the sale appeared, they asked, “Should I buy it now?” A lower price can change shopping decisions very fast.",
         "contextMeaning": "Here, \"fast\" means happening in a short amount of time",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You want it fast.",
+        "contextMeaning": "Here, \"fast\" means you want something done very quickly",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -39241,7 +39785,9 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -39340,6 +39886,20 @@
         "sentence": "What makes a menu feel expensive, cheap, friendly, or confusing?",
         "contextMeaning": "Here, \"feel\" means to notice something in your body or emotions",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "The songs are called I Feel Everything and My Man.",
+        "contextMeaning": "Here, \"feel\" means the song name says you know many feelings",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "People hoped AI would feel like a smart guide.",
+        "contextMeaning": "Here, \"feel\" means people wanted AI to seem like a smart helper",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -39563,7 +40123,9 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -39641,6 +40203,20 @@
         "sentence": "Colors can affect how a menu feels.",
         "contextMeaning": "Here, \"feels\" means to notice something in your body or emotions",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "A generic answer is an answer that feels broad, common, and not very personal.",
+        "contextMeaning": "Here, \"feels\" means seems or looks a certain way",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Very quickly, a calm night feels uncomfortable.",
+        "contextMeaning": "Here, \"feels\" means seems or is experienced in a certain way in this sentence",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -40328,6 +40904,29 @@
         "sentence": "If an agent can send emails, edit files, publish content, buy products, or change code, one mistake can become real damage.",
         "contextMeaning": "Here, \"files\" means documents that an agent can change or fix",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "filled": {
+    "word": "filled",
+    "definition": "Full of something inside",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"filled\" means the event was full of screens, robots, and promises",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -43761,6 +44360,29 @@
       }
     ]
   },
+  "garden": {
+    "word": "garden",
+    "definition": "A place outside with plants and flowers",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "It is about a veteran named John Follmer and an old Japanese garden.",
+        "contextMeaning": "Here, \"garden\" means a special old place with plants from Japan",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "gate": {
     "word": "gate",
     "definition": "The place where you get on a plane",
@@ -44261,6 +44883,29 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place"
     ],
     "contexts": []
+  },
+  "gets": {
+    "word": "gets",
+    "definition": "Receives or has something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"gets\" means the person who receives a job from AI",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
   },
   "getting": {
     "word": "getting",
@@ -46809,7 +47454,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "2026-06-01-a2-practical-grammar-check"
+      "2026-06-01-a2-practical-grammar-check",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
     ],
     "contexts": [
       {
@@ -46901,6 +47547,36 @@
         "sentence": "Part 3 checks sentence control: comparing choices, saying how often something happens, and connecting reasons, results, and timing.",
         "contextMeaning": "Here, \"happens\" means how often something takes place or occurs",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "It happens in Los Angeles, California.",
+        "contextMeaning": "Here, \"happens\" means when something takes place in a place",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "hard": {
+    "word": "hard",
+    "definition": "Not easy to do or understand",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You open a website or an app and hope technology can do the hard work.",
+        "contextMeaning": "Here, \"hard\" means difficult or strong work that needs effort",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -47280,7 +47956,8 @@
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -47302,6 +47979,13 @@
         "sentence": "When you hear the word hero, do you imagine a good person, a brave person, or a powerful person?",
         "contextMeaning": "Here, \"hear\" means listening to sounds or words",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "We will hear how Europe wants AI to grow, but with more care.",
+        "contextMeaning": "Here, \"hear\" means find out or learn by listening in this sentence",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -47962,7 +48646,8 @@
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -47984,6 +48669,13 @@
         "sentence": "Menu psychology helps us become smarter customers.",
         "contextMeaning": "Here, \"helps\" means to make something easier for someone",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"helps\" means aI makes it easier to pick or check things",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -48808,7 +49500,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -48816,6 +49509,13 @@
         "sentence": "Why do so many old stories send the main character away from home?",
         "contextMeaning": "Here, \"home\" means the place where you live",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Imagine a warm evening at home.",
+        "contextMeaning": "Here, \"home\" means the place where you live and connect the system to internet",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -49077,6 +49777,29 @@
         "episodeId": "episode-2026-05-13-why-cats-act-so-strange",
         "sentence": "Today’s story begins with a simple news hook: scientists and animal experts are again explaining why cats do such strange things at home.",
         "contextMeaning": "Here, \"hook\" means something interesting to start the story",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "hope": {
+    "word": "hope",
+    "definition": "Want something good to happen",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You open a website or an app and hope technology can do the hard work.",
+        "contextMeaning": "Here, \"hope\" means want technology to do the difficult job",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -49375,6 +50098,29 @@
       }
     ]
   },
+  "how": {
+    "word": "how",
+    "definition": "In what way or by what method",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "How should Europe build AI?",
+        "contextMeaning": "Here, \"how\" means the way Europe should make AI",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "however": {
     "word": "however",
     "definition": "But, or something different from before",
@@ -49402,6 +50148,29 @@
         "sentence": "However, in the present story, he usually works at a small job shop called Yorozuya.",
         "contextMeaning": "Here, \"however\" means but now, he works at a small job shop",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "hub": {
+    "word": "hub",
+    "definition": "A place where many things come together",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "It uses a central hub.",
+        "contextMeaning": "Here, \"hub\" means the main control device where things connect",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -49801,7 +50570,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -49894,6 +50664,13 @@
         "contextMeaning": "Here, \"idea\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Companies show new products there, and investors look for the next big idea.",
+        "contextMeaning": "Here, \"idea\" means a new plan or thought for business or technology",
+        "source": "episode-supported",
+        "confidence": "trusted"
       }
     ]
   },
@@ -49914,7 +50691,9 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -49963,6 +50742,20 @@
         "episodeId": "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
         "sentence": "But it is also about culture, ideas, and connection.",
         "contextMeaning": "Here, \"ideas\" means thoughts that people share and talk about",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Those ideas are not wrong.",
+        "contextMeaning": "Here, \"ideas\" means the thoughts people have about something",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "So as you listen, watch for three key ideas: trust, risk, and rules.",
+        "contextMeaning": "Here, \"ideas\" means important thoughts or points to watch for here",
         "source": "episode-supported",
         "confidence": "trusted"
       }
@@ -50060,7 +50853,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -50081,6 +50875,13 @@
         "episodeId": "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
         "sentence": "If you like cities, design, or painting, this story is for you.",
         "contextMeaning": "Here, \"if\" means shows a choice or condition for liking the story",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"if\" means when AI does these jobs, one mistake can be big",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -50297,7 +51098,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -50410,6 +51212,13 @@
         "sentence": "Warm-up: When you hear the word hero, do you imagine a good person, a brave person, or a powerful person?",
         "contextMeaning": "Here, \"imagine\" means to think about a good, brave, or strong person",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Imagine a warm evening at home.",
+        "contextMeaning": "Here, \"imagine\" means think about a nice warm evening at your house",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -52475,7 +53284,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -52525,6 +53335,13 @@
         "sentence": "Odysseus needs intelligence and patience more than simple strength to return home.",
         "contextMeaning": "Here, \"intelligence\" means odysseus must be smart to get home safely",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
+        "contextMeaning": "Here, \"intelligence\" means the smart thinking power made by computers",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -54154,6 +54971,29 @@
       }
     ]
   },
+  "job": {
+    "word": "job",
+    "definition": "Work someone does to earn money",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"job\" means the work a person wants and AI helps pick",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "join": {
     "word": "join",
     "definition": "Go with someone",
@@ -54765,7 +55605,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -54780,6 +55621,13 @@
         "sentence": "The customer asks, \"Is food included?\" The host answers politely and keeps the explanation short.",
         "contextMeaning": "Here, \"keeps\" means to continue to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "0 keeps the same general idea as the older Liv system.",
+        "contextMeaning": "Here, \"keeps\" means still has the same general idea as before",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -54964,6 +55812,29 @@
         "sentence": "Leicester is also about 160 kilometers from London by road.",
         "contextMeaning": "Here, \"kilometers\" means the distance from Leicester to London by road",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "kind": {
+    "word": "kind",
+    "definition": "A type or sort of something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Thermacell is trying to offer that kind of experience.",
+        "contextMeaning": "Here, \"kind\" means that type or sort of experience",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -55251,13 +56122,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
         "sentence": "I know legal software may sound dry at first.",
         "contextMeaning": "Here, \"know\" means to have information",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"know\" means many people have information about the travel dream",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -56937,6 +57816,29 @@
         "sentence": "This is educational planning material, not legal, tax, immigration, food-safety, or engineering advice.",
         "contextMeaning": "Here, \"legal\" means not advice about laws or government rules",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "legs": {
+    "word": "legs",
+    "definition": "The parts of your body you stand and walk on",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They bite your arms and legs.",
+        "contextMeaning": "Here, \"legs\" means the lower limbs of your body that get bitten",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -59391,6 +60293,29 @@
       }
     ]
   },
+  "los": {
+    "word": "los",
+    "definition": "Part of a city name",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "It happens in Los Angeles, California.",
+        "contextMeaning": "Here, \"los\" means first part of the city name Los Angeles",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "loses": {
     "word": "loses",
     "definition": "Does not have something anymore",
@@ -61048,7 +61973,8 @@
       "2026-05-25-a1-grammar-core-gaps-test",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -61364,6 +62290,13 @@
         "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
         "contextMeaning": "Here, \"many\" means a lot of stories have a hero in the middle of them",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"many\" means a lot of people know the travel dream",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -64574,6 +65507,29 @@
       }
     ]
   },
+  "modeling": {
+    "word": "modeling",
+    "definition": "Showing clothes for people to see",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Is she modeling now, or singing now?",
+        "contextMeaning": "Here, \"modeling\" means is she showing clothes or singing now",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "models": {
     "word": "models",
     "definition": "Small things made to look like real ones",
@@ -65449,6 +66405,52 @@
         "sentence": "Heracles is the son of Zeus and a mortal woman.",
         "contextMeaning": "Here, \"mortal\" means a woman who is human, not a god",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "mosquito": {
+    "word": "mosquito",
+    "definition": "A small flying bug that can bite you",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Thermacell is an American company known for mosquito protection products.",
+        "contextMeaning": "Here, \"mosquito\" means a small insect that the company helps protect against",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "mosquitoes": {
+    "word": "mosquitoes",
+    "definition": "Small flying bugs that can bite you",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "But then the mosquitoes arrive.",
+        "contextMeaning": "Here, \"mosquitoes\" means tiny insects that come and bother you outside",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -66443,6 +67445,29 @@
       }
     ]
   },
+  "name": {
+    "word": "name",
+    "definition": "Say the word for something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You would name a city, and the system would search for flights, hotels, and activities.",
+        "contextMeaning": "Here, \"name\" means say the city you want to visit",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "named": {
     "word": "named",
     "definition": "Has a special word people call you",
@@ -66457,7 +67482,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -66486,6 +67512,13 @@
         "sentence": "A writer named Andrew Webster talked about the game.",
         "contextMeaning": "Here, \"named\" means the writer has the name Andrew Webster",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "A company named Thermacell has introduced Liv 2.",
+        "contextMeaning": "Here, \"named\" means called by a certain name in this sentence",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -66838,7 +67871,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -66874,6 +67908,13 @@
         "sentence": "Items near the top, in the center, or on the first screen are often easier to see.",
         "contextMeaning": "Here, \"near\" means not far away",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They buzz near your ears.",
+        "contextMeaning": "Here, \"near\" means close to your ears",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -67478,7 +68519,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -67499,6 +68541,13 @@
         "episodeId": "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
         "sentence": "It is about a new museum.",
         "contextMeaning": "Here, \"new\" means something made or found not long ago",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"new\" means robots that were made recently and shown there",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -67678,6 +68727,29 @@
         "sentence": "Third, ask one next-step question.",
         "contextMeaning": "Here, \"next-step\" means ask one question about what to do next",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "night": {
+    "word": "night",
+    "definition": "The time when it is dark outside",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Very quickly, a calm night feels uncomfortable.",
+        "contextMeaning": "Here, \"night\" means the time when it is dark and you rest",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -68505,7 +69577,9 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -68639,6 +69713,20 @@
         "sentence": "If a menu says \"Only this month\" or \"Summer Special,\" customers may feel they should order now before the chance disappears.",
         "contextMeaning": "Here, \"now\" means right now, at this time",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Now she is a singer.",
+        "contextMeaning": "Here, \"now\" means at this time, she works as a singer",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Now Google says it has something more powerful.",
+        "contextMeaning": "Here, \"now\" means at this time, Google tells us something new",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -70056,7 +71144,8 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -70077,6 +71166,13 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "It may sound like a story only for tech experts, but it is also a story about promises, trust, money, and change.",
         "contextMeaning": "Here, \"only\" means not just for one group of people, but for others too",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "This is not only a story about technology.",
+        "contextMeaning": "Here, \"only\" means not just a story about machines and computers",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -70122,7 +71218,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -70172,6 +71269,13 @@
         "sentence": "When you open a restaurant menu, where do your eyes usually go first?",
         "contextMeaning": "Here, \"open\" means not closed",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You open a website or an app and hope technology can do the hard work.",
+        "contextMeaning": "Here, \"open\" means to start a website or app to use it",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -70715,7 +71819,8 @@
     "episodes": [
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -70737,6 +71842,13 @@
         "sentence": "At the center of many myths is the hero: a person stronger, braver, or stranger than ordinary people, but still human enough to suffer.",
         "contextMeaning": "Here, \"ordinary\" means normal, not special",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "It is also a story about trust, rules, and ordinary people.",
+        "contextMeaning": "Here, \"ordinary\" means people who are normal and not special in stories",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -71374,7 +72486,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -71452,6 +72565,13 @@
         "sentence": "They often represent chaos, violence, or a world outside human order.",
         "contextMeaning": "Here, \"outside\" means not part of normal rules or life",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "You want to sit outside.",
+        "contextMeaning": "Here, \"outside\" means you want to be in the open air, not inside",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -72459,7 +73579,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-22-why-does-time-feel-faster-as-we-"
+      "episode-2026-04-22-why-does-time-feel-faster-as-we-",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -72467,6 +73588,13 @@
         "sentence": "Or learn about the Eiffel Tower in Paris, which is 330 meters high.",
         "contextMeaning": "Here, \"paris\" means a city with the tall Eiffel Tower",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"paris\" means the city where the tech event happens",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -72950,13 +74078,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
         "sentence": "The area has traditional soba, heavy pasta dishes, healthy fish, and quiet cafes.",
         "contextMeaning": "Here, \"pasta\" means italian-style dishes made with noodles",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "If you asked about Rome, you might hear about the Colosseum, pasta, and a museum.",
+        "contextMeaning": "Here, \"pasta\" means a popular food you eat in Rome",
         "source": "episode-supported",
         "confidence": "trusted"
       }
@@ -72988,6 +74124,29 @@
         "episodeId": "episode-2026-05-08-gap-selling-sales-logic-explainer",
         "sentence": "Here is the customer case, and it follows one clear path.",
         "contextMeaning": "Here, \"path\" means the route or course that the meteor, caravan, or storm moves along",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "paths": {
+    "word": "paths",
+    "definition": "Small ways to walk on",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "It may have stones, trees, water, and small paths.",
+        "contextMeaning": "Here, \"paths\" means the garden has small ways for people to walk",
         "source": "episode-supported",
         "confidence": "trusted"
       }
@@ -73670,7 +74829,12 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -73832,6 +74996,41 @@
         "sentence": "Photos are powerful because people eat with their eyes first.",
         "contextMeaning": "Here, \"people\" means many persons or humans",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Many people know her name.",
+        "contextMeaning": "Here, \"people\" means many persons know her name",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "Veterans are people who served in the military.",
+        "contextMeaning": "Here, \"people\" means humans who worked in the army",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"people\" means many persons who know the travel dream",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "But behind the excitement, people were asking a serious question.",
+        "contextMeaning": "Here, \"people\" means the persons who were thinking about a serious question",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "For many people, that sounds modern and convenient.",
+        "contextMeaning": "Here, \"people\" means humans who think the product is good",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -74269,7 +75468,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
     ],
     "contexts": [
       {
@@ -74284,6 +75484,13 @@
         "sentence": "When you hear the word hero, do you imagine a good person, a brave person, or a powerful person?",
         "contextMeaning": "Here, \"person\" means one human being",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "It sounds like a song about love or a very close person.",
+        "contextMeaning": "Here, \"person\" means someone very close or loved in the song",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -75115,7 +76322,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
     ],
     "contexts": [
       {
@@ -75222,6 +76430,13 @@
         "contextMeaning": "Here, \"place\" means the snack bar",
         "source": "codex_manual_snack_bar_rebuild",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "A campus is a large place with buildings and services together.",
+        "contextMeaning": "Here, \"place\" means an area with buildings and services for people",
+        "source": "episode-supported",
+        "confidence": "trusted"
       }
     ]
   },
@@ -75284,7 +76499,8 @@
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -75307,6 +76523,13 @@
         "contextMeaning": "Here, \"places\" means a location or area",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "It could mention famous places, but it did not always build a real plan.",
+        "contextMeaning": "Here, \"places\" means different locations or spots it could talk about",
+        "source": "episode-supported",
+        "confidence": "trusted"
       }
     ]
   },
@@ -75321,13 +76544,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "For example, AI can write text, answer questions, study patterns, and help people plan work.",
         "contextMeaning": "Here, \"plan\" means to decide what tasks need to be done for work",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
+        "contextMeaning": "Here, \"plan\" means a list of places and activities for your trip",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -77157,7 +78388,9 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -77235,6 +78468,20 @@
         "sentence": "But the best question is not only, \"Is Tokyo Gas famous?\" A better question is, \"What exactly will my child see, learn, and practice during this internship?\" A famous company name can be useful, but a clear learning experience matters more.",
         "contextMeaning": "Here, \"practice\" means to do something again to get better",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"practice\" means do exercises to improve your English skills",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"practice\" means do exercises on the website to improve your English",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -78564,7 +79811,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -78593,6 +79841,13 @@
         "sentence": "Which is harder: explaining the problem or understanding the answer?",
         "contextMeaning": "Here, \"problem\" means something difficult that needs a solution",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "That common problem is the center of today’s story.",
+        "contextMeaning": "Here, \"problem\" means a difficult thing that is important in the story",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -79182,7 +80437,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -79190,6 +80446,13 @@
         "sentence": "What was promised when OpenAI began?",
         "contextMeaning": "Here, \"promised\" means what was said they would do when OpenAI started",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "For years, big tech companies have promised exactly that.",
+        "contextMeaning": "Here, \"promised\" means said they will do something exactly right",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -79205,7 +80468,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -79213,6 +80477,13 @@
         "sentence": "It may sound like a story only for tech experts, but it is also a story about promises, trust, money, and change.",
         "contextMeaning": "Here, \"promises\" means things that people said they would do or be",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"promises\" means people saying they will do great things soon",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -80518,7 +81789,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -80597,6 +81869,13 @@
         "contextMeaning": "Here, \"question\" means a simple inquiry about where goods would be sent",
         "source": "episode-supported",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "But behind the excitement, people were asking a serious question.",
+        "contextMeaning": "Here, \"question\" means the important thing people wanted to understand",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
       }
     ]
   },
@@ -80665,9 +81944,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Very quickly, a calm night feels uncomfortable.",
+        "contextMeaning": "Here, \"quickly\" means in a short time, very fast change happens",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
   },
   "quiet": {
     "word": "quiet",
@@ -80688,7 +81976,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
     ],
     "contexts": [
       {
@@ -80752,6 +82041,13 @@
         "sentence": "It is also a quiet guide.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "Today’s story is quiet, but very strong.",
+        "contextMeaning": "Here, \"quiet\" means not loud or noisy in the story",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -81523,7 +82819,10 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -81629,6 +82928,27 @@
         "sentence": "Test one real action, like opening a map, sending a message, or loading a website with Wi-Fi off.",
         "contextMeaning": "Here, \"real\" means true, not made up",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "This is a person sharing a real story.",
+        "contextMeaning": "Here, \"real\" means a story that is true, not made up",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "But for many users, the real result felt limited.",
+        "contextMeaning": "Here, \"real\" means the actual outcome or what really happened",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"real\" means a true, actual life that can be affected here",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -84479,6 +85799,29 @@
       }
     ]
   },
+  "repellent": {
+    "word": "repellent",
+    "definition": "Something that keeps bugs away",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They do not want to spray bug repellent again and again.",
+        "contextMeaning": "Here, \"repellent\" means a chemical that stops bugs from coming close",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "repetitive": {
     "word": "repetitive",
     "definition": "Doing the same thing again and again",
@@ -86920,7 +88263,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-what-is-gintama"
+      "episode-2026-05-21-what-is-gintama",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -86928,6 +88272,13 @@
         "sentence": "You can see samurai swords, spaceships, robots, and vending machines in the same world.",
         "contextMeaning": "Here, \"robots\" means there are machines that move and work like people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"robots\" means machines shown at the event that can work alone",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -87672,7 +89023,8 @@
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -87715,6 +89067,13 @@
         "sentence": "The hero leaves normal life and enters a dangerous space where ordinary rules no longer work.",
         "contextMeaning": "Here, \"rules\" means normal instructions do not work in the dangerous place",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "It is also a story about trust, rules, and ordinary people.",
+        "contextMeaning": "Here, \"rules\" means the story talks about things people must follow to be fair",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -88352,6 +89711,29 @@
         "sentence": "The Greek hero story follows a deep pattern: a special person leaves safety, faces chaos, receives help, makes difficult choices, wins or fails, suffers a cost, and becomes remembered.",
         "contextMeaning": "Here, \"safety\" means the place or state where the hero is not in danger",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "said": {
+    "word": "said",
+    "definition": "Spoke words to tell something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
+        "contextMeaning": "Here, \"said\" means people told that AI could make your travel plan",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -89344,7 +90726,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -89407,6 +90790,13 @@
         "episodeId": "episode-2026-05-17-the-silk-road-more-than-a-road-2",
         "sentence": "Welcome to Ovi English School.",
         "contextMeaning": "Here, \"school\" means this is a place where you learn English",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"school\" means the place where students take exams AI checks",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -89655,7 +91045,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep"
+      "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -89663,6 +91054,13 @@
         "sentence": "Then they found it in shops, on screens, and in daily products.",
         "contextMeaning": "Here, \"screens\" means phones or other devices where people watched or found Chiikawa",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"screens\" means flat parts showing images at the tech event",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -91294,7 +92692,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -91379,6 +92778,13 @@
         "sentence": "For the internship, the student should ask future-focused questions: \"How is the company preparing for decarbonization?\" \"What skills will young employees need?\" \"How are customer needs changing?\" These questions make the student look serious.",
         "contextMeaning": "Here, \"serious\" means the student looks like they care and think well",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "But behind the excitement, people were asking a serious question.",
+        "contextMeaning": "Here, \"serious\" means a question that needs careful thinking",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -94106,7 +95512,8 @@
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -94128,6 +95535,13 @@
         "sentence": "Please have a seat.",
         "contextMeaning": "Here, \"sit\" means what the customer does after welcome",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "You want to sit outside.",
+        "contextMeaning": "Here, \"sit\" means to put your body down on a chair or outside place",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -95415,6 +96829,29 @@
       }
     ]
   },
+  "sober": {
+    "word": "sober",
+    "definition": "Not drinking or using drugs",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "She said it came after she got sober.",
+        "contextMeaning": "Here, \"sober\" means not using alcohol or drugs anymore",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "social proof": {
     "word": "social proof",
     "definition": "Feeling safer because other people like something",
@@ -96074,7 +97511,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -96138,6 +97576,13 @@
         "sentence": "This is social proof: people feel more comfortable choosing something that other people already like.",
         "contextMeaning": "Here, \"something\" means a thing, idea, or question",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "They want something more automatic.",
+        "contextMeaning": "Here, \"something\" means a thing that is not named but wanted",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -96319,6 +97764,29 @@
         "episodeId": "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
         "sentence": "Eurovision is a huge live TV song contest.",
         "contextMeaning": "Here, \"song\" means a piece of music with words that people sing",
+        "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "songs": {
+    "word": "songs",
+    "definition": "Music with words you can sing",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "In 2024, Cara shared two songs.",
+        "contextMeaning": "Here, \"songs\" means the music pieces she gave to people in 2024",
         "source": "episode-supported",
         "confidence": "trusted"
       }
@@ -98629,7 +100097,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast"
+      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -98637,6 +100106,13 @@
         "sentence": "Business Queensland lists start-up costs such as market research, licences, lease bonds, insurance, equipment, marketing, staff wages, and initial stock.",
         "contextMeaning": "Here, \"start-up\" means costs needed to begin a new business",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "In June 2024, many business leaders, start-up founders, and government officials came to VivaTech in Paris.",
+        "contextMeaning": "Here, \"start-up\" means new young companies' owners came to the event",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -98794,6 +100270,29 @@
         "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
         "contextMeaning": "Here, \"starting\" means the child begins to join the world of work",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "starts": {
+    "word": "starts",
+    "definition": "Begins or happens first",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"starts\" means the story begins with a travel dream",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -100376,7 +101875,11 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -100453,6 +101956,34 @@
         "episodeId": "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
         "sentence": "Today we have an art story from Seoul.",
         "contextMeaning": "Here, \"story\" means a talk about art from a place called Seoul",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "Today’s story is quiet, but very strong.",
+        "contextMeaning": "Here, \"story\" means a talk or book telling what happened to people",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"story\" means a tale about a travel dream many people know",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"story\" means the tale about a tech event in Paris",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "That common problem is the center of today’s story.",
+        "contextMeaning": "Here, \"story\" means the thing being told or explained in this text",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -101157,7 +102688,8 @@
     "episodes": [
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
     ],
     "contexts": [
       {
@@ -101179,6 +102711,13 @@
         "sentence": "Customer: I do not want a strong drink.",
         "contextMeaning": "Here, \"strong\" means the customer does not want a strong drink",
         "source": "manual_runtime_trust_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "Today’s story is quiet, but very strong.",
+        "contextMeaning": "Here, \"strong\" means very important or has a big effect",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -101476,6 +103015,29 @@
         "sentence": "In 2014, researchers at Utrecht University in the Netherlands studied shelter cats.",
         "contextMeaning": "Here, \"studied\" means researchers looked at shelter cats to learn about them",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "studies": {
+    "word": "studies",
+    "definition": "Looks at or learns about something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"studies\" means looks at or learns about something",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -103774,7 +105336,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -103782,6 +105345,13 @@
         "sentence": "How does it work here?",
         "contextMeaning": "Here, \"system\" means the seat charge and drink rules",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You would name a city, and the system would search for flights, hotels, and activities.",
+        "contextMeaning": "Here, \"system\" means a computer program that finds travel information",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -104043,7 +105613,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -104100,6 +105671,13 @@
         "sentence": "This step takes a little extra time, but it also makes future communication easier if there is an update.",
         "contextMeaning": "Here, \"takes\" means needs a little more time for this step",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"takes\" means brings us to the city of Paris in the tale",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -104908,7 +106486,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -104922,6 +106502,20 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "It may sound like a story only for tech experts, but it is also a story about promises, trust, money, and change.",
         "contextMeaning": "Here, \"tech\" means related to computers, technology, and the internet",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "For years, big tech companies have promised exactly that.",
+        "contextMeaning": "Here, \"tech\" means companies that make new machines and programs",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"tech\" means the event about computers and new machines",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -105049,7 +106643,9 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -105127,6 +106723,20 @@
         "sentence": "What kind of monster do modern people face today: fear, technology, loneliness, greed, or something else?",
         "contextMeaning": "Here, \"technology\" means modern tools and machines are a problem people face today",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You open a website or an app and hope technology can do the hard work.",
+        "contextMeaning": "Here, \"technology\" means machines and programs that help do work",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "This is not only a story about technology.",
+        "contextMeaning": "Here, \"technology\" means the machines and computers shown at VivaTech event",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -106231,7 +107841,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -106245,6 +107856,13 @@
         "episodeId": "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
         "sentence": "He added more dill, a soft green herb, then sent out a plate of herring and potatoes.",
         "contextMeaning": "Here, \"then\" means after adding dill, the chef sent out the food",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "But then the mosquitoes arrive.",
+        "contextMeaning": "Here, \"then\" means at that time, after something else happens",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -107890,7 +109508,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
     ],
     "contexts": [
       {
@@ -107961,6 +109580,13 @@
         "sentence": "Can someone be heroic and dangerous at the same time?",
         "contextMeaning": "Here, \"time\" means what we measure in minutes, hours, and days",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Cara said this music came after a hard time.",
+        "contextMeaning": "Here, \"time\" means a period when things were difficult",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -108289,7 +109915,12 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -108365,6 +109996,41 @@
       {
         "episodeId": "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
         "sentence": "Today we have an art story from Seoul.",
+        "contextMeaning": "Here, \"today\" means the day happening now",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Today’s news story is about Cara Delevingne.",
+        "contextMeaning": "Here, \"today\" means the day happening now",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "Today’s story is quiet, but very strong.",
+        "contextMeaning": "Here, \"today\" means the day happening now",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"today\" means the day happening now",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"today\" means the day happening now",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "That common problem is the center of today’s story.",
         "contextMeaning": "Here, \"today\" means the day happening now",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
@@ -108732,7 +110398,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -108817,6 +110484,13 @@
         "sentence": "Two other common tools are social proof and urgency messages.",
         "contextMeaning": "Here, \"tools\" means a tool can be software the AI calls to search, check, write, or publish",
         "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "People talked about faster tools, smarter software, and new business chances.",
+        "contextMeaning": "Here, \"tools\" means things used to help work or make something",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -109702,7 +111376,9 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -109779,6 +111455,20 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "Visit ovi english dot com for the transcript and practice.",
         "contextMeaning": "Here, \"transcript\" means the written words of what is said in the audio or video",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"transcript\" means the written text of the lesson to read",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"transcript\" means the written text of the story or lesson on the website",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -110169,7 +111859,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -110205,6 +111896,13 @@
         "sentence": "Use safe topics first: travel, food, music, karaoke, and the local area.",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"travel\" means going to other places in the story's dream",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -110871,7 +112569,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -110928,6 +112627,13 @@
         "sentence": "A good business page should clearly answer who it is for, what problem it solves, what result people can expect, why people should trust it, and what the next step is.",
         "contextMeaning": "Here, \"trust\" means why people should believe the business is honest and good",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "It is also a story about trust, rules, and ordinary people.",
+        "contextMeaning": "Here, \"trust\" means belief that technology and people will be good and safe",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -111663,7 +113369,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what"
+      "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -111671,6 +113378,13 @@
         "sentence": "In a hot Japanese summer or a small apartment, a Husky may become uncomfortable, bored, noisy, or difficult to control.",
         "contextMeaning": "Here, \"uncomfortable\" means feeling bad because it is too hot or small",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Very quickly, a calm night feels uncomfortable.",
+        "contextMeaning": "Here, \"uncomfortable\" means not calm or nice to be in during the night here",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -114398,7 +116112,10 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -114518,6 +116235,27 @@
         "sentence": "Now practice the full visit.",
         "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"visit\" means go to the website ovi english dot com to see and learn",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"visit\" means go to the website to get the transcript and practice",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Visit ovi english dot com for the transcript and practice.",
+        "contextMeaning": "Here, \"visit\" means go to the website ovi english dot com to get help",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -115191,7 +116929,9 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -115220,6 +116960,20 @@
         "sentence": "If you owned a cafe, which dish would you want customers to notice first?",
         "contextMeaning": "Here, \"want\" means to wish to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You want a trip.",
+        "contextMeaning": "Here, \"want\" means you wish to have a trip",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "You want to sit outside.",
+        "contextMeaning": "Here, \"want\" means you wish to sit outside, not inside the house",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -115293,7 +117047,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -115323,6 +117078,13 @@
         "contextMeaning": "Here, \"wants\" means to wish to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "We will hear how Europe wants AI to grow, but with more care.",
+        "contextMeaning": "Here, \"wants\" means europe wishes or needs AI to grow here",
+        "source": "episode-supported",
+        "confidence": "trusted"
       }
     ]
   },
@@ -115339,7 +117101,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -115361,6 +117124,13 @@
         "sentence": "You need short, warm, useful English for one real shift.",
         "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "Imagine a warm evening at home.",
+        "contextMeaning": "Here, \"warm\" means the evening is not cold, it feels nice and cozy",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -116256,7 +118026,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -116285,6 +118056,13 @@
         "sentence": "Then check the official website of that exact company.",
         "contextMeaning": "Here, \"website\" means the internet page where the company shares information",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You open a website or an app and hope technology can do the hard work.",
+        "contextMeaning": "Here, \"website\" means an internet page you visit for news or help",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -116316,6 +118094,29 @@
         "sentence": "Imagine someone asks, \"What is the best English school near me for a shy high-school student?\" The AI may read websites, reviews, maps, prices, lesson descriptions, and teacher profiles.",
         "contextMeaning": "Here, \"websites\" means internet pages the AI reads to find school information",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "weeds": {
+    "word": "weeds",
+    "definition": "Bad plants that grow where you don't want them",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+        "sentence": "Weeds were everywhere.",
+        "contextMeaning": "Here, \"weeds\" means bad plants that people pulled out from the garden",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -116510,6 +118311,29 @@
         "sentence": "An old house can keep its history while welcoming new life inside.",
         "contextMeaning": "Here, \"welcoming\" means letting new people or things come in and feel good",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "well": {
+    "word": "well",
+    "definition": "In a good or proper way",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "Today’s story starts with a travel dream many people know well.",
+        "contextMeaning": "Here, \"well\" means many people understand the travel dream clearly",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -116751,7 +118575,8 @@
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -116772,6 +118597,13 @@
         "episodeId": "episode-2026-05-17-the-silk-road-more-than-a-road-2",
         "sentence": "Imagine a trader in Xi’an, the old Chinese city where many journeys began.",
         "contextMeaning": "Here, \"where\" means it asks about the place a trader is in",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
+        "contextMeaning": "Here, \"where\" means the place in Paris with bright screens and robots",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -117164,13 +118996,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea"
+      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
         "sentence": "Today, we travel with a man who only wants to go home.",
         "contextMeaning": "Here, \"who\" means used to refer to a person previously mentioned",
+        "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+        "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
+        "contextMeaning": "Here, \"who\" means the person that AI picks for a job",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
@@ -118041,7 +119881,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -118119,6 +119960,13 @@
         "sentence": "Limited-time offers work because they create urgency.",
         "contextMeaning": "Here, \"work\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "You open a website or an app and hope technology can do the hard work.",
+        "contextMeaning": "Here, \"work\" means the job or task that technology should do",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
@@ -118468,7 +120316,8 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -118518,6 +120367,13 @@
         "sentence": "The important skill is noticing how the design works.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+        "sentence": "and works with an app on your phone.",
+        "contextMeaning": "Here, \"works\" means can be used with a phone program",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -119420,7 +121276,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -119491,6 +121348,13 @@
         "sentence": "He is 98 years old.",
         "contextMeaning": "Here, \"years\" means how old he is, his age time",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+        "sentence": "For years, big tech companies have promised exactly that.",
+        "contextMeaning": "Here, \"years\" means a long time in the past until now",
+        "source": "episode-popup-meanings",
         "confidence": "trusted"
       }
     ]
