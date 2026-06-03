@@ -7950,9 +7950,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-supermarket-find-and-pay"
+      "episode-2026-05-21-a1-supermarket-find-and-pay",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Do you use a basket or a shopping cart?",
+        "contextMeaning": "Here, \"basket\" means good for a few things",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "bathroom": {
     "word": "bathroom",
@@ -15229,7 +15238,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -15237,6 +15247,13 @@
         "sentence": "Today you will hear next to, fitting room, cash, and card is not working.",
         "contextMeaning": "Here, \"cash\" means this word means money you can touch, like coins and bills",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Answer Starters: At the checkout, people pay with cash, cards, or phones.",
+        "contextMeaning": "Here, \"cash\" means some people pay with cash",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -24440,6 +24457,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "convenience store": {
+    "word": "convenience store",
+    "definition": "A small shop that is open for many hours",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": []
   },
   "convenient": {
     "word": "convenient",
@@ -46004,7 +46036,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -46019,6 +46052,13 @@
         "sentence": "In ancient Rome, people used honey, fruit juice, and snow in luxury drinks.",
         "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants or trees",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"fruit\" means people buy fruit at supermarkets",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -48069,12 +48109,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "A good meme works almost like grammar.",
+        "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "After that, try a short grammar quiz with shopping sentences.",
         "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -76570,6 +76618,21 @@
       }
     ]
   },
+  "own bag": {
+    "word": "own bag",
+    "definition": "A bag from home",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": []
+  },
   "owned": {
     "word": "owned",
     "definition": "Something belongs to someone",
@@ -86912,6 +86975,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "ready-made meal": {
+    "word": "ready-made meal",
+    "definition": "Food that is already cooked or prepared",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": []
   },
   "ready-to-eat": {
     "word": "ready-to-eat",
@@ -98671,6 +98749,21 @@
       }
     ]
   },
+  "shopping cart": {
+    "word": "shopping cart",
+    "definition": "A large cart with wheels for shopping",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": []
+  },
   "shopping list": {
     "word": "shopping list",
     "definition": "A list of things to buy",
@@ -109039,7 +109132,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-21-a1-supermarket-find-and-pay"
+      "episode-2026-05-21-a1-supermarket-find-and-pay",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -109047,6 +109141,36 @@
         "sentence": ": Is the lower price at Best Buy or at a supermarket?",
         "contextMeaning": "Here, \"supermarket\" means a big store where you can buy things cheaper",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Do you often go to a supermarket?",
+        "contextMeaning": "Here, \"supermarket\" means people buy food and drinks at a supermarket",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "supermarkets": {
+    "word": "supermarkets",
+    "definition": "A large shop for food and daily things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks.",
+        "contextMeaning": "Here, \"supermarkets\" means people buy food and drinks at a supermarket",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -121073,7 +121197,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -121088,6 +121213,13 @@
         "sentence": "It is a warm noodle dish with vegetables.",
         "contextMeaning": "Here, \"vegetables\" means part of houtou",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"vegetables\" means people buy vegetables for meals",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
