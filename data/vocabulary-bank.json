@@ -2843,7 +2843,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -2856,6 +2857,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "A burger alone may feel cheap, but a burger with fries and a drink may feel like a better deal.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "One instrument alone can be beautiful, but many instruments together can create a much bigger emotional world.",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -5228,6 +5236,29 @@
         "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
         "contextMeaning": "Here, \"artificial\" means not real, made by people to help with thinking",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "artists": {
+    "word": "artists",
+    "definition": "A person who makes art",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Some artists show their effort very clearly.",
+        "contextMeaning": "Here, \"artists\" means a person who makes art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -7815,6 +7846,29 @@
         "sentence": "Heracles faces the Nemean lion, a beast that ordinary weapons cannot kill.",
         "contextMeaning": "Here, \"beast\" means means a very strong animal Heracles must fight",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "beautiful": {
+    "word": "beautiful",
+    "definition": "Very attractive to see or hear",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "One instrument alone can be beautiful, but many instruments together can create a much bigger emotional world.",
+        "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -13413,7 +13467,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -13470,6 +13525,13 @@
         "sentence": "Very quickly, a calm night feels uncomfortable.",
         "contextMeaning": "Here, \"calm\" means a quiet and peaceful night before mosquitoes come",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It creates a calm and refined atmosphere.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -14114,7 +14176,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -14143,6 +14206,13 @@
         "sentence": "Please be careful going home.",
         "contextMeaning": "Here, \"careful\" means the host says this when the customer leaves",
         "source": "manual_runtime_trust_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It is a large world of music written with careful structure, deep emotion, and long-lasting ideas.",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -18233,7 +18303,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -18277,6 +18348,13 @@
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "In this time, music became clearer and more balanced.",
+        "contextMeaning": "Here, \"clearer\" means easier to understand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -18317,7 +18395,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -18344,6 +18423,13 @@
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "Maria needs to explain the problem clearly so the repair office can help her.",
+        "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Some artists show their effort very clearly.",
         "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24827,7 +24913,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -24856,6 +24943,13 @@
         "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
         "contextMeaning": "Here, \"create\" means make a travel plan for your trip",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "The strings, like violins and cellos, often create warmth, beauty, and emotion.",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -24930,7 +25024,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -24964,6 +25059,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "The food may be similar, but the second name creates a stronger picture.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It creates a calm and refined atmosphere.",
         "contextMeaning": "Here, \"creates\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -25477,7 +25579,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -25506,6 +25609,13 @@
         "sentence": "But it is also about culture, ideas, and connection.",
         "contextMeaning": "Here, \"culture\" means the way people from two countries live and think",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It is useful general knowledge because it appears in many parts of culture.",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -25914,7 +26024,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -25922,6 +26033,13 @@
         "sentence": "Can this become useful in daily life, or is it still just a cool demo?",
         "contextMeaning": "Here, \"daily\" means happening every day, like things you do often",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Where do you hear classical music in daily life, movies, restaurants, ceremonies, or concerts?",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -26239,6 +26357,29 @@
         "sentence": "In this lesson, Daniel ordered chicken noodles without peanuts because he has an allergy.",
         "contextMeaning": "Here, \"daniel\" means the boy who ordered food without peanuts",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dark": {
+    "word": "dark",
+    "definition": "With little or no light",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Some is dark and serious.",
+        "contextMeaning": "Here, \"dark\" means with little or no light",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -28458,7 +28599,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -28499,6 +28641,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "Third, change one detail: the drink, the country, or the karaoke answer.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Baroque music shows order, religion, and detail.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -30708,12 +30857,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "The door lock is hard to open.",
+        "contextMeaning": "Here, \"door\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "He began in the Classical style, but his music helped open the door to the Romantic period, when music became more personal, emotional, and dramatic.",
         "contextMeaning": "Here, \"door\" means the part you open to enter a room",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -32660,7 +32817,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -32687,6 +32845,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "The way these choices are organized can affect what you notice, what you ignore, and what feels easy to select.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "His music may not always feel easy, but it often feels deep and timeless.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -34087,7 +34252,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-05-13-why-cats-act-so-strange"
+      "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -34102,6 +34268,13 @@
         "sentence": "Often, the answer is extra energy.",
         "contextMeaning": "Here, \"energy\" means the power or strength to move and play",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Which feeling do you usually enjoy in music: peace, beauty, drama, mystery, or energy?",
+        "contextMeaning": "Here, \"energy\" means power for action or movement",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -34470,12 +34643,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "Please relax and enjoy.",
+        "contextMeaning": "Here, \"enjoy\" means to like doing something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Which feeling do you usually enjoy in music: peace, beauty, drama, mystery, or energy?",
         "contextMeaning": "Here, \"enjoy\" means to like doing something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -35456,6 +35637,29 @@
         "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
         "contextMeaning": "Here, \"event\" means a special meeting where people show new technology",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "events": {
+    "word": "events",
+    "definition": "Something planned that happens",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "That is why restaurants, hotels, and wine events sometimes use classical music.",
+        "contextMeaning": "Here, \"events\" means something planned that happens",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -38946,7 +39150,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -38996,6 +39201,13 @@
         "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
         "contextMeaning": "Here, \"famous\" means the tech event that many people know about",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "When people hear the words classical music, they often imagine an orchestra, a concert hall, or music written by famous composers like Mozart or Beethoven.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -43520,7 +43732,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -43533,6 +43746,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "If a dish looks colorful, fresh, and warm, the customer can imagine eating it more easily.",
+        "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Some people like fresh white wine, while others prefer deep red wine.",
         "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -45399,7 +45619,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -45426,6 +45647,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "The goal is not a long speech.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "The goal is not to understand everything.",
         "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -47957,7 +48185,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -47986,6 +48215,13 @@
         "sentence": "We will hear how Europe wants AI to grow, but with more care.",
         "contextMeaning": "Here, \"hear\" means find out or learn by listening in this sentence",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "When you hear the words classical music, what image comes to mind?",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -49990,6 +50226,29 @@
       }
     ]
   },
+  "hotels": {
+    "word": "hotels",
+    "definition": "A place where travelers stay and sleep",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "You can hear classical music in movies, commercials, weddings, hotels, restaurants, anime, figure skating, and ceremonies.",
+        "contextMeaning": "Here, \"hotels\" means a place where travelers stay and sleep",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "house": {
     "word": "house",
     "definition": "A building where people live",
@@ -50693,7 +50952,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -50758,6 +51018,13 @@
         "contextMeaning": "Here, \"ideas\" means important thoughts or points to watch for here",
         "source": "episode-supported",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It is a large world of music written with careful structure, deep emotion, and long-lasting ideas.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -50807,7 +51074,8 @@
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -50834,6 +51102,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "It was memory, religion, local identity, and moral thinking at the same time.",
+        "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Composers wanted to express deep feelings, imagination, nature, dreams, love, sadness, and national identity.",
         "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -53571,6 +53846,29 @@
       }
     ]
   },
+  "interesting": {
+    "word": "interesting",
+    "definition": "Making you want to know more",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It is interesting that people still listen to music written before cars, phones, movies, airplanes, and the internet.",
+        "contextMeaning": "Here, \"interesting\" means making you want to know more",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "interface": {
     "word": "interface",
     "definition": "A way to talk or work with a machine or computer",
@@ -53713,12 +54011,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "The word \"meme\" is older than the internet.",
+        "contextMeaning": "Here, \"internet\" means the worldwide system that connects computers",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It is interesting that people still listen to music written before cars, phones, movies, airplanes, and the internet.",
         "contextMeaning": "Here, \"internet\" means the worldwide system that connects computers",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -57337,12 +57643,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "One says \"Start now.\" The other says \"Learn more.\" Both may lead to useful information, but they create different impressions.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "After that, you can learn the history, the composer, the period, and the musical ideas.",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -65588,12 +65902,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "A Greek hero is not always morally good in the modern sense.",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Modern life is fast.",
         "contextMeaning": "Here, \"modern\" means new and current in style or method",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -65614,7 +65936,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -65641,6 +65964,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "I think for a moment and say, “I used it near the ticket machines.” This information may help the staff look for it.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Pop music is often connected to the present moment.",
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67004,6 +67334,29 @@
       }
     ]
   },
+  "movie": {
+    "word": "movie",
+    "definition": "A story shown on a screen",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "A pop song may become famous because of a singer, a trend, a movie, or social media.",
+        "contextMeaning": "Here, \"movie\" means a story shown on a screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "movies": {
     "word": "movies",
     "definition": "Stories shown on a big screen or TV",
@@ -67760,6 +68113,29 @@
         "sentence": "This lesson helps students talk naturally about their week, daily life, family, hobbies, work, feelings, and small events.",
         "contextMeaning": "Here, \"naturally\" means talking in a way that sounds easy and real",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "nature": {
+    "word": "nature",
+    "definition": "Plants, animals, and the natural world",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Composers wanted to express deep feelings, imagination, nature, dreams, love, sadness, and national identity.",
+        "contextMeaning": "Here, \"nature\" means plants, animals, and the natural world",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -75085,7 +75461,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -75098,6 +75475,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "You do not need perfect English.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "His music can feel like a perfect conversation: graceful, intelligent, emotional, but never too much.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -75491,6 +75875,29 @@
         "sentence": "It sounds like a song about love or a very close person.",
         "contextMeaning": "Here, \"person\" means someone very close or loved in the song",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "personal": {
+    "word": "personal",
+    "definition": "About one person or private life",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "He began in the Classical style, but his music helped open the door to the Romantic period, when music became more personal, emotional, and dramatic.",
+        "contextMeaning": "Here, \"personal\" means about one person or private life",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -77849,7 +78256,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -77862,6 +78270,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Have you ever bought, signed up for, or selected something because it was marked as \"popular\"?",
+        "contextMeaning": "Here, \"popular\" means liked by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Classical music is also often written in a more detailed way than many popular songs.",
         "contextMeaning": "Here, \"popular\" means liked by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -94127,7 +94542,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -94140,6 +94556,13 @@
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "That changed when public shops and cafés began serving them regularly.",
+        "contextMeaning": "Here, \"shops\" means a place where you buy things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "We hear short sounds everywhere: notifications, advertisements, short videos, and background music in shops.",
         "contextMeaning": "Here, \"shops\" means a place where you buy things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -95390,6 +95813,29 @@
       }
     ]
   },
+  "singer": {
+    "word": "singer",
+    "definition": "A person who sings",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "A pop song may become famous because of a singer, a trend, a movie, or social media.",
+        "contextMeaning": "Here, \"singer\" means a person who sings",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "singers": {
     "word": "singers",
     "definition": "People who sing songs",
@@ -96113,7 +96559,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -96133,6 +96580,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "For example, a short description may be fast but unclear, while too many details can slow communication.",
+        "contextMeaning": "Here, \"slow\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Classical music often asks us to slow down and listen carefully.",
         "contextMeaning": "Here, \"slow\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -96640,6 +97094,29 @@
         "sentence": "Another act may include dancers, smoke, and fast costume changes.",
         "contextMeaning": "Here, \"smoke\" means clouds used in the show to make it special",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "smooth": {
+    "word": "smooth",
+    "definition": "Soft and even, without rough pieces",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Some is round and smooth.",
+        "contextMeaning": "Here, \"smooth\" means soft and even, without rough pieces",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -97757,7 +98234,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2"
+      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -97765,6 +98243,13 @@
         "sentence": "Eurovision is a huge live TV song contest.",
         "contextMeaning": "Here, \"song\" means a piece of music with words that people sing",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "A pop song may become famous because of a singer, a trend, a movie, or social media.",
+        "contextMeaning": "Here, \"song\" means a piece of music with words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -97780,7 +98265,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -97788,6 +98274,13 @@
         "sentence": "In 2024, Cara shared two songs.",
         "contextMeaning": "Here, \"songs\" means the music pieces she gave to people in 2024",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Classical music is also often written in a more detailed way than many popular songs.",
+        "contextMeaning": "Here, \"songs\" means a piece of music with words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -98751,12 +99244,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "People do not only copy the picture; they copy the way Doge \"speaks.\" That is why Doge became more than one photo.",
+        "contextMeaning": "Here, \"speaks\" means to say words out loud",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It is like a person who speaks beautifully without needing to show off.",
         "contextMeaning": "Here, \"speaks\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -102689,7 +103190,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -102718,6 +103220,13 @@
         "sentence": "Today’s story is quiet, but very strong.",
         "contextMeaning": "Here, \"strong\" means very important or has a big effect",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "The music survives because it has something strong inside it: beauty, drama, sadness, joy, tension, or peace.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -106162,7 +106671,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -106175,6 +106685,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "The offer is not only about taste.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "A person can drink wine quickly, but to really enjoy it, they may notice the smell, taste, body, balance, and finish.",
         "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -111033,7 +111550,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -111041,6 +111559,13 @@
         "sentence": "The area has traditional soba, heavy pasta dishes, healthy fish, and quiet cafes.",
         "contextMeaning": "Here, \"traditional\" means made in an old, classic style from long ago",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Modern classical music does not always try to sound beautiful in the traditional way.",
+        "contextMeaning": "Here, \"traditional\" means connected to older customs",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -114523,7 +115048,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -114620,6 +115146,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "You need short, warm, useful English for one real shift.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "It is useful general knowledge because it appears in many parts of culture.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -116442,6 +116975,29 @@
         "sentence": "It is presenting AI as a service layer that can reason over your context, generate media, monitor the world, write code, operate inside work tools, and eventually sit on your face as a camera-equipped, voice-first interface.",
         "contextMeaning": "Here, \"voice-first\" means aI listens and talks using your voice first",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "voices": {
+    "word": "voices",
+    "definition": "The sound a person makes when speaking",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-classical-music-history-composers"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Different melodies can move at the same time, like several voices having a serious conversation.",
+        "contextMeaning": "Here, \"voices\" means the sound a person makes when speaking",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -120317,7 +120873,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -120374,6 +120931,13 @@
         "sentence": "and works with an app on your phone.",
         "contextMeaning": "Here, \"works\" means can be used with a phone program",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-classical-music-history-composers",
+        "sentence": "Bach worked as a church musician for much of his life, so many of his works were written for religious services.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
