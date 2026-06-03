@@ -7291,7 +7291,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -7304,6 +7305,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "It is not in my bag.",
+        "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A strong bag carries your things.",
         "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -7861,12 +7869,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "One instrument alone can be beautiful, but many instruments together can create a much bigger emotional world.",
+        "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "The object itself does not become stronger, faster, or more beautiful.",
         "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -13536,6 +13552,29 @@
       }
     ]
   },
+  "calmer": {
+    "word": "calmer",
+    "definition": "Quiet, peaceful, or not busy",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "An athlete may feel calmer wearing the same socks before an important game.",
+        "contextMeaning": "Here, \"calmer\" means quiet, peaceful, or not busy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "calmly": {
     "word": "calmly",
     "definition": "Doing something quietly and without hurry or noise",
@@ -14440,7 +14479,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -14453,6 +14493,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "The image may look the same, but the meaning depends on who uses it, where it appears, and what message it carries.",
+        "contextMeaning": "Here, \"carries\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A strong bag carries your things.",
         "contextMeaning": "Here, \"carries\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -14470,12 +14517,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
+        "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "They may not be expensive or special by themselves, but they carry a story.",
         "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -15298,6 +15353,29 @@
         "sentence": "A large chain cafe can be useful, but it often feels the same in every city.",
         "contextMeaning": "Here, \"chain\" means a big group of cafes with same style in many cities",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "chair": {
+    "word": "chair",
+    "definition": "A seat for one person",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A chair is useful because we can sit on it.",
+        "contextMeaning": "Here, \"chair\" means a seat for one person",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -19424,6 +19502,29 @@
         "sentence": "The announcements were scattered across models, Search, Workspace, YouTube, Android, developer tools, and eyewear, but the underlying idea was unusually coherent: Gemini is being positioned as the connective tissue between information, action, creation, and verification.",
         "contextMeaning": "Here, \"coherent\" means the main idea was clear and made sense",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cold": {
+    "word": "cold",
+    "definition": "Low in temperature",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A warm coat protects you from cold weather.",
+        "contextMeaning": "Here, \"cold\" means low in temperature",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -23844,6 +23945,29 @@
       }
     ]
   },
+  "copies": {
+    "word": "copies",
+    "definition": "Something made to look like another thing",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "This is why original objects are often more valuable than copies.",
+        "contextMeaning": "Here, \"copies\" means copy means something made to look like another thing",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "copilot": {
     "word": "copilot",
     "definition": "A helper for you",
@@ -23863,6 +23987,29 @@
         "sentence": "Its AI tool, Copilot, can look across your open tabs and answer questions about them.",
         "contextMeaning": "Here, \"copilot\" means a helper program that works with you",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "copy": {
+    "word": "copy",
+    "definition": "Something made to look like another thing",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A copy can copy the shape, color, and design, but it cannot copy the real moment.",
+        "contextMeaning": "Here, \"copy\" means something made to look like another thing",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -25025,7 +25172,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -25066,6 +25214,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It creates a calm and refined atmosphere.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "The pattern is simple: an object gets a story, the story creates emotion, the emotion creates desire, desire creates demand, and demand can raise the price.",
         "contextMeaning": "Here, \"creates\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -26689,7 +26844,8 @@
     "episodes": [
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -26709,6 +26865,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Understanding how design guides choices does not remove your ability to decide.",
+        "contextMeaning": "Here, \"decide\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Do you think people are logical when they decide what something is worth?",
         "contextMeaning": "Here, \"decide\" means to make a choice",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -27572,7 +27735,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -27601,6 +27765,13 @@
         "sentence": "The first test should answer whether repeat demand is strong enough before a lease and fit-out.",
         "contextMeaning": "Here, \"demand\" means how many people want to buy again",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "The pattern is simple: an object gets a story, the story creates emotion, the emotion creates desire, desire creates demand, and demand can raise the price.",
+        "contextMeaning": "Here, \"demand\" means the number of people who want to buy something",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -29191,7 +29362,8 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -29211,6 +29383,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Urgency messages work differently.",
+        "contextMeaning": "Here, \"differently\" means in a different way",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "The material may be the same, but most people would feel very differently about touching or wearing them.",
         "contextMeaning": "Here, \"differently\" means in a different way",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -35384,6 +35563,29 @@
       }
     ]
   },
+  "essence": {
+    "word": "essence",
+    "definition": "The special inner quality people feel in a person or thing",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "One reason is the feeling of essence.",
+        "contextMeaning": "Here, \"essence\" means the special inner quality people feel in a person or thing",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "estate": {
     "word": "estate",
     "definition": "Land and buildings",
@@ -35652,12 +35854,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "That is why restaurants, hotels, and wine events sometimes use classical music.",
+        "contextMeaning": "Here, \"events\" means something planned that happens",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Story value means the meaning an object gets from people, places, or events connected to it.",
         "contextMeaning": "Here, \"events\" means something planned that happens",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -39151,7 +39361,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -39206,6 +39417,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "When people hear the words classical music, they often imagine an orchestra, a concert hall, or music written by famous composers like Mozart or Beethoven.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Would you pay more for an object if a famous person used it?",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -45213,6 +45431,29 @@
       }
     ]
   },
+  "gift": {
+    "word": "gift",
+    "definition": "Something you give to someone",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Have you ever kept a ticket, photo, keychain, or small gift because of a memory?",
+        "contextMeaning": "Here, \"gift\" means something you give to someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "gives": {
     "word": "gives",
     "definition": "To put something where others can have it",
@@ -51075,7 +51316,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -51111,6 +51353,13 @@
         "sentence": "Composers wanted to express deep feelings, imagination, nature, dreams, love, sadness, and national identity.",
         "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "It is also about memory, emotion, identity, belief, and story.",
+        "contextMeaning": "Here, \"identity\" means the idea of who someone is or wants to be",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -54012,7 +54261,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -54025,6 +54275,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is interesting that people still listen to music written before cars, phones, movies, airplanes, and the internet.",
+        "contextMeaning": "Here, \"internet\" means the worldwide system that connects computers",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A phone is useful because we can call people, take photos, and use the internet.",
         "contextMeaning": "Here, \"internet\" means the worldwide system that connects computers",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -56345,7 +56602,8 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -56365,6 +56623,13 @@
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "One morning, she sees water under the kitchen sink.",
+        "contextMeaning": "Here, \"kitchen\" means the room where food is made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A good kitchen knife helps you cook.",
         "contextMeaning": "Here, \"kitchen\" means the room where food is made",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -61390,6 +61655,21 @@
       }
     ]
   },
+  "magical thinking": {
+    "word": "magical thinking",
+    "definition": "Feeling that something has hidden meaning or power",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": []
+  },
   "magnificent": {
     "word": "magnificent",
     "definition": "Very great and beautiful",
@@ -62722,6 +63002,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "market value": {
+    "word": "market value",
+    "definition": "The amount of money people may pay for something",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": []
   },
   "marketing": {
     "word": "marketing",
@@ -64410,7 +64705,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -64423,6 +64719,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "It was memory, religion, local identity, and moral thinking at the same time.",
+        "contextMeaning": "Here, \"memory\" means a thought from the past that you remember",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Have you ever kept a ticket, photo, keychain, or small gift because of a memory?",
         "contextMeaning": "Here, \"memory\" means a thought from the past that you remember",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -65788,7 +66091,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -65817,6 +66121,13 @@
         "sentence": "Hello.",
         "contextMeaning": "Here, \"model\" means a short example of what to say at reception",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "They are the same model, the same color, and the same age.",
+        "contextMeaning": "Here, \"model\" means the AI service chosen for a specific task",
+        "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
       }
     ]
@@ -65937,7 +66248,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -65974,6 +66286,13 @@
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "People connect it to a famous person, a special event, or an important moment.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -65988,12 +66307,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Escalation moments are situations where additional attention or approval is needed.",
+        "contextMeaning": "Here, \"moments\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Family objects are special because they connect us to people, places, and moments.",
         "contextMeaning": "Here, \"moments\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67345,12 +67672,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "A pop song may become famous because of a singer, a trend, a movie, or social media.",
+        "contextMeaning": "Here, \"movie\" means a story shown on a screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "People visit famous music studios, old castles, temples, sports stadiums, movie locations, and historical sites because they want to stand where something meaningful happened.",
         "contextMeaning": "Here, \"movie\" means a story shown on a screen",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -72196,7 +72531,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -72225,6 +72561,13 @@
         "sentence": "It is also a story about trust, rules, and ordinary people.",
         "contextMeaning": "Here, \"ordinary\" means people who are normal and not special in stories",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "This lesson looks at a simple but powerful question: why can an ordinary thing feel special?",
+        "contextMeaning": "Here, \"ordinary\" means normal, not special",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -76114,7 +76457,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -76127,6 +76471,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "Have you ever ordered food because the photo looked delicious?",
+        "contextMeaning": "Here, \"photo\" means a picture taken with a camera",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Have you ever kept a ticket, photo, keychain, or small gift because of a memory?",
         "contextMeaning": "Here, \"photo\" means a picture taken with a camera",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -76167,12 +76518,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "The page design, photos, colors, names, labels, and prices can push our attention toward some dishes and away from others.",
+        "contextMeaning": "Here, \"photos\" means a picture taken with a camera",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A phone is useful because we can call people, take photos, and use the internet.",
         "contextMeaning": "Here, \"photos\" means a picture taken with a camera",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -78782,6 +79141,21 @@
       }
     ]
   },
+  "practical value": {
+    "word": "practical value",
+    "definition": "The value something has because it is useful",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": []
+  },
   "practice": {
     "word": "practice",
     "definition": "To do something many times",
@@ -79935,6 +80309,29 @@
         "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
         "contextMeaning": "Here, \"price\" means the bad things heroes face after winning or finishing a hard task",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "priceless": {
+    "word": "priceless",
+    "definition": "So emotionally valuable that money cannot easily measure it",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "An old watch from a grandfather may not cost much money, but for one family, it can feel priceless.",
+        "contextMeaning": "Here, \"priceless\" means so emotionally valuable that money cannot easily measure it",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -82749,6 +83146,29 @@
         "sentence": "Senior means high in rank.",
         "contextMeaning": "Here, \"rank\" means how important or high someone is in a group",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rare": {
+    "word": "rare",
+    "definition": "Not common, hard to find",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Sometimes negative objects still become expensive because they are rare or historically important, but the feeling around them is different.",
+        "contextMeaning": "Here, \"rare\" means not common, hard to find",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -89871,7 +90291,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -89912,6 +90333,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "The goal is to make the customer feel welcome and safe.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "We often give meaning to things because meaning helps us feel connected, confident, or safe.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -94388,7 +94816,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -94396,6 +94825,13 @@
         "sentence": "Then she must find the right shirt.",
         "contextMeaning": "Here, \"shirt\" means this is a piece of clothing worn on the upper body",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "For example, some people have a lucky pen, lucky socks, or a lucky shirt.",
+        "contextMeaning": "Here, \"shirt\" means clothes you wear on the top part of your body",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -94480,12 +94916,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "You can ask for a new delivery time, pickup at a shop, or delivery to a neighbor.",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A plain coffee cup may be almost worthless in a shop.",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -95824,12 +96268,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "A pop song may become famous because of a singer, a trend, a movie, or social media.",
+        "contextMeaning": "Here, \"singer\" means a person who sings",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "But the shirt worn by a famous singer at a famous concert is only one shirt.",
         "contextMeaning": "Here, \"singer\" means a person who sings",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -98450,7 +98902,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -98512,6 +98965,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "In English, snack bar can sound like a place for food and soft drinks, so foreign customers may need a simple explanation.",
+        "contextMeaning": "Here, \"sound\" means to seem or appear",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "They are made from the same materials and may sound similar.",
         "contextMeaning": "Here, \"sound\" means to seem or appear",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -102490,6 +102950,21 @@
       }
     ]
   },
+  "story value": {
+    "word": "story value",
+    "definition": "The value something has because of the story connected to it",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": []
+  },
   "storyboard": {
     "word": "storyboard",
     "definition": "Pictures that show a movie story",
@@ -103191,7 +103666,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -103225,6 +103701,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "The music survives because it has something strong inside it: beauty, drama, sadness, joy, tension, or peace.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A strong bag carries your things.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -105635,6 +106118,29 @@
       }
     ]
   },
+  "symbolic": {
+    "word": "symbolic",
+    "definition": "Connected to meaning, identity, or feeling",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-why-some-objects-become-special"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "It shows that humans are emotional and symbolic.",
+        "contextMeaning": "Here, \"symbolic\" means connected to meaning, identity, or feeling",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "symbols": {
     "word": "symbols",
     "definition": "Things that show or mean something else",
@@ -106672,7 +107178,8 @@
     "episodes": [
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -106692,6 +107199,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "A person can drink wine quickly, but to really enjoy it, they may notice the smell, taste, body, balance, and finish.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "It can tell other people, \"This is my taste,\" or \"This is the kind of person I want to be.\" This is why some people pay much more for branded items.",
         "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -109787,7 +110301,8 @@
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -109814,6 +110329,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "I buy a ticket.",
+        "contextMeaning": "Here, \"ticket\" means a paper or digital pass for travel or entry",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Have you ever kept a ticket, photo, keychain, or small gift because of a memory?",
         "contextMeaning": "Here, \"ticket\" means a paper or digital pass for travel or entry",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -115049,7 +115571,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -115153,6 +115676,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is useful general knowledge because it appears in many parts of culture.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Some objects are valuable because they are useful.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -115664,7 +116194,8 @@
     "episodes": [
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -115684,6 +116215,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "The most valuable workers are often not those who accept every AI suggestion.",
+        "contextMeaning": "Here, \"valuable\" means worth a lot or very useful",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "Some objects are valuable because they are useful.",
         "contextMeaning": "Here, \"valuable\" means worth a lot or very useful",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -117658,7 +118196,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -117687,6 +118226,13 @@
         "sentence": "Imagine a warm evening at home.",
         "contextMeaning": "Here, \"warm\" means the evening is not cold, it feels nice and cozy",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A warm coat protects you from cold weather.",
+        "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -118480,7 +119026,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -118493,6 +119040,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "Seasonal items connect food with weather, mood, and memory.",
+        "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-why-some-objects-become-special",
+        "sentence": "A warm coat protects you from cold weather.",
         "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
