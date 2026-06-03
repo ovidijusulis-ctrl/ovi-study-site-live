@@ -594,7 +594,6 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
@@ -1063,7 +1062,6 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
@@ -1679,7 +1677,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "2026-05-25-a1-grammar-core-gaps-test",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -1938,6 +1937,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Ludwig van Beethoven came after Mozart and changed classical music in a powerful way.",
         "contextMeaning": "Here, \"after\" means beethoven came later than Mozart",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "5: What should the traveler do after missing the stop?",
+        "contextMeaning": "Here, \"after\" means what the traveler should do later when she misses the stop",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -5289,7 +5295,8 @@
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -5345,6 +5352,13 @@
         "episodeId": "episode-2026-05-21-a2-restaurant-fix-wrong-order",
         "sentence": "The dish arrives with peanuts on top.",
         "contextMeaning": "Here, \"arrives\" means the food comes to the table with peanuts on top",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler arrives at the next station.",
+        "contextMeaning": "Here, \"arrives\" means the traveler gets to the next stop",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -5592,7 +5606,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -5634,6 +5649,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "You asked a question, and it answered.",
         "contextMeaning": "Here, \"asked\" means you said a question to get a reply",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"asked\" means the traveler said questions to find the right way or help",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -5817,7 +5839,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -5992,6 +6015,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Classical music often asks us to slow down and listen carefully.",
         "contextMeaning": "Here, \"asks\" means tells us to slow down and listen well",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She asks a station worker.",
+        "contextMeaning": "Here, \"asks\" means she talks to a worker to get information",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -7225,6 +7255,29 @@
       }
     ]
   },
+  "away": {
+    "word": "away",
+    "definition": "Not close",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The museum is about five minutes away.",
+        "contextMeaning": "Here, \"away\" means the museum is a little far, about five minutes walk",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "awkward": {
     "word": "awkward",
     "definition": "Not easy or comfortable to do",
@@ -7268,7 +7321,8 @@
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -7340,6 +7394,13 @@
         "contextMeaning": "Here, \"b\" means shows the English skill level between B1 and B2 in the sentence",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "There are many exits: Exit A, Exit B, and Exit C.",
+        "contextMeaning": "Here, \"b\" means the name of one exit place, called Exit B",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -7355,7 +7416,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3"
+      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -7370,6 +7432,13 @@
         "sentence": "Hello, and welcome back.",
         "contextMeaning": "Here, \"back\" means to return to this place again",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Walk back for five minutes.",
+        "contextMeaning": "Here, \"back\" means walk to the place you came from for five minutes",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -7455,7 +7524,6 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
@@ -9224,7 +9292,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -9525,6 +9594,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is interesting that people still listen to music written before cars, phones, movies, airplanes, and the internet.",
         "contextMeaning": "Here, \"before\" means music made earlier than cars, phones, and the internet",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What do you check before you get on a train or bus?",
+        "contextMeaning": "Here, \"before\" means at the time earlier than getting on a bus or train",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -10249,7 +10325,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -10264,6 +10341,13 @@
         "sentence": "Best Buy, a large American electronics store, lowered the price of Metroid Prime 4: Beyond to $39.99 for the physical Nintendo Switch version.",
         "contextMeaning": "Here, \"best\" means the name of a big shop that sells things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her best tools are short questions, repeating the answer, showing her phone, and making one backup plan.",
+        "contextMeaning": "Here, \"best\" means the most helpful tools she uses to solve problems",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -10604,7 +10688,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -10633,6 +10718,13 @@
         "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
         "contextMeaning": "Here, \"big\" means important or large promises made at the event",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Transport problems often feel big, but the English can stay small.",
+        "contextMeaning": "Here, \"big\" means problems feel large, but English can be easy",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -11628,7 +11720,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -11642,6 +11735,13 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "so she bought a thick coat and warm boots.",
         "contextMeaning": "Here, \"bought\" means she got a coat and boots with money",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"bought\" means the traveler paid money to get a ticket",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -13116,12 +13216,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-international-transport-get-to-the-right-place",
         "sentence": "What feels difficult at an airport, station, or bus stop?",
+        "contextMeaning": "Here, \"bus\" means a large road vehicle for many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What do you check before you get on a train or bus?",
         "contextMeaning": "Here, \"bus\" means a large road vehicle for many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -13155,7 +13263,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -13169,6 +13278,13 @@
         "episodeId": "episode-2026-05-21-a1-train-station-platform-help",
         "sentence": "Warm-up: Do you often take trains or buses?",
         "contextMeaning": "Here, \"buses\" means cars that carry people like trains do",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Outside the station, the traveler sees two buses.",
+        "contextMeaning": "Here, \"buses\" means two big cars for many people are outside",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -13280,7 +13396,8 @@
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-21-weekly-catch-up-conversation-a2"
+      "episode-2026-05-21-weekly-catch-up-conversation-a2",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -13302,6 +13419,13 @@
         "sentence": "busy",
         "contextMeaning": "Here, \"busy\" means having many things to do",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Warm-up: Do you feel nervous at a busy station?",
+        "contextMeaning": "Here, \"busy\" means a place with many people at the station",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -13510,13 +13634,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "For a C2 reader, the interesting question is not simply what Google released.",
         "contextMeaning": "Here, \"c\" means shows a high reading skill level called C2",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "There are many exits: Exit A, Exit B, and Exit C.",
+        "contextMeaning": "Here, \"c\" means the name of one exit place, called Exit C",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -13537,7 +13669,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -13572,6 +13705,13 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "One important person was **Francesco Procopio dei Coltelli**, a Sicilian craftsman who opened **Cafe Procope** in Paris in 1686.",
         "contextMeaning": "Here, \"cafe\" means a place in Paris where people could buy and eat gelato",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She can walk, take a taxi, or wait in a cafe.",
+        "contextMeaning": "Here, \"cafe\" means a small place to wait and have food or drink",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -14227,7 +14367,8 @@
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -14290,6 +14431,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "This mixed identity explains why heroes can do what ordinary people cannot.",
         "contextMeaning": "Here, \"cannot\" means things normal people are not able to do",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler cannot find the right exit.",
+        "contextMeaning": "Here, \"cannot\" means the traveler is not able to find the right exit",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -14491,7 +14639,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -14499,6 +14648,13 @@
         "sentence": "Today you will hear next to, fitting room, cash, and card is not working.",
         "contextMeaning": "Here, \"card\" means this is a plastic thing you use to pay for things",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Ask again, check the exit or stop, ask for card help, and make a calm backup plan.",
+        "contextMeaning": "Here, \"card\" means a small thing to help with travel or money",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -15615,12 +15771,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Most importantly, human judgment remains central.",
+        "contextMeaning": "Here, \"central\" means in the middle or most important part",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler is at Central Station.",
         "contextMeaning": "Here, \"central\" means in the middle or most important part",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -16084,7 +16248,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -16289,6 +16454,13 @@
         "contextMeaning": "Here, \"change\" means beethoven helped make music different and new",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Platform change: Traveler: Excuse me.",
+        "contextMeaning": "Here, \"change\" means the place to wait or get on the train is different now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -16313,7 +16485,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -16392,6 +16565,13 @@
         "contextMeaning": "Here, \"changed\" means the world is now very different than in the past",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Station Staff: It changed.",
+        "contextMeaning": "Here, \"changed\" means the place or plan is not the same as before",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -16426,7 +16606,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -16573,6 +16754,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Classical music can be built around instruments, patterns, melodies, and changes in mood.",
         "contextMeaning": "Here, \"changes\" means different moods or feelings in the music that change over time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Use simple English when transport changes.",
+        "contextMeaning": "Here, \"changes\" means when the way to go is different or new",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -17093,13 +17281,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-a2-restaurant-fix-wrong-order",
         "sentence": "I checked with the kitchen.\" Daniel says, \"Thank you.",
         "contextMeaning": "Here, \"checked\" means daniel asked the kitchen to be sure about the food",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"checked\" means the traveler looked at the platform to see if it was right",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -17726,7 +17922,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -17760,6 +17957,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "What helps you feel confident when making a choice online?",
+        "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She checks her map and asks one local person for a safe choice.",
         "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -18734,7 +18938,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -18986,6 +19191,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Understand why classical music still matters, learn useful general-knowledge vocabulary for music and culture, and practice explaining personal taste in clear B1-B2 English.",
         "contextMeaning": "Here, \"clear\" means means easy to understand English in the sentence",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The driver is busy, so the traveler asks one clear question before she gets on.",
+        "contextMeaning": "Here, \"clear\" means one easy question to understand before getting on",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -19495,7 +19707,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -19579,6 +19792,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Theseus defeats the Minotaur, but he also makes careless choices that hurt people close to him.",
         "contextMeaning": "Here, \"close\" means people who are friends or family to him",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler is close to the museum, but rain starts.",
+        "contextMeaning": "Here, \"close\" means the traveler is near the museum when the rain starts",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -23953,7 +24173,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -23967,6 +24188,13 @@
         "episodeId": "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
         "sentence": "Honda is betting that this middle path can keep sales strong while cleaner technology continues to grow.",
         "contextMeaning": "Here, \"continues\" means cleaner technology keeps growing more and more",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "This lesson continues the earlier transport practice.",
+        "contextMeaning": "Here, \"continues\" means the lesson goes on with a traveler's travel practice",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -24929,7 +25157,8 @@
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -24992,6 +25221,13 @@
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "The company should prepare a short English profile with the correct name, history, product line, cafe connection, photos, and brand name.",
         "contextMeaning": "Here, \"correct\" means the right name and information about the company",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "STARTERS 1: I can ask, \"Which platform?\" | I can show my phone and ask, \"Is this correct?\" QUESTION 2: Which exit should the traveler use?",
+        "contextMeaning": "Here, \"correct\" means to ask if something is right or true",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -30397,7 +30633,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -30509,6 +30746,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Mozart could make difficult things sound easy.",
         "contextMeaning": "Here, \"difficult\" means mozart made hard things sound easy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "6: What is a good backup plan when transport feels difficult?",
+        "contextMeaning": "Here, \"difficult\" means when using transport is hard or causes problems",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -30822,7 +31066,8 @@
     "episodes": [
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -30843,6 +31088,13 @@
         "episodeId": "episode-2026-05-21-a1-train-station-platform-help",
         "sentence": "Ask where a train leaves, check the time, and understand simple station directions.",
         "contextMeaning": "Here, \"directions\" means information to find places inside the train station",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"directions\" means information to help find the way to places",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -32020,7 +32272,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -32033,6 +32286,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "He began in the Classical style, but his music helped open the door to the Romantic period, when music became more personal, emotional, and dramatic.",
+        "contextMeaning": "Here, \"door\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "platform - the place where you get on a train exit - the door or way out of a station ticket gate - the gate you pass before or after a train tap - touch a card on a reader add money - put more money on a card boarding - getting on a bus, train, or plane missed my stop - went past the place to get off main street - the large safe street taxi stand - a place where taxis wait backup plan - another safe plan across from - on the other side of the street",
         "contextMeaning": "Here, \"door\" means the part you open to enter a room",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -32916,7 +33176,8 @@
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -32937,6 +33198,13 @@
         "episodeId": "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
         "sentence": "Think about a driver named Kenji.",
         "contextMeaning": "Here, \"driver\" means a person who controls and moves a car named Kenji",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "A bus driver speaks quickly.",
+        "contextMeaning": "Here, \"driver\" means the person who drives the bus and talks fast",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -36017,7 +36285,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -36030,6 +36299,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "Sara gives them to the worker and asks, \"Is this enough?\" The worker says, \"Yes, we also need your phone number on the form.\" Documents are part of the process.",
+        "contextMeaning": "Here, \"enough\" means not as much as needed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "You still have enough.",
         "contextMeaning": "Here, \"enough\" means not as much as needed",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -38461,7 +38737,8 @@
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-21-a2-report-a-lost-item",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -38524,6 +38801,13 @@
         "episodeId": "episode-2026-05-21-a2-restaurant-fix-wrong-order",
         "sentence": "You can start with \"Sorry\" or \"Excuse me,\" then explain the problem in one sentence.",
         "contextMeaning": "Here, \"excuse\" means say a kind word before telling the problem",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Platform change: Traveler: Excuse me.",
+        "contextMeaning": "Here, \"excuse\" means the traveler says sorry to get someone's attention",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -38686,17 +38970,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
-        "sentence": "Risa cannot find the right exit.",
-        "contextMeaning": "Here, \"exit\" means exit B is best for the museum",
-        "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "the traveler cannot find the right exit.",
@@ -38717,17 +38993,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
-        "sentence": "There are many exits: Exit A, Exit B, and Exit C.",
-        "contextMeaning": "Here, \"exits\" means exit B is best for the museum",
-        "source": "popup_support_router/authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "There are many exits: Exit A, Exit B, and Exit C.",
@@ -43164,7 +43432,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -43390,6 +43659,13 @@
         "contextMeaning": "Here, \"first\" means at the start, the music sounds hard to understand",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"first\" means the very first lesson about transport the traveler had",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -43575,6 +43851,29 @@
         "sentence": "Today you will hear next to, fitting room, cash, and card is not working.",
         "contextMeaning": "Here, \"fitting\" means this word means a place where you try on clothes to see if",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "five": {
+    "word": "five",
+    "definition": "The number after four and before six",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The museum is about five minutes away.",
+        "contextMeaning": "Here, \"five\" means the museum is about five minutes from here",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -44992,13 +45291,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-08-gap-selling-sales-logic-explainer",
         "sentence": "Fourth, ask what causes it.",
         "contextMeaning": "Here, \"fourth\" means the step number four in a list of actions",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "It is the fourth stop.",
+        "contextMeaning": "Here, \"fourth\" means it is the stop number four",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -46192,7 +46499,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -46200,6 +46508,13 @@
         "sentence": "It says \"Gate B12.\" She goes to the help desk and asks, \"Excuse me.",
         "contextMeaning": "Here, \"gate\" means gate B12 is where Maya's flight leaves",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her card does not work at the gate.",
+        "contextMeaning": "Here, \"gate\" means the place where the card should work to enter",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -46663,7 +46978,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -46671,6 +46987,13 @@
         "sentence": "Copilot is a chatbot, which means users can type questions and get answers in everyday language.",
         "contextMeaning": "Here, \"get\" means people receive information back from the program",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What do you check before you get on a train or bus?",
+        "contextMeaning": "Here, \"get\" means to go on a train or bus",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -46724,7 +47047,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -46732,6 +47056,13 @@
         "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
         "contextMeaning": "Here, \"gets\" means the person who receives a job from AI",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The driver is busy, so the traveler asks one clear question before she gets on.",
+        "contextMeaning": "Here, \"gets\" means before she goes onto the bus",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -47241,7 +47572,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -47249,6 +47581,13 @@
         "sentence": "He opens a box of silk and tea and asks, “Where will this go?” That simple question opens a much bigger story.",
         "contextMeaning": "Here, \"go\" means it asks about the direction of travel",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She wants to go to Riverside Museum.",
+        "contextMeaning": "Here, \"go\" means she wants to move to the museum",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -47283,7 +47622,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -47317,6 +47657,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "The goal is not to understand everything.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The goal is to stay calm and ask one short question again.",
         "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -47440,6 +47787,29 @@
       }
     ]
   },
+  "goes": {
+    "word": "goes",
+    "definition": "Moves from one place to another",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler goes to the ticket gate.",
+        "contextMeaning": "Here, \"goes\" means the traveler moves to the place where tickets are checked",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "going": {
     "word": "going",
     "definition": "Keep moving or continue doing something",
@@ -47529,6 +47899,29 @@
         "episodeId": "episode-2026-05-21-weekly-catch-up-conversation-a2",
         "sentence": ": Did you practise golf recently?",
         "contextMeaning": "Here, \"golf\" means playing the game with a ball and stick",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "good": {
+    "word": "good",
+    "definition": "Nice or okay, not bad",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Good travel English is not perfect English.",
+        "contextMeaning": "Here, \"good\" means english for travel is okay, not perfect",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -48466,7 +48859,8 @@
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -48487,6 +48881,13 @@
         "episodeId": "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
         "sentence": "You can almost guess that something careful is waiting inside.",
         "contextMeaning": "Here, \"guess\" means you try to know what is inside without proof",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler does not guess.",
+        "contextMeaning": "Here, \"guess\" means the traveler does not say answers without knowing",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -49183,7 +49584,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -49260,6 +49662,13 @@
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "This can happen even when those options are useful or important.",
         "contextMeaning": "Here, \"happen\" means this can occur even if options are good",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "This time, the transport is still simple, but small problems happen.",
+        "contextMeaning": "Here, \"happen\" means small problems come or occur during travel",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -49537,7 +49946,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -49545,6 +49955,13 @@
         "sentence": "You open a website or an app and hope technology can do the hard work.",
         "contextMeaning": "Here, \"hard\" means difficult or strong work that needs effort",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler uses short sentences, repeats important words, and shows her phone when speaking is hard.",
+        "contextMeaning": "Here, \"hard\" means speaking is difficult for the traveler sometimes",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -56288,7 +56705,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -56470,6 +56888,13 @@
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Introduction Many people think that menus, apps, and websites simply show information.",
         "contextMeaning": "Here, \"introduction\" means the first part that tells what is coming",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Introduction This lesson continues the earlier transport practice.",
+        "contextMeaning": "Here, \"introduction\" means the first part that begins the traveler’s practice lesson",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -60883,7 +61308,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -60918,6 +61344,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "When people hear the words classical music, they often imagine an orchestra, a concert hall, or music written by famous composers like Mozart or Beethoven.",
         "contextMeaning": "Here, \"like\" means means to think about famous music people",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Traveler: Like this?",
+        "contextMeaning": "Here, \"like\" means the traveler asks if this way is correct",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -61144,7 +61577,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-transportation-risa-docx-trial"
+      "episode-2026-05-14-transportation-risa-docx-trial",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -61152,6 +61586,13 @@
         "sentence": "Station Staff: Take the Blue Line toward Central Station.",
         "contextMeaning": "Here, \"line\" means train or metro route, often by color",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"line\" means the traveler asked which bus or train path to take",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -61171,7 +61612,8 @@
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -61207,6 +61649,13 @@
         "sentence": "The main lines are short and clear.",
         "contextMeaning": "Here, \"lines\" means workplace phrases for the host",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "First use the traveler's lines.",
+        "contextMeaning": "Here, \"lines\" means the words the traveler says in the practice conversation",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -62549,7 +62998,8 @@
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -62640,6 +63090,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "A person may build an app that looks good, but they may not understand what is happening inside.",
         "contextMeaning": "Here, \"looks\" means how the app appears or seems outside",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler watches the screen on the bus, but she looks at her phone for a moment.",
+        "contextMeaning": "Here, \"looks\" means the traveler uses her eyes to see her phone for a short time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -63577,7 +64034,6 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
@@ -63726,7 +64182,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -63747,6 +64204,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It may not tell you the meaning with words, but it can make you feel a story.",
         "contextMeaning": "Here, \"make\" means help you feel a story without words",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Ask again, check the exit or stop, ask for card help, and make a calm backup plan.",
+        "contextMeaning": "Here, \"make\" means create a calm plan to help if problems happen",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -63965,7 +64429,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -64000,6 +64465,13 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "The same ecosystem is making synthetic media easier to produce and trying to make it easier to identify.",
         "contextMeaning": "Here, \"making\" means helping to create and find fake media",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her best tools are short questions, repeating the answer, showing her phone, and making one backup plan.",
+        "contextMeaning": "Here, \"making\" means to create one extra plan to help if needed",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -64435,7 +64907,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -64766,6 +65239,13 @@
         "contextMeaning": "Here, \"many\" means a large number of music pieces",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "There are many exits: Exit A, Exit B, and Exit C.",
+        "contextMeaning": "Here, \"many\" means there are a lot of different exits to choose from",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -64780,12 +65260,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "Ken turns off Wi-Fi and opens a map.",
+        "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her map says the museum is near Exit B.",
         "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67602,6 +68090,29 @@
       }
     ]
   },
+  "miss": {
+    "word": "miss",
+    "definition": "Not get or see something you want",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What can you do if you miss your stop?",
+        "contextMeaning": "Here, \"miss\" means not get off the bus or train at the right place",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "miss a train": {
     "word": "miss a train",
     "definition": "Arrive too late for the train",
@@ -67628,13 +68139,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
         "sentence": "A missed date or lost document can cause serious problems.",
         "contextMeaning": "Here, \"missed\" means did not remember or go to a date or time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Missed stop: Traveler: Excuse me.",
+        "contextMeaning": "Here, \"missed\" means she did not get off at the right stop",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -67651,7 +68170,6 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
@@ -67667,13 +68185,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-a1-train-station-platform-help",
         "sentence": "She also asks what to do if she misses the train.",
         "contextMeaning": "Here, \"misses\" means she does not get the train before it leaves",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She misses one stop.",
+        "contextMeaning": "Here, \"misses\" means she does not get off at one stop",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -67694,7 +68220,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -67729,6 +68256,13 @@
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "Use the Australia trip and the research reports to discuss whether a Japanese kawara and cafe company could realistically test a Brisbane or Gold Coast branch, what collaboration model might work, and what information is still missing.",
         "contextMeaning": "Here, \"missing\" means information that they do not have now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "5: What should the traveler do after missing the stop?",
+        "contextMeaning": "Here, \"missing\" means not stopping at the right place on the bus or train",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -68248,6 +68782,7 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
@@ -68282,6 +68817,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Pop music is often connected to the present moment.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Answer Starters: the traveler watches the screen on the bus, but she looks at her phone for a moment.",
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -69162,7 +69704,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -69337,6 +69880,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Johann Sebastian Bach is one of the most important composers in Western music history.",
         "contextMeaning": "Here, \"most\" means one of the very important people in music history",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "FINAL SPEAKING: Which problem is most stressful for you: platform change, wrong exit, card problem, bus stop, or rain?",
+        "contextMeaning": "Here, \"most\" means which problem is the biggest or hardest for you",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -69968,7 +70518,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -69983,6 +70534,13 @@
         "sentence": "It is about a new museum.",
         "contextMeaning": "Here, \"museum\" means a building where people look at art and history",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She wants to go to Riverside Museum.",
+        "contextMeaning": "Here, \"museum\" means a place where people see history or art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -70283,7 +70841,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -70291,6 +70850,13 @@
         "sentence": "You would name a city, and the system would search for flights, hotels, and activities.",
         "contextMeaning": "Here, \"name\" means say the city you want to visit",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "STARTERS 4: I should ask, \"Does this bus go to...?\" | I should check the stop name.",
+        "contextMeaning": "Here, \"name\" means look at the word for the bus stop",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -70730,7 +71296,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -70773,6 +71340,13 @@
         "sentence": "They buzz near your ears.",
         "contextMeaning": "Here, \"near\" means close to your ears",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her map says the museum is near Exit B.",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -70858,6 +71432,29 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "They say big resources were necessary to build advanced AI safely and responsibly.",
         "contextMeaning": "Here, \"necessary\" means big things were must-have to make safe AI",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "need": {
+    "word": "need",
+    "definition": "Have to have or do something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Do I need to add money?",
+        "contextMeaning": "Here, \"need\" means ask if it is necessary to add more money",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -70954,7 +71551,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -71089,6 +71687,13 @@
         "contextMeaning": "Here, \"needs\" means theseus must have Ariadne's thread to leave safely",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "1: She needs Platform 5.",
+        "contextMeaning": "Here, \"needs\" means she must have Platform 5 to go where she wants",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -71208,7 +71813,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-21-a2-report-a-lost-item"
+      "episode-2026-05-21-a2-report-a-lost-item",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -71250,6 +71856,13 @@
         "episodeId": "episode-2026-05-21-a2-report-a-lost-item",
         "sentence": "When you lose something, you may feel nervous.",
         "contextMeaning": "Here, \"nervous\" means feeling worried when you lose something",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Warm-up: Do you feel nervous at a busy station?",
+        "contextMeaning": "Here, \"nervous\" means feeling scared or worried at a crowded place",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71519,6 +72132,29 @@
       }
     ]
   },
+  "next": {
+    "word": "next",
+    "definition": "The one after this one in order",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler arrives at the next station.",
+        "contextMeaning": "Here, \"next\" means the traveler arrives at the station after this one",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "next train": {
     "word": "next train",
     "definition": "The train after this one",
@@ -71615,6 +72251,29 @@
         "episodeId": "episode-2026-05-21-a2-work-schedule-change",
         "sentence": "Third, ask one next-step question.",
         "contextMeaning": "Here, \"next-step\" means ask one question about what to do next",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "nice": {
+    "word": "nice",
+    "definition": "Good and happy feeling or thing",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Have a nice visit.",
+        "contextMeaning": "Here, \"nice\" means wishing someone a good and happy visit",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -73342,7 +74001,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -73547,6 +74207,13 @@
         "contextMeaning": "Here, \"often\" means means many people think of these things with classical music",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Transport problems often feel big, but the English can stay small.",
+        "contextMeaning": "Here, \"often\" means problems happen many times, but English can be easy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -73584,7 +74251,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous"
+      "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -73592,6 +74260,13 @@
         "sentence": "And if art feels new to you, that is okay too.",
         "contextMeaning": "Here, \"okay\" means it is fine or good if you don’t know art",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Now it is okay.",
+        "contextMeaning": "Here, \"okay\" means now everything is good or fine",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -73882,7 +74557,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -73931,6 +74607,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "One reason classical music feels powerful is the orchestra.",
         "contextMeaning": "Here, \"one\" means a single reason why classical music feels strong",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She misses one stop.",
+        "contextMeaning": "Here, \"one\" means she misses a single stop on her trip",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -75493,7 +76176,8 @@
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -75578,6 +76262,13 @@
         "sentence": "You want to sit outside.",
         "contextMeaning": "Here, \"outside\" means you want to be in the open air, not inside",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She asks before she walks outside.",
+        "contextMeaning": "Here, \"outside\" means she goes out of the building",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -76384,13 +77075,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "If there is a problem, the worker does not panic.",
         "contextMeaning": "Here, \"panic\" means the worker does not feel scared or worried when there is a problem",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She does not panic.",
+        "contextMeaning": "Here, \"panic\" means she does not feel scared or worried",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -76670,7 +77369,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -76678,6 +77378,13 @@
         "sentence": "A region is one part of a country, like a state or an area.",
         "contextMeaning": "Here, \"part\" means a piece or section of a larger place",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Warm-Up Questions Part 1: Check the Platform Again Platform change Role-play Part 2: Ask About the Right Exit Exit check Role-play Part 3: Fix a Card Problem Card trouble Role-play Part 4: Check the Bus Before Boarding Bus check Role-play Part 5: Miss One Stop Missed stop Role-play Part 6: Make a Calm Backup Plan Backup plan Role-play Final Reflection Transport problems often feel big, but the English can stay small.",
+        "contextMeaning": "Here, \"part\" means a small section or step in the questions and practice",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -77014,13 +77721,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
         "sentence": "People laugh, and then the moment passes.",
         "contextMeaning": "Here, \"passes\" means the funny moment goes away after people laugh",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The bus passes River Bridge.",
+        "contextMeaning": "Here, \"passes\" means the bus goes by River Bridge",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -77474,6 +78189,29 @@
         "sentence": "Their paws are not only for walking.",
         "contextMeaning": "Here, \"paws\" means the cat's feet used for exploring and touching things",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "pay": {
+    "word": "pay",
+    "definition": "Give money for something you want",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Traveler: Can I pay by card?",
+        "contextMeaning": "Here, \"pay\" means the traveler asks if she can give money using a card",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -78154,7 +78892,8 @@
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -78174,6 +78913,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "His music can feel like a perfect conversation: graceful, intelligent, emotional, but never too much.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Good travel English is not perfect English.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -79714,12 +80460,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-international-transport-get-to-the-right-place",
         "sentence": "She uses a taxi, a plane, a train, and a bus.",
+        "contextMeaning": "Here, \"plane\" means a vehicle that flies in the sky",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "platform - the place where you get on a train exit - the door or way out of a station ticket gate - the gate you pass before or after a train tap - touch a card on a reader add money - put more money on a card boarding - getting on a bus, train, or plane missed my stop - went past the place to get off main street - the large safe street taxi stand - a place where taxis wait backup plan - another safe plan across from - on the other side of the street",
         "contextMeaning": "Here, \"plane\" means a vehicle that flies in the sky",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -79959,7 +80713,6 @@
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -79975,13 +80728,6 @@
         "sentence": "Risa: Which platform should I go to?",
         "contextMeaning": "Here, \"platform\" means place where you wait for a train",
         "source": "authored_final_review",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
-        "sentence": "In the first transport lesson, Risa asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
-        "contextMeaning": "Here, \"platform\" means risa needs Platform 5 after the change",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       },
       {
@@ -80165,7 +80911,8 @@
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a2-bank-card-problem",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -80214,6 +80961,13 @@
         "episodeId": "episode-2026-05-21-a2-restaurant-fix-wrong-order",
         "sentence": "I need a new dish, please.\" This answer is important.",
         "contextMeaning": "Here, \"please\" means he uses a kind word to ask for a new dish",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Please go to Platform 5.",
+        "contextMeaning": "Here, \"please\" means a polite way to tell someone to go to Platform 5",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -85479,6 +86233,52 @@
       }
     ]
   },
+  "rain": {
+    "word": "rain",
+    "definition": "Water falling from the sky",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler is close to the museum, but rain starts.",
+        "contextMeaning": "Here, \"rain\" means water starts falling from the sky",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "raining": {
+    "word": "raining",
+    "definition": "Water is falling from the sky now",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Traveler: It is raining.",
+        "contextMeaning": "Here, \"raining\" means water is falling from the sky now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "raised": {
     "word": "raised",
     "definition": "Lifted up higher than the ground",
@@ -89106,7 +89906,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -89120,6 +89921,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Many pop songs are built around a singer, lyrics, and a repeating chorus.",
         "contextMeaning": "Here, \"repeating\" means the chorus happens many times in the song",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her best tools are short questions, repeating the answer, showing her phone, and making one backup plan.",
+        "contextMeaning": "Here, \"repeating\" means saying the answer again to help others understand",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89141,7 +89949,8 @@
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-05-21-a2-report-a-lost-item"
+      "episode-2026-05-21-a2-report-a-lost-item",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -89183,6 +89992,13 @@
         "episodeId": "episode-2026-05-21-a2-report-a-lost-item",
         "sentence": "Maya asks, \"Should I call tomorrow?\" The worker says, \"Yes, you can call after ten, or we will email you if it arrives here.\" Maya repeats the plan: \"Call after ten tomorrow, or wait for an email.\" The worker says, \"That is right.\" Now Maya knows what to do next.",
         "contextMeaning": "Here, \"repeats\" means maya says the plan again to be sure",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler uses short sentences, repeats important words, and shows her phone when speaking is hard.",
+        "contextMeaning": "Here, \"repeats\" means the traveler says important words one more time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -91266,7 +92082,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-21-a1-hotel-check-in",
       "episode-2026-05-21-a2-report-a-lost-item",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -91420,6 +92237,13 @@
         "episodeId": "episode-2026-05-21-a2-restaurant-fix-wrong-order",
         "sentence": "Daniel explains the reason and asks for the right solution.",
         "contextMeaning": "Here, \"right\" means the correct answer or way to fix the problem",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"right\" means the correct bus or train line to take",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -91634,6 +92458,29 @@
       }
     ]
   },
+  "river": {
+    "word": "river",
+    "definition": "A long line of moving water",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Get off at River Bridge.",
+        "contextMeaning": "Here, \"river\" means a long line of moving water",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "road": {
     "word": "road",
     "definition": "A path for cars or people to walk on",
@@ -91829,6 +92676,29 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Each group has a different sound and role.",
         "contextMeaning": "Here, \"role\" means the special job each group has in music",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "role-play": {
+    "word": "role-play",
+    "definition": "Pretend to act like in real life",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "FINAL SPEAKING: Practice a role-play with a teacher.",
+        "contextMeaning": "Here, \"role-play\" means practice talking and acting with a teacher like real situations",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -93031,7 +93901,6 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special"
@@ -93075,13 +93944,6 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "The goal is to make the customer feel welcome and safe.",
-        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
-        "source": "popup_support_router/producer_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
-        "sentence": "Is it safe to walk?",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -93912,13 +94774,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Some people say Bach's music feels like architecture.",
         "contextMeaning": "Here, \"say\" means people tell others their idea about Bach's music",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What can you say when you are not sure?",
+        "contextMeaning": "Here, \"say\" means what words you can use when not sure",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -93991,7 +94861,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -94006,6 +94877,13 @@
         "sentence": "Microsoft says Edge can now help.",
         "contextMeaning": "Here, \"says\" means tells or states information",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her phone says Platform 3, but the screen at the station says Platform 5.",
+        "contextMeaning": "Here, \"says\" means her phone shows Platform 3 on its screen",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -95425,7 +96303,8 @@
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -95495,6 +96374,13 @@
         "episodeId": "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
         "sentence": "He sees the top.",
         "contextMeaning": "Here, \"sees\" means he looks and notices the top",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Outside the station, the traveler sees two buses.",
+        "contextMeaning": "Here, \"sees\" means the traveler looks at two buses outside the station",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -97998,7 +98884,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -98012,6 +98899,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Some artists show their effort very clearly.",
         "contextMeaning": "Here, \"show\" means some artists make their hard work easy to see",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "STARTERS 1: I can ask, \"Which platform?\" | I can show my phone and ask, \"Is this correct?\" QUESTION 2: Which exit should the traveler use?",
+        "contextMeaning": "Here, \"show\" means put the phone so others can see and ask a question",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -98100,7 +98994,8 @@
     "episodes": [
       "episode-2026-04-29-how-animation-creates-movement-why-drawings-seem-alive",
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2"
+      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -98121,6 +99016,13 @@
         "episodeId": "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
         "sentence": "It is showing joy and tension together.",
         "contextMeaning": "Here, \"showing\" means making others see both happy and nervous feelings",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her best tools are short questions, repeating the answer, showing her phone, and making one backup plan.",
+        "contextMeaning": "Here, \"showing\" means letting others look at her phone to help",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -98217,7 +99119,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "2026-05-18-beginner-grammar-ladder-first-check",
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -98357,6 +99260,13 @@
         "episodeId": "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
         "sentence": "Mina's morning is ordinary, but it shows several useful habits.",
         "contextMeaning": "Here, \"shows\" means mina's morning lets us see good habits",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler uses short sentences, repeats important words, and shows her phone when speaking is hard.",
+        "contextMeaning": "Here, \"shows\" means the traveler lets others see her phone to help talk",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -100014,12 +100924,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "The water is slowly leaking onto the floor.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Station Staff: Please tap it again slowly.",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -102468,7 +103386,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -102673,6 +103592,13 @@
         "contextMeaning": "Here, \"speaking\" means the task where you talk about heroes",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler uses short sentences, repeats important words, and shows her phone when speaking is hard.",
+        "contextMeaning": "Here, \"speaking\" means when the traveler talks to others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -102688,7 +103614,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -102701,6 +103628,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is like a person who speaks beautifully without needing to show off.",
+        "contextMeaning": "Here, \"speaks\" means to say words out loud",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "A bus driver speaks quickly.",
         "contextMeaning": "Here, \"speaks\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -103567,7 +104501,8 @@
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -103602,6 +104537,13 @@
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "The company needs observations about rent, customer flow, menu prices, staff, and reactions to Japanese craft.",
         "contextMeaning": "Here, \"staff\" means workers in the company who help customers",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Station Staff: It changed.",
+        "contextMeaning": "Here, \"staff\" means people who work at the station and help passengers",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -103700,6 +104642,29 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Final Comprehension What are the main stages in the history of gelato?",
         "contextMeaning": "Here, \"stages\" means important parts in the history of gelato",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "stairs": {
+    "word": "stairs",
+    "definition": "Steps to go up or down",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Go up the stairs and turn left.",
+        "contextMeaning": "Here, \"stairs\" means steps inside to go higher or lower",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -104907,7 +105872,8 @@
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -104956,6 +105922,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "An AI agent can take a goal and work through several steps.",
         "contextMeaning": "Here, \"steps\" means parts or moves done one after another to finish a goal",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She feels worried, but she steps to the side and asks for help.",
+        "contextMeaning": "Here, \"steps\" means she moves a little to the side",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -105069,7 +106042,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -105330,6 +106304,13 @@
         "contextMeaning": "Here, \"still\" means classical music is important even now, today",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "This time, the transport is still simple, but small problems happen.",
+        "contextMeaning": "Here, \"still\" means the travel is easy now, like before",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -105490,7 +106471,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -105498,6 +106480,13 @@
         "sentence": "Then you stop and think, which one was the best choice?",
         "contextMeaning": "Here, \"stop\" means to pause or end an action you are doing",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Ask again, check the exit or stop, ask for card help, and make a calm backup plan.",
+        "contextMeaning": "Here, \"stop\" means the place where you get off the bus or train",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -106095,7 +107084,8 @@
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -106137,6 +107127,13 @@
         "episodeId": "episode-2026-05-21-a1-train-station-platform-help",
         "sentence": "Go straight and turn left.\" Hana says, \"Thank you.\" She now has the platform and the direction.",
         "contextMeaning": "Here, \"straight\" means go forward before turning left",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Walk straight for five minutes.",
+        "contextMeaning": "Here, \"straight\" means go forward for five minutes without turning",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -106563,7 +107560,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
-      "episode-2026-05-21-a2-bank-card-problem"
+      "episode-2026-05-21-a2-bank-card-problem",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -106591,6 +107589,13 @@
         "episodeId": "episode-2026-05-21-a2-bank-card-problem",
         "sentence": "Bank and card problems can feel stressful.",
         "contextMeaning": "Here, \"stressful\" means bank and card problems can make you feel worried",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "FINAL SPEAKING: Which problem is most stressful for you: platform change, wrong exit, card problem, bus stop, or rain?",
+        "contextMeaning": "Here, \"stressful\" means the problem that makes you feel most worried or upset",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -108382,6 +109387,29 @@
       }
     ]
   },
+  "sure": {
+    "word": "sure",
+    "definition": "Feeling certain or knowing something well",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What can you say when you are not sure?",
+        "contextMeaning": "Here, \"sure\" means not feeling certain about something",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "surface": {
     "word": "surface",
     "definition": "The outside or top part",
@@ -109709,6 +110737,29 @@
       }
     ]
   },
+  "take": {
+    "word": "take",
+    "definition": "To get or use something, like a bus or train",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Take the train in ten minutes.",
+        "contextMeaning": "Here, \"take\" means get on the train that comes in ten minutes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "taken": {
     "word": "taken",
     "definition": "Carried away to another place by someone or something",
@@ -110075,7 +111126,6 @@
     "episodes": [
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -110091,13 +111141,6 @@
         "sentence": "There is no need to tap a screen.",
         "contextMeaning": "Here, \"tap\" means no need to touch the screen to write",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
-        "sentence": "Station Staff: Please tap it again slowly.",
-        "contextMeaning": "Here, \"tap\" means risa taps her card slowly",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       },
       {
@@ -110168,7 +111211,6 @@
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -110184,13 +111226,6 @@
         "sentence": "The worker says, \"That is six fifty.\" Leo asks, \"Can I pay by card?\" The worker says, \"Yes.\" Leo taps his card.",
         "contextMeaning": "Here, \"taps\" means leo touches his card to pay money",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
-        "sentence": "She taps her card, but the gate does not open.",
-        "contextMeaning": "Here, \"taps\" means risa taps her card slowly",
-        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       },
       {
@@ -110515,13 +111550,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
         "sentence": "Door 9 is near the taxi area.",
         "contextMeaning": "Here, \"taxi\" means a place where you find cars to ride in",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She can walk, take a taxi, or wait in a cafe.",
+        "contextMeaning": "Here, \"taxi\" means a car you pay to go somewhere",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -110538,7 +111581,6 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
@@ -111332,13 +112374,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Imagine a menu with ten choices.",
         "contextMeaning": "Here, \"ten\" means a menu with 10 different choices",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Take the train in ten minutes.",
+        "contextMeaning": "Here, \"ten\" means the train comes after ten minutes",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -111870,7 +112920,8 @@
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -111947,6 +112998,13 @@
         "episodeId": "episode-2026-05-21-a2-restaurant-fix-wrong-order",
         "sentence": "I will ask the kitchen to make it again.\" Daniel says, \"Thank you.",
         "contextMeaning": "Here, \"thank\" means daniel says nice words to show he is happy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Traveler: Thank you.",
+        "contextMeaning": "Here, \"thank\" means the traveler says nice words to show she is happy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -113558,6 +114616,7 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
@@ -113590,6 +114649,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"ticket\" means a paper or digital pass for travel or entry",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Have you ever kept a ticket, photo, keychain, or small gift because of a memory?",
         "contextMeaning": "Here, \"ticket\" means a paper or digital pass for travel or entry",
@@ -113609,7 +114675,6 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
@@ -114654,6 +115719,29 @@
       }
     ]
   },
+  "took": {
+    "word": "took",
+    "definition": "Got on or used something to move",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"took\" means the traveler got on a bus to travel",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "tool": {
     "word": "tool",
     "definition": "Something you use to help do work",
@@ -115563,7 +116651,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -115590,6 +116679,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "My train leaves soon.",
+        "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What do you check before you get on a train or bus?",
         "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -116194,6 +117290,29 @@
       }
     ]
   },
+  "transport": {
+    "word": "transport",
+    "definition": "How people go from one place to another",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Use simple English when transport changes.",
+        "contextMeaning": "Here, \"transport\" means how people move when the way to go changes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "transportation": {
     "word": "transportation",
     "definition": "Ways to go from one place to another",
@@ -116279,7 +117398,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -116322,6 +117442,13 @@
         "sentence": "Today’s story starts with a travel dream many people know well.",
         "contextMeaning": "Here, \"travel\" means going to other places in the story's dream",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Good travel English is not perfect English.",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -116890,7 +118017,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -116925,6 +118053,13 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "I have trouble getting inside.",
         "contextMeaning": "Here, \"trouble\" means i have a problem going inside",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Card trouble: Traveler: Excuse me.",
+        "contextMeaning": "Here, \"trouble\" means there is a problem with the card",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -117314,6 +118449,29 @@
       }
     ]
   },
+  "turn": {
+    "word": "turn",
+    "definition": "Change direction to go another way",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Go up the stairs and turn left.",
+        "contextMeaning": "Here, \"turn\" means change your way to go left after the stairs",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "turn left": {
     "word": "turn left",
     "definition": "Move to the left side",
@@ -117528,7 +118686,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -117543,6 +118702,13 @@
         "sentence": "At the event, Honda showed two early hybrid models.",
         "contextMeaning": "Here, \"two\" means the number 2",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Outside the station, the traveler sees two buses.",
+        "contextMeaning": "Here, \"two\" means there are 2 buses that the traveler looks at",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -118999,6 +120165,7 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
@@ -119110,6 +120277,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The story is playful, but the language is useful for real life.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "It is useful English.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -119257,6 +120431,29 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "Instead of typing a few keywords, users will be able to bring text, images, files, videos, and even Chrome tabs into the query.",
         "contextMeaning": "Here, \"users\" means people who use Google Search to find information",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "uses": {
+    "word": "uses",
+    "definition": "Does something to help or work",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler uses short sentences, repeats important words, and shows her phone when speaking is hard.",
+        "contextMeaning": "Here, \"uses\" means the traveler does short sentences to help her speak",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -120651,7 +121848,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -120792,6 +121990,13 @@
         "sentence": "Visit ovi english dot com for the transcript and practice.",
         "contextMeaning": "Here, \"visit\" means go to the website ovi english dot com to get help",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Have a nice visit.",
+        "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -121278,6 +122483,29 @@
       }
     ]
   },
+  "walk": {
+    "word": "walk",
+    "definition": "To move using your feet",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Walk back for five minutes.",
+        "contextMeaning": "Here, \"walk\" means move back by feet for five minutes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "walking": {
     "word": "walking",
     "definition": "Moving your legs to go somewhere",
@@ -121342,7 +122570,8 @@
       "episode-2026-05-21-a1-hotel-check-in",
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -121390,6 +122619,13 @@
       {
         "episodeId": "episode-2026-05-21-a1-train-station-platform-help",
         "sentence": "Thank you.\" She has eight minutes, so she walks quickly but carefully.",
+        "contextMeaning": "Here, \"walks\" means she moves by feet to go somewhere",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She asks before she walks outside.",
         "contextMeaning": "Here, \"walks\" means she moves by feet to go somewhere",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -124743,7 +125979,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -124805,6 +126042,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "This lesson is for a snack bar worker or host.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She asks a station worker.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -124897,7 +126141,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -124939,6 +126184,13 @@
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "My heater is not working.",
         "contextMeaning": "Here, \"working\" means the heater is not doing its job",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "My card is not working.",
+        "contextMeaning": "Here, \"working\" means the card does not do its job",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -125237,7 +126489,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-21-a2-apartment-repair-call",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -125279,6 +126532,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "When a child gets an internship offer, a parent may feel proud and worried at the same time.",
         "contextMeaning": "Here, \"worried\" means a parent feels nervous when their child gets an internship",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She feels worried, but she steps to the side and asks for help.",
+        "contextMeaning": "Here, \"worried\" means she feels scared but still asks for help",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -125686,7 +126946,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -125742,6 +127003,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "If a chatbot gives a wrong answer, the mistake usually stays in the chat.",
         "contextMeaning": "Here, \"wrong\" means an answer that is not correct",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "FINAL SPEAKING: Which problem is most stressful for you: platform change, wrong exit, card problem, bus stop, or rain?",
+        "contextMeaning": "Here, \"wrong\" means the exit that is not the right one to use",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -126155,13 +127423,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
         "sentence": "B: You're welcome.",
         "contextMeaning": "Here, \"you're\" means you are welcome, a polite answer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Station Staff: You're welcome.",
+        "contextMeaning": "Here, \"you're\" means the staff says 'you are welcome' to be polite",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
