@@ -594,7 +594,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
   },
@@ -1062,7 +1063,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
   },
@@ -7453,7 +7455,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
   },
@@ -13868,7 +13871,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -13937,6 +13941,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Is it easy or difficult to stay calm when you are worried?",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The goal is to stay calm and ask one short question again.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -38675,12 +38686,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
         "sentence": "Risa cannot find the right exit.",
+        "contextMeaning": "Here, \"exit\" means exit B is best for the museum",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "the traveler cannot find the right exit.",
         "contextMeaning": "Here, \"exit\" means exit B is best for the museum",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -38698,11 +38717,19 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
+        "sentence": "There are many exits: Exit A, Exit B, and Exit C.",
+        "contextMeaning": "Here, \"exits\" means exit B is best for the museum",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "There are many exits: Exit A, Exit B, and Exit C.",
         "contextMeaning": "Here, \"exits\" means exit B is best for the museum",
         "source": "popup_support_router/authored_reading_vocabulary",
@@ -63550,7 +63577,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
   },
@@ -67623,7 +67651,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
   },
@@ -79930,7 +79959,8 @@
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -79951,6 +79981,13 @@
         "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
         "sentence": "In the first transport lesson, Risa asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
         "contextMeaning": "Here, \"platform\" means risa needs Platform 5 after the change",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "In the first transport lesson, the traveler asked for the right line, bought a ticket, checked the platform, took a bus, and asked for directions.",
+        "contextMeaning": "Here, \"platform\" means the traveler needs Platform 5 after the change",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -92996,6 +93033,7 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-risa-transport-backup-plan",
       "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
@@ -93051,6 +93089,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The cake is there, safe and cold.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Is it safe to walk?",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -94600,7 +94645,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -94620,6 +94666,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Items near the top, in the center, or on the first screen are often easier to see.",
+        "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her phone says Platform 3, but the screen at the station says Platform 5.",
         "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -104365,7 +104418,8 @@
     "episodes": [
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -104378,6 +104432,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "I am at a station.",
+        "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Do you feel nervous at a busy station?",
         "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -110014,7 +110075,8 @@
     "episodes": [
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -110035,6 +110097,13 @@
         "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
         "sentence": "Station Staff: Please tap it again slowly.",
         "contextMeaning": "Here, \"tap\" means risa taps her card slowly",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Station Staff: Please tap it again slowly.",
+        "contextMeaning": "Here, \"tap\" means the traveler taps her card slowly",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -110099,7 +110168,8 @@
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -110120,6 +110190,13 @@
         "episodeId": "episode-2026-06-03-risa-transport-backup-plan",
         "sentence": "She taps her card, but the gate does not open.",
         "contextMeaning": "Here, \"taps\" means risa taps her card slowly",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "She taps her card, but the gate does not open.",
+        "contextMeaning": "Here, \"taps\" means the traveler taps her card slowly",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -110461,7 +110538,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
   },
@@ -113531,7 +113609,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-risa-transport-backup-plan"
+      "episode-2026-06-03-risa-transport-backup-plan",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": []
   },
@@ -114677,7 +114756,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -114769,6 +114849,13 @@
         "sentence": "People talked about faster tools, smarter software, and new business chances.",
         "contextMeaning": "Here, \"tools\" means things used to help work or make something",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Her best tools are short questions, repeating the answer, showing her phone, and making one backup plan.",
+        "contextMeaning": "Here, \"tools\" means things that help you do something",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
