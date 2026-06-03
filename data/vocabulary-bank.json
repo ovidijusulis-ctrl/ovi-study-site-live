@@ -4176,6 +4176,29 @@
       }
     ]
   },
+  "apologize": {
+    "word": "apologize",
+    "definition": "To say sorry",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-surprise-cake-mystery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Leo: Maybe my face should apologize to your face.",
+        "contextMeaning": "Here, \"apologize\" means mina and Leo apologize to each other",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "app": {
     "word": "app",
     "definition": "A small program on your phone or computer",
@@ -10711,9 +10734,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "After the party, they make one new rule for future surprises: check the fridge, check the note, and check your feelings before you blame your friend.",
+        "contextMeaning": "Here, \"blame\" means mina almost blames Leo",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "blind": {
     "word": "blind",
@@ -13484,7 +13516,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -13546,6 +13579,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It creates a calm and refined atmosphere.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Is it easy or difficult to stay calm when you are worried?",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -19213,6 +19253,29 @@
     ],
     "contexts": []
   },
+  "clue": {
+    "word": "clue",
+    "definition": "A small piece of information",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-surprise-cake-mystery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Mina sees another clue: a note on the table.",
+        "contextMeaning": "Here, \"clue\" means the ribbon and note help them find the cake",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "clues": {
     "word": "clues",
     "definition": "Small things that help find or understand",
@@ -20518,7 +20581,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -20540,6 +20604,13 @@
         "sentence": "A safe customer visit depends on training, scheduling, tools, records, communication, and emergency rules.",
         "contextMeaning": "Here, \"communication\" means sharing information during a customer visit to keep it safe",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "The real problem was communication.",
+        "contextMeaning": "Here, \"communication\" means the real problem was communication",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -26928,12 +26999,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "She decides to contact the apartment repair office.",
+        "contextMeaning": "Here, \"decides\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "She decides not to continue the argument.",
         "contextMeaning": "Here, \"decides\" means to make a choice",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -27417,6 +27496,29 @@
         "sentence": "How would school change if students could use AI agents, but had to explain and defend their final work?",
         "contextMeaning": "Here, \"defend\" means explain and give reasons for your work",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "defensive": {
+    "word": "defensive",
+    "definition": "Acting like you need to protect yourself",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-surprise-cake-mystery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "I got defensive.",
+        "contextMeaning": "Here, \"defensive\" means leo feels defensive when Mina questions him",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -33888,6 +33990,29 @@
         "sentence": "If an agent can send emails, edit files, publish content, buy products, or change code, one mistake can become real damage.",
         "contextMeaning": "Here, \"emails\" means messages an agent can send to people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "embarrassed": {
+    "word": "embarrassed",
+    "definition": "Feeling bad because of a mistake",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-surprise-cake-mystery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Mina and Leo both feel embarrassed.",
+        "contextMeaning": "Here, \"embarrassed\" means both students feel embarrassed after arguing",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -44042,9 +44167,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Mina: Did you put it in the fridge?",
+        "contextMeaning": "Here, \"fridge\" means the cake should be in the fridge",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "fried": {
     "word": "fried",
@@ -50141,7 +50275,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -50161,6 +50296,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "You can be honest and professional with short English.",
+        "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Honest apology: Mina: I am sorry I got angry.",
         "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -67513,7 +67655,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -67563,6 +67706,13 @@
         "sentence": "Because ideas moved on trade routes, Sicily became one of the earliest points where recipe techniques mixed across regions.",
         "contextMeaning": "Here, \"moved\" means ideas traveled on trade paths to different places",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "It says, \"Moved to Room 204.",
+        "contextMeaning": "Here, \"moved\" means the cake was moved to Room 204",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -79777,7 +79927,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -79804,6 +79955,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "A worker wants help preparing a meeting.",
+        "contextMeaning": "Here, \"preparing\" means getting ready",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "On Friday afternoon, they are preparing a small surprise party for their teacher.",
         "contextMeaning": "Here, \"preparing\" means getting ready",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -81863,7 +82021,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -81883,6 +82042,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Some heroes are proud, violent, selfish, or reckless.",
+        "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Leo is proud because he carried the cake box from the shop to the school kitchen.",
         "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -88418,6 +88584,29 @@
       }
     ]
   },
+  "ribbon": {
+    "word": "ribbon",
+    "definition": "A thin strip used to decorate something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-surprise-cake-mystery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "The cake box is white, with a blue ribbon around it.",
+        "contextMeaning": "Here, \"ribbon\" means the blue ribbon is on the cake box",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "rich": {
     "word": "rich",
     "definition": "Having a lot of good flavor",
@@ -90292,6 +90481,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
@@ -90333,6 +90523,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "The goal is to make the customer feel welcome and safe.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "The cake is there, safe and cold.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -94917,12 +95114,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "You can ask for a new delivery time, pickup at a shop, or delivery to a neighbor.",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Leo is proud because he carried the cake box from the shop to the school kitchen.",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -95094,7 +95299,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea"
+      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -95102,6 +95308,13 @@
         "sentence": "Now ask yourself this: if you escaped a monster, would you stay quiet and sail away, or would you shout your name with pride?",
         "contextMeaning": "Here, \"shout\" means make a very loud noise with your voice to show you are proud",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "In the angry argument, sound sharp, but do not shout.",
+        "contextMeaning": "Here, \"shout\" means to use a very loud voice",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -95125,6 +95338,29 @@
         "sentence": "We can almost feel the dark cave and hear the giant shouting.",
         "contextMeaning": "Here, \"shouting\" means making a very loud noise with his voice",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "shouts": {
+    "word": "shouts",
+    "definition": "To use a very loud voice",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-surprise-cake-mystery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "Then Mina starts the music, Leo brings the cake, and the class shouts, \"Surprise!\" The teacher laughs and almost drops her bag.",
+        "contextMeaning": "Here, \"shouts\" means to use a very loud voice",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -98857,7 +99093,8 @@
     "episodes": [
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -98879,6 +99116,13 @@
         "sentence": "You can start with \"Sorry\" or \"Excuse me,\" then explain the problem in one sentence.",
         "contextMeaning": "Here, \"sorry\" means say a kind word before telling the problem",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "The characters feel happy, worried, angry, sorry, surprised, and relieved.",
+        "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -105455,6 +105699,21 @@
       }
     ]
   },
+  "surprise party": {
+    "word": "surprise party",
+    "definition": "A party someone does not know about",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-surprise-cake-mystery"
+    ],
+    "contexts": []
+  },
   "surprised": {
     "word": "surprised",
     "definition": "Feeling wonder because something is new",
@@ -107362,7 +107621,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -107375,6 +107635,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "The teacher is the foreign customer.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "On Friday afternoon, they are preparing a small surprise party for their teacher.",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -107493,7 +107760,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-03-surprise-cake-mystery"
     ],
     "contexts": [
       {
@@ -107501,6 +107769,13 @@
         "sentence": "So even if the student does not work in gas forever, the internship can teach transferable skills: safety thinking, careful observation, teamwork, customer communication, report writing, and respect for infrastructure.",
         "contextMeaning": "Here, \"teamwork\" means teamwork is one skill an intern can learn by watching real employees",
         "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "They did not lose the cake, but they almost lost their teamwork.",
+        "contextMeaning": "Here, \"teamwork\" means they need teamwork to save the party",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -115572,6 +115847,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
@@ -115676,6 +115952,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is useful general knowledge because it appears in many parts of culture.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-surprise-cake-mystery",
+        "sentence": "The story is playful, but the language is useful for real life.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
