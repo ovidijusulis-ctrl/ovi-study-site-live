@@ -1,4 +1,27 @@
 {
+  "a few things": {
+    "word": "a few things",
+    "definition": "A small number of things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"a few things\" means a small number of things",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "ability": {
     "word": "ability",
     "definition": "What someone or something can do well",
@@ -646,8 +669,7 @@
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system"
     ],
     "contexts": [
       {
@@ -696,13 +718,6 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "The announcements were scattered across models, Search, Workspace, YouTube, Android, developer tools, and eyewear, but the underlying idea was unusually coherent: Gemini is being positioned as the connective tissue between information, action, creation, and verification.",
         "contextMeaning": "Here, \"action\" means one part of what Gemini connects with",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Confirm the next action before you move.",
-        "contextMeaning": "Here, \"action\" means the next thing you do before moving",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -1921,15 +1936,15 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Mina goes to the supermarket after work.",
-        "contextMeaning": "Here, \"after\" means mina shops later than work",
-        "source": "manual_supermarket_lesson_repair",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"after\" means later than work or school",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "After the change, the traveler is on the small train.",
-        "contextMeaning": "Here, \"after\" means later, the traveler is on the small train",
+        "sentence": "Follow the Riverside sign after you get off.",
+        "contextMeaning": "Here, \"after\" means follow the sign when you get off the train",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -1949,6 +1964,52 @@
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine"
     ],
     "contexts": []
+  },
+  "after school": {
+    "word": "after school",
+    "definition": "When school is finished",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"after school\" means when school is finished",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "after work": {
+    "word": "after work",
+    "definition": "When work is finished",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"after work\" means when work is finished",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
   },
   "afternoon": {
     "word": "afternoon",
@@ -3497,7 +3558,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-how-to-buy-a-home-in-japan-as"
+      "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -3505,6 +3567,13 @@
         "sentence": "Budget means the amount of money someone can spend.",
         "contextMeaning": "Here, \"amount\" means how much money someone can use",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Use some for more than one thing or an amount: some apples, some milk, some snacks.",
+        "contextMeaning": "Here, \"amount\" means how much of something there is",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -4580,9 +4649,9 @@
       }
     ]
   },
-  "apples": {
-    "word": "apples",
-    "definition": "Fruit that can be red, green, or yellow",
+  "apple": {
+    "word": "apple",
+    "definition": "A round fruit that grows on trees",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -4596,9 +4665,9 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "She buys rice, apples, and milk for dinner.",
-        "contextMeaning": "Here, \"apples\" means mina buys apples at the supermarket",
-        "source": "authored_reading_vocabulary",
+        "sentence": "Answer Starters: Use a or an for one thing: a basket, a shopping cart, an apple.",
+        "contextMeaning": "Here, \"apple\" means a round fruit that grows on trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -6013,8 +6082,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The traveler asks before getting on.",
-        "contextMeaning": "Here, \"asks\" means the traveler says a question before getting on",
+        "sentence": "The traveler asks again.",
+        "contextMeaning": "Here, \"asks\" means the traveler says a question again",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -7568,6 +7637,52 @@
       }
     ]
   },
+  "bags": {
+    "word": "bags",
+    "definition": "A soft container for carrying things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "You can talk about food, shopping places, bags, and payment with short sentences.",
+        "contextMeaning": "Here, \"bags\" means a soft container for carrying things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "bakery": {
+    "word": "bakery",
+    "definition": "A place that sells bread and baked food",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
+        "contextMeaning": "Here, \"bakery\" means a place that sells bread and baked food",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "balance": {
     "word": "balance",
     "definition": "A good mix of two things",
@@ -7808,7 +7923,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -7851,6 +7967,13 @@
         "sentence": "Classical music often touches these basic human feelings.",
         "contextMeaning": "Here, \"basic\" means simple and important feelings all people have",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "comprehension questions, give short personal answers, and practice basic grammar for shopping sentences.",
+        "contextMeaning": "Here, \"basic\" means simple and important",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -7895,8 +8018,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Do you use a basket or a shopping cart?",
-        "contextMeaning": "Here, \"basket\" means mina uses a basket for a few things",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"basket\" means good for a few things",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -9563,8 +9686,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Before walking down the stairs, the traveler checks one more time with a staff member near the gate.",
-        "contextMeaning": "Here, \"before\" means first, the traveler checks, then goes down stairs",
+        "sentence": "Confirm the next step before you walk.",
+        "contextMeaning": "Here, \"before\" means check the next step first, then walk",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -10726,7 +10849,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -10840,8 +10964,30 @@
         "contextMeaning": "Here, \"bigger\" means more large and strong feeling world made by many instruments",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Supermarkets are bigger than convenience stores.",
+        "contextMeaning": "Here, \"bigger\" means larger in size",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
+        "confidence": "trusted"
       }
     ]
+  },
+  "bigger than": {
+    "word": "bigger than",
+    "definition": "Larger than something else",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": []
   },
   "biggest": {
     "word": "biggest",
@@ -12159,6 +12305,29 @@
       }
     ]
   },
+  "bread": {
+    "word": "bread",
+    "definition": "Food made from flour, often eaten with meals",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"bread\" means food made from flour, often eaten with meals",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "break": {
     "word": "break",
     "definition": "A short time to rest or stop work",
@@ -12236,6 +12405,29 @@
       "episode-2026-05-22-australia-branch-business-catch-up"
     ],
     "contexts": []
+  },
+  "breakfast": {
+    "word": "breakfast",
+    "definition": "The morning meal",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"breakfast\" means the morning meal",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
   },
   "breaking": {
     "word": "breaking",
@@ -12611,9 +12803,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Do you bring your own bag?",
-        "contextMeaning": "Here, \"bring\" means you take your own bag to the supermarket",
-        "source": "manual_supermarket_lesson_repair",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"bring\" means take something with you to a place",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -13177,7 +13369,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "one more time - say it again confirm - check that something is correct line - a train route platform - the place where you get on a train downstairs - on a lower floor change trains - leave one train and take another final stop - the place where you get off get off - leave a train or bus",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary one more time - say it again confirm - check that something is correct line - a train route platform - the place where you get on a train downstairs - on a lower floor sign - a board or mark that shows information change trains - leave one train and take another final stop - the place where you get off get off - leave a train or bus",
         "contextMeaning": "Here, \"bus\" means a large road vehicle for many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -13336,7 +13528,8 @@
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-21-weekly-catch-up-conversation-a2"
+      "episode-2026-05-21-weekly-catch-up-conversation-a2",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -13358,6 +13551,13 @@
         "sentence": "busy",
         "contextMeaning": "Here, \"busy\" means having many things to do",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
+        "contextMeaning": "Here, \"busy\" means having many things to do",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -13435,8 +13635,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
     ],
     "contexts": [
       {
@@ -13444,13 +13643,6 @@
         "sentence": "Best Buy, a large American electronics store, lowered the price of Metroid Prime 4: Beyond to $39.99 for the physical Nintendo Switch version.",
         "contextMeaning": "Here, \"buy\" means fans wondered if they should get the game by giving money for it",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
-        "contextMeaning": "Here, \"buy\" means mina buys food at the supermarket",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -13514,8 +13706,7 @@
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
     ],
     "contexts": [
       {
@@ -13537,13 +13728,6 @@
         "sentence": "The facts stay the same: Mina wakes up, eats breakfast, checks her bag, waits at the bus stop, buys milk and eggs, talks to the cashier, and goes home.",
         "contextMeaning": "Here, \"buys\" means mina gets milk and eggs by paying for them",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "She buys rice, apples, and milk for dinner.",
-        "contextMeaning": "Here, \"buys\" means mina gets food by paying money",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -14568,8 +14752,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Answer Starters: At the checkout, Mina pays by card.",
-        "contextMeaning": "Here, \"card\" means mina pays by card",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"card\" means a card people can use to pay",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -14609,6 +14793,29 @@
         "sentence": "A cardboard box can help.",
         "contextMeaning": "Here, \"cardboard\" means a box made of thick, brown paper",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cards": {
+    "word": "cards",
+    "definition": "Bank or credit cards",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"cards\" means cards people can use to pay",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -14776,7 +14983,8 @@
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -14868,6 +15076,13 @@
         "sentence": "Classical music often asks us to slow down and listen carefully.",
         "contextMeaning": "Here, \"carefully\" means listen to music with full attention and no hurry",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"carefully\" means in a careful way",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -15153,7 +15368,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -15161,6 +15377,13 @@
         "sentence": "Today you will hear next to, fitting room, cash, and card is not working.",
         "contextMeaning": "Here, \"cash\" means this word means money you can touch, like coins and bills",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"cash\" means paper money and coins",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -16381,8 +16604,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The plan is simple: take the Green Line, change at City Hall, and get off at Riverside.",
-        "contextMeaning": "Here, \"change\" means switch from one train line to a different one",
+        "sentence": "The route is simple: take the Green Line from Platform 2, change at City Hall, and get off at Riverside.",
+        "contextMeaning": "Here, \"change\" means move from one train line to another at City Hall",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -17370,8 +17593,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-21-a1-supermarket-find-and-pay"
     ],
     "contexts": [
       {
@@ -17379,13 +17601,6 @@
         "sentence": "Ask where food is in a supermarket, understand simple directions, and pay at the checkout.",
         "contextMeaning": "Here, \"checkout\" means where you give money for food in the store",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Answer Starters: At the checkout, Mina pays by card.",
-        "contextMeaning": "Here, \"checkout\" means mina pays at the checkout",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -19111,8 +19326,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "You need one clear question and one clear check.",
-        "contextMeaning": "Here, \"clear\" means one easy question and one easy check",
+        "sentence": "You need one clear question, one clear repeat, and one clear next step.",
+        "contextMeaning": "Here, \"clear\" means you need easy and simple questions and steps",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -22808,7 +23023,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Today the traveler has one connected job: hear the answer, ask again, and confirm the next step.",
+        "sentence": "Transport: Ask Again and Confirm Warm-Up Questions 1.",
         "contextMeaning": "Here, \"confirm\" means the traveler confirms the line, platform, and stop",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -23350,8 +23565,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Today the traveler has one connected job: hear the answer, ask again, and confirm the next step.",
-        "contextMeaning": "Here, \"connected\" means the traveler has one job that links all parts",
+        "sentence": "This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"connected\" means one station job that is linked to others",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -24112,7 +24327,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -24126,6 +24342,13 @@
         "episodeId": "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
         "sentence": "Honda is betting that this middle path can keep sales strong while cleaner technology continues to grow.",
         "contextMeaning": "Here, \"continues\" means cleaner technology keeps growing more and more",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"continues\" means the lesson keeps going with the same topic",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -24368,6 +24591,29 @@
         "sentence": "Without it, convenience can become accidental delegation; with it, the user still has to understand what the agent is preparing to do.",
         "contextMeaning": "Here, \"convenience\" means easy way that can sometimes cause unplanned delegation",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "convenience store": {
+    "word": "convenience store",
+    "definition": "A small shop for quick shopping",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"convenience store\" means a small shop",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -24643,29 +24889,6 @@
         "sentence": "It is also about roads, rest stops, markets, and conversations between strangers.",
         "contextMeaning": "Here, \"conversations\" means talking between people who do not know each other",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "cook": {
-    "word": "cook",
-    "definition": "Make food with heat",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "This is helpful when she does not want to cook.",
-        "contextMeaning": "Here, \"cook\" means mina does not want to make dinner at home",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -25517,6 +25740,29 @@
         "sentence": "This episode is inspired by a recent news-style question many people ask after seeing huge roller coasters online: why do they feel so scary, but still count as safe?",
         "contextMeaning": "Here, \"count\" means roller coasters are said to be safe even if scary",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "countable": {
+    "word": "countable",
+    "definition": "Able to be counted",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Use many before plural countable words, like many families.",
+        "contextMeaning": "Here, \"countable\" means able to be counted",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -29773,7 +30019,7 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "At the information desk, the station staff speaks quickly.",
-        "contextMeaning": "Here, \"desk\" means a place where staff give information at the station",
+        "contextMeaning": "Here, \"desk\" means place where people give information at the station",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -30713,8 +30959,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Fast transport English can feel difficult, but the repair is small.",
-        "contextMeaning": "Here, \"difficult\" means hard to understand fast transport English",
+        "sentence": "Fast transport English can feel difficult, but the small repair is to ask again.",
+        "contextMeaning": "Here, \"difficult\" means fast transport English can feel hard to understand",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -30883,9 +31129,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "She buys rice, apples, and milk for dinner.",
-        "contextMeaning": "Here, \"dinner\" means the main meal people eat in the evening",
-        "source": "popup_support_router/teaching_lexicon_trusted",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"dinner\" means the evening meal",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -32276,6 +32522,29 @@
       }
     ]
   },
+  "doors": {
+    "word": "doors",
+    "definition": "The part you open to enter a room",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The doors open on the right.",
+        "contextMeaning": "Here, \"doors\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "dot": {
     "word": "dot",
     "definition": "A small round mark",
@@ -32520,7 +32789,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Platform 2 is downstairs.",
+        "sentence": "Before going downstairs, the traveler checks one more time.",
         "contextMeaning": "Here, \"downstairs\" means on a lower floor",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -33018,7 +33287,8 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -33075,6 +33345,13 @@
         "sentence": "Drinks are separate.",
         "contextMeaning": "Here, \"drinks\" means beer, highball, shochu, tea, or soft drinks",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "What People Buy Many people go to supermarkets to buy food and drinks.",
+        "contextMeaning": "Here, \"drinks\" means things people drink",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -33784,8 +34061,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "This lesson continues the earlier transport lesson, but it does not practice every transport problem.",
-        "contextMeaning": "Here, \"earlier\" means the lesson that happened before this one about travel",
+        "sentence": "This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"earlier\" means the transport topic from before this lesson",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -36263,7 +36540,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -36276,6 +36554,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "Sara gives them to the worker and asks, \"Is this enough?\" The worker says, \"Yes, we also need your phone number on the form.\" Documents are part of the process.",
+        "contextMeaning": "Here, \"enough\" means not as much as needed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Short sentences are enough: \"I buy some fruit,\" \"I use a basket,\" \"I pay by card,\" and \"I bring my own bag.\" supermarket - a large shop for food and daily things convenience store - a small shop that is open for many hours vegetables - plants people eat, like carrots or onions fruit - sweet food from plants, like apples or bananas basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared bakery - a place that sells bread and cakes checkout - the place where people pay cash - paper money and coins card - a bank or credit card own bag - a bag from home",
         "contextMeaning": "Here, \"enough\" means not as much as needed",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -37352,8 +37637,7 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -37551,12 +37835,28 @@
         "contextMeaning": "Here, \"every\" means the question asks about one week again and again",
         "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
-      },
+      }
+    ]
+  },
+  "every week": {
+    "word": "every week",
+    "definition": "One time each week or more",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
       {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "This lesson continues the earlier transport lesson, but it does not practice every transport problem.",
-        "contextMeaning": "Here, \"every\" means not all travel problems, but some, are practiced here",
-        "source": "popup_prebuild_coverage/context_explain",
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"every week\" means one time each week or more",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -37851,7 +38151,8 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -37929,6 +38230,36 @@
         "sentence": "The exact company matters because the daily work can be very different.",
         "contextMeaning": "Here, \"exact\" means the specific company that is important for the work",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Use some before fruit, milk, or snacks when you do not need an exact number.",
+        "contextMeaning": "Here, \"exact\" means clear and correct",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "exact number": {
+    "word": "exact number",
+    "definition": "The clear, correct number",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Use some before fruit, milk, or snacks when you do not need an exact number.",
+        "contextMeaning": "Here, \"exact number\" means the clear, correct number",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -38809,7 +39140,7 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Ask again: Traveler: Excuse me.",
-        "contextMeaning": "Here, \"excuse\" means the traveler uses words to politely get attention",
+        "contextMeaning": "Here, \"excuse\" means say politely to start asking a question",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -40734,7 +41065,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -40742,6 +41074,13 @@
         "sentence": "Greatness can save others, but it can also break families, cities, and the hero's own life.",
         "contextMeaning": "Here, \"families\" means the people related to you",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"families\" means groups of parents, children, or relatives",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -41145,8 +41484,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Use simple English to ask again and confirm transport information when the answer is fast.",
-        "contextMeaning": "Here, \"fast\" means when the answer comes quickly, ask again to be sure",
+        "sentence": "Warm-up: When someone speaks too fast, do you ask again?",
+        "contextMeaning": "Here, \"fast\" means talking too quickly to understand well",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -41369,7 +41708,8 @@
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2"
+      "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -41398,6 +41738,13 @@
         "sentence": "Then countries give points to their favorite songs.",
         "contextMeaning": "Here, \"favorite\" means songs that countries like best and give points to",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "My favorite thing to buy is...",
+        "contextMeaning": "Here, \"favorite\" means liked the most",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -42395,9 +42742,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
-        "contextMeaning": "Here, \"few\" means mina needs a small number of things",
-        "source": "manual_supermarket_lesson_repair",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"few\" means a small number of things",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -43682,7 +44029,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -43690,6 +44038,13 @@
         "sentence": "The area has traditional soba, heavy pasta dishes, healthy fish, and quiet cafes.",
         "contextMeaning": "Here, \"fish\" means a healthy type of food that comes from the sea or rivers",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"fish\" means an animal from water, also eaten as food",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -44412,12 +44767,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Question: Did the worker follow the practical workflow well?",
+        "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Go down, turn right, and follow the green signs.",
         "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -44575,6 +44938,44 @@
         "sentence": "Do you have food?",
         "contextMeaning": "Here, \"food\" means small foods in the snack bar",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "food and drinks": {
+    "word": "food and drinks",
+    "definition": "Things people eat and drink",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": []
+  },
+  "food courts": {
+    "word": "food courts",
+    "definition": "Areas with places to buy food",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
+        "contextMeaning": "Here, \"food courts\" means areas with places to buy food",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -45534,7 +45935,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -45556,6 +45958,36 @@
         "sentence": "Some people like fresh white wine, while others prefer deep red wine.",
         "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Answer Starters: Many supermarkets in Japan sell fresh food and ready-made meals.",
+        "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "fresh food": {
+    "word": "fresh food",
+    "definition": "Food that is new and not old",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
+        "contextMeaning": "Here, \"fresh food\" means food that is new and not old",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -45863,6 +46295,29 @@
       }
     ]
   },
+  "from home": {
+    "word": "from home",
+    "definition": "From the place where you live",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"from home\" means from the place where you live",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "front": {
     "word": "front",
     "definition": "The first part or area in a place",
@@ -45972,9 +46427,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "One short sentence can help: \"I need a basket,\" \"I buy some milk,\" or \"I pay by card.\" supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
-        "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants or trees",
-        "source": "popup_support_router/teaching_lexicon_trusted",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"fruit\" means people can buy fruit at supermarkets",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -46455,8 +46910,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-05-27-international-transport-get-to-the-right-place"
     ],
     "contexts": [
       {
@@ -46464,13 +46918,6 @@
         "sentence": "It says \"Gate B12.\" She goes to the help desk and asks, \"Excuse me.",
         "contextMeaning": "Here, \"gate\" means gate B12 is where Maya's flight leaves",
         "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Before walking down the stairs, the traveler checks one more time with a staff member near the gate.",
-        "contextMeaning": "Here, \"gate\" means a place near where the traveler talks to staff",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -46934,7 +47381,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -46942,6 +47390,13 @@
         "sentence": "Copilot is a chatbot, which means users can type questions and get answers in everyday language.",
         "contextMeaning": "Here, \"get\" means people receive information back from the program",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The route is simple: take the Green Line from Platform 2, change at City Hall, and get off at Riverside.",
+        "contextMeaning": "Here, \"get\" means leave the train at the Riverside stop",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -47065,7 +47520,7 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "The traveler asks before getting on.",
-        "contextMeaning": "Here, \"getting\" means the traveler asks before going onto something",
+        "contextMeaning": "Here, \"getting\" means starting to go on the train or bus",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -47542,8 +47997,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Go down and turn right.",
-        "contextMeaning": "Here, \"go\" means move down and then turn right",
+        "sentence": "I will go there now.",
+        "contextMeaning": "Here, \"go\" means i will move to that place now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -47738,7 +48193,7 @@
   },
   "goes": {
     "word": "goes",
-    "definition": "Moves to a place",
+    "definition": "To move or travel to a place",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -47747,21 +48202,13 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Mina goes to the supermarket after work.",
-        "contextMeaning": "Here, \"goes\" means mina moves from work to the supermarket",
-        "source": "manual_supermarket_lesson_repair",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Which train goes to Riverside?",
-        "contextMeaning": "Here, \"goes\" means which train moves to Riverside place",
+        "contextMeaning": "Here, \"goes\" means which train moves to Riverside",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -47784,7 +48231,8 @@
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -47835,6 +48283,13 @@
         "contextMeaning": "Here, \"going\" means sisyphus keeps moving and does not stop",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Before going downstairs, the traveler checks one more time.",
+        "contextMeaning": "Here, \"going\" means before moving down the stairs, the traveler looks again",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -47863,7 +48318,7 @@
   },
   "good": {
     "word": "good",
-    "definition": "Nice, well done, or okay feeling",
+    "definition": "Nice or okay",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -47878,7 +48333,7 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Station Staff: Good.",
-        "contextMeaning": "Here, \"good\" means the staff says 'good' to show things are okay",
+        "contextMeaning": "Here, \"good\" means the staff says something is okay or fine",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -48026,20 +48481,12 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "A good meme works almost like grammar.",
-        "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
-        "source": "popup_support_router/producer_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Answer Starters: 🔤 Grammar Check: a/an, some, many Look at three supermarket sentences: Answer Starters: Final Reflection You do not need long English at a supermarket.",
         "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -48395,8 +48842,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The plan is simple: take the Green Line, change at City Hall, and get off at Riverside.",
-        "contextMeaning": "Here, \"green\" means the name of a train line that is green",
+        "sentence": "The route is simple: take the Green Line from Platform 2, change at City Hall, and get off at Riverside.",
+        "contextMeaning": "Here, \"green\" means the name of the train line with green color",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -49152,7 +49599,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The plan is simple: take the Green Line, change at City Hall, and get off at Riverside.",
+        "sentence": "The route is simple: take the Green Line from Platform 2, change at City Hall, and get off at Riverside.",
         "contextMeaning": "Here, \"hall\" means the name of a place where you change trains",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
@@ -50331,8 +50778,7 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -50366,13 +50812,6 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "When you hear the words classical music, what image comes to mind?",
-        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Today the traveler has one connected job: hear the answer, ask again, and confirm the next step.",
         "contextMeaning": "Here, \"hear\" means listening to sounds or words",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -56874,8 +57313,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Introduction This lesson continues the earlier transport lesson, but it does not practice every transport problem.",
-        "contextMeaning": "Here, \"introduction\" means the first part of this lesson about transport",
+        "sentence": "Introduction This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"introduction\" means the first part of the lesson about transport",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -57455,7 +57894,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -57512,6 +57952,13 @@
         "sentence": "In Japan, kawara can mean tradition, durability, beauty, and regional identity.",
         "contextMeaning": "Here, \"japan\" means the place where kawara has special meanings",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Supermarkets in Japan Many supermarkets in Japan sell fresh food and ready-made meals.",
+        "contextMeaning": "Here, \"japan\" means the country where many learners live or study",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -58323,7 +58770,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -58346,6 +58794,13 @@
         "contextMeaning": "Here, \"keeps\" means still has the same general idea as before",
         "source": "episode-supported",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Introduction This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"keeps\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -58360,7 +58815,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -58368,6 +58824,13 @@
         "sentence": "Our key word is milestone.",
         "contextMeaning": "Here, \"key\" means the most important or central part",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Use simple English to ask again, repeat the key words, and confirm the next step at a station.",
+        "contextMeaning": "Here, \"key\" means the most important words to say again",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -60522,6 +60985,29 @@
       }
     ]
   },
+  "left": {
+    "word": "left",
+    "definition": "The side where your heart is",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "The stairs to Platform 2 are on your left.",
+        "contextMeaning": "Here, \"left\" means the stairs are on the side of your body with your heart",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "legal": {
     "word": "legal",
     "definition": "About rules and courts",
@@ -61563,7 +62049,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "What information is important: line, platform, time, or stop?",
+        "sentence": "What information do you need before you move: line, platform, change station, or stop?",
         "contextMeaning": "Here, \"line\" means the traveler needs the Green Line",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -63564,7 +64050,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -63572,6 +64059,13 @@
         "sentence": "Near the start of one busy lunch service, a young chef in Malmö tasted a spoon of sauce and stopped.",
         "contextMeaning": "Here, \"lunch\" means the meal eaten in the middle of the day",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"lunch\" means the middle-of-the-day meal",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -65191,6 +65685,29 @@
       }
     ]
   },
+  "many things": {
+    "word": "many things",
+    "definition": "A large number of things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"many things\" means a large number of things",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "map": {
     "word": "map",
     "definition": "A drawing that shows where places are",
@@ -65215,7 +65732,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The map says City Hall is a change station.",
+        "sentence": "The map says City Hall is the change station.",
         "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -66045,7 +66562,8 @@
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -66067,6 +66585,13 @@
         "sentence": "So many meals in Skane mix sea and land in one natural way.",
         "contextMeaning": "Here, \"meals\" means different foods eaten together in Skane",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Supermarkets in Japan Many supermarkets in Japan sell fresh food and ready-made meals.",
+        "contextMeaning": "Here, \"meals\" means food for breakfast, lunch, or dinner",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -66675,6 +67200,29 @@
         "sentence": "Google therefore paired its creative announcements with transparency measures: SynthID watermarks, C2PA Content Credentials, verification in Gemini, Search, and Chrome, and an AI Content Detection API for enterprise use.",
         "contextMeaning": "Here, \"measures\" means actions to help show truth and protect content",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "meat": {
+    "word": "meat",
+    "definition": "Food from animals, like beef or chicken",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"meat\" means food from animals, like beef or chicken",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -67887,9 +68435,9 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "She buys rice, apples, and milk for dinner.",
-        "contextMeaning": "Here, \"milk\" means mina buys some milk",
-        "source": "authored_reading_vocabulary",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"milk\" means people can buy milk at supermarkets",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -69780,8 +70328,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Final Discussion Which phrase is most useful for you: \"one more time,\" \"is this Platform 2,\" or \"do I change at City Hall\"?",
-        "contextMeaning": "Here, \"most\" means the phrase that helps you the best here",
+        "sentence": "Which phrase is most useful for you: \"one more time,\" \"Is this Platform 2?\", or \"Do I change at City Hall?\" 2.",
+        "contextMeaning": "Here, \"most\" means the phrase that helps you the best",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -70741,8 +71289,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "STARTERS 3: I can ask, \"Do I change at...?\" | I can repeat the station name.",
-        "contextMeaning": "Here, \"name\" means say the station word again to ask or check",
+        "sentence": "STARTERS 3: I can ask, \"Do I change at...?\" | I can repeat the station name and the sign.",
+        "contextMeaning": "Here, \"name\" means repeat the station word and the sign",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71183,8 +71731,7 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
     ],
     "contexts": [
       {
@@ -71227,13 +71774,6 @@
         "sentence": "They buzz near your ears.",
         "contextMeaning": "Here, \"near\" means close to your ears",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Before walking down the stairs, the traveler checks one more time with a staff member near the gate.",
-        "contextMeaning": "Here, \"near\" means not far away",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -71348,8 +71888,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "What word can you say when you need the answer again?",
-        "contextMeaning": "Here, \"need\" means want the answer again because it is important",
+        "sentence": "What information do you need before you move: line, platform, change station, or stop?",
+        "contextMeaning": "Here, \"need\" means want information before you move",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71447,7 +71987,6 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -71585,16 +72124,9 @@
         "confidence": "trusted"
       },
       {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Mina only needs a few things, so she takes a basket.",
-        "contextMeaning": "Here, \"needs\" means mina must have a basket for her food",
-        "source": "manual_supermarket_lesson_repair",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "1: The traveler needs the Green Line from Platform 2.",
-        "contextMeaning": "Here, \"needs\" means the traveler must have the Green Line train",
+        "contextMeaning": "Here, \"needs\" means the traveler must take the Green Line from Platform 2",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -72023,6 +72555,29 @@
         "sentence": "This episode is inspired by a recent news-style question many people ask after seeing huge roller coasters online: why do they feel so scary, but still count as safe?",
         "contextMeaning": "Here, \"news-style\" means a question told like a story from news",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "next": {
+    "word": "next",
+    "definition": "Coming after this one",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Use simple English to ask again, repeat the key words, and confirm the next step at a station.",
+        "contextMeaning": "Here, \"next\" means the step that comes after now at a station",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -74059,9 +74614,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Warm-up: Do you often go to a supermarket?",
-        "contextMeaning": "Here, \"often\" means the question asks if you go many times",
-        "source": "manual_supermarket_lesson_repair",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"often\" means many times",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -74469,8 +75024,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Today the traveler has one connected job: hear the answer, ask again, and confirm the next step.",
-        "contextMeaning": "Here, \"one\" means only a single connected job to do today",
+        "sentence": "This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"one\" means it keeps a single connected station job",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -76447,7 +77002,15 @@
     "episodes": [
       "episode-2026-06-03-shopping-at-a-supermarket"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"own bag\" means a bag someone brings from home",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "owned": {
     "word": "owned",
@@ -76630,29 +77193,6 @@
         "sentence": "Mina walks into Green Street Pharmacy at 6 p.m.",
         "contextMeaning": "Here, \"p\" means the letter showing the time is after midday, evening time",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "pack": {
-    "word": "pack",
-    "definition": "Put things into a bag",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Warm-Up Questions 🛒 Part 1: Buy Food Useful Phrases Simple Explanation 🧺 Part 2: Basket or Cart Useful Phrases Simple Explanation 🍱 Part 3: Ready-Made Food Useful Phrases 💳 Part 4: Pay and Pack Useful Phrases 🔤 Grammar Check: a/an, some, many Simple Explanation Final Reflection You do not need long English at a supermarket.",
-        "contextMeaning": "Here, \"pack\" means mina puts her food in her own bag",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -77284,8 +77824,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The useful phrases are, \"Sorry, one more time?\", \"So, Platform 2?\", and \"Do I change at City Hall?\" Warm-Up Questions Part 1: Ask for the Answer Again Ask again Role-play Part 2: Check the Platform Before Walking Check before walking Role-play Part 3: Confirm the Change Station Confirm the change Role-play Part 4: Check the Final Stop Check the stop Role-play Speaking Practice Questions Final Reflection Fast transport English can feel difficult, but the repair is small.",
-        "contextMeaning": "Here, \"part\" means a section in a list of practice activities",
+        "sentence": "Warm-Up Questions Part 1: Ask for the Answer Again Ask again Role-play Part 2: Check the Platform Before Walking Check before walking Role-play Part 3: Confirm the Change Station Confirm the change Role-play Part 4: Check the Final Stop Check the stop Role-play Final Reflection Fast transport English can feel difficult, but the small repair is to ask again.",
+        "contextMeaning": "Here, \"part\" means a section of the warm-up questions",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -78095,29 +78635,6 @@
       }
     ]
   },
-  "pay": {
-    "word": "pay",
-    "definition": "Give money for something",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
-        "contextMeaning": "Here, \"pay\" means mina gives money at the checkout",
-        "source": "manual_supermarket_lesson_repair",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "pay by card": {
     "word": "pay by card",
     "definition": "Pay with a bank card",
@@ -78249,8 +78766,7 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-22-australia-branch-business-catch-up"
     ],
     "contexts": [
       {
@@ -78286,13 +78802,6 @@
         "sentence": "Money is sensitive: the party that pays setup will expect control and upside.",
         "contextMeaning": "Here, \"pays\" means the group who gives money to start the project",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "At the checkout, Mina pays by card.",
-        "contextMeaning": "Here, \"pays\" means mina gives money by card",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -79458,6 +79967,29 @@
       }
     ]
   },
+  "phones": {
+    "word": "phones",
+    "definition": "Mobile phones used to pay here",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"phones\" means mobile phones used to pay here",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "photo": {
     "word": "photo",
     "definition": "A picture taken with a camera",
@@ -79566,7 +80098,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -79603,6 +80136,13 @@
         "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What short phrase can you use when you are not sure?",
+        "contextMeaning": "Here, \"phrase\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -79618,8 +80158,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts"
     ],
     "contexts": [
       {
@@ -79632,13 +80171,6 @@
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "Practice saying the key phrases aloud.",
-        "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
-        "source": "popup_support_router/producer_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The useful phrases are, \"Sorry, one more time?\", \"So, Platform 2?\", and \"Do I change at City Hall?\" At the information desk, the station staff speaks quickly.",
         "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -80340,8 +80872,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
     ],
     "contexts": [
       {
@@ -80356,13 +80887,6 @@
         "sentence": "They said artificial intelligence, or AI, could create your travel plan.",
         "contextMeaning": "Here, \"plan\" means a list of places and activities for your trip",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The plan is simple: take the Green Line, change at City Hall, and get off at Riverside.",
-        "contextMeaning": "Here, \"plan\" means the simple idea for how to travel on the train",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -80642,7 +81166,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "What information is important: line, platform, time, or stop?",
+        "sentence": "What information do you need before you move: line, platform, change station, or stop?",
         "contextMeaning": "Here, \"platform\" means the traveler needs Platform 2",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -80681,7 +81205,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Answer Starters: The traveler walks toward the platforms.",
+        "sentence": "Answer Starters: Part 2: Check the Platform Before Walking The traveler walks toward the platforms.",
         "contextMeaning": "Here, \"platforms\" means the traveler needs Platform 2",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
@@ -80902,6 +81426,52 @@
         "sentence": "An outlet is a place where you plug in a charger.",
         "contextMeaning": "Here, \"plug\" means to put the charger into the outlet",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "plural": {
+    "word": "plural",
+    "definition": "More than one",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Use many before plural countable words, like many families.",
+        "contextMeaning": "Here, \"plural\" means more than one",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "plural countable words": {
+    "word": "plural countable words",
+    "definition": "Words for things you can count, more than one",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Use many before plural countable words, like many families.",
+        "contextMeaning": "Here, \"plural countable words\" means words for things you can count, more than one",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -83253,29 +83823,6 @@
       }
     ]
   },
-  "pretend": {
-    "word": "pretend",
-    "definition": "To act like something is true when it is not",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-transport-backup-plan"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The traveler does not pretend to understand.",
-        "contextMeaning": "Here, \"pretend\" means the traveler does not act like they understand",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "prevent": {
     "word": "prevent",
     "definition": "Stop something bad from happening",
@@ -85549,8 +86096,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-21-a1-supermarket-find-and-pay"
     ],
     "contexts": [
       {
@@ -85565,13 +86111,6 @@
         "sentence": "She puts it in her basket.",
         "contextMeaning": "Here, \"puts\" means she moves the item into her basket",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "She puts the food in her own bag.",
-        "contextMeaning": "Here, \"puts\" means mina moves the food into her bag",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -86122,7 +86661,7 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "The traveler asks another passenger quietly before getting off.",
-        "contextMeaning": "Here, \"quietly\" means the traveler asks in a soft voice",
+        "contextMeaning": "Here, \"quietly\" means the traveler asks with a soft voice before leaving",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -86804,7 +87343,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -86813,28 +87353,12 @@
         "contextMeaning": "Here, \"ready\" means prepared or in a suitable state for something",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
-      }
-    ]
-  },
-  "ready-made": {
-    "word": "ready-made",
-    "definition": "Already prepared",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": [
+      },
       {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "She buys a ready-made meal and some salad.",
-        "contextMeaning": "Here, \"ready-made\" means the food is already prepared before Mina buys it",
-        "source": "manual_supermarket_lesson_repair",
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "I will get ready.",
+        "contextMeaning": "Here, \"ready\" means prepared to do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -86852,7 +87376,38 @@
     "episodes": [
       "episode-2026-06-03-shopping-at-a-supermarket"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
+        "contextMeaning": "Here, \"ready-made meal\" means a prepared meal that helps busy or tired people",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ready-made meals": {
+    "word": "ready-made meals",
+    "definition": "Food that is already cooked or prepared",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
+        "contextMeaning": "Here, \"ready-made meals\" means prepared meals that help busy or tired people",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
   },
   "ready-to-eat": {
     "word": "ready-to-eat",
@@ -86865,7 +87420,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -86873,6 +87429,13 @@
         "sentence": "Standard 3.2.2A applies to many businesses that handle unpackaged potentially hazardous ready-to-eat food.",
         "contextMeaning": "Here, \"ready-to-eat\" means food that can be eaten without cooking first",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Comprehension What ready-to-eat food places can some supermarkets have?",
+        "contextMeaning": "Here, \"ready-to-eat\" means prepared so you can eat it now",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -89634,8 +90197,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Fast transport English can feel difficult, but the repair is small.",
-        "contextMeaning": "Here, \"repair\" means a small fix or help for the hard English",
+        "sentence": "The useful repair is also simple.",
+        "contextMeaning": "Here, \"repair\" means a fix that is easy and helpful",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89672,8 +90235,7 @@
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
@@ -89715,13 +90277,6 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": ": Machines made mixing and freezing more consistent, so quality could repeat more easily.",
         "contextMeaning": "Here, \"repeat\" means make good quality gelato again and again easily",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Do you usually repeat an answer to check it?",
-        "contextMeaning": "Here, \"repeat\" means say the answer again to make sure it is right",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -92183,8 +92738,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "That's right.",
-        "contextMeaning": "Here, \"right\" means saying something is correct or true",
+        "sentence": "Station Staff: That's right.",
+        "contextMeaning": "Here, \"right\" means yes, what you said is correct",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -92631,8 +93186,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Final Discussion Practice the roleplay with a teacher.",
-        "contextMeaning": "Here, \"roleplay\" means practice acting like in a real situation with a teacher",
+        "sentence": "Practice the roleplay with a teacher.",
+        "contextMeaning": "Here, \"roleplay\" means practice pretending with a teacher to learn better",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -93093,7 +93648,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "one more time - say it again confirm - check that something is correct line - a train route platform - the place where you get on a train downstairs - on a lower floor change trains - leave one train and take another final stop - the place where you get off get off - leave a train or bus",
+        "sentence": "The route is simple: take the Green Line from Platform 2, change at City Hall, and get off at Riverside.",
         "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -94155,29 +94710,6 @@
       }
     ]
   },
-  "salad": {
-    "word": "salad",
-    "definition": "A cold dish with vegetables",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "She buys a ready-made meal and some salad.",
-        "contextMeaning": "Here, \"salad\" means mina buys some salad",
-        "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "sale": {
     "word": "sale",
     "definition": "When things are sold to people",
@@ -94713,8 +95245,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "What word can you say when you need the answer again?",
-        "contextMeaning": "Here, \"say\" means use a word to ask for the answer again",
+        "sentence": "1: What can you say when the answer is too fast?",
+        "contextMeaning": "Here, \"say\" means what words do you speak if answer is too fast",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -94807,8 +95339,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The map says City Hall is a change station.",
-        "contextMeaning": "Here, \"says\" means the map shows City Hall is a place to change",
+        "sentence": "The map says City Hall is the change station.",
+        "contextMeaning": "Here, \"says\" means the map tells that City Hall is where to change",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -96408,6 +96940,29 @@
         "sentence": "A modern hero is often expected to be kind, selfless, and clearly good.",
         "contextMeaning": "Here, \"selfless\" means caring about others, not yourself",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "sell": {
+    "word": "sell",
+    "definition": "Give something to a customer for money",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Supermarkets in Japan Many supermarkets in Japan sell fresh food and ready-made meals.",
+        "contextMeaning": "Here, \"sell\" means give something to a customer for money",
+        "source": "codex_deterministic_a1_supermarket_popup_support",
         "confidence": "trusted"
       }
     ]
@@ -98590,27 +99145,12 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Shopping at a Supermarket 🛒 Part 1: Buy Food Mina goes to the supermarket after work.",
-        "contextMeaning": "Here, \"shopping\" means buying things in a store or online",
-        "source": "popup_support_router/producer_context_rule",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"shopping\" means people go shopping after work or school",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
-  },
-  "shopping cart": {
-    "word": "shopping cart",
-    "definition": "A large cart with wheels for shopping",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": []
   },
   "shopping list": {
     "word": "shopping list",
@@ -98624,6 +99164,21 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-supermarket-find-and-pay"
+    ],
+    "contexts": []
+  },
+  "shopping trip": {
+    "word": "shopping trip",
+    "definition": "A time when you go shopping",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": []
   },
@@ -99329,6 +99884,29 @@
       }
     ]
   },
+  "sign": {
+    "word": "sign",
+    "definition": "A board or mark that shows information",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Follow the Riverside sign after you get off.",
+        "contextMeaning": "Here, \"sign\" means the traveler follows the green signs",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "signal": {
     "word": "signal",
     "definition": "A sign that tells you something",
@@ -99463,8 +100041,8 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "There are signs for Platform 1 and Platform 2.",
-        "contextMeaning": "Here, \"signs\" means words or pictures that show where Platform 1 and 2 are",
-        "source": "popup_prebuild_coverage/context_explain",
+        "contextMeaning": "Here, \"signs\" means the traveler follows the green signs",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -101486,7 +102064,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -101501,6 +102080,13 @@
         "sentence": "Snack bar can sound like a place for snacks and soft drinks.",
         "contextMeaning": "Here, \"snacks\" means small food served with drinks",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"snacks\" means small foods eaten between meals",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -102119,7 +102705,8 @@
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -102217,6 +102804,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Can someone be heroic and dangerous at the same time?",
         "contextMeaning": "Here, \"someone\" means a person, anyone at all",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Warm-up: When someone speaks too fast, do you ask again?",
+        "contextMeaning": "Here, \"someone\" means a person who talks too fast",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -102347,8 +102941,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -102489,13 +103082,6 @@
         "sentence": "| I sometimes buy...",
         "contextMeaning": "Here, \"sometimes\" means this helps you give a short personal answer",
         "source": "manual_supermarket_lesson_repair",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The useful phrases are, \"Sorry, one more time?\", \"So, Platform 2?\", and \"Do I change at City Hall?\" Warm-up: Do station staff sometimes speak too fast?",
-        "contextMeaning": "Here, \"sometimes\" means at times, the station workers speak very quickly",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -102717,7 +103303,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The useful phrases are, \"Sorry, one more time?\", \"So, Platform 2?\", and \"Do I change at City Hall?\" At the information desk, the station staff speaks quickly.",
+        "sentence": "Traveler: Sorry, one more time?",
         "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -103253,20 +103839,12 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "If employees are afraid to speak up, problems may remain hidden.",
-        "contextMeaning": "Here, \"speak\" means to say words out loud",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Do station staff sometimes speak too fast?",
         "contextMeaning": "Here, \"speak\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -103575,8 +104153,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "the next stop?\" | I can say, \"Do I get off here?\" SPEAKING PATTERNS: Sorry, one more time?",
-        "contextMeaning": "Here, \"speaking\" means using words to ask or say something in the example",
+        "sentence": "the next stop?\" | I can say, \"Do I get off here?\" Speaking Practice Questions 1.",
+        "contextMeaning": "Here, \"speaking\" means saying words to ask about the next stop",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -103614,7 +104192,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The useful phrases are, \"Sorry, one more time?\", \"So, Platform 2?\", and \"Do I change at City Hall?\" At the information desk, the station staff speaks quickly.",
+        "sentence": "When someone speaks too fast, do you ask again?",
         "contextMeaning": "Here, \"speaks\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -104522,8 +105100,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The useful phrases are, \"Sorry, one more time?\", \"So, Platform 2?\", and \"Do I change at City Hall?\" Warm-up: Do station staff sometimes speak too fast?",
-        "contextMeaning": "Here, \"staff\" means people who work at the station and help travelers",
+        "sentence": "At the information desk, the station staff speaks quickly.",
+        "contextMeaning": "Here, \"staff\" means workers at the station who help visitors",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -104643,8 +105221,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Before walking down the stairs, the traveler checks one more time with a staff member near the gate.",
-        "contextMeaning": "Here, \"stairs\" means steps the traveler goes down after talking to staff",
+        "sentence": "The stairs to Platform 2 are on your left.",
+        "contextMeaning": "Here, \"stairs\" means steps you use to go to Platform 2",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -105383,7 +105961,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Do station staff sometimes speak too fast?",
+        "sentence": "What information do you need before you move: line, platform, change station, or stop?",
         "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -105836,8 +106414,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Today the traveler has one connected job: hear the answer, ask again, and confirm the next step.",
-        "contextMeaning": "Here, \"step\" means the next small thing the traveler must do",
+        "sentence": "Use simple English to ask again, repeat the key words, and confirm the next step at a station.",
+        "contextMeaning": "Here, \"step\" means the next small action to do at the station",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -106456,8 +107034,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "What information is important: line, platform, time, or stop?",
-        "contextMeaning": "Here, \"stop\" means the place where the train or bus stops",
+        "sentence": "What information do you need before you move: line, platform, change station, or stop?",
+        "contextMeaning": "Here, \"stop\" means a place where the train or bus waits",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -109008,9 +109586,55 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Do you often go to a supermarket?",
-        "contextMeaning": "Here, \"supermarket\" means mina buys food at a supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"supermarket\" means people buy food and drinks at supermarkets",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "supermarket trip": {
+    "word": "supermarket trip",
+    "definition": "A time when you go to a supermarket",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"supermarket trip\" means a time when you go to a supermarket",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "supermarkets": {
+    "word": "supermarkets",
+    "definition": "Large shops for food and daily things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"supermarkets\" means large shops where people buy food and drinks",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -109346,6 +109970,29 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "The student can use it to see how adults work, how infrastructure supports society, how safety rules protect people, and how older industries try to change.",
         "contextMeaning": "Here, \"supports\" means infrastructure helps keep society working well",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "sure": {
+    "word": "sure",
+    "definition": "Feeling good that something is right",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "What short phrase can you use when you are not sure?",
+        "contextMeaning": "Here, \"sure\" means not feeling certain about something",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -110680,7 +111327,7 @@
   },
   "take": {
     "word": "take",
-    "definition": "Get and use",
+    "definition": "To use or ride something like a bus or train",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -110689,21 +111336,13 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "2: Why does Mina take a basket?",
-        "contextMeaning": "Here, \"take\" means mina gets and uses a basket",
-        "source": "manual_supermarket_lesson_repair",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The plan is simple: take the Green Line, change at City Hall, and get off at Riverside.",
-        "contextMeaning": "Here, \"take\" means get on the Green Line train as the plan",
+        "sentence": "The route is simple: take the Green Line from Platform 2, change at City Hall, and get off at Riverside.",
+        "contextMeaning": "Here, \"take\" means use the Green Line train from Platform 2",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -110751,8 +111390,7 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
     ],
     "contexts": [
       {
@@ -110816,13 +111454,6 @@
         "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
         "contextMeaning": "Here, \"takes\" means brings us to the city of Paris in the tale",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Mina only needs a few things, so she takes a basket.",
-        "contextMeaning": "Here, \"takes\" means mina gets a basket and uses it",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -111516,7 +112147,8 @@
     "episodes": [
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -111536,6 +112168,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "On Friday afternoon, they are preparing a small surprise party for their teacher.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Practice the roleplay with a teacher.",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112914,7 +113553,7 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Thank you.",
-        "contextMeaning": "Here, \"thank\" means say this to show you feel happy for help",
+        "contextMeaning": "Here, \"thank\" means say this to be polite",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -113001,7 +113640,7 @@
   },
   "that's": {
     "word": "that's",
-    "definition": "'that is' or 'that is true'",
+    "definition": "Short for 'that is', showing something is right",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -113015,8 +113654,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "That's right.",
-        "contextMeaning": "Here, \"that's\" means 'that is correct' or true here",
+        "sentence": "Station Staff: That's right.",
+        "contextMeaning": "Here, \"that's\" means saying something is correct",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -113451,9 +114090,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Mina only needs a few things, so she takes a basket.",
-        "contextMeaning": "Here, \"things\" means mina only needs a few items",
-        "source": "manual_supermarket_lesson_repair",
+        "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
+        "contextMeaning": "Here, \"things\" means items people buy or carry",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -115113,9 +115752,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Mina is tired today.",
-        "contextMeaning": "Here, \"tired\" means mina wants an easy dinner because she needs rest",
-        "source": "manual_supermarket_lesson_repair",
+        "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
+        "contextMeaning": "Here, \"tired\" means needing rest",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -115888,7 +116527,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -115916,6 +116556,13 @@
         "episodeId": "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
         "sentence": "Keep the same topic while moving from short A1 sentences to B2 reflection about routines, time pressure, planning, polite public interaction, and small decisions.",
         "contextMeaning": "Here, \"topic\" means the subject or idea that stays the same",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"topic\" means the lesson is about transport things to learn",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -116148,7 +116795,7 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "The traveler walks toward the platforms.",
-        "contextMeaning": "Here, \"toward\" means the traveler moves in the direction of the platforms",
+        "contextMeaning": "Here, \"toward\" means moving closer to the platforms",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -117203,7 +117850,7 @@
   },
   "transport": {
     "word": "transport",
-    "definition": "Ways to go places, like bus or train",
+    "definition": "Ways to move people or things",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -117217,8 +117864,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Use simple English to ask again and confirm transport information when the answer is fast.",
-        "contextMeaning": "Here, \"transport\" means information about how to travel from one place to another",
+        "sentence": "This lesson continues the earlier transport topic, but it keeps one connected station job.",
+        "contextMeaning": "Here, \"transport\" means the topic about moving people or things",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -117859,6 +118506,37 @@
       }
     ]
   },
+  "trip": {
+    "word": "trip",
+    "definition": "A time when you go somewhere",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-03-transport-backup-plan"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"trip\" means a time when someone goes shopping",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Have a good trip.",
+        "contextMeaning": "Here, \"trip\" means a journey to another place",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "trips": {
     "word": "trips",
     "definition": "Journeys to another place",
@@ -118346,7 +119024,7 @@
   },
   "turn": {
     "word": "turn",
-    "definition": "Change direction when you move",
+    "definition": "Change direction to right or left",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -118360,8 +119038,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Go down and turn right.",
-        "contextMeaning": "Here, \"turn\" means change your way to the right side",
+        "sentence": "Go down, turn right, and follow the green signs.",
+        "contextMeaning": "Here, \"turn\" means change your direction to the right side",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -119983,8 +120661,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
     ],
     "contexts": [
       {
@@ -119999,13 +120676,6 @@
         "sentence": "Because both are nearby, cooks in Skåne can use ingredients from field and sea on the same plate.",
         "contextMeaning": "Here, \"use\" means to take ingredients from the field and sea to make meals",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
-        "contextMeaning": "Here, \"use\" means mina uses a basket for shopping",
-        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -120186,7 +120856,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "The useful phrases are, \"Sorry, one more time?\", \"So, Platform 2?\", and \"Do I change at City Hall?\" At the information desk, the station staff speaks quickly.",
+        "sentence": "The useful repair is also simple.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -120602,15 +121272,15 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "1: What do you usually buy at a supermarket?",
-        "contextMeaning": "Here, \"usually\" means the question asks what you buy most weeks",
-        "source": "manual_supermarket_lesson_repair",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"usually\" means most of the time",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Do you usually repeat an answer to check it?",
-        "contextMeaning": "Here, \"usually\" means do you say the answer again most of the time",
+        "sentence": "What do you usually need to confirm at a station?",
+        "contextMeaning": "Here, \"usually\" means what you need to check most times at a station",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -120969,7 +121639,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -120984,6 +121655,13 @@
         "sentence": "It is a warm noodle dish with vegetables.",
         "contextMeaning": "Here, \"vegetables\" means part of houtou",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
+        "contextMeaning": "Here, \"vegetables\" means foods from plants, like carrots or onions",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -122387,8 +123065,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "2: What can you repeat before you walk?",
-        "contextMeaning": "Here, \"walk\" means move by foot after saying something first",
+        "sentence": "Confirm the next step before you walk.",
+        "contextMeaning": "Here, \"walk\" means go by feet after you know the next step",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -122442,8 +123120,8 @@
       },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
-        "sentence": "Before walking down the stairs, the traveler checks one more time with a staff member near the gate.",
-        "contextMeaning": "Here, \"walking\" means the traveler moves by feet down the stairs",
+        "sentence": "Check before walking: Traveler: Excuse me.",
+        "contextMeaning": "Here, \"walking\" means moving by feet after checking something",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -123408,7 +124086,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
@@ -123422,6 +124101,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Classical music is also often written in a more detailed way than many popular songs.",
         "contextMeaning": "Here, \"way\" means the method or style music is made",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "You are going the right way.",
+        "contextMeaning": "Here, \"way\" means you are moving on the correct path",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -124793,6 +125479,52 @@
       }
     ]
   },
+  "whole": {
+    "word": "whole",
+    "definition": "All of something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"whole\" means all of something",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "whole week": {
+    "word": "whole week",
+    "definition": "All of the week",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
+        "contextMeaning": "Here, \"whole week\" means all of the week",
+        "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "whose": {
     "word": "whose",
     "definition": "Who something belongs to or is about",
@@ -125954,7 +126686,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -125962,6 +126695,13 @@
         "sentence": "As a result, workers may save time and focus on more complex work.",
         "contextMeaning": "Here, \"workers\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
+        "contextMeaning": "Here, \"workers\" means people who work in the shop",
+        "source": "manual_supermarket_original_paragraph_support",
         "confidence": "trusted"
       }
     ]
@@ -127310,13 +128050,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
         "sentence": "B: You're welcome.",
         "contextMeaning": "Here, \"you're\" means you are welcome, a polite answer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-transport-backup-plan",
+        "sentence": "Station Staff: You're welcome.",
+        "contextMeaning": "Here, \"you're\" means the staff says 'you are welcome' politely",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
