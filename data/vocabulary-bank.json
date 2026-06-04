@@ -1656,6 +1656,7 @@
       "2026-05-25-a1-grammar-core-gaps-test",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -1916,6 +1917,13 @@
         "sentence": "Ludwig van Beethoven came after Mozart and changed classical music in a powerful way.",
         "contextMeaning": "Here, \"after\" means beethoven came later than Mozart",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Mina goes to the supermarket after work.",
+        "contextMeaning": "Here, \"after\" means mina shops later than work",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -4568,6 +4576,29 @@
         "sentence": "A problem appears: a monster threatens a city, a king demands an impossible task, a family is cursed, or a prophecy creates fear.",
         "contextMeaning": "Here, \"appears\" means a problem starts or shows up",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "apples": {
+    "word": "apples",
+    "definition": "Fruit that can be red, green, or yellow",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "She buys rice, apples, and milk for dinner.",
+        "contextMeaning": "Here, \"apples\" means mina buys apples at the supermarket",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -7865,7 +7896,7 @@
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "Do you use a basket or a shopping cart?",
-        "contextMeaning": "Here, \"basket\" means good for a few things",
+        "contextMeaning": "Here, \"basket\" means mina uses a basket for a few things",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -8347,7 +8378,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -8677,6 +8709,13 @@
         "sentence": "A pop song may become famous because of a singer, a trend, a movie, or social media.",
         "contextMeaning": "Here, \"because\" means shows why a pop song can be famous",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "| I use it because...",
+        "contextMeaning": "Here, \"because\" means use because to give a reason",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -9210,6 +9249,7 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -9512,6 +9552,13 @@
         "sentence": "It is interesting that people still listen to music written before cars, phones, movies, airplanes, and the internet.",
         "contextMeaning": "Here, \"before\" means music made earlier than cars, phones, and the internet",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "5: Which word can we use before milk?",
+        "contextMeaning": "Here, \"before\" means the grammar question asks about the word before milk",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -12502,7 +12549,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -12559,6 +12607,13 @@
         "sentence": "Instead of typing a few keywords, users will be able to bring text, images, files, videos, and even Chrome tabs into the query.",
         "contextMeaning": "Here, \"bring\" means people can add text, pictures, and other things to their search",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Do you bring your own bag?",
+        "contextMeaning": "Here, \"bring\" means you take your own bag to the supermarket",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -13380,7 +13435,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -13388,6 +13444,13 @@
         "sentence": "Best Buy, a large American electronics store, lowered the price of Metroid Prime 4: Beyond to $39.99 for the physical Nintendo Switch version.",
         "contextMeaning": "Here, \"buy\" means fans wondered if they should get the game by giving money for it",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
+        "contextMeaning": "Here, \"buy\" means mina buys food at the supermarket",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -13451,7 +13514,8 @@
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -13473,6 +13537,13 @@
         "sentence": "The facts stay the same: Mina wakes up, eats breakfast, checks her bag, waits at the bus stop, buys milk and eggs, talks to the cashier, and goes home.",
         "contextMeaning": "Here, \"buys\" means mina gets milk and eggs by paying for them",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "She buys rice, apples, and milk for dinner.",
+        "contextMeaning": "Here, \"buys\" means mina gets food by paying money",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -14484,7 +14555,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -14492,6 +14564,13 @@
         "sentence": "Today you will hear next to, fitting room, cash, and card is not working.",
         "contextMeaning": "Here, \"card\" means this is a plastic thing you use to pay for things",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Answer Starters: At the checkout, Mina pays by card.",
+        "contextMeaning": "Here, \"card\" means mina pays by card",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -14944,12 +15023,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
+        "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "A basket is easy to carry.",
         "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -15066,8 +15153,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3"
     ],
     "contexts": [
       {
@@ -15075,13 +15161,6 @@
         "sentence": "Today you will hear next to, fitting room, cash, and card is not working.",
         "contextMeaning": "Here, \"cash\" means this word means money you can touch, like coins and bills",
         "source": "episode-supported",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Answer Starters: At the checkout, people pay with cash, cards, or phones.",
-        "contextMeaning": "Here, \"cash\" means some people pay with cash",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -17291,7 +17370,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-05-21-a1-supermarket-find-and-pay"
+      "episode-2026-05-21-a1-supermarket-find-and-pay",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -17299,6 +17379,13 @@
         "sentence": "Ask where food is in a supermarket, understand simple directions, and pay at the checkout.",
         "contextMeaning": "Here, \"checkout\" means where you give money for food in the store",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Answer Starters: At the checkout, Mina pays by card.",
+        "contextMeaning": "Here, \"checkout\" means mina pays at the checkout",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -20198,7 +20285,7 @@
   "cold": {
     "word": "cold",
     "definition": "Low in temperature",
-    "cefrLevel": "B1",
+    "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
     "exampleGeneral": "",
@@ -20206,9 +20293,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "One short sentence can help: \"I need a basket,\" \"I buy some milk,\" or \"I pay by card.\" supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
+        "contextMeaning": "Here, \"cold\" means low in temperature",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A warm coat protects you from cold weather.",
@@ -21161,7 +21256,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -21190,6 +21286,13 @@
         "sentence": "That common problem is the center of today’s story.",
         "contextMeaning": "Here, \"common\" means a problem that many people have or see often",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "One short sentence can help: \"I need a basket,\" \"I buy some milk,\" or \"I pay by card.\" supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -24269,21 +24372,6 @@
       }
     ]
   },
-  "convenience store": {
-    "word": "convenience store",
-    "definition": "A small shop that is open for many hours",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": []
-  },
   "convenient": {
     "word": "convenient",
     "definition": "Good and easy time for you",
@@ -24555,6 +24643,29 @@
         "sentence": "It is also about roads, rest stops, markets, and conversations between strangers.",
         "contextMeaning": "Here, \"conversations\" means talking between people who do not know each other",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cook": {
+    "word": "cook",
+    "definition": "Make food with heat",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "This is helpful when she does not want to cook.",
+        "contextMeaning": "Here, \"cook\" means mina does not want to make dinner at home",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -27063,7 +27174,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -27076,6 +27188,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Where do you hear classical music in daily life, movies, restaurants, ceremonies, or concerts?",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "One short sentence can help: \"I need a basket,\" \"I buy some milk,\" or \"I pay by card.\" supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
         "contextMeaning": "Here, \"daily\" means happening every day",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -30751,7 +30870,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -30759,6 +30879,13 @@
         "sentence": "Maybe you have a drink, a book, or dinner with family.",
         "contextMeaning": "Here, \"dinner\" means the evening meal with your family",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "She buys rice, apples, and milk for dinner.",
+        "contextMeaning": "Here, \"dinner\" means the main meal people eat in the evening",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -33428,7 +33555,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -33590,6 +33718,13 @@
         "sentence": "Each group has a different sound and role.",
         "contextMeaning": "Here, \"each\" means every group has its own sound and job",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "one comprehension question and one personal question for each part.",
+        "contextMeaning": "Here, \"each\" means each part has one comprehension question",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -34146,7 +34281,8 @@
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -34180,6 +34316,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "His music may not always feel easy, but it often feels deep and timeless.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "A basket is easy to carry.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -37151,7 +37294,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2"
+      "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -37159,6 +37303,13 @@
         "sentence": "Have you ever been surprised when two old rivals sit down together?",
         "contextMeaning": "Here, \"ever\" means at any time in your life, have you felt this way",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "3: Do you ever buy ready-made food?",
+        "contextMeaning": "Here, \"ever\" means the question asks if you buy this food at any time",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -37201,6 +37352,7 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -37394,6 +37546,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "What food do you buy every week?",
+        "contextMeaning": "Here, \"every\" means the question asks about one week again and again",
+        "source": "manual_supermarket_lesson_repair",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "This lesson continues the earlier transport lesson, but it does not practice every transport problem.",
         "contextMeaning": "Here, \"every\" means not all travel problems, but some, are practiced here",
@@ -37415,7 +37574,8 @@
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "2026-05-25-a1-grammar-core-gaps-test"
+      "2026-05-25-a1-grammar-core-gaps-test",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -37437,6 +37597,13 @@
         "sentence": "They show which everyday A1 patterns need more practice.",
         "contextMeaning": "Here, \"everyday\" means normal A1 patterns people use all the time",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Supermarket English is everyday English.",
+        "contextMeaning": "Here, \"everyday\" means supermarket English is useful in normal life",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -42131,7 +42298,8 @@
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -42223,6 +42391,13 @@
         "sentence": "The first menu should stay simple: coffee, matcha, charcoal latte if the story is strong, a few sweets or light foods, and retail goods such as cups, plates, drippers, or coasters.",
         "contextMeaning": "Here, \"few\" means a small number of sweets or light foods on the menu",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
+        "contextMeaning": "Here, \"few\" means mina needs a small number of things",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -45797,9 +45972,9 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
-        "contextMeaning": "Here, \"fruit\" means people buy fruit at supermarkets",
-        "source": "authored_reading_vocabulary",
+        "sentence": "One short sentence can help: \"I need a basket,\" \"I buy some milk,\" or \"I pay by card.\" supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
+        "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants or trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -47347,6 +47522,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -47355,6 +47531,13 @@
         "sentence": "He opens a box of silk and tea and asks, “Where will this go?” That simple question opens a much bigger story.",
         "contextMeaning": "Here, \"go\" means it asks about the direction of travel",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Warm-up: Do you often go to a supermarket?",
+        "contextMeaning": "Here, \"go\" means the question asks about moving to a supermarket",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -47555,7 +47738,7 @@
   },
   "goes": {
     "word": "goes",
-    "definition": "Moves from one place to another",
+    "definition": "Moves to a place",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -47564,9 +47747,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Mina goes to the supermarket after work.",
+        "contextMeaning": "Here, \"goes\" means mina moves from work to the supermarket",
+        "source": "manual_supermarket_lesson_repair",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Which train goes to Riverside?",
@@ -47848,7 +48039,7 @@
       },
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "After that, try a short grammar quiz with shopping sentences.",
+        "sentence": "Answer Starters: 🔤 Grammar Check: a/an, some, many Look at three supermarket sentences: Answer Starters: Final Reflection You do not need long English at a supermarket.",
         "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -56488,6 +56679,7 @@
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -56671,6 +56863,13 @@
         "sentence": "Introduction Many people think that menus, apps, and websites simply show information.",
         "contextMeaning": "Here, \"introduction\" means the first part that tells what is coming",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Introduction Supermarket English is everyday English.",
+        "contextMeaning": "Here, \"introduction\" means this is the first part of the lesson",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -62582,7 +62781,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -62604,6 +62804,13 @@
         "sentence": "Together, they make smart glasses that look quite normal, but include digital tools inside.",
         "contextMeaning": "Here, \"look\" means to appear or seem in a certain way",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Look at three supermarket sentences: - I need a basket.",
+        "contextMeaning": "Here, \"look\" means look at the example sentences",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -63925,7 +64132,8 @@
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -63947,6 +64155,13 @@
         "sentence": "It may not tell you the meaning with words, but it can make you feel a story.",
         "contextMeaning": "Here, \"make\" means help you feel a story without words",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "5: Make one supermarket sentence with some.",
+        "contextMeaning": "Here, \"make\" means make a sentence means write or say one sentence",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -64634,7 +64849,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -64964,6 +65180,13 @@
         "sentence": "Classical music is different because many pieces were written hundreds of years ago, but people still perform them today.",
         "contextMeaning": "Here, \"many\" means a large number of music pieces",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Practice a/an, some, and many with supermarket sentences.",
+        "contextMeaning": "Here, \"many\" means use many with things you can count",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -67644,6 +67867,29 @@
         "sentence": "Our key word is milestone.",
         "contextMeaning": "Here, \"milestone\" means an important event or stage in development",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "milk": {
+    "word": "milk",
+    "definition": "A white drink used in many meals",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "She buys rice, apples, and milk for dinner.",
+        "contextMeaning": "Here, \"milk\" means mina buys some milk",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -71080,7 +71326,7 @@
   },
   "need": {
     "word": "need",
-    "definition": "Want something because it is important",
+    "definition": "Must have or want",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -71089,9 +71335,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Look at three supermarket sentences: - I need a basket.",
+        "contextMeaning": "Here, \"need\" means you can say what you must have",
+        "source": "manual_supermarket_lesson_repair",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "What word can you say when you need the answer again?",
@@ -71193,6 +71447,7 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -71327,6 +71582,13 @@
         "sentence": "Theseus needs Ariadne's thread to escape the Labyrinth.",
         "contextMeaning": "Here, \"needs\" means theseus must have Ariadne's thread to leave safely",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Mina only needs a few things, so she takes a basket.",
+        "contextMeaning": "Here, \"needs\" means mina must have a basket for her food",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -73588,7 +73850,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -73792,6 +74055,13 @@
         "sentence": "When people hear the words classical music, they often imagine an orchestra, a concert hall, or music written by famous composers like Mozart or Beethoven.",
         "contextMeaning": "Here, \"often\" means means many people think of these things with classical music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Warm-up: Do you often go to a supermarket?",
+        "contextMeaning": "Here, \"often\" means the question asks if you go many times",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -74137,6 +74407,7 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -74187,6 +74458,13 @@
         "sentence": "One reason classical music feels powerful is the orchestra.",
         "contextMeaning": "Here, \"one\" means a single reason why classical music feels strong",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "one comprehension question and one personal question for each part.",
+        "contextMeaning": "Here, \"one\" means use a or an for one thing",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -76356,6 +76634,29 @@
       }
     ]
   },
+  "pack": {
+    "word": "pack",
+    "definition": "Put things into a bag",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Warm-Up Questions 🛒 Part 1: Buy Food Useful Phrases Simple Explanation 🧺 Part 2: Basket or Cart Useful Phrases Simple Explanation 🍱 Part 3: Ready-Made Food Useful Phrases 💳 Part 4: Pay and Pack Useful Phrases 🔤 Grammar Check: a/an, some, many Simple Explanation Final Reflection You do not need long English at a supermarket.",
+        "contextMeaning": "Here, \"pack\" means mina puts her food in her own bag",
+        "source": "manual_supermarket_lesson_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "package": {
     "word": "package",
     "definition": "A box or bag with things inside",
@@ -76963,6 +77264,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -76971,6 +77273,13 @@
         "sentence": "A region is one part of a country, like a state or an area.",
         "contextMeaning": "Here, \"part\" means a piece or section of a larger place",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "one comprehension question and one personal question for each part.",
+        "contextMeaning": "Here, \"part\" means each supermarket section is one piece of the lesson",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -77786,6 +78095,29 @@
       }
     ]
   },
+  "pay": {
+    "word": "pay",
+    "definition": "Give money for something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
+        "contextMeaning": "Here, \"pay\" means mina gives money at the checkout",
+        "source": "manual_supermarket_lesson_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "pay by card": {
     "word": "pay by card",
     "definition": "Pay with a bank card",
@@ -77917,7 +78249,8 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -77953,6 +78286,13 @@
         "sentence": "Money is sensitive: the party that pays setup will expect control and upside.",
         "contextMeaning": "Here, \"pays\" means the group who gives money to start the project",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "At the checkout, Mina pays by card.",
+        "contextMeaning": "Here, \"pays\" means mina gives money by card",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -85209,7 +85549,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-05-21-a1-supermarket-find-and-pay"
+      "episode-2026-05-21-a1-supermarket-find-and-pay",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -85224,6 +85565,13 @@
         "sentence": "She puts it in her basket.",
         "contextMeaning": "Here, \"puts\" means she moves the item into her basket",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "She puts the food in her own bag.",
+        "contextMeaning": "Here, \"puts\" means mina moves the food into her bag",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -86464,6 +86812,29 @@
         "sentence": "It shows the idea before the final car is ready for sale.",
         "contextMeaning": "Here, \"ready\" means prepared or in a suitable state for something",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ready-made": {
+    "word": "ready-made",
+    "definition": "Already prepared",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "She buys a ready-made meal and some salad.",
+        "contextMeaning": "Here, \"ready-made\" means the food is already prepared before Mina buys it",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -93784,6 +94155,29 @@
       }
     ]
   },
+  "salad": {
+    "word": "salad",
+    "definition": "A cold dish with vegetables",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "She buys a ready-made meal and some salad.",
+        "contextMeaning": "Here, \"salad\" means mina buys some salad",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sale": {
     "word": "sale",
     "definition": "When things are sold to people",
@@ -98183,7 +98577,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -98191,6 +98586,13 @@
         "sentence": "Before, many fans asked, “Is this game finally here?” After the sale appeared, they asked, “Should I buy it now?” A lower price can change shopping decisions very fast.",
         "contextMeaning": "Here, \"shopping\" means the act of deciding to buy things",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Shopping at a Supermarket 🛒 Part 1: Buy Food Mina goes to the supermarket after work.",
+        "contextMeaning": "Here, \"shopping\" means buying things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -99998,6 +100400,29 @@
         "sentence": "In this lesson, you will practice simple English for this situation.",
         "contextMeaning": "Here, \"situation\" means the health problem or moment you practice English for",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "situations": {
+    "word": "situations",
+    "definition": "Things that are happening",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Read simple supermarket situations.",
+        "contextMeaning": "Here, \"situations\" means things that are happening",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -101922,6 +102347,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -102056,6 +102482,13 @@
         "sentence": "That is why restaurants, hotels, and wine events sometimes use classical music.",
         "contextMeaning": "Here, \"sometimes\" means restaurants, hotels, and events use classical music now and then",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "| I sometimes buy...",
+        "contextMeaning": "Here, \"sometimes\" means this helps you give a short personal answer",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -102926,6 +103359,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -103130,6 +103564,13 @@
         "sentence": "Final Speaking Task Useful Topic Vocabulary Do you think a hero must be morally good, or can a hero be great but dangerous?",
         "contextMeaning": "Here, \"speaking\" means the task where you talk about heroes",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "FINAL SPEAKING: You are in a supermarket.",
+        "contextMeaning": "Here, \"speaking\" means the final task is for short spoken answers",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -108568,31 +109009,8 @@
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "Do you often go to a supermarket?",
-        "contextMeaning": "Here, \"supermarket\" means people buy food and drinks at a supermarket",
+        "contextMeaning": "Here, \"supermarket\" means mina buys food at a supermarket",
         "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "supermarkets": {
-    "word": "supermarkets",
-    "definition": "A large shop for food and daily things",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "Many people go to supermarkets to buy food and drinks.",
-        "contextMeaning": "Here, \"supermarkets\" means people buy food and drinks at a supermarket",
-        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -110262,7 +110680,7 @@
   },
   "take": {
     "word": "take",
-    "definition": "To get or carry something with you",
+    "definition": "Get and use",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -110271,9 +110689,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "2: Why does Mina take a basket?",
+        "contextMeaning": "Here, \"take\" means mina gets and uses a basket",
+        "source": "manual_supermarket_lesson_repair",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "The plan is simple: take the Green Line, change at City Hall, and get off at Riverside.",
@@ -110325,7 +110751,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -110389,6 +110816,13 @@
         "sentence": "Today’s story takes us to Paris, where bright screens, new robots, and big promises filled a famous tech event called VivaTech.",
         "contextMeaning": "Here, \"takes\" means brings us to the city of Paris in the tale",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Mina only needs a few things, so she takes a basket.",
+        "contextMeaning": "Here, \"takes\" means mina gets a basket and uses it",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -112920,7 +113354,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -113012,6 +113447,13 @@
         "sentence": "Mozart could make difficult things sound easy.",
         "contextMeaning": "Here, \"things\" means hard ideas or parts of music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Mina only needs a few things, so she takes a basket.",
+        "contextMeaning": "Here, \"things\" means mina only needs a few items",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -113684,7 +114126,8 @@
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -113783,6 +114226,13 @@
         "sentence": "Write or say three sentences about what you would do if you lost your phone at a station.",
         "contextMeaning": "Here, \"three\" means say or write three sentences about losing a phone",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Look at three supermarket sentences: - I need a basket.",
+        "contextMeaning": "Here, \"three\" means there are three supermarket sentences",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -114587,7 +115037,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -114658,6 +115109,13 @@
         "sentence": "What can you say if you feel tired?",
         "contextMeaning": "Here, \"tired\" means feeling sleepy or without energy that you can say",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Mina is tired today.",
+        "contextMeaning": "Here, \"tired\" means mina wants an easy dinner because she needs rest",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -119525,7 +119983,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3"
+      "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -119540,6 +119999,13 @@
         "sentence": "Because both are nearby, cooks in Skåne can use ingredients from field and sea on the same plate.",
         "contextMeaning": "Here, \"use\" means to take ingredients from the field and sea to make meals",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "You can use a few short sentences to buy food, ask for help, and pay.",
+        "contextMeaning": "Here, \"use\" means mina uses a basket for shopping",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
@@ -119593,6 +120059,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special"
@@ -119699,6 +120166,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is useful general knowledge because it appears in many parts of culture.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -119996,6 +120470,7 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan"
     ],
     "contexts": [
@@ -120123,6 +120598,13 @@
         "sentence": "Do you usually prefer music with words or music without words?",
         "contextMeaning": "Here, \"usually\" means means what you like most of the time about music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "1: What do you usually buy at a supermarket?",
+        "contextMeaning": "Here, \"usually\" means the question asks what you buy most weeks",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       },
       {
@@ -120487,8 +120969,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -120503,13 +120984,6 @@
         "sentence": "It is a warm noodle dish with vegetables.",
         "contextMeaning": "Here, \"vegetables\" means part of houtou",
         "source": "codex_manual_snack_bar_rebuild",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
-        "sentence": "People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
-        "contextMeaning": "Here, \"vegetables\" means people buy vegetables for meals",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -126759,6 +127233,29 @@
         "sentence": "The milk is 200 yen.",
         "contextMeaning": "Here, \"yen\" means the price of the milk is 200 yen",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "yes": {
+    "word": "yes",
+    "definition": "A positive answer",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-03-shopping-at-a-supermarket"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
+        "sentence": "STARTERS 3: Yes, I buy...",
+        "contextMeaning": "Here, \"yes\" means say yes when the answer is true",
+        "source": "manual_supermarket_lesson_repair",
         "confidence": "trusted"
       }
     ]
