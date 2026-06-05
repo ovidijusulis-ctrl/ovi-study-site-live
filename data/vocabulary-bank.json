@@ -3833,6 +3833,52 @@
       }
     ]
   },
+  "animal": {
+    "word": "animal",
+    "definition": "A living thing like a dog, cat, or bird",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "For example, an animal does not need to understand the full physics of light.",
+        "contextMeaning": "Here, \"animal\" means a living thing like a dog, cat, or bird",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "animals": {
+    "word": "animals",
+    "definition": "A living thing like a dog, cat, or bird",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "We usually say, \"The apple is red.\" But more carefully, we can say: \"The apple reflects certain light waves, and my brain creates the experience of red.\" Different animals may experience color differently.",
+        "contextMeaning": "Here, \"animals\" means a living thing like a dog, cat, or bird",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "animation": {
     "word": "animation",
     "definition": "Moving pictures made from many still images",
@@ -4698,12 +4744,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "Answer Starters: Use a or an for one thing: a basket, a shopping cart, an apple.",
+        "contextMeaning": "Here, \"apple\" means a round fruit that grows on trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Now think about a red apple.",
         "contextMeaning": "Here, \"apple\" means a round fruit that grows on trees",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -6359,6 +6413,29 @@
         "sentence": "The atmosphere matters as much as the menu.",
         "contextMeaning": "Here, \"atmosphere\" means how the place feels is as important as the food list",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "atoms": {
+    "word": "atoms",
+    "definition": "A tiny unit of matter",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "You see \"red,\" \"round,\" and \"solid.\" But physics says the apple is made of atoms, forces, light waves, empty space, and energy.",
+        "contextMeaning": "Here, \"atoms\" means an apple is made of atoms, forces, and energy",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -9845,7 +9922,8 @@
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -9865,6 +9943,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "Sara does not begin by pointing at every box.",
+        "contextMeaning": "Here, \"begin\" means to start",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "We stop thinking, \"My view is the whole truth.\" We begin to think, \"My view is one useful map.\" This helps in arguments, learning, relationships, and emotions.",
         "contextMeaning": "Here, \"begin\" means to start",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -22860,7 +22945,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -22868,6 +22954,13 @@
         "sentence": "Artificial intelligence, or AI, means computer systems that can do tasks that seem intelligent.",
         "contextMeaning": "Here, \"computer\" means machines that can do many jobs using programs",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "This idea is sometimes explained with a computer desktop.",
+        "contextMeaning": "Here, \"computer\" means a machine used for digital work",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -26623,7 +26716,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -26671,6 +26765,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "The pattern is simple: an object gets a story, the story creates emotion, the emotion creates desire, desire creates demand, and demand can raise the price.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It needs to know: \"Is that a predator?\" \"Is that food?\" \"Is that safe?\" \"Can I move there?\" So the brain creates quick, useful experiences.",
         "contextMeaning": "Here, \"creates\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -28055,6 +28156,29 @@
         "sentence": "The darker idea is that humans choose without understanding the full meaning of their choices.",
         "contextMeaning": "Here, \"darker\" means a more serious thought about people choosing without full knowledge",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dashboard": {
+    "word": "dashboard",
+    "definition": "A display that shows important information",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It is more like a survival dashboard.",
+        "contextMeaning": "Here, \"dashboard\" means perception is compared to a survival dashboard",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -30415,7 +30539,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -30463,6 +30588,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Baroque music shows order, religion, and detail.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Is it more useful to see every detail, or to see only the information you need?",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -31038,7 +31170,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -31065,6 +31198,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "The material may be the same, but most people would feel very differently about touching or wearing them.",
+        "contextMeaning": "Here, \"differently\" means in a different way",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "We usually say, \"The apple is red.\" But more carefully, we can say: \"The apple reflects certain light waves, and my brain creates the experience of red.\" Different animals may experience color differently.",
         "contextMeaning": "Here, \"differently\" means in a different way",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -32096,7 +32236,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -32118,6 +32259,13 @@
         "sentence": "Menus, apps, and websites do more than display information.",
         "contextMeaning": "Here, \"display\" means show information on menus, apps, and websites",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "The 3D space is a useful display.",
+        "contextMeaning": "Here, \"display\" means a video game world is a useful display",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -32658,6 +32806,29 @@
         "sentence": "Doge is one of the most famous image memes.",
         "contextMeaning": "Here, \"doge\" means a very well-known funny dog picture used on the internet",
         "source": "lexical_support_regenerator/material_surface",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dogs": {
+    "word": "dogs",
+    "definition": "A common animal kept as a pet",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Do you think colors exist exactly the same way for humans, dogs, and bees?",
+        "contextMeaning": "Here, \"dogs\" means a common animal kept as a pet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -36435,7 +36606,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -36455,6 +36627,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Which feeling do you usually enjoy in music: peace, beauty, drama, mystery, or energy?",
+        "contextMeaning": "Here, \"energy\" means power for action or movement",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "You see \"red,\" \"round,\" and \"solid.\" But physics says the apple is made of atoms, forces, light waves, empty space, and energy.",
         "contextMeaning": "Here, \"energy\" means power for action or movement",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -38478,6 +38657,29 @@
       }
     ]
   },
+  "evolve": {
+    "word": "evolve",
+    "definition": "Slowly develop over time",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Why the Brain May Simplify Reality The brain did not evolve mainly to know the truth.",
+        "contextMeaning": "Here, \"evolve\" means the brain evolved to help living things survive",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "exact": {
     "word": "exact",
     "definition": "Just right, not close or almost",
@@ -38623,7 +38825,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -38631,6 +38834,13 @@
         "sentence": "For years, big tech companies have promised exactly that.",
         "contextMeaning": "Here, \"exactly\" means said something very clearly and correctly",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Do you think colors exist exactly the same way for humans, dogs, and bees?",
+        "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -44948,6 +45158,52 @@
       }
     ]
   },
+  "flower": {
+    "word": "flower",
+    "definition": "The colorful part of a plant",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "So which version is the real flower?",
+        "contextMeaning": "Here, \"flower\" means the colorful part of a plant",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "flowers": {
+    "word": "flowers",
+    "definition": "The colorful part of a plant",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Bees may see patterns on flowers that are invisible to us.",
+        "contextMeaning": "Here, \"flowers\" means the colorful part of a plant",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "fluent": {
     "word": "fluent",
     "definition": "Speak or write easily and smoothly",
@@ -46879,7 +47135,8 @@
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -46901,6 +47158,13 @@
         "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
         "contextMeaning": "Here, \"fruit\" means people can buy fruit at supermarkets",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Red fruit may look bright and noticeable.",
+        "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants or trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -48605,7 +48869,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -48639,6 +48904,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "The goal is not to understand everything.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "The goal is not to escape human perception.",
         "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -54162,6 +54434,52 @@
       }
     ]
   },
+  "icon": {
+    "word": "icon",
+    "definition": "A small picture or symbol on a computer",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "The icon looks like a small document.",
+        "contextMeaning": "Here, \"icon\" means a desktop icon hides deeper computer complexity",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "icons": {
+    "word": "icons",
+    "definition": "A small picture or symbol on a computer",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "On a computer screen, you see folders, icons, buttons, and a mouse pointer.",
+        "contextMeaning": "Here, \"icons\" means a desktop icon hides deeper computer complexity",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "idea": {
     "word": "idea",
     "definition": "A thought or plan in your mind",
@@ -54309,7 +54627,8 @@
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -54378,6 +54697,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is a large world of music written with careful structure, deep emotion, and long-lasting ideas.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -57353,7 +57679,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -57361,6 +57688,13 @@
         "sentence": "Google I/O 2026 was less a conventional product showcase than a statement about where large technology platforms believe the next interface will live.",
         "contextMeaning": "Here, \"interface\" means the next way people will use big tech systems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It may show you a useful interface: colors, sounds, objects, distance, and space.",
+        "contextMeaning": "Here, \"interface\" means the brain may give us an interface for reality",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -57592,7 +57926,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -57600,6 +57935,13 @@
         "sentence": "Google is trying to turn AI into an ambient layer of interpretation and action.",
         "contextMeaning": "Here, \"interpretation\" means how you understand or explain something",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It may be a survival signal, a painful interpretation, not reality itself.",
+        "contextMeaning": "Here, \"interpretation\" means a strong feeling may be an interpretation",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -61219,7 +61561,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -61253,6 +61596,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Human review provides an additional layer of judgment and quality control.",
+        "contextMeaning": "Here, \"layer\" means one part of the technology stack or decision process",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "We do not see every hidden layer directly.",
         "contextMeaning": "Here, \"layer\" means one part of the technology stack or decision process",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
@@ -61679,12 +62029,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "For an internship, both can be valuable if the student learns how energy reaches real people.",
+        "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "A strong thinker learns to pause and ask: \"Is this reality, or is this my brain's quick interpretation?\" This is extremely useful.",
         "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -62520,6 +62878,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "light wave": {
+    "word": "light wave",
+    "definition": "Moving light energy",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": []
   },
   "lighter": {
     "word": "lighter",
@@ -64595,6 +64968,29 @@
         "sentence": "In Kofu, a small cafe can show you a lot about Yamanashi life.",
         "contextMeaning": "Here, \"lot\" means a great deal or a large amount of information",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "loud": {
+    "word": "loud",
+    "definition": "Making a lot of noise",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "A loud sound may feel dangerous.",
+        "contextMeaning": "Here, \"loud\" means making a lot of noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -68599,7 +68995,8 @@
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -68626,6 +69023,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Have you ever kept a ticket, photo, keychain, or small gift because of a memory?",
+        "contextMeaning": "Here, \"memory\" means a thought from the past that you remember",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Inside the machine, there are electrical signals, code, memory, and hardware.",
         "contextMeaning": "Here, \"memory\" means a thought from the past that you remember",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -72834,6 +73238,29 @@
       }
     ]
   },
+  "nectar": {
+    "word": "nectar",
+    "definition": "Sweet liquid in flowers",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "For bees, ultraviolet patterns may help them find nectar.",
+        "contextMeaning": "Here, \"nectar\" means ultraviolet patterns may help bees find nectar",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "need": {
     "word": "need",
     "definition": "Must have or want",
@@ -75009,6 +75436,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "observer self": {
+    "word": "observer self",
+    "definition": "The part of you that can notice thoughts and feelings",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": []
   },
   "obvious": {
     "word": "obvious",
@@ -80421,6 +80863,29 @@
       }
     ]
   },
+  "perception": {
+    "word": "perception",
+    "definition": "The way we experience the world through the senses",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Maybe perception works in a similar way.",
+        "contextMeaning": "Here, \"perception\" means the way we experience the world through the senses",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "percussion": {
     "word": "percussion",
     "definition": "Instruments you hit or shake to make sound",
@@ -84307,6 +84772,29 @@
       }
     ]
   },
+  "predator": {
+    "word": "predator",
+    "definition": "An animal that hunts other animals",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It needs to know: \"Is that a predator?\" \"Is that food?\" \"Is that safe?\" \"Can I move there?\" So the brain creates quick, useful experiences.",
+        "contextMeaning": "Here, \"predator\" means an animal needs to notice a predator quickly",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "predictable": {
     "word": "predictable",
     "definition": "Easy to know what will happen next",
@@ -84329,6 +84817,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "prediction machine": {
+    "word": "prediction machine",
+    "definition": "A system that guesses what will happen next",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": []
   },
   "prefectures": {
     "word": "prefectures",
@@ -88389,7 +88892,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why"
+      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -88397,6 +88901,13 @@
         "sentence": "One rider on a big coaster was heard saying, “I was terrified before it moved, and then I wanted to ride again.” That reaction makes sense.",
         "contextMeaning": "Here, \"reaction\" means how the rider felt and acted after being scared",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It creates space between perception and reaction.",
+        "contextMeaning": "Here, \"reaction\" means pausing creates space between perception and reaction",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -95668,7 +96179,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -95723,6 +96235,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "We often give meaning to things because meaning helps us feel connected, confident, or safe.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It needs to know: \"Is that a predator?\" \"Is that food?\" \"Is that safe?\" \"Can I move there?\" So the brain creates quick, useful experiences.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -97304,7 +97823,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -97324,6 +97844,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Items near the top, in the center, or on the first screen are often easier to see.",
+        "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "On a computer screen, you see folders, icons, buttons, and a mouse pointer.",
         "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -101402,7 +101929,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -101410,6 +101938,13 @@
         "sentence": "The two prototypes are also a signal about timing.",
         "contextMeaning": "Here, \"signal\" means the two models show a sign about time",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It may be a survival signal, a painful interpretation, not reality itself.",
+        "contextMeaning": "Here, \"signal\" means senses give useful signals",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -101427,7 +101962,8 @@
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -101449,6 +101985,13 @@
         "sentence": "It reads tiny signals from your muscles.",
         "contextMeaning": "Here, \"signals\" means tiny messages from muscles to the system",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Inside the machine, there are electrical signals, code, memory, and hardware.",
+        "contextMeaning": "Here, \"signals\" means senses give useful signals",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -101897,6 +102440,29 @@
         "sentence": "As a result, design can make one choice feel simpler or more important than another.",
         "contextMeaning": "Here, \"simpler\" means one choice feels easier or more important than another",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "simplified": {
+    "word": "simplified",
+    "definition": "Made easier and less detailed",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "What if we see only a simplified version made by the brain?",
+        "contextMeaning": "Here, \"simplified\" means the brain may show a simplified version of reality",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -102957,12 +103523,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "The water is slowly leaking onto the floor.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary perception - the way we experience the world through the senses interface - a simple way to use something complex simplified - made easier and less detailed evolve - slowly develop over time survive - stay alive predator - an animal that hunts other animals dashboard - a display that shows important information signal - a sign or piece of information icon - a small picture or symbol on a computer atom - a tiny unit of matter light wave - moving light energy ultraviolet - light humans cannot see nectar - sweet liquid in flowers display - a shown version of information prediction machine - a system that guesses what will happen next observer self - the part of you that can notice thoughts and feelings interpretation - one way of understanding something reaction - what you do after something happens",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -111943,7 +112517,8 @@
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -111972,6 +112547,13 @@
         "sentence": "Camels were very useful because they could carry heavy loads and survive in dry places.",
         "contextMeaning": "Here, \"survive\" means camels can live in dry, hot places",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "It evolved to help living things survive.",
+        "contextMeaning": "Here, \"survive\" means useful signals help animals survive",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -120531,7 +121113,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -120551,6 +121134,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Oedipus' intelligence helps him solve the riddle of the Sphinx, but his certainty pushes him toward a terrible truth.",
+        "contextMeaning": "Here, \"truth\" means what is real or correct",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Why the Brain May Simplify Reality The brain did not evolve mainly to know the truth.",
         "contextMeaning": "Here, \"truth\" means what is real or correct",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -122439,6 +123029,7 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-shopping-at-a-convenience-store"
     ],
     "contexts": [
@@ -122571,6 +123162,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Some objects are valuable because they are useful.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Is it more useful to see every detail, or to see only the information you need?",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -127445,12 +128043,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-apartment-repair-explain-the-problem",
         "sentence": "It is in the kitchen, under the window.",
+        "contextMeaning": "Here, \"window\" means an opening with glass in a wall",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "You see a table, a wall, a window, your phone, and maybe another person.",
         "contextMeaning": "Here, \"window\" means an opening with glass in a wall",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -128611,7 +129217,8 @@
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -128673,6 +129280,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Bach worked as a church musician for much of his life, so many of his works were written for religious services.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+        "sentence": "Maybe perception works in a similar way.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
