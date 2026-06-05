@@ -7798,6 +7798,29 @@
       }
     ]
   },
+  "bakeries": {
+    "word": "bakeries",
+    "definition": "A shop that sells bread and cakes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "For Here or Takeaway Some bakeries have small tables.",
+        "contextMeaning": "Here, \"bakeries\" means many people buy bread at a bakery",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "bakery": {
     "word": "bakery",
     "definition": "A place that sells bread and baked food",
@@ -7809,13 +7832,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals. Some supermarkets also have bakeries or small food courts. This is helpful when people are busy or tired.",
         "contextMeaning": "Here, \"bakery\" means a place that sells bread and baked food",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Ordering at a Bakery 1.",
+        "contextMeaning": "Here, \"bakery\" means many people buy bread at a bakery",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -14103,6 +14134,29 @@
       }
     ]
   },
+  "cakes": {
+    "word": "cakes",
+    "definition": "A sweet baked food",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
+        "contextMeaning": "Here, \"cakes\" means a sweet baked food",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "calculator": {
     "word": "calculator",
     "definition": "A tool to help with numbers",
@@ -18423,7 +18477,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -18494,6 +18549,13 @@
         "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life.",
         "contextMeaning": "Here, \"choose\" means aI picks who will get a job",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "They choose one or two things.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -21789,7 +21851,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -21823,6 +21886,13 @@
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "One short sentence can help: \"I need a basket,\" \"I buy some milk,\" or \"I pay by card.\" supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -26107,7 +26177,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -26129,6 +26200,13 @@
         "sentence": "Some stations have staff at a ticket counter.",
         "contextMeaning": "Here, \"counter\" means place where staff sell tickets to people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Paying at the Counter After people choose food, they go to the counter.",
+        "contextMeaning": "Here, \"counter\" means people pay at the counter",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -32269,6 +32347,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "display case": {
+    "word": "display case",
+    "definition": "A glass place that shows food",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": []
   },
   "displayed": {
     "word": "displayed",
@@ -45756,7 +45849,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": []
   },
@@ -73105,7 +73199,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -73148,6 +73243,13 @@
         "sentence": "They buzz near your ears.",
         "contextMeaning": "Here, \"near\" means close to your ears",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -80188,7 +80290,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": []
   },
@@ -89564,7 +89667,8 @@
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -89578,6 +89682,13 @@
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "You may need a ticket number, a stamp, or a receipt.",
         "contextMeaning": "Here, \"receipt\" means sara may need proof after submitting",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Then the worker gives a receipt.",
+        "contextMeaning": "Here, \"receipt\" means the worker gives a receipt",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -96838,6 +96949,52 @@
       }
     ]
   },
+  "sandwich": {
+    "word": "sandwich",
+    "definition": "Bread with food inside",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Customer: One egg sandwich, please.",
+        "contextMeaning": "Here, \"sandwich\" means the customer buys an egg sandwich",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "sandwiches": {
+    "word": "sandwiches",
+    "definition": "Bread with food inside",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
+        "contextMeaning": "Here, \"sandwiches\" means the customer buys an egg sandwich",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sang": {
     "word": "sang",
     "definition": "Made music with your voice",
@@ -101091,7 +101248,8 @@
     "episodes": [
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -101111,6 +101269,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A plain coffee cup may be almost worthless in a shop.",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -113545,6 +113710,29 @@
       }
     ]
   },
+  "takeaway": {
+    "word": "takeaway",
+    "definition": "Food you take away from the shop",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "For Here or Takeaway Some bakeries have small tables.",
+        "contextMeaning": "Here, \"takeaway\" means the customer chooses takeaway",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "taken": {
     "word": "taken",
     "definition": "Carried away to another place by someone or something",
@@ -116736,6 +116924,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "this one": {
+    "word": "this one",
+    "definition": "One thing near me",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": []
   },
   "though": {
     "word": "though",
@@ -128927,7 +129130,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -128989,6 +129193,13 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "This lesson is for a snack bar worker or host.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "The worker may ask, \"For here or takeaway?\" If you want to sit, say, \"For here, please.\" If you want to leave, say, \"Takeaway, please.\" Answer Starters: 4.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
