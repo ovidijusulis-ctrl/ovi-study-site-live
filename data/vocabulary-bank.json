@@ -80304,29 +80304,6 @@
       }
     ]
   },
-  "passage": {
-    "word": "passage",
-    "definition": "A short part of a story or text",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-taking-a-taxi"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-taking-a-taxi",
-        "sentence": "Read a simple A1 taxi passage.",
-        "contextMeaning": "Here, \"passage\" means a short text about taxis for A1 learners to read",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "passenger": {
     "word": "passenger",
     "definition": "A person who rides a bus or train",
@@ -97042,7 +97019,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-bank-card-problem",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -97056,6 +97034,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "They ask a harder what happens when a human being has more power, passion, or fame than ordinary life can safely contain?",
         "contextMeaning": "Here, \"safely\" means in a way that does not cause danger or problems",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "People take a taxi when they need to go somewhere quickly or safely.",
+        "contextMeaning": "Here, \"safely\" means to go without being hurt in a taxi",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
