@@ -4010,6 +4010,21 @@
       }
     ]
   },
+  "another size": {
+    "word": "another size",
+    "definition": "A different size",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": []
+  },
   "answer": {
     "word": "answer",
     "definition": "To give a reply or solution",
@@ -15538,9 +15553,18 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-05-21-a1-supermarket-find-and-pay"
+      "episode-2026-05-21-a1-supermarket-find-and-pay",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "Paying for Clothes After people choose clothes, they go to the cashier.",
+        "contextMeaning": "Here, \"cashier\" means the place or worker where people pay",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "cat": {
     "word": "cat",
@@ -17431,7 +17455,8 @@
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
       {
@@ -17453,6 +17478,13 @@
         "sentence": "Big new Nintendo games are often not cheap.",
         "contextMeaning": "Here, \"cheap\" means big new Nintendo games usually cost a lot",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "Some clothes are cheap, and some clothes are expensive.",
+        "contextMeaning": "Here, \"cheap\" means some clothes are cheap",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -20231,7 +20263,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
       {
@@ -20240,8 +20273,30 @@
         "contextMeaning": "Here, \"clothes\" means things people wear",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "Shopping for Clothes 1.",
+        "contextMeaning": "Here, \"clothes\" means people buy clothes at stores",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
+  },
+  "clothes store": {
+    "word": "clothes store",
+    "definition": "A shop that sells clothes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": []
   },
   "clothing": {
     "word": "clothing",
@@ -20924,7 +20979,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
-      "episode-2026-05-21-a2-report-a-lost-item"
+      "episode-2026-05-21-a2-report-a-lost-item",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
       {
@@ -20939,6 +20995,13 @@
         "sentence": "How can you describe color, size, and place?",
         "contextMeaning": "Here, \"color\" means how to say what color the lost thing has",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "Choosing Clothes When people choose clothes, they often think about size, color, and price.",
+        "contextMeaning": "Here, \"color\" means people think about color",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -39765,7 +39828,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
       {
@@ -39815,6 +39879,13 @@
         "sentence": "It is useful where underground pipelines are difficult, expensive, or not practical.",
         "contextMeaning": "Here, \"expensive\" means underground pipelines cost a lot in some places",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "Some clothes are cheap, and some clothes are expensive.",
+        "contextMeaning": "Here, \"expensive\" means some clothes are expensive",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -44512,6 +44583,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "fitting room": {
+    "word": "fitting room",
+    "definition": "A small room for trying clothes on",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": []
   },
   "fixed": {
     "word": "fixed",
@@ -58380,6 +58466,29 @@
         "sentence": "What menu items should be tested first in Australia?",
         "contextMeaning": "Here, \"items\" means means the different food or menu choices to test first",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "jacket": {
+    "word": "jacket",
+    "definition": "Warm clothes for the top of your body",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "A jacket can be black, blue, gray, or brown.",
+        "contextMeaning": "Here, \"jacket\" means friend A wants a new jacket",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -76077,6 +76186,21 @@
       }
     ]
   },
+  "online shop": {
+    "word": "online shop",
+    "definition": "A shop on the internet",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": []
+  },
   "only": {
     "word": "only",
     "definition": "Just one, no more",
@@ -78402,6 +78526,29 @@
         "sentence": "If there is a problem, the worker does not panic.",
         "contextMeaning": "Here, \"panic\" means the worker does not feel scared or worried when there is a problem",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "pants": {
+    "word": "pants",
+    "definition": "Clothes for your legs",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "People can buy shirts, pants, jackets, dresses, socks, and shoes.",
+        "contextMeaning": "Here, \"pants\" means pants can be too long",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -84940,7 +85087,8 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
       {
@@ -85011,6 +85159,13 @@
         "sentence": "They may save a city, defeat a monster, or complete an impossible task, but their victories often carry a heavy price.",
         "contextMeaning": "Here, \"price\" means the bad things heroes face after winning or finishing a hard task",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "Choosing Clothes When people choose clothes, they often think about size, color, and price.",
+        "contextMeaning": "Here, \"price\" means people think about price",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -100262,7 +100417,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
       {
@@ -100277,6 +100433,13 @@
         "sentence": "For example, some people have a lucky pen, lucky socks, or a lucky shirt.",
         "contextMeaning": "Here, \"shirt\" means clothes you wear on the top part of your body",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "A shirt can be small, medium, or large.",
+        "contextMeaning": "Here, \"shirt\" means people can buy shirts",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -100338,7 +100501,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
       {
@@ -100346,6 +100510,13 @@
         "sentence": "Next, the visitor steps inside and hears the floor give a soft sound under their shoes.",
         "contextMeaning": "Here, \"shoes\" means the soft noise happens under the feet coverings",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "People can buy shirts, pants, jackets, dresses, socks, and shoes.",
+        "contextMeaning": "Here, \"shoes\" means people can buy shoes",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -100432,6 +100603,21 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-supermarket-find-and-pay"
+    ],
+    "contexts": []
+  },
+  "shopping mall": {
+    "word": "shopping mall",
+    "definition": "A large place with many shops",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": []
   },
@@ -102296,6 +102482,29 @@
       }
     ]
   },
+  "size": {
+    "word": "size",
+    "definition": "How big or small something is",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "Choosing Clothes When people choose clothes, they often think about size, color, and price.",
+        "contextMeaning": "Here, \"size\" means people think about size when they choose clothes",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sk": {
     "word": "sk",
     "definition": "A name for a place",
@@ -103510,6 +103719,29 @@
         "sentence": "An orchestra is a little like a society.",
         "contextMeaning": "Here, \"society\" means a group working together like an orchestra",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "socks": {
+    "word": "socks",
+    "definition": "Clothes for your feet",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-shopping-for-clothes"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-shopping-for-clothes",
+        "sentence": "People can buy shirts, pants, jackets, dresses, socks, and shoes.",
+        "contextMeaning": "Here, \"socks\" means friend B wants to buy socks",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
