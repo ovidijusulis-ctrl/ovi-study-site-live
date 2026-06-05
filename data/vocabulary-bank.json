@@ -5688,6 +5688,29 @@
       }
     ]
   },
+  "asic": {
+    "word": "asic",
+    "definition": "The Australian office that checks companies",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-22-australia-branch-business-catch-up"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
+        "sentence": "If the foreign company itself carries on business in Australia, ASIC says it must register and receive an ARBN.",
+        "contextMeaning": "Here, \"asic\" means the office for company rules in Australia",
+        "source": "popup_support_router/trusted_technical_term_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "ask": {
     "word": "ask",
     "definition": "To say you want someone to come or do something",
@@ -32139,7 +32162,7 @@
       {
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "The word \"franchise\" is risky because Australian franchise arrangements can trigger strict legal rules and disclosure duties.",
-        "contextMeaning": "Here, \"disclosure duties\" means legal information the business must give to others",
+        "contextMeaning": "Here, \"disclosure duties\" means facts the business must give",
         "source": "popup_support_router/trusted_technical_term_rule",
         "confidence": "trusted"
       }
@@ -46059,6 +46082,29 @@
         "sentence": "ASIC also explains that if the company uses an Australian subsidiary, and the foreign company itself does not carry on business in Australia, foreign-company registration may not be needed.",
         "contextMeaning": "Here, \"foreign-company\" means a company from another country that may need to register",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "foreign-company registration": {
+    "word": "foreign-company registration",
+    "definition": "Official sign-up for an overseas company",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-05-22-australia-branch-business-catch-up"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
+        "sentence": "ASIC also explains that if the company uses an Australian subsidiary, and the foreign company itself does not carry on business in Australia, foreign-company registration may not be needed.",
+        "contextMeaning": "Here, \"foreign-company registration\" means signing up an overseas company in Australia",
+        "source": "popup_support_router/trusted_technical_term_rule",
         "confidence": "trusted"
       }
     ]
@@ -62873,7 +62919,7 @@
   },
   "licensed installers": {
     "word": "licensed installers",
-    "definition": "Workers officially allowed to install something",
+    "definition": "Workers allowed to install something",
     "cefrLevel": "B2",
     "partOfSpeech": "",
     "phonetic": "",
@@ -62888,7 +62934,7 @@
       {
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "It may need licensed installers, testing, insurance, engineering advice, building-code checks, and import documents.",
-        "contextMeaning": "Here, \"licensed installers\" means workers officially allowed to install something",
+        "contextMeaning": "Here, \"licensed installers\" means local workers with official approval",
         "source": "popup_support_router/trusted_technical_term_rule",
         "confidence": "trusted"
       }
