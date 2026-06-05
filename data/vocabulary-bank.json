@@ -1101,7 +1101,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-report-a-lost-item"
+      "episode-2026-05-21-a2-report-a-lost-item",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -1109,6 +1110,13 @@
         "sentence": "Can you write your name and email address here?\" Maya writes her information.",
         "contextMeaning": "Here, \"address\" means maya writes her email contact information",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "People can give an address, a hotel name, or a station name.",
+        "contextMeaning": "Here, \"address\" means the passenger shows the address",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -1961,7 +1969,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-pharmacy-ask-for-medicine"
+      "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": []
   },
@@ -2856,7 +2865,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -2864,6 +2874,13 @@
         "sentence": "For allergies, be direct.",
         "contextMeaning": "Here, \"allergies\" means say clearly if you get sick from food or things",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Do you have any allergies?",
+        "contextMeaning": "Here, \"allergies\" means the worker asks about allergies",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -13474,6 +13491,29 @@
       }
     ]
   },
+  "building": {
+    "word": "building",
+    "definition": "A structure with walls and a roof",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-taking-a-taxi"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary taxi - a car with a driver that people pay to ride in driver - the person who drives a car destination - the place you want to go address - the place where a person or building is hotel - a place where people stay when they travel turn right - move to the right side turn left - move to the left side stop here - finish the ride in this place meter - a taxi machine that shows the price receipt - paper or digital proof that you paid",
+        "contextMeaning": "Here, \"building\" means a structure with walls and a roof",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "building-code": {
     "word": "building-code",
     "definition": "Rules for how to build things safely",
@@ -16251,7 +16291,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -16264,6 +16305,13 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "The traveler is at Central Station.",
+        "contextMeaning": "Here, \"central\" means in the middle or most important part",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "Is this near Central Station?",
         "contextMeaning": "Here, \"central\" means in the middle or most important part",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -26120,7 +26168,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
-      "episode-2026-05-21-a2-clinic-appointment-symptoms"
+      "episode-2026-05-21-a2-clinic-appointment-symptoms",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -26128,6 +26177,13 @@
         "sentence": "The nurse asks, \"Do you have a cough?\" Riko says, \"A little, but not all the time.\" The nurse asks, \"Can you eat and drink?\" Riko says, \"I can drink water, but it hurts when I swallow.\" These answers are useful because they are not only yes or no.",
         "contextMeaning": "Here, \"cough\" means riko has a little throat noise sometimes",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "People can say, \"I have a headache\" or \"I have a cough.\" Answer Starters: 2.",
+        "contextMeaning": "Here, \"cough\" means people can ask for medicine for a cough",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -27910,7 +27966,8 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -27930,6 +27987,13 @@
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "One short sentence can help: \"I need a basket,\" \"I buy some milk,\" or \"I pay by card.\" supermarket - a large shop for food and daily things rice - a common food made from small white grains apples - fruit that can be red, green, or yellow milk - a white drink used in many meals basket - a small container for shopping shopping cart - a large cart with wheels for shopping ready-made meal - food that is already cooked or prepared salad - a cold dish with vegetables checkout - the place where people pay card - a bank or credit card cash - paper money and coins own bag - a bag from home",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Drugstore Help A drugstore sells medicine and daily things.",
         "contextMeaning": "Here, \"daily\" means happening every day",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -31766,7 +31830,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": [
       {
@@ -31816,6 +31881,13 @@
         "sentence": "The Japanese side could provide brand identity, kawara story, product design, menu concept, training, supplier standards, visual direction, and quality checks.",
         "contextMeaning": "Here, \"direction\" means showing how things should look or be done",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "Where is platform three?\" The worker can answer with a simple direction.",
+        "contextMeaning": "Here, \"direction\" means instructions for how to go somewhere",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -33428,7 +33500,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": [
       {
@@ -33441,6 +33514,13 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Before going downstairs, the traveler checks one more time.",
+        "contextMeaning": "Here, \"downstairs\" means on a lower floor",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "They say, \"Go straight,\" \"Turn left,\" \"Go upstairs,\" or \"Go downstairs.\" It is good to repeat the direction before you walk away.",
         "contextMeaning": "Here, \"downstairs\" means on a lower floor",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -34089,7 +34169,8 @@
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -34111,6 +34192,13 @@
         "sentence": "Think about a driver named Kenji.",
         "contextMeaning": "Here, \"driver\" means a person who controls and moves a car named Kenji",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "The driver needs a destination.",
+        "contextMeaning": "Here, \"driver\" means the driver needs a destination",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -34227,6 +34315,29 @@
         "sentence": "For many players, this looked like the first big price drop for the game.",
         "contextMeaning": "Here, \"drop\" means a reduction or lowering of the price of the game",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "drugstore": {
+    "word": "drugstore",
+    "definition": "A shop that sells medicine and daily things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Buying Medicine at a Drugstore 1.",
+        "contextMeaning": "Here, \"drugstore\" means people buy medicine at a drugstore",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -35233,7 +35344,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -35274,6 +35386,13 @@
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "A basket is easy to carry.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "They can say, \"Do you have something for a cough?\" The worker can show a box and ask one or two easy questions.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -40043,6 +40162,52 @@
       }
     ]
   },
+  "exit": {
+    "word": "exit",
+    "definition": "The way out of a place",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-asking-for-directions-in-a-station"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "Where is exit B?",
+        "contextMeaning": "Here, \"exit\" means the traveler asks for exit B",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "exits": {
+    "word": "exits",
+    "definition": "The way out of a place",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-asking-for-directions-in-a-station"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "People see signs for the ticket gate, platforms, exits, and train lines.",
+        "contextMeaning": "Here, \"exits\" means the traveler asks for exit B",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "expands": {
     "word": "expands",
     "definition": "Makes bigger or adds more things",
@@ -42929,6 +43094,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "feel worse": {
+    "word": "feel worse",
+    "definition": "Feel more sick than before",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+    ],
+    "contexts": []
   },
   "feeling": {
     "word": "feeling",
@@ -49083,7 +49263,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": []
   },
@@ -51751,9 +51932,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-pharmacy-ask-for-medicine"
+      "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "People can say, \"I have a headache\" or \"I have a cough.\" Answer Starters: 2.",
+        "contextMeaning": "Here, \"headache\" means the customer has a headache",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "headline": {
     "word": "headline",
@@ -54045,7 +54235,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4"
+      "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -54053,6 +54244,13 @@
         "sentence": "One is a hotel, one is a train ticket, and one is a review page.",
         "contextMeaning": "Here, \"hotel\" means a place where you can stay when you travel",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "People can give an address, a hotel name, or a station name.",
+        "contextMeaning": "Here, \"hotel\" means the passenger goes to Sakura Hotel",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -56753,7 +56951,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": []
   },
@@ -69131,7 +69330,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
-      "episode-2026-05-21-a2-clinic-appointment-symptoms"
+      "episode-2026-05-21-a2-clinic-appointment-symptoms",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -69146,6 +69346,13 @@
         "sentence": "Then he says, \"Rest today, drink water, and take this medicine after food.\" Riko checks the instructions.",
         "contextMeaning": "Here, \"medicine\" means the doctor gives something to help Riko get well",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Buying Medicine at a Drugstore 1.",
+        "contextMeaning": "Here, \"medicine\" means the worker shows medicine",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -69774,7 +69981,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -69782,6 +69990,13 @@
         "sentence": "Employees must think about pipe maintenance, meter information, supply control, construction, emergency response, and safety inspections.",
         "contextMeaning": "Here, \"meter\" means workers must check the tool that measures gas use",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "Paying the Driver At the end, people look at the meter or listen to the price.",
+        "contextMeaning": "Here, \"meter\" means people look at the meter",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -73508,7 +73723,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -73556,6 +73772,13 @@
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "Is this near Central Station?",
         "contextMeaning": "Here, \"near\" means not far away",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -80081,6 +80304,29 @@
       }
     ]
   },
+  "passage": {
+    "word": "passage",
+    "definition": "A short part of a story or text",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-taking-a-taxi"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "Read a simple A1 taxi passage.",
+        "contextMeaning": "Here, \"passage\" means a short text about taxis for A1 learners to read",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "passenger": {
     "word": "passenger",
     "definition": "A person who rides a bus or train",
@@ -81954,7 +82200,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-pharmacy-ask-for-medicine"
+      "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -81962,6 +82209,13 @@
         "sentence": "In this lesson, the problem is small and the pharmacist gives basic help.",
         "contextMeaning": "Here, \"pharmacist\" means the person who helps with small health problems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "People can ask a pharmacist or worker for help.",
+        "contextMeaning": "Here, \"pharmacist\" means people can ask a pharmacist for help",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -83192,7 +83446,8 @@
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-a1-train-station-platform-help",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": [
       {
@@ -83213,6 +83468,13 @@
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "What information do you need before you move: line, platform, change station, or stop?",
         "contextMeaning": "Here, \"platform\" means the traveler needs Platform 2",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "Where is platform three?\" The worker can answer with a simple direction.",
+        "contextMeaning": "Here, \"platform\" means the traveler asks for platform three",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -90045,7 +90307,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -90066,6 +90329,13 @@
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "Then the worker gives a receipt.",
         "contextMeaning": "Here, \"receipt\" means the worker gives a receipt",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "They can ask, \"Can I pay by card?\" After they pay, they can ask for a receipt.",
+        "contextMeaning": "Here, \"receipt\" means the driver gives a receipt",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -95936,7 +96206,8 @@
     "episodes": [
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": [
       {
@@ -95956,6 +96227,13 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "The route is simple: take the Green Line from Platform 2, change at City Hall, and get off at Riverside.",
+        "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary station - a place where trains or buses stop ticket gate - the gate people pass through with a ticket platform - the place where people get on a train exit - the way out of a place information desk - a place where workers answer questions train line - a group of trains on one route go straight - walk forward turn left - move to the left side upstairs - on a higher floor downstairs - on a lower floor",
         "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -96676,6 +96954,7 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
@@ -96731,6 +97010,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "We often give meaning to things because meaning helps us feel connected, confident, or safe.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Simple English can still be safe English.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -101657,6 +101943,7 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
@@ -101677,6 +101964,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A plain coffee cup may be almost worthless in a shop.",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary drugstore - a shop that sells medicine and daily things medicine - something people take when they are sick headache - pain in your head cough - a problem when air comes out of your throat again and again tablet - a small hard piece of medicine after food - after you eat with water - using water when you take medicine allergy - a bad body reaction to food or medicine pharmacist - a medicine worker feel worse - feel more sick than before",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -108650,7 +108944,9 @@
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -108670,6 +108966,20 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "What information do you need before you move: line, platform, change station, or stop?",
+        "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "Asking for Directions in a Station 1.",
+        "contextMeaning": "Here, \"station\" means a station has many signs",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "People can give an address, a hotel name, or a station name.",
         "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -109771,6 +110081,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "stop here": {
+    "word": "stop here",
+    "definition": "Finish the ride in this place",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-taking-a-taxi"
+    ],
+    "contexts": []
   },
   "stopped": {
     "word": "stopped",
@@ -110990,7 +111315,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -111031,6 +111357,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A strong bag carries your things.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Is it strong?",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -114060,9 +114393,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-pharmacy-ask-for-medicine"
+      "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
+        "contextMeaning": "Here, \"tablet\" means the customer takes one tablet",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "tablets": {
     "word": "tablets",
@@ -114075,7 +114417,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-pharmacy-ask-for-medicine"
+      "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
     ],
     "contexts": [
       {
@@ -114083,6 +114426,13 @@
         "sentence": "Do you like tablets, liquid medicine, or rest first?",
         "contextMeaning": "Here, \"tablets\" means medicine in small solid pieces you can take",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "Customer: How many tablets do I take?",
+        "contextMeaning": "Here, \"tablets\" means the customer takes one tablet",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -114938,7 +115288,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -114946,6 +115297,13 @@
         "sentence": "Door 9 is near the taxi area.",
         "contextMeaning": "Here, \"taxi\" means a place where you find cars to ride in",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "Taking a Taxi 1.",
+        "contextMeaning": "Here, \"taxi\" means people take a taxi to a hotel",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -118075,6 +118433,21 @@
       }
     ]
   },
+  "ticket gate": {
+    "word": "ticket gate",
+    "definition": "The gate people pass through with a ticket",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-asking-for-directions-in-a-station"
+    ],
+    "contexts": []
+  },
   "ticket machine": {
     "word": "ticket machine",
     "definition": "A machine where you buy or check tickets",
@@ -120094,7 +120467,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": [
       {
@@ -120131,8 +120505,30 @@
         "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "People see signs for the ticket gate, platforms, exits, and train lines.",
+        "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
+  },
+  "train line": {
+    "word": "train line",
+    "definition": "A group of trains on one route",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-asking-for-directions-in-a-station"
+    ],
+    "contexts": []
   },
   "trainability": {
     "word": "trainability",
@@ -120254,6 +120650,29 @@
         "sentence": "In a planning department, the intern may see schedules, records, training systems, and future plans.",
         "contextMeaning": "Here, \"training\" means systems to teach workers new skills and knowledge",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "trains": {
+    "word": "trains",
+    "definition": "A long vehicle that runs on tracks",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-asking-for-directions-in-a-station"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary station - a place where trains or buses stop ticket gate - the gate people pass through with a ticket platform - the place where people get on a train exit - the way out of a place information desk - a place where workers answer questions train line - a group of trains on one route go straight - walk forward turn left - move to the left side upstairs - on a higher floor downstairs - on a lower floor",
+        "contextMeaning": "Here, \"trains\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -120840,7 +121259,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -120883,6 +121303,13 @@
         "sentence": "Today’s story starts with a travel dream many people know well.",
         "contextMeaning": "Here, \"travel\" means going to other places in the story's dream",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary taxi - a car with a driver that people pay to ride in driver - the person who drives a car destination - the place you want to go address - the place where a person or building is hotel - a place where people stay when they travel turn right - move to the right side turn left - move to the left side stop here - finish the ride in this place meter - a taxi machine that shows the price receipt - paper or digital proof that you paid",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -121963,7 +122390,24 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-05-taking-a-taxi"
+    ],
+    "contexts": []
+  },
+  "turn right": {
+    "word": "turn right",
+    "definition": "Move to the right side",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": []
   },
@@ -123486,6 +123930,29 @@
       }
     ]
   },
+  "upstairs": {
+    "word": "upstairs",
+    "definition": "On a higher floor",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-asking-for-directions-in-a-station"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "They say, \"Go straight,\" \"Turn left,\" \"Go upstairs,\" or \"Go downstairs.\" It is good to repeat the direction before you walk away.",
+        "contextMeaning": "Here, \"upstairs\" means some platforms are upstairs",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "urgency": {
     "word": "urgency",
     "definition": "How fast something needs to be done",
@@ -123664,7 +124131,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-shopping-at-a-convenience-store"
+      "episode-2026-06-05-shopping-at-a-convenience-store",
+      "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
       {
@@ -123812,6 +124280,13 @@
         "sentence": "Convenience stores are called “konbini.” They are very useful and open all day and night.",
         "contextMeaning": "Here, \"useful\" means konbini are very useful",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-taking-a-taxi",
+        "sentence": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -128929,6 +129404,21 @@
       }
     ]
   },
+  "with water": {
+    "word": "with water",
+    "definition": "Using water when you take medicine",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+    ],
+    "contexts": []
+  },
   "without": {
     "word": "without",
     "definition": "Not having something or not doing something",
@@ -129562,6 +130052,8 @@
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
@@ -129624,6 +130116,20 @@
       {
         "episodeId": "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
         "sentence": "This lesson is for a snack bar worker or host.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
+        "sentence": "Asking a Worker When people are not sure, they can ask a station worker.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
+        "sentence": "People can ask a pharmacist or worker for help.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
