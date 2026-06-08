@@ -12050,6 +12050,52 @@
       }
     ]
   },
+  "bottle": {
+    "word": "bottle",
+    "definition": "A glass container for drinks",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-working-at-a-winery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "They may ask, \"Where is the tasting room?\" or \"Can I buy this bottle?\" A worker can answer slowly and point to the place.",
+        "contextMeaning": "Here, \"bottle\" means the worker checks bottles",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "bottles": {
+    "word": "bottles",
+    "definition": "A glass container for drinks",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-working-at-a-winery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "Visitors come to see the place, ask questions, and buy bottles.",
+        "contextMeaning": "Here, \"bottles\" means the worker checks bottles",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "bottom": {
     "word": "bottom",
     "definition": "The lowest part of something",
@@ -20486,6 +20532,21 @@
       }
     ]
   },
+  "closing time": {
+    "word": "closing time",
+    "definition": "The end of the work day",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-working-at-a-winery"
+    ],
+    "contexts": []
+  },
   "cloth": {
     "word": "cloth",
     "definition": "Material made from threads to make clothes",
@@ -26336,7 +26397,8 @@
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-09-working-at-a-winery"
     ],
     "contexts": [
       {
@@ -26371,6 +26433,13 @@
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
         "sentence": "Most post offices have a counter.",
         "contextMeaning": "Here, \"counter\" means the worker at the counter helps",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "You can buy it at the counter.",
+        "contextMeaning": "Here, \"counter\" means visitors buy bottles at the counter",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -34604,7 +34673,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-09-working-at-a-winery"
     ],
     "contexts": [
       {
@@ -34612,6 +34682,36 @@
         "sentence": "The word \"franchise\" is risky because Australian franchise arrangements can trigger strict legal rules and disclosure duties.",
         "contextMeaning": "Here, \"duties\" means important jobs or rules to follow",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "Conversation Role Play A visitor asks a winery worker about the workplace and daily duties.",
+        "contextMeaning": "Here, \"duties\" means checking bottles is one duty",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "duty": {
+    "word": "duty",
+    "definition": "A job you must do",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-working-at-a-winery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "What work duty do you do every day?",
+        "contextMeaning": "Here, \"duty\" means checking bottles is one duty",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -49839,7 +49939,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-09-working-at-a-winery"
     ],
     "contexts": [
       {
@@ -49847,6 +49948,13 @@
         "sentence": "In another month, it may offer grape jelly, fruit parfait, or a light cake with local fruit.",
         "contextMeaning": "Here, \"grape\" means a small, round fruit used in a sweet dish or jelly",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "1.2 The Vineyard A vineyard has grape plants.",
+        "contextMeaning": "Here, \"grape\" means workers check the grape plants",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -61218,13 +61326,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-09-working-at-a-winery"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "For example, a menu item marked as \"popular\" may seem more trustworthy than an item with no label.",
         "contextMeaning": "Here, \"label\" means a word or phrase used to describe an option",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "Workers may check the label, the box, and the number of bottles.",
+        "contextMeaning": "Here, \"label\" means the worker checks the label",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -61264,13 +61380,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-09-working-at-a-winery"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Designers make choices about order, labels, pictures, warnings, and many other details.",
         "contextMeaning": "Here, \"labels\" means label means a word or phrase used to describe an option",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "I check bottles and labels.",
+        "contextMeaning": "Here, \"labels\" means the worker checks the label",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -97064,7 +97188,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-09-working-at-a-winery"
     ],
     "contexts": [
       {
@@ -97133,6 +97258,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "It needs to know: \"Is that a predator?\" \"Is that food?\" \"Is that safe?\" \"Can I move there?\" So the brain creates quick, useful experiences.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "Workers keep the area clean and safe.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -115387,6 +115519,21 @@
       }
     ]
   },
+  "tasting room": {
+    "word": "tasting room",
+    "definition": "A room where visitors try wine",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-working-at-a-winery"
+    ],
+    "contexts": []
+  },
   "tasty": {
     "word": "tasty",
     "definition": "Food that tastes very good",
@@ -129397,6 +129544,52 @@
       }
     ]
   },
+  "wineries": {
+    "word": "wineries",
+    "definition": "A place that makes wine",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-working-at-a-winery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "Some wineries also have a tasting room.",
+        "contextMeaning": "Here, \"wineries\" means the worker works at a winery",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "winery": {
+    "word": "winery",
+    "definition": "A place that makes wine",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-working-at-a-winery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "Working at a Winery Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"winery\" means the worker works at a winery",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "winner": {
     "word": "winner",
     "definition": "A person who wins or is the best",
@@ -130234,7 +130427,8 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-09-working-at-a-winery"
     ],
     "contexts": [
       {
@@ -130324,6 +130518,13 @@
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
         "sentence": "A worker checks the package and asks where it is going.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-working-at-a-winery",
+        "sentence": "They may ask, \"Where is the tasting room?\" or \"Can I buy this bottle?\" A worker can answer slowly and point to the place.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
