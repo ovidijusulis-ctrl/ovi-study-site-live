@@ -1115,7 +1115,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "The customer can say, \"I want to send this package.\" Answer Starters: 2.1 A Clear Address A package needs a clear address.",
+        "sentence": "Answer Starters: 2.1 A Clear Address Address order can be different in different countries.",
         "contextMeaning": "Here, \"address\" means the package needs an address",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -21970,7 +21970,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-05-sending-a-package-at-the-post-office"
     ],
     "contexts": [
       {
@@ -22011,6 +22012,13 @@
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
+        "sentence": "Answer Starters: 4.1 Tracking and Arrival Tracking numbers are common for important packages.",
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -26361,7 +26369,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "Answer Starters: 1.2 Starting at the Counter A worker at the counter can help with the package.",
+        "sentence": "Answer Starters: 1.2 Starting at the Counter Most post offices have a counter.",
         "contextMeaning": "Here, \"counter\" means the worker at the counter helps",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -37697,29 +37705,6 @@
         "sentence": "Maybe the driver went to another entrance.",
         "contextMeaning": "Here, \"entrance\" means the main door or side door",
         "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "envelopes": {
-    "word": "envelopes",
-    "definition": "A paper cover for a letter",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "They can also buy stamps and envelopes there.",
-        "contextMeaning": "Here, \"envelopes\" means people can buy envelopes",
-        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -66388,6 +66373,29 @@
       }
     ]
   },
+  "mail": {
+    "word": "mail",
+    "definition": "Paper or things sent to people far away",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-sending-a-package-at-the-post-office"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
+        "sentence": "A post office is a place for sending mail.",
+        "contextMeaning": "Here, \"mail\" means things sent from one place to another by post office",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "main": {
     "word": "main",
     "definition": "The biggest or most important part",
@@ -77312,7 +77320,8 @@
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-05-sending-a-package-at-the-post-office"
     ],
     "contexts": [
       {
@@ -77332,6 +77341,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "What helps you feel confident when making a choice online?",
+        "contextMeaning": "Here, \"online\" means connected through the internet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
+        "sentence": "In many countries, people can check the number online and see where the package is.",
         "contextMeaning": "Here, \"online\" means connected through the internet",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -84905,7 +84921,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "Answer Starters: 3.1 Postage and Payment The worker weighs the package and tells the price.",
+        "sentence": "Answer Starters: 3.1 Postage and Payment Postage depends on weight and destination.",
         "contextMeaning": "Here, \"postage\" means the customer asks about postage",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -108432,29 +108448,6 @@
       }
     ]
   },
-  "stamps": {
-    "word": "stamps",
-    "definition": "A small mark that pays for mail",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "They can also buy stamps and envelopes there.",
-        "contextMeaning": "Here, \"stamps\" means people can buy stamps",
-        "source": "popup_support_router/authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "stand": {
     "word": "stand",
     "definition": "Be easy to see or be different",
@@ -111119,7 +111112,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "People write the name, street, city, and country.",
+        "sentence": "A clear package usually needs a name, street, city, postal code, and country.",
         "contextMeaning": "Here, \"street\" means a road in a town or city",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -130330,7 +130323,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "Answer Starters: 1.2 Starting at the Counter A worker at the counter can help with the package.",
+        "sentence": "A worker checks the package and asks where it is going.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -131058,8 +131051,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
     ],
     "contexts": [
       {
@@ -131072,13 +131064,6 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "I write the information on a form.",
-        "contextMeaning": "Here, \"write\" means to make words with a pen, keyboard, or screen",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
-        "sentence": "People write the name, street, city, and country.",
         "contextMeaning": "Here, \"write\" means to make words with a pen, keyboard, or screen",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
