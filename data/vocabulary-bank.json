@@ -121174,8 +121174,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
     ],
     "contexts": [
       {
@@ -121183,13 +121182,6 @@
         "sentence": "Recently, Clio announced a major milestone.",
         "contextMeaning": "Here, \"recently\" means not long ago, Clio told people something important",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": "What was one thing you almost forgot recently?",
-        "contextMeaning": "Here, \"recently\" means not long ago",
-        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -140968,29 +140960,6 @@
         "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
         "sentence": "Starter: This week, I had to solve ___ because",
         "contextMeaning": "Here, \"solve\" means fix a problem that you had this week",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "solved": {
-    "word": "solved",
-    "definition": "Found an answer to a problem",
-    "cefrLevel": "A2",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-09-casual-conversation-branches-a2"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": ": Tell me about the last small problem you solved.",
-        "contextMeaning": "Here, \"solved\" means fixed a small problem that happened before",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
