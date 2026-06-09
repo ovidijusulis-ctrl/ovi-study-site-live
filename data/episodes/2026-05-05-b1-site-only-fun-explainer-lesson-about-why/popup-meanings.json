@@ -305,9 +305,19 @@
     "sentence": "The next moment can feel thrilling."
   },
   "parks": {
-    "simpleMeaning": "Big places with rides and fun things",
-    "contextMeaning": "Theme parks are big fun places with rides and safety checks",
-    "sentence": "Theme parks also protect riders with many checks."
+    "simpleMeaning": "Large fun places with rides and shows",
+    "contextMeaning": "Here, parks means theme parks with rides, shows, or character attractions.",
+    "sentence": "Theme parks also protect riders with many checks.",
+    "sourceSentence": "Theme parks also protect riders with many checks.",
+    "example": "Theme parks also protect riders with many checks.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   },
   "rules": {
     "simpleMeaning": "Things you must do or follow",
@@ -1335,17 +1345,17 @@
     "translationEs": ""
   },
   "theme": {
-    "simpleMeaning": "A special idea or style for a place",
-    "contextMeaning": "Parks with special ideas keep riders safe",
+    "simpleMeaning": "Used to describe a special entertainment park",
+    "contextMeaning": "Here, theme is part of theme parks, meaning fun parks built around stories, rides, or characters.",
     "sentence": "Theme parks also protect riders with many checks.",
     "sourceSentence": "Theme parks also protect riders with many checks.",
     "example": "Theme parks also protect riders with many checks.",
-    "source": "popup_prebuild_coverage/context_explain",
+    "source": "popup_support_router/trusted_popup_context_rule",
     "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
+    "supportAction": "support_inline",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "generatedBy": "popup_support_router_v1",
     "translationJa": "",
     "translationEs": ""
   },
@@ -1783,5 +1793,20 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": ""
+  },
+  "theme parks": {
+    "simpleMeaning": "Large fun places with rides and shows",
+    "contextMeaning": "Here, theme parks means large fun places with rides, shows, or character attractions.",
+    "sentence": "Theme parks also protect riders with many checks.",
+    "sourceSentence": "Theme parks also protect riders with many checks.",
+    "example": "Theme parks also protect riders with many checks.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   }
 }

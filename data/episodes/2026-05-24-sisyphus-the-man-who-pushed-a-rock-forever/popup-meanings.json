@@ -615,17 +615,17 @@
     "translationEs": ""
   },
   "adult": {
-    "simpleMeaning": "A person who is fully grown up",
-    "contextMeaning": "For people who are grown up and not children",
-    "sentence": "Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
-    "sourceSentence": "Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
-    "example": "Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
-    "source": "popup_prebuild_coverage/context_explain",
+    "simpleMeaning": "A grown-up person",
+    "contextMeaning": "Here, adult means a grown-up person.",
+    "sentence": "[OPENING] Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
+    "sourceSentence": "[OPENING] Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
+    "example": "[OPENING] Understand the old Greek story of Sisyphus, why he was punished, and why his rock is still a useful symbol for adult life.",
+    "source": "popup_support_router/trusted_popup_context_rule",
     "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
+    "supportAction": "support_inline",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "generatedBy": "popup_support_router_v1",
     "translationJa": "",
     "translationEs": ""
   },
@@ -735,17 +735,17 @@
     "translationEs": ""
   },
   "adults": {
-    "simpleMeaning": "People who are grown up, not children",
-    "contextMeaning": "Grown-up people who talk about big ideas",
+    "simpleMeaning": "Grown-up people",
+    "contextMeaning": "Here, adults means grown-up people.",
     "sentence": "Adults used them to talk about pride, death, punishment, courage, and human problems.",
     "sourceSentence": "Adults used them to talk about pride, death, punishment, courage, and human problems.",
     "example": "Adults used them to talk about pride, death, punishment, courage, and human problems.",
-    "source": "popup_prebuild_coverage/context_explain",
+    "source": "popup_support_router/trusted_popup_context_rule",
     "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
+    "supportAction": "support_inline",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "generatedBy": "popup_support_router_v1",
     "translationJa": "",
     "translationEs": ""
   },
@@ -2188,5 +2188,20 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": ""
+  },
+  "warm-up questions": {
+    "simpleMeaning": "Easy first questions before the main lesson",
+    "contextMeaning": "Here, warm-up questions means simple questions that help learners start thinking.",
+    "sentence": "Warm-Up Questions Story Origin Sisyphus the Clever King Trying to Escape Death The Punishment Why the Story Feels Modern The Rock as a Symbol Strength, Meaning, and Starting Again Final Reflection Greek mythology connects myth sources, ritual practice, and modern meaning.",
+    "sourceSentence": "Warm-Up Questions Story Origin Sisyphus the Clever King Trying to Escape Death The Punishment Why the Story Feels Modern The Rock as a Symbol Strength, Meaning, and Starting Again Final Reflection Greek mythology connects myth sources, ritual practice, and modern meaning.",
+    "example": "Warm-Up Questions Story Origin Sisyphus the Clever King Trying to Escape Death The Punishment Why the Story Feels Modern The Rock as a Symbol Strength, Meaning, and Starting Again Final Reflection Greek mythology connects myth sources, ritual practice, and modern meaning.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   }
 }

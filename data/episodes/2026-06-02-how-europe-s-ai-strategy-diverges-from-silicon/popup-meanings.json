@@ -130,9 +130,19 @@
     "sentence": "How should Europe build AI?"
   },
   "ai": {
-    "simpleMeaning": "A smart computer that thinks a little like people",
-    "contextMeaning": "Computer programs that help with jobs and decisions",
-    "sentence": "How should Europe build AI?"
+    "simpleMeaning": "Computer systems that can do smart tasks",
+    "contextMeaning": "Here, AI means computer systems that can help with thinking, writing, or decisions.",
+    "sentence": "How should Europe build AI?",
+    "sourceSentence": "How should Europe build AI?",
+    "example": "How should Europe build AI?",
+    "source": "popup_support_router/trusted_technical_term_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_technical_term_rule",
+    "contextMeaningSource": "trusted_technical_term_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   },
   "only": {
     "simpleMeaning": "Just this, not more things",
@@ -214,6 +224,41 @@
     "contextMeaning": "AI looks at health information to understand it",
     "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life."
   },
+  "real": {
+    "simpleMeaning": "Something true, not fake or pretend",
+    "contextMeaning": "A true, actual life that can be affected here",
+    "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life."
+  },
+  "ideas": {
+    "simpleMeaning": "Thoughts or things you think about",
+    "contextMeaning": "Important thoughts or points to watch for here",
+    "sentence": "So as you listen, watch for three key ideas: trust, risk, and rules."
+  },
+  "hear": {
+    "simpleMeaning": "Use your ears to get sounds or words",
+    "contextMeaning": "Find out or learn by listening in this sentence",
+    "sentence": "We will hear how Europe wants AI to grow, but with more care."
+  },
+  "wants": {
+    "simpleMeaning": "To need or wish for something",
+    "contextMeaning": "Europe wishes or needs AI to grow here",
+    "sentence": "We will hear how Europe wants AI to grow, but with more care."
+  },
+  "start-up": {
+    "simpleMeaning": "A new small company just beginning to grow",
+    "contextMeaning": "New young companies' owners came to the event",
+    "sentence": "In June 2024, many business leaders, start-up founders, and government officials came to VivaTech in Paris."
+  },
+  "idea": {
+    "simpleMeaning": "A thought or plan",
+    "contextMeaning": "A new plan or thought for business or technology",
+    "sentence": "Companies show new products there, and investors look for the next big idea."
+  },
+  "tools": {
+    "simpleMeaning": "Things to help you do a job",
+    "contextMeaning": "Things used to help work or make something",
+    "sentence": "People talked about faster tools, smarter software, and new business chances."
+  },
   "health": {
     "simpleMeaning": "How well your body is",
     "contextMeaning": "Information about a person’s body that AI looks at",
@@ -242,11 +287,6 @@
   "change": {
     "simpleMeaning": "Make something different or not the same",
     "contextMeaning": "Make a big difference in someone's life in this sentence",
-    "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life."
-  },
-  "real": {
-    "simpleMeaning": "Something true, not fake or pretend",
-    "contextMeaning": "A true, actual life that can be affected here",
     "sentence": "If AI helps choose who gets a job, checks a school exam, or studies health data, then one mistake can change a real life."
   },
   "life": {
@@ -279,25 +319,10 @@
     "contextMeaning": "Very important ideas to notice in this sentence",
     "sentence": "So as you listen, watch for three key ideas: trust, risk, and rules."
   },
-  "ideas": {
-    "simpleMeaning": "Thoughts or things you think about",
-    "contextMeaning": "Important thoughts or points to watch for here",
-    "sentence": "So as you listen, watch for three key ideas: trust, risk, and rules."
-  },
   "risk": {
     "simpleMeaning": "The chance something bad might happen",
     "contextMeaning": "The chance of something bad in AI use here",
     "sentence": "So as you listen, watch for three key ideas: trust, risk, and rules."
-  },
-  "hear": {
-    "simpleMeaning": "Use your ears to get sounds or words",
-    "contextMeaning": "Find out or learn by listening in this sentence",
-    "sentence": "We will hear how Europe wants AI to grow, but with more care."
-  },
-  "wants": {
-    "simpleMeaning": "To need or wish for something",
-    "contextMeaning": "Europe wishes or needs AI to grow here",
-    "sentence": "We will hear how Europe wants AI to grow, but with more care."
   },
   "grow": {
     "simpleMeaning": "To get bigger or better",
@@ -362,11 +387,6 @@
   "leaders": {
     "simpleMeaning": "People who guide or are in charge of others",
     "contextMeaning": "Important people in business who make decisions came",
-    "sentence": "In June 2024, many business leaders, start-up founders, and government officials came to VivaTech in Paris."
-  },
-  "start-up": {
-    "simpleMeaning": "A new small company just beginning to grow",
-    "contextMeaning": "New young companies' owners came to the event",
     "sentence": "In June 2024, many business leaders, start-up founders, and government officials came to VivaTech in Paris."
   },
   "founders": {
@@ -434,11 +454,6 @@
     "contextMeaning": "The new big idea after the current ones",
     "sentence": "Companies show new products there, and investors look for the next big idea."
   },
-  "idea": {
-    "simpleMeaning": "A thought or plan",
-    "contextMeaning": "A new plan or thought for business or technology",
-    "sentence": "Companies show new products there, and investors look for the next big idea."
-  },
   "year": {
     "simpleMeaning": "A time of 12 months",
     "contextMeaning": "The current 12 months when AI was popular",
@@ -457,11 +472,6 @@
   "faster": {
     "simpleMeaning": "Going more quickly than before",
     "contextMeaning": "Tools that work more quickly than old ones",
-    "sentence": "People talked about faster tools, smarter software, and new business chances."
-  },
-  "tools": {
-    "simpleMeaning": "Things to help you do a job",
-    "contextMeaning": "Things used to help work or make something",
     "sentence": "People talked about faster tools, smarter software, and new business chances."
   },
   "smarter": {

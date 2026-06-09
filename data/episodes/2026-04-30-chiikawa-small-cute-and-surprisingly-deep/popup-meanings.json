@@ -810,17 +810,17 @@
     "translationEs": ""
   },
   "adults": {
-    "simpleMeaning": "People who are not children",
-    "contextMeaning": "People who are grown up and like Chiikawa",
+    "simpleMeaning": "Grown-up people",
+    "contextMeaning": "Here, adults means grown-up people.",
     "sentence": "This is one reason many adults like Chiikawa.",
     "sourceSentence": "This is one reason many adults like Chiikawa.",
     "example": "This is one reason many adults like Chiikawa.",
-    "source": "popup_prebuild_coverage/context_explain",
+    "source": "popup_support_router/trusted_popup_context_rule",
     "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
+    "supportAction": "support_inline",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "generatedBy": "popup_support_router_v1",
     "translationJa": "",
     "translationEs": ""
   },
@@ -1513,5 +1513,20 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": ""
+  },
+  "warm": {
+    "simpleMeaning": "Friendly and comforting",
+    "contextMeaning": "Here, warm means friendly and comforting.",
+    "sentence": "These scenes feel warm and safe.",
+    "sourceSentence": "These scenes feel warm and safe.",
+    "example": "These scenes feel warm and safe.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   }
 }

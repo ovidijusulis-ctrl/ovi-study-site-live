@@ -2865,17 +2865,17 @@
     "translationEs": ""
   },
   "adults": {
-    "simpleMeaning": "People who are not children, grown-ups",
-    "contextMeaning": "Grown-up people who do important work",
+    "simpleMeaning": "Grown-up people",
+    "contextMeaning": "Here, adults means grown-up people.",
     "sentence": "Some of the most valuable lessons may look quiet: how adults prepare, check, communicate, and take responsibility.",
     "sourceSentence": "Some of the most valuable lessons may look quiet: how adults prepare, check, communicate, and take responsibility.",
     "example": "Some of the most valuable lessons may look quiet: how adults prepare, check, communicate, and take responsibility.",
-    "source": "popup_prebuild_coverage/context_explain",
+    "source": "popup_support_router/trusted_popup_context_rule",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "generatedBy": "popup_support_router_v1",
     "translationJa": "",
     "translationEs": ""
   },
@@ -4648,5 +4648,35 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": ""
+  },
+  "co2": {
+    "simpleMeaning": "Carbon dioxide gas",
+    "contextMeaning": "Here, CO2 means carbon dioxide, a gas often discussed in climate or energy topics.",
+    "sentence": "Tokyo Gas Group talks about net-zero CO2, renewable energy, hydrogen, carbon capture and storage, and e-methane.",
+    "sourceSentence": "Tokyo Gas Group talks about net-zero CO2, renewable energy, hydrogen, carbon capture and storage, and e-methane.",
+    "example": "Tokyo Gas Group talks about net-zero CO2, renewable energy, hydrogen, carbon capture and storage, and e-methane.",
+    "source": "popup_support_router/trusted_technical_term_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_technical_term_rule",
+    "contextMeaningSource": "trusted_technical_term_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
+  },
+  "warm-up questions": {
+    "simpleMeaning": "Easy first questions before the main lesson",
+    "contextMeaning": "Here, warm-up questions means simple questions that help learners start thinking.",
+    "sentence": "Warm-Up Questions Introduction 1.",
+    "sourceSentence": "Warm-Up Questions Introduction 1.",
+    "example": "Warm-Up Questions Introduction 1.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   }
 }

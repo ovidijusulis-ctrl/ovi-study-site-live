@@ -1292,9 +1292,9 @@
   "thank": {
     "simpleMeaning": "Say nice words to show you are happy",
     "contextMeaning": "Say nice words to show you are happy for telling",
-    "sentence": "Manager: Thank you for telling me.",
-    "sourceSentence": "Manager: Thank you for telling me.",
-    "example": "Manager: Thank you for telling me.",
+    "sentence": "Thank you for telling me.",
+    "sourceSentence": "Thank you for telling me.",
+    "example": "Thank you for telling me.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1307,9 +1307,9 @@
   "telling": {
     "simpleMeaning": "Saying something to someone",
     "contextMeaning": "Saying about the mistake to the manager",
-    "sentence": "Manager: Thank you for telling me.",
-    "sourceSentence": "Manager: Thank you for telling me.",
-    "example": "Manager: Thank you for telling me.",
+    "sentence": "Thank you for telling me.",
+    "sourceSentence": "Thank you for telling me.",
+    "example": "Thank you for telling me.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1483,5 +1483,20 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": ""
+  },
+  "warm-up questions": {
+    "simpleMeaning": "Easy first questions before the main lesson",
+    "contextMeaning": "Here, warm-up questions means simple questions that help learners start thinking.",
+    "sentence": "Warm-Up Questions Step 1: Name the Mistake Clearly Step 2: Add the Impact Step 3: Say the Fix Step 4: Agree on a Prevention Step Short Dialogues to Practice Say the mistake Role-play Say the impact Role-play Say the fix Role-play Final Reflection Workplace mistake English needs calm structure.",
+    "sourceSentence": "Warm-Up Questions Step 1: Name the Mistake Clearly Step 2: Add the Impact Step 3: Say the Fix Step 4: Agree on a Prevention Step Short Dialogues to Practice Say the mistake Role-play Say the impact Role-play Say the fix Role-play Final Reflection Workplace mistake English needs calm structure.",
+    "example": "Warm-Up Questions Step 1: Name the Mistake Clearly Step 2: Add the Impact Step 3: Say the Fix Step 4: Agree on a Prevention Step Short Dialogues to Practice Say the mistake Role-play Say the impact Role-play Say the fix Role-play Final Reflection Workplace mistake English needs calm structure.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   }
 }

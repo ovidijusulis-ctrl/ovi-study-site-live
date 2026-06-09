@@ -45,9 +45,19 @@
     "sentence": "Today’s story is about law, software, and AI."
   },
   "ai": {
-    "simpleMeaning": "Smart computers that think",
-    "contextMeaning": "Smart computer programs that can think and learn",
-    "sentence": "Today’s story is about law, software, and AI."
+    "simpleMeaning": "Computer systems that can do smart tasks",
+    "contextMeaning": "Here, AI means computer systems that can help with thinking, writing, or decisions.",
+    "sentence": "Today’s story is about law, software, and AI.",
+    "sourceSentence": "Today’s story is about law, software, and AI.",
+    "example": "Today’s story is about law, software, and AI.",
+    "source": "popup_support_router/trusted_technical_term_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_technical_term_rule",
+    "contextMeaningSource": "trusted_technical_term_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   },
   "know": {
     "simpleMeaning": "To have information",
@@ -2068,5 +2078,20 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": ""
+  },
+  "belongs": {
+    "simpleMeaning": "Is part of or is owned by",
+    "contextMeaning": "Here, belongs means Hello Kitty is owned by Sanrio and is part of kawaii culture.",
+    "sentence": "They need to know which document belongs to which case.",
+    "sourceSentence": "They need to know which document belongs to which case.",
+    "example": "They need to know which document belongs to which case.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1"
   }
 }
