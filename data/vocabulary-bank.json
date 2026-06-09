@@ -6505,7 +6505,8 @@
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-06-09-casual-conversation-branches-a2"
     ],
     "contexts": [
       {
@@ -6513,6 +6514,13 @@
         "sentence": "The language is practical: location, problem, urgency, access, and appointment time.",
         "contextMeaning": "Here, \"appointment\" means the time set for the repair visit",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": "What appointment, event, or plan do you need to remember soon?",
+        "contextMeaning": "Here, \"appointment\" means a planned meeting or visit",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -22455,7 +22463,6 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-casual-conversation-branches-a2",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
     ],
     "contexts": [
@@ -22775,13 +22782,6 @@
         "confidence": "trusted"
       },
       {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": "Did it change your mood?",
-        "contextMeaning": "Here, \"change\" means did it make your feelings different",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Fans can also change favorites as their mood and identity change.",
         "contextMeaning": "Here, \"change\" means fans can pick new favorite characters when they feel different",
@@ -22830,8 +22830,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -22936,13 +22935,6 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "The world has changed completely, but people still listen to Bach, Mozart, Beethoven, Chopin, and many others.",
         "contextMeaning": "Here, \"changed\" means the world is now very different than in the past",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": "Helpful expressions: I changed my plan.",
-        "contextMeaning": "Here, \"changed\" means i made my plan different from before",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -61296,7 +61288,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-21-a2-report-a-lost-item"
+      "episode-2026-05-21-a2-report-a-lost-item",
+      "episode-2026-06-09-casual-conversation-branches-a2"
     ],
     "contexts": [
       {
@@ -61318,6 +61311,13 @@
         "sentence": "Report a lost item, describe it clearly, and leave contact information for follow-up.",
         "contextMeaning": "Here, \"follow-up\" means contact later to get more information or help",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": "In this lesson, \"follow-up\" means a question after the first answer.",
+        "contextMeaning": "Here, \"follow-up\" means in this lesson, \"follow-up\" means a question after the first answer",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -64358,21 +64358,13 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
         "sentence": "The jobs were simple, but the work gave people a reason to come back.",
         "contextMeaning": "Here, \"gave\" means the work gave people a reason to come back again",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": "Follow-ups: What gave you energy?",
-        "contextMeaning": "Here, \"gave\" means what made you feel more energy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -68788,8 +68780,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
-      "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -68866,13 +68857,6 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Places can also feel special because of what happened there.",
         "contextMeaning": "Here, \"happened\" means something important or special took place in that place",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": "If it was surprising: What happened after that?",
-        "contextMeaning": "Here, \"happened\" means what took place after the surprise",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -69196,8 +69180,7 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -69260,13 +69243,6 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "The Modern period is harder to explain because composers tried many different things.",
         "contextMeaning": "Here, \"harder\" means the Modern time is more difficult to explain",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": "It was harder than I expected.",
-        "contextMeaning": "Here, \"harder\" means it was more difficult than I thought",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -100781,8 +100757,7 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -100887,13 +100862,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "For humans, red may help us notice fruit, blood, danger, or emotion.",
         "contextMeaning": "Here, \"notice\" means red helps people see important things like fruit or danger",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": "Follow-ups: Where did you notice it?",
-        "contextMeaning": "Here, \"notice\" means where did you see or feel that thing",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -111385,6 +111353,29 @@
       }
     ]
   },
+  "plan b": {
+    "word": "plan b",
+    "definition": "A backup plan",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-casual-conversation-branches-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": "What is your plan B?",
+        "contextMeaning": "Here, \"plan b\" means a backup plan",
+        "source": "authored_final_review",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "plane": {
     "word": "plane",
     "definition": "A vehicle that flies in the sky",
@@ -121191,7 +121182,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-06-09-casual-conversation-branches-a2"
     ],
     "contexts": [
       {
@@ -121199,6 +121191,13 @@
         "sentence": "Recently, Clio announced a major milestone.",
         "contextMeaning": "Here, \"recently\" means not long ago, Clio told people something important",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": ": What is a question you asked someone recently?",
+        "contextMeaning": "Here, \"recently\" means a short time ago when you said a question",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -121402,7 +121401,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-09-casual-conversation-branches-a2"
     ],
     "contexts": [
       {
@@ -121431,6 +121431,13 @@
         "sentence": "What do you recommend?",
         "contextMeaning": "Here, \"recommend\" means the host suggests a drink or food",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": "Would you recommend it?",
+        "contextMeaning": "Here, \"recommend\" means would you tell others it is good",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -126836,8 +126843,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-05-asking-for-directions-in-a-station"
     ],
     "contexts": [
       {
@@ -127033,13 +127039,6 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "Go downstairs and turn right.",
         "contextMeaning": "Here, \"right\" means turn right means go to the side that is not left",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
-        "sentence": ": How much energy do you have right now?",
-        "contextMeaning": "Here, \"right\" means how much energy do you have now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -138437,7 +138436,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-09-casual-conversation-branches-a2"
     ],
     "contexts": [
       {
@@ -138571,6 +138571,13 @@
         "sentence": "Have you ever misunderstood a situation because your first impression was wrong?",
         "contextMeaning": "Here, \"situation\" means the event or thing you misunderstood",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": "Casual conversation is more fun when the question has a small situation.",
+        "contextMeaning": "Here, \"situation\" means what is happening at one time",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -164640,7 +164647,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-09-casual-conversation-branches-a2"
     ],
     "contexts": [
       {
@@ -164648,6 +164656,13 @@
         "sentence": "Which problem is more urgent: a leaking sink or a broken light?",
         "contextMeaning": "Here, \"urgent\" means which problem needs help faster, sink or light",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": "It is not urgent.",
+        "contextMeaning": "Here, \"urgent\" means needing help very soon",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -173888,6 +173903,29 @@
         "sentence": "Do you think people are logical when they decide what something is worth?",
         "contextMeaning": "Here, \"worth\" means how much money something should have",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "worth it": {
+    "word": "worth it",
+    "definition": "Good enough for the time or money",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-09-casual-conversation-branches-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
+        "sentence": "Was it worth it?",
+        "contextMeaning": "Here, \"worth it\" means good enough for the time or money",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
