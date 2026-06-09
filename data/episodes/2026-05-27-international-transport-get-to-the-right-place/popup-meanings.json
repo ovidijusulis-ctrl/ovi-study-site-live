@@ -1140,7 +1140,7 @@
     "generatedBy": "popup_support_router_v1"
   },
   "late": {
-    "simpleMeaning": "Near the end of a time or after the expected.",
+    "simpleMeaning": "after the expected time",
     "contextMeaning": "Here, \" late \" means near the end of a time or after the expected.",
     "sentence": "You can use short questions many times: \"Where is ...?\", \"Which platform?\", \"Does this go to ...?\", \"How much is it?\", \"How long is the delay?\", and \"Can you help me?\" destination - the place you are going to terminal - a part of an airport gate - the place where you get on a plane platform - the place where you get on a train ticket machine - a machine for buying tickets delay - when something is late route map - a map that shows where buses or trains go get off - leave a bus, train, or taxi fare - the money you pay for transport",
     "sourceSentence": "You can use short questions many times: \"Where is ...?\", \"Which platform?\", \"Does this go to ...?\", \"How much is it?\", \"How long is the delay?\", and \"Can you help me?\" destination - the place you are going to terminal - a part of an airport gate - the place where you get on a plane platform - the place where you get on a train ticket machine - a machine for buying tickets delay - when something is late route map - a map that shows where buses or trains go get off - leave a bus, train, or taxi fare - the money you pay for transport",
@@ -1152,7 +1152,11 @@
     "contextMeaningSource": "teaching_lexicon_trusted",
     "translationJa": "",
     "translationEs": "",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupMeaningPolish": {
+      "contractVersion": "popup_meaning_polish_v1",
+      "applied": true
+    }
   },
   "money": {
     "simpleMeaning": "What people use to buy things",
@@ -1425,7 +1429,7 @@
     "translationEs": ""
   },
   "booking": {
-    "simpleMeaning": "A paper or note that shows a plan to go",
+    "simpleMeaning": "a travel plan record",
     "contextMeaning": "The paper or note that shows her travel plan",
     "sentence": "She opens her booking and points to the airport name.",
     "sourceSentence": "She opens her booking and points to the airport name.",
@@ -1437,7 +1441,11 @@
     "contextMeaningSource": "context_explain",
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
-    "translationEs": ""
+    "translationEs": "",
+    "popupMeaningPolish": {
+      "contractVersion": "popup_meaning_polish_v1",
+      "applied": true
+    }
   },
   "because": {
     "simpleMeaning": "The reason why something happens",
@@ -2165,21 +2173,6 @@
     "sentence": "Introduction When you travel in another country, transport English does not need to be perfect.",
     "sourceSentence": "Introduction When you travel in another country, transport English does not need to be perfect.",
     "example": "Introduction When you travel in another country, transport English does not need to be perfect.",
-    "source": "popup_prebuild_coverage/context_explain",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
-    "translationJa": "",
-    "translationEs": ""
-  },
-  "b": {
-    "simpleMeaning": "A letter in the alphabet",
-    "contextMeaning": "The name of a place (gate) at the airport",
-    "sentence": "It says \"Gate B12.\" She goes to the help desk and asks, \"Excuse me.",
-    "sourceSentence": "It says \"Gate B12.\" She goes to the help desk and asks, \"Excuse me.",
-    "example": "It says \"Gate B12.\" She goes to the help desk and asks, \"Excuse me.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",

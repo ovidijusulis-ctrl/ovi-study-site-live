@@ -269,12 +269,12 @@
     "contextMeaningSource": "authored_reading_vocabulary",
     "generatedBy": "popup_support_router_v1"
   },
-  "receipt": {
-    "simpleMeaning": "paper or a message that shows what you paid",
-    "contextMeaning": "The worker may give a receipt",
-    "sentence": "The worker may give them a bag and a receipt.",
-    "sourceSentence": "The worker may give them a bag and a receipt.",
-    "example": "The worker may give them a bag and a receipt.",
+  "try on": {
+    "simpleMeaning": "put on clothes to check them",
+    "contextMeaning": "People can try clothes on before they buy them",
+    "sentence": "",
+    "sourceSentence": "",
+    "example": "",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -284,9 +284,24 @@
     "contextMeaningSource": "authored_reading_vocabulary",
     "generatedBy": "popup_support_router_v1"
   },
-  "on sale": {
-    "simpleMeaning": "cheaper than the normal price",
-    "contextMeaning": "The jacket is on sale",
+  "too small": {
+    "simpleMeaning": "not big enough",
+    "contextMeaning": "The jacket is too small",
+    "sentence": "",
+    "sourceSentence": "",
+    "example": "",
+    "translationJa": "",
+    "translationEs": "",
+    "source": "popup_support_router/authored_reading_vocabulary",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "authored_reading_vocabulary",
+    "contextMeaningSource": "authored_reading_vocabulary",
+    "generatedBy": "popup_support_router_v1"
+  },
+  "too long": {
+    "simpleMeaning": "longer than you need",
+    "contextMeaning": "Pants can be too long",
     "sentence": "",
     "sourceSentence": "",
     "example": "",
@@ -313,6 +328,40 @@
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
     "generatedBy": "popup_support_router_v1"
+  },
+  "on sale": {
+    "simpleMeaning": "cheaper than the normal price",
+    "contextMeaning": "The jacket is on sale",
+    "sentence": "",
+    "sourceSentence": "",
+    "example": "",
+    "translationJa": "",
+    "translationEs": "",
+    "source": "popup_support_router/authored_reading_vocabulary",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "authored_reading_vocabulary",
+    "contextMeaningSource": "authored_reading_vocabulary",
+    "generatedBy": "popup_support_router_v1"
+  },
+  "receipt": {
+    "simpleMeaning": "proof of payment",
+    "contextMeaning": "The worker may give a receipt",
+    "sentence": "The worker may give them a bag and a receipt.",
+    "sourceSentence": "The worker may give them a bag and a receipt.",
+    "example": "The worker may give them a bag and a receipt.",
+    "translationJa": "",
+    "translationEs": "",
+    "source": "popup_support_router/authored_reading_vocabulary",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "authored_reading_vocabulary",
+    "contextMeaningSource": "authored_reading_vocabulary",
+    "generatedBy": "popup_support_router_v1",
+    "popupMeaningPolish": {
+      "contractVersion": "popup_meaning_polish_v1",
+      "applied": true
+    }
   },
   "jackets": {
     "simpleMeaning": "warm clothes for the top of your body",
@@ -810,7 +859,7 @@
     "translationEs": ""
   },
   "role": {
-    "simpleMeaning": "A part you play in a game or story",
+    "simpleMeaning": "a part in an activity",
     "contextMeaning": "The part you act in the practice game",
     "sentence": "5: Practice the role play.",
     "sourceSentence": "5: Practice the role play.",
@@ -822,7 +871,11 @@
     "contextMeaningSource": "context_explain",
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
-    "translationEs": ""
+    "translationEs": "",
+    "popupMeaningPolish": {
+      "contractVersion": "popup_meaning_polish_v1",
+      "applied": true
+    }
   },
   "change": {
     "simpleMeaning": "Make something different or swap it",
@@ -875,21 +928,6 @@
     "sentence": "Paying for Clothes Useful Phrases Simple Explanation Conversation Role Play At the store Role-play Final Reflection Clothes-shopping English is everyday English.",
     "sourceSentence": "Paying for Clothes Useful Phrases Simple Explanation Conversation Role Play At the store Role-play Final Reflection Clothes-shopping English is everyday English.",
     "example": "Paying for Clothes Useful Phrases Simple Explanation Conversation Role Play At the store Role-play Final Reflection Clothes-shopping English is everyday English.",
-    "source": "popup_prebuild_coverage/context_explain",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
-    "translationJa": "",
-    "translationEs": ""
-  },
-  "b": {
-    "simpleMeaning": "The second person in a talk or game",
-    "contextMeaning": "The second friend talking about the jacket",
-    "sentence": "Friend B: This blue jacket looks nice.",
-    "sourceSentence": "Friend B: This blue jacket looks nice.",
-    "example": "Friend B: This blue jacket looks nice.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -990,7 +1028,7 @@
     "translationEs": ""
   },
   "try": {
-    "simpleMeaning": "To put on clothes to see if they fit",
+    "simpleMeaning": "check if clothes fit",
     "contextMeaning": "People put on clothes to check before buying",
     "sentence": "People can try clothes on before they buy them.",
     "sourceSentence": "People can try clothes on before they buy them.",
@@ -1002,7 +1040,11 @@
     "contextMeaningSource": "context_explain",
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
-    "translationEs": ""
+    "translationEs": "",
+    "popupMeaningPolish": {
+      "contractVersion": "popup_meaning_polish_v1",
+      "applied": true
+    }
   },
   "before": {
     "simpleMeaning": "At an earlier time, not after",
@@ -1260,7 +1302,7 @@
     "translationEs": ""
   },
   "trying": {
-    "simpleMeaning": "To put on clothes to see if they fit",
+    "simpleMeaning": "checking if clothes fit",
     "contextMeaning": "Putting on clothes to check size or look",
     "sentence": "Trying Clothes On Useful Phrases Simple Explanation 4.",
     "sourceSentence": "Trying Clothes On Useful Phrases Simple Explanation 4.",
@@ -1272,7 +1314,11 @@
     "contextMeaningSource": "context_explain",
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
-    "translationEs": ""
+    "translationEs": "",
+    "popupMeaningPolish": {
+      "contractVersion": "popup_meaning_polish_v1",
+      "applied": true
+    }
   },
   "paying": {
     "simpleMeaning": "Giving money for something",
@@ -1288,50 +1334,5 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": ""
-  },
-  "try on": {
-    "simpleMeaning": "put on clothes to check them",
-    "contextMeaning": "People can try clothes on before they buy them",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
-    "translationJa": "",
-    "translationEs": "",
-    "source": "popup_support_router/authored_reading_vocabulary",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "teach",
-    "simpleMeaningSource": "authored_reading_vocabulary",
-    "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
-  },
-  "too small": {
-    "simpleMeaning": "not big enough",
-    "contextMeaning": "The jacket is too small",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
-    "translationJa": "",
-    "translationEs": "",
-    "source": "popup_support_router/authored_reading_vocabulary",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "teach",
-    "simpleMeaningSource": "authored_reading_vocabulary",
-    "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
-  },
-  "too long": {
-    "simpleMeaning": "longer than you need",
-    "contextMeaning": "Pants can be too long",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
-    "translationJa": "",
-    "translationEs": "",
-    "source": "popup_support_router/authored_reading_vocabulary",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "teach",
-    "simpleMeaningSource": "authored_reading_vocabulary",
-    "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
   }
 }

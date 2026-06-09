@@ -105,11 +105,11 @@
     "generatedBy": "popup_support_router_v1"
   },
   "tracking number": {
-    "simpleMeaning": "a number used to check where a package is",
+    "simpleMeaning": "number for following a package",
     "contextMeaning": "The customer asks for a tracking number",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Customer: Can I have a tracking number?",
+    "sourceSentence": "Customer: Can I have a tracking number?",
+    "example": "Customer: Can I have a tracking number?",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -117,7 +117,11 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupMeaningPolish": {
+      "contractVersion": "popup_meaning_polish_v1",
+      "applied": true
+    }
   },
   "send": {
     "simpleMeaning": "make something go to another place",
