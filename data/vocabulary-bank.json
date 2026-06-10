@@ -29038,29 +29038,6 @@
       }
     ]
   },
-  "colony": {
-    "word": "colony",
-    "definition": "A place controlled by another country",
-    "cefrLevel": "B1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-10-the-history-of-tea"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-10-the-history-of-tea",
-        "sentence": "Sugar was produced in colonies, often through very unfair and cruel labor systems.",
-        "contextMeaning": "Here, \"colony\" means sugar production was linked to colonies",
-        "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "color": {
     "word": "color",
     "definition": "Different bright things you can see",
@@ -37539,7 +37516,7 @@
       },
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
-        "sentence": "What drink do people offer to guests in your culture?",
+        "sentence": "It can be a daily drink, a health drink, a social drink, or a symbol of culture.",
         "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -61881,7 +61858,7 @@
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "This shows that tea is flexible.",
         "contextMeaning": "Here, \"flexible\" means tea is flexible because cultures use it differently",
-        "source": "authored_reading_vocabulary",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -94391,7 +94368,7 @@
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "In some places, tea was connected to medicine.",
         "contextMeaning": "Here, \"medicine\" means early tea was often used like medicine",
-        "source": "authored_reading_vocabulary",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -98859,20 +98836,12 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Mountains, doors, enemies, and paths appear on the screen.",
-        "contextMeaning": "Here, \"mountains\" means very high land",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-the-history-of-tea",
-        "sentence": "Traders carried tea across mountains, seas, and long roads.",
         "contextMeaning": "Here, \"mountains\" means very high land",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -129831,8 +129800,7 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever"
     ],
     "contexts": [
       {
@@ -129854,13 +129822,6 @@
         "sentence": "Warm-Up Questions Story Origin Sisyphus the Clever King Trying to Escape Death The Punishment Why the Story Feels Modern The Rock as a Symbol Strength, Meaning, and Starting Again Final Reflection Greek mythology connects myth sources, ritual practice, and modern meaning.",
         "contextMeaning": "Here, \"ritual\" means greek stories join special repeated actions and ideas",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-the-history-of-tea",
-        "sentence": "Do you think modern people need more quiet rituals?",
-        "contextMeaning": "Here, \"ritual\" means tea can become a quiet daily ritual",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -146403,7 +146364,7 @@
   },
   "spices": {
     "word": "spices",
-    "definition": "Seeds, roots, or plants used to add flavor",
+    "definition": "Things from plants that add taste",
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -146418,8 +146379,8 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "In India, chai is made with black tea, milk, sugar, and spices.",
-        "contextMeaning": "Here, \"spices\" means chai often uses milk, sugar, and spices",
-        "source": "authored_reading_vocabulary",
+        "contextMeaning": "Here, \"spices\" means things from plants that add taste",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -148230,7 +148191,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -148245,6 +148207,13 @@
         "sentence": "They are buying meaning, image, and status.",
         "contextMeaning": "Here, \"status\" means the social position or respect people get from buying",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Is it just a drink, or does it show care, respect, or status?",
+        "contextMeaning": "Here, \"status\" means expensive tea showed wealth and status",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -154642,21 +154611,13 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "It shows that humans are emotional and symbolic.",
         "contextMeaning": "Here, \"symbolic\" means connected to meaning, identity, or feeling",
-        "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-the-history-of-tea",
-        "sentence": "Is tea more practical, social, or symbolic?",
-        "contextMeaning": "Here, \"symbolic\" means tea can be symbolic of comfort, respect, or culture",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
