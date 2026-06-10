@@ -996,6 +996,21 @@
       }
     ]
   },
+  "action games": {
+    "word": "action games",
+    "definition": "Games with fast movement",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": []
+  },
   "actions": {
     "word": "actions",
     "definition": "Things people do",
@@ -1773,7 +1788,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -1828,6 +1844,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Adults can also enjoy kawaii characters because they reduce stress, bring back memories, or make daily life feel lighter.",
+        "contextMeaning": "Here, \"adults\" means grown-up people",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Children, teenagers, and adults can all enjoy games.",
         "contextMeaning": "Here, \"adults\" means grown-up people",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -1945,6 +1968,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "adventure games": {
+    "word": "adventure games",
+    "definition": "Games about exploring and finding things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": []
   },
   "adventures": {
     "word": "adventures",
@@ -2342,7 +2380,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -2699,6 +2738,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "They can ask, \"Can I pay by card?\" After they pay, they can ask for a receipt.",
         "contextMeaning": "Here, \"after\" means when money is given, then ask for a receipt",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people play games after school.",
+        "contextMeaning": "Here, \"after\" means playing games happens when school is finished",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -10852,13 +10898,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Imagine a baseball bat.",
         "contextMeaning": "Here, \"baseball\" means a ball game with a bat to hit the ball",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
+        "contextMeaning": "Here, \"baseball\" means a sport game where players hit a ball with a bat",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -11032,6 +11086,29 @@
         "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
         "contextMeaning": "Here, \"basket\" means good for a few things",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "basketball": {
+    "word": "basketball",
+    "definition": "A game where you throw a ball in a hoop",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
+        "contextMeaning": "Here, \"basketball\" means a sport game where players throw a ball into a hoop",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -11241,7 +11318,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -11255,6 +11333,13 @@
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Later, it grew into a larger world with characters, battles, and story-like episodes.",
         "contextMeaning": "Here, \"battles\" means fights or contests between characters in the story",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people like difficult battles.",
+        "contextMeaning": "Here, \"battles\" means fights in games that some players like",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -11652,7 +11737,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -12079,6 +12165,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "This matters because she did not become famous first through a movie, TV show, or long story.",
         "contextMeaning": "Here, \"because\" means it is important since she did not get famous from movies or shows",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people like team games because they can play with friends.",
+        "contextMeaning": "Here, \"because\" means they like team games for playing with friends",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -18103,6 +18196,21 @@
       }
     ]
   },
+  "building games": {
+    "word": "building games",
+    "definition": "Games where players make things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": []
+  },
   "building-code": {
     "word": "building-code",
     "definition": "Rules for how to build things safely",
@@ -19532,6 +19640,7 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -19629,6 +19738,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Why can cute design make people feel calm or happy?",
+        "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary video games - games people play on a screen teenagers - young people around 13 to 19 years old exciting - making you feel interested and active relaxing - helping you feel calm action games - games with fast movement sports games - games about sports adventure games - games about exploring and finding things explore - go around a place to see it building games - games where players make things team games - games where people play together",
         "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -31339,7 +31455,8 @@
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -31359,6 +31476,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "This idea is sometimes explained with a computer desktop.",
+        "contextMeaning": "Here, \"computer\" means a machine used for digital work",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Do you play on a phone, computer, console, or tablet?",
         "contextMeaning": "Here, \"computer\" means a machine used for digital work",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -32970,6 +33094,29 @@
       }
     ]
   },
+  "console": {
+    "word": "console",
+    "definition": "A special box to play video games",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Do you play on a phone, computer, console, or tablet?",
+        "contextMeaning": "Here, \"console\" means a machine used to play games, not phone or computer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "constraints": {
     "word": "constraints",
     "definition": "Rules or limits about what you can do",
@@ -34261,7 +34408,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -34275,6 +34423,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "People may feel stylish, successful, cool, elegant, or rich when they use it.",
         "contextMeaning": "Here, \"cool\" means feeling good and popular when using the item",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people like cool characters.",
+        "contextMeaning": "Here, \"cool\" means nice or fun people or animals in games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -40535,7 +40690,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -40591,6 +40747,13 @@
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
         "sentence": "Postage depends on weight and destination.",
         "contextMeaning": "Here, \"depends\" means the cost changes because of how heavy and where it goes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "It depends on the game.",
+        "contextMeaning": "Here, \"depends\" means it changes based on which game you mean",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -42305,7 +42468,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -42480,6 +42644,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "Sometimes an address is difficult to say.",
         "contextMeaning": "Here, \"difficult\" means hard to say the address",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people like difficult battles.",
+        "contextMeaning": "Here, \"difficult\" means hard or not easy fights in games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -46587,7 +46758,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -46776,6 +46948,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Each animal gets a version of the world that is useful for its life.",
         "contextMeaning": "Here, \"each\" means every animal has its own way to see the world",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "They can talk, help each other, and make a plan.",
+        "contextMeaning": "Here, \"each\" means help the other person in the group, not just yourself",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -50265,6 +50444,7 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -50306,6 +50486,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Do you usually enjoy music that feels simple immediately, or music that becomes deeper after repeated listening?",
+        "contextMeaning": "Here, \"enjoy\" means to like doing something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Children, teenagers, and adults can all enjoy games.",
         "contextMeaning": "Here, \"enjoy\" means to like doing something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -50396,7 +50583,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -50430,6 +50618,13 @@
       {
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "For a small problem, short English is enough.",
+        "contextMeaning": "Here, \"enough\" means not as much as needed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Short sentences are enough: \"I like adventure games,\" \"Players explore new places,\" \"I play on weekends,\" and \"I like team games because I can play with friends.\" Speaking Practice Questions 1.",
         "contextMeaning": "Here, \"enough\" means not as much as needed",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -53518,7 +53713,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-getting-to-know-someone-b1"
+      "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -53673,6 +53869,13 @@
         "sentence": "Is it exciting, stressful, or both?",
         "contextMeaning": "Here, \"exciting\" means something that makes you feel happy and interested",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Games can be fun, exciting, and relaxing.",
+        "contextMeaning": "Here, \"exciting\" means games can be exciting",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -55394,7 +55597,8 @@
     "episodes": [
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast"
+      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -55416,6 +55620,13 @@
         "sentence": "The conversation can explore which is more important for your business: local customers, tourists, partners, or lifestyle?",
         "contextMeaning": "Here, \"explore\" means to think about what is best for the business",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In adventure games, players explore new places and find items.",
+        "contextMeaning": "Here, \"explore\" means players explore new places",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -57050,7 +57261,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -57134,6 +57346,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "These experiences help the body act fast.",
         "contextMeaning": "Here, \"fast\" means the body acts quickly because of these experiences",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "I do not like fast games.",
+        "contextMeaning": "Here, \"fast\" means games that move quickly and are not slow",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -59174,7 +59393,8 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-21-what-is-gintama"
+      "episode-2026-05-21-what-is-gintama",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -59195,6 +59415,13 @@
         "episodeId": "episode-2026-05-21-what-is-gintama",
         "sentence": "They fight, joke, complain, and help each other.",
         "contextMeaning": "Here, \"fight\" means they use anger or hit each other sometimes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In action games, players fight, run, or move quickly.",
+        "contextMeaning": "Here, \"fight\" means to hit or attack in action games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -64256,13 +64483,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Read and perform a fun A2+ story with two roles, clear emotions, apologies, problem-solving language, and a happy ending.",
         "contextMeaning": "Here, \"fun\" means the story is enjoyable to read and act out",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Games can be fun, exciting, and relaxing.",
+        "contextMeaning": "Here, \"fun\" means games can make you happy and enjoy yourself",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -65960,7 +66195,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -66002,6 +66238,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Hello Kitty became popular on products that people could carry, use, and give.",
         "contextMeaning": "Here, \"give\" means people could share or give the products to others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "You can name the kind of game, say what players do, and give one reason.",
+        "contextMeaning": "Here, \"give\" means say one reason or idea about the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -67062,7 +67305,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -67111,6 +67355,13 @@
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "Customer: Good morning.",
         "contextMeaning": "Here, \"good\" means say hello in the morning politely",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Video games are also good for talking in English.",
+        "contextMeaning": "Here, \"good\" means video games help you practice speaking English well",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -79883,7 +80134,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -79918,6 +80170,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "It can tell other people, \"This is my taste,\" or \"This is the kind of person I want to be.\" This is why some people pay much more for branded items.",
         "contextMeaning": "Here, \"items\" means objects people buy to show their taste or who they are",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In adventure games, players explore new places and find items.",
+        "contextMeaning": "Here, \"items\" means things players find when they look in new places",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -81611,7 +81870,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -81639,6 +81899,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "This variety matters because not every fan wants the same kind of cute.",
         "contextMeaning": "Here, \"kind\" means type of cute that fans like is different",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "You can say what game you like, what kind of game it is, what players do, and why you like it.",
+        "contextMeaning": "Here, \"kind\" means type of game, like what it is or how it works",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -81746,7 +82013,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -81795,6 +82063,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Sanrio characters can appear with cafes, fashion brands, games, cosmetics, theme parks, and many kinds of goods.",
         "contextMeaning": "Here, \"kinds\" means many different types of things have Sanrio characters",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
+        "contextMeaning": "Here, \"kinds\" means different types of games you like to play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -85446,7 +85721,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -85537,6 +85813,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "A cute card or keychain may say, \"I thought of you,\" \"I hope you smile,\" or \"I know what you like.\" Sanrio's characters make that message easier to send.",
         "contextMeaning": "Here, \"like\" means knowing what someone enjoys or wants",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
+        "contextMeaning": "Here, \"like\" means the kinds of games you enjoy or want",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89729,7 +90012,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -89792,6 +90076,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "A short B1 explainer about how Sanrio and Hello Kitty use simple character design to make everyday products feel personal.",
         "contextMeaning": "Here, \"make\" means cause people to feel calm or happy because of design",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In building games, players can make houses, towns, or their own world.",
+        "contextMeaning": "Here, \"make\" means players build houses or towns in the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -90705,7 +90996,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -91174,6 +91466,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Sanrio is a Japanese company famous for Hello Kitty and many other cute characters.",
         "contextMeaning": "Here, \"many\" means a lot of other cute characters besides Hello Kitty",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Many people like playing video games.",
+        "contextMeaning": "Here, \"many\" means a lot of people like to play video games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -98987,7 +99286,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -99071,6 +99371,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Explain a winery workplace, name daily duties, and use a separate role play to talk with a visitor.",
         "contextMeaning": "Here, \"name\" means say the words for daily jobs at the winery",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "You can name the kind of game, say what players do, and give one reason.",
+        "contextMeaning": "Here, \"name\" means say the kind of game it is",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -100644,7 +100951,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -100742,6 +101050,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Practice the role play again with one new duty, one new place, or one new visitor question.",
         "contextMeaning": "Here, \"new\" means a different duty, place, or question to practice",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In adventure games, players explore new places and find items.",
+        "contextMeaning": "Here, \"new\" means players find places they did not see before",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -103405,7 +103720,8 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -103706,6 +104022,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Kawaii is often translated as \"cute,\" but the feeling is wider.",
         "contextMeaning": "Here, \"often\" means many times, kawaii is said to mean cute",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "I do not play games often.",
+        "contextMeaning": "Here, \"often\" means not many times I play games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -106132,7 +106455,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -106314,6 +106638,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Sanrio is a Japanese company famous for Hello Kitty and many other cute characters.",
         "contextMeaning": "Here, \"other\" means different cute characters besides Hello Kitty",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Do you like playing alone or with other people?",
+        "contextMeaning": "Here, \"other\" means different people, not you, playing together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -112268,7 +112599,8 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -112296,6 +112628,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The goal is to practice English for small problems: asking calmly, explaining what happened, saying sorry, and making a better plan.",
         "contextMeaning": "Here, \"plan\" means making a better idea to fix small problems",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "They can talk, help each other, and make a plan.",
+        "contextMeaning": "Here, \"plan\" means a good idea players make to work together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -112887,6 +113226,29 @@
       }
     ]
   },
+  "playing": {
+    "word": "playing",
+    "definition": "Doing a game or fun activity",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Do you like playing alone or with other people?",
+        "contextMeaning": "Here, \"playing\" means doing a game alone or with friends",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "plays": {
     "word": "plays",
     "definition": "Works when you use it for fun",
@@ -112898,13 +113260,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
         "sentence": "But reports say it still looks good and plays well.",
         "contextMeaning": "Here, \"plays\" means the game still works well when used",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Who Plays Video Games?",
+        "contextMeaning": "Here, \"plays\" means does video games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -120414,6 +120784,29 @@
       }
     ]
   },
+  "racing": {
+    "word": "racing",
+    "definition": "Running or driving very fast to win",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
+        "contextMeaning": "Here, \"racing\" means a sport where players try to go fastest and win",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "rail": {
     "word": "rail",
     "definition": "A long metal bar for wheels to move on",
@@ -120844,7 +121237,8 @@
     "episodes": [
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -120865,6 +121259,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "| In an emergency, I would rather know...",
         "contextMeaning": "Here, \"rather\" means shows a choice or preference for knowing something",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "3: Would you rather explore a new place or build a new world?",
+        "contextMeaning": "Here, \"rather\" means choose if you like exploring or building more",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -123724,7 +124125,8 @@
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -123767,6 +124169,13 @@
         "sentence": "People drink, talk, relax, and sometimes sing karaoke.",
         "contextMeaning": "Here, \"relax\" means what customers do in a snack bar",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Other people like games because they can relax and have fun.",
+        "contextMeaning": "Here, \"relax\" means to rest and feel calm when playing games",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -123823,7 +124232,8 @@
     "episodes": [
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -123845,6 +124255,13 @@
         "sentence": "I like a relaxing week because...",
         "contextMeaning": "Here, \"relaxing\" means helping you feel calm",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Games can be fun, exciting, and relaxing.",
+        "contextMeaning": "Here, \"relaxing\" means games can be relaxing",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -129854,6 +130271,29 @@
       }
     ]
   },
+  "run": {
+    "word": "run",
+    "definition": "To move fast with your legs",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In action games, players fight, run, or move quickly.",
+        "contextMeaning": "Here, \"run\" means players move quickly in the game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "running": {
     "word": "running",
     "definition": "Going on now and being done regularly",
@@ -131564,7 +132004,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -131648,6 +132089,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Say where you work, name your duties, and show the visitor where to go.",
         "contextMeaning": "Here, \"say\" means tell the visitor your job and what you do",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
+        "contextMeaning": "Here, \"say\" means to tell what kinds of games you enjoy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -132682,7 +133130,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -132716,6 +133165,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "It is not far away on a screen.",
+        "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary video games - games people play on a screen teenagers - young people around 13 to 19 years old exciting - making you feel interested and active relaxing - helping you feel calm action games - games with fast movement sports games - games about sports adventure games - games about exploring and finding things explore - go around a place to see it building games - games where players make things team games - games where people play together",
         "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -141401,6 +141857,29 @@
       }
     ]
   },
+  "soccer": {
+    "word": "soccer",
+    "definition": "A game where you kick a ball to score",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
+        "contextMeaning": "Here, \"soccer\" means a sport game where players kick a ball to score",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "social": {
     "word": "social",
     "definition": "About people and how they connect with each other",
@@ -143993,7 +144472,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -144294,6 +144774,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Speaking Practice Questions 1.",
         "contextMeaning": "Here, \"speaking\" means practice questions to help you talk better",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Speaking Practice Questions 1.",
+        "contextMeaning": "Here, \"speaking\" means talking practice questions to help you speak",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -145208,6 +145695,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "sports games": {
+    "word": "sports games",
+    "definition": "Games about sports",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": []
   },
   "spread": {
     "word": "spread",
@@ -154139,7 +154641,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -154203,6 +154706,13 @@
         "sentence": "That is why people are talking about it.",
         "contextMeaning": "Here, \"talking\" means people are using words to say about it",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Video games are also good for talking in English.",
+        "contextMeaning": "Here, \"talking\" means using words to speak English while playing video games",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -155076,6 +155586,21 @@
       }
     ]
   },
+  "team games": {
+    "word": "team games",
+    "definition": "Games where people play together",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": []
+  },
   "teamwork": {
     "word": "teamwork",
     "definition": "Working together with other people",
@@ -155456,7 +155981,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -155464,6 +155990,13 @@
         "sentence": "A meme can be obvious to children or teenagers but completely confusing to adults.",
         "contextMeaning": "Here, \"teenagers\" means young people between childhood and adult age",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Children, teenagers, and adults can all enjoy games.",
+        "contextMeaning": "Here, \"teenagers\" means teenagers can enjoy games",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -156365,7 +156898,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -156373,6 +156907,13 @@
         "sentence": "For example, AI can write text, answer questions, study patterns, and help people plan work.",
         "contextMeaning": "Here, \"text\" means written words or sentences",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Read a simple A1-A2 text about video games.",
+        "contextMeaning": "Here, \"text\" means a short reading about video games for learners",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -161090,7 +161631,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -161104,6 +161646,13 @@
         "episodeId": "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
         "sentence": "In many Japanese towns, people now repair these houses and use them in new ways.",
         "contextMeaning": "Here, \"towns\" means small cities in Japan where people live and fix houses",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In building games, players can make houses, towns, or their own world.",
+        "contextMeaning": "Here, \"towns\" means small places with many buildings players can make",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -166232,6 +166781,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -166462,6 +167012,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary video games - games people play on a screen teenagers - young people around 13 to 19 years old exciting - making you feel interested and active relaxing - helping you feel calm action games - games with fast movement sports games - games about sports adventure games - games about exploring and finding things explore - go around a place to see it building games - games where players make things team games - games where people play together",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -166859,7 +167416,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -167069,6 +167627,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "One of Hello Kitty's most famous design features is that she usually has no mouth.",
         "contextMeaning": "Here, \"usually\" means most of the time, she has no mouth",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "1: When do you usually play games?",
+        "contextMeaning": "Here, \"usually\" means at what time you most often play games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -168090,6 +168655,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "video games": {
+    "word": "video games",
+    "definition": "Games people play on a screen",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": []
   },
   "videos": {
     "word": "videos",
@@ -170106,6 +170686,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -170384,6 +170965,13 @@
       },
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
@@ -171821,7 +172409,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-06-daily-life-family-and-practical-english-review"
+      "episode-2026-05-06-daily-life-family-and-practical-english-review",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -171829,6 +172418,13 @@
         "sentence": "Weekends bring another kind of learning.",
         "contextMeaning": "Here, \"weekends\" means the days at the end of the week that bring different kinds of learning",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people play games on weekends.",
+        "contextMeaning": "Here, \"weekends\" means saturday and Sunday",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -173201,7 +173797,8 @@
     "episodes": [
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -173222,6 +173819,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Rankings are not only about winning.",
         "contextMeaning": "Here, \"winning\" means getting first place is not the only thing about rankings",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people like winning.",
+        "contextMeaning": "Here, \"winning\" means people like being the best in a game or contest",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
