@@ -4082,7 +4082,8 @@
     "episodes": [
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -4102,6 +4103,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "One instrument alone can be beautiful, but many instruments together can create a much bigger emotional world.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "So Bach was not only \"a composer sitting alone.\" He was a professional musician inside real institutions.",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -11333,7 +11341,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -11346,6 +11355,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "The object itself does not become stronger, faster, or more beautiful.",
+        "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "In a beautiful building, every wall, window, and column has a place.",
         "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -17998,7 +18014,8 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -18020,6 +18037,13 @@
         "sentence": "How should Europe build AI?",
         "contextMeaning": "Here, \"build\" means to make or create AI technology",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Bach worked inside churches, courts, schools, and town institutions, but he used those practical responsibilities to build music with lasting power.",
+        "contextMeaning": "Here, \"build\" means to make something by putting parts together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -20605,7 +20629,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -20646,6 +20671,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It is a large world of music written with careful structure, deep emotion, and long-lasting ideas.",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "It can also come from service, routine, belief, family duty, and careful attention.",
         "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -25482,6 +25514,21 @@
       }
     ]
   },
+  "church musician": {
+    "word": "church musician",
+    "definition": "A musician who prepares or performs music for religious services",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": []
+  },
   "churned": {
     "word": "churned",
     "definition": "To mix while freezing to make a smooth texture",
@@ -25949,6 +25996,29 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Wolfgang Amadeus Mozart lived during the Classical period.",
         "contextMeaning": "Here, \"classical period\" means a European music time known for clear and balanced music",
+        "source": "popup_support_router/trusted_cultural_phrase_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "classical style": {
+    "word": "classical style",
+    "definition": "A clear and balanced way of writing classical music",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "The newer Classical style of Mozart and Haydn was lighter, clearer, and more elegant.",
+        "contextMeaning": "Here, \"classical style\" means music that is clear, balanced, and carefully shaped",
         "source": "popup_support_router/trusted_cultural_phrase_rule",
         "confidence": "trusted"
       }
@@ -26688,7 +26758,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -26736,6 +26807,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "In this time, music became clearer and more balanced.",
+        "contextMeaning": "Here, \"clearer\" means easier to understand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "The newer Classical style of Mozart and Haydn was lighter, clearer, and more elegant.",
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -29575,7 +29653,8 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -29658,6 +29737,13 @@
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
         "sentence": "Tracking numbers are common for important packages.",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Bach had 20 children in total, though many did not survive to adulthood, which was sadly common at that time.",
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -31011,7 +31097,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -31019,6 +31106,36 @@
         "sentence": "After that, you can learn the history, the composer, the period, and the musical ideas.",
         "contextMeaning": "Here, \"composer\" means you can learn about the person who made the music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "So Bach was not only \"a composer sitting alone.\" He was a professional musician inside real institutions.",
+        "contextMeaning": "Here, \"composer\" means a person who writes music",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "composers": {
+    "word": "composers",
+    "definition": "A person who writes music",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Today, he is seen as one of the greatest composers in Western music history, especially as a master of the Baroque period.",
+        "contextMeaning": "Here, \"composers\" means composer means a person who writes music",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -35156,6 +35273,29 @@
       }
     ]
   },
+  "counterpoint": {
+    "word": "counterpoint",
+    "definition": "Two or more melodies moving at the same time while fitting",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Bach often used counterpoint.",
+        "contextMeaning": "Here, \"counterpoint\" means two or more melodies moving at the same time while fitting together",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "counters": {
     "word": "counters",
     "definition": "Many tables where people work or help",
@@ -35678,7 +35818,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -35740,6 +35881,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "The strings, like violins and cellos, often create warmth, beauty, and emotion.",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "It can create many layers of sound at the same time.",
         "contextMeaning": "Here, \"create\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -36739,7 +36887,8 @@
       "episode-2026-05-31-korean-and-french-culture-are-set-to-rendezvous",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -36787,6 +36936,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Hello Kitty belongs to a Japanese company and to Japanese kawaii culture.",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Famous pieces such as Toccata and Fugue in D minor are often connected with dramatic images in modern culture, even though people may not know the full background.",
         "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -37463,7 +37619,8 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -37539,6 +37696,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Conversation Role Play A visitor asks a winery worker about the workplace and daily duties.",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Can discipline and daily work be as important as inspiration for great art?",
         "contextMeaning": "Here, \"daily\" means happening every day",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -41154,7 +41318,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -41225,6 +41390,13 @@
         "sentence": "Ask about a past or future detail.",
         "contextMeaning": "Here, \"detail\" means one small piece of information",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -48583,7 +48755,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -48646,6 +48819,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "In simple terms, her face does not force one emotion.",
         "contextMeaning": "Here, \"emotion\" means a feeling shown on her face that is not strong",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Understand Bach's life, work, music, and legacy, then practice explaining why careful structure can create deep emotion in clear B1-B2 English.",
+        "contextMeaning": "Here, \"emotion\" means a deep feeling that music can make people have",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -49347,7 +49527,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -49402,6 +49583,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "You see \"red,\" \"round,\" and \"solid.\" But physics says the apple is made of atoms, forces, light waves, empty space, and energy.",
+        "contextMeaning": "Here, \"energy\" means power for action or movement",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "The Brandenburg Concertos show energy and instrumental color.",
         "contextMeaning": "Here, \"energy\" means power for action or movement",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -49872,7 +50060,8 @@
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -49906,6 +50095,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Adults can also enjoy kawaii characters because they reduce stress, bring back memories, or make daily life feel lighter.",
+        "contextMeaning": "Here, \"enjoy\" means to like doing something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Do you usually enjoy music that feels simple immediately, or music that becomes deeper after repeated listening?",
         "contextMeaning": "Here, \"enjoy\" means to like doing something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -56262,7 +56458,8 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -56352,6 +56549,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Sanrio is a Japanese company famous for Hello Kitty and many other cute characters.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Bach's Music Is Famous for Structure One of the most important words for Bach is structure.",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -70039,7 +70243,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -70087,6 +70292,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "When you hear the words classical music, what image comes to mind?",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "When you hear the name Bach, what kind of music do you imagine?",
         "contextMeaning": "Here, \"hear\" means listening to sounds or words",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -77319,6 +77531,21 @@
       }
     ]
   },
+  "instrumental music": {
+    "word": "instrumental music",
+    "definition": "Music written mainly for instruments, not singing",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": []
+  },
   "instruments": {
     "word": "instruments",
     "definition": "Things you play to make music",
@@ -77860,7 +78087,8 @@
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -77880,6 +78108,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "This mix is interesting.",
+        "contextMeaning": "Here, \"interesting\" means making you want to know more",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "This makes Bach very interesting.",
         "contextMeaning": "Here, \"interesting\" means making you want to know more",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -80049,7 +80284,8 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2"
+      "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -80069,6 +80305,13 @@
       {
         "episodeId": "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
         "sentence": "As I prepare for my journey, I notice that my phone is missing.",
+        "contextMeaning": "Here, \"journey\" means a long trip",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "If Mozart is like a beautiful conversation, and Beethoven is like a powerful emotional journey, Bach is like a cathedral made of sound.",
         "contextMeaning": "Here, \"journey\" means a long trip",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -83002,6 +83245,29 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "We do not see every hidden layer directly.",
         "contextMeaning": "Here, \"layer\" means one part of the technology stack or decision process",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "layers": {
+    "word": "layers",
+    "definition": "One level or part of a system",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "It can create many layers of sound at the same time.",
+        "contextMeaning": "Here, \"layers\" means a layer is one part of the technology stack or decision process",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
       }
@@ -95405,7 +95671,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -95448,6 +95715,36 @@
         "sentence": "Modern life is fast.",
         "contextMeaning": "Here, \"modern\" means new and current in style or method",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Famous pieces such as Toccata and Fugue in D minor are often connected with dramatic images in modern culture, even though people may not know the full background.",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "modern culture": {
+    "word": "modern culture",
+    "definition": "A newer style that often tries new ideas or forms",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Famous pieces such as Toccata and Fugue in D minor are often connected with dramatic images in modern culture, even though people may not know the full background.",
+        "contextMeaning": "Here, \"modern culture\" means \"modern culture\" names background knowledge from history, art, music, or culture",
+        "source": "popup_support_router/trusted_cultural_phrase_rule",
         "confidence": "trusted"
       }
     ]
@@ -105087,6 +105384,29 @@
       }
     ]
   },
+  "organist": {
+    "word": "organist",
+    "definition": "A musician who plays the organ",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
+        "contextMeaning": "Here, \"organist\" means a musician who plays the organ",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "organization": {
     "word": "organization",
     "definition": "A group of people working together",
@@ -109609,7 +109929,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -109657,6 +109978,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "In this view, perception is not like a perfect camera.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "That made it perfect for a musician who loved structure, depth, and powerful musical design.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112077,7 +112405,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -112090,6 +112419,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "For example, in a video game, the player sees a 3D world.",
+        "contextMeaning": "Here, \"player\" means a person who plays a game or sport",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
         "contextMeaning": "Here, \"player\" means a person who plays a game or sport",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -113520,7 +113856,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -113561,6 +113898,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Some characters first became popular on screens or in comics.",
+        "contextMeaning": "Here, \"popular\" means liked by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "But after his death, his music became less popular for a time.",
         "contextMeaning": "Here, \"popular\" means liked by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -119445,7 +119789,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -119565,6 +119910,13 @@
         "sentence": "When a fan is sad, she can feel quiet and gentle.",
         "contextMeaning": "Here, \"quiet\" means calm and gentle in feeling",
         "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "It could fill a church with sound, from a quiet prayer-like tone to a huge wave of music.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -128789,7 +129141,8 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-10-getting-to-know-someone-b1"
+      "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -128825,6 +129178,13 @@
         "sentence": "What is one small routine you almost always do?",
         "contextMeaning": "Here, \"routine\" means something you do regularly",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "It can also come from service, routine, belief, family duty, and careful attention.",
+        "contextMeaning": "Here, \"routine\" means things you do every day",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -138396,7 +138756,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -138409,6 +138770,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Singers and poets changed details as they performed, so myths often have different versions.",
+        "contextMeaning": "Here, \"singers\" means a person who sings",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Bach wrote many cantatas, which are musical works for singers and instruments.",
         "contextMeaning": "Here, \"singers\" means a person who sings",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -148944,7 +149312,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -149027,6 +149396,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "A strong thinker learns to pause and ask: \"Is this reality, or is this my brain's quick interpretation?\" This is extremely useful.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "His music often feels strong, ordered, and deeply responsible.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -149270,7 +149646,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -149313,6 +149690,13 @@
         "sentence": "It is a large world of music written with careful structure, deep emotion, and long-lasting ideas.",
         "contextMeaning": "Here, \"structure\" means the way music is carefully made or planned",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Bach's Music Is Famous for Structure One of the most important words for Bach is structure.",
+        "contextMeaning": "Here, \"structure\" means the careful way parts are organized into a whole",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -153786,7 +154170,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -153813,6 +154198,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "It can tell other people, \"This is my taste,\" or \"This is the kind of person I want to be.\" This is why some people pay much more for branded items.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Musical taste changed.",
         "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -154037,12 +154429,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Memes matter because they teach us about humor, identity, emotion, politics, language, technology, and group behavior.",
+        "contextMeaning": "Here, \"teach\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "His job was not only to \"be creative.\" He had to compose, teach, rehearse musicians, play the organ, and prepare music for religious services.",
         "contextMeaning": "Here, \"teach\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -154064,7 +154464,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -154098,6 +154499,13 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Practice the roleplay with a teacher.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -165336,7 +165744,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -165559,6 +165968,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary winery - a place that makes wine vineyard - a place with grape plants grape - a small fruit used to make wine tasting room - a room where visitors try wine visitor - a person who comes to see a place duty - a job you must do bottle - a glass container for drinks label - paper or a mark on a bottle counter - the place where a worker helps visitors closing time - the end of the work day",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -169186,7 +169602,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -169458,6 +169875,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Warm-Up Questions 1.1 My Workplace A winery is a place that makes wine.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -172074,7 +172498,8 @@
     "episodes": [
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -172094,6 +172519,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "You see a table, a wall, a window, your phone, and maybe another person.",
+        "contextMeaning": "Here, \"window\" means an opening with glass in a wall",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "In a beautiful building, every wall, window, and column has a place.",
         "contextMeaning": "Here, \"window\" means an opening with glass in a wall",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -173776,7 +174208,8 @@
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -173866,6 +174299,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Maybe perception works in a similar way.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Bach wrote many cantatas, which are musical works for singers and instruments.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -174514,7 +174954,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
       {
@@ -174527,6 +174968,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "If an AI system writes something that sounds professional, do you automatically trust it?",
+        "contextMeaning": "Here, \"writes\" means to make words with a pen, keyboard, or screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
         "contextMeaning": "Here, \"writes\" means to make words with a pen, keyboard, or screen",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
