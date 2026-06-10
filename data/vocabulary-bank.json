@@ -1153,7 +1153,8 @@
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-07-puppet-sunsun-2",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -1190,6 +1191,13 @@
         "contextMeaning": "Here, \"activities\" means fun things to do in the city during your trip",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Do you like quiet activities or active activities?",
+        "contextMeaning": "Here, \"activities\" means a fun plan with friends",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -1209,7 +1217,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -1252,6 +1261,13 @@
         "sentence": "Karaoke is optional.",
         "contextMeaning": "Here, \"activity\" means karaoke is an activity in the snack bar",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Who usually chooses the activity in your group?",
+        "contextMeaning": "Here, \"activity\" means a fun plan with friends",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -2096,7 +2112,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-10-getting-to-know-someone-b1"
+      "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -2145,6 +2162,13 @@
         "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
         "sentence": "Do they affect your daily routine?",
         "contextMeaning": "Here, \"affect\" means change your daily routine",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "How does a calm person affect the mood of a room?",
+        "contextMeaning": "Here, \"affect\" means change the feeling or mood in a room",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -3146,7 +3170,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -3182,6 +3207,13 @@
         "sentence": "Say what happened, take responsibility, explain the fix, and agree on the next step.",
         "contextMeaning": "Here, \"agree\" means say yes to the next step after talking about the problem",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "In this lesson, you will learn to ask what your friends want, suggest one activity, give a reason, and agree or disagree politely.",
+        "contextMeaning": "Here, \"agree\" means accept a friend's idea",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -3750,6 +3782,29 @@
       }
     ]
   },
+  "align": {
+    "word": "align",
+    "definition": "Move or work together in the same way",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Interpersonal synchrony research describes how people can align during social interaction.",
+        "contextMeaning": "Here, \"align\" means people move or act together when they talk",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "alive": {
     "word": "alive",
     "definition": "Not dead",
@@ -4107,6 +4162,7 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
@@ -4128,6 +4184,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "One instrument alone can be beautiful, but many instruments together can create a much bigger emotional world.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Do not choose alone.",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -9649,7 +9712,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -9684,6 +9748,13 @@
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "The default may be helpful, but it should not automatically become your choice.",
         "contextMeaning": "Here, \"automatically\" means becoming your choice without you thinking",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Mindfulness research often connects practice with attention, emotion regulation, stress awareness, and noticing thoughts without automatically reacting.",
+        "contextMeaning": "Here, \"automatically\" means doing something without stopping to think or choose",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -10416,7 +10487,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -10464,6 +10536,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Do you own anything with a character on it, such as a bag, notebook, or phone case?",
+        "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Use at for clock times: \"at seven.\" Use on for days and surfaces: \"on Monday,\" \"on the table.\" Use in for months, years, and inside places: \"in April,\" \"in my bag.\" Mini Test: 1.",
         "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -14241,7 +14320,8 @@
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "2026-05-18-beginner-grammar-ladder-first-check",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -14269,6 +14349,13 @@
         "episodeId": "episode-2026-05-27-international-transport-get-to-the-right-place",
         "sentence": "When there is a delay, ask direct questions: \"How long is the delay?\", \"Do I need another platform?\", \"Is there another train?\", or \"Can I use this ticket on the next bus?\" Maya gets to Central Station, but her hotel is not beside the station.",
         "contextMeaning": "Here, \"beside\" means the hotel is not next to the station",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "With a good friend beside you, the same hill may feel easier.",
+        "contextMeaning": "Here, \"beside\" means friend is next to you on the hill",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -17311,6 +17398,29 @@
       }
     ]
   },
+  "breathing": {
+    "word": "breathing",
+    "definition": "Taking air in and out of the body",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Some people sit quietly and follow their breathing.",
+        "contextMeaning": "Here, \"breathing\" means watching or following how air moves in and out",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "bred": {
     "word": "bred",
     "definition": "Made by choosing parents to have babies",
@@ -18467,7 +18577,8 @@
     "episodes": [
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -18487,6 +18598,13 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary one more time - say it again confirm - check that something is correct line - a train route platform - the place where you get on a train downstairs - on a lower floor sign - a board or mark that shows information change trains - leave one train and take another final stop - the place where you get off get off - leave a train or bus",
+        "contextMeaning": "Here, \"bus\" means a large road vehicle for many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "We ___ to school by bus.",
         "contextMeaning": "Here, \"bus\" means a large road vehicle for many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -19650,6 +19768,7 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -19752,6 +19871,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "When you feel stressed, what usually helps you become calm again?",
+        "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "Tea was also connected to education and calm thinking.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
@@ -19771,12 +19897,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "An athlete may feel calmer wearing the same socks before an important game.",
+        "contextMeaning": "Here, \"calmer\" means quiet, peaceful, or not busy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "A calmer voice, slower breathing, steady attention, and a safer presence can help other people settle too.",
         "contextMeaning": "Here, \"calmer\" means quiet, peaceful, or not busy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -20781,6 +20915,7 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
@@ -20830,6 +20965,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It can also come from service, routine, belief, family duty, and careful attention.",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "We will use careful language.",
         "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -21196,7 +21338,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -21237,6 +21380,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The company was not only asking, \"How can we sell more goods?\" It was also asking, \"How can small goods help people communicate?\" A gift can be small, cheap, and simple, but it can still carry a message.",
+        "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Part 3: At, On, And In Small words carry big meaning.",
         "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -22770,7 +22920,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-getting-to-know-someone-b1"
+      "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -23101,6 +23252,13 @@
         "contextMeaning": "Here, \"change\" means ask if something stayed the same or became different",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "It can change how hard life feels.",
+        "contextMeaning": "Here, \"change\" means make life feel easier or harder",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -23144,7 +23302,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -23249,6 +23408,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "The world has changed completely, but people still listen to Bach, Mozart, Beethoven, Chopin, and many others.",
         "contextMeaning": "Here, \"changed\" means the world is now very different than in the past",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Your brain's sense of risk and effort changed.",
+        "contextMeaning": "Here, \"changed\" means brain felt risk and effort in a new way",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -25260,7 +25426,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -25332,6 +25499,13 @@
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "When you see a grammar question with four choices, what do you look at first?",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -25360,6 +25534,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-10-eiken-style-grammar-check-a2",
       "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
@@ -25462,6 +25638,20 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "You need simple words to choose together.",
+        "contextMeaning": "Here, \"choose\" means decide on one activity",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Eiken-Style Grammar Check: Choose The Right Sentence Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "If you could open a business in any country, which one would you choose?",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
@@ -25482,7 +25672,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -25497,6 +25688,13 @@
         "sentence": "menu psychology - how menu design affects customer choices influence - to change what someone thinks or chooses uncertainty - the feeling of not being sure social proof - feeling safer because other people like something perceived value - how useful or fair a price feels urgency - the feeling that you should act now anchoring - judging one price by comparing it with another price expectation - what you imagine will happen",
         "contextMeaning": "Here, \"chooses\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Who usually chooses the activity in your group?",
+        "contextMeaning": "Here, \"chooses\" means decide on one activity",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -28123,6 +28321,21 @@
       }
     ]
   },
+  "clue word": {
+    "word": "clue word",
+    "definition": "A word that helps you choose",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": []
+  },
   "clues": {
     "word": "clues",
     "definition": "Small things that help find or understand",
@@ -28150,6 +28363,29 @@
         "sentence": "The trip gives business clues: what local people noticed, what felt expensive, and what kind of partner might be serious.",
         "contextMeaning": "Here, \"clues\" means helpful information about business from the trip",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "co-regulate": {
+    "word": "co-regulate",
+    "definition": "Become calm together",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "A person who practices this may become easier to co-regulate with.",
+        "contextMeaning": "Here, \"co-regulate\" means helping each other's bodies and minds settle",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -30450,6 +30686,29 @@
         "sentence": "Missing information remains: rent, labour, food licensing, GST, company structure, roofing licences, import compliance, partner reliability, and real demand.",
         "contextMeaning": "Here, \"company structure\" means how the business is legally set up",
         "source": "popup_support_router/trusted_technical_term_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "comparatives": {
+    "word": "comparatives",
+    "definition": "Adjective form for comparing",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Part 5: Comparatives To compare two things, short adjectives often add -er: taller, older, cheaper.",
+        "contextMeaning": "Here, \"comparatives\" means cheaper than compares two things",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -36126,6 +36385,7 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -36195,6 +36455,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It can create many layers of sound at the same time.",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Meditation can help a person notice body signals and create a pause before reaction.",
         "contextMeaning": "Here, \"create\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -41002,7 +41269,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -41016,6 +41284,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "Tokyo Gas Yamanashi describes itself as a regional energy company that supplies city gas and propane gas.",
         "contextMeaning": "Here, \"describes\" means tokyo Gas Yamanashi tells what kind of company it is",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "National Center for Complementary and Integrative Health describes meditation as a group of mind-body practices that people use to calm the mind and support overall well-being.",
+        "contextMeaning": "Here, \"describes\" means tells what something is like",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -43417,7 +43692,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -43425,6 +43701,13 @@
         "sentence": ": They disagree about whether OpenAI stayed true to its original mission or changed too much toward profit and business power.",
         "contextMeaning": "Here, \"disagree\" means they do not have the same opinion about OpenAI's mission",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "In this lesson, you will learn to ask what your friends want, suggest one activity, give a reason, and agree or disagree politely.",
+        "contextMeaning": "Here, \"disagree\" means not accept an idea, politely",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -49255,6 +49538,21 @@
       }
     ]
   },
+  "emotion regulation": {
+    "word": "emotion regulation",
+    "definition": "Managing feelings",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": []
+  },
   "emotional": {
     "word": "emotional",
     "definition": "About feelings in your heart",
@@ -52063,7 +52361,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-getting-to-know-someone-b1"
+      "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -52357,6 +52656,13 @@
         "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
         "sentence": "Helpful expressions: I do it almost every day.",
         "contextMeaning": "Here, \"every\" means almost each day, not many days missed",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "It does not promise them for every person.",
+        "contextMeaning": "Here, \"every\" means not true for all people",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -62091,7 +62397,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-12-b1-practical-workplace-english-conversation-lesson-using-ai",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -62118,6 +62425,13 @@
       {
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Go down, turn right, and follow the green signs.",
+        "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Some people sit quietly and follow their breathing.",
         "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -63481,6 +63795,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "free time": {
+    "word": "free time",
+    "definition": "No work time",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+    ],
+    "contexts": []
   },
   "freedom": {
     "word": "freedom",
@@ -66966,6 +67295,7 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -67030,6 +67360,13 @@
         "sentence": "It connects to my goal of...",
         "contextMeaning": "Here, \"goal\" means something you want to do or reach",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "The goal is not to stop thinking.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -67660,12 +67997,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "A good meme works almost like grammar.",
+        "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Eiken-Style Grammar Check: Choose The Right Sentence Warm-Up Questions 1.",
         "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -69067,7 +69412,9 @@
       "episode-2026-05-04-food-that-surprises-people-around-the-world-create-4",
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-10-eiken-style-grammar-check-a2",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -69101,6 +69448,20 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "A good habit is to look beyond the first option and check whether other choices deserve attention.",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "\"Two banks\" points to \"there are.\" A clock time points to \"at.\" Use the mini tests as a habit.",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "What is one small noticing habit you could add to your week?",
         "contextMeaning": "Here, \"habit\" means a usual action you do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -69904,7 +70265,8 @@
     "episodes": [
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -69925,6 +70287,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "A person may build an app that looks good, but they may not understand what is happening inside.",
         "contextMeaning": "Here, \"happening\" means what is going on inside the app",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "The goal is to notice what is happening in your mind and body without reacting immediately.",
+        "contextMeaning": "Here, \"happening\" means what is going on in your mind and body",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -73233,7 +73602,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -73267,6 +73637,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Honest apology: Mina: I am sorry I got angry.",
+        "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Part 6: Honest Limits It is important to be honest about what we do not know.",
         "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -74755,6 +75132,7 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
@@ -74846,6 +75224,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "People Relational neuroscience and social-baseline ideas suggest that human brains are built for social connection.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -77210,6 +77595,29 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "They describe ordinary decisions about how much of your life a system is allowed to observe and influence.",
         "contextMeaning": "Here, \"influence\" means how much a system can change your life",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "informal": {
+    "word": "informal",
+    "definition": "Not very strict or official",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Some join mindfulness programs where meditation is combined with discussion and informal practice.",
+        "contextMeaning": "Here, \"informal\" means practice done in a relaxed way with talking",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -88898,7 +89306,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -88911,6 +89320,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "A loud sound may feel dangerous.",
+        "contextMeaning": "Here, \"loud\" means making a lot of noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Read the whole sentence, find the clue, choose the answer, and say the correct sentence out loud.",
         "contextMeaning": "Here, \"loud\" means making a lot of noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -93342,7 +93758,8 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -93659,6 +94076,13 @@
         "contextMeaning": "Here, \"means\" means it tells us that your apple feeling is simple and helpful",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Many people think meditation means sitting alone in silence, far away from other people.",
+        "contextMeaning": "Here, \"means\" means sitting alone in silence is what people think meditation is",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -93972,9 +94396,9 @@
       }
     ]
   },
-  "meditation": {
-    "word": "meditation",
-    "definition": "Quiet thinking or mental practice",
+  "meditates": {
+    "word": "meditates",
+    "definition": "Does a quiet thinking and calming activity",
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -93983,9 +94407,40 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Do you know anyone who meditates?",
+        "contextMeaning": "Here, \"meditates\" means does the activity of quiet thinking and calming the mind",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "meditation": {
+    "word": "meditation",
+    "definition": "A calm mental practice",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Meditation And The Social Brain Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"meditation\" means a mind-body practice used to calm the mind",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "For monks, tea was useful because it helped them stay awake during meditation and study.",
@@ -94745,6 +95200,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
@@ -94807,6 +95263,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The company was not only asking, \"How can we sell more goods?\" It was also asking, \"How can small goods help people communicate?\" A gift can be small, cheap, and simple, but it can still carry a message.",
+        "contextMeaning": "Here, \"message\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Imagine you receive an annoying message.",
         "contextMeaning": "Here, \"message\" means information sent from one person to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -95552,6 +96015,52 @@
         "sentence": "Keep that in mind as we go.",
         "contextMeaning": "Here, \"mind\" means remember this idea as we continue",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "mind-body": {
+    "word": "mind-body",
+    "definition": "About both thinking and the body together",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "National Center for Complementary and Integrative Health describes meditation as a group of mind-body practices that people use to calm the mind and support overall well-being.",
+        "contextMeaning": "Here, \"mind-body\" means practices that use both mind and body to calm and help health",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "mindfulness": {
+    "word": "mindfulness",
+    "definition": "Noticing the present moment",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Some join mindfulness programs where meditation is combined with discussion and informal practice.",
+        "contextMeaning": "Here, \"mindfulness\" means attention practice often taught in programs",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -96403,7 +96912,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -96444,6 +96954,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "They are the same model, the same color, and the same age.",
+        "contextMeaning": "Here, \"model\" means the AI service chosen for a specific task",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Friend A: What do you want to do today?",
         "contextMeaning": "Here, \"model\" means the AI service chosen for a specific task",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
@@ -108421,7 +108938,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide"
+      "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -108429,6 +108947,13 @@
         "sentence": "Maybe a parent is waiting during practice.",
         "contextMeaning": "Here, \"parent\" means maybe your mom or dad is waiting for you",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "You may notice simple examples: two friends walking in step, musicians keeping time together, or a calm parent helping a child slow down.",
+        "contextMeaning": "Here, \"parent\" means a mother or father",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -109347,6 +109872,21 @@
       }
     ]
   },
+  "past tense": {
+    "word": "past tense",
+    "definition": "Verb form for finished time",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": []
+  },
   "pasta": {
     "word": "pasta",
     "definition": "Food made from flour, water, and eggs, like noodles",
@@ -109787,7 +110327,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -109830,6 +110371,13 @@
         "sentence": "A strong thinker learns to pause and ask: \"Is this reality, or is this my brain's quick interpretation?\" This is extremely useful.",
         "contextMeaning": "Here, \"pause\" means stopping to think if what you see is real or just your brain",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Part 2: The Pause Before Reaction Mindfulness research often connects practice with attention, emotion regulation, stress awareness, and noticing thoughts without automatically reacting.",
+        "contextMeaning": "Here, \"pause\" means a moment between feeling and reacting",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -110761,13 +111309,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "The key idea is perceived value.",
         "contextMeaning": "Here, \"perceived\" means how people understand or feel about value",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Supportive relationships may reduce perceived risk and effort.",
+        "contextMeaning": "Here, \"perceived\" means how much risk and effort someone thinks there is",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -111949,7 +112505,8 @@
     "episodes": [
       "episode-2026-05-12-b1-practical-workplace-english-conversation-lesson-using-ai",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -111969,6 +112526,13 @@
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "Practice saying the key phrases aloud.",
+        "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "These phrases are simple, but they are real.",
         "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -112220,7 +112784,8 @@
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -112240,6 +112805,13 @@
       {
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "One option appears at the top of the page with a large picture.",
+        "contextMeaning": "Here, \"picture\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "That picture is only part of the story.",
         "contextMeaning": "Here, \"picture\" means an image you can look at",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112861,6 +113433,7 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
@@ -112890,6 +113463,13 @@
         "sentence": "The goal is to practice English for small problems: asking calmly, explaining what happened, saying sorry, and making a better plan.",
         "contextMeaning": "Here, \"plan\" means making a better idea to fix small problems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Then everyone knows the plan.",
+        "contextMeaning": "Here, \"plan\" means activity plus time and place",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       },
       {
@@ -113078,7 +113658,8 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -113100,6 +113681,13 @@
         "sentence": "That is a meeting where company leaders explain future plans.",
         "contextMeaning": "Here, \"plans\" means what the business intends to do later",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Good plans start with good questions.",
+        "contextMeaning": "Here, \"plans\" means activity plus time and place",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -114327,6 +114915,7 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "2026-06-01-a2-practical-grammar-check",
       "episode-2026-06-05-shopping-at-a-convenience-store",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
@@ -114443,6 +115032,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Use polite words.",
+        "contextMeaning": "Here, \"polite\" means saying no in a friendly way",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
         "sentence": "Students practice learning about a person naturally, using concrete questions, polite follow-ups, and respectful boundaries.",
         "contextMeaning": "Here, \"polite\" means questions asked in a nice and respectful way",
@@ -114450,6 +115046,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "polite request": {
+    "word": "polite request",
+    "definition": "A soft way to ask",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": []
   },
   "politely": {
     "word": "politely",
@@ -116539,6 +117150,29 @@
       }
     ]
   },
+  "prepositions": {
+    "word": "prepositions",
+    "definition": "A small place or time word",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Which is harder for you: verb forms, prepositions, or word order?",
+        "contextMeaning": "Here, \"prepositions\" means at, on, and in before times and places",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "presence": {
     "word": "presence",
     "definition": "Being there and paying attention now",
@@ -116551,7 +117185,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -116566,6 +117201,13 @@
         "sentence": "Joan Rivers was known for fast, bold jokes and strong stage presence.",
         "contextMeaning": "Here, \"presence\" means how Joan Rivers acted on the stage",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "A calmer voice, slower breathing, steady attention, and a safer presence can help other people settle too.",
+        "contextMeaning": "Here, \"presence\" means a calm way of being with other people",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -121762,7 +122404,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -121776,6 +122419,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "7: How could Kazuto respond wisely instead of reacting immediately?",
         "contextMeaning": "Here, \"reacting\" means doing something right away without thinking first",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "The goal is to notice what is happening in your mind and body without reacting immediately.",
+        "contextMeaning": "Here, \"reacting\" means doing something right away after feeling or thinking",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -124279,6 +124929,29 @@
       }
     ]
   },
+  "relational": {
+    "word": "relational",
+    "definition": "About how people or things connect",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "This lesson connects meditation with relational neuroscience: the study of how human brains and bodies work in relationships.",
+        "contextMeaning": "Here, \"relational\" means about how brains and bodies work when people have relationships",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "relationship": {
     "word": "relationship",
     "definition": "How two people or groups feel about each other",
@@ -125983,7 +126656,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -126011,6 +126685,13 @@
         "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
         "sentence": "They wanted to bring back the garden, not replace it.",
         "contextMeaning": "Here, \"replace\" means they wanted to bring back the garden, not put a new one",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Meditation may support useful skills, but it is not magic, and it should not replace medical care.",
+        "contextMeaning": "Here, \"replace\" means should not take the place of medical care",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -127304,7 +127985,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -127340,6 +128022,13 @@
         "sentence": "But for many users, the real result felt limited.",
         "contextMeaning": "Here, \"result\" means the thing that came from using the system",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "\"So\" introduces a result.",
+        "contextMeaning": "Here, \"result\" means what happens in the end",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -141025,7 +141714,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -141073,6 +141763,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Mina takes a slow breath.",
+        "contextMeaning": "Here, \"slow\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "You may notice simple examples: two friends walking in step, musicians keeping time together, or a calm parent helping a child slow down.",
         "contextMeaning": "Here, \"slow\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -143841,7 +144538,8 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -143876,6 +144574,13 @@
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Traveler: Sorry, one more time?",
         "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Do not just say \"No.\" Say \"Sorry\" or give a small reason.",
+        "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
@@ -147987,7 +148692,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why"
+      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -147995,6 +148701,13 @@
         "sentence": "On a steep drop, many riders feel their stomach rise.",
         "contextMeaning": "Here, \"steep\" means a very big drop on the ride",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Alone, the hill may feel steep.",
+        "contextMeaning": "Here, \"steep\" means hill feels very hard to go up",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -151126,6 +151839,7 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
@@ -151147,6 +151861,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Have you ever used an AI assistant for work or study?",
+        "contextMeaning": "Here, \"study\" means to spend time learning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "This lesson connects meditation with relational neuroscience: the study of how human brains and bodies work in relationships.",
         "contextMeaning": "Here, \"study\" means to spend time learning",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -151858,7 +152579,8 @@
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -151894,6 +152616,13 @@
         "sentence": "But some thinkers suggest that even space may be part of the interface.",
         "contextMeaning": "Here, \"suggest\" means some thinkers say space might be part of the interface",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "In this lesson, you will learn to ask what your friends want, suggest one activity, give a reason, and agree or disagree politely.",
+        "contextMeaning": "Here, \"suggest\" means offer one activity to friends",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -152543,7 +153272,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
@@ -152671,6 +153401,13 @@
         "contextMeaning": "Here, \"support\" means using help like a dictionary to learn better",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Learn how meditation may support calm attention and better connection with other people.",
+        "contextMeaning": "Here, \"support\" means help calm attention and better connection with others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -152701,6 +153438,29 @@
         "sentence": "Discuss which tasks can be supported by AI and which require human responsibility from the beginning.",
         "contextMeaning": "Here, \"supported\" means tasks that AI can help with from the start",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "supportive": {
+    "word": "supportive",
+    "definition": "Helpful and kind",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "In simple words, being with supportive people is not only nice.",
+        "contextMeaning": "Here, \"supportive\" means relationships that reduce perceived risk and effort",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -153999,6 +154759,29 @@
         "sentence": "Describe common symptoms, answer follow-up questions, and confirm what to do after a clinic visit.",
         "contextMeaning": "Here, \"symptoms\" means the common signs of being sick to talk about",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "synchrony": {
+    "word": "synchrony",
+    "definition": "Moving together in time",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "people can align during social interaction.",
+        "contextMeaning": "Here, \"synchrony\" means alignment in behavior, body rhythms, or brain activity",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -157877,6 +158660,36 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "there are": {
+    "word": "there are",
+    "definition": "Two or more things exist",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": []
+  },
+  "there is": {
+    "word": "there is",
+    "definition": "One thing exists",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": []
   },
   "therefore": {
     "word": "therefore",
@@ -167183,7 +167996,9 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-eiken-style-grammar-check-a2",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
@@ -167413,8 +168228,22 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary verb form - the shape of a verb past tense - verb form for finished time preposition - a small place or time word comparative - adjective form for comparing there is - one thing exists there are - two or more things exist polite request - a soft way to ask clue word - a word that helps you choose",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Meditation may support useful skills, but it is not magic, and it should not replace medical care.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -168655,6 +169484,21 @@
       }
     ]
   },
+  "verb form": {
+    "word": "verb form",
+    "definition": "The shape of a verb",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
+    ],
+    "contexts": []
+  },
   "verb-ing": {
     "word": "verb-ing",
     "definition": "Action words ending with -ing",
@@ -169723,7 +170567,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -169736,6 +170581,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "He visits a phone store and asks for help.",
+        "contextMeaning": "Here, \"visits\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Choose one: visited or visits.",
         "contextMeaning": "Here, \"visits\" means to go to a place or person for a time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -169815,12 +170667,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Doge captions often use short broken phrases like \"such wow,\" \"very cool,\" \"much happy,\" or \"so scare.\" The grammar is not normal English, but it creates a playful voice.",
+        "contextMeaning": "Here, \"voice\" means the sound a person makes when speaking",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "A calmer voice, slower breathing, steady attention, and a safer presence can help other people settle too.",
         "contextMeaning": "Here, \"voice\" means the sound a person makes when speaking",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -171082,7 +171942,10 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-10-eiken-style-grammar-check-a2",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea"
@@ -171362,8 +172225,29 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "Warm-Up Questions Step 1: Ask What Your Friends Want Sample dialogue Role-play Talk About It Step 2: Suggest One Activity And Give A Reason Sample dialogue Role-play Simple Explanation Talk About It Step 3: Agree Or Disagree Politely Sample dialogue Role-play Simple Explanation Talk About It Step 4: Choose A Time And Place Sample dialogue Role-play Talk About It Final Reflection Choosing an activity is not hard with the right steps.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "Warm-Up Questions Part 1: Present Verb Forms In the present, the verb must match the subject.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "Warm-Up Questions Part 1: What Meditation Actually Is Meditation is not one single thing.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -172475,7 +173359,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -172502,6 +173387,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A warm coat protects you from cold weather.",
+        "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+        "sentence": "The weather is nice.",
         "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -173080,6 +173972,29 @@
         "sentence": "Today’s story starts with a travel dream many people know well.",
         "contextMeaning": "Here, \"well\" means many people understand the travel dream clearly",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "well-being": {
+    "word": "well-being",
+    "definition": "Feeling healthy and okay",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
+        "sentence": "National Center for Complementary and Integrative Health describes meditation as a group of mind-body practices that people use to calm the mind and support overall well-being.",
+        "contextMeaning": "Here, \"well-being\" means overall health of mind and body",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -175728,6 +176643,7 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-eiken-style-grammar-check-a2",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
     "contexts": [
@@ -175818,6 +176734,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Maybe perception works in a similar way.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "He, she, and it usually take a verb with -s: \"He works.\" I, you, we, and they use the base verb: \"They work.\" Mini Test: 1.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -177217,7 +178140,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-05-31-at-the-clinic-say-what-hurts"
+      "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-10-eiken-style-grammar-check-a2"
     ],
     "contexts": [
       {
@@ -177237,6 +178161,13 @@
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "You: It started yesterday.",
+        "contextMeaning": "Here, \"yesterday\" means the day before today",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-eiken-style-grammar-check-a2",
+        "sentence": "She ___ her grandmother yesterday.",
         "contextMeaning": "Here, \"yesterday\" means the day before today",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
