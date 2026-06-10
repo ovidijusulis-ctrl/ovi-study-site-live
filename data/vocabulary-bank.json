@@ -2087,7 +2087,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -2129,6 +2130,13 @@
         "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
         "sentence": "It can also affect jobs, schools, hospitals, and public services.",
         "contextMeaning": "Here, \"affect\" means it can change jobs, schools, hospitals, and services",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Do they affect your daily routine?",
+        "contextMeaning": "Here, \"affect\" means change your daily routine",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -8834,7 +8842,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -8968,6 +8977,13 @@
         "sentence": "Classical music is also richer when we give it attention.",
         "contextMeaning": "Here, \"attention\" means careful listening to music to enjoy it more",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What has been taking most of your attention recently?",
+        "contextMeaning": "Here, \"attention\" means what you are focusing on",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -16082,6 +16098,29 @@
       }
     ]
   },
+  "boundaries": {
+    "word": "boundaries",
+    "definition": "Lines that show what is okay or not okay",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Students practice learning about a person naturally, using concrete questions, polite follow-ups, and respectful boundaries.",
+        "contextMeaning": "Here, \"boundaries\" means limits to respect when asking questions about someone",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "boundary": {
     "word": "boundary",
     "definition": "A line or limit that stops or separates",
@@ -18399,6 +18438,29 @@
         "episodeId": "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
         "sentence": "Hotels, restaurants, and streets feel busier during Eurovision week.",
         "contextMeaning": "Here, \"busier\" means more people are in hotels, restaurants, and streets now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "busiest": {
+    "word": "busiest",
+    "definition": "Has the most things to do or people around",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "The busiest part is...",
+        "contextMeaning": "Here, \"busiest\" means the part with the most activity or work",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -22193,7 +22255,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -22208,6 +22271,13 @@
         "sentence": "The pattern often includes a strange birth or special origin, a call to danger, helpers or divine advice, a monster or impossible challenge, victory with a cost, and a return or transformation.",
         "contextMeaning": "Here, \"challenge\" means a very hard problem or test the hero must face",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What was a small challenge you solved recently?",
+        "contextMeaning": "Here, \"challenge\" means a difficult thing to deal with",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -22253,6 +22323,29 @@
         "episodeId": "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
         "sentence": "It needs exercise, training, and mental challenges.",
         "contextMeaning": "Here, \"challenges\" means difficult mental tasks the dog needs to do",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "challenging": {
+    "word": "challenging",
+    "definition": "Something that is hard to do",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Is it relaxing, creative, practical, or challenging?",
+        "contextMeaning": "Here, \"challenging\" means is it something hard to do or think about",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -22447,7 +22540,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -22769,6 +22863,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Fans can also change favorites as their mood and identity change.",
         "contextMeaning": "Here, \"change\" means fans can pick new favorite characters when they feel different",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Has it always been true, or did it change?",
+        "contextMeaning": "Here, \"change\" means ask if something stayed the same or became different",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -29175,7 +29276,8 @@
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -29225,6 +29327,13 @@
         "sentence": "The first job is to make the customer feel welcome and safe.",
         "contextMeaning": "Here, \"comfortable\" means how the customer should feel",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What place feels comfortable for you?",
+        "contextMeaning": "Here, \"comfortable\" means easy and relaxed",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -35871,7 +35980,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -35899,6 +36009,13 @@
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "For students, the main idea is simple: remix culture is creative, but it is not completely free from responsibility.",
         "contextMeaning": "Here, \"creative\" means making new things is good but you must be careful too",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Is it relaxing, creative, practical, or challenging?",
+        "contextMeaning": "Here, \"creative\" means is it something where you use your imagination",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -46874,7 +46991,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -46909,6 +47027,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "The brain may turn deep information into a world of objects and distances because that is the easiest way for us to act.",
         "contextMeaning": "Here, \"easiest\" means the brain makes things simple so we can act fast",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Follow-ups: What part of the day is easiest?",
+        "contextMeaning": "Here, \"easiest\" means the part of the day that is the least difficult",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -51270,7 +51395,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -51557,6 +51683,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Visitor: What do you do every day?",
         "contextMeaning": "Here, \"every\" means all days, not missing one day",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Helpful expressions: I do it almost every day.",
+        "contextMeaning": "Here, \"every\" means almost each day, not many days missed",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -52977,7 +53110,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -53124,6 +53258,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A good story can make an object feel beautiful, exciting, or safe.",
         "contextMeaning": "Here, \"exciting\" means makes the thing feel fun and interesting",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Is it exciting, stressful, or both?",
+        "contextMeaning": "Here, \"exciting\" means something that makes you feel happy and interested",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -54991,13 +55132,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-weekly-catch-up-conversation-a2"
+      "episode-2026-05-21-weekly-catch-up-conversation-a2",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-weekly-catch-up-conversation-a2",
         "sentence": "Helpful expressions: a little tired pretty relaxed stressed about work excited about next week busy with family 👨‍👩‍👧 Family & Home.",
         "contextMeaning": "Here, \"expressions\" means helpful phrases to talk about feelings and family",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Helpful expressions: A good first thing to know is...",
+        "contextMeaning": "Here, \"expressions\" means useful words or phrases to help say things well",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -61273,7 +61422,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -61302,6 +61452,36 @@
         "sentence": "My follow-up question for you is",
         "contextMeaning": "Here, \"follow-up\" means a question after the first answer",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Ask follow-up questions that feel polite and natural.",
+        "contextMeaning": "Here, \"follow-up\" means ask more questions that sound nice and natural",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "follow-ups": {
+    "word": "follow-ups",
+    "definition": "More questions after the first one",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Students practice learning about a person naturally, using concrete questions, polite follow-ups, and respectful boundaries.",
+        "contextMeaning": "Here, \"follow-ups\" means questions asked after first ones to keep talking politely",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -64447,6 +64627,29 @@
       }
     ]
   },
+  "generally": {
+    "word": "generally",
+    "definition": "Without too many private details",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "You can answer generally.",
+        "contextMeaning": "Here, \"generally\" means without too many private details",
+        "source": "authored_final_review",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "generate": {
     "word": "generate",
     "definition": "To make or create something new",
@@ -65990,7 +66193,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -66047,6 +66251,13 @@
         "sentence": "The goal is not to escape human perception.",
         "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "It connects to my goal of...",
+        "contextMeaning": "Here, \"goal\" means something you want to do or reach",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -68927,7 +69138,8 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "2026-06-01-a2-practical-grammar-check",
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -69040,6 +69252,13 @@
         "sentence": "It happens in Los Angeles, California.",
         "contextMeaning": "Here, \"happens\" means when something takes place in a place",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What happens if you skip it?",
+        "contextMeaning": "Here, \"happens\" means what will take place if you do not do it",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -77605,6 +77824,29 @@
       }
     ]
   },
+  "interested in": {
+    "word": "interested in",
+    "definition": "Wanting to know or do more",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "I am not very interested in...",
+        "contextMeaning": "Here, \"interested in\" means wanting to know or do more",
+        "source": "authored_final_review",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "interesting": {
     "word": "interesting",
     "definition": "Making you want to know more",
@@ -83138,7 +83380,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -83264,6 +83507,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "We stop thinking, \"My view is the whole truth.\" We begin to think, \"My view is one useful map.\" This helps in arguments, learning, relationships, and emotions.",
         "contextMeaning": "Here, \"learning\" means the process of understanding new things and ideas",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Students practice learning about a person naturally, using concrete questions, polite follow-ups, and respectful boundaries.",
+        "contextMeaning": "Here, \"learning\" means trying to know more about a person naturally",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89460,7 +89710,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -89530,6 +89781,13 @@
         "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
         "sentence": ": It shows that AI may soon help manage many parts of daily life, not only answer questions.",
         "contextMeaning": "Here, \"manage\" means help control many parts of daily life, not just answer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What helps you manage it?",
+        "contextMeaning": "Here, \"manage\" means how you control or handle it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -94731,13 +94989,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "We may misunderstand the real work, the location, the training, or the future career path.",
         "contextMeaning": "Here, \"misunderstand\" means not knowing the real work or place right",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What should I not misunderstand about that?",
+        "contextMeaning": "Here, \"misunderstand\" means what should I not think wrong about that",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -94970,13 +95236,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
         "sentence": "It does not have a story, article, or normal Listen mode.",
         "contextMeaning": "Here, \"mode\" means a way to listen that is not normal or usual",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "It does not have a story, article, or normal Listen mode.",
+        "contextMeaning": "Here, \"mode\" means no story or usual listening way here",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -104382,7 +104656,8 @@
     "episodes": [
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -104404,6 +104679,13 @@
         "sentence": "One option appears at the top of the page with a large picture.",
         "contextMeaning": "Here, \"option\" means one choice a person can select",
         "source": "operator_reviewed_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "My other option was...",
+        "contextMeaning": "Here, \"option\" means one possible choice",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -112716,7 +112998,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "2026-06-01-a2-practical-grammar-check",
-      "episode-2026-06-05-shopping-at-a-convenience-store"
+      "episode-2026-06-05-shopping-at-a-convenience-store",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -112829,6 +113112,13 @@
         "sentence": "The workers are usually polite and helpful.",
         "contextMeaning": "Here, \"polite\" means the workers are usually polite",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Students practice learning about a person naturally, using concrete questions, polite follow-ups, and respectful boundaries.",
+        "contextMeaning": "Here, \"polite\" means questions asked in a nice and respectful way",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -114548,7 +114838,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -114611,6 +114902,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "DISCUSSION 3: Do you prefer characters with simple designs or detailed designs?",
         "contextMeaning": "Here, \"prefer\" means do you like simple or detailed character pictures more",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Follow-ups: Do you prefer serious topics or light topics?",
+        "contextMeaning": "Here, \"prefer\" means like serious or light topics more",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -114994,6 +115292,29 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Pop music is often connected to the present moment.",
         "contextMeaning": "Here, \"present\" means the time that is happening now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "present-life": {
+    "word": "present-life",
+    "definition": "Things happening now in life",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Teacher flow: Start with safe present-life questions.",
+        "contextMeaning": "Here, \"present-life\" means start with safe questions about life now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -121386,7 +121707,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -121422,6 +121744,13 @@
         "sentence": "I recommend it for...",
         "contextMeaning": "Here, \"recommend\" means say that something is a good choice",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Would you recommend it to someone else?",
+        "contextMeaning": "Here, \"recommend\" means ask if you think others should try it",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -125005,7 +125334,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-04-food-that-surprises-people-around-the-world-create-4",
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -125019,6 +125349,13 @@
         "episodeId": "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
         "sentence": "It also gives learners a useful model: short, clear English can still be respectful.",
         "contextMeaning": "Here, \"respectful\" means english that is kind and polite",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Students practice learning about a person naturally, using concrete questions, polite follow-ups, and respectful boundaries.",
+        "contextMeaning": "Here, \"respectful\" means showing care for others' limits when asking questions",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -126835,7 +127172,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-asking-for-directions-in-a-station"
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -127031,6 +127369,13 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "Go downstairs and turn right.",
         "contextMeaning": "Here, \"right\" means turn right means go to the side that is not left",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": ": What responsibilities do you have right now?",
+        "contextMeaning": "Here, \"right\" means the things you must do now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -128443,7 +128788,8 @@
       "episode-2026-04-22-why-does-time-feel-faster-as-we-",
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -128472,6 +128818,13 @@
         "sentence": "These tools can generate text, suggest ideas, summarize information, and support routine tasks.",
         "contextMeaning": "Here, \"routine\" means things you do every day",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What is one small routine you almost always do?",
+        "contextMeaning": "Here, \"routine\" means something you do regularly",
+        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -138869,6 +139222,29 @@
       }
     ]
   },
+  "skip": {
+    "word": "skip",
+    "definition": "Not do something or leave it out",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Skip or soften personal questions when needed.",
+        "contextMeaning": "Here, \"skip\" means do not ask some personal questions if needed",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "skylights": {
     "word": "skylights",
     "definition": "Windows on the roof to let light in",
@@ -140563,7 +140939,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2"
+      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -140571,6 +140948,13 @@
         "sentence": "A broad fund can soften those shocks.",
         "contextMeaning": "Here, \"soften\" means make the shocks hurt less",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Skip or soften personal questions when needed.",
+        "contextMeaning": "Here, \"soften\" means make personal questions easier or less direct",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -141402,7 +141786,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -141626,6 +142011,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "DISCUSSION 7: Why do people sometimes feel emotionally connected to fictional characters?",
         "contextMeaning": "Here, \"sometimes\" means at some times, people feel close to made-up people",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "People sometimes think..., but actually...",
+        "contextMeaning": "Here, \"sometimes\" means people do a thing now and then, but not always",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -143165,13 +143557,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
         "sentence": "Listening note: This is a speaking-first question sheet.",
         "contextMeaning": "Here, \"speaking-first\" means a question paper made for talking before hearing",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Listening note: This is a speaking-first question sheet.",
+        "contextMeaning": "Here, \"speaking-first\" means a question sheet made mainly for talking first",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -148359,7 +148759,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -148401,6 +148802,13 @@
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Sometimes life is stressful, but people pretend everything is okay.",
         "contextMeaning": "Here, \"stressful\" means life can make people feel worried or tired",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "Is it exciting, stressful, or both?",
+        "contextMeaning": "Here, \"stressful\" means something that makes you feel worried or nervous",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -152602,7 +153010,8 @@
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -152674,6 +153083,13 @@
         "contextMeaning": "Here, \"takes\" means mina gets air slowly into her lungs",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "It takes a lot of energy.",
+        "contextMeaning": "Here, \"takes\" means needs a lot of energy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -152693,7 +153109,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-21-a2-restaurant-fix-wrong-order"
+      "episode-2026-05-21-a2-restaurant-fix-wrong-order",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -152735,6 +153152,13 @@
         "episodeId": "episode-2026-05-21-a2-restaurant-fix-wrong-order",
         "sentence": "For an allergy, taking the peanuts off may not be safe.",
         "contextMeaning": "Here, \"taking\" means removing peanuts from food may not be safe for allergy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": ": What has been taking most of your attention recently?",
+        "contextMeaning": "Here, \"taking\" means using most of your attention lately",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -158308,7 +158732,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -158337,6 +158762,13 @@
         "sentence": "Shopping is useful, but tiring.",
         "contextMeaning": "Here, \"tiring\" means making you feel tired",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What part is most tiring?",
+        "contextMeaning": "Here, \"tiring\" means the part that makes you feel most tired",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -159031,6 +159463,29 @@
       "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": []
+  },
+  "too personal": {
+    "word": "too personal",
+    "definition": "Too private to talk about",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-getting-to-know-someone-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "That question might be too personal.",
+        "contextMeaning": "Here, \"too personal\" means too private to talk about",
+        "source": "authored_final_review",
+        "confidence": "trusted"
+      }
+    ]
   },
   "too small": {
     "word": "too small",
@@ -163226,7 +163681,8 @@
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
@@ -163247,6 +163703,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "If it belonged to a dangerous or cruel person, many people may feel uncomfortable.",
         "contextMeaning": "Here, \"uncomfortable\" means people feel bad or uneasy because of a scary person",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": "What kind of place makes you uncomfortable?",
+        "contextMeaning": "Here, \"uncomfortable\" means a place that makes you feel bad or uneasy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -170362,13 +170825,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-10-getting-to-know-someone-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "Brisbane has more city workers, students, residents, business services, and weekday traffic.",
         "contextMeaning": "Here, \"weekday\" means days when people work, not Saturday or Sunday",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
+        "sentence": ": What does a normal weekday look like for you?",
+        "contextMeaning": "Here, \"weekday\" means a normal day from Monday to Friday for you",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
