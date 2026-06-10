@@ -3330,7 +3330,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -3399,6 +3400,13 @@
       {
         "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
         "sentence": "How should Europe build AI?",
+        "contextMeaning": "Here, \"ai\" means computer systems that can help with thinking, writing, or decisions",
+        "source": "popup_support_router/trusted_technical_term_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Trade.gov describes an AI chatbot in beta that is trained on export-related content and helps exporters find process information and resources.",
         "contextMeaning": "Here, \"ai\" means computer systems that can help with thinking, writing, or decisions",
         "source": "popup_support_router/trusted_technical_term_rule",
         "confidence": "trusted"
@@ -4099,7 +4107,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -4126,6 +4135,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "So Bach was not only \"a composer sitting alone.\" He was a professional musician inside real institutions.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "a market alone.",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -10106,12 +10122,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-08-gap-selling-sales-logic-explainer",
         "sentence": "In B2B sales, especially in software and services, that can save a lot of wasted time.",
+        "contextMeaning": "Here, \"b2b\" means a company sells mainly to other companies",
+        "source": "popup_support_router/trusted_technical_term_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Ecommerce keeps growing, virtual sales are common in many B2B markets, and AI-related goods helped world trade grow faster than expected in 2025.",
         "contextMeaning": "Here, \"b2b\" means a company sells mainly to other companies",
         "source": "popup_support_router/trusted_technical_term_rule",
         "confidence": "trusted"
@@ -13407,7 +13431,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -13434,6 +13459,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "We stop thinking, \"My view is the whole truth.\" We begin to think, \"My view is one useful map.\" This helps in arguments, learning, relationships, and emotions.",
+        "contextMeaning": "Here, \"begin\" means to start",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Part 1: Start With Trade Data Trade.gov recommends that international market research should begin with trade data.",
         "contextMeaning": "Here, \"begin\" means to start",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -14323,6 +14355,29 @@
         "sentence": "It will not remove risk, but it can reduce the damage from one bad bet.",
         "contextMeaning": "Here, \"bet\" means a choice that may lose money",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "beta": {
+    "word": "beta",
+    "definition": "A test version not finished yet",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Trade.gov describes an AI chatbot in beta that is trained on export-related content and helps exporters find process information and resources.",
+        "contextMeaning": "Here, \"beta\" means a test version of a chatbot still being improved",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -20726,6 +20781,7 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -20774,6 +20830,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It can also come from service, routine, belief, family duty, and careful attention.",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "It is a chain of small, careful decisions.",
         "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -23875,7 +23938,8 @@
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -23890,6 +23954,13 @@
         "sentence": "A normal chatbot may answer one question.",
         "contextMeaning": "Here, \"chatbot\" means a simple computer program that answers one question",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Trade.gov describes an AI chatbot in beta that is trained on export-related content and helps exporters find process information and resources.",
+        "contextMeaning": "Here, \"chatbot\" means an AI interface that talks with the user",
+        "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
       }
     ]
@@ -25288,7 +25359,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -25385,6 +25457,13 @@
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "They choose one or two things.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "If you could open a business in any country, which one would you choose?",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -29834,7 +29913,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -29924,6 +30004,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Bach had 20 children in total, though many did not survive to adulthood, which was sadly common at that time.",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Ecommerce keeps growing, virtual sales are common in many B2B markets, and AI-related goods helped world trade grow faster than expected in 2025.",
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -40242,7 +40329,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -40291,6 +40379,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "The pattern is simple: an object gets a story, the story creates emotion, the emotion creates desire, desire creates demand, and demand can raise the price.",
         "contextMeaning": "Here, \"demand\" means the number of people who want to buy something",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "These numbers help you estimate market size, demand growth or decline, and competition.",
+        "contextMeaning": "Here, \"demand\" means a sign of whether a market is growing or declining",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -53684,6 +53779,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
@@ -53838,6 +53934,13 @@
         "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
         "sentence": "Is it exciting, stressful, or both?",
         "contextMeaning": "Here, \"exciting\" means something that makes you feel happy and interested",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "The idea is exciting: new customers, new income, and a bigger name for the company.",
+        "contextMeaning": "Here, \"exciting\" means the idea makes people feel happy about new chances",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -57379,7 +57482,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -57505,6 +57609,13 @@
         "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
         "sentence": "What would you do faster next time?",
         "contextMeaning": "Here, \"faster\" means doing something more quickly next time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Today, digital export tools can make the first steps faster.",
+        "contextMeaning": "Here, \"faster\" means the first steps can happen more quickly now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -66650,12 +66761,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "She can feel Japanese and global at the same time.",
+        "contextMeaning": "Here, \"global\" means connected to the whole world",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Start with trade data, compare a few markets, study each country's rules and opportunities, watch the global trade climate, and work through the practical checklist before money leaves your account.",
         "contextMeaning": "Here, \"global\" means connected to the whole world",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67448,6 +67567,29 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Honest apology: Mina: I am sorry I got angry.",
         "contextMeaning": "Here, \"got\" means mina became angry",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "gov": {
+    "word": "gov",
+    "definition": "Short for government, the people who run a country",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Trade.gov recommends that international market research should begin with trade data.",
+        "contextMeaning": "Here, \"gov\" means the website run by the government about trade",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -68332,7 +68474,8 @@
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -68353,6 +68496,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Maybe leaving home is a clear image for growing up, changing, and discovering identity.",
         "contextMeaning": "Here, \"growing\" means getting older and learning new things",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Instead of asking, \"Where in the world should I go?\", ask a sharper \"Of these four countries, which one has growing demand and space for a new seller?\" Numbers are not enough.",
+        "contextMeaning": "Here, \"growing\" means demand that is getting bigger in a country",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71433,6 +71583,29 @@
         "sentence": "This product-first path helped her feel close.",
         "contextMeaning": "Here, \"helped\" means made it easier for her to feel near to people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "helper": {
+    "word": "helper",
+    "definition": "A person or tool that helps",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "The main message is practical: compare markets, check rules, study customers, and use new technology as a helper, not as a magic answer.",
+        "contextMeaning": "Here, \"helper\" means a person or tool that helps",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -74582,6 +74755,7 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -74672,6 +74846,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "This lesson uses current trade-research ideas from public export and trade sources.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -81416,7 +81597,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -81457,6 +81639,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Sanrio has stayed popular partly because it keeps fans active.",
+        "contextMeaning": "Here, \"keeps\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Ecommerce keeps growing, virtual sales are common in many B2B markets, and AI-related goods helped world trade grow faster than expected in 2025.",
         "contextMeaning": "Here, \"keeps\" means to continue to have or do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -83947,7 +84136,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -83974,6 +84164,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "After that, you can learn the history, the composer, the period, and the musical ideas.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Restrictions can stop your plan completely if you learn about them too late.",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -87222,6 +87419,29 @@
       }
     ]
   },
+  "localization": {
+    "word": "localization",
+    "definition": "Adapting for a place",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "the full business system: customers, local rules, taxes, permits, payments, logistics, language, localization, partners, sales channels, and customer support.",
+        "contextMeaning": "Here, \"localization\" means making products and messages fit local customers",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "locally": {
     "word": "locally",
     "definition": "Near where you are, close by",
@@ -87544,7 +87764,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -87552,6 +87773,13 @@
         "sentence": "This mindset is useful in engineering, construction, logistics, healthcare, food service, public service, and management.",
         "contextMeaning": "Here, \"logistics\" means work about moving and organizing things or people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "the full business system: customers, local rules, taxes, permits, payments, logistics, language, localization, partners, sales channels, and customer support.",
+        "contextMeaning": "Here, \"logistics\" means a practical topic to research before investing",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -91485,7 +91713,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -91512,6 +91741,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "We stop thinking, \"My view is the whole truth.\" We begin to think, \"My view is one useful map.\" This helps in arguments, learning, relationships, and emotions.",
+        "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "But a tool gives you a map.",
         "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -91615,7 +91851,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -91630,6 +91867,13 @@
         "sentence": "Quick recap: Honda wants hybrids in different parts of the market, not only in one type of car.",
         "contextMeaning": "Here, \"market\" means honda wants hybrid cars in many areas where cars are sold, not just one",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "But a foreign market is also risky.",
+        "contextMeaning": "Here, \"market\" means a place where people buy and sell things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -91731,6 +91975,29 @@
         "sentence": "Understand how AI agents, vibe coding, and agent-based marketing are changing work, programming, business, and the meaning of skill.",
         "contextMeaning": "Here, \"marketing\" means ways to sell using helpers called agents",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "markets": {
+    "word": "markets",
+    "definition": "A place where people buy and sell things",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "The main message is practical: compare markets, check rules, study customers, and use new technology as a helper, not as a magic answer.",
+        "contextMeaning": "Here, \"markets\" means a place where people buy and sell things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -94477,7 +94744,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -94539,6 +94807,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The company was not only asking, \"How can we sell more goods?\" It was also asking, \"How can small goods help people communicate?\" A gift can be small, cheap, and simple, but it can still carry a message.",
+        "contextMeaning": "Here, \"message\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "The main message is practical: compare markets, check rules, study customers, and use new technology as a helper, not as a magic answer.",
         "contextMeaning": "Here, \"message\" means information sent from one person to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -98445,7 +98720,8 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-05-07-puppet-sunsun-2",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -98465,6 +98741,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Today, culture also moves through memes.",
+        "contextMeaning": "Here, \"moves\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Trade data are numbers that show how much of a product moves between countries.",
         "contextMeaning": "Here, \"moves\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -104862,7 +105145,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -104917,6 +105201,13 @@
       {
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
         "sentence": "In many countries, people can check the number online and see where the package is.",
+        "contextMeaning": "Here, \"online\" means connected through the internet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "How has online selling changed what it means to enter a foreign market?",
         "contextMeaning": "Here, \"online\" means connected through the internet",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -122889,13 +123180,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast"
+      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
         "sentence": "It also recommends overestimating costs and adding a safety buffer.",
         "contextMeaning": "Here, \"recommends\" means says it is good to guess high costs and keep extra money",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Trade.gov recommends that international market research should begin with trade data.",
+        "contextMeaning": "Here, \"recommends\" means says you should start market research with trade data",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -128752,7 +129051,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -128794,6 +129094,13 @@
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "It is not the most expensive, so it does not feel too risky.",
         "contextMeaning": "Here, \"risky\" means does not feel like it might cause a bad choice",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "But a foreign market is also risky.",
+        "contextMeaning": "Here, \"risky\" means a foreign market can cause problems or be unsafe",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -131866,6 +132173,29 @@
       }
     ]
   },
+  "saves": {
+    "word": "saves",
+    "definition": "To keep something from loss or danger",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "The founder who treats it as a hardworking assistant saves time and stays safer.",
+        "contextMeaning": "Here, \"saves\" means to keep something from loss or danger",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "saving": {
     "word": "saving",
     "definition": "Keeping something safe and not losing it",
@@ -134483,7 +134813,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -134497,6 +134828,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "A strong future energy company may become less like a fuel seller and more like an energy problem solver.",
         "contextMeaning": "Here, \"seller\" means a company that sells fuel to customers",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Instead of asking, \"Where in the world should I go?\", ask a sharper \"Of these four countries, which one has growing demand and space for a new seller?\" Numbers are not enough.",
+        "contextMeaning": "Here, \"seller\" means a new person who sells things in a country",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -150178,7 +150516,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -150268,6 +150607,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "His music often feels strong, ordered, and deeply responsible.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Some East Asian economies have shown strong trade growth connected to semiconductors and high-technology products, while services trade has expanded more modestly in several large economies.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -150780,6 +151126,7 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -150800,6 +151147,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Have you ever used an AI assistant for work or study?",
+        "contextMeaning": "Here, \"study\" means to spend time learning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "The main message is practical: compare markets, check rules, study customers, and use new technology as a helper, not as a magic answer.",
         "contextMeaning": "Here, \"study\" means to spend time learning",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -151655,12 +152009,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "These tools can generate text, suggest ideas, summarize information, and support routine tasks.",
+        "contextMeaning": "Here, \"summarize\" means to say the main points briefly",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "AI can summarize rules, compare markets, draft customer interview questions, translate first-pass materials, analyze reviews, and organize sales leads.",
         "contextMeaning": "Here, \"summarize\" means to say the main points briefly",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -154375,7 +154737,8 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
-      "episode-2026-06-10-getting-to-know-someone-b1"
+      "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -154424,6 +154787,13 @@
         "episodeId": "episode-2026-06-10-getting-to-know-someone-b1",
         "sentence": ": What has been taking most of your attention recently?",
         "contextMeaning": "Here, \"taking\" means using most of your attention lately",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Many people dream of taking their business to another country.",
+        "contextMeaning": "Here, \"taking\" means to move their business to a different country",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -154876,6 +155246,29 @@
         "sentence": "[PRACTICE] Answer the grammar cards, read the feedback, then retry missed targets from the results panel.",
         "contextMeaning": "Here, \"targets\" means the things you need to practice more because you missed them",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tariffs": {
+    "word": "tariffs",
+    "definition": "A tax on goods crossing a border",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "At the same time, 2026 trade faces risks from transport costs, fuel costs, tariffs, and geopolitical conflict.",
+        "contextMeaning": "Here, \"tariffs\" means a risk that can make a product more expensive",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -160889,7 +161282,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -160961,6 +161355,13 @@
         "contextMeaning": "Here, \"tool\" means a tool can be software the AI calls to search, check, write, or publish",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "But a tool gives you a map.",
+        "contextMeaning": "Here, \"tool\" means something that helps you do something",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -160988,7 +161389,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -161085,6 +161487,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "2.1 Inside the Winery Inside the winery, there are bottles, boxes, shelves, and tools.",
+        "contextMeaning": "Here, \"tools\" means things that help you do something",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Part 3: Use Digital Tools Carefully Research used to mean long trips and thick reports.",
         "contextMeaning": "Here, \"tools\" means things that help you do something",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -161802,6 +162211,29 @@
         "sentence": "As we go, listen for the trade-offs.",
         "contextMeaning": "Here, \"trade-offs\" means good and bad parts you must choose between",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "trade-research": {
+    "word": "trade-research",
+    "definition": "Looking for information about buying and selling",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "This lesson uses current trade-research ideas from public export and trade sources.",
+        "contextMeaning": "Here, \"trade-research\" means ideas about buying and selling from public sources",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -163652,7 +164084,8 @@
     "episodes": [
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -163675,6 +164108,13 @@
         "contextMeaning": "Here, \"trip\" means a journey to another place",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "It does not make the trip for you.",
+        "contextMeaning": "Here, \"trip\" means a journey to another place",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -163689,7 +164129,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
     "contexts": [
       {
@@ -163697,6 +164138,13 @@
         "sentence": "People often choose it for school runs, work trips, and weekend travel.",
         "contextMeaning": "Here, \"trips\" means journeys or excursions, often for a specific purpose",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Part 3: Use Digital Tools Carefully Research used to mean long trips and thick reports.",
+        "contextMeaning": "Here, \"trips\" means a journey to another place",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -165205,6 +165653,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "underserved market": {
+    "word": "underserved market",
+    "definition": "A market where needs are not fully met",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-opening-a-business-abroad-b1"
+    ],
+    "contexts": []
   },
   "understand": {
     "word": "understand",
@@ -166721,6 +167184,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -166951,6 +167415,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Tools like this are useful at the early stage.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -168241,9 +168712,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "But humans must verify everything with official sources and real customers.",
+        "contextMeaning": "Here, \"verify\" means what humans must do with AI output",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "version": {
     "word": "version",
@@ -170603,6 +171083,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea"
     ],
@@ -170883,6 +171364,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
+        "sentence": "Warm-Up Questions Part 1: Start With Trade Data Trade.gov recommends that international market research should begin with trade data.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
