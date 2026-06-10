@@ -7661,12 +7661,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Some artists show their effort very clearly.",
+        "contextMeaning": "Here, \"artists\" means a person who makes art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Scholars, artists, and poets often enjoyed tea while reading, writing, or talking with friends.",
         "contextMeaning": "Here, \"artists\" means a person who makes art",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -11342,7 +11350,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -11362,6 +11371,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "In a beautiful building, every wall, window, and column has a place.",
+        "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Rich families served tea in beautiful cups and teapots.",
         "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -19166,12 +19182,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
+        "contextMeaning": "Here, \"cakes\" means a sweet baked food",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "People drank tea with small sandwiches, cakes, biscuits, or scones.",
         "contextMeaning": "Here, \"cakes\" means a sweet baked food",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -19507,7 +19531,8 @@
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -19605,6 +19630,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Why can cute design make people feel calm or happy?",
         "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Tea was also connected to education and calm thinking.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
@@ -20630,7 +20662,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -20678,6 +20711,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It can also come from service, routine, belief, family duty, and careful attention.",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "A ceremony is a special activity with careful steps and meaning.",
         "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -22084,7 +22124,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -22092,6 +22133,36 @@
         "sentence": "Where do you hear classical music in daily life, movies, restaurants, ceremonies, or concerts?",
         "contextMeaning": "Here, \"ceremonies\" means means special events where you hear classical music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "People drink it at home, at work, in cafes, in restaurants, in temples, and during ceremonies.",
+        "contextMeaning": "Here, \"ceremonies\" means japanese tea ceremony gives tea deeper meaning",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ceremony": {
+    "word": "ceremony",
+    "definition": "A special activity with careful steps and meaning",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "In other places, it became connected to trade, money, religion, social life, and ceremony.",
+        "contextMeaning": "Here, \"ceremony\" means japanese tea ceremony gives tea deeper meaning",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -28562,6 +28633,29 @@
         "sentence": "Shakira is a singer from Colombia.",
         "contextMeaning": "Here, \"colombia\" means the country where Shakira was born and lives",
         "source": "lexical_support_regenerator/material_surface",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "colonies": {
+    "word": "colonies",
+    "definition": "A place controlled by another country",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Sugar was produced in colonies, often through very unfair and cruel labor systems.",
+        "contextMeaning": "Here, \"colonies\" means sugar production was linked to colonies",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -35819,7 +35913,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -35888,6 +35983,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It can create many layers of sound at the same time.",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Tea companies also create many new products.",
         "contextMeaning": "Here, \"create\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -36821,7 +36923,8 @@
     "episodes": [
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -36841,6 +36944,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This changed memes from slow cultural ideas into fast digital culture.",
+        "contextMeaning": "Here, \"cultural\" means about how people live and think",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "When does a drink feel cultural, not just practical?",
         "contextMeaning": "Here, \"cultural\" means about how people live and think",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -36888,7 +36998,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -36944,6 +37055,36 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Famous pieces such as Toccata and Fugue in D minor are often connected with dramatic images in modern culture, even though people may not know the full background.",
         "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "What drink do people offer to guests in your culture?",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cultures": {
+    "word": "cultures",
+    "definition": "The ideas and way of life of a group",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "This is true in many cultures.",
+        "contextMeaning": "Here, \"cultures\" means the ideas and way of life of a group",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -37620,7 +37761,8 @@
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -37703,6 +37845,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Can discipline and daily work be as important as inspiration for great art?",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "It can be a daily drink, a health drink, a social drink, or a symbol of culture.",
         "contextMeaning": "Here, \"daily\" means happening every day",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -41219,7 +41368,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -41246,6 +41396,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "In Japan, cafes and restaurants often use sakura desserts in spring, peach drinks in summer, chestnut sweets in autumn, and warm soups in winter.",
+        "contextMeaning": "Here, \"desserts\" means sweet foods eaten after a meal",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Matcha sweets, milk tea, fruit tea, and tea-flavored desserts are popular in many countries.",
         "contextMeaning": "Here, \"desserts\" means sweet foods eaten after a meal",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -42324,6 +42481,29 @@
         "sentence": "Sometimes an address is difficult to say.",
         "contextMeaning": "Here, \"difficult\" means hard to say the address",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "digestion": {
+    "word": "digestion",
+    "definition": "How the body breaks down food",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "It was used to wake people up, help digestion, and make the mind clear.",
+        "contextMeaning": "Here, \"digestion\" means people believed tea could help digestion",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -49105,6 +49285,29 @@
       }
     ]
   },
+  "empire": {
+    "word": "empire",
+    "definition": "A powerful country controlling other places",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "It became part of politics and empire.",
+        "contextMeaning": "Here, \"empire\" means tea and sugar were connected to empire",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "employee": {
     "word": "employee",
     "definition": "A person who works for a business",
@@ -50061,7 +50264,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -50102,6 +50306,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Do you usually enjoy music that feels simple immediately, or music that becomes deeper after repeated listening?",
+        "contextMeaning": "Here, \"enjoy\" means to like doing something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "This made tea sweeter and easier to enjoy for many drinkers.",
         "contextMeaning": "Here, \"enjoy\" means to like doing something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -61027,7 +61238,8 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -61048,6 +61260,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "This makes the design flexible.",
         "contextMeaning": "Here, \"flexible\" means able to change or fit many situations",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "This shows that tea is flexible.",
+        "contextMeaning": "Here, \"flexible\" means tea is flexible because cultures use it differently",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -63139,7 +63358,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -63173,6 +63393,13 @@
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals.",
+        "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Green tea also has a fresh taste, so many people connect it with health and cleanliness.",
         "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -63769,7 +63996,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -63803,6 +64031,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Grapes are small fruit for wine.",
+        "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants or trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Matcha sweets, milk tea, fruit tea, and tea-flavored desserts are popular in many countries.",
         "contextMeaning": "Here, \"fruit\" means sweet food that grows on plants or trees",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -66398,7 +66633,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-getting-to-know-someone-b1"
+      "episode-2026-06-10-getting-to-know-someone-b1",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -66462,6 +66698,13 @@
         "sentence": "It connects to my goal of...",
         "contextMeaning": "Here, \"goal\" means something you want to do or reach",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "The goal is not only to drink tea.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -72872,7 +73115,8 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -72894,6 +73138,13 @@
         "sentence": "The Cyclops in the Odyssey lives without normal law or hospitality.",
         "contextMeaning": "Here, \"hospitality\" means being nice and welcoming to visitors",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Over time, tea became part of daily life, art, poetry, and hospitality.",
+        "contextMeaning": "Here, \"hospitality\" means tea became part of welcoming people",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -74109,7 +74360,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -74199,6 +74451,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Of course, old ideas about tea were not always scientific, but people noticed that tea changed how they felt.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -76481,6 +76740,29 @@
         "sentence": "The child is starting to enter the real working world, but the parent may ask, \"Is this a good company?\" \"Will my child learn something useful?\" \"Is this industry safe for the future?\" These are responsible questions.",
         "contextMeaning": "Here, \"industry\" means the kind of work or business the company is in",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "inequality": {
+    "word": "inequality",
+    "definition": "Unfair difference between groups of people",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "It is also connected to empire, trade, and inequality.",
+        "contextMeaning": "Here, \"inequality\" means tea history includes trade and inequality",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -82204,12 +82486,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Heracles has superhuman strength, but his life is marked by guilt, labor, and pain.",
+        "contextMeaning": "Here, \"labor\" means hard jobs or difficult tasks",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Sugar was produced in colonies, often through very unfair and cruel labor systems.",
         "contextMeaning": "Here, \"labor\" means hard jobs or difficult tasks",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -93112,7 +93402,8 @@
     "episodes": [
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -93133,6 +93424,36 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "Buying Medicine at a Drugstore 1.",
         "contextMeaning": "Here, \"medicine\" means the worker shows medicine",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "In some places, tea was connected to medicine.",
+        "contextMeaning": "Here, \"medicine\" means early tea was often used like medicine",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "meditation": {
+    "word": "meditation",
+    "definition": "Quiet thinking or mental practice",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "For monks, tea was useful because it helped them stay awake during meditation and study.",
+        "contextMeaning": "Here, \"meditation\" means monks used tea during meditation and study",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -95672,7 +95993,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -95723,6 +96045,13 @@
         "contextMeaning": "Here, \"modern\" means new and current in style or method",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Part 10: Tea and Daily Life Today Today, tea is both traditional and modern.",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -95737,12 +96066,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Famous pieces such as Toccata and Fugue in D minor are often connected with dramatic images in modern culture, even though people may not know the full background.",
+        "contextMeaning": "Here, \"modern culture\" means \"modern culture\" names background knowledge from history, art, music, or culture",
+        "source": "popup_support_router/trusted_cultural_phrase_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Tea continues to change with modern culture.",
         "contextMeaning": "Here, \"modern culture\" means \"modern culture\" names background knowledge from history, art, music, or culture",
         "source": "popup_support_router/trusted_cultural_phrase_rule",
         "confidence": "trusted"
@@ -95792,7 +96129,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -95861,6 +96199,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "People connect it to a famous person, a special event, or an important moment.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "The ceremony taught people to pay attention to small movements, simple beauty, and the present moment.",
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -97453,12 +97798,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Mountains, doors, enemies, and paths appear on the screen.",
+        "contextMeaning": "Here, \"mountains\" means very high land",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Traders carried tea across mountains, seas, and long roads.",
         "contextMeaning": "Here, \"mountains\" means very high land",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -105323,7 +105676,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -105380,6 +105734,13 @@
         "sentence": "Sanrio shows how a simple character can make ordinary products feel personal.",
         "contextMeaning": "Here, \"ordinary\" means normal, not special",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Later, as trade increased and tea became cheaper, ordinary people also began drinking it.",
+        "contextMeaning": "Here, \"ordinary\" means normal, not special",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -113857,7 +114218,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -113905,6 +114267,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "But after his death, his music became less popular for a time.",
+        "contextMeaning": "Here, \"popular\" means liked by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Introduction Tea is one of the most popular drinks in the world.",
         "contextMeaning": "Here, \"popular\" means liked by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -119790,7 +120159,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -119915,6 +120285,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It could fill a church with sound, from a quiet prayer-like tone to a huge wave of music.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "In the Japanese tea ceremony, the host prepares tea for guests in a quiet and respectful way.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -140023,7 +140400,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -140057,6 +140435,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They may ask, \"Where is the tasting room?\" or \"Can I buy this bottle?\" A worker can answer slowly and point to the place.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "It began in Asia and slowly traveled across the world.",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -144512,6 +144897,29 @@
         "sentence": "So she spends part of the year below with Hades and part above with her mother.",
         "contextMeaning": "Here, \"spends\" means she uses part of the year in one place and part in another",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "spices": {
+    "word": "spices",
+    "definition": "Seeds, roots, or plants used to add flavor",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "In India, chai is made with black tea, milk, sugar, and spices.",
+        "contextMeaning": "Here, \"spices\" means chai often uses milk, sugar, and spices",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -149914,7 +150322,8 @@
     "episodes": [
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -149934,6 +150343,13 @@
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Have you ever used an AI assistant for work or study?",
+        "contextMeaning": "Here, \"study\" means to spend time learning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "For monks, tea was useful because it helped them stay awake during meditation and study.",
         "contextMeaning": "Here, \"study\" means to spend time learning",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -152647,13 +153063,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "It shows that humans are emotional and symbolic.",
         "contextMeaning": "Here, \"symbolic\" means connected to meaning, identity, or feeling",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Is tea more practical, social, or symbolic?",
+        "contextMeaning": "Here, \"symbolic\" means tea can be symbolic of comfort, respect, or culture",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -154171,7 +154595,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -154205,6 +154630,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Musical taste changed.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Green tea also has a fresh taste, so many people connect it with health and cleanliness.",
         "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -154414,6 +154846,29 @@
         "sentence": "She sees many signs: trains, buses, taxis, and exits.",
         "contextMeaning": "Here, \"taxis\" means cars for hire shown on the signs",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tea": {
+    "word": "tea",
+    "definition": "A drink from leaves",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "The History of Tea Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"tea\" means a drink made by putting leaves in hot water",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -157695,6 +158150,29 @@
         "sentence": "In this case, “neural” does not mean it reads private thoughts.",
         "contextMeaning": "Here, \"thoughts\" means private ideas or feelings in your mind",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "thousands": {
+    "word": "thousands",
+    "definition": "A very large number",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-the-history-of-tea"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "People in China were drinking tea thousands of years ago.",
+        "contextMeaning": "Here, \"thousands\" means a very large number",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -162164,7 +162642,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2"
+      "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -162172,6 +162651,13 @@
         "sentence": "So, when the CIA chief travels, many people notice.",
         "contextMeaning": "Here, \"travels\" means goes from one place to another",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Part 3: Tea Travels to Japan Tea came to Japan from China.",
+        "contextMeaning": "Here, \"travels\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -165745,7 +166231,8 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -165975,6 +166462,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "It also felt useful for the body and mind.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -166695,7 +167189,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -166729,6 +167224,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Some objects are valuable because they are useful.",
+        "contextMeaning": "Here, \"valuable\" means worth a lot or very useful",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Tea became valuable because it was useful, popular, and sometimes difficult to get.",
         "contextMeaning": "Here, \"valuable\" means worth a lot or very useful",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -169603,7 +170105,8 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
       {
@@ -169882,6 +170385,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-the-history-of-tea",
+        "sentence": "Warm-Up Questions Introduction Tea is one of the most popular drinks in the world.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
