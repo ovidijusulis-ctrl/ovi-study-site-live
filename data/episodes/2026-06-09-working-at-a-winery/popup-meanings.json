@@ -47,9 +47,9 @@
   "tasting room": {
     "simpleMeaning": "a room where visitors try wine",
     "contextMeaning": "Visitors ask about the tasting room",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "They may ask, \"Where is the tasting room?\" or \"Can I buy this bottle?\" A worker can answer slowly and point to the place.",
+    "sourceSentence": "They may ask, \"Where is the tasting room?\" or \"Can I buy this bottle?\" A worker can answer slowly and point to the place.",
+    "example": "They may ask, \"Where is the tasting room?\" or \"Can I buy this bottle?\" A worker can answer slowly and point to the place.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -57,7 +57,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "visitor": {
     "simpleMeaning": "a person who comes to see a place",
@@ -137,9 +144,9 @@
   "closing time": {
     "simpleMeaning": "the end of the work day",
     "contextMeaning": "The worker cleans at closing time",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Visitor: What do you do at closing time?",
+    "sourceSentence": "Visitor: What do you do at closing time?",
+    "example": "Visitor: What do you do at closing time?",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -147,7 +154,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "bottles": {
     "simpleMeaning": "a glass container for drinks",
@@ -730,9 +744,9 @@
   "clear": {
     "simpleMeaning": "Easy to understand, not hard",
     "contextMeaning": "Easy and simple to understand English",
-    "sentence": "Useful Phrases for Role Play Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
-    "sourceSentence": "Useful Phrases for Role Play Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
-    "example": "Useful Phrases for Role Play Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
+    "sentence": "Useful Phrases Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
+    "sourceSentence": "Useful Phrases Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
+    "example": "Useful Phrases Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -745,9 +759,9 @@
   "conversation": {
     "simpleMeaning": "Talking with one or more people",
     "contextMeaning": "Talking with others at the winery",
-    "sentence": "Useful Phrases for Role Play Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
-    "sourceSentence": "Useful Phrases for Role Play Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
-    "example": "Useful Phrases for Role Play Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
+    "sentence": "Useful Phrases Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
+    "sourceSentence": "Useful Phrases Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
+    "example": "Useful Phrases Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1075,9 +1089,9 @@
   "helping": {
     "simpleMeaning": "Doing something to make things easier for others",
     "contextMeaning": "Giving visitors answers or support when they ask questions",
-    "sentence": "Useful Phrases for Role Play Talk About It 3.1 Helping Visitors Visitors may ask simple questions.",
-    "sourceSentence": "Useful Phrases for Role Play Talk About It 3.1 Helping Visitors Visitors may ask simple questions.",
-    "example": "Useful Phrases for Role Play Talk About It 3.1 Helping Visitors Visitors may ask simple questions.",
+    "sentence": "Useful Phrases Talk About It 3.1 Helping Visitors Visitors may ask simple questions.",
+    "sourceSentence": "Useful Phrases Talk About It 3.1 Helping Visitors Visitors may ask simple questions.",
+    "example": "Useful Phrases Talk About It 3.1 Helping Visitors Visitors may ask simple questions.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",

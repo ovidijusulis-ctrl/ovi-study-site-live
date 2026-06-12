@@ -152,9 +152,9 @@
   "light wave": {
     "simpleMeaning": "moving light energy",
     "contextMeaning": "Color depends on reflected light waves",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "You see \"red,\" \"round,\" and \"solid.\" But physics says the apple is made of atoms, forces, light waves, empty space, and energy.",
+    "sourceSentence": "You see \"red,\" \"round,\" and \"solid.\" But physics says the apple is made of atoms, forces, light waves, empty space, and energy.",
+    "example": "You see \"red,\" \"round,\" and \"solid.\" But physics says the apple is made of atoms, forces, light waves, empty space, and energy.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -162,7 +162,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "inflected_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "ultraviolet": {
     "simpleMeaning": "light humans cannot see",
@@ -212,9 +219,9 @@
   "prediction machine": {
     "simpleMeaning": "a system that guesses what will happen next",
     "contextMeaning": "The brain is sometimes described as a prediction machine",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
+    "sourceSentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
+    "example": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -222,14 +229,21 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "observer self": {
     "simpleMeaning": "the part of you that can notice thoughts and feelings",
     "contextMeaning": "The observer self can question the first perception",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
+    "sourceSentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
+    "example": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -237,7 +251,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "interpretation": {
     "simpleMeaning": "one way of understanding something",

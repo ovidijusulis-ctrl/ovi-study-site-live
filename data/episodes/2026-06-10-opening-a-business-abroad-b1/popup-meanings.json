@@ -17,9 +17,9 @@
   "underserved market": {
     "simpleMeaning": "a market where needs are not fully met",
     "contextMeaning": "an opportunity found through country research",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "ANSWER 2: It can help find underserved markets, helpful agreements, and important restrictions.",
+    "sourceSentence": "ANSWER 2: It can help find underserved markets, helpful agreements, and important restrictions.",
+    "example": "ANSWER 2: It can help find underserved markets, helpful agreements, and important restrictions.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -27,7 +27,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "inflected_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "restriction": {
     "simpleMeaning": "a rule that limits what you can do",
@@ -92,9 +99,9 @@
   "b2b ecommerce": {
     "simpleMeaning": "businesses selling to businesses online",
     "contextMeaning": "an important international sales trend",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Ecommerce keeps growing, virtual sales are common in many B2B markets, and AI-related goods helped world trade grow faster than expected in 2025.",
+    "sourceSentence": "Ecommerce keeps growing, virtual sales are common in many B2B markets, and AI-related goods helped world trade grow faster than expected in 2025.",
+    "example": "Ecommerce keeps growing, virtual sales are common in many B2B markets, and AI-related goods helped world trade grow faster than expected in 2025.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -102,7 +109,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "unordered_tokens",
+      "confidence": "manual_approved",
+      "source": "operator_manual_fill_allowlist"
+    }
   },
   "verify": {
     "simpleMeaning": "check that something is true",

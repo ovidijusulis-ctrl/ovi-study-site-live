@@ -47,9 +47,9 @@
   "church musician": {
     "simpleMeaning": "a musician who prepares or performs music for religious services",
     "contextMeaning": "church musician means a musician who prepares or performs music for religious services.",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
+    "sourceSentence": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
+    "example": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -57,10 +57,17 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "cantata": {
-    "simpleMeaning": "a musical work for singers and instruments.",
+    "simpleMeaning": "a musical work for singers and instruments, often connected to church music",
     "contextMeaning": "cantata means a musical work for singers and instruments, often connected to church music.",
     "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
     "sourceSentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
@@ -75,7 +82,7 @@
     "generatedBy": "popup_support_router_v1"
   },
   "thomaskantor": {
-    "simpleMeaning": "Bach's Leipzig role as a leader of church music and school.",
+    "simpleMeaning": "Bach's Leipzig role as a leader of church music and school music",
     "contextMeaning": "Thomaskantor means bach's Leipzig role as a leader of church music and school music.",
     "sentence": "He became Thomaskantor, which meant he was responsible for music at important Leipzig churches and for teaching at the St.",
     "sourceSentence": "He became Thomaskantor, which meant he was responsible for music at important Leipzig churches and for teaching at the St.",
@@ -90,7 +97,7 @@
     "generatedBy": "popup_support_router_v1"
   },
   "counterpoint": {
-    "simpleMeaning": "two or more melodies moving at the same time while fitting.",
+    "simpleMeaning": "two or more melodies moving at the same time while fitting together",
     "contextMeaning": "counterpoint means two or more melodies moving at the same time while fitting together.",
     "sentence": "Bach often used counterpoint.",
     "sourceSentence": "Bach often used counterpoint.",
@@ -107,9 +114,9 @@
   "instrumental music": {
     "simpleMeaning": "music written mainly for instruments, not singing",
     "contextMeaning": "instrumental music means music written mainly for instruments, not singing.",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "The Brandenburg Concertos are connected with this wider world of court and instrumental music.",
+    "sourceSentence": "The Brandenburg Concertos are connected with this wider world of court and instrumental music.",
+    "example": "The Brandenburg Concertos are connected with this wider world of court and instrumental music.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -117,7 +124,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "legacy": {
     "simpleMeaning": "the lasting influence someone leaves after their life",
@@ -165,7 +179,7 @@
     "generatedBy": "popup_support_router_v1"
   },
   "cantatas": {
-    "simpleMeaning": "a musical work for singers and instruments.",
+    "simpleMeaning": "a musical work for singers and instruments, often connected to church music",
     "contextMeaning": "cantata means a musical work for singers and instruments, often connected to church music.",
     "sentence": "Bach wrote many cantatas, which are musical works for singers and instruments.",
     "sourceSentence": "Bach wrote many cantatas, which are musical works for singers and instruments.",

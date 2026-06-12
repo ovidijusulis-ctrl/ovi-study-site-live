@@ -81,9 +81,9 @@
   "after food": {
     "simpleMeaning": "after you eat",
     "contextMeaning": "The worker says after food",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
+    "sourceSentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
+    "example": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -91,14 +91,21 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "with water": {
     "simpleMeaning": "using water when you take medicine",
     "contextMeaning": "The customer takes medicine with water",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
+    "sourceSentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
+    "example": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -106,7 +113,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "allergy": {
     "simpleMeaning": "a bad body reaction to food or medicine",
@@ -141,9 +155,9 @@
   "feel worse": {
     "simpleMeaning": "feel more sick than before",
     "contextMeaning": "People should see a doctor if they feel worse",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "If they feel worse, they should see a doctor.",
+    "sourceSentence": "If they feel worse, they should see a doctor.",
+    "example": "If they feel worse, they should see a doctor.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -151,7 +165,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "safe": {
     "simpleMeaning": "Less likely to feel risky",

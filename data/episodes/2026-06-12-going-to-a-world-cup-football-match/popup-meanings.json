@@ -2,9 +2,9 @@
   "world cup": {
     "simpleMeaning": "a big world football tournament",
     "contextMeaning": "The 2026 World Cup is in three countries",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "In 2026, the World Cup is in Canada, Mexico, and the United States.",
+    "sourceSentence": "In 2026, the World Cup is in Canada, Mexico, and the United States.",
+    "example": "In 2026, the World Cup is in Canada, Mexico, and the United States.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -12,7 +12,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "match": {
     "simpleMeaning": "a sports game",
@@ -47,9 +54,9 @@
   "fan area": {
     "simpleMeaning": "a public place for fans",
     "contextMeaning": "Fans can watch big screens there",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Some fans watch in a fan area with big screens, music, food, and games.",
+    "sourceSentence": "Some fans watch in a fan area with big screens, music, food, and games.",
+    "example": "Some fans watch in a fan area with big screens, music, food, and games.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -57,7 +64,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "ticket": {
     "simpleMeaning": "paper or phone proof to enter",
@@ -137,9 +151,9 @@
   "full time": {
     "simpleMeaning": "the end of the match",
     "contextMeaning": "The match ends at full time",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "At full time, the match ends.",
+    "sourceSentence": "At full time, the match ends.",
+    "example": "At full time, the match ends.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -147,7 +161,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "warm-up questions": {
     "simpleMeaning": "Easy first questions before the main lesson",

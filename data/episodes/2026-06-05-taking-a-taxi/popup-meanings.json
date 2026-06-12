@@ -81,9 +81,9 @@
   "turn right": {
     "simpleMeaning": "move to the right side",
     "contextMeaning": "The passenger says turn right",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
+    "sourceSentence": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
+    "example": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -91,14 +91,21 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "turn left": {
     "simpleMeaning": "move to the left side",
     "contextMeaning": "People can say turn left",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
+    "sourceSentence": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
+    "example": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -106,14 +113,21 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "stop here": {
     "simpleMeaning": "finish the ride in this place",
     "contextMeaning": "The passenger says stop here",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
+    "sourceSentence": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
+    "example": "They can say, \"Turn right,\" \"Turn left,\" or \"Stop here, please.\" These short sentences are useful when the destination is close.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -121,7 +135,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "meter": {
     "simpleMeaning": "a taxi machine that shows the price",

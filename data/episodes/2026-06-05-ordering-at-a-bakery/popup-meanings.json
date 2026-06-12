@@ -47,9 +47,9 @@
   "display case": {
     "simpleMeaning": "a glass place that shows food",
     "contextMeaning": "People look at the display case",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "At a bakery, people often look at the display case.",
+    "sourceSentence": "At a bakery, people often look at the display case.",
+    "example": "At a bakery, people often look at the display case.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -57,14 +57,21 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "this one": {
     "simpleMeaning": "one thing near me",
     "contextMeaning": "The customer can point and say this one",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
+    "sourceSentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
+    "example": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -72,7 +79,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "takeaway": {
     "simpleMeaning": "food you take away from the shop",
@@ -92,9 +106,9 @@
   "for here": {
     "simpleMeaning": "eat or drink in this place",
     "contextMeaning": "Some customers choose for here",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Worker: For here or takeaway?",
+    "sourceSentence": "Worker: For here or takeaway?",
+    "example": "Worker: For here or takeaway?",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -102,7 +116,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "counter": {
     "simpleMeaning": "the place where a worker helps customers",
@@ -122,9 +143,9 @@
   "pay by card": {
     "simpleMeaning": "pay with a bank card",
     "contextMeaning": "The customer pays by card",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Customer: I will pay by card.",
+    "sourceSentence": "Customer: I will pay by card.",
+    "example": "Customer: I will pay by card.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -132,7 +153,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "receipt": {
     "simpleMeaning": "paper or digital proof that you paid",

@@ -107,9 +107,9 @@
   "free time": {
     "simpleMeaning": "no work time",
     "contextMeaning": "time for fun with friends",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Free time with friends is good.",
+    "sourceSentence": "Free time with friends is good.",
+    "example": "Free time with friends is good.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -117,7 +117,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "meet": {
     "simpleMeaning": "come together",
@@ -181,7 +188,7 @@
   },
   "sorry": {
     "simpleMeaning": "a polite repair word",
-    "contextMeaning": "Here, \" sorry \" means a polite word when something is wrong or not.",
+    "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible.",
     "sentence": "Do not just say \"No.\" Say \"Sorry\" or give a small reason.",
     "sourceSentence": "Do not just say \"No.\" Say \"Sorry\" or give a small reason.",
     "example": "Do not just say \"No.\" Say \"Sorry\" or give a small reason.",
@@ -912,7 +919,7 @@
     "translationEs": ""
   },
   "give": {
-    "simpleMeaning": "To give means to put something in someone’s.",
+    "simpleMeaning": "To give means to put something in someone’s hand",
     "contextMeaning": "Say a reason to explain your idea in the lesson",
     "sentence": "In this lesson, you will learn to ask what your friends want, suggest one activity, give a reason, and agree or disagree politely.",
     "sourceSentence": "In this lesson, you will learn to ask what your friends want, suggest one activity, give a reason, and agree or disagree politely.",

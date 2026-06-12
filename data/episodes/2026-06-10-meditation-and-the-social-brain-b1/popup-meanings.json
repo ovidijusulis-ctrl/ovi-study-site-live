@@ -47,9 +47,9 @@
   "emotion regulation": {
     "simpleMeaning": "managing feelings",
     "contextMeaning": "handling emotions without overreacting",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Synchrony is linked with empathy, emotion regulation, bonding, and social participation.",
+    "sourceSentence": "Synchrony is linked with empathy, emotion regulation, bonding, and social participation.",
+    "example": "Synchrony is linked with empathy, emotion regulation, bonding, and social participation.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -57,7 +57,14 @@
     "supportAction": "teach",
     "simpleMeaningSource": "authored_reading_vocabulary",
     "contextMeaningSource": "authored_reading_vocabulary",
-    "generatedBy": "popup_support_router_v1"
+    "generatedBy": "popup_support_router_v1",
+    "popupContextRepair": {
+      "contractVersion": "popup_context_apply_v1",
+      "applied": true,
+      "matchType": "exact_phrase",
+      "confidence": "high",
+      "source": "generated_popup_context_plan"
+    }
   },
   "pause": {
     "simpleMeaning": "a short stop",
