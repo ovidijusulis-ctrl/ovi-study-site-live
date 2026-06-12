@@ -2375,7 +2375,8 @@
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -2739,6 +2740,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Some people play games after school.",
         "contextMeaning": "Here, \"after\" means playing games happens when school is finished",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "After the first half, there is a break.",
+        "contextMeaning": "Here, \"after\" means when the first part finishes, then there is a break",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -7429,7 +7437,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -7500,6 +7509,13 @@
         "sentence": "Customer: When will it arrive?",
         "contextMeaning": "Here, \"arrive\" means the package will arrive on Friday",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Do you like to arrive early?",
+        "contextMeaning": "Here, \"arrive\" means get to the place before time",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -8874,6 +8890,29 @@
       }
     ]
   },
+  "attacks": {
+    "word": "attacks",
+    "definition": "Try to get the ball and score points",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "In the first half, one team attacks.",
+        "contextMeaning": "Here, \"attacks\" means one team tries to get the ball and score first",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "attempted": {
     "word": "attempted",
     "definition": "Tried to do something",
@@ -10229,7 +10268,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -10271,6 +10311,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They wash glasses, put bottles back, and close the door.",
         "contextMeaning": "Here, \"back\" means put bottles in the place they were before",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "It is smart to choose one job and come back quickly.",
+        "contextMeaning": "Here, \"back\" means go quickly to your place after doing a job",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -12994,7 +13041,8 @@
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -13428,6 +13476,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "What do you check before something is ready?",
         "contextMeaning": "Here, \"before\" means check something first, before it is ready",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Before the match, check your ticket.",
+        "contextMeaning": "Here, \"before\" means at an earlier time than the match",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -14890,7 +14945,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -14953,6 +15009,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "The Big Idea Simple Explanation 2.",
         "contextMeaning": "Here, \"big\" means an important idea explained simply",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Some fans watch in a fan area with big screens, music, food, and games.",
+        "contextMeaning": "Here, \"big\" means screens that are large to see",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -17165,7 +17228,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -17207,6 +17271,13 @@
         "episodeId": "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
         "sentence": "The app may break when many people use it.",
         "contextMeaning": "Here, \"break\" means the app stops working when many people use it",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "After the first half, there is a break.",
+        "contextMeaning": "Here, \"break\" means time to rest after the first half",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -18992,7 +19063,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -19027,6 +19099,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Visitors come to see the place, ask questions, and buy bottles.",
         "contextMeaning": "Here, \"buy\" means visitors get bottles by paying money",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Some fans buy water, snacks, or a hot dog.",
+        "contextMeaning": "Here, \"buy\" means fans get water or food by paying money",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -19577,7 +19656,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -19668,6 +19748,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "In its early history, the company was connected to gift products and what it called a social communication business.",
         "contextMeaning": "Here, \"called\" means gave a name to the social communication business",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "This break is called halftime.",
+        "contextMeaning": "Here, \"called\" means the break has the name 'halftime'",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -20137,7 +20224,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -20145,6 +20233,13 @@
         "sentence": "Clio is a legal technology company based in Vancouver, Canada.",
         "contextMeaning": "Here, \"canada\" means the name of the country where Vancouver is located",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "In 2026, the World Cup is in Canada, Mexico, and the United States.",
+        "contextMeaning": "Here, \"canada\" means a place where the World Cup will happen in 2026",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -22897,7 +22992,8 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-getting-to-know-someone-b1",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -23233,6 +23329,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "It can change how hard life feels.",
         "contextMeaning": "Here, \"change\" means make life feel easier or harder",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The match can change fast.",
+        "contextMeaning": "Here, \"change\" means the game can become different quickly",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -24699,6 +24802,29 @@
       }
     ]
   },
+  "cheer": {
+    "word": "cheer",
+    "definition": "Shout happily to show you like something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Let's cheer!",
+        "contextMeaning": "Here, \"cheer\" means shout happily to support or show fun",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "cheerful": {
     "word": "cheerful",
     "definition": "Happy and bright, like smiling",
@@ -24717,6 +24843,52 @@
         "episodeId": "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
         "sentence": "On one side of the event, people stood in line to test cheerful new AI assistants.",
         "contextMeaning": "Here, \"cheerful\" means describes new AI helpers that seem happy and friendly at the event",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cheering": {
+    "word": "cheering",
+    "definition": "Shouting happily to show you like something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Practice simple English for tickets, seats, kickoff, halftime, snacks, cheering, and leaving after a World Cup football match.",
+        "contextMeaning": "Here, \"cheering\" means shouting happily during or after the football game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cheers": {
+    "word": "cheers",
+    "definition": "Shouts or sounds to show you like something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The crowd cheers.",
+        "contextMeaning": "Here, \"cheers\" means the people make happy sounds during the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -25503,7 +25675,8 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -25614,6 +25787,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "If you could open a business in any country, which one would you choose?",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "It is smart to choose one job and come back quickly.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -26206,6 +26386,29 @@
         "episodeId": "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
         "sentence": "The jury’s task is to compare claims with proof.",
         "contextMeaning": "Here, \"claims\" means statements people say that need to be checked with proof",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "clap": {
+    "word": "clap",
+    "definition": "Hit hands together to show happy",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Fans clap, take photos, and leave slowly.",
+        "contextMeaning": "Here, \"clap\" means fans hit hands to show happy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -27732,7 +27935,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -27851,6 +28055,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They wash glasses, put bottles back, and close the door.",
         "contextMeaning": "Here, \"close\" means shut the door so no one can enter",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Do you like close matches?",
+        "contextMeaning": "Here, \"close\" means matches where the score is very near",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -29439,13 +29650,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Visitors come to see the place, ask questions, and buy bottles.",
         "contextMeaning": "Here, \"come\" means visitors move to the winery",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The players come onto the field.",
+        "contextMeaning": "Here, \"come\" means players move onto the field to start playing",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -34269,7 +34488,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-casual-conversation-branches-a2",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -34458,6 +34678,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Useful Phrases for Role Play Talk About It Conversation Role Play At the winery Role-play Simple Explanation Final Reflection Winery English can be simple and clear.",
         "contextMeaning": "Here, \"conversation\" means talking with others at the winery",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Useful Phrases for Role Play Simple Explanation Talk About It Conversation Role Play At the stadium Role-play Change One Detail Use the same roleplay pattern with one new detail.",
+        "contextMeaning": "Here, \"conversation\" means talking with others during the practice game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -38912,7 +39139,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -38961,6 +39189,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "At the end of the day, workers clean the tasting room.",
         "contextMeaning": "Here, \"day\" means the time before workers finish work",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "A Big 2026 Match Day In 2026, the World Cup is in Canada, Mexico, and the United States.",
+        "contextMeaning": "Here, \"day\" means the special day when the big match happens",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -44967,12 +45202,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "The original image came from a Shiba Inu dog named Kabosu.",
+        "contextMeaning": "Here, \"dog\" means a common animal kept as a pet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Some fans buy water, snacks, or a hot dog.",
         "contextMeaning": "Here, \"dog\" means a common animal kept as a pet",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -46836,7 +47079,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -46955,6 +47199,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "During the ride, people may give simple directions.",
         "contextMeaning": "Here, \"during\" means while the ride is happening, people give directions",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "I say, \"Great goal!\" What do you do during halftime?",
+        "contextMeaning": "Here, \"during\" means while the break in the game is happening",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -50114,6 +50365,29 @@
       }
     ]
   },
+  "ends": {
+    "word": "ends",
+    "definition": "Stops or finishes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "At full time, the match ends.",
+        "contextMeaning": "Here, \"ends\" means the match stops when the full time is done",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "endurance": {
     "word": "endurance",
     "definition": "Being able to keep going when things are hard",
@@ -50915,7 +51189,8 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -50956,6 +51231,13 @@
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Short sentences are enough: \"I like adventure games,\" \"Players explore new places,\" \"I play on weekends,\" and \"I like team games because I can play with friends.\" Speaking Practice Questions 1.",
+        "contextMeaning": "Here, \"enough\" means not as much as needed",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Short sentences are enough: \"I have a ticket,\" \"Kickoff will start soon,\" \"I need water,\" and \"What is the score?\" Speaking Practice Questions 1.",
         "contextMeaning": "Here, \"enough\" means not as much as needed",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -54054,7 +54336,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-10-getting-to-know-someone-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -54223,6 +54506,13 @@
         "sentence": "Games can be fun, exciting, and relaxing.",
         "contextMeaning": "Here, \"exciting\" means games can be exciting",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "This is exciting!",
+        "contextMeaning": "Here, \"exciting\" means this thing makes you feel very happy and interested",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -57624,7 +57914,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -57715,6 +58006,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "I do not like fast games.",
         "contextMeaning": "Here, \"fast\" means games that move quickly and are not slow",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The match can change fast.",
+        "contextMeaning": "Here, \"fast\" means the game can become different quickly",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -59615,7 +59913,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -59629,6 +59928,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A sports field can feel emotional if a championship was won there.",
         "contextMeaning": "Here, \"field\" means a place where sports games happen",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The players come onto the field.",
+        "contextMeaning": "Here, \"field\" means the place where players play the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -60943,7 +61249,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -61244,6 +61551,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Her first product was a small purse.",
         "contextMeaning": "Here, \"first\" means the very first thing she made was a small purse",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "In the first half, one team attacks.",
+        "contextMeaning": "Here, \"first\" means the part of the game that happens before the second",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -62843,7 +63157,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3"
+      "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -62851,6 +63166,13 @@
         "sentence": "It is about football and pop music.",
         "contextMeaning": "Here, \"football\" means a popular sport played with a ball",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Two friends go to a World Cup football match together.",
+        "contextMeaning": "Here, \"football\" means a big game with friends watching the World Cup event",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -64892,7 +65214,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -64906,6 +65229,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Games can be fun, exciting, and relaxing.",
         "contextMeaning": "Here, \"fun\" means games can make you happy and enjoy yourself",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Final Reflection World Cup English can be simple and fun.",
+        "contextMeaning": "Here, \"fun\" means learning English can be happy and nice",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -67190,7 +67520,8 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -67260,6 +67591,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Say where you work, name your duties, and show the visitor where to go.",
         "contextMeaning": "Here, \"go\" means tell the visitor the place they should move to",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Go early.",
+        "contextMeaning": "Here, \"go\" means move to the place early",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -67746,7 +68084,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -67802,6 +68141,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Video games are also good for talking in English.",
         "contextMeaning": "Here, \"good\" means video games help you practice speaking English well",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Friend B: Good idea.",
+        "contextMeaning": "Here, \"good\" means a nice idea or plan",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -69543,6 +69889,29 @@
       }
     ]
   },
+  "half": {
+    "word": "half",
+    "definition": "One of two equal parts of something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "In the first half, one team attacks.",
+        "contextMeaning": "Here, \"half\" means one part of the game when teams play",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "half-time": {
     "word": "half-time",
     "definition": "The middle part of a game",
@@ -70002,7 +70371,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3"
+      "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -70023,6 +70393,13 @@
         "episodeId": "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
         "sentence": "A phone takes your eyes and hands for a moment.",
         "contextMeaning": "Here, \"hands\" means your hands are busy using the phone",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "I clap my hands.",
+        "contextMeaning": "Here, \"hands\" means i clap the parts at the end of my arms",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71271,7 +71648,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -71326,6 +71704,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "When you hear the name Bach, what kind of music do you imagine?",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Friend B: I can hear the crowd.",
         "contextMeaning": "Here, \"hear\" means listening to sounds or words",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -74021,7 +74406,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life"
+      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -74029,6 +74415,13 @@
         "sentence": "Shade matters in hot conditions because it cuts heat before it enters the room.",
         "contextMeaning": "Here, \"hot\" means very warm weather or air",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Some fans buy water, snacks, or a hot dog.",
+        "contextMeaning": "Here, \"hot\" means the dog is warm food",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -78075,7 +78468,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -78201,6 +78595,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Inside the winery, there are bottles, boxes, shelves, and tools.",
         "contextMeaning": "Here, \"inside\" means in the winery building, there are many things",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Show your ticket and go inside.",
+        "contextMeaning": "Here, \"inside\" means go into the stadium after showing your ticket",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -81660,7 +82061,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-why-cats-act-so-strange"
+      "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -81668,6 +82070,13 @@
         "sentence": "When the keys fall, Luna jumps down and follows them.",
         "contextMeaning": "Here, \"jumps\" means moves down quickly to the ground",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Everyone jumps and shouts.",
+        "contextMeaning": "Here, \"jumps\" means moves up and shouts",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -85203,7 +85612,8 @@
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -85238,6 +85648,13 @@
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "Test before leaving: Customer: Let me test it with Wi-Fi off.",
         "contextMeaning": "Here, \"leaving\" means going away after testing something",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Practice simple English for tickets, seats, kickoff, halftime, snacks, cheering, and leaving after a World Cup football match.",
+        "contextMeaning": "Here, \"leaving\" means going away after the football match ends",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -85597,13 +86014,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
         "sentence": "A: Now let's practise.",
         "contextMeaning": "Here, \"let's\" means now we should practise together",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Let's find our seats.",
+        "contextMeaning": "Here, \"let's\" means we should find our seats now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -86364,7 +86789,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -86462,6 +86888,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
         "contextMeaning": "Here, \"like\" means the kinds of games you enjoy or want",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Do you like to arrive early?",
+        "contextMeaning": "Here, \"like\" means do you want to come early",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -86752,7 +87185,8 @@
     "episodes": [
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-asking-for-directions-in-a-station"
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -86773,6 +87207,13 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "Which train line is this?",
         "contextMeaning": "Here, \"line\" means train line means the path or route the train takes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The line can be long.",
+        "contextMeaning": "Here, \"line\" means people waiting one after another can be long",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89426,13 +89867,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-bank-card-problem"
+      "episode-2026-05-21-a2-bank-card-problem",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-a2-bank-card-problem",
         "sentence": "What information should you not say loudly in public?",
         "contextMeaning": "Here, \"loudly\" means what should you not say with a big voice in public",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "I cheer loudly.",
+        "contextMeaning": "Here, \"loudly\" means i make a big noise when I cheer",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -90686,7 +91135,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -90756,6 +91206,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "In building games, players can make houses, towns, or their own world.",
         "contextMeaning": "Here, \"make\" means players build houses or towns in the game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "No, they make me nervous.",
+        "contextMeaning": "Here, \"make\" means they cause me to feel nervous",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -91670,7 +92127,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -92148,6 +92606,13 @@
         "contextMeaning": "Here, \"many\" means a lot of people like to play video games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Many teams play many matches.",
+        "contextMeaning": "Here, \"many\" means a lot of teams play a lot of games",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -92621,6 +93086,29 @@
         "sentence": "Going to a World Cup Football Match Warm-Up Questions 1.",
         "contextMeaning": "Here, \"match\" means fans go to a football match",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "match-day": {
+    "word": "match-day",
+    "definition": "The day when a game happens",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Lesson Goal Read an A1 match-day passage.",
+        "contextMeaning": "Here, \"match-day\" means the day when the football game is played",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -97984,7 +98472,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -98383,6 +98872,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The company was not only asking, \"How can we sell more goods?\" It was also asking, \"How can small goods help people communicate?\" A gift can be small, cheap, and simple, but it can still carry a message.",
         "contextMeaning": "Here, \"more\" means selling a bigger number of goods to people",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Maybe there is one more goal.",
+        "contextMeaning": "Here, \"more\" means maybe there is an extra goal in the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -99441,7 +99937,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -99546,6 +100043,13 @@
         "episodeId": "episode-2026-06-09-casual-conversation-branches-a2",
         "sentence": "Practice Targets answer with a real example, talk about past and future in simple English, ask logical follow-up questions, and keep the conversation moving when the first answer is short.",
         "contextMeaning": "Here, \"moving\" means keeping the talk going when answers are short",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The line is moving fast.",
+        "contextMeaning": "Here, \"moving\" means the line is going forward quickly",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -100968,7 +101472,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -101052,6 +101557,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They look for dry leaves, broken signs, or things that need care.",
         "contextMeaning": "Here, \"need\" means must have care or fixing in this place",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "After the first half, I need water.",
+        "contextMeaning": "Here, \"need\" means want water after the first part of the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -101555,7 +102067,8 @@
       "episode-2026-05-21-a2-report-a-lost-item",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -101618,6 +102131,13 @@
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "Clear English is better than nervous English.",
         "contextMeaning": "Here, \"nervous\" means english that sounds like you are scared or worried",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "No, they make me nervous.",
+        "contextMeaning": "Here, \"nervous\" means they make me feel worried or scared",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -101812,7 +102332,8 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -101917,6 +102438,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "In adventure games, players explore new places and find items.",
         "contextMeaning": "Here, \"new\" means players find places they did not see before",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Useful Phrases for Role Play Simple Explanation Talk About It Conversation Role Play At the stadium Role-play Change One Detail Use the same roleplay pattern with one new detail.",
+        "contextMeaning": "Here, \"new\" means one different detail in the roleplay",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -104581,7 +105109,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -104889,6 +105418,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "I do not play games often.",
         "contextMeaning": "Here, \"often\" means not many times I play games",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "No, I often arrive just on time.",
+        "contextMeaning": "Here, \"often\" means many times I come just on time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -105387,7 +105923,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -105576,6 +106113,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "One duty is checking bottles.",
         "contextMeaning": "Here, \"one\" means a single job or task to do",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "In the first half, one team attacks.",
+        "contextMeaning": "Here, \"one\" means a single team, not two or more teams",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -107324,7 +107868,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -107513,6 +108058,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Do you like playing alone or with other people?",
         "contextMeaning": "Here, \"other\" means different people, not you, playing together",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The other team defends.",
+        "contextMeaning": "Here, \"other\" means the team that is not the one attacking",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -109729,7 +110281,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -109778,6 +110331,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Lesson Goal Read a simple A1 workplace passage.",
         "contextMeaning": "Here, \"passage\" means a short text about work to read",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Lesson Goal Read an A1 match-day passage.",
+        "contextMeaning": "Here, \"passage\" means a small text about the day of the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -110204,7 +110764,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -110302,6 +110863,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "The pattern is simple: an object gets a story, the story creates emotion, the emotion creates desire, desire creates demand, and demand can raise the price.",
         "contextMeaning": "Here, \"pattern\" means the order of steps from story to price",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Useful Phrases for Role Play Simple Explanation Talk About It Conversation Role Play At the stadium Role-play Change One Detail Use the same roleplay pattern with one new detail.",
+        "contextMeaning": "Here, \"pattern\" means the same way to do the practice game with changes",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -112478,7 +113046,8 @@
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -112505,6 +113074,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A phone is useful because we can call people, take photos, and use the internet.",
+        "contextMeaning": "Here, \"photos\" means a picture taken with a camera",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Fans clap, take photos, and leave slowly.",
         "contextMeaning": "Here, \"photos\" means a picture taken with a camera",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -114053,7 +114629,8 @@
     "episodes": [
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -114073,6 +114650,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
+        "contextMeaning": "Here, \"player\" means a person who plays a game or sport",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "A player may score a goal.",
         "contextMeaning": "Here, \"player\" means a person who plays a game or sport",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -114276,7 +114860,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -114388,6 +114973,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "I can answer, \"Where is the tasting room?\" I can answer, \"Can I buy this bottle?\" I can say, \"Please come this way.\" What closing duty do you do?",
         "contextMeaning": "Here, \"please\" means use a polite word to invite someone to come",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Friend B: And please save my seat if I go to the restroom.",
+        "contextMeaning": "Here, \"please\" means ask kindly to save the seat",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -124374,6 +124966,29 @@
       }
     ]
   },
+  "referee": {
+    "word": "referee",
+    "definition": "The person who watches the game and makes rules",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "The referee starts the match.",
+        "contextMeaning": "Here, \"referee\" means the person who starts the game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "references": {
     "word": "references",
     "definition": "Things you look at to help you understand",
@@ -128106,6 +128721,29 @@
       }
     ]
   },
+  "restroom": {
+    "word": "restroom",
+    "definition": "Place to wash hands and use toilet",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Some fans go to the restroom.",
+        "contextMeaning": "Here, \"restroom\" means place fans go to use toilet",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "result": {
     "word": "result",
     "definition": "What happens in the end",
@@ -130241,7 +130879,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -130292,6 +130931,13 @@
         "contextMeaning": "Here, \"role\" means a part to act or talk in a play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Useful Phrases for Role Play Simple Explanation Talk About It 2.",
+        "contextMeaning": "Here, \"role\" means the part you act or say in a practice game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -130308,7 +130954,8 @@
     "episodes": [
       "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -130329,6 +130976,13 @@
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Practice the roleplay with a teacher.",
         "contextMeaning": "Here, \"roleplay\" means practice pretending with a teacher to learn better",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Useful Phrases for Role Play Simple Explanation Talk About It Conversation Role Play At the stadium Role-play Change One Detail Use the same roleplay pattern with one new detail.",
+        "contextMeaning": "Here, \"roleplay\" means act like someone else in the practice game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -132965,7 +133619,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -132999,6 +133654,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Mina: Then let's save the party.",
+        "contextMeaning": "Here, \"save\" means to keep something from loss or danger",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Friend B: And please save my seat if I go to the restroom.",
         "contextMeaning": "Here, \"save\" means to keep something from loss or danger",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -133145,7 +133807,8 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -133236,6 +133899,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
         "contextMeaning": "Here, \"say\" means to tell what kinds of games you enjoy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "I say, \"Great goal!\" What do you do during halftime?",
+        "contextMeaning": "Here, \"say\" means i speak the words, “Great goal",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -133332,7 +134002,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -133402,6 +134073,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "customer care explanation says she \"speaks from her heart\" and is not tied to one language.",
         "contextMeaning": "Here, \"says\" means the help service tells that she 'speaks from her heart'",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "My ticket says Gate B, Row 12, Seat 8.",
+        "contextMeaning": "Here, \"says\" means the ticket shows the place to sit",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -134186,6 +134864,29 @@
       }
     ]
   },
+  "score": {
+    "word": "score",
+    "definition": "Get a point in a game",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "A player may score a goal.",
+        "contextMeaning": "Here, \"score\" means get a goal in the game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "scored": {
     "word": "scored",
     "definition": "With points or a result",
@@ -134205,6 +134906,29 @@
         "sentence": "This page is a scored grammar check, not a reading article.",
         "contextMeaning": "Here, \"scored\" means a scored grammar check gives you a final score",
         "source": "codex_repair_pass",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "scores": {
+    "word": "scores",
+    "definition": "Gets a point in a game",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "What do you do when your team scores?",
+        "contextMeaning": "Here, \"scores\" means when your team gets a point",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -134771,7 +135495,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -134779,6 +135504,13 @@
         "sentence": "Please have a seat.",
         "contextMeaning": "Here, \"seat\" means where the customer sits",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Your ticket shows the gate, row, and seat.",
+        "contextMeaning": "Here, \"seat\" means the place you sit in the stadium shown on your ticket",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -134840,13 +135572,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3"
+      "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-13-create-a-site-only-a2-practical-english-conversation-3",
         "sentence": "My cousin is waiting by the seats.",
         "contextMeaning": "Here, \"seats\" means the places where people can sit and wait",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Let's find our seats.",
+        "contextMeaning": "Here, \"seats\" means the places where we will sit at the event",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -139063,7 +139803,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -139119,6 +139860,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Say where you work, name your duties, and show the visitor where to go.",
         "contextMeaning": "Here, \"show\" means help the visitor find the place to go",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Show your ticket and go inside.",
+        "contextMeaning": "Here, \"show\" means give your ticket so people can check it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -139371,7 +140119,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -139560,6 +140309,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The 2025 ranking also shows how alive the fan world is.",
         "contextMeaning": "Here, \"shows\" means the ranking makes clear how active the fan world is",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Your ticket shows the gate, row, and seat.",
+        "contextMeaning": "Here, \"shows\" means lets you see the gate, row, and seat",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -142044,7 +142800,8 @@
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -142085,6 +142842,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "It began in Asia and slowly traveled across the world.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Fans clap, take photos, and leave slowly.",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -142342,7 +143106,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -142419,6 +143184,13 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
         "contextMeaning": "Here, \"smart\" means good to say the medicine advice again carefully",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "It is smart to choose one job and come back quickly.",
+        "contextMeaning": "Here, \"smart\" means good idea to pick one job fast",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -142601,7 +143373,8 @@
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -142629,6 +143402,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "He smiles, but Mina does not smile back.",
         "contextMeaning": "Here, \"smile\" means he makes a happy face, but Mina does not",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Smile at the worker.",
+        "contextMeaning": "Here, \"smile\" means show a happy face to the worker",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -142849,7 +143629,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -142884,6 +143665,13 @@
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "Some people buy a small snack for later.",
         "contextMeaning": "Here, \"snack\" means a small food people buy to eat later",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Then change the gate, seat, snack, or team.",
+        "contextMeaning": "Here, \"snack\" means a small food you can eat",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -142928,7 +143716,8 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-05-shopping-at-a-convenience-store"
+      "episode-2026-06-05-shopping-at-a-convenience-store",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -142971,6 +143760,13 @@
         "sentence": "People can buy food, drinks, snacks, and many other things there.",
         "contextMeaning": "Here, \"snacks\" means people buy snacks at konbini",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Some fans buy water, snacks, or a hot dog.",
+        "contextMeaning": "Here, \"snacks\" means small food fans buy to eat",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -147532,7 +148328,8 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -147567,6 +148364,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "People visit famous music studios, old castles, temples, sports stadiums, movie locations, and historical sites because they want to stand where something meaningful happened.",
         "contextMeaning": "Here, \"stand\" means to be in the exact place where something important happened",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Many fans stand up.",
+        "contextMeaning": "Here, \"stand\" means many fans get up from their seats",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -148243,7 +149047,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -148285,6 +149090,13 @@
         "episodeId": "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
         "sentence": "These are four major entertainment awards in the United States.",
         "contextMeaning": "Here, \"states\" means the prizes are in the country called the United States",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "In 2026, the World Cup is in Canada, Mexico, and the United States.",
+        "contextMeaning": "Here, \"states\" means big parts of the country called United States",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -149217,7 +150029,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -149560,6 +150373,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The company was not only asking, \"How can we sell more goods?\" It was also asking, \"How can small goods help people communicate?\" A gift can be small, cheap, and simple, but it can still carry a message.",
         "contextMeaning": "Here, \"still\" means can carry a message even if small and simple",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Maybe the score is still the same.",
+        "contextMeaning": "Here, \"still\" means the points may not be different yet",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -155498,7 +156318,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-ordering-at-a-bakery",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -155554,6 +156375,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "People take a taxi when they need to go somewhere quickly or safely.",
         "contextMeaning": "Here, \"take\" means use a taxi to go somewhere",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Fans clap, take photos, and leave slowly.",
+        "contextMeaning": "Here, \"take\" means to get photos with a camera at the event",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -166098,7 +166926,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -166168,6 +166997,13 @@
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "They choose one or two things.",
         "contextMeaning": "Here, \"two\" means choose one or two things, not more",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Two friends go to a World Cup football match together.",
+        "contextMeaning": "Here, \"two\" means there are a pair of friends going together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -167252,7 +168088,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -167301,6 +168138,13 @@
         "episodeId": "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
         "sentence": "These are four major entertainment awards in the United States.",
         "contextMeaning": "Here, \"united\" means the country is made of parts joined as one",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "In 2026, the World Cup is in Canada, Mexico, and the United States.",
+        "contextMeaning": "Here, \"united\" means part of the name of a country where the World Cup is held",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -168038,7 +168882,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -168101,6 +168946,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "A short B1 explainer about how Sanrio and Hello Kitty use simple character design to make everyday products feel personal.",
         "contextMeaning": "Here, \"use\" means people can do things with small emotional signs every day",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Useful Phrases for Role Play Simple Explanation Talk About It Conversation Role Play At the stadium Role-play Change One Detail Use the same roleplay pattern with one new detail.",
+        "contextMeaning": "Here, \"use\" means do the same roleplay with one different detail",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -168191,7 +169043,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -168442,6 +169295,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "It also felt useful for the body and mind.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary World Cup - a big world football tournament match - a sports game stadium - a large place for sports fan area - a public place for fans ticket - paper or phone proof to enter gate - an entrance row - a line of seats kickoff - the start of a football match halftime - the break in the middle full time - the end of the match",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
