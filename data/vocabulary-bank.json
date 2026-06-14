@@ -388,6 +388,52 @@
       }
     ]
   },
+  "accent": {
+    "word": "accent",
+    "definition": "Extra stress on a beat, note, or sound",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Stravinsky often builds excitement through rhythm, accent, repetition, and orchestral color.",
+        "contextMeaning": "Here, \"accent\" means extra stress on a beat, note, or sound",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "accents": {
+    "word": "accents",
+    "definition": "Extra stress on a beat, note, or sound",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "He often used small musical patterns, repeated them, changed their accents, and placed them against other patterns.",
+        "contextMeaning": "Here, \"accents\" means accent means extra stress on a beat, note, or sound",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "accept": {
     "word": "accept",
     "definition": "To say yes or be okay with something",
@@ -11369,6 +11415,52 @@
       }
     ]
   },
+  "ballet": {
+    "word": "ballet",
+    "definition": "A stage performance that combines music and dance",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Diaghilev and the Ballets Russes Stravinsky's international fame began through ballet.",
+        "contextMeaning": "Here, \"ballet\" means a stage performance that combines music and dance",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ballets": {
+    "word": "ballets",
+    "definition": "A stage performance that combines music and dance",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Diaghilev and the Ballets Russes Stravinsky's international fame began through ballet.",
+        "contextMeaning": "Here, \"ballets\" means ballet means a stage performance that combines music and dance",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "balls": {
     "word": "balls",
     "definition": "Round things, here food shaped like balls",
@@ -20922,7 +21014,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -21033,6 +21126,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "Tea was also connected to education and calm thinking.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "When you hear classical music, do you imagine something calm, dramatic, strange, or powerful?",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -27980,6 +28080,29 @@
       }
     ]
   },
+  "classical music": {
+    "word": "classical music",
+    "definition": "A clear, balanced style in art, music, or culture",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "When you hear classical music, do you imagine something calm, dramatic, strange, or powerful?",
+        "contextMeaning": "Here, \"classical music\" means \"classical music\" names background knowledge from history, art, music, or culture",
+        "source": "popup_support_router/trusted_cultural_phrase_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "classical period": {
     "word": "classical period",
     "definition": "A time in European music known for clear and balanced music",
@@ -28793,7 +28916,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -28848,6 +28972,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "The newer Classical style of Mozart and Haydn was lighter, clearer, and more elegant.",
+        "contextMeaning": "Here, \"clearer\" means easier to understand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Later, his neoclassical period used older forms and clearer shapes.",
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -33515,7 +33646,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -33528,6 +33660,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "So Bach was not only \"a composer sitting alone.\" He was a professional musician inside real institutions.",
+        "contextMeaning": "Here, \"composer\" means a person who writes music",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Igor Stravinsky: The Composer Who Made Rhythm Feel Dangerous Warm-Up Questions 1.",
         "contextMeaning": "Here, \"composer\" means a person who writes music",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -33545,12 +33684,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Today, he is seen as one of the greatest composers in Western music history, especially as a master of the Baroque period.",
+        "contextMeaning": "Here, \"composers\" means composer means a person who writes music",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Today, Stravinsky is seen as one of the most important composers of the 20th century.",
         "contextMeaning": "Here, \"composers\" means composer means a person who writes music",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
@@ -34071,6 +34218,29 @@
         "sentence": "Shade matters in hot conditions because it cuts heat before it enters the room.",
         "contextMeaning": "Here, \"conditions\" means the hot weather outside",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "conductor": {
+    "word": "conductor",
+    "definition": "A person who leads an orchestra or choir",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "He was a Russian composer, conductor, and pianist, and he later became a citizen of France and the United States.",
+        "contextMeaning": "Here, \"conductor\" means a person who leads an orchestra or choir",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -39569,7 +39739,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -39596,6 +39767,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "When does a drink feel cultural, not just practical?",
+        "contextMeaning": "Here, \"cultural\" means about how people live and think",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Myth, Ritual, and the Old World Made Modern Stravinsky's music often used old stories, rituals, and cultural memory, but he did not treat them like museum pieces.",
         "contextMeaning": "Here, \"cultural\" means about how people live and think",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -56393,7 +56571,8 @@
     "episodes": [
       "episode-2026-05-12-b1-practical-workplace-english-conversation-lesson-using-ai",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -56415,6 +56594,13 @@
         "sentence": "Do you think colors exist exactly the same way for humans, dogs, and bees?",
         "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "He gave Stravinsky major opportunities at exactly the right moment.",
+        "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -79928,7 +80114,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -79985,6 +80172,13 @@
         "sentence": "Fans can also change favorites as their mood and identity change.",
         "contextMeaning": "Here, \"identity\" means the idea of who someone is or wants to be",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "This international life affected his identity.",
+        "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -102950,6 +103144,29 @@
       }
     ]
   },
+  "modern art": {
+    "word": "modern art",
+    "definition": "A newer style that often tries new ideas or forms",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Final Reflection Stravinsky's story shows that modern art does not always try to comfort the audience.",
+        "contextMeaning": "Here, \"modern art\" means \"modern art\" names background knowledge from history, art, music, or culture",
+        "source": "popup_support_router/trusted_cultural_phrase_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "modern culture": {
     "word": "modern culture",
     "definition": "A newer style that often tries new ideas or forms",
@@ -106062,7 +106279,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -106075,6 +106293,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "This background matters because myth was not only entertainment.",
+        "contextMeaning": "Here, \"myth\" means an old story that explains something",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Myth, Ritual, and the Old World Made Modern Stravinsky's music often used old stories, rituals, and cultural memory, but he did not treat them like museum pieces.",
         "contextMeaning": "Here, \"myth\" means an old story that explains something",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -106092,7 +106317,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer"
+      "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -106100,6 +106326,13 @@
         "sentence": "Today, we are looking at Greek mythology, but in a simple, clear way.",
         "contextMeaning": "Here, \"mythology\" means it refers to the collection of ancient Greek stories about gods and heroes",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "This connects well with mythology study.",
+        "contextMeaning": "Here, \"mythology\" means old stories about gods, heroes, rituals, and human problems",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -124170,6 +124403,52 @@
       }
     ]
   },
+  "premiere": {
+    "word": "premiere",
+    "definition": "The first public performance of a work",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Britannica describes the premiere as one of the most scandalous in history, with arguing in the audience so loud that dancers had trouble hearing the orchestra.",
+        "contextMeaning": "Here, \"premiere\" means the first public performance of a work",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "premieres": {
+    "word": "premieres",
+    "definition": "The first public performance of a work",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "It is one of the most famous premieres in music history.",
+        "contextMeaning": "Here, \"premieres\" means premiere means the first public performance of a work",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "premium": {
     "word": "premium",
     "definition": "Better quality, costs more money",
@@ -132366,6 +132645,29 @@
       }
     ]
   },
+  "reinvention": {
+    "word": "reinvention",
+    "definition": "Changing yourself or your style in a new direction",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Stravinsky shows how power can come from tension, surprise, movement, and reinvention.",
+        "contextMeaning": "Here, \"reinvention\" means changing yourself or your style in a new direction",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "reject": {
     "word": "reject",
     "definition": "Say no to something you don’t like",
@@ -136574,7 +136876,8 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -136596,6 +136899,13 @@
         "sentence": "The percussion, like drums and timpani, can create energy, rhythm, and excitement.",
         "contextMeaning": "Here, \"rhythm\" means a pattern of sounds that repeat in music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Igor Stravinsky: The Composer Who Made Rhythm Feel Dangerous Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"rhythm\" means the pattern of beats and movement in music",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -163138,7 +163448,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -163151,6 +163462,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "The internet is very good at taking small pieces of culture and putting them together in surprising ways.",
+        "contextMeaning": "Here, \"surprising\" means not expected",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "In his music, the beat may feel uneven, sharp, or surprising.",
         "contextMeaning": "Here, \"surprising\" means not expected",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -182142,7 +182460,8 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
     ],
     "contexts": [
       {
@@ -182469,6 +182788,13 @@
       },
       {
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
+        "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
