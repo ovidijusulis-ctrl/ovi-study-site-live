@@ -3836,12 +3836,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-international-transport-get-to-the-right-place",
         "sentence": "What feels difficult at an airport, station, or bus stop?",
+        "contextMeaning": "Here, \"airport\" means a place where planes arrive and leave",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Would the idea work in a quiet hospital, a busy airport, or a school?",
         "contextMeaning": "Here, \"airport\" means a place where planes arrive and leave",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -14599,7 +14607,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -14656,6 +14665,13 @@
         "sentence": "They may align in behavior, body rhythms, hormones, or brain activity.",
         "contextMeaning": "Here, \"behavior\" means the way people act or behave in a certain way",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "The Piano Stairs: Can Fun Change Behavior?",
+        "contextMeaning": "Here, \"behavior\" means the way a person acts",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -17309,6 +17325,29 @@
         "sentence": "Because both are nearby, cooks in Skåne can use ingredients from field and sea on the same plate.",
         "contextMeaning": "Here, \"both\" means farm food and sea food are together",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "bother": {
+    "word": "bother",
+    "definition": "To make someone feel a little uncomfortable or disturbed",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Would the sound bother some people?",
+        "contextMeaning": "Here, \"bother\" means to make someone feel a little uncomfortable or disturbed",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -22313,7 +22352,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -22440,6 +22480,13 @@
         "sentence": "In Bach's music, every musical line feels carefully placed.",
         "contextMeaning": "Here, \"carefully\" means every music part is put with great attention in Bach's music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Some people walked up carefully at first.",
+        "contextMeaning": "Here, \"carefully\" means slowly and with attention",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -22647,7 +22694,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -22688,6 +22736,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The company was not only asking, \"How can we sell more goods?\" It was also asking, \"How can small goods help people communicate?\" A gift can be small, cheap, and simple, but it can still carry a message.",
+        "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary commuter - a person who travels regularly to work or school staircase - a set of stairs inside or outside a building escalator - moving stairs that carry people up or down habit - something you do often, sometimes without thinking behavior - the way a person acts playful - fun, light, and not too serious experiment - a test to learn what happens measure - to check the size, amount, or result of something carefully - slowly and with attention bother - to make someone feel a little uncomfortable or disturbed",
         "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24327,7 +24382,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -24693,6 +24749,13 @@
         "contextMeaning": "Here, \"change\" means make one new small thing different in the roleplay",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Understand how one playful public space experiment used music to change a small daily habit, then practice explaining how design can make better choices feel easier in clear B1 English.",
+        "contextMeaning": "Here, \"change\" means make a small daily habit different using music in a public space",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -24739,7 +24802,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -24865,6 +24929,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "How has online selling changed what it means to enter a foreign market?",
         "contextMeaning": "Here, \"changed\" means made the way to enter a new market different because of online selling",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Have you ever changed your behavior because something was designed in a clever way?",
+        "contextMeaning": "Here, \"changed\" means made your behavior different because of smart design",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -27039,7 +27110,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -27111,6 +27183,13 @@
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "We can ask a practical question: how can we make good choices feel easier without forcing people?",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -27142,7 +27221,8 @@
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -27267,6 +27347,13 @@
       {
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "It is smart to choose one job and come back quickly.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "When you see stairs next to an escalator, which one do you usually choose?",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -28917,7 +29004,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -28979,6 +29067,13 @@
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Later, his neoclassical period used older forms and clearer shapes.",
+        "contextMeaning": "Here, \"clearer\" means easier to understand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Sometimes they need a better moment: a clearer path, a lighter feeling, or a reason to smile.",
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -29085,7 +29180,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -29112,6 +29208,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "A very clever meme may disappear if nobody sees it at the right time.",
+        "contextMeaning": "Here, \"clever\" means smart in a quick or skillful way",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Have you ever changed your behavior because something was designed in a clever way?",
         "contextMeaning": "Here, \"clever\" means smart in a quick or skillful way",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -32372,6 +32475,29 @@
         "sentence": "A hero story explained where a community came from and what human beings should fear, admire, or question.",
         "contextMeaning": "Here, \"community\" means a group of people living or working together",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "commuter": {
+    "word": "commuter",
+    "definition": "A person who travels regularly to work or school",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "For example, a tired commuter who planned to stand on the escalator might take ten musical steps because the first step feels interesting.",
+        "contextMeaning": "Here, \"commuter\" means a person who travels regularly to work or school",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -40633,7 +40759,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -40730,6 +40857,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "It can be a daily drink, a health drink, a social drink, or a symbol of culture.",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "What boring daily action could become easier if it felt more fun?",
         "contextMeaning": "Here, \"daily\" means happening every day",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -47966,7 +48100,8 @@
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -48007,6 +48142,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They wash glasses, put bottles back, and close the door.",
+        "contextMeaning": "Here, \"door\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Fun can open a door, but it cannot solve every problem.",
         "contextMeaning": "Here, \"door\" means the part you open to enter a room",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -50918,7 +51060,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -51029,6 +51172,13 @@
       {
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Friend B: Try \"Lilac\" or \"Dance Hall.\" They are easy to remember.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "The stairs are healthy, but the escalator is easy.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -53901,7 +54051,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-playing-video-games",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -53956,6 +54107,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "This made tea sweeter and easier to enjoy for many drinkers.",
+        "contextMeaning": "Here, \"enjoy\" means to like doing something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "The lesson is not \"make everything into a game.\" The lesson is \"make the better choice easier to notice and easier to enjoy.\" 6.",
         "contextMeaning": "Here, \"enjoy\" means to like doing something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -54734,6 +54892,29 @@
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Escalation moments are situations where additional attention or approval is needed.",
         "contextMeaning": "Here, \"escalation\" means moving an issue to a higher level of attention or review",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "escalator": {
+    "word": "escalator",
+    "definition": "Moving stairs that carry people up or down",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "When you see stairs next to an escalator, which one do you usually choose?",
+        "contextMeaning": "Here, \"escalator\" means moving stairs that carry people up or down",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -58403,6 +58584,29 @@
       }
     ]
   },
+  "experiment": {
+    "word": "experiment",
+    "definition": "A test to learn what happens",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "In 2009, a famous public experiment in Stockholm, Sweden, asked a playful question.",
+        "contextMeaning": "Here, \"experiment\" means a test to learn what happens",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "experimentation": {
     "word": "experimentation",
     "definition": "Trying new things to learn or make better",
@@ -60731,7 +60935,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -60828,6 +61033,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Bach's Music Is Famous for Structure One of the most important words for Bach is structure.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "In 2009, a famous public experiment in Stockholm, Sweden, asked a playful question.",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -66208,7 +66420,8 @@
       "episode-2026-05-12-b1-practical-workplace-english-conversation-lesson-using-ai",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -66242,6 +66455,13 @@
       {
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Some people sit quietly and follow their breathing.",
+        "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "They follow the comfortable path.",
         "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -73789,7 +74009,8 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -73833,6 +74054,13 @@
         "contextMeaning": "Here, \"habit\" means a usual action you do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "What This Teaches About Habits A habit is not only a personal decision.",
+        "contextMeaning": "Here, \"habit\" means something you do often, sometimes without thinking",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -73848,7 +74076,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -73863,6 +74092,13 @@
         "sentence": "internship - short work experience for a student corporate group - connected companies under a larger business infrastructure - basic systems that society uses every day customer service - helping customers with questions or problems work culture - the normal habits and values inside a workplace transferable skill - a skill useful in many jobs decarbonization - reducing carbon emissions renewable energy - energy from sources such as sun or wind warning sign - a signal that something may be wrong",
         "contextMeaning": "Here, \"habits\" means usual things people do often",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "What This Teaches About Habits A habit is not only a personal decision.",
+        "contextMeaning": "Here, \"habits\" means habit means something you do often, sometimes without thinking",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -78307,7 +78543,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -78348,6 +78585,13 @@
       {
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Part 6: Honest Limits It is important to be honest about what we do not know.",
+        "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Fun Is Powerful, but It Is Not Magic The piano stairs are inspiring, but they also raise honest questions.",
         "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -78596,6 +78840,29 @@
         "sentence": "The brass, like trumpets and horns, can sound strong, noble, or dramatic.",
         "contextMeaning": "Here, \"horns\" means a brass instrument that can sound strong or dramatic",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "hospital": {
+    "word": "hospital",
+    "definition": "A place where doctors treat sick people",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Would the idea work in a quiet hospital, a busy airport, or a school?",
+        "contextMeaning": "Here, \"hospital\" means a place where doctors treat sick people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -84214,7 +84481,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -84241,6 +84509,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "This makes Bach very interesting.",
+        "contextMeaning": "Here, \"interesting\" means making you want to know more",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "For example, a tired commuter who planned to stand on the escalator might take ten musical steps because the first step feels interesting.",
         "contextMeaning": "Here, \"interesting\" means making you want to know more",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -89857,7 +90132,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -89898,6 +90174,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Restrictions can stop your plan completely if you learn about them too late.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary commuter - a person who travels regularly to work or school staircase - a set of stairs inside or outside a building escalator - moving stairs that carry people up or down habit - something you do often, sometimes without thinking behavior - the way a person acts playful - fun, light, and not too serious experiment - a test to learn what happens measure - to check the size, amount, or result of something carefully - slowly and with attention bother - to make someone feel a little uncomfortable or disturbed",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -100062,7 +100345,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -100070,6 +100354,13 @@
         "sentence": "The test should measure reactions to the brand story, kawara products, coffee or matcha, charcoal latte, retail goods, and Japanese design.",
         "contextMeaning": "Here, \"measure\" means to check how people like the products and ideas",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "What would you change, and how would you measure it?",
+        "contextMeaning": "Here, \"measure\" means to check the size, amount, or result of something",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -103290,7 +103581,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-the-history-of-tea",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -103380,6 +103672,13 @@
       {
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "You can talk about a band, a song, a sound, a mood, a live show, and a favorite moment.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "The Moment People Noticed The piano stairs were not a long lecture about health.",
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -106031,7 +106330,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -106045,6 +106345,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It came from discipline, daily work, faith, family responsibility, and deep musical intelligence.",
         "contextMeaning": "Here, \"musical\" means deep knowledge about sounds and songs",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "When people stepped on a stair, it made a musical note.",
+        "contextMeaning": "Here, \"musical\" means a note sound made when stepping on a stair",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -119227,7 +119534,8 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -119254,6 +119562,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "A short B1 explainer about how Sanrio and Hello Kitty use simple character design to make everyday products feel personal.",
+        "contextMeaning": "Here, \"personal\" means about one person or private life",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "What This Teaches About Habits A habit is not only a personal decision.",
         "contextMeaning": "Here, \"personal\" means about one person or private life",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -121359,7 +121674,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -121409,6 +121725,13 @@
         "sentence": "Some like playful characters.",
         "contextMeaning": "Here, \"playful\" means some people like characters that seem fun and happy",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "In 2009, a famous public experiment in Stockholm, Sweden, asked a playful question.",
+        "contextMeaning": "Here, \"playful\" means fun, light, and not too serious",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -126912,12 +127235,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment"
+      "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
         "sentence": "Imagine that an AI assistant creates a summary of a project.",
+        "contextMeaning": "Here, \"project\" means a piece of planned work",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "A Small Change with a Big Result The project reported that 66 percent more people chose the stairs after they became piano keys.",
         "contextMeaning": "Here, \"project\" means a piece of planned work",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -129116,7 +129447,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -129255,6 +129587,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "In the Japanese tea ceremony, the host prepares tea for guests in a quiet and respectful way.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Would the idea work in a quiet hospital, a busy airport, or a school?",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -135950,7 +136289,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -135986,6 +136326,13 @@
         "sentence": "But for many users, the real result felt limited.",
         "contextMeaning": "Here, \"result\" means the thing that came from using the system",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "A Small Change with a Big Result The project reported that 66 percent more people chose the stairs after they became piano keys.",
+        "contextMeaning": "Here, \"result\" means what happens in the end",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -138961,7 +139308,8 @@
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-asking-for-directions-in-a-station"
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -138988,6 +139336,13 @@
       {
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary station - a place where trains or buses stop ticket gate - the gate people pass through with a ticket platform - the place where people get on a train exit - the way out of a place information desk - a place where workers answer questions train line - a group of trains on one route go straight - walk forward turn left - move to the left side upstairs - on a higher floor downstairs - on a lower floor",
+        "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "People were still going to work, school, or home, but for a few seconds their normal route felt surprising.",
         "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -139981,7 +140336,8 @@
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -140092,6 +140448,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Workers keep the area clean and safe.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "A good public design must also be safe, fair, easy to maintain, and respectful of different people.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -150750,7 +151113,8 @@
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -150805,6 +151169,13 @@
       {
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "This is a useful story for English: a small band can slowly become a big band.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary commuter - a person who travels regularly to work or school staircase - a set of stairs inside or outside a building escalator - moving stairs that carry people up or down habit - something you do often, sometimes without thinking behavior - the way a person acts playful - fun, light, and not too serious experiment - a test to learn what happens measure - to check the size, amount, or result of something carefully - slowly and with attention bother - to make someone feel a little uncomfortable or disturbed",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -156422,6 +156793,52 @@
       }
     ]
   },
+  "stair": {
+    "word": "stair",
+    "definition": "One step to walk on",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "When people stepped on a stair, it made a musical note.",
+        "contextMeaning": "Here, \"stair\" means one step that makes a music sound when stepped on",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "staircase": {
+    "word": "staircase",
+    "definition": "A set of stairs inside or outside a building",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "At Odenplan station, a staircase was changed into large black and white piano keys.",
+        "contextMeaning": "Here, \"staircase\" means a set of stairs inside or outside a building",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "stairs": {
     "word": "stairs",
     "definition": "Steps you walk up or down",
@@ -156434,7 +156851,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -156448,6 +156866,13 @@
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "The stairs to Platform 2 are on your left.",
         "contextMeaning": "Here, \"stairs\" means steps you use to go to Platform 2",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Warm-up: When you see stairs next to an escalator, which one do you usually choose?",
+        "contextMeaning": "Here, \"stairs\" means steps next to an escalator to choose from",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -157384,7 +157809,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -157432,6 +157858,13 @@
       {
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "People can give an address, a hotel name, or a station name.",
+        "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "A Normal Choice in a Train Station In many train stations, people face a small choice: take the stairs or take the escalator.",
         "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -157487,7 +157920,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-transportation-risa-docx-trial"
+      "episode-2026-05-14-transportation-risa-docx-trial",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -157495,6 +157929,13 @@
         "sentence": "Stations are busy, signs are sometimes difficult, and people may speak quickly.",
         "contextMeaning": "Here, \"stations\" means busy places where people get on or off transport",
         "source": "lexical_support_regenerator/material_surface",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "A Normal Choice in a Train Station In many train stations, people face a small choice: take the stairs or take the escalator.",
+        "contextMeaning": "Here, \"stations\" means a place where trains or buses stop",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -161307,7 +161748,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -161362,6 +161804,13 @@
       {
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "You can say, \"This song helps me study,\" or \"This song helps me walk fast.\" 6.",
+        "contextMeaning": "Here, \"study\" means to spend time learning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Maybe a study timer could show a growing plant.",
         "contextMeaning": "Here, \"study\" means to spend time learning",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -163449,7 +163898,8 @@
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -163469,6 +163919,13 @@
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "In his music, the beat may feel uneven, sharp, or surprising.",
+        "contextMeaning": "Here, \"surprising\" means not expected",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "People were still going to work, school, or home, but for a few seconds their normal route felt surprising.",
         "contextMeaning": "Here, \"surprising\" means not expected",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -166182,7 +166639,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -166195,6 +166653,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "His job was not only to \"be creative.\" He had to compose, teach, rehearse musicians, play the organ, and prepare music for religious services.",
+        "contextMeaning": "Here, \"teach\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Should public places try to teach people, guide people, or simply help people choose?",
         "contextMeaning": "Here, \"teach\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -166276,7 +166741,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -166289,6 +166755,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This teaches an important lesson: memes do not always keep the same meaning.",
+        "contextMeaning": "Here, \"teaches\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "What This Teaches About Habits A habit is not only a personal decision.",
         "contextMeaning": "Here, \"teaches\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -173334,7 +173807,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -173403,6 +173877,13 @@
       {
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "I want music for my train ride.",
+        "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "A Normal Choice in a Train Station In many train stations, people face a small choice: take the stairs or take the escalator.",
         "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -174432,7 +174913,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-06-10-the-history-of-tea"
+      "episode-2026-06-10-the-history-of-tea",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -174445,6 +174927,13 @@
       {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "Part 3: Tea Travels to Japan Tea came to Japan from China.",
+        "contextMeaning": "Here, \"travels\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary commuter - a person who travels regularly to work or school staircase - a set of stairs inside or outside a building escalator - moving stairs that carry people up or down habit - something you do often, sometimes without thinking behavior - the way a person acts playful - fun, light, and not too serious experiment - a test to learn what happens measure - to check the size, amount, or result of something carefully - slowly and with attention bother - to make someone feel a little uncomfortable or disturbed",
         "contextMeaning": "Here, \"travels\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -178354,7 +178843,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -178633,6 +179123,13 @@
       {
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "This is a useful story for English: a small band can slowly become a big band.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "That number is useful, but the bigger idea is more important.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -182461,7 +182958,8 @@
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -182795,6 +183293,13 @@
       },
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+        "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
