@@ -2559,7 +2559,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi",
@@ -2910,13 +2909,6 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
         "contextMeaning": "Here, \"after\" means take the tablet when you finish eating food",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker may ask, \"For here or takeaway?\" If you want to sit, say, \"For here, please.\" If you want to leave, say, \"Takeaway, please.\" After people choose food, they go to the counter.",
-        "contextMeaning": "Here, \"after\" means when people finish choosing food, then they go",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -11126,7 +11118,6 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
     ],
@@ -11162,13 +11153,6 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A strong bag carries your things.",
-        "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker puts the food in a bag and says the price.",
         "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -11236,8 +11220,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "For Here or Takeaway Some bakeries have small tables.",
-        "contextMeaning": "Here, \"bakeries\" means many people buy bread at a bakery",
+        "sentence": "Do bakeries look different in different countries?",
+        "contextMeaning": "Here, \"bakeries\" means people buy bread and pastries at a bakery",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -11249,7 +11233,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "A bakery makes or sells baked food.",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -11267,8 +11251,8 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Ordering at a Bakery 1.",
-        "contextMeaning": "Here, \"bakery\" means many people buy bread at a bakery",
+        "sentence": "A bakery makes or sells baked food.",
+        "contextMeaning": "Here, \"bakery\" means people buy bread and pastries at a bakery",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -13844,7 +13828,6 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-09-working-at-a-winery",
@@ -14270,13 +14253,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "What should Kazuto ask himself before reacting?",
         "contextMeaning": "Here, \"before\" means what Kazuto should ask himself earlier",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Some people buy breakfast before work.",
-        "contextMeaning": "Here, \"before\" means people get breakfast earlier than going to work",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -18437,8 +18413,7 @@
     "episodes": [
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
-      "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-03-shopping-at-a-supermarket"
     ],
     "contexts": [
       {
@@ -18460,13 +18435,6 @@
         "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
         "contextMeaning": "Here, \"breakfast\" means the morning meal",
         "source": "manual_supermarket_original_paragraph_support",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Some people buy breakfast before work.",
-        "contextMeaning": "Here, \"breakfast\" means the first meal of the day",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -20226,7 +20194,6 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
@@ -20247,13 +20214,6 @@
         "sentence": "Best Buy, a large American electronics store, lowered the price of Metroid Prime 4: Beyond to $39.99 for the physical Nintendo Switch version.",
         "contextMeaning": "Here, \"buy\" means fans wondered if they should get the game by giving money for it",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Many people buy bread at a bakery.",
-        "contextMeaning": "Here, \"buy\" means people get bread by paying money at the bakery",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
       {
@@ -20692,7 +20652,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
+        "sentence": "Many bakeries sell bread, rolls, cakes, sandwiches, and pastries.",
         "contextMeaning": "Here, \"cakes\" means a sweet baked food",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -21939,7 +21899,6 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi",
@@ -21971,13 +21930,6 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The class has a chocolate cake, paper cups, a music speaker, and a card with many short messages.",
         "contextMeaning": "Here, \"card\" means paper with many short messages for the teacher",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "People can pay by cash, card, or phone.",
-        "contextMeaning": "Here, \"card\" means a way to pay money without cash",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -22888,7 +22840,6 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-for-clothes"
     ],
@@ -22912,13 +22863,6 @@
         "sentence": "At the checkout, people pay with cash, cards, or phones. Workers usually put the food in bags carefully. Some people bring their own bags from home.",
         "contextMeaning": "Here, \"cash\" means paper money and coins",
         "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "People can pay by cash, card, or phone.",
-        "contextMeaning": "Here, \"cash\" means money you hold and give to pay",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
       {
@@ -24374,7 +24318,6 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi",
@@ -24684,13 +24627,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "It can change how we live.",
         "contextMeaning": "Here, \"change\" means it can make how we live different",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Then change the food or payment method.",
-        "contextMeaning": "Here, \"change\" means make the food or way to pay different",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -26581,8 +26517,7 @@
     "episodes": [
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
     ],
     "contexts": [
       {
@@ -26604,13 +26539,6 @@
         "sentence": "Karaage is Japanese fried chicken.",
         "contextMeaning": "Here, \"chicken\" means karaage is Japanese fried chicken",
         "source": "codex_manual_snack_bar_rebuild",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "We have egg sandwiches and chicken sandwiches.",
-        "contextMeaning": "Here, \"chicken\" means meat from a bird used in sandwiches",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -27318,7 +27246,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "They choose one or two things.",
+        "sentence": "A bakery can be a quick stop, but it can also be a quiet place to choose something special.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -32255,7 +32183,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
+        "sentence": "Final Reflection Bakeries are common, but they are not the same everywhere.",
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -36664,7 +36592,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -36826,13 +36753,6 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "Paying and Safety Useful Phrases Conversation Role Play At the drugstore Role-play Final Reflection Drugstore English should be clear and safe.",
         "contextMeaning": "Here, \"conversation\" means talking with someone using useful phrases at the drugstore",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Paying at the Counter Useful Phrases Simple Explanation Conversation Role Play At the bakery Role-play Final Reflection Bakery English can be very short.",
-        "contextMeaning": "Here, \"conversation\" means talking between people in the bakery practice activity",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -38148,7 +38068,7 @@
     "cefrLevel": "A2",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "Customers often pick up a tray, choose bread or pastries, and take the tray to the counter.",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -38201,8 +38121,8 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Paying at the Counter After people choose food, they go to the counter.",
-        "contextMeaning": "Here, \"counter\" means people pay at the counter",
+        "sentence": "Customers often pick up a tray, choose bread or pastries, and take the tray to the counter.",
+        "contextMeaning": "Here, \"counter\" means people take the tray to the counter",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       },
@@ -41319,7 +41239,8 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -41339,6 +41260,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "Some is dark and serious.",
+        "contextMeaning": "Here, \"dark\" means with little or no light",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "In Germany, people may choose dark bread or pretzels.",
         "contextMeaning": "Here, \"dark\" means with little or no light",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -47162,7 +47090,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "People look at the display case, compare prices, and choose one or two things.",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -47172,7 +47100,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "At a bakery, people often look at the display case.",
+        "sentence": "People look at the display case, compare prices, and choose one or two things.",
         "contextMeaning": "Here, \"display case\" means people look at the display case",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -47952,7 +47880,6 @@
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi"
     ],
@@ -47989,13 +47916,6 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "It is eight dollars.",
         "contextMeaning": "Here, \"dollars\" means money amount to pay for the medicine",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "It is two dollars.",
-        "contextMeaning": "Here, \"dollars\" means the money amount the worker says for the food",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -51868,21 +51788,13 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-05-26-the-history-of-gelato"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "These foods were not gelato because they were mostly water, sweet liquid, and flavoring, with less milk-based cream and egg structure.",
         "contextMeaning": "Here, \"egg\" means part of the food that helps hold gelato together, but less in these foods",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "We have egg sandwiches and chicken sandwiches.",
-        "contextMeaning": "Here, \"egg\" means a food inside sandwiches made from bird eggs",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -52347,29 +52259,6 @@
         "sentence": "Today’s story is about OpenAI, Elon Musk, Sam Altman, and a legal case in California.",
         "contextMeaning": "Here, \"elon\" means the first name of a famous person, Elon Musk",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "else": {
-    "word": "else",
-    "definition": "Something more or different",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-ordering-at-a-bakery"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Anything else?",
-        "contextMeaning": "Here, \"else\" means ask if you want something more",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -66882,18 +66771,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
     ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Worker: For here or takeaway?",
-        "contextMeaning": "Here, \"for here\" means some customers choose for here",
-        "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
+    "contexts": []
   },
   "force": {
     "word": "force",
@@ -68120,6 +68000,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-10-the-history-of-tea"
     ],
     "contexts": [
@@ -68154,6 +68035,13 @@
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "Many supermarkets in Japan sell fresh food and ready-made meals.",
+        "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Some bakeries bake early in the morning, so people can buy fresh food before work or school.",
         "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -71010,7 +70898,6 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
@@ -71203,13 +71090,6 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "FINAL SPEAKING: What gives something more value: beauty, usefulness, rarity, or story?",
         "contextMeaning": "Here, \"gives\" means what makes something have more value",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Then the worker gives a receipt.",
-        "contextMeaning": "Here, \"gives\" means the worker puts a paper receipt in your hand",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -71549,7 +71429,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi",
@@ -71605,13 +71484,6 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "They say, \"Go straight,\" \"Turn left,\" \"Go upstairs,\" or \"Go downstairs.\" It is good to repeat the direction before you walk away.",
         "contextMeaning": "Here, \"go\" means workers tell people to move straight or turn left",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker may ask, \"For here or takeaway?\" If you want to sit, say, \"For here, please.\" If you want to leave, say, \"Takeaway, please.\" After people choose food, they go to the counter.",
-        "contextMeaning": "Here, \"go\" means move to the counter after choosing food",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -72154,7 +72026,6 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
@@ -72203,13 +72074,6 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "They say, \"Go straight,\" \"Turn left,\" \"Go upstairs,\" or \"Go downstairs.\" It is good to repeat the direction before you walk away.",
         "contextMeaning": "Here, \"good\" means it is nice to repeat directions before leaving",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Customer: Good morning.",
-        "contextMeaning": "Here, \"good\" means say hello in the morning politely",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -89462,7 +89326,6 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture"
     ],
@@ -89569,13 +89432,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "| Later, I realized...",
         "contextMeaning": "Here, \"later\" means after some time, I understood something new",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Some people buy a small snack for later.",
-        "contextMeaning": "Here, \"later\" means people get a snack to eat after some time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -91937,7 +91793,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
@@ -92023,13 +91878,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "When you look around the room, it feels like you are seeing reality directly.",
         "contextMeaning": "Here, \"like\" means feels as if you are looking at real things",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "What do you like to buy at a bakery?",
-        "contextMeaning": "Here, \"like\" means ask what food you want to buy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -94333,7 +94181,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-working-at-a-winery"
     ],
@@ -94405,13 +94252,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Warm-up: When you look around a room, do you feel that you are seeing reality directly?",
         "contextMeaning": "Here, \"look\" means using your eyes to watch the room around you",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "At a bakery, people often look at the display case.",
-        "contextMeaning": "Here, \"look\" means people use their eyes to see the food in the case",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -94625,7 +94465,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-for-clothes"
     ],
     "contexts": [
@@ -94752,13 +94591,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "The icon looks like a small document.",
         "contextMeaning": "Here, \"looks\" means the icon seems like a small paper file on the screen",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Customer: This roll looks nice.",
-        "contextMeaning": "Here, \"looks\" means say the roll seems nice or good",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -97543,7 +97375,6 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -98002,13 +97833,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "This connects to many deep ideas: simulation, higher dimensions, the brain as a prediction machine, and the observer self.",
         "contextMeaning": "Here, \"many\" means it links to a lot of deep ideas",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Many people buy bread at a bakery.",
-        "contextMeaning": "Here, \"many\" means a lot of people get bread at the bakery",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -101828,7 +101652,6 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
@@ -101864,13 +101687,6 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": ": What common method do Rome, Persia, and China show in their early frozen sweets?",
         "contextMeaning": "Here, \"method\" means the way Rome, Persia, and China made early frozen treats",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Practice the role play again with one new food and one new payment method.",
-        "contextMeaning": "Here, \"method\" means a new way to pay for food in the practice",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -106685,7 +106501,6 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
@@ -106743,13 +106558,6 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "People can say, \"I have a headache\" or \"I have a cough.\" When people do not know the medicine name, they can explain the problem.",
         "contextMeaning": "Here, \"name\" means the word for the medicine that people may not know",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
-        "contextMeaning": "Here, \"name\" means the word for the food they want",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -107308,7 +107116,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi"
     ],
     "contexts": [
@@ -107392,13 +107199,6 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Things are near or far.",
-        "contextMeaning": "Here, \"near\" means not far away",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
         "contextMeaning": "Here, \"near\" means not far away",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -108485,7 +108285,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi",
@@ -108558,13 +108357,6 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "Practice the role play again with one new health problem and one new question.",
         "contextMeaning": "Here, \"new\" means try again with a different health problem and question",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Practice the role play again with one new food and one new payment method.",
-        "contextMeaning": "Here, \"new\" means try one different food and way to pay",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -108964,7 +108756,6 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
@@ -108977,13 +108768,6 @@
         "sentence": "A café may have a nice logo and good music, but if people do not return, the fit is weak.",
         "contextMeaning": "Here, \"nice\" means looks pleasant and attractive",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Customer: This roll looks nice.",
-        "contextMeaning": "Here, \"nice\" means the roll looks good and nice to eat",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
       {
@@ -111478,7 +111262,6 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -111768,13 +111551,6 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "Station workers often use simple directions.",
         "contextMeaning": "Here, \"often\" means workers do simple directions many times",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "At a bakery, people often look at the display case.",
-        "contextMeaning": "Here, \"often\" means people look many times at the food in the bakery",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -112371,7 +112147,6 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -112536,13 +112311,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "We stop thinking, \"My view is the whole truth.\" We begin to think, \"My view is one useful map.\" This helps in arguments, learning, relationships, and emotions.",
         "contextMeaning": "Here, \"one\" means my view is a single useful map",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "They choose one or two things.",
-        "contextMeaning": "Here, \"one\" means they pick a single thing or two things to buy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -116998,7 +116766,6 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -117026,13 +116793,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "5: Why does the passage compare space to a 3D video game world?",
         "contextMeaning": "Here, \"passage\" means the part of text that talks about space and games",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Lesson Goal Read a simple A1 bakery passage.",
-        "contextMeaning": "Here, \"passage\" means a short text about a bakery to read in the lesson",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -117345,7 +117105,7 @@
   },
   "pastries": {
     "word": "pastries",
-    "definition": "Sweet small baked foods",
+    "definition": "A small baked food, often sweet",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -117359,9 +117119,32 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
-        "contextMeaning": "Here, \"pastries\" means different sweet or special breads sold in a bakery",
-        "source": "popup_prebuild_coverage/context_explain",
+        "sentence": "Many bakeries sell bread, rolls, cakes, sandwiches, and pastries.",
+        "contextMeaning": "Here, \"pastries\" means some bakeries sell sweet pastries",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "pastry": {
+    "word": "pastry",
+    "definition": "A small baked food, often sweet",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "Many bakeries sell bread, rolls, cakes, sandwiches, and pastries.",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Many bakeries sell bread, rolls, cakes, sandwiches, and pastries.",
+        "contextMeaning": "Here, \"pastry\" means some bakeries sell sweet pastries",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -117883,7 +117666,6 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -117909,13 +117691,6 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "After people understand the advice, they can pay.",
         "contextMeaning": "Here, \"pay\" means give money after you understand what to do",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "People can pay by cash, card, or phone.",
-        "contextMeaning": "Here, \"pay\" means give money with cash, card, or phone",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -118025,7 +117800,6 @@
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi"
     ],
@@ -118066,13 +117840,6 @@
         "confidence": "trusted"
       },
       {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Paying at the Counter Useful Phrases Simple Explanation Conversation Role Play At the bakery Role-play Final Reflection Bakery English can be very short.",
-        "contextMeaning": "Here, \"paying\" means giving money at the counter in the bakery",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-05-shopping-for-clothes",
         "sentence": "Paying for Clothes Useful Phrases Simple Explanation Conversation Role Play At the store Role-play Final Reflection Clothes-shopping English is everyday English.",
         "contextMeaning": "Here, \"paying\" means giving money to buy clothes",
@@ -118104,7 +117871,6 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi"
     ],
@@ -118141,13 +117907,6 @@
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "The worker can think about settings, payment, or the SIM card.",
         "contextMeaning": "Here, \"payment\" means money part that the worker thinks about for the phone",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Practice the role play again with one new food and one new payment method.",
-        "contextMeaning": "Here, \"payment\" means the way to give money when buying food",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -120111,6 +119870,7 @@
       "episode-2026-05-12-b1-practical-workplace-english-conversation-lesson-using-ai",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
+      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
@@ -120131,6 +119891,13 @@
       {
         "episodeId": "episode-2026-05-31-at-the-clinic-say-what-hurts",
         "sentence": "Practice saying the key phrases aloud.",
+        "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Useful role-play phrases: This one, please.",
         "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -121844,7 +121611,6 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-taking-a-taxi",
@@ -121933,13 +121699,6 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Leo: Please do not say that.",
         "contextMeaning": "Here, \"please\" means leo asks nicely for someone not to say that",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
-        "contextMeaning": "Here, \"please\" means say this word to ask nicely for something",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -122259,7 +122018,6 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-opening-a-business-abroad-b1"
     ],
@@ -122415,13 +122173,6 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Key Point A thing can have practical value, market value, emotional value, and symbolic value.",
         "contextMeaning": "Here, \"point\" means an important idea about different kinds of value",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
-        "contextMeaning": "Here, \"point\" means use your finger to show which food you want",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -125709,7 +125460,6 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi"
@@ -125803,13 +125553,6 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "If many people want it and there is only one original, the price can become much higher.",
         "contextMeaning": "Here, \"price\" means how much money people pay for it",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker puts the food in a bag and says the price.",
-        "contextMeaning": "Here, \"price\" means the money the worker says you must pay",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -128714,8 +128457,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-05-21-a1-supermarket-find-and-pay"
     ],
     "contexts": [
       {
@@ -128729,13 +128471,6 @@
         "episodeId": "episode-2026-05-21-a1-supermarket-find-and-pay",
         "sentence": "She puts it in her basket.",
         "contextMeaning": "Here, \"puts\" means she moves the item into her basket",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker puts the food in a bag and says the price.",
-        "contextMeaning": "Here, \"puts\" means worker puts food inside a bag",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -129444,6 +129179,7 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
@@ -129559,6 +129295,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A quiet street can become famous if a movie was filmed there.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "A bakery can be a quick stop, but it can also be a quiet place to choose something special.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -131428,7 +131171,7 @@
     "cefrLevel": "A2",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "Worker: Thank you. Here is your receipt.",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -131465,7 +131208,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Then the worker gives a receipt.",
+        "sentence": "Worker: Thank you. Here is your receipt.",
         "contextMeaning": "Here, \"receipt\" means the worker gives a receipt",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -138540,7 +138283,6 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -138568,13 +138310,6 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "Paying and Safety Useful Phrases Conversation Role Play At the drugstore Role-play Final Reflection Drugstore English should be clear and safe.",
         "contextMeaning": "Here, \"role\" means the part people act out in a pretend talk at the drugstore",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Paying at the Counter Useful Phrases Simple Explanation Conversation Role Play At the bakery Role-play Final Reflection Bakery English can be very short.",
-        "contextMeaning": "Here, \"role\" means the part someone plays in the bakery practice activity",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -138762,29 +138497,6 @@
       }
     ]
   },
-  "roll": {
-    "word": "roll",
-    "definition": "Small round bread you can eat",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-ordering-at-a-bakery"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Customer: This roll looks nice.",
-        "contextMeaning": "Here, \"roll\" means a small bread the customer likes",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "rolled": {
     "word": "rolled",
     "definition": "Moved by turning over and over",
@@ -138827,29 +138539,6 @@
         "sentence": "This episode is inspired by a recent news-style question many people ask after seeing huge roller coasters online: why do they feel so scary, but still count as safe?",
         "contextMeaning": "Here, \"roller\" means a type of big ride called a roller coaster",
         "source": "episode-supported",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "rolls": {
-    "word": "rolls",
-    "definition": "Small round bread you can eat",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-ordering-at-a-bakery"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
-        "contextMeaning": "Here, \"rolls\" means small breads sold in the bakery",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -141233,29 +140922,6 @@
       }
     ]
   },
-  "sandwich": {
-    "word": "sandwich",
-    "definition": "Bread with food inside",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-ordering-at-a-bakery"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Customer: One egg sandwich, please.",
-        "contextMeaning": "Here, \"sandwich\" means the customer buys an egg sandwich",
-        "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "sandwiches": {
     "word": "sandwiches",
     "definition": "Bread with food inside",
@@ -141267,17 +140933,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store"
     ],
     "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
-        "contextMeaning": "Here, \"sandwiches\" means the customer buys an egg sandwich",
-        "source": "popup_support_router/authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
       {
         "episodeId": "episode-2026-06-05-shopping-at-a-convenience-store",
         "sentence": "Popular foods are rice balls, sandwiches, fried chicken, and bento lunches.",
@@ -141655,7 +141313,6 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
@@ -141714,13 +141371,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "We usually say, \"The apple is red.\" But more carefully, we can say: \"The apple reflects certain light waves, and my brain creates the experience of red.\" Different animals may experience color differently.",
         "contextMeaning": "Here, \"say\" means tell others what color the apple looks like",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
-        "contextMeaning": "Here, \"say\" means speak words to ask or tell something",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -141886,7 +141536,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-12-going-to-a-world-cup-football-match"
@@ -141945,13 +141594,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "You see \"red,\" \"round,\" and \"solid.\" But physics says the apple is made of atoms, forces, light waves, empty space, and energy.",
         "contextMeaning": "Here, \"says\" means physics tells us what the apple is made of",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker puts the food in a bag and says the price.",
-        "contextMeaning": "Here, \"says\" means worker tells the price with words",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -144311,7 +143953,6 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
     ],
     "contexts": [
@@ -144333,13 +143974,6 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "| I would not sell it because it reminds me of...",
         "contextMeaning": "Here, \"sell\" means to give the thing to someone for money",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "A bakery can sell rolls, cakes, sandwiches, and pastries.",
-        "contextMeaning": "Here, \"sell\" means the bakery gives food to people for money",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -146035,8 +145669,7 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-05-21-a1-hotel-check-in",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-05-21-a1-hotel-check-in"
     ],
     "contexts": [
       {
@@ -146057,13 +145690,6 @@
         "episodeId": "episode-2026-05-21-a1-hotel-check-in",
         "sentence": "Breakfast is from seven to ten.\" Sora says, \"From seven to ten.",
         "contextMeaning": "Here, \"seven\" means breakfast time starts at the number seven o’clock",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "That is seven dollars.",
-        "contextMeaning": "Here, \"seven\" means the worker says the price is 7 dollars",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -147573,7 +147199,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour pastry - a small baked food, often sweet display case - a glass place that shows food tray - a flat thing for carrying food tongs - a tool for picking up food takeaway - food you take away from the shop counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -149947,7 +149573,6 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-10-meditation-and-the-social-brain-b1"
     ],
     "contexts": [
@@ -149983,13 +149608,6 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A chair is useful because we can sit on it.",
         "contextMeaning": "Here, \"sit\" means we can put our body on a chair to rest",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker may ask, \"For here or takeaway?\" If you want to sit, say, \"For here, please.\" If you want to leave, say, \"Takeaway, please.\" After people choose food, they go to the counter.",
-        "contextMeaning": "Here, \"sit\" means stay on a chair to eat food inside",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -151972,7 +151590,6 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
@@ -152001,13 +151618,6 @@
         "episodeId": "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
         "sentence": "Order a drink and a small snack, ask about price, and respond when the cafe is busy.",
         "contextMeaning": "Here, \"snack\" means a small food you ask for at the cafe",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Some people buy a small snack for later.",
-        "contextMeaning": "Here, \"snack\" means a small food people buy to eat later",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -153364,7 +152974,6 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -153567,13 +153176,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "This idea is sometimes explained with a computer desktop.",
         "contextMeaning": "Here, \"sometimes\" means the idea is explained with a computer screen at times",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "I sometimes buy a sandwich.",
-        "contextMeaning": "Here, \"sometimes\" means the person buys a sandwich some days, not every day",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -163542,7 +163144,6 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -163567,13 +163168,6 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "When people are not sure, they can ask a station worker.",
         "contextMeaning": "Here, \"sure\" means not feeling certain, so people ask a worker",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Sure.",
-        "contextMeaning": "Here, \"sure\" means worker says yes to help or agree",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -165209,21 +164803,13 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
         "sentence": "There are a few small tables, simple chairs, and quiet music.",
         "contextMeaning": "Here, \"tables\" means small flat furniture where people can sit and put things",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
-        "contextMeaning": "Here, \"tables\" means small places in the bakery to eat food",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -165324,7 +164910,6 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-12-going-to-a-world-cup-football-match"
@@ -165373,13 +164958,6 @@
         "confidence": "trusted"
       },
       {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Customer: I will take one roll too.",
-        "contextMeaning": "Here, \"take\" means the customer wants to have one roll",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "People take a taxi when they need to go somewhere quickly or safely.",
         "contextMeaning": "Here, \"take\" means use a taxi to go somewhere",
@@ -165408,7 +164986,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "Many people choose takeaway, but some bakeries also have a small seating area.",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -165418,7 +164996,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "For Here or Takeaway Some bakeries have small tables.",
+        "sentence": "Many people choose takeaway, but some bakeries also have a small seating area.",
         "contextMeaning": "Here, \"takeaway\" means the customer chooses takeaway",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -168376,7 +167954,6 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-taking-a-taxi"
     ],
@@ -168469,13 +168046,6 @@
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "Thank you.",
         "contextMeaning": "Here, \"thank\" means say this to be polite",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Thank you.",
-        "contextMeaning": "Here, \"thank\" means the worker says polite words to the customer",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -169135,7 +168705,6 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
@@ -169280,13 +168849,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "It evolved to help living things survive.",
         "contextMeaning": "Here, \"things\" means objects or creatures that live",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "They choose one or two things.",
-        "contextMeaning": "Here, \"things\" means objects they choose to eat or buy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -169940,29 +169502,6 @@
         "sentence": "How would you explain your company in thirty seconds?",
         "contextMeaning": "Here, \"thirty\" means the amount of seconds to explain your company",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "this one": {
-    "word": "this one",
-    "definition": "One thing near me",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-05-ordering-at-a-bakery"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "If they do not know the name, they can point and say, \"This one, please.\" They can also ask, \"How much is this?\" Some bakeries have small tables.",
-        "contextMeaning": "Here, \"this one\" means the customer can point and say this one",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -172427,6 +171966,29 @@
         "sentence": "It could fill a church with sound, from a quiet prayer-like tone to a huge wave of music.",
         "contextMeaning": "Here, \"tone\" means a quiet sound like a soft prayer",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tongs": {
+    "word": "tongs",
+    "definition": "A tool for picking up food",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "In Japan, many bakeries have trays and tongs.",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "In Japan, many bakeries have trays and tongs.",
+        "contextMeaning": "Here, \"tongs\" means customers use tongs to pick up bread",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -174946,12 +174508,13 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "Customers often pick up a tray, choose bread or pastries, and take the tray to the counter.",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-06-05-ordering-at-a-bakery"
     ],
     "contexts": [
       {
@@ -174959,6 +174522,36 @@
         "sentence": "When he hears his number, he checks the tray.",
         "contextMeaning": "Here, \"tray\" means he looks at the flat plate holding his food",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Customers often pick up a tray, choose bread or pastries, and take the tray to the counter.",
+        "contextMeaning": "Here, \"tray\" means customers in Japan often use a tray",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "trays": {
+    "word": "trays",
+    "definition": "A flat thing for carrying food",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-05-ordering-at-a-bakery"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
+        "sentence": "Bakeries in Japan In Japan, many bakeries have trays and tongs.",
+        "contextMeaning": "Here, \"trays\" means customers in Japan often use a tray",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -176586,7 +176179,6 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
@@ -176655,13 +176247,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Imagine Kazuto walks into class and two students laugh.",
         "contextMeaning": "Here, \"two\" means there are exactly 2 students who laugh in the class",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "They choose one or two things.",
-        "contextMeaning": "Here, \"two\" means choose one or two things, not more",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -179031,7 +178616,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour sandwich - bread with food inside display case - a glass place that shows food this one - one thing near me takeaway - food you take away from the shop for here - eat or drink in this place counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
+        "sentence": "Useful role-play phrases: This one, please.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -179525,7 +179110,6 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
@@ -179717,13 +179301,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "We usually say, \"The apple is red.\" But more carefully, we can say: \"The apple reflects certain light waves, and my brain creates the experience of red.\" Different animals may experience color differently.",
         "contextMeaning": "Here, \"usually\" means most times, people say the apple is red",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "I would ask, \"How much is this?\" Do you usually choose for here or takeaway?",
-        "contextMeaning": "Here, \"usually\" means asking if you mostly eat here or take food away",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -183202,7 +182779,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "Warm-Up Questions 1.",
+        "sentence": "Ordering at a Bakery Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -187478,7 +187055,7 @@
       },
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
-        "sentence": "The worker may ask, \"For here or takeaway?\" If you want to sit, say, \"For here, please.\" If you want to leave, say, \"Takeaway, please.\"",
+        "sentence": "Conversation Role Play A customer talks to a bakery worker in the morning.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
