@@ -457,6 +457,29 @@
       }
     ]
   },
+  "accepts": {
+    "word": "accepts",
+    "definition": "Says yes to help or something offered",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Then he misses, listens, tries again, and accepts help.",
+        "contextMeaning": "Here, \"accepts\" means he says yes when someone gives him help",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "access": {
     "word": "access",
     "definition": "A way to use or get something",
@@ -959,13 +982,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Instead, it may show us a useful interface that helps us survive, act, and question our first impressions.",
         "contextMeaning": "Here, \"act\" means helping us do things after we see the world",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Follow the story scenes, answer simple questions, and then act the gym role play with a partner.",
+        "contextMeaning": "Here, \"act\" means pretend in the gym story with a friend",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -1343,7 +1374,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -1399,6 +1431,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "They may align in behavior, body rhythms, hormones, or brain activity.",
         "contextMeaning": "Here, \"activity\" means the work or actions happening in the brain",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "2: What new activity is hard for you at first?",
+        "contextMeaning": "Here, \"activity\" means a new thing you do that can be hard first",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -2607,7 +2646,8 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -3013,6 +3053,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "This makes him a very good composer to study after Bach.",
         "contextMeaning": "Here, \"after\" means to study Stravinsky following the study of Bach",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "1: What can a good winner say after a game?",
+        "contextMeaning": "Here, \"after\" means what can a good winner say when the game ends",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -5664,7 +5711,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -5699,6 +5747,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Some people were excited, some were angry, and the theater became extremely noisy.",
         "contextMeaning": "Here, \"angry\" means some people were mad at the show",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong is angry.",
+        "contextMeaning": "Here, \"angry\" means feeling mad or upset",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -7772,7 +7827,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -7780,6 +7836,13 @@
         "sentence": "They bite your arms and legs.",
         "contextMeaning": "Here, \"arms\" means the upper limbs of your body that get bitten",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong crosses his arms.",
+        "contextMeaning": "Here, \"arms\" means the parts of your body from shoulder to hand",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -10861,7 +10924,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -10889,6 +10953,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Many people think meditation means sitting alone in silence, far away from other people.",
         "contextMeaning": "Here, \"away\" means not close to other people, at a distance",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong looks away.",
+        "contextMeaning": "Here, \"away\" means to look in a different direction",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -11131,7 +11202,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -11187,6 +11259,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "When they come back, fans may feel excited again.",
         "contextMeaning": "Here, \"back\" means when the band returns, fans feel happy again",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The rope hits his back.",
+        "contextMeaning": "Here, \"back\" means the rope touches the part behind his body",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -11345,7 +11424,8 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -11366,6 +11446,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A bad story can make it feel dirty, frightening, or disturbing.",
         "contextMeaning": "Here, \"bad\" means a story that makes the object feel scary or dirty",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When he loses, he says, \"The floor is bad,\" or \"The ball is strange.\"",
+        "contextMeaning": "Here, \"bad\" means he says the floor or ball is not good",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -11427,7 +11514,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -11475,6 +11563,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Do you own anything with a character on it, such as a bag, notebook, or phone case?",
+        "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Every day, he carries his racket bag like a champion.",
         "contextMeaning": "Here, \"bag\" means a soft container for carrying things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -11727,6 +11822,29 @@
         "sentence": "Good architecture balances openness with psychological comfort.",
         "contextMeaning": "Here, \"balances\" means keeps openness and comfort equal",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ball": {
+    "word": "ball",
+    "definition": "A round thing you play with",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When he loses, he says, \"The floor is bad,\" or \"The ball is strange.\"",
+        "contextMeaning": "Here, \"ball\" means the round thing he thinks is strange when he loses",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -12631,7 +12749,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2"
+      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -12639,6 +12758,13 @@
         "sentence": "Quiet money habits often beat dramatic decisions.",
         "contextMeaning": "Here, \"beat\" means works better than big bold choices",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Listen to the beat.\"",
+        "contextMeaning": "Here, \"beat\" means listen to the strong sound that repeats",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -15786,7 +15912,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -15828,6 +15955,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "A fan may buy a ticket, go with friends, sing quietly, clap, and talk about the best song after the show.",
         "contextMeaning": "Here, \"best\" means the song that is liked the most",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He says, \"Timing is my best friend.\"",
+        "contextMeaning": "Here, \"best\" means he says timing is his most good friend",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -16328,7 +16462,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -16419,6 +16554,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "For him, the orchestra was not just a big group of instruments.",
         "contextMeaning": "Here, \"big\" means a large group of many music things playing together",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "But one day, the class uses a big jump rope.",
+        "contextMeaning": "Here, \"big\" means the class uses a large jump rope",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -19318,13 +19460,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Some people sit quietly and follow their breathing.",
         "contextMeaning": "Here, \"breathing\" means watching or following how air moves in and out",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "I help myself by breathing slowly.",
+        "contextMeaning": "Here, \"breathing\" means i help myself by taking air in and out slowly",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -22016,7 +22166,8 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -22058,6 +22209,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The goal is to practice English for small problems: asking calmly, explaining what happened, saying sorry, and making a better plan.",
         "contextMeaning": "Here, \"calmly\" means asking questions in a quiet and nice way",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "I want to practice speaking more calmly.",
+        "contextMeaning": "Here, \"calmly\" means i want to speak in a quiet and slow way",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -23477,7 +23635,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -23513,6 +23672,13 @@
         "sentence": "A mass-produced object can still feel warm when it carries a familiar character.",
         "contextMeaning": "Here, \"carries\" means the object has a familiar character on it",
         "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Every day, he carries his racket bag like a champion.",
+        "contextMeaning": "Here, \"carries\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -25058,6 +25224,29 @@
       }
     ]
   },
+  "champion": {
+    "word": "champion",
+    "definition": "A very good winner",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He likes to win, and he talks like a champion.",
+        "contextMeaning": "Here, \"champion\" means a very good winner",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "championship": {
     "word": "championship",
     "definition": "A big contest to find the best winner",
@@ -25256,7 +25445,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-17-checking-in-at-a-hotel",
-      "episode-2026-06-17-getting-a-haircut"
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -25641,6 +25831,13 @@
         "episodeId": "episode-2026-06-17-getting-a-haircut",
         "sentence": "If it is good, they can say, \"That looks good.\" If not, they can ask for one small change.",
         "contextMeaning": "Here, \"change\" means to ask for one small thing to be different or fixed",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Then change one detail.",
+        "contextMeaning": "Here, \"change\" means make one small thing different",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -28188,7 +28385,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -28320,6 +28518,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "When you see stairs next to an escalator, which one do you usually choose?",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When you see the role play, choose two roles and act it with a partner.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -29007,7 +29212,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -29021,6 +29227,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "A fan may buy a ticket, go with friends, sing quietly, clap, and talk about the best song after the show.",
         "contextMeaning": "Here, \"clap\" means fans hit hands to show they like the song",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The students clap and count.",
+        "contextMeaning": "Here, \"clap\" means the students hit their hands to make noise",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -30898,7 +31111,8 @@
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -30933,6 +31147,13 @@
         "episodeId": "episode-2026-05-17-the-silk-road-more-than-a-road-2",
         "sentence": ": Do you think trade usually brings people closer together?",
         "contextMeaning": "Here, \"closer\" means people near each other because of trade",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Haru walks closer.",
+        "contextMeaning": "Here, \"closer\" means haru moves near to something or someone",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -32722,7 +32943,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -32855,6 +33077,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "The Firebird comes from Russian fairy-tale material.",
         "contextMeaning": "Here, \"comes\" means the music is made from Russian fairy-tale stories",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Haru: Here it comes.",
+        "contextMeaning": "Here, \"comes\" means haru says it is arriving now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -33122,7 +33351,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -33136,6 +33366,13 @@
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "She says, \"Can you deliver it tomorrow morning?\" The worker says, \"Tomorrow between nine and twelve.\" Lina asks, \"Can the driver call me before coming?\" This is the practical part.",
         "contextMeaning": "Here, \"coming\" means before the driver arrives at her home",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "A champion is coming.\"",
+        "contextMeaning": "Here, \"coming\" means a winner or very good person will be here soon",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -39410,7 +39647,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-29-how-animation-creates-movement-why-drawings-seem-alive",
-      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why"
+      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -39424,6 +39662,13 @@
         "episodeId": "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
         "sentence": "This episode is inspired by a recent news-style question many people ask after seeing huge roller coasters online: why do they feel so scary, but still count as safe?",
         "contextMeaning": "Here, \"count\" means roller coasters are said to be safe even if scary",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The students clap and count.",
+        "contextMeaning": "Here, \"count\" means the students say numbers one after another",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -40924,6 +41169,29 @@
       }
     ]
   },
+  "crosses": {
+    "word": "crosses",
+    "definition": "Put one thing over another in an X shape",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong crosses his arms.",
+        "contextMeaning": "Here, \"crosses\" means put one thing over another in an X shape",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "crossing": {
     "word": "crossing",
     "definition": "Going from one side to the other, like over water",
@@ -42405,7 +42673,8 @@
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -42433,6 +42702,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "The dancing also felt strange and heavy compared with elegant traditional ballet.",
         "contextMeaning": "Here, \"dancing\" means the way people moved in the ballet",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Dancing is hard for me.",
+        "contextMeaning": "Here, \"dancing\" means moving to music is difficult for me",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -42941,7 +43217,8 @@
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -43018,6 +43295,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "A happy song helps me start the day.",
         "contextMeaning": "Here, \"day\" means the time in the morning when you start",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "But one day, the class uses a big jump rope.",
+        "contextMeaning": "Here, \"day\" means a special time when the class uses a big jump rope",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -46247,7 +46531,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -46316,6 +46601,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary Baroque period - a European art and music period known for detail, movement, and rich design composer - a person who writes music organist - a musician who plays the organ church musician - a musician who prepares or performs music for religious services cantata - a musical work for singers and instruments, often connected to church music Thomaskantor - Bach's Leipzig role as a leader of church music and school music counterpoint - two or more melodies moving at the same time while fitting together instrumental music - music written mainly for instruments, not singing legacy - the lasting influence someone leaves after their life structure - the careful way parts are organized into a whole",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Then change one detail.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -47167,7 +47459,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -47377,6 +47670,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "This helps us understand why his music can feel difficult to place.",
         "contextMeaning": "Here, \"difficult\" means his music can be hard to understand where it fits",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong is proud, funny, and sometimes difficult.",
+        "contextMeaning": "Here, \"difficult\" means not easy to do or understand",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -51872,7 +52172,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -52089,6 +52390,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "They can talk, help each other, and make a plan.",
         "contextMeaning": "Here, \"each\" means help the other person in the group, not just yourself",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Read each scene first.",
+        "contextMeaning": "Here, \"each\" means read every scene one by one before doing anything else",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -52491,7 +52799,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -52652,6 +52961,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Agreements may make trade easier or cheaper.",
         "contextMeaning": "Here, \"easier\" means trade is not hard to do with agreements",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The story teaches a simple lesson: a new thing can feel scary, but practice and help make it easier.",
+        "contextMeaning": "Here, \"easier\" means practice and help make the new thing less hard",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -52826,7 +53142,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -52951,6 +53268,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "The stairs are healthy, but the escalator is easy.",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Is it easy to try a new thing in front of people?",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -57609,7 +57933,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -57931,6 +58256,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "You do not need to remember every full name at first.",
         "contextMeaning": "Here, \"every\" means all full names, no need to remember all now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Every day, he carries his racket bag like a champion.",
+        "contextMeaning": "Here, \"every\" means each day he carries his bag like a winner",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -59278,7 +59610,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -59348,6 +59681,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Some people were excited, some were angry, and the theater became extremely noisy.",
         "contextMeaning": "Here, \"excited\" means some people were very happy about the show",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Some students are excited.",
+        "contextMeaning": "Here, \"excited\" means some students feel very happy and ready",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -61962,7 +62302,8 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -61990,6 +62331,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "In simple terms, her face does not force one emotion.",
         "contextMeaning": "Here, \"face\" means hello Kitty's front head part that shows feelings",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong's face is red.",
+        "contextMeaning": "Here, \"face\" means the front part of your head",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -62882,7 +63230,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -62993,6 +63342,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "In 2009, a famous public experiment in Stockholm, Sweden, asked a playful question.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Scene 1: A Very Proud Student Mr. Ping Pong is famous at school.",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -63335,6 +63691,7 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
@@ -63447,6 +63804,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Some songs are fast and bright.",
         "contextMeaning": "Here, \"fast\" means songs that have a quick speed",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He wants to jump in, but the rope looks fast.",
+        "contextMeaning": "Here, \"fast\" means the rope moves quickly and looks hard to jump",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -65006,6 +65370,29 @@
         "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
         "sentence": "These costs can be hotel food, a broken item, or other small fees.",
         "contextMeaning": "Here, \"fees\" means small extra costs you pay at the hotel",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "feet": {
+    "word": "feet",
+    "definition": "The parts of the body under your legs",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "His feet move a little.",
+        "contextMeaning": "Here, \"feet\" means the parts under his legs move a little",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -66957,7 +67344,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -67300,6 +67688,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Understand Igor Stravinsky's life, major works, musical style, and legacy, then practice explaining how modern art can feel shocking at first but important later in clear B1-B2 English.",
         "contextMeaning": "Here, \"first\" means modern art can feel strange at the start",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong learns that a new thing can be hard at first.",
+        "contextMeaning": "Here, \"first\" means at the beginning, the new thing is not easy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -68076,7 +68471,8 @@
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -68132,6 +68528,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Notice your feet on the floor.",
         "contextMeaning": "Here, \"floor\" means the flat ground under your feet in the room",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When he loses, he says, \"The floor is bad,\" or \"The ball is strange.\"",
+        "contextMeaning": "Here, \"floor\" means the ground he thinks is bad when he loses",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -68970,6 +69373,29 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "This does not mean the person is foolish.",
         "contextMeaning": "Here, \"foolish\" means not smart or silly person in this sentence",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "foot": {
+    "word": "foot",
+    "definition": "The part of your body at the bottom of your leg",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The rope hits his foot and stops.",
+        "contextMeaning": "Here, \"foot\" means the rope hits the bottom part of his leg",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -70425,7 +70851,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -70453,6 +70880,13 @@
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
         "sentence": "It will arrive on Friday.",
         "contextMeaning": "Here, \"friday\" means the package will come on the day called Friday",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "On Friday, the class goes to the gym.",
+        "contextMeaning": "Here, \"friday\" means the class goes to the gym on this day",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -70877,7 +71311,8 @@
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-17-getting-a-haircut"
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -70905,6 +71340,13 @@
         "episodeId": "episode-2026-06-17-getting-a-haircut",
         "sentence": "Customer: Can you cut the front a little too?",
         "contextMeaning": "Here, \"front\" means the hair at the front of the head",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Is it easy to try a new thing in front of people?",
+        "contextMeaning": "Here, \"front\" means in a place where other people watch you",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71312,7 +71754,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -71347,6 +71790,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "The songs can sound fun, but they can also feel deep.",
         "contextMeaning": "Here, \"fun\" means the songs can make you feel happy and playful",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "This is hard, but it is fun.",
+        "contextMeaning": "Here, \"fun\" means it is hard but also makes you happy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -71541,7 +71991,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -71611,6 +72062,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Some like relaxed or funny characters.",
         "contextMeaning": "Here, \"funny\" means characters that make people laugh or feel happy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Read a funny A1 story about trying something new.",
+        "contextMeaning": "Here, \"funny\" means the story makes you laugh about trying new things",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -74191,7 +74649,8 @@
     "episodes": [
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -74212,6 +74671,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "A character on a purse, pencil case, or lunch box goes to school, work, shops, and friends' homes.",
         "contextMeaning": "Here, \"goes\" means the character travels with people to many places",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "On Friday, the class goes to the gym.",
+        "contextMeaning": "Here, \"goes\" means the class moves to the gym on Friday",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -74429,7 +74895,8 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -74527,6 +74994,36 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "This makes him a very good composer to study after Bach.",
         "contextMeaning": "Here, \"good\" means he is a nice and useful composer to study",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong is good at table tennis.",
+        "contextMeaning": "Here, \"good\" means doing something well or better than others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "good try mr ping": {
+    "word": "good try mr ping",
+    "definition": "A nice way to say someone did their best",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Phrases Talk About It Scene 5: One Good Try Mr. Ping Pong says quietly, \"One more try.\"",
+        "contextMeaning": "Here, \"good try mr ping\" means a nice way to say someone did their best",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -76308,6 +76805,29 @@
       }
     ]
   },
+  "gym": {
+    "word": "gym",
+    "definition": "A room for sport at school",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Scene 2: The Big Rope On Friday, the class goes to the gym.",
+        "contextMeaning": "Here, \"gym\" means the class goes to the gym",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "habit": {
     "word": "habit",
     "definition": "Something you do again and again",
@@ -77329,7 +77849,8 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "2026-06-01-a2-practical-grammar-check",
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -77443,6 +77964,13 @@
         "contextMeaning": "Here, \"happens\" means when something takes place in a place",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "3: What happens when Mr. Ping Pong tries two times?",
+        "contextMeaning": "Here, \"happens\" means what goes on when Mr",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -77527,7 +78055,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -77590,6 +78119,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "You can talk about the sound without using hard music words.",
         "contextMeaning": "Here, \"hard\" means music words that are difficult to understand",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong learns that a new thing can be hard at first.",
+        "contextMeaning": "Here, \"hard\" means the new thing is not easy to do at the start",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -80542,6 +81078,52 @@
       }
     ]
   },
+  "hit": {
+    "word": "hit",
+    "definition": "To touch something with force",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "I can jump and hit.",
+        "contextMeaning": "Here, \"hit\" means i can jump and touch something hard",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "hits": {
+    "word": "hits",
+    "definition": "To touch something with force",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The rope hits his foot and stops.",
+        "contextMeaning": "Here, \"hits\" means the rope touches his foot hard",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "hobbies": {
     "word": "hobbies",
     "definition": "Fun things people do for free time",
@@ -80632,7 +81214,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-17-checking-in-at-a-hotel"
+      "episode-2026-06-17-checking-in-at-a-hotel",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -80646,6 +81229,13 @@
         "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
         "sentence": "The hotel may hold money, but it may not charge you now.",
         "contextMeaning": "Here, \"hold\" means the hotel keeps your money for now",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Two students hold the rope and turn it slowly.",
+        "contextMeaning": "Here, \"hold\" means two students keep the rope with their hands",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -87915,7 +88505,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -88202,6 +88793,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Introduction Many people dream of taking their business to another country.",
         "contextMeaning": "Here, \"introduction\" means the first part that talks about people wanting to start business abroad",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Introduction This is a short school story.",
+        "contextMeaning": "Here, \"introduction\" means this is the first part that tells about the story",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89894,6 +90492,21 @@
       }
     ]
   },
+  "jump rope": {
+    "word": "jump rope",
+    "definition": "A rope people jump over",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": []
+  },
   "jumps": {
     "word": "jumps",
     "definition": "Moves up quickly into the air",
@@ -89906,7 +90519,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -89920,6 +90534,13 @@
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "Everyone jumps and shouts.",
         "contextMeaning": "Here, \"jumps\" means moves up and shouts",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Then he jumps.",
+        "contextMeaning": "Here, \"jumps\" means he pushes up and goes over the rope",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -92583,7 +93204,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -92634,6 +93256,13 @@
         "contextMeaning": "Here, \"laugh\" means two students make happy sounds when Kazuto comes in",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Some students laugh.",
+        "contextMeaning": "Here, \"laugh\" means some students make happy sounds because they are happy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -92680,7 +93309,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -92694,6 +93324,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Then Mina starts the music, Leo brings the cake, and the class shouts, \"Surprise!\" The teacher laughs and almost drops her bag.",
         "contextMeaning": "Here, \"laughs\" means the teacher makes happy sounds because she is surprised",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong laughs.",
+        "contextMeaning": "Here, \"laughs\" means makes a happy sound with the mouth",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -93564,7 +94201,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -93577,6 +94215,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "A strong thinker learns to pause and ask: \"Is this reality, or is this my brain's quick interpretation?\" This is extremely useful.",
+        "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong learns that a new thing can be hard at first.",
         "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -95133,7 +95778,8 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -95282,6 +95928,13 @@
         "contextMeaning": "Here, \"like\" means how music might feel or seem with energy and surprise",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He likes to win, and he talks like a champion.",
+        "contextMeaning": "Here, \"like\" means he enjoys winning and talks like a champion",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -95329,7 +95982,8 @@
     "episodes": [
       "episode-2026-04-29-how-animation-creates-movement-why-drawings-seem-alive",
       "episode-2026-05-07-puppet-sunsun-2",
-      "episode-2026-05-21-what-is-gintama"
+      "episode-2026-05-21-what-is-gintama",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -95350,6 +96004,13 @@
         "episodeId": "episode-2026-05-21-what-is-gintama",
         "sentence": "He likes sweets, manga, and doing nothing.",
         "contextMeaning": "Here, \"likes\" means he enjoys eating sweets and reading manga",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He likes to win, and he talks like a champion.",
+        "contextMeaning": "Here, \"likes\" means he enjoys winning and talks like a champion",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -95654,7 +96315,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-asking-for-directions-in-a-station"
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -95710,6 +96372,13 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "People see signs for the ticket gate, platforms, exits, and train lines.",
         "contextMeaning": "Here, \"lines\" means different train routes people find at the station",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Read the lines.",
+        "contextMeaning": "Here, \"lines\" means read the rows of words on the paper",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -96264,7 +96933,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-17-getting-a-haircut"
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -96404,6 +97074,13 @@
         "episodeId": "episode-2026-06-17-getting-a-haircut",
         "sentence": "People can say, \"Just a trim, please\" or \"A little shorter, please.\" During the haircut, the stylist may show the mirror.",
         "contextMeaning": "Here, \"little\" means a small amount shorter hair",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "His feet move a little.",
+        "contextMeaning": "Here, \"little\" means his feet move just a small bit",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -97561,7 +98238,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -97645,6 +98323,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They look for dry leaves, broken signs, or things that need care.",
         "contextMeaning": "Here, \"look\" means try to find dry leaves or broken signs",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He is scared to look weak.",
+        "contextMeaning": "Here, \"look\" means he is afraid to show he is not strong",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -97854,7 +98539,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-17-getting-a-haircut"
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -98003,6 +98689,13 @@
         "contextMeaning": "Here, \"looks\" means how the haircut seems or appears to the person",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "A quiet student named Haru looks at him.",
+        "contextMeaning": "Here, \"looks\" means a quiet student uses eyes to see him",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -98135,7 +98828,8 @@
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-21-a2-report-a-lost-item"
+      "episode-2026-05-21-a2-report-a-lost-item",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -98156,6 +98850,13 @@
         "episodeId": "episode-2026-05-21-a2-report-a-lost-item",
         "sentence": "In this lesson, Maya loses her phone at a station.",
         "contextMeaning": "Here, \"loses\" means maya does not have her phone at the station",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When he loses, he says, \"The floor is bad,\" or \"The ball is strange.\"",
+        "contextMeaning": "Here, \"loses\" means he does not win in the game or activity",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -98404,7 +99105,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-bank-card-problem",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -98418,6 +99120,13 @@
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "I cheer loudly.",
         "contextMeaning": "Here, \"loudly\" means i make a big noise when I cheer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "This time, he does not talk loudly.",
+        "contextMeaning": "Here, \"loudly\" means this time, he does not talk in a strong voice",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -98497,7 +99206,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -98511,6 +99221,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The lights are low.",
         "contextMeaning": "Here, \"low\" means the brightness of the lights is small",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He says, \"The rope is too low.\"",
+        "contextMeaning": "Here, \"low\" means he says the rope is close to the ground",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -99818,7 +100535,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -99923,6 +100641,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "He knew how to make an orchestra sound bright, dry, strange, heavy, light, or wild.",
         "contextMeaning": "Here, \"make\" means he knew how to cause music to sound many different ways",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The story teaches a simple lesson: a new thing can feel scary, but practice and help make it easier.",
+        "contextMeaning": "Here, \"make\" means practice and help make new things easier",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -106105,13 +106830,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-train-station-platform-help"
+      "episode-2026-05-21-a1-train-station-platform-help",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-a1-train-station-platform-help",
         "sentence": "She also asks what to do if she misses the train.",
         "contextMeaning": "Here, \"misses\" means she does not get the train before it leaves",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Why is he scared after he misses?",
+        "contextMeaning": "Here, \"misses\" means he is scared after he does not hit or get it right",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -106246,7 +106979,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-asking-for-directions-in-a-station"
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -106309,6 +107043,13 @@
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "They can ask, \"Does this train go to Shibuya?\" A short yes or no answer can stop a mistake.",
         "contextMeaning": "Here, \"mistake\" means doing the wrong thing with the train",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "3: What can people say after a mistake?",
+        "contextMeaning": "Here, \"mistake\" means doing something wrong without meaning to",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -107041,7 +107782,8 @@
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -107145,6 +107887,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "The Moment People Noticed The piano stairs were not a long lecture about health.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary table tennis - a game with a small ball and rackets racket - the thing you hit a ball with champion - a very good winner jump rope - a rope people jump over gym - a room for sport at school timing - doing something at the right moment nervous - worried before doing something miss - not do or hit something correctly rhythm - a beat or regular sound",
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -107815,7 +108564,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -108242,6 +108992,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Have you ever disliked a song, painting, movie, or book at first, but respected it more later?",
         "contextMeaning": "Here, \"more\" means liked or felt respect for something a bigger amount later",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong says quietly, \"One more try.\"",
+        "contextMeaning": "Here, \"more\" means a little extra or again",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -109521,6 +110278,75 @@
       }
     ]
   },
+  "mr": {
+    "word": "mr",
+    "definition": "A polite word for a man’s name",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong is good at table tennis.",
+        "contextMeaning": "Here, \"mr\" means a man called Ping Pong who plays table tennis",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "mr ping": {
+    "word": "mr ping",
+    "definition": "A man's name in the story",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong's face is red.",
+        "contextMeaning": "Here, \"mr ping\" means the man called Mr",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "mr ping pong": {
+    "word": "mr ping pong",
+    "definition": "A name for a man",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong is good at table tennis.",
+        "contextMeaning": "Here, \"mr ping pong\" means a man who is good at table tennis",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "mrs": {
     "word": "mrs",
     "definition": "A word for a woman who is married",
@@ -110411,7 +111237,8 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -110454,6 +111281,13 @@
         "sentence": "A company named Thermacell has introduced Liv 2.",
         "contextMeaning": "Here, \"named\" means called by a certain name in this sentence",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "A quiet student named Haru looks at him.",
+        "contextMeaning": "Here, \"named\" means the quiet student is called Haru",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -110886,7 +111720,8 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -110983,6 +111818,13 @@
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Igor Stravinsky was born in Oranienbaum, Russia, near St. Petersburg, in 1882.",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong stands near the rope.",
         "contextMeaning": "Here, \"near\" means not far away",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -111135,7 +111977,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -111270,6 +112113,13 @@
         "contextMeaning": "Here, \"need\" means must have old ways first before new ways",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "I need help.",
+        "contextMeaning": "Here, \"need\" means i want help because it is important for me",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -111382,7 +112232,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -111585,6 +112436,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "His music came from deadlines, duties, and practical needs.",
         "contextMeaning": "Here, \"needs\" means important things required to make music on time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "What can you say when a friend needs help?",
+        "contextMeaning": "Here, \"needs\" means when a friend wants or must have help from you",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -111826,7 +112684,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -111897,6 +112756,13 @@
         "sentence": "No, they make me nervous.",
         "contextMeaning": "Here, \"nervous\" means they make me feel worried or scared",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Some students are nervous.",
+        "contextMeaning": "Here, \"nervous\" means some students are nervous",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -112103,7 +112969,8 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -112243,6 +113110,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "He died in New York in 1971.",
         "contextMeaning": "Here, \"new\" means part of the name of the city where he died",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Read a funny A1 story about trying something new.",
+        "contextMeaning": "Here, \"new\" means trying something you have not done before in the story",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -115559,7 +116433,8 @@
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -115601,6 +116476,13 @@
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "Both are okay.",
         "contextMeaning": "Here, \"okay\" means both choices are good",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The teacher smiles and says, \"Okay, Mr. Ping Pong.",
+        "contextMeaning": "Here, \"okay\" means the teacher says yes to Mr",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -116037,7 +116919,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -116275,6 +117158,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Today, Stravinsky is seen as one of the most important composers of the 20th century.",
         "contextMeaning": "Here, \"one\" means he is counted as a single important composer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "But one day, the class uses a big jump rope.",
+        "contextMeaning": "Here, \"one\" means a single day, not many days, is talked about here",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -120450,7 +121340,8 @@
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -120478,6 +121369,13 @@
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "The trip gives business clues: what local people noticed, what felt expensive, and what kind of partner might be serious.",
         "contextMeaning": "Here, \"partner\" means a local person who might work seriously with the company",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Follow the story scenes, answer simple questions, and then act the gym role play with a partner.",
+        "contextMeaning": "Here, \"partner\" means the person you act with in the gym role play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -122811,7 +123709,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -122873,6 +123772,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "That made it perfect for a musician who loved structure, depth, and powerful musical design.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Haru says, \"You do not have to be perfect on the first try.\"",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -124048,6 +124954,29 @@
         "sentence": "These phrases are simple, but they are real.",
         "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "phrases talk about it": {
+    "word": "phrases talk about it",
+    "definition": "Short groups of words to say or ask about something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Phrases Talk About It Scene 2: The Big Rope On Friday, the class goes to the gym.",
+        "contextMeaning": "Here, \"phrases talk about it\" means words to use when you want to talk about the story",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -125539,7 +126468,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2"
+      "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -125553,6 +126483,13 @@
         "episodeId": "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
         "sentence": "In the act, Brooks played a man who claimed he was thousands of years old.",
         "contextMeaning": "Here, \"played\" means acted as a man who said he was very old",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He does not like to say, \"You played well.\"",
+        "contextMeaning": "Here, \"played\" means he does not like to say someone did a good game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -125726,13 +126663,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Do you like playing alone or with other people?",
         "contextMeaning": "Here, \"playing\" means doing a game alone or with friends",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Thank you for playing.",
+        "contextMeaning": "Here, \"playing\" means thank you for doing the game or fun activity",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -125827,7 +126772,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -125946,6 +126892,13 @@
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "Friend B: And please save my seat if I go to the restroom.",
         "contextMeaning": "Here, \"please\" means ask kindly to save the seat",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He says, \"Move, please.",
+        "contextMeaning": "Here, \"please\" means used to ask someone nicely to move",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -132048,7 +133001,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -132077,6 +133031,36 @@
         "sentence": "Leo is proud because he carried the cake box from the shop to the school kitchen.",
         "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Scene 1: A Very Proud Student Mr. Ping Pong is famous at school.",
+        "contextMeaning": "Here, \"proud\" means feeling good about yourself or something you did",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "proud student mr ping": {
+    "word": "proud student mr ping",
+    "definition": "A student named Mr",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Warm-Up Questions Scene 1: A Very Proud Student Mr. Ping Pong is famous at school.",
+        "contextMeaning": "Here, \"proud student mr ping\" means a student named Mr",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -133515,7 +134499,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
-      "episode-2026-06-17-getting-a-library-card"
+      "episode-2026-06-17-getting-a-library-card",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -133678,6 +134663,13 @@
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "A quiet student named Haru looks at him.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -133721,7 +134713,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -133770,6 +134763,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "He was not only writing \"pure music\" for people sitting quietly.",
         "contextMeaning": "Here, \"quietly\" means people were sitting without noise to listen",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong says quietly, \"One more try.\"",
+        "contextMeaning": "Here, \"quietly\" means in a soft voice, not loud",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -133839,6 +134839,29 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
         "contextMeaning": "Here, \"racing\" means a sport where players try to go fastest and win",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "racket": {
+    "word": "racket",
+    "definition": "The thing you hit a ball with",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Every day, he carries his racket bag like a champion.",
+        "contextMeaning": "Here, \"racket\" means the thing you hit a ball with",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -134826,7 +135849,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
-      "episode-2026-06-17-checking-in-at-a-hotel"
+      "episode-2026-06-17-checking-in-at-a-hotel",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -134888,6 +135912,13 @@
       {
         "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
         "sentence": "Receptionist: Your room is ready.",
+        "contextMeaning": "Here, \"ready\" means prepared to do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Gym practice: Haru: Are you ready?",
         "contextMeaning": "Here, \"ready\" means prepared to do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -136338,13 +137369,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Red fruit may look bright and noticeable.",
         "contextMeaning": "Here, \"red\" means the bright color of the fruit",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong's face is red.",
+        "contextMeaning": "Here, \"red\" means a color like an apple or fire truck",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -136640,6 +137679,29 @@
         "episodeId": "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
         "sentence": "Example: Her face reflected relief after the long exam finished.",
         "contextMeaning": "Here, \"reflected\" means her face showed she felt relief",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "reflection mr ping pong": {
+    "word": "reflection mr ping pong",
+    "definition": "Think about what happened or how you feel",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Phrases Talk About It Role Play: Try the Big Rope Gym practice Role-play Talk About It Final Reflection Mr. Ping Pong is proud, funny, and sometimes difficult.",
+        "contextMeaning": "Here, \"reflection mr ping pong\" means think about what happened or how you feel",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -141741,7 +142803,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -141769,6 +142832,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Igor Stravinsky: The Composer Who Made Rhythm Feel Dangerous Warm-Up Questions 1.",
         "contextMeaning": "Here, \"rhythm\" means the pattern of beats and movement in music",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "It needs rhythm, timing, practice, and maybe help.\"",
+        "contextMeaning": "Here, \"rhythm\" means the rope has a rhythm",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -142209,7 +143279,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -142419,6 +143490,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "He gave Stravinsky major opportunities at exactly the right moment.",
         "contextMeaning": "Here, \"right\" means the best moment to give chances to Stravinsky",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "In table tennis, he also waits for the right time.",
+        "contextMeaning": "Here, \"right\" means he waits for the good time to play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -143233,7 +144311,8 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -143303,6 +144382,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Useful Phrases Simple Explanation Talk About It Conversation Role Play After class Role-play Change One Detail Use the same roleplay pattern with one new detail.",
         "contextMeaning": "Here, \"role\" means the part you act in the conversation practice",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Follow the story scenes, answer simple questions, and then act the gym role play with a partner.",
+        "contextMeaning": "Here, \"role\" means the part you act in the gym role play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -143408,7 +144494,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -143436,6 +144523,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Read and perform a fun A2+ story with two roles, clear emotions, apologies, problem-solving language, and a happy ending.",
         "contextMeaning": "Here, \"roles\" means the parts that people act as in the story",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When you see the role play, choose two roles and act it with a partner.",
+        "contextMeaning": "Here, \"roles\" means two parts to choose and act with a friend",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -143744,6 +144838,29 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Greek hero stories grew from several roots.",
         "contextMeaning": "Here, \"roots\" means the beginnings or sources of Greek hero stories",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rope": {
+    "word": "rope",
+    "definition": "A long, thick string you can jump over",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "But one day, the class uses a big jump rope.",
+        "contextMeaning": "Here, \"rope\" means a big jump rope used by the class",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -144244,7 +145361,8 @@
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -144265,6 +145383,13 @@
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "You may worry about sounding rude, weak, or confused.",
         "contextMeaning": "Here, \"rude\" means sound not polite when you talk",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Some students think he is rude.",
+        "contextMeaning": "Here, \"rude\" means some students think he is not nice",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -144540,7 +145665,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -144554,6 +145680,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Mina runs back to the classroom.",
         "contextMeaning": "Here, \"runs\" means mina moves quickly back to the learning room",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong runs out of the rope.",
+        "contextMeaning": "Here, \"runs\" means moves fast with your legs",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -144594,7 +145727,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -144608,6 +145742,13 @@
         "episodeId": "episode-2026-05-08-gap-selling-sales-logic-explainer",
         "sentence": "A seller in Gap Selling does not rush here.",
         "contextMeaning": "Here, \"rush\" means the seller does not hurry or move too fast here",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Haru: Do not rush.",
+        "contextMeaning": "Here, \"rush\" means haru says do not do it too fast",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -146398,7 +147539,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -146519,6 +147661,13 @@
         "contextMeaning": "Here, \"say\" means you can use these words to talk about the band",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "What can you say when a friend needs help?",
+        "contextMeaning": "Here, \"say\" means what words do you speak when a friend needs help",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -146614,7 +147763,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -146691,6 +147841,13 @@
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "My ticket says Gate B, Row 12, Seat 8.",
         "contextMeaning": "Here, \"says\" means the ticket shows the place to sit",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He says, \"Move, please.",
+        "contextMeaning": "Here, \"says\" means he speaks the words 'Move, please' to someone",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -146827,6 +147984,29 @@
       }
     ]
   },
+  "scared": {
+    "word": "scared",
+    "definition": "Feeling afraid or not safe",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He is scared too.",
+        "contextMeaning": "Here, \"scared\" means he feels afraid too",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "scarf": {
     "word": "scarf",
     "definition": "A warm cloth for your neck",
@@ -146865,7 +148045,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -146900,6 +148081,13 @@
         "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
         "sentence": "This kind of change can feel scary.",
         "contextMeaning": "Here, \"scary\" means this kind of change can make you feel afraid",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The story teaches a simple lesson: a new thing can feel scary, but practice and help make it easier.",
+        "contextMeaning": "Here, \"scary\" means a new thing can make you feel afraid at first",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -146942,7 +148130,8 @@
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -146970,6 +148159,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "It can make a scene feel grand, romantic, dangerous, mysterious, or tragic.",
         "contextMeaning": "Here, \"scene\" means a part of a movie that music can change how it feels",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Read each scene first.",
+        "contextMeaning": "Here, \"scene\" means a part of the story to read first",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -148567,7 +149763,8 @@
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -148651,6 +149848,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "People could see him leading an orchestra, speaking about music, and presenting himself as an authority on his own work.",
         "contextMeaning": "Here, \"see\" means to watch him lead music and talk about it",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When you see the role play, choose two roles and act it with a partner.",
+        "contextMeaning": "Here, \"see\" means when you look at the role play, then choose parts",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -156223,7 +157427,8 @@
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -156285,6 +157490,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary commuter - a person who travels regularly to work or school staircase - a set of stairs inside or outside a building escalator - moving stairs that carry people up or down habit - something you do often, sometimes without thinking behavior - the way a person acts playful - fun, light, and not too serious experiment - a test to learn what happens measure - to check the size, amount, or result of something carefully - slowly and with attention bother - to make someone feel a little uncomfortable or disturbed",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Two students hold the rope and turn it slowly.",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -156902,7 +158114,8 @@
     "episodes": [
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -156923,6 +158136,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "He smiles, but Mina does not smile back.",
         "contextMeaning": "Here, \"smiles\" means he makes a happy face, but Mina does not",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When he wins, he smiles.",
+        "contextMeaning": "Here, \"smiles\" means he makes a happy face when he wins",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -157540,7 +158760,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -157582,6 +158803,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "At the same time, her name and setting give her a soft international feeling.",
         "contextMeaning": "Here, \"soft\" means a gentle and kind feeling from her name and place",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Then Haru throws a soft table tennis ball.",
+        "contextMeaning": "Here, \"soft\" means the ball is gentle and not hard",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -157660,7 +158888,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -157668,6 +158897,13 @@
         "sentence": "The visitor sees one guest reading, another speaking softly, and someone near the window taking a slow photo of a grape dessert.",
         "contextMeaning": "Here, \"softly\" means speaking in a quiet, gentle voice",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Throw it softly, please.",
+        "contextMeaning": "Here, \"softly\" means throw the ball gently, not hard",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -158472,7 +159708,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -158724,6 +159961,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Sometimes a new idea first feels ugly, strange, or too difficult.",
         "contextMeaning": "Here, \"sometimes\" means new ideas can feel strange or hard at first",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong is proud, funny, and sometimes difficult.",
+        "contextMeaning": "Here, \"sometimes\" means not all the time, only now and then",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -160120,7 +161364,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-playing-video-games",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -160477,6 +161722,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "People could see him leading an orchestra, speaking about music, and presenting himself as an authority on his own work.",
         "contextMeaning": "Here, \"speaking\" means talking about music to other people",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Speaking Practice Questions 1.",
+        "contextMeaning": "Here, \"speaking\" means practice saying words out loud",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -162381,13 +163633,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
         "sentence": "Outside, the street feels ordinary, but the building stands out.",
         "contextMeaning": "Here, \"stands\" means the building is easy to see and different from others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong stands near the rope.",
+        "contextMeaning": "Here, \"stands\" means is on your feet, not sitting or lying",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -163831,7 +165091,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -163901,6 +165162,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Stravinsky can feel like a modern stage suddenly full of movement, sharp light, and unexpected steps.",
         "contextMeaning": "Here, \"steps\" means moves on stage that are not expected",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong steps in.",
+        "contextMeaning": "Here, \"steps\" means moves one foot after the other",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -164792,7 +166060,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -164869,6 +166138,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "It stops a founder from choosing only by feeling.",
         "contextMeaning": "Here, \"stops\" means prevents the founder from picking only by feelings",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The rope hits his foot and stops.",
+        "contextMeaning": "Here, \"stops\" means the rope does not move after touching his foot",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -165618,7 +166894,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -165716,6 +166993,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Warm-up: When you hear classical music, do you imagine something calm, dramatic, strange, or powerful?",
         "contextMeaning": "Here, \"strange\" means a feeling that music is different or unusual",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When he loses, he says, \"The floor is bad,\" or \"The ball is strange.\"",
+        "contextMeaning": "Here, \"strange\" means the ball is different and not like before",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -166960,6 +168244,29 @@
       }
     ]
   },
+  "student mr ping pong": {
+    "word": "student mr ping pong",
+    "definition": "A boy who learns at school named Mr",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Warm-Up Questions Scene 1: A Very Proud Student Mr. Ping Pong is famous at school.",
+        "contextMeaning": "Here, \"student mr ping pong\" means a boy who learns at school named Mr",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "students": {
     "word": "students",
     "definition": "Children or people who learn",
@@ -167231,7 +168538,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -167245,6 +168553,13 @@
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "For many adults, Skibidi Toilet may feel confusing or stupid.",
         "contextMeaning": "Here, \"stupid\" means something that grown-ups think is silly or not smart",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He says, \"This rope is stupid.",
+        "contextMeaning": "Here, \"stupid\" means he thinks the rope is silly or not good",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -170662,6 +171977,21 @@
       }
     ]
   },
+  "table tennis": {
+    "word": "table tennis",
+    "definition": "A game with a small ball and rackets",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": []
+  },
   "tables": {
     "word": "tables",
     "definition": "Flat furniture to put things on",
@@ -171488,7 +172818,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -171502,6 +172833,13 @@
         "episodeId": "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
         "sentence": "The worker says, \"That is six fifty.\" Leo asks, \"Can I pay by card?\" The worker says, \"Yes.\" Leo taps his card.",
         "contextMeaning": "Here, \"taps\" means leo touches his card to pay money",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong jumps and taps the ball back with his racket.",
+        "contextMeaning": "Here, \"taps\" means hits something gently with your hand or tool",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -172131,7 +173469,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -172182,6 +173521,13 @@
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The teacher has a very long jump rope.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -172198,7 +173544,8 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -172218,6 +173565,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "What This Teaches About Habits A habit is not only a personal decision.",
+        "contextMeaning": "Here, \"teaches\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The story teaches a simple lesson: a new thing can feel scary, but practice and help make it easier.",
         "contextMeaning": "Here, \"teaches\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -172809,7 +174163,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -172830,6 +174185,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Friend B: Then listen to one song today and tell me your favorite line or sound.",
         "contextMeaning": "Here, \"tell\" means to say your favorite part of the song",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Tell me when.",
+        "contextMeaning": "Here, \"tell\" means say to me the time or moment",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -172878,7 +174240,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -172948,6 +174311,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "My friend tells me about songs.",
         "contextMeaning": "Here, \"tells\" means my friend talks to me about songs",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "4: The teacher tells him to watch the rope and listen to the beat.",
+        "contextMeaning": "Here, \"tells\" means the teacher says to watch and listen carefully",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -173912,7 +175282,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-17-getting-a-haircut"
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -174024,6 +175395,13 @@
         "episodeId": "episode-2026-06-17-getting-a-haircut",
         "sentence": "Customer: Thank you.",
         "contextMeaning": "Here, \"thank\" means the customer says thank you to be polite",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong: Thank you.",
+        "contextMeaning": "Here, \"thank\" means say you are grateful",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -174166,6 +175544,29 @@
         "sentence": "Sergei Diaghilev, the leader of the Ballets Russes, was looking for fresh music for Russian-themed ballets in Paris.",
         "contextMeaning": "Here, \"the ballets russes\" means a Russian ballet company in Paris",
         "source": "manual_popup_name_polish_v1",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "the beat haru": {
+    "word": "the beat haru",
+    "definition": "The rhythm or sound connected to Haru",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Phrases Talk About It Scene 4: Listen to the Beat Haru walks closer.",
+        "contextMeaning": "Here, \"the beat haru\" means the story part where Haru and the rhythm are talked about",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -174433,6 +175834,29 @@
       }
     ]
   },
+  "then haru": {
+    "word": "then haru",
+    "definition": "After that, Haru does something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Then Haru throws a soft table tennis ball.",
+        "contextMeaning": "Here, \"then haru\" means after that, Haru throws the ball",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "theory": {
     "word": "theory",
     "definition": "An idea about how something could work",
@@ -174673,7 +176097,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -174764,6 +176189,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "One surprising thing about Stravinsky is that he did not keep only one style.",
         "contextMeaning": "Here, \"thing\" means an object or item",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Mr. Ping Pong learns that a new thing can be hard at first.",
+        "contextMeaning": "Here, \"thing\" means a new activity or idea that Mr",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -175036,7 +176468,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -175330,6 +176763,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Do you think rhythm can change the feeling of music as much as melody can?",
         "contextMeaning": "Here, \"think\" means ask if you believe rhythm can change music feelings",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Some students think he is rude.",
+        "contextMeaning": "Here, \"think\" means some students have the idea he is not nice",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -176456,6 +177896,52 @@
       }
     ]
   },
+  "throw": {
+    "word": "throw",
+    "definition": "Put something in the air with your hand",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Throw it softly, please.",
+        "contextMeaning": "Here, \"throw\" means put the ball in the air with your hand gently",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "throws": {
+    "word": "throws",
+    "definition": "Puts something in the air with your hand",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Then Haru throws a soft table tennis ball.",
+        "contextMeaning": "Here, \"throws\" means haru puts the soft ball in the air with his hand",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "thursday": {
     "word": "thursday",
     "definition": "A day of the week after Wednesday",
@@ -177128,7 +178614,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -177164,6 +178651,13 @@
         "sentence": "Timing, platform design, audience, emotion, and repeatability all matter.",
         "contextMeaning": "Here, \"timing\" means choosing the best time to share memes",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Haru says, \"Big jump rope needs timing too.\"",
+        "contextMeaning": "Here, \"timing\" means the rope needs timing",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -177322,7 +178816,8 @@
       "episode-2026-05-21-a1-hotel-check-in",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -177406,6 +178901,13 @@
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "I am tired.",
         "contextMeaning": "Here, \"tired\" means i feel I need to rest",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He is tired, but he smiles.",
+        "contextMeaning": "Here, \"tired\" means he feels he needs rest but still smiles",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -181267,7 +182769,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -181323,6 +182826,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Sometimes it tries to wake the audience up.",
         "contextMeaning": "Here, \"tries\" means to do something to make people feel awake and alert",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He tries again.",
+        "contextMeaning": "Here, \"tries\" means he does it again to see if he can succeed",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -181949,7 +183459,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -182014,6 +183525,13 @@
         "contextMeaning": "Here, \"try\" means to do something to make people feel calm",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Is it easy to try a new thing in front of people?",
+        "contextMeaning": "Here, \"try\" means to do a new thing in front of people to check if easy",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -182062,7 +183580,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -182148,6 +183667,13 @@
         "contextMeaning": "Here, \"trying\" means working hard to not follow the rules",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Read a funny A1 story about trying something new.",
+        "contextMeaning": "Here, \"trying\" means doing something to see if you can do it in the story",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -182165,7 +183691,8 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -182193,6 +183720,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "The brain may turn deep information into a world of objects and distances because that is the easiest way for us to act.",
         "contextMeaning": "Here, \"turn\" means the brain changes deep information into objects and distances",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Two students hold the rope and turn it slowly.",
+        "contextMeaning": "Here, \"turn\" means two students move the rope around slowly",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -182286,7 +183820,8 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -182335,6 +183870,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "It helps you act: \"Pick it up,\" \"Eat it,\" or \"Avoid it if it is rotten.\" The brain turns complex reality into usable objects.",
         "contextMeaning": "Here, \"turns\" means the brain changes real things into things we can use",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "The rope turns.",
+        "contextMeaning": "Here, \"turns\" means the rope moves around in a circle",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -182584,7 +184126,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -182689,6 +184232,36 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Two friends talk after school about Mrs.",
         "contextMeaning": "Here, \"two\" means there are two friends talking",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When you see the role play, choose two roles and act it with a partner.",
+        "contextMeaning": "Here, \"two\" means pick two parts to act with a friend",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "two misses": {
+    "word": "two misses",
+    "definition": "Not hitting or getting right two times",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Phrases Talk About It Scene 3: Two Misses The teacher smiles and says, \"Okay, Mr. Ping Pong.",
+        "contextMeaning": "Here, \"two misses\" means the teacher talks about two times when someone did not get it right",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -184978,7 +186551,8 @@
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -185274,6 +186848,36 @@
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Speaking Patterns Useful Topic Vocabulary table tennis - a game with a small ball and rackets racket - the thing you hit a ball with champion - a very good winner jump rope - a rope people jump over gym - a room for sport at school timing - doing something at the right moment nervous - worried before doing something miss - not do or hit something correctly rhythm - a beat or regular sound",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "useful phrases talk about": {
+    "word": "useful phrases talk about",
+    "definition": "Helpful short words to say about something",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Useful Phrases Talk About It Scene 2: The Big Rope On Friday, the class goes to the gym.",
+        "contextMeaning": "Here, \"useful phrases talk about\" means helpful words to use when talking about the story",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -185484,7 +187088,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -185498,6 +187103,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "This lesson uses current trade-research ideas from public export and trade sources.",
         "contextMeaning": "Here, \"uses\" means the lesson takes ideas and works with them",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "But one day, the class uses a big jump rope.",
+        "contextMeaning": "Here, \"uses\" means the class does something with the big jump rope",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -188533,7 +190145,8 @@
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -188603,6 +190216,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Imagine Kazuto walks into class and two students laugh.",
         "contextMeaning": "Here, \"walks\" means kazuto moves by feet into the classroom",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Haru walks closer.",
+        "contextMeaning": "Here, \"walks\" means haru moves by putting one foot in front of the other",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -189210,7 +190830,8 @@
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
-      "episode-2026-06-17-checking-in-at-a-hotel"
+      "episode-2026-06-17-checking-in-at-a-hotel",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -189559,6 +191180,13 @@
       {
         "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
         "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Warm-Up Questions Scene 1: A Very Proud Student Mr. Ping Pong is famous at school.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -190479,7 +192107,8 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -190499,6 +192128,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
         "sentence": "You may worry about sounding rude, weak, or confused.",
+        "contextMeaning": "Here, \"weak\" means not strong",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He is scared to look weak.",
         "contextMeaning": "Here, \"weak\" means not strong",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -191343,7 +192979,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -191378,6 +193015,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "This connects well with mythology study.",
         "contextMeaning": "Here, \"well\" means joins the idea in a good way with the study",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He does not like to say, \"You played well.\"",
+        "contextMeaning": "Here, \"well\" means he does not like to say someone did a good job",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -192416,13 +194060,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "But if a famous player used it to win an important game, it becomes more than a bat.",
         "contextMeaning": "Here, \"win\" means to get the prize in an important game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "He likes to win, and he talks like a champion.",
+        "contextMeaning": "Here, \"win\" means he wants to be first in the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -192633,7 +194285,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -192647,6 +194300,13 @@
         "episodeId": "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
         "sentence": "Then viewers and music experts help choose the winner.",
         "contextMeaning": "Here, \"winner\" means the person or country chosen as the best in the contest",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "1: What can a good winner say after a game?",
+        "contextMeaning": "Here, \"winner\" means a good person who wins a game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -192694,6 +194354,29 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Some people like winning.",
         "contextMeaning": "Here, \"winning\" means people like being the best in a game or contest",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "wins": {
+    "word": "wins",
+    "definition": "To get first place or be the best",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "When he wins, he smiles.",
+        "contextMeaning": "Here, \"wins\" means he is the best in a game or contest",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -194985,6 +196668,29 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A plain coffee cup may be almost worthless in a shop.",
         "contextMeaning": "Here, \"worthless\" means the cup has almost no money value in a shop",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "wow": {
+    "word": "wow",
+    "definition": "A word to show you are surprised or happy",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+        "sentence": "Everyone says, \"Wow!\"",
+        "contextMeaning": "Here, \"wow\" means everyone says a happy or surprised word",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
