@@ -3072,7 +3072,8 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -3114,6 +3115,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "On Friday afternoon, they are preparing a small surprise party for their teacher.",
         "contextMeaning": "Here, \"afternoon\" means on Friday after lunch, they plan a surprise party",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Receptionist: Good afternoon.",
+        "contextMeaning": "Here, \"afternoon\" means a polite way to say hello after lunch time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -7961,7 +7969,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -8038,6 +8047,13 @@
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "Do you like to arrive early?",
         "contextMeaning": "Here, \"arrive\" means get to the place before time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "When you arrive at a hotel, go to the front desk.",
+        "contextMeaning": "Here, \"arrive\" means when you get to the hotel, go to the front desk",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -18716,7 +18732,8 @@
     "episodes": [
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -18738,6 +18755,36 @@
         "sentence": "Many families go to supermarkets every week. They buy food for breakfast, lunch, and dinner. A supermarket trip can be small, like buying milk and bread. It can also be big, like buying food for the whole week.",
         "contextMeaning": "Here, \"breakfast\" means the morning meal",
         "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Ask about breakfast, Wi-Fi, and check-out time before you go upstairs.",
+        "contextMeaning": "Here, \"breakfast\" means the first meal of the day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "breakfast included": {
+    "word": "breakfast included",
+    "definition": "Breakfast is part of the room price",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-checking-in-at-a-hotel"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Risa: Thank you. Is breakfast included?",
+        "contextMeaning": "Here, \"breakfast included\" means risa asks if breakfast is included",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -19512,7 +19559,8 @@
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -19554,6 +19602,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They look for dry leaves, broken signs, or things that need care.",
         "contextMeaning": "Here, \"broken\" means some signs are not in good shape or are damaged",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "These costs can be hotel food, a broken item, or other small fees.",
+        "contextMeaning": "Here, \"broken\" means something that is not working or is damaged in the hotel",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -24670,6 +24725,7 @@
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
@@ -25034,6 +25090,13 @@
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "Understand how one playful public space experiment used music to change a small daily habit, then practice explaining how design can make better choices feel easier in clear B1 English.",
         "contextMeaning": "Here, \"change\" means make a small daily habit different using music in a public space",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Useful Phrases Talk About It Conversation Role Play At the hotel Role-play Change One Detail Use the same roleplay pattern with one new detail.",
+        "contextMeaning": "Here, \"change\" means to make one new small difference in the role-play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -25788,7 +25851,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -25816,6 +25880,13 @@
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "Useful questions are, \"Do I need a new plan?\", \"Is there an extra charge?\", and \"Can I try the simple fix first?\" The worker changes one setting.",
         "contextMeaning": "Here, \"charge\" means money asked for in addition to the normal price",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "The hotel may hold money, but it may not charge you now.",
+        "contextMeaning": "Here, \"charge\" means the hotel may ask you to pay money now or later",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -26242,7 +26313,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-hotel-check-in"
+      "episode-2026-05-21-a1-hotel-check-in",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -26250,6 +26322,36 @@
         "sentence": "Hotel check-in uses predictable English.",
         "contextMeaning": "Here, \"check-in\" means when you tell the hotel your name to get your room",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "After check-in, the staff gives you a room key or key card.",
+        "contextMeaning": "Here, \"check-in\" means the time when you tell the hotel you have arrived",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "check-out": {
+    "word": "check-out",
+    "definition": "Leave the hotel and finish your stay",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-checking-in-at-a-hotel"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Ask about breakfast, Wi-Fi, and check-out time before you go upstairs.",
+        "contextMeaning": "Here, \"check-out\" means leave the hotel and finish your stay",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -62710,6 +62812,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-phone-problems-english-everyday-help",
+      "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
@@ -62717,6 +62820,13 @@
         "episodeId": "episode-2026-05-14-phone-problems-english-everyday-help",
         "sentence": "an error.",
         "contextMeaning": "Here, \"fee\" means a small amount of money Mika must pay using the app",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Some hotels also have an extra fee, so it is good to ask one clear question.",
+        "contextMeaning": "Here, \"fee\" means extra money you pay at the hotel",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -63572,13 +63682,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-how-to-buy-a-home-in-japan-as"
+      "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
         "sentence": "Buyers may also pay agent fees, bank fees, and document fees.",
         "contextMeaning": "Here, \"fees\" means money paid to agents, banks, and for papers",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "These costs can be hotel food, a broken item, or other small fees.",
+        "contextMeaning": "Here, \"fees\" means small extra costs you pay at the hotel",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -69380,6 +69498,29 @@
       }
     ]
   },
+  "front desk": {
+    "word": "front desk",
+    "definition": "The place where hotel staff help guests",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-checking-in-at-a-hotel"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "When you arrive at a hotel, go to the front desk.",
+        "contextMeaning": "Here, \"front desk\" means risa talks to the front desk",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "frontier": {
     "word": "frontier",
     "definition": "The edge or new part of something",
@@ -71705,6 +71846,7 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
@@ -71926,6 +72068,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "After check-in, the staff gives you a room key or key card.",
+        "contextMeaning": "Here, \"gives\" means the staff puts a room key in your hand",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-17-getting-a-library-card",
         "sentence": "The visitor fills in a form or gives the information at the desk.",
         "contextMeaning": "Here, \"gives\" means put information to the person at the desk",
@@ -72064,7 +72213,8 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -72085,6 +72235,13 @@
         "episodeId": "episode-2026-05-17-the-silk-road-more-than-a-road-2",
         "sentence": "They also moved horses, glass, carpets, gold, and precious stones from other regions.",
         "contextMeaning": "Here, \"glass\" means one of the items moved from other places by traders",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "The air conditioner is not working.\" If there is broken glass, do not touch it.",
+        "contextMeaning": "Here, \"glass\" means pieces of broken window or bottle you should not touch",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -78897,13 +79054,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "emotionally open: able to hold different feelings for different people",
         "contextMeaning": "Here, \"hold\" means keep coins inside the small purse",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "The hotel may hold money, but it may not charge you now.",
+        "contextMeaning": "Here, \"hold\" means the hotel keeps your money for now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -79825,7 +79990,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -79838,6 +80004,13 @@
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "You can hear classical music in movies, commercials, weddings, hotels, restaurants, anime, figure skating, and ceremonies.",
+        "contextMeaning": "Here, \"hotels\" means a place where travelers stay and sleep",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Do you usually stay in hotels when you travel?",
         "contextMeaning": "Here, \"hotels\" means a place where travelers stay and sleep",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -79925,6 +80098,29 @@
         "sentence": "This kind of old Japanese house is called a kominka.",
         "contextMeaning": "Here, \"house\" means an old Japanese building that people used to live in",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "housekeeping": {
+    "word": "housekeeping",
+    "definition": "Hotel workers who clean rooms",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-checking-in-at-a-hotel"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Ask for housekeeping.",
+        "contextMeaning": "Here, \"housekeeping\" means housekeeping can help with broken glass",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -86761,7 +86957,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -86838,6 +87035,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Founder comparison box: For Country A and Country B, score each item from 1 to 5.",
         "contextMeaning": "Here, \"item\" means one thing to give a number to",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "These costs can be hotel food, a broken item, or other small fees.",
+        "contextMeaning": "Here, \"item\" means a thing that can cause a cost at the hotel",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -87042,7 +87246,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -87119,6 +87324,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Now, many people in Japan know their music.",
         "contextMeaning": "Here, \"japan\" means the place where many people know the band",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "In Japan, rooms often have slippers, a toothbrush, and many small things.",
+        "contextMeaning": "Here, \"japan\" means the country where rooms have slippers and small things",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -88432,9 +88644,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-hotel-check-in"
+      "episode-2026-05-21-a1-hotel-check-in",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "It is written on your key card.",
+        "contextMeaning": "Here, \"key card\" means the Wi-Fi password is on the key card",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "key-person": {
     "word": "key-person",
@@ -118272,6 +118493,7 @@
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
       "episode-2026-05-21-a1-hotel-check-in",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
@@ -118290,9 +118512,39 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "The staff may ask for your name, passport, reservation, and card.",
+        "contextMeaning": "Here, \"passport\" means the receptionist asks for Risa's passport",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-17-getting-a-library-card",
         "sentence": "I can show my passport.",
         "contextMeaning": "Here, \"passport\" means an ID you can show to prove who you are",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "password": {
+    "word": "password",
+    "definition": "A secret word to open something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-checking-in-at-a-hotel"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "What is the Wi-Fi password?",
+        "contextMeaning": "Here, \"password\" means the secret word to use the internet here",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -123687,7 +123939,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "2026-06-01-a2-practical-grammar-check",
       "episode-2026-06-05-shopping-at-a-convenience-store",
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -123807,6 +124060,13 @@
         "sentence": "Use polite words.",
         "contextMeaning": "Here, \"polite\" means saying no in a friendly way",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "A short polite request is enough.",
+        "contextMeaning": "Here, \"polite\" means a kind and respectful way to ask for something",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -131807,7 +132067,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-shopping-at-a-convenience-store",
-      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -131862,6 +132123,13 @@
       {
         "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
         "sentence": "The phone is ready before they leave the airport.",
+        "contextMeaning": "Here, \"ready\" means prepared to do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Receptionist: Your room is ready.",
         "contextMeaning": "Here, \"ready\" means prepared to do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -136410,7 +136678,8 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-06-05-sending-a-package-at-the-post-office"
+      "episode-2026-06-05-sending-a-package-at-the-post-office",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -136480,6 +136749,13 @@
         "episodeId": "episode-2026-06-05-sending-a-package-at-the-post-office",
         "sentence": "The customer starts with a short request.",
         "contextMeaning": "Here, \"request\" means a short ask from the customer to start the process",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "A short polite request is enough.",
+        "contextMeaning": "Here, \"request\" means a short and nice way to ask for help",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -150905,7 +151181,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -150919,6 +151196,13 @@
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "As a result, design can make one choice feel simpler or more important than another.",
         "contextMeaning": "Here, \"simpler\" means one choice feels easier or more important than another",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "In some Western hotels, the room may be simpler.",
+        "contextMeaning": "Here, \"simpler\" means the room is less fancy or has fewer things",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -152324,6 +152608,29 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": ": Gelato usually has lower air content and is served slightly warmer, which gives a fuller taste.",
         "contextMeaning": "Here, \"slightly\" means gelato is served a little warmer than normal ice cream",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "slippers": {
+    "word": "slippers",
+    "definition": "Soft shoes to wear inside the house",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-checking-in-at-a-hotel"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "In Japan, rooms often have slippers, a toothbrush, and many small things.",
+        "contextMeaning": "Here, \"slippers\" means soft shoes in the room to wear inside",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -155344,7 +155651,8 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -155385,6 +155693,13 @@
       {
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "Do not just say \"No.\" Say \"Sorry\" or give a small reason.",
+        "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Receptionist: I am sorry about that.",
         "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -169115,7 +169430,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-05-31-why-apps-and-menus-guide-our-choices"
+      "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -169129,6 +169445,13 @@
         "episodeId": "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
         "sentence": "Imagine a menu with ten choices.",
         "contextMeaning": "Here, \"ten\" means a menu with 10 different choices",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Someone will come in about ten minutes.",
+        "contextMeaning": "Here, \"ten\" means about ten minutes means near ten minutes later",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -174251,6 +174574,29 @@
       }
     ]
   },
+  "toothbrush": {
+    "word": "toothbrush",
+    "definition": "A small brush to clean your teeth",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-checking-in-at-a-hotel"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "In Japan, rooms often have slippers, a toothbrush, and many small things.",
+        "contextMeaning": "Here, \"toothbrush\" means a small brush in the room for cleaning teeth",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "top": {
     "word": "top",
     "definition": "Highest part or above something",
@@ -174493,7 +174839,8 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -174521,6 +174868,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "Maybe space is the way the human brain organizes information so we can move, touch, catch, avoid, and survive.",
         "contextMeaning": "Here, \"touch\" means we can feel things by putting our hands on them",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "The air conditioner is not working.\" If there is broken glass, do not touch it.",
+        "contextMeaning": "Here, \"touch\" means do not put your hand on the broken glass",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -176263,7 +176617,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -176339,6 +176694,13 @@
       {
         "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
         "sentence": "Do you use mobile data when you travel?",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Do you usually stay in hotels when you travel?",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -180027,7 +180389,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-asking-for-directions-in-a-station"
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -180035,6 +180398,13 @@
         "sentence": "They say, \"Go straight,\" \"Turn left,\" \"Go upstairs,\" or \"Go downstairs.\" It is good to repeat the direction before you walk away.",
         "contextMeaning": "Here, \"upstairs\" means some platforms are upstairs",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Ask about breakfast, Wi-Fi, and check-out time before you go upstairs.",
+        "contextMeaning": "Here, \"upstairs\" means going to a higher floor in the hotel",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -184449,7 +184819,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -184542,6 +184913,13 @@
         "contextMeaning": "Here, \"warm\" means friendly and comforting",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "Is the room too warm?",
+        "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -184604,7 +184982,8 @@
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -184945,6 +185324,13 @@
       },
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+        "sentence": "Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
         "sentence": "Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
@@ -189365,7 +189751,8 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-17-checking-in-at-a-hotel"
     ],
     "contexts": [
       {
@@ -189428,6 +189815,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "He was also a father, teacher, and working musician with many responsibilities.",
         "contextMeaning": "Here, \"working\" means bach was a musician who did his job and had duties",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-checking-in-at-a-hotel",
+        "sentence": "The air conditioner is not working.\" If there is broken glass, do not touch it.",
+        "contextMeaning": "Here, \"working\" means the air conditioner is not doing its job now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
