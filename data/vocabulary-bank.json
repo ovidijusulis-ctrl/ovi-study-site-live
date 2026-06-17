@@ -1579,7 +1579,8 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -1600,6 +1601,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "What is one small noticing habit you could add to your week?",
         "contextMeaning": "Here, \"add\" means include a small new habit in your week",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "They add detergent and close the door.",
+        "contextMeaning": "Here, \"add\" means put soap inside the machine before closing it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -1683,7 +1691,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -1725,6 +1734,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "People can give an address, a hotel name, or a station name.",
         "contextMeaning": "Here, \"address\" means the passenger shows the address",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The librarian may ask for ID and an address.",
+        "contextMeaning": "Here, \"address\" means the visitor gives an address",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -3829,7 +3845,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -3844,6 +3861,36 @@
         "sentence": "Would the idea work in a quiet hospital, a busy airport, or a school?",
         "contextMeaning": "Here, \"airport\" means a place where planes arrive and leave",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Buying a SIM Card at the Airport Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"airport\" means the phone counter is at the airport",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "airports": {
+    "word": "airports",
+    "definition": "A place where planes arrive and leave",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Phone Help at the Airport Many airports have phone shops or small counters.",
+        "contextMeaning": "Here, \"airports\" means the phone counter is at the airport",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -5217,7 +5264,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -5232,6 +5280,13 @@
         "sentence": "Use some for more than one thing or an amount: some apples, some milk, some snacks.",
         "contextMeaning": "Here, \"amount\" means how much of something there is",
         "source": "codex_deterministic_a1_supermarket_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "It can have a small or big amount of data.",
+        "contextMeaning": "Here, \"amount\" means how much data you get with the plan",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -6639,7 +6694,9 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -6654,6 +6711,20 @@
         "sentence": "You open a website or an app and hope technology can do the hard work.",
         "contextMeaning": "Here, \"app\" means a program you use on your phone or computer",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Please open your map app.",
+        "contextMeaning": "Here, \"app\" means a phone program to see maps",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Some use a card or phone app.",
+        "contextMeaning": "Here, \"app\" means a phone program people use to pay or work machines",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -7068,7 +7139,8 @@
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -7076,6 +7148,13 @@
         "sentence": "The language is practical: location, problem, urgency, access, and appointment time.",
         "contextMeaning": "Here, \"appointment\" means the time set for the repair visit",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Some people make an appointment.",
+        "contextMeaning": "Here, \"appointment\" means the customer has an appointment at three",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -11615,6 +11694,29 @@
       }
     ]
   },
+  "barber": {
+    "word": "barber",
+    "definition": "A person or place for haircuts",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Salon or Barber People get a haircut at a salon or barber.",
+        "contextMeaning": "Here, \"barber\" means some people go to a barber",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "bare": {
     "word": "bare",
     "definition": "Empty, with nothing on it",
@@ -11898,13 +12000,21 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-supermarket-find-and-pay",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-shopping-at-a-supermarket",
         "sentence": "Some people go shopping after work or school. They often use a basket or a shopping cart. A basket is good for a few things. A shopping cart is good for many things.",
         "contextMeaning": "Here, \"basket\" means good for a few things",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "When the clothes are dry, people take them out, fold them, and put them in a basket.",
+        "contextMeaning": "Here, \"basket\" means people put clothes in a basket",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -14918,6 +15028,29 @@
       }
     ]
   },
+  "bell": {
+    "word": "bell",
+    "definition": "A small thing that makes a sound on a bike",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can check the brakes, seat, tires, and bell.",
+        "contextMeaning": "Here, \"bell\" means the part on the bike that makes noise to warn others",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "belong": {
     "word": "belong",
     "definition": "To be part of a group or place",
@@ -16256,7 +16389,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-22-why-does-time-feel-faster-as-we-"
+      "episode-2026-04-22-why-does-time-feel-faster-as-we-",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -16264,6 +16398,59 @@
         "sentence": "The first day at school, the first trip to the sea, the first time riding a bike.",
         "contextMeaning": "Here, \"bike\" means riding a two-wheeled vehicle for the first time",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Renting a Bike for a Short Trip Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"bike\" means people rent a bike for a short trip",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "bike-rental": {
+    "word": "bike-rental",
+    "definition": "Getting a bike to use for some time",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Lesson Goal Read a simple A1 bike-rental article.",
+        "contextMeaning": "Here, \"bike-rental\" means the activity or place where you get a bike to use",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "bike-share station": {
+    "word": "bike-share station",
+    "definition": "A place where people can take or return shared bikes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can rent from a bike shop or a bike-share station.",
+        "contextMeaning": "Here, \"bike-share station\" means some cities have bike-share stations",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -16279,7 +16466,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6"
+      "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -16287,6 +16475,13 @@
         "sentence": "She sees shops, people, bikes, and more red buses.",
         "contextMeaning": "Here, \"bikes\" means two-wheeled vehicles that people ride",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Some bikes must go back to the same shop.",
+        "contextMeaning": "Here, \"bikes\" means people rent a bike for a short trip",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -16543,6 +16738,52 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "Mina: I am not blaming you.",
         "contextMeaning": "Here, \"blaming\" means mina says she is not saying Leo caused the problem",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "blanket": {
+    "word": "blanket",
+    "definition": "A big, warm cover for bed",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "I need to wash a blanket.",
+        "contextMeaning": "Here, \"blanket\" means a big warm cover that needs washing",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "blankets": {
+    "word": "blankets",
+    "definition": "Big, soft cloths to keep you warm in bed",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Some people also use it for big things, like blankets.",
+        "contextMeaning": "Here, \"blankets\" means big things people wash in the laundromat tool",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -17231,7 +17472,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2"
+      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -17239,6 +17481,13 @@
         "sentence": "Some investors borrow to buy assets.",
         "contextMeaning": "Here, \"borrow\" means take money now and pay it back later",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Do you borrow books or read online?",
+        "contextMeaning": "Here, \"borrow\" means the visitor borrows a book",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -17262,6 +17511,52 @@
         "sentence": "A loan is money borrowed from a bank.",
         "contextMeaning": "Here, \"borrowed\" means money taken from the bank to use and pay back",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "borrowing": {
+    "word": "borrowing",
+    "definition": "Take something to use and give back later",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Borrowing a Book After people have a card, they can borrow books.",
+        "contextMeaning": "Here, \"borrowing\" means take books from the library to use and bring back",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "borrows": {
+    "word": "borrows",
+    "definition": "Take and return later",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Conversation Role Play A visitor asks a librarian for a library card and borrows one book.",
+        "contextMeaning": "Here, \"borrows\" means the visitor borrows a book",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -17875,7 +18170,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -17890,6 +18186,13 @@
         "sentence": "A car gives movement, but it also needs brakes.",
         "contextMeaning": "Here, \"brakes\" means the parts a car uses to stop moving",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can check the brakes, seat, tires, and bell.",
+        "contextMeaning": "Here, \"brakes\" means the customer checks the brakes",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -20036,7 +20339,8 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-09-casual-conversation-branches-a2",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -20106,6 +20410,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "His life there was busy and demanding, but it produced some of his greatest music.",
         "contextMeaning": "Here, \"busy\" means his life had many things to do and was active",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "I do not like busy roads.",
+        "contextMeaning": "Here, \"busy\" means roads with many cars or people",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -21902,7 +22213,10 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-getting-a-library-card",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -21959,6 +22273,27 @@
         "sentence": "A cute card or keychain may say, \"I thought of you,\" \"I hope you smile,\" or \"I know what you like.\" Sanrio's characters make that message easier to send.",
         "contextMeaning": "Here, \"card\" means a small paper gift that can show a message",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "I pay by card.",
+        "contextMeaning": "Here, \"card\" means use a plastic thing to pay for the haircut",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "To borrow books, people often need a library card.",
+        "contextMeaning": "Here, \"card\" means a paper or plastic to borrow books from the library",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Some use a card or phone app.",
+        "contextMeaning": "Here, \"card\" means the customer pays by card",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -24004,7 +24339,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -24017,6 +24353,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A chair is useful because we can sit on it.",
+        "contextMeaning": "Here, \"chair\" means a seat for one person",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Saying What You Want At the chair, the stylist asks what the customer wants.",
         "contextMeaning": "Here, \"chair\" means a seat for one person",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24326,7 +24669,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -24690,6 +25034,13 @@
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "Understand how one playful public space experiment used music to change a small daily habit, then practice explaining how design can make better choices feel easier in clear B1 English.",
         "contextMeaning": "Here, \"change\" means make a small daily habit different using music in a public space",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "If it is good, they can say, \"That looks good.\" If not, they can ask for one small change.",
+        "contextMeaning": "Here, \"change\" means to ask for one small thing to be different or fixed",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -25962,7 +26313,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -26088,6 +26440,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "The best research still ends with a human checking official sources and talking to real customers.",
         "contextMeaning": "Here, \"checking\" means looking at real information and people to be sure",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Useful Phrases Talk About It Conversation Role Play At the airport phone counter Role-play Simple Explanation Final Reflection SIM card English is about days, data, setup, and checking before you leave.",
+        "contextMeaning": "Here, \"checking\" means looking at things before you leave",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -29975,7 +30334,8 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-05-shopping-for-clothes"
+      "episode-2026-06-05-shopping-for-clothes",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -30004,6 +30364,13 @@
         "sentence": "Shopping for Clothes 1.",
         "contextMeaning": "Here, \"clothes\" means people buy clothes at stores",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Do you wash clothes at home or outside?",
+        "contextMeaning": "Here, \"clothes\" means things people wear",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -30543,6 +30910,29 @@
         "sentence": "The announcements were scattered across models, Search, Workspace, YouTube, Android, developer tools, and eyewear, but the underlying idea was unusually coherent: Gemini is being positioned as the connective tissue between information, action, creation, and verification.",
         "contextMeaning": "Here, \"coherent\" means the main idea was clear and made sense",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "coins": {
+    "word": "coins",
+    "definition": "A small metal money piece",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Paying and Finishing Some laundromats use coins.",
+        "contextMeaning": "Here, \"coins\" means some laundromats use coins",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -33892,6 +34282,29 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "Do you play on a phone, computer, console, or tablet?",
         "contextMeaning": "Here, \"computer\" means a machine used for digital work",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "computers": {
+    "word": "computers",
+    "definition": "A machine used for digital work",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "People can read books, use computers, study, or join small events.",
+        "contextMeaning": "Here, \"computers\" means a machine used for digital work",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -38081,7 +38494,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -38139,6 +38553,13 @@
         "contextMeaning": "Here, \"counter\" means visitors buy bottles at the counter",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "A traveler buys a SIM card at an airport phone counter.",
+        "contextMeaning": "Here, \"counter\" means place in airport to buy a SIM card",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -38176,13 +38597,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "Some offices have different counters.",
         "contextMeaning": "Here, \"counters\" means different places in the office to give or get things",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Many airports have phone shops or small counters.",
+        "contextMeaning": "Here, \"counters\" means small places in airports to buy phones or SIM cards",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -40465,7 +40894,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2"
+      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -40473,6 +40903,13 @@
         "sentence": "If you own a company, you can change the website, train the team, cut weak services, or raise prices.",
         "contextMeaning": "Here, \"cut\" means stop the weak services",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "I will cut a little.",
+        "contextMeaning": "Here, \"cut\" means to make the hair shorter a little bit",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -40581,6 +41018,29 @@
         "sentence": "In Queensland, roof tiling includes cutting and fixing roof tiles, battens, bedding, pointing, flashing, sarking, skylights, and maintenance.",
         "contextMeaning": "Here, \"cutting\" means making roof tiles smaller or the right shape",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cycle": {
+    "word": "cycle",
+    "definition": "One machine program from start to finish",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Then they choose a cycle.",
+        "contextMeaning": "Here, \"cycle\" means the normal cycle takes thirty minutes",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -41358,6 +41818,29 @@
       }
     ]
   },
+  "data plan": {
+    "word": "data plan",
+    "definition": "A paid amount of phone internet",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Travelers can buy a SIM card or data plan.",
+        "contextMeaning": "Here, \"data plan\" means the worker shows a seven-day data plan",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "dates": {
     "word": "dates",
     "definition": "Days on the calendar",
@@ -41369,13 +41852,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-work-schedule-change"
+      "episode-2026-05-21-a2-work-schedule-change",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-a2-work-schedule-change",
         "sentence": "Clear dates and times are the most important part.",
         "contextMeaning": "Here, \"dates\" means the days when things happen or are planned",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Useful Phrases Talk About It Conversation Role Play At the library desk Role-play Simple Explanation Final Reflection Library English is about cards, ID, borrowing, due dates, and returning books.",
+        "contextMeaning": "Here, \"dates\" means days when books must be returned to the library",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -41544,7 +42035,8 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -41573,6 +42065,13 @@
         "sentence": "John knew hard days.",
         "contextMeaning": "Here, \"days\" means times or periods John experienced in his life",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "A data plan can be for three days, seven days, or one month.",
+        "contextMeaning": "Here, \"days\" means how many days the data plan lasts",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -44377,7 +44876,8 @@
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -44433,6 +44933,13 @@
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "At the information desk, the station staff speaks quickly.",
         "contextMeaning": "Here, \"desk\" means place where people give information at the station",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The visitor fills in a form or gives the information at the desk.",
+        "contextMeaning": "Here, \"desk\" means the table where visitors give information at the library",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -44921,6 +45428,29 @@
         "sentence": "| Too many details can be a problem because...",
         "contextMeaning": "Here, \"details\" means many small parts can cause problems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "detergent": {
+    "word": "detergent",
+    "definition": "Soap for washing clothes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "They add detergent and close the door.",
+        "contextMeaning": "Here, \"detergent\" means people add detergent before the wash",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -47881,7 +48411,9 @@
       "episode-2026-05-21-a1-supermarket-find-and-pay",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -47930,6 +48462,20 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "Driver: That is fifteen dollars.",
         "contextMeaning": "Here, \"dollars\" means the money amount the driver says for the trip",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Stylist: It is twenty dollars.",
+        "contextMeaning": "Here, \"dollars\" means the money amount for the haircut",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "It is six dollars for one hour.",
+        "contextMeaning": "Here, \"dollars\" means the money amount needed to pay for one hour of bike use",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -48841,6 +49387,29 @@
       }
     ]
   },
+  "drawer": {
+    "word": "drawer",
+    "definition": "A box in furniture where you put things inside",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Put it in this small drawer.",
+        "contextMeaning": "Here, \"drawer\" means a small box where the worker wants you to put it",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "drawings": {
     "word": "drawings",
     "definition": "Pictures made by hand with pencil or pen",
@@ -49662,7 +50231,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -49677,6 +50247,59 @@
         "sentence": "They look for dry leaves, broken signs, or things that need care.",
         "contextMeaning": "Here, \"dry\" means leaves have no water and look old or dead",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "The dryer makes clothes warm and dry.",
+        "contextMeaning": "Here, \"dry\" means the dryer makes clothes warm and not wet",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dryer": {
+    "word": "dryer",
+    "definition": "A machine that dries clothes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "After the wash, wet clothes go into the dryer.",
+        "contextMeaning": "Here, \"dryer\" means wet clothes go into the dryer",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dryers": {
+    "word": "dryers",
+    "definition": "A machine that dries clothes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "What a Laundromat Is A laundromat is a place with washing machines and dryers.",
+        "contextMeaning": "Here, \"dryers\" means wet clothes go into the dryer",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -49700,6 +50323,52 @@
         "sentence": "It is a fertilized duck egg, boiled and eaten warm.",
         "contextMeaning": "Here, \"duck\" means to bow",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "due": {
+    "word": "due",
+    "definition": "When something must be finished or given back",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The due date tells people when to return the book.",
+        "contextMeaning": "Here, \"due\" means the date to return the book to the library",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "due date": {
+    "word": "due date",
+    "definition": "The day something must be returned",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The due date tells people when to return the book.",
+        "contextMeaning": "Here, \"due date\" means the book is due in two weeks",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -54225,7 +54894,8 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -54246,6 +54916,13 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Your business does not enter a market alone.",
         "contextMeaning": "Here, \"enter\" means start working in a new market",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Many libraries are free to enter.",
+        "contextMeaning": "Here, \"enter\" means go inside the library without paying money",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -55441,7 +56118,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -55475,6 +56153,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Story value means the meaning an object gets from people, places, or events connected to it.",
+        "contextMeaning": "Here, \"events\" means something planned that happens",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "People can read books, use computers, study, or join small events.",
         "contextMeaning": "Here, \"events\" means something planned that happens",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -57668,7 +58353,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -57759,6 +58445,13 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "Customer: Excuse me.",
         "contextMeaning": "Here, \"excuse\" means say to get attention before asking something",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Customer: Excuse me.",
+        "contextMeaning": "Here, \"excuse\" means a polite way to start talking to someone",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -61270,7 +61963,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -61382,6 +62076,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Some songs are fast and bright.",
         "contextMeaning": "Here, \"fast\" means songs that have a quick speed",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "The customer can ask, \"Is there a bike path?\" or \"Can I ride near the river?\" A safe route is better than a fast route.",
+        "contextMeaning": "Here, \"fast\" means a route where you go quickly, but it may not be safe",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -62008,13 +62709,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-phone-problems-english-everyday-help"
+      "episode-2026-05-14-phone-problems-english-everyday-help",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-14-phone-problems-english-everyday-help",
         "sentence": "an error.",
         "contextMeaning": "Here, \"fee\" means a small amount of money Mika must pay using the app",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "If the book is late, there may be a small fee.",
+        "contextMeaning": "Here, \"fee\" means money you pay if you bring the book back late",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -63862,6 +64571,29 @@
       }
     ]
   },
+  "fills": {
+    "word": "fills",
+    "definition": "Put words or answers on paper",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The visitor fills in a form or gives the information at the desk.",
+        "contextMeaning": "Here, \"fills\" means write answers on a form at the desk",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "filmed": {
     "word": "filmed",
     "definition": "To record a video or movie of something",
@@ -64369,7 +65101,8 @@
       "2026-06-01-a2-practical-grammar-check",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -64448,6 +65181,13 @@
         "contextMeaning": "Here, \"finish\" means stop by making your shoulders feel loose once",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "It is important to lock the bike and finish the payment.",
+        "contextMeaning": "Here, \"finish\" means to complete paying and locking the bike after use",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -64469,7 +65209,8 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -64525,6 +65266,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The mystery is finished.",
         "contextMeaning": "Here, \"finished\" means the mystery is done and there is no more to solve",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "We are finished.",
+        "contextMeaning": "Here, \"finished\" means we are all done with the haircut",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -65412,13 +66160,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "5: Name five topics a founder should research before investing heavily.",
         "contextMeaning": "Here, \"five\" means name five different things a founder should learn about first",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "A traveler can ask, \"Which plan is good for five days?\" The worker may ask for a passport or ID.",
+        "contextMeaning": "Here, \"five\" means a plan that lasts for five days",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -66310,7 +67066,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -66351,6 +67108,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "They follow the comfortable path.",
+        "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Turn left and follow the river path.",
         "contextMeaning": "Here, \"follow\" means to go after or do what comes next",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67215,7 +67979,8 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-12-b1-practical-workplace-english-conversation-lesson-using-ai",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -67237,6 +68002,13 @@
         "sentence": "Have you ever filled in a form in another language?",
         "contextMeaning": "Here, \"form\" means sara fills in an address form",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The visitor fills in a form or gives the information at the desk.",
+        "contextMeaning": "Here, \"form\" means paper you fill out with your name at the desk",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -68574,7 +69346,8 @@
     "episodes": [
       "episode-2026-05-14-phone-problems-english-everyday-help",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -68595,6 +69368,13 @@
         "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
         "sentence": "She is trying something new in front of many people.",
         "contextMeaning": "Here, \"front\" means she tries something new where many people watch",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Customer: Can you cut the front a little too?",
+        "contextMeaning": "Here, \"front\" means the hair at the front of the head",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -70650,6 +71430,29 @@
       }
     ]
   },
+  "gigabytes": {
+    "word": "gigabytes",
+    "definition": "A way to count internet data",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "It has ten gigabytes.",
+        "contextMeaning": "Here, \"gigabytes\" means how much internet data the plan has",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "gintama": {
     "word": "gintama",
     "definition": "A name of a funny and serious story",
@@ -70901,7 +71704,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -71118,6 +71922,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Short sentences are enough: \"They are a Japanese band,\" \"This song is catchy,\" \"It gives me energy,\" and \"I want to see them live.\" Do you like bands with many instruments?",
         "contextMeaning": "Here, \"gives\" means the song brings me energy or makes me feel good",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The visitor fills in a form or gives the information at the desk.",
+        "contextMeaning": "Here, \"gives\" means put information to the person at the desk",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -73990,6 +74801,29 @@
       }
     ]
   },
+  "haircut": {
+    "word": "haircut",
+    "definition": "Cutting hair to make a style",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Getting a Haircut Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"haircut\" means the customer gets a haircut",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "half": {
     "word": "half",
     "definition": "One of two equal parts of something",
@@ -76284,7 +77118,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -76369,6 +77204,36 @@
         "sentence": "Visitor: Hello.",
         "contextMeaning": "Here, \"hello\" means a word visitor says to start talking",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Customer: Hello.",
+        "contextMeaning": "Here, \"hello\" means the customer says a greeting to start talking",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "helmet": {
+    "word": "helmet",
+    "definition": "A hard hat for safety",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can also ask for a helmet if they want one.",
+        "contextMeaning": "Here, \"helmet\" means people can ask for a helmet",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -77460,7 +78325,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -77474,6 +78340,13 @@
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "He could perform, compose, and understand music at a very high level from a young age.",
         "contextMeaning": "Here, \"high\" means very good skill in music from a young age",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Customer: The seat is too high.",
+        "contextMeaning": "Here, \"high\" means the seat is too tall for the person",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -78982,7 +79855,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life"
+      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -78990,6 +79864,13 @@
         "sentence": "A building can save time, reduce stress, or create problems every hour.",
         "contextMeaning": "Here, \"hour\" means each sixty-minute period, a building can save time or cause problems",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Do you want it for one hour or two hours?",
+        "contextMeaning": "Here, \"hour\" means a unit of time equal to sixty minutes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -79866,6 +80747,37 @@
         "sentence": "On a computer screen, you see folders, icons, buttons, and a mouse pointer.",
         "contextMeaning": "Here, \"icons\" means a desktop icon hides deeper computer complexity",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "id": {
+    "word": "id",
+    "definition": "A card that shows who you are",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "A traveler can ask, \"Which plan is good for five days?\" The worker may ask for a passport or ID.",
+        "contextMeaning": "Here, \"id\" means a card like a passport to prove your name",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The librarian may ask for ID and an address.",
+        "contextMeaning": "Here, \"id\" means the visitor shows ID",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -84541,7 +85453,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-shopping-for-clothes"
+      "episode-2026-06-05-shopping-for-clothes",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -84582,6 +85495,13 @@
       {
         "episodeId": "episode-2026-06-05-shopping-for-clothes",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary clothes - shirts, pants, jackets, and other things people wear clothes store - a shop that sells clothes shopping mall - a large place with many shops online shop - a shop on the internet shirt - clothes for the top of your body pants - clothes for your legs jacket - warm clothes for the top of your body dress - clothes that can cover the body and legs socks - clothes for your feet shoes - things people wear on their feet size - how big or small something is color - red, blue, black, and other looks price - how much money something costs cheap - not costing much money expensive - costing a lot of money fitting room - a small room for trying clothes on another size - a different size cashier - the place or worker where people pay receipt - paper or a message that shows what you paid on sale - cheaper than the normal price fits well - is the right size",
+        "contextMeaning": "Here, \"internet\" means the worldwide system that connects computers",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "They need internet for maps, messages, and calls.",
         "contextMeaning": "Here, \"internet\" means the worldwide system that connects computers",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -86450,7 +87370,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -86464,6 +87385,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Some join mindfulness programs where meditation is combined with discussion and informal practice.",
         "contextMeaning": "Here, \"join\" means to take part in mindfulness classes or groups",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "People can read books, use computers, study, or join small events.",
+        "contextMeaning": "Here, \"join\" means take part in small events at the library",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89262,6 +90190,29 @@
       }
     ]
   },
+  "late fee": {
+    "word": "late fee",
+    "definition": "Money paid when something is late",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "There may be a small late fee.",
+        "contextMeaning": "Here, \"late fee\" means there may be a small late fee",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "late-night": {
     "word": "late-night",
     "definition": "Happening at the end of the day",
@@ -89711,6 +90662,52 @@
         "sentence": "The Switch first launched in 2017.",
         "contextMeaning": "Here, \"launched\" means the Switch started being sold in 2017",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "laundromat": {
+    "word": "laundromat",
+    "definition": "A place with machines for washing clothes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Using a Laundromat Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"laundromat\" means a laundromat has washing machines and dryers",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "laundromats": {
+    "word": "laundromats",
+    "definition": "A place with machines for washing clothes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Paying and Finishing Some laundromats use coins.",
+        "contextMeaning": "Here, \"laundromats\" means a laundromat has washing machines and dryers",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -90781,6 +91778,37 @@
       }
     ]
   },
+  "length": {
+    "word": "length",
+    "definition": "How long something is",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Practice the role play again with one new travel length.",
+        "contextMeaning": "Here, \"length\" means how many days the travel will last",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "The customer can check the length.",
+        "contextMeaning": "Here, \"length\" means how long the hair or item is for the customer to see",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "lens": {
     "word": "lens",
     "definition": "The clear part of glasses",
@@ -91152,6 +92180,75 @@
         "sentence": "This leads to operating leverage.",
         "contextMeaning": "Here, \"leverage\" means a way to grow faster using the same work",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "librarian": {
+    "word": "librarian",
+    "definition": "A library worker",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The librarian may ask for ID and an address.",
+        "contextMeaning": "Here, \"librarian\" means the librarian helps the visitor",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "libraries": {
+    "word": "libraries",
+    "definition": "A public place for books and learning",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Do you go to libraries?",
+        "contextMeaning": "Here, \"libraries\" means people can study in a library",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "library": {
+    "word": "library",
+    "definition": "A public place for books and learning",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Getting a Library Card Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"library\" means people can study in a library",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -92916,7 +94013,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -93049,6 +94147,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Official Sanrio brand pages list characters such as My Melody, Little Twin Stars, Pochacco, Pompompurin, Cinnamoroll, Kuromi, Gudetama, Hangyodon, and many others.",
         "contextMeaning": "Here, \"little\" means name of a small group of stars in a character's name",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "People can say, \"Just a trim, please\" or \"A little shorter, please.\" During the haircut, the stylist may show the mirror.",
+        "contextMeaning": "Here, \"little\" means a small amount shorter hair",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -93650,7 +94755,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -93658,6 +94764,13 @@
         "sentence": "The door lock is hard to open.",
         "contextMeaning": "Here, \"lock\" means the thing that keeps the door closed is hard to open",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "It is important to lock the bike and finish the payment.",
+        "contextMeaning": "Here, \"lock\" means the customer locks the bike",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -94465,7 +95578,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-05-shopping-for-clothes"
+      "episode-2026-06-05-shopping-for-clothes",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -94600,6 +95714,13 @@
         "contextMeaning": "Here, \"looks\" means the jacket shows a good and pretty appearance",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "If it is good, they can say, \"That looks good.\" If not, they can ask for one small change.",
+        "contextMeaning": "Here, \"looks\" means how the haircut seems or appears to the person",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -94685,7 +95806,8 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -94706,6 +95828,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "FINAL SPEAKING: Can a bad story make an object lose value?",
         "contextMeaning": "Here, \"lose\" means when a bad story makes a thing less special",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "I lose receipts sometimes.",
+        "contextMeaning": "Here, \"lose\" means not having your receipts anymore",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -95192,7 +96321,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -95248,6 +96378,13 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Gelato has lower **overrun**, so it feels thicker and less fluffy.",
         "contextMeaning": "Here, \"lower\" means gelato has less air inside than ice cream",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Can you lower it?",
+        "contextMeaning": "Here, \"lower\" means to make the bike seat go down to a lower place",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -95676,7 +96813,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -95755,6 +96893,13 @@
         "contextMeaning": "Here, \"machine\" means a device with parts like signals and memory",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "People use it when they do not have a machine at home.",
+        "contextMeaning": "Here, \"machine\" means a tool people use when they don't have one at home",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -95797,7 +96942,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -95839,6 +96985,13 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "In the 20th century, Italian makers improved machines for freezing, mixing, and batch control.",
         "contextMeaning": "Here, \"machines\" means tools improved to make gelato freezing and mixing better",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "A laundromat is a place with washing machines and dryers.",
+        "contextMeaning": "Here, \"machines\" means washing machines and dryers are tools in a laundromat",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -97988,6 +99141,29 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "But a tool gives you a map.",
         "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "maps": {
+    "word": "maps",
+    "definition": "A drawing that shows where places are",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "This helps them use maps, messages, and calls in the new country.",
+        "contextMeaning": "Here, \"maps\" means a drawing that shows where places are",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -101145,7 +102321,8 @@
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -101180,6 +102357,13 @@
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "Warm-up: When you open a restaurant menu, where do your eyes usually go first?",
         "contextMeaning": "Here, \"menu\" means the list of food you see in a restaurant",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "No, I check the menu first.",
+        "contextMeaning": "Here, \"menu\" means look at the list of hair services first",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -101417,7 +102601,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -101444,6 +102629,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The class has a chocolate cake, paper cups, a music speaker, and a card with many short messages.",
+        "contextMeaning": "Here, \"messages\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "This helps them use maps, messages, and calls in the new country.",
         "contextMeaning": "Here, \"messages\" means information sent from one person to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -101652,7 +102844,8 @@
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -101694,6 +102887,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "Now make a new short taxi conversation with one new destination and one new payment method.",
         "contextMeaning": "Here, \"method\" means a new way to pay money in the taxi game",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Practice the role play again with one new thing to wash and one new payment method.",
+        "contextMeaning": "Here, \"method\" means a new way to give money for washing clothes",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -102358,6 +103558,29 @@
         "sentence": "People do not need five minutes to understand a good meme.",
         "contextMeaning": "Here, \"minutes\" means a unit of time equal to sixty seconds",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "mirror": {
+    "word": "mirror",
+    "definition": "Glass where you see yourself",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Checking in the Mirror During the haircut, the stylist may show the mirror.",
+        "contextMeaning": "Here, \"mirror\" means the customer checks the mirror",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -103027,9 +104250,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "I need mobile data.",
+        "contextMeaning": "Here, \"mobile data\" means the traveler needs mobile data",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "model": {
     "word": "model",
@@ -109184,7 +110416,8 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -109268,6 +110501,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Understand why normal objects can become emotionally, symbolically, and financially valuable, then practice explaining value with clear B1 English.",
         "contextMeaning": "Here, \"normal\" means objects that are common and not special at first",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "A simple cycle is good for normal clothes.",
+        "contextMeaning": "Here, \"normal\" means a simple washing cycle is good for regular clothes",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -110970,7 +112210,8 @@
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-21-a2-work-schedule-change",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -111019,6 +112260,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Some like \"cute, but not too sweet.\" In business terms, Sanrio offers many emotional doors.",
         "contextMeaning": "Here, \"offers\" means sanrio gives many feelings or choices to people",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "What a Library Offers A library is a quiet public place for reading and learning.",
+        "contextMeaning": "Here, \"offers\" means what the library gives, like quiet place and learning",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -112565,7 +113813,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -112627,6 +113876,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "How has online selling changed what it means to enter a foreign market?",
+        "contextMeaning": "Here, \"online\" means connected through the internet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Do you borrow books or read online?",
         "contextMeaning": "Here, \"online\" means connected through the internet",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -116176,7 +117432,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -116191,6 +117448,13 @@
         "sentence": "Sanrio characters can appear with cafes, fashion brands, games, cosmetics, theme parks, and many kinds of goods.",
         "contextMeaning": "Here, \"parks\" means theme parks with rides, shows, or character attractions",
         "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "A bike is useful for parks, rivers, or small streets.",
+        "contextMeaning": "Here, \"parks\" means an open public place for walking or relaxing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -117006,13 +118270,29 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
-      "episode-2026-05-21-a1-hotel-check-in"
+      "episode-2026-05-21-a1-hotel-check-in",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
         "sentence": "when I found my lost passport.",
         "contextMeaning": "Here, \"passport\" means the paper needed to travel that was lost",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Setting Up the Phone The worker may ask for a passport or ID.",
+        "contextMeaning": "Here, \"passport\" means the worker asks for a passport",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "I can show my passport.",
+        "contextMeaning": "Here, \"passport\" means an ID you can show to prove who you are",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -117164,7 +118444,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -117200,6 +118481,13 @@
         "sentence": "This product-first path helped her feel close.",
         "contextMeaning": "Here, \"path\" means the way Hello Kitty became popular through products",
         "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "The customer can ask, \"Is there a bike path?\" or \"Can I ride near the river?\" A safe route is better than a fast route.",
+        "contextMeaning": "Here, \"path\" means a special road made for riding a bike safely",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -117801,7 +119089,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -117852,6 +119141,13 @@
         "contextMeaning": "Here, \"paying\" means giving money to the driver for the ride",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Paying and Finishing Some laundromats use coins.",
+        "contextMeaning": "Here, \"paying\" means giving money using coins",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -117872,7 +119168,10 @@
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -117921,6 +119220,27 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "Paying the Driver Useful Phrases Conversation Role Play In the taxi Role-play Final Reflection Taxi English is about destination, direction, and payment.",
         "contextMeaning": "Here, \"payment\" means money given to the taxi driver after the ride",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Useful Phrases Talk About It Conversation Role Play At the salon Role-play Simple Explanation Final Reflection Haircut English is about time, length, small changes, and payment.",
+        "contextMeaning": "Here, \"payment\" means giving money after the haircut is done",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "It is important to lock the bike and finish the payment.",
+        "contextMeaning": "Here, \"payment\" means the money you give to pay for the bike rental",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Useful Phrases Talk About It Conversation Role Play At the laundromat Role-play Simple Explanation Final Reflection Laundromat English is about clothes, machines, time, and payment.",
+        "contextMeaning": "Here, \"payment\" means money you give to use the laundromat machines",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -120824,7 +122144,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -120880,6 +122201,13 @@
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "They can talk, help each other, and make a plan.",
         "contextMeaning": "Here, \"plan\" means a good idea players make to work together",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Travelers can buy a SIM card or data plan.",
+        "contextMeaning": "Here, \"plan\" means a choice to buy data for phone use",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -125462,7 +126790,9 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-getting-a-haircut",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -125574,6 +126904,20 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "At the end, people look at the meter or listen to the price.",
         "contextMeaning": "Here, \"price\" means the money cost shown at the end of the taxi trip",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "They can ask the price before paying.",
+        "contextMeaning": "Here, \"price\" means the money amount they ask before you pay",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Useful Phrases Talk About It Conversation Role Play At the bike rental shop Role-play Simple Explanation Final Reflection Bike-rental English is about time, price, safety, route, and return place.",
+        "contextMeaning": "Here, \"price\" means the money you pay to rent a bike",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -129184,7 +130528,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-the-history-of-tea",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -129337,6 +130682,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "Would the idea work in a quiet hospital, a busy airport, or a school?",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "What a Library Offers A library is a quiet public place for reading and learning.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -130454,7 +131806,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-shopping-at-a-convenience-store"
+      "episode-2026-06-05-shopping-at-a-convenience-store",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -130502,6 +131855,13 @@
       {
         "episodeId": "episode-2026-06-05-shopping-at-a-convenience-store",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary convenience store - a small shop for quick shopping konbini - a convenience store in Japan useful - helpful and good to use snacks - small foods between meals rice ball - rice with a filling, often wrapped in seaweed sandwich - bread with food inside fried chicken - chicken cooked in hot oil bento lunch - a lunch box with rice and other foods hot food - warm food ready to eat ice cream - a cold sweet food pay bills - give money for things you owe ATM - a machine for taking out or putting in money send packages - mail boxes or parcels polite - kind and respectful helpful - ready to help fast - quick clean - not dirty easy to use - simple to use iced tea - cold tea",
+        "contextMeaning": "Here, \"ready\" means prepared to do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "The phone is ready before they leave the airport.",
         "contextMeaning": "Here, \"ready\" means prepared to do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -131182,7 +132542,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -131224,6 +132585,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "They can ask, \"Can I pay by card?\" After they pay, they can ask for a receipt.",
         "contextMeaning": "Here, \"receipt\" means the driver gives a receipt",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Paying and Keeping the Receipt After the phone works, the traveler pays.",
+        "contextMeaning": "Here, \"receipt\" means the worker gives a receipt",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -133747,13 +135115,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what"
+      "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
         "sentence": "This is a good reminder that a dog can look unusual because it was designed for a specific job.",
         "contextMeaning": "Here, \"reminder\" means this helps us remember why the dog looks different",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "I set a reminder.",
+        "contextMeaning": "Here, \"reminder\" means a note or alarm to help you not forget",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -133937,7 +135313,8 @@
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-21-a2-apartment-repair-call",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -133980,6 +135357,82 @@
         "sentence": "The company needs observations about rent, customer flow, menu prices, staff, and reactions to Japanese craft.",
         "contextMeaning": "Here, \"rent\" means money paid regularly for the company’s place",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Where can people rent a bike?",
+        "contextMeaning": "Here, \"rent\" means the customer rents a bike",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rental": {
+    "word": "rental",
+    "definition": "Using something for some time and paying for it",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Learn how bike rental works, how to check safety, and how to ask where to return the bike.",
+        "contextMeaning": "Here, \"rental\" means the process of paying to use a bike for a short time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rented": {
+    "word": "rented",
+    "definition": "Taken and used for some time, not owned",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Where would you ride a rented bike?",
+        "contextMeaning": "Here, \"rented\" means a bike you use but do not own",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rents": {
+    "word": "rents",
+    "definition": "Pay to use something for a short time",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Conversation Role Play A customer rents a bike for a short trip near a river.",
+        "contextMeaning": "Here, \"rents\" means the customer rents a bike",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -136269,7 +137722,9 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-getting-a-library-card",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -136341,6 +137796,43 @@
         "contextMeaning": "Here, \"return\" means the band starts a new phase after a break",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The due date tells people when to return the book.",
+        "contextMeaning": "Here, \"return\" means people return library books",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Returning the Bike After the trip, people return the bike.",
+        "contextMeaning": "Here, \"return\" means the customer returns the bike to the shop",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "return box": {
+    "word": "return box",
+    "definition": "A box for returning library items",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Some libraries have a return box.",
+        "contextMeaning": "Here, \"return box\" means people can use the return box",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -136362,6 +137854,29 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "They returned in 2022 with the current three members.",
         "contextMeaning": "Here, \"returned\" means the band came back in 2022",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "returning": {
+    "word": "returning",
+    "definition": "Give back something you took before",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Returning the Book People should return books on time.",
+        "contextMeaning": "Here, \"returning\" means bring books back to the library on time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -137292,7 +138807,8 @@
     "episodes": [
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -137313,6 +138829,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "I want music for my train ride.",
         "contextMeaning": "Here, \"ride\" means the time you are on the train moving",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Before the ride, people should check the bike.",
+        "contextMeaning": "Here, \"ride\" means the time when people use the bike and move on it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -138019,7 +139542,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-30-a2-delivery-fix-a-missed-package"
+      "episode-2026-05-30-a2-delivery-fix-a-missed-package",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -138033,6 +139557,36 @@
         "episodeId": "episode-2026-05-30-a2-delivery-fix-a-missed-package",
         "sentence": "It is apartment 405, River Road.",
         "contextMeaning": "Here, \"river\" means a long line of moving water",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "The customer can ask, \"Is there a bike path?\" or \"Can I ride near the river?\" A safe route is better than a fast route.",
+        "contextMeaning": "Here, \"river\" means a long line of moving water",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rivers": {
+    "word": "rivers",
+    "definition": "A long line of moving water",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "A bike is useful for parks, rivers, or small streets.",
+        "contextMeaning": "Here, \"rivers\" means a long line of moving water",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -138998,7 +140552,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -139032,6 +140587,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "People were still going to work, school, or home, but for a few seconds their normal route felt surprising.",
+        "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Asking About the Route A worker can show a simple route.",
         "contextMeaning": "Here, \"route\" means a path or way to go somewhere",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -140026,7 +141588,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -140144,6 +141707,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "A good public design must also be safe, fair, easy to maintain, and respectful of different people.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "The customer can ask, \"Is there a bike path?\" or \"Can I ride near the river?\" A safe route is better than a fast route.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -140346,7 +141916,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -140437,6 +142008,13 @@
         "episodeId": "episode-2026-06-05-buying-medicine-at-a-drugstore",
         "sentence": "They should also remember the safety sentence.",
         "contextMeaning": "Here, \"safety\" means remember words that help keep people safe",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Learn how bike rental works, how to check safety, and how to ask where to return the bike.",
+        "contextMeaning": "Here, \"safety\" means checking the bike to make sure it is safe to use",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -141662,13 +143240,44 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "They scan, compare, feel hungry, and choose quickly.",
         "contextMeaning": "Here, \"scan\" means look fast at menu to find food choices",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "I will scan your card and the book.",
+        "contextMeaning": "Here, \"scan\" means use a machine to check your card and book",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "scans": {
+    "word": "scans",
+    "definition": "Use a machine to look at something fast",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The librarian scans the card and the book.",
+        "contextMeaning": "Here, \"scans\" means the librarian uses a machine to check card and book",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -143040,7 +144649,8 @@
     "episodes": [
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -143062,6 +144672,13 @@
         "sentence": "You can talk about time, place, seat, favorite song, and how you felt.",
         "contextMeaning": "Here, \"seat\" means where you sit when you talk about things",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can check the brakes, seat, tires, and bell.",
+        "contextMeaning": "Here, \"seat\" means the seat is too high",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -144188,7 +145805,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -144223,6 +145841,13 @@
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "I usually say, \"What do you want to do?\" I ask, \"Are you free today?\" I send a message and ask first.",
         "contextMeaning": "Here, \"send\" means to give a message first when asking friends",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "I send messages.",
+        "contextMeaning": "Here, \"send\" means to give messages to other people",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -145494,6 +147119,29 @@
       }
     ]
   },
+  "set up": {
+    "word": "set up",
+    "definition": "Make something ready to use",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "The worker helps set up the phone.",
+        "contextMeaning": "Here, \"set up\" means the worker helps set up the phone",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sets": {
     "word": "sets",
     "definition": "To make or decide something first",
@@ -145530,7 +147178,8 @@
     "episodes": [
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -145552,6 +147201,13 @@
         "sentence": "At the same time, her name and setting give her a soft international feeling.",
         "contextMeaning": "Here, \"setting\" means the background of a character or story",
         "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Setting Up the Phone The worker may ask for a passport or ID.",
+        "contextMeaning": "Here, \"setting\" means getting the phone ready to use",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -145621,7 +147277,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-08-gap-selling-sales-logic-explainer"
+      "episode-2026-05-08-gap-selling-sales-logic-explainer",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -145629,6 +147286,13 @@
         "sentence": "In our example, the manager may care about three things: speed, easy setup, and low risk.",
         "contextMeaning": "Here, \"setup\" means how easy it is to start using or arrange something",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Useful Phrases Talk About It Conversation Role Play At the airport phone counter Role-play Simple Explanation Final Reflection SIM card English is about days, data, setup, and checking before you leave.",
+        "contextMeaning": "Here, \"setup\" means getting the phone or SIM card ready to use",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -145690,6 +147354,29 @@
         "episodeId": "episode-2026-05-21-a1-hotel-check-in",
         "sentence": "Breakfast is from seven to ten.\" Sora says, \"From seven to ten.",
         "contextMeaning": "Here, \"seven\" means breakfast time starts at the number seven o’clock",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "seven-day": {
+    "word": "seven-day",
+    "definition": "Lasts for seven days",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "This seven-day plan is good.",
+        "contextMeaning": "Here, \"seven-day\" means a plan that works for seven days",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -146258,7 +147945,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -146287,6 +147975,13 @@
         "sentence": "In 2024, Cara shared two songs.",
         "contextMeaning": "Here, \"shared\" means she gave two songs for people to hear",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "A bike-share station has shared bikes.",
+        "contextMeaning": "Here, \"shared\" means used by more than one",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -147159,7 +148854,9 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-05-ordering-at-a-bakery"
+      "episode-2026-06-05-ordering-at-a-bakery",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -147200,6 +148897,20 @@
       {
         "episodeId": "episode-2026-06-05-ordering-at-a-bakery",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary bakery - a shop that sells bread and cakes bread - a common food made from flour pastry - a small baked food, often sweet display case - a glass place that shows food tray - a flat thing for carrying food tongs - a tool for picking up food takeaway - food you take away from the shop counter - the place where a worker helps customers pay by card - pay with a bank card receipt - paper or digital proof that you paid",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "A receipt is useful because it shows the plan name and the shop name.",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can rent from a bike shop or a bike-share station.",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -147329,7 +149040,8 @@
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -147363,6 +149075,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "A character on a purse, pencil case, or lunch box goes to school, work, shops, and friends' homes.",
+        "contextMeaning": "Here, \"shops\" means a place where you buy things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Phone Help at the Airport Many airports have phone shops or small counters.",
         "contextMeaning": "Here, \"shops\" means a place where you buy things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -147473,6 +149192,29 @@
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Understand how internet memes work as visual patterns, shared jokes, emotional shortcuts, and cultural signals.",
         "contextMeaning": "Here, \"shortcuts\" means quick ways memes show feelings or ideas",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "shorter": {
+    "word": "shorter",
+    "definition": "Not long, smaller length",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "People can say, \"Just a trim, please\" or \"A little shorter, please.\" During the haircut, the stylist may show the mirror.",
+        "contextMeaning": "Here, \"shorter\" means make the hair less long than before",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -148770,6 +150512,29 @@
       }
     ]
   },
+  "sim card": {
+    "word": "sim card",
+    "definition": "A small card or chip that connects a phone to a network",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Travelers can buy a SIM card or data plan.",
+        "contextMeaning": "Here, \"sim card\" means the traveler buys a SIM card",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "similar": {
     "word": "similar",
     "definition": "Almost the same or like something else",
@@ -149573,7 +151338,8 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -149615,6 +151381,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Some people sit quietly and follow their breathing.",
         "contextMeaning": "Here, \"sit\" means to rest on a place and be still",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Please sit here.",
+        "contextMeaning": "Here, \"sit\" means to put yourself down on a chair here",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -157412,7 +159185,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -157467,6 +159241,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "A Normal Choice in a Train Station In many train stations, people face a small choice: take the stairs or take the escalator.",
+        "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can rent from a bike shop or a bike-share station.",
         "contextMeaning": "Here, \"station\" means a place where trains or buses stop",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -160269,7 +162050,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life"
+      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -160277,6 +162059,13 @@
         "sentence": "Public space includes streets, squares, walkways, entrances, and the open areas around buildings.",
         "contextMeaning": "Here, \"streets\" means roads people use in the public area",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "A bike is useful for parks, rivers, or small streets.",
+        "contextMeaning": "Here, \"streets\" means a road in a town or city",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -161351,7 +163140,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -161413,6 +163203,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "Maybe a study timer could show a growing plant.",
+        "contextMeaning": "Here, \"study\" means to spend time learning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "People can read books, use computers, study, or join small events.",
         "contextMeaning": "Here, \"study\" means to spend time learning",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -161650,6 +163447,29 @@
         "sentence": "People may feel stylish, successful, cool, elegant, or rich when they use it.",
         "contextMeaning": "Here, \"stylish\" means feeling cool and fashionable when using it",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "stylist": {
+    "word": "stylist",
+    "definition": "A person who cuts or styles hair",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Saying What You Want At the chair, the stylist asks what the customer wants.",
+        "contextMeaning": "Here, \"stylist\" means the stylist cuts the hair",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -167592,7 +169412,8 @@
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -167614,6 +169435,13 @@
         "sentence": "Let's study together because we have a test.",
         "contextMeaning": "Here, \"test\" means we have a school check soon",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Can I test the data here?",
+        "contextMeaning": "Here, \"test\" means the traveler tests the data",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -167955,7 +169783,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-shopping-at-a-convenience-store",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -168060,6 +169889,13 @@
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "Driver: Thank you.",
         "contextMeaning": "Here, \"thank\" means the driver says this to be polite",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Customer: Thank you.",
+        "contextMeaning": "Here, \"thank\" means the customer says thank you to be polite",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -170940,6 +172776,29 @@
       }
     ]
   },
+  "timer": {
+    "word": "timer",
+    "definition": "A clock that counts time",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "I set a timer on my phone.",
+        "contextMeaning": "Here, \"timer\" means a clock on phone to know when washing is done",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "times": {
     "word": "times",
     "definition": "What we measure in minutes, hours, and days",
@@ -171112,6 +172971,52 @@
       }
     ]
   },
+  "tip": {
+    "word": "tip",
+    "definition": "Extra money you give to say thank you",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "In some countries, people also leave a tip, but it depends on the place.",
+        "contextMeaning": "Here, \"tip\" means money people give extra to the worker sometimes",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tire": {
+    "word": "tire",
+    "definition": "The round rubber part on a wheel",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "The rider checks the brakes and tires before the trip.",
+        "contextMeaning": "Here, \"tire\" means people check the tires",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "tired": {
     "word": "tired",
     "definition": "Feeling you want to rest or sleep",
@@ -171219,6 +173124,29 @@
         "sentence": "I am tired.",
         "contextMeaning": "Here, \"tired\" means i feel I need to rest",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tires": {
+    "word": "tires",
+    "definition": "The round rubber part on a wheel",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "They can check the brakes, seat, tires, and bell.",
+        "contextMeaning": "Here, \"tires\" means people check the tires",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -172792,6 +174720,29 @@
       }
     ]
   },
+  "towels": {
+    "word": "towels",
+    "definition": "Cloths used to dry your body or things",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Customer: I need to wash towels.",
+        "contextMeaning": "Here, \"towels\" means cloths the customer wants to clean in the machine",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "town": {
     "word": "town",
     "definition": "A small city where people live",
@@ -174311,7 +176262,8 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-05-taking-a-taxi"
+      "episode-2026-06-05-taking-a-taxi",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
@@ -174380,6 +176332,13 @@
       {
         "episodeId": "episode-2026-06-05-taking-a-taxi",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary taxi - a car with a driver that people pay to ride in driver - the person who drives a car destination - the place you want to go address - the place where a person or building is hotel - a place where people stay when they travel turn right - move to the right side turn left - move to the left side stop here - finish the ride in this place meter - a taxi machine that shows the price receipt - paper or digital proof that you paid",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Do you use mobile data when you travel?",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -175045,6 +177004,29 @@
       }
     ]
   },
+  "trim": {
+    "word": "trim",
+    "definition": "A small haircut",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "People can say, \"Just a trim, please\" or \"A little shorter, please.\" 3.",
+        "contextMeaning": "Here, \"trim\" means the customer wants a trim",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "trip": {
     "word": "trip",
     "definition": "A journey to another place",
@@ -175060,7 +177042,8 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
     ],
     "contexts": [
       {
@@ -175094,6 +177077,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "It does not make the trip for you.",
+        "contextMeaning": "Here, \"trip\" means a journey to another place",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Renting a Bike for a Short Trip Warm-Up Questions 1.",
         "contextMeaning": "Here, \"trip\" means a journey to another place",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -176054,7 +178044,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -176068,6 +178059,13 @@
         "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
         "sentence": "They do not want to open twenty tabs.",
         "contextMeaning": "Here, \"twenty\" means do not open many tabs, like 20",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Stylist: It is twenty dollars.",
+        "contextMeaning": "Here, \"twenty\" means the amount of money is 20 dollars",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -176344,7 +178342,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-17-getting-a-library-card"
     ],
     "contexts": [
       {
@@ -176358,6 +178357,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "This type is interesting because...",
         "contextMeaning": "Here, \"type\" means this kind of thing is interesting because",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "Practice the role play again with one new book type.",
+        "contextMeaning": "Here, \"type\" means a kind of book to use in the practice game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -181092,6 +183098,29 @@
       }
     ]
   },
+  "visitor": {
+    "word": "visitor",
+    "definition": "A person who visits",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-library-card"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-library-card",
+        "sentence": "The visitor fills in a form or gives the information at the desk.",
+        "contextMeaning": "Here, \"visitor\" means a person who comes to a place",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "visits": {
     "word": "visits",
     "definition": "To go to a place or person for a time",
@@ -181517,7 +183546,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder"
+      "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -181601,6 +183631,13 @@
         "episodeId": "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
         "sentence": "An old woman is also waiting.",
         "contextMeaning": "Here, \"waiting\" means the old lady stays there for the bus",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Waiting and Drying A wash can take thirty minutes.",
+        "contextMeaning": "Here, \"waiting\" means stay until the wash is done",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -181731,7 +183768,8 @@
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-06-17-getting-a-haircut"
     ],
     "contexts": [
       {
@@ -181781,6 +183819,36 @@
         "sentence": "You can say, \"This song helps me study,\" or \"This song helps me walk fast.\" The band plays big live shows.",
         "contextMeaning": "Here, \"walk\" means the song helps you move fast by walking",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "No, I sometimes walk in.",
+        "contextMeaning": "Here, \"walk\" means come into the salon without calling first",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "walk-ins": {
+    "word": "walk-ins",
+    "definition": "A customer without an appointment",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-getting-a-haircut"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-getting-a-haircut",
+        "sentence": "Some places also take walk-ins when they have time.",
+        "contextMeaning": "Here, \"walk-ins\" means some places take walk-ins",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -183128,7 +185196,8 @@
     "episodes": [
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-06-09-working-at-a-winery"
+      "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -183149,6 +185218,13 @@
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They wash glasses, put bottles back, and close the door.",
         "contextMeaning": "Here, \"wash\" means clean the small cups with water",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Before the wash, people put clothes in the machine.",
+        "contextMeaning": "Here, \"wash\" means the time when clothes get cleaned in the machine",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -183181,6 +185257,29 @@
         "sentence": "She washes her face and brushes her teeth.",
         "contextMeaning": "Here, \"washes\" means she cleans her face with water",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "washing machine": {
+    "word": "washing machine",
+    "definition": "A machine that washes clothes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-17-using-a-laundromat"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "[NEWS STORY] A laundromat is a place with washing machines and dryers.",
+        "contextMeaning": "Here, \"washing machine\" means the customer uses a washing machine",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -184845,7 +186944,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-apartment-repair-call",
-      "episode-2026-05-31-apartment-repair-explain-the-problem"
+      "episode-2026-05-31-apartment-repair-explain-the-problem",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -184860,6 +186960,13 @@
         "sentence": "The floor is getting wet.",
         "contextMeaning": "Here, \"wet\" means the floor has water on it",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "After the wash, wet clothes go into the dryer.",
+        "contextMeaning": "Here, \"wet\" means wet clothes go into the dryer",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -185431,13 +187538,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "His phone can call, but mobile data does not work outside Wi-Fi.",
         "contextMeaning": "Here, \"wi-fi\" means ken turns it off to test data",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Do you ask for Wi-Fi or a SIM card?",
+        "contextMeaning": "Here, \"wi-fi\" means some travelers ask for Wi-Fi",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -186966,7 +189081,10 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+      "episode-2026-06-17-using-a-laundromat"
     ],
     "contexts": [
       {
@@ -187091,6 +189209,27 @@
       {
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "Smile at the worker.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+        "sentence": "Setting Up the Phone The worker may ask for a passport or ID.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+        "sentence": "Asking About the Route A worker can show a simple route.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-17-using-a-laundromat",
+        "sentence": "Conversation Role Play A customer asks a laundromat worker how to start a machine.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
