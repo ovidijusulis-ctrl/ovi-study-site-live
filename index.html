@@ -81,6 +81,8 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
   const DESKTOP_VISIBLE_LIMIT = 12;
   const MOBILE_VISIBLE_LIMIT = 8;
   const VISIBLE_INCREMENT = 12;
+  const MIN_ACTIONABLE_SEARCH_CHARS = 3;
+  const SEARCH_INPUT_DEBOUNCE_MS = 120;
   const DEFAULT_LEVEL = "A2";
   const CEFR_LEVELS = ["A1", "A2", "B1", "B2", "C1", "C2"];
   const CEFR_RANK = Object.fromEntries(CEFR_LEVELS.map((level, index) => [level, index + 1]));
@@ -136,6 +138,24 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       .split(" ")
       .map((part) => part.trim())
       .filter(Boolean);
+
+  const SEARCH_TOKEN_CACHE = new Map();
+  const getSearchTokens = (value) => {
+    const normalized = normalizeSearchFieldText(value);
+    if (!normalized) return [];
+    if (!SEARCH_TOKEN_CACHE.has(normalized)) {
+      SEARCH_TOKEN_CACHE.set(normalized, normalized.split(" ").filter(Boolean));
+    }
+    return SEARCH_TOKEN_CACHE.get(normalized) || [];
+  };
+
+  const getSearchQueryCharCount = (query) =>
+    normalizeSearchFieldText(query).replace(/\s+/g, "").length;
+
+  const isPendingSearchQuery = (query) => {
+    const count = getSearchQueryCharCount(query);
+    return count > 0 && count < MIN_ACTIONABLE_SEARCH_CHARS;
+  };
 
   const SEARCH_SYNONYM_GROUPS = [
     ["grammar", "article", "articles", "plural", "plurals", "singular", "noun", "nouns", "verb", "verbs", "preposition", "prepositions", "conjunction", "conjunctions", "imperative", "imperatives", "there", "can", "question", "questions", "possessive", "possessives", "frequency", "habit", "habits"],
@@ -580,6 +600,18 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       });
     };
 
+    const syncSearchClearButtons = (query) => {
+      searchClearButtons.forEach((button) => {
+        button.hidden = !query;
+      });
+    };
+
+    const setFinderStatusMessage = (message = "") => {
+      if (!finderStatus) return;
+      finderStatus.textContent = message;
+      finderStatus.hidden = !message;
+    };
+
     const getCardDifficultyRanks = (card) => {
       const minRank = CEFR_RANK[card.difficultyMin] || CEFR_RANK[card.cefrs[0]] || 0;
       const targetRank = CEFR_RANK[card.difficultyTarget] || minRank;
@@ -653,7 +685,7 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
         const phrasePattern = new RegExp(`(^|\\s)${escapeRegExp(query)}(?=\\s|$)`, "u");
         if (phrasePattern.test(text)) score += 5;
       }
-      const tokens = tokenizeSearchText(text);
+      const tokens = getSearchTokens(text);
       for (const alternatives of termGroups) {
         const tokenScore = Math.max(...alternatives.map((term) => scoreTokenMatch(tokens, term)));
         if (!tokenScore) return 0;
@@ -1001,6 +1033,7 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
     };
 
     let activeVisibleLimit = getInitialVisibleLimit();
+    let searchInputDebounceTimer = 0;
 
     const render = (mode, level, topic, query, difficultyValue = activeDifficultyValue, filteredCards = getFilteredCards(mode, level, topic, query, difficultyValue), notice = "") => {
       const initialVisibleLimit = getInitialVisibleLimit();
@@ -1009,8 +1042,8 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       cards.forEach((card) => {
         card.el.hidden = true;
       });
-      filteredCards.forEach((card, index) => {
-        card.el.hidden = index >= visibleLimit;
+      filteredCards.slice(0, visibleLimit).forEach((card) => {
+        card.el.hidden = false;
         list.appendChild(card.el);
       });
       setActiveButton(mode);
@@ -1133,6 +1166,38 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       return filteredCards;
     };
 
+    const scheduleSearchState = (query) => {
+      const nextQuery = normalizeSearchText(query);
+      window.clearTimeout(searchInputDebounceTimer);
+      syncSearchClearButtons(nextQuery);
+
+      if (isPendingSearchQuery(nextQuery)) {
+        setFinderStatusMessage(`Type at least ${MIN_ACTIONABLE_SEARCH_CHARS} letters to search.`);
+        return;
+      }
+
+      if (nextQuery) {
+        setFinderStatusMessage("Searching...");
+      }
+
+      const runSearch = () => {
+        setState({
+          panel: "find",
+          mode: activeMode,
+          level: activeLevel,
+          topic: activeTopic,
+          query: nextQuery,
+        });
+      };
+
+      if (!nextQuery) {
+        runSearch();
+        return;
+      }
+
+      searchInputDebounceTimer = window.setTimeout(runSearch, SEARCH_INPUT_DEBOUNCE_MS);
+    };
+
     sortButtons.forEach((btn) => {
       btn.addEventListener("click", () => {
         setState({
@@ -1233,18 +1298,13 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
 
     searchInputs.forEach((input) => {
       input.addEventListener("input", () => {
-        setState({
-          panel: "find",
-          mode: activeMode,
-          level: activeLevel,
-          topic: activeTopic,
-          query: input.value,
-        });
+        scheduleSearchState(input.value);
       });
     });
 
     searchClearButtons.forEach((button) => {
       button.addEventListener("click", () => {
+        window.clearTimeout(searchInputDebounceTimer);
         setState({
           panel: "find",
           mode: activeMode,
@@ -1295,6 +1355,7 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
         }
         if (action === "reset") {
           event.preventDefault();
+          window.clearTimeout(searchInputDebounceTimer);
           setState({
             panel: "find",
             mode: "newest",
@@ -1356,6 +1417,7 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       }
       initialTopic = urlTopic ? normalizeTopic(urlTopic) : normalizeTopic(localStorage.getItem(TOPIC_KEY));
       initialQuery = normalizeSearchText(urlQuery || localStorage.getItem(SEARCH_KEY));
+      if (isPendingSearchQuery(initialQuery)) initialQuery = "";
       const storedPanel = localStorage.getItem(HERO_PANEL_KEY);
       if (VALID_PANELS.has(storedPanel)) initialPanel = storedPanel;
       if (storedPanel === "level") initialPanel = "find";
