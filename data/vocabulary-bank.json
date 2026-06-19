@@ -1551,7 +1551,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "Some hobbies are active.",
+        "sentence": "Do you like quiet hobbies or active hobbies?",
         "contextMeaning": "Here, \"active\" means moving your body",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -5454,7 +5454,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "Do you like to do hobbies alone or with a friend?",
+        "sentence": "Do you like to do hobbies alone or with friends?",
         "contextMeaning": "Here, \"alone\" means by yourself",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -34784,7 +34784,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-17-using-a-laundromat"
+      "episode-2026-06-17-using-a-laundromat",
+      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
     ],
     "contexts": [
       {
@@ -34818,6 +34819,13 @@
       {
         "episodeId": "episode-2026-06-17-using-a-laundromat",
         "sentence": "Do you wash clothes at home or outside?",
+        "contextMeaning": "Here, \"clothes\" means things people wear",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
+        "sentence": "Hina: I draw small animals and clothes.",
         "contextMeaning": "Here, \"clothes\" means things people wear",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -38116,7 +38124,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "This helps you compare without difficult words.",
+        "sentence": "Comparing Hobbies When you compare hobbies, use small and useful ideas.",
         "contextMeaning": "Here, \"compare\" means we compare drawing and football",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -50649,7 +50657,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
     ],
     "contexts": [
       {
@@ -50713,6 +50722,13 @@
         "sentence": "It depends on the game.",
         "contextMeaning": "Here, \"depends\" means it changes based on which game you mean",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
+        "sentence": "You can say, \"It depends on the day.\"",
+        "contextMeaning": "Here, \"depends\" means changes because of the situation",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -51878,7 +51894,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "Then change one detail and practice again.",
+        "sentence": "Then change one detail: the hobby, the country, the friend, the place, or the time.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -59048,8 +59064,7 @@
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
-      "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
+      "episode-2026-06-18-sending-video-across-deep-space-with-lasers"
     ],
     "contexts": [
       {
@@ -59195,13 +59210,6 @@
       {
         "episodeId": "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
         "sentence": "This is why high data capacity is not the same as easy communication.",
-        "contextMeaning": "Here, \"easy\" means not hard",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "Some hobbies are easy to do at home, and some hobbies need a special place.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -62572,8 +62580,7 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
-      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
     ],
     "contexts": [
       {
@@ -62635,13 +62642,6 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "The lesson is not \"make everything into a game.\" The lesson is \"make the better choice easier to notice and easier to enjoy.\" 6.",
-        "contextMeaning": "Here, \"enjoy\" means to like doing something",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "It is something you do because you enjoy it.",
         "contextMeaning": "Here, \"enjoy\" means to like doing something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -78535,8 +78535,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
     ],
     "contexts": [
       {
@@ -90089,7 +90088,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "What Is a Hobby?",
+        "sentence": "Introduction Hobby talk is friendly and easy to start.",
         "contextMeaning": "Here, \"hobby\" means drawing can be a hobby",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -119247,7 +119246,8 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
     ],
     "contexts": [
       {
@@ -119302,6 +119302,13 @@
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "In that model, the Japanese company itself registers and carries on business in Australia.",
+        "contextMeaning": "Here, \"model\" means the AI service chosen for a specific task",
+        "source": "popup_support_router/curated_support_definition",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
+        "sentence": "Read the model one time.",
         "contextMeaning": "Here, \"model\" means the AI service chosen for a specific task",
         "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
@@ -123917,8 +123924,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
-      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
+      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold"
     ],
     "contexts": [
       {
@@ -123931,13 +123937,6 @@
       {
         "episodeId": "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
         "sentence": "The Nature paper still discusses strict timing requirements, real-time decoding, correlated error events, and remaining questions about error floors.",
-        "contextMeaning": "Here, \"nature\" means plants, animals, and the natural world",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "In Canada, some people like hiking, skating, or taking photos in nature.",
         "contextMeaning": "Here, \"nature\" means plants, animals, and the natural world",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -138472,7 +138471,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "Walking, playing football, taking photos, and riding a bike can be outdoor hobbies.",
+        "sentence": "Walking, football, taking photos, and riding a bike can be outdoor hobbies.",
         "contextMeaning": "Here, \"photos\" means a picture taken with a camera",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -142087,7 +142086,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "You can ask, \"Is it popular in your country?\"",
+        "sentence": "Full Role Play 2: Hina: Sora, is football popular in many countries?",
         "contextMeaning": "Here, \"popular\" means football is popular in many countries",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -149386,7 +149385,7 @@
       },
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "Some hobbies are quiet.",
+        "sentence": "Do you like quiet hobbies or active hobbies?",
         "contextMeaning": "Here, \"quiet\" means not loud",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -212559,8 +212558,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
+      "episode-2026-06-18-sending-video-across-deep-space-with-lasers"
     ],
     "contexts": [
       {
@@ -212601,13 +212599,6 @@
       {
         "episodeId": "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
         "sentence": "Earth weather, clouds, receiver availability, pointing demands, and mission risk all matter.",
-        "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
-        "source": "popup_support_router/producer_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-        "sentence": "They are good when the weather is nice.",
         "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
