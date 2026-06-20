@@ -103,6 +103,7 @@ const pageTitle = "A2: Grammar: Service, Shopping, and Plans | Ovi English Schoo
 const publicEpisodeUrl = "https://ovienglish.com/episodes/2026-06-01-a2-practical-grammar-check/";
 const currentCefrLevel = "A2";
 const nextLessonOptionsJson = "{\"A1\":{\"cefr\":\"A1\",\"href\":\"/episodes/2026-05-25-a1-grammar-core-gaps-test/\",\"label\":\"A1: Grammar Core 2: Everyday Sentence Check\",\"title\":\"A1: Grammar Core 2: Everyday Sentence Check\",\"heading\":\"Next lesson for your A1 path\",\"note\":\"Your saved level is A1, so this recommendation stays inside that path.\"},\"A2\":{\"cefr\":\"A2\",\"href\":\"/episodes/2026-06-10-eiken-style-grammar-check-a2/\",\"label\":\"A2: Grammar Skills Check: Choose the Best Answer\",\"title\":\"A2: Grammar Skills Check: Choose the Best Answer\",\"heading\":\"Next A2 lesson\",\"note\":\"This keeps you inside A2 by default. Browse all lessons if you want a stretch.\"}}";
+const audioDeliveryProofRuntimeJson = "{\"activityLabMode\":\"audio-delivery-storage-remote-proof\",\"pathname\":\"/episodes/2026-06-10-eiken-style-grammar-check-a2/\",\"remoteAudioUrl\":\"/activity-lab/audio-delivery/ovi-remote-audio-proof-eiken-style-grammar-check-a2.mpga\",\"fallbackAudioUrl\":\"/audio/ovi-english-beginner-2026-06-10-eiken-style-grammar-check-a2.mp3\"}";
 
     (() => {
       if (typeof window === "undefined" || !episodeId) return;
@@ -112,6 +113,11 @@ const nextLessonOptionsJson = "{\"A1\":{\"cefr\":\"A1\",\"href\":\"/episodes/202
       const PROFILE_LEVEL_KEY = "ovi-cefr-level";
       const ARCHIVE_LEVEL_KEY = "episode-archive-level-filter";
       const NEXT_LESSON_OPTIONS = JSON.parse(nextLessonOptionsJson || "{}");
+      const AUDIO_DELIVERY_PROOF = JSON.parse(audioDeliveryProofRuntimeJson || "{}");
+      const ACTIVITY_LAB_LEARNING_CHECK_MODES = new Set([
+        "lesson-event-queue-bridge",
+        "progress-coordinator-lesson-bridge",
+      ]);
       const VALID_METRICS = new Set([
         "opens",
         "scrollDepthMax",
@@ -133,6 +139,77 @@ const nextLessonOptionsJson = "{\"A1\":{\"cefr\":\"A1\",\"href\":\"/episodes/202
         "learningCheckCorrect",
         "activeSeconds",
       ]);
+
+      function normalizePathname(value) {
+        const raw = String(value || "/");
+        return raw.endsWith("/") ? raw : `${raw}/`;
+      }
+
+      function applyAudioDeliveryRemoteProof() {
+        if (!AUDIO_DELIVERY_PROOF.remoteAudioUrl || !AUDIO_DELIVERY_PROOF.fallbackAudioUrl) return;
+        const url = new URL(window.location.href);
+        if (url.searchParams.get("activityLab") !== AUDIO_DELIVERY_PROOF.activityLabMode) return;
+        if (normalizePathname(url.pathname) !== normalizePathname(AUDIO_DELIVERY_PROOF.pathname)) return;
+
+        const audio = document.querySelector("audio[data-read-along-audio='true']");
+        if (!audio) return;
+        const currentSrc = audio.getAttribute("src") || "";
+        const fallbackSrc = currentSrc && currentSrc !== AUDIO_DELIVERY_PROOF.remoteAudioUrl
+          ? currentSrc
+          : AUDIO_DELIVERY_PROOF.fallbackAudioUrl;
+        audio.setAttribute("data-remote-audio-src", AUDIO_DELIVERY_PROOF.remoteAudioUrl);
+        audio.setAttribute("data-audio-fallback-src", fallbackSrc);
+        if (audio.getAttribute("src") !== AUDIO_DELIVERY_PROOF.remoteAudioUrl) {
+          audio.setAttribute("src", AUDIO_DELIVERY_PROOF.remoteAudioUrl);
+          audio.load();
+        }
+      }
+
+      function installActivityLabLearningCheckProof() {
+        const params = new URLSearchParams(window.location.search || "");
+        const mode = params.get("activityLab") || "";
+        if (!ACTIVITY_LAB_LEARNING_CHECK_MODES.has(mode)) return;
+        if (document.querySelector("[data-activity-lab-learning-check-proof]")) return;
+
+        const button = document.createElement("button");
+        button.type = "button";
+        button.textContent = "Run learning-check proof";
+        button.dataset.activityLabLearningCheckProof = mode;
+        button.setAttribute("aria-label", "Run hidden learning check proof");
+        Object.assign(button.style, {
+          position: "fixed",
+          right: "16px",
+          bottom: "16px",
+          zIndex: "10000",
+          minHeight: "44px",
+          maxWidth: "calc(100vw - 32px)",
+          padding: "0 14px",
+          border: "1px solid rgba(23, 40, 44, 0.24)",
+          borderRadius: "8px",
+          background: "#ffffff",
+          color: "#17282c",
+          boxShadow: "0 12px 28px rgba(23, 40, 44, 0.18)",
+          font: "700 14px system-ui, sans-serif",
+        });
+        button.addEventListener("click", () => {
+          const detail = {
+            checkId: `activity-lab-${mode}`,
+            targetId: "activity-lab-learning-check",
+            cardId: "activity-lab-learning-check-card",
+            route: window.location.pathname,
+            status: "correct",
+            correct: true,
+            attemptIndex: 1,
+            source: mode,
+            createdAt: "2026-06-20T08:36:00.000Z",
+          };
+          window.dispatchEvent(new CustomEvent("lesson-learning-check", { detail }));
+        });
+        document.body.append(button);
+      }
+
+      applyAudioDeliveryRemoteProof();
+      installActivityLabLearningCheckProof();
 
       const defaults = () => ({
         opens: 0,
@@ -483,4 +560,4 @@ const nextLessonOptionsJson = "{\"A1\":{\"cefr\":\"A1\",\"href\":\"/episodes/202
       document.addEventListener("visibilitychange", onVisibilityChange);
       window.addEventListener("pagehide", onPageHide);
     })();
-  })();</script> <script type="module" src="/_astro/_...date_.astro_astro_type_script_index_0_lang.DDLbzPrL.js"></script>   </main> <footer class="site-footer"> <div class="container footer-inner"> <p>Powered by Ovi English School</p> <p>&copy; 2026 Ovi English School</p> </div> </footer> <astro-island uid="Dnwm" component-url="/_astro/VocabPopup.DRsgaQ4Q.js" component-export="default" renderer-url="/_astro/client.CEXevKdI.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;VocabPopup&quot;,&quot;value&quot;:true}"></astro-island> <script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><astro-island uid="Z1aRs12" component-url="/_astro/AdminReporter.BdOM3Bt8.js" component-export="default" renderer-url="/_astro/client.CEXevKdI.js" props="{}" ssr client="idle" opts="{&quot;name&quot;:&quot;AdminReporter&quot;,&quot;value&quot;:true}"></astro-island> </body></html>
+  })();</script> <script type="module" src="/_astro/_...date_.astro_astro_type_script_index_0_lang.DDLbzPrL.js"></script> <script type="module" src="/_astro/_...date_.astro_astro_type_script_index_1_lang.DUT-FJX4.js"></script>   </main> <footer class="site-footer"> <div class="container footer-inner"> <p>Powered by Ovi English School</p> <p>&copy; 2026 Ovi English School</p> </div> </footer> <astro-island uid="Dnwm" component-url="/_astro/VocabPopup.DRsgaQ4Q.js" component-export="default" renderer-url="/_astro/client.CEXevKdI.js" props="{}" ssr client="load" opts="{&quot;name&quot;:&quot;VocabPopup&quot;,&quot;value&quot;:true}"></astro-island> <script>(()=>{var l=(n,t)=>{let i=async()=>{await(await n())()},e=typeof t.value=="object"?t.value:void 0,s={timeout:e==null?void 0:e.timeout};"requestIdleCallback"in window?window.requestIdleCallback(i,s):setTimeout(i,s.timeout||200)};(self.Astro||(self.Astro={})).idle=l;window.dispatchEvent(new Event("astro:idle"));})();</script><astro-island uid="Z1aRs12" component-url="/_astro/AdminReporter.BdOM3Bt8.js" component-export="default" renderer-url="/_astro/client.CEXevKdI.js" props="{}" ssr client="idle" opts="{&quot;name&quot;:&quot;AdminReporter&quot;,&quot;value&quot;:true}"></astro-island> </body></html>
