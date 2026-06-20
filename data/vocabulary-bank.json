@@ -2098,7 +2098,8 @@
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-17-getting-a-library-card",
-      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants"
+      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -2154,6 +2155,13 @@
         "episodeId": "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
         "sentence": "[PRACTICE] QUESTION 1: What problem is kidney xenotransplantation trying to address?",
         "contextMeaning": "Here, \"address\" means try to solve or fix a problem",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "In rural areas, English signs may be limited, so save your hotel address and rental shop address.",
+        "contextMeaning": "Here, \"address\" means the name and place of your hotel or rental shop to find it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -4703,7 +4711,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -4718,6 +4727,13 @@
         "sentence": "Sober means not using alcohol or drugs.",
         "contextMeaning": "Here, \"alcohol\" means a drink that can make people drunk",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Do not drink alcohol before driving.",
+        "contextMeaning": "Here, \"alcohol\" means do not drink alcohol before driving in Japan",
+        "source": "codex_focused_practical_popup_repair",
         "confidence": "trusted"
       }
     ]
@@ -20085,6 +20101,75 @@
       }
     ]
   },
+  "booklet": {
+    "word": "booklet",
+    "definition": "A small paper book",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Many visitors need a booklet-type International Driving Permit from the 1949 Geneva Convention.",
+        "contextMeaning": "Here, \"booklet\" means the IDP is a paper booklet, not a phone card",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "booklet type": {
+    "word": "booklet type",
+    "definition": "A small paper book form",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Many visitors need a booklet-type International Driving Permit from the 1949 Geneva Convention.",
+        "contextMeaning": "Here, \"booklet type\" means japan accepts a booklet-type permit, not a phone version",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "booklet-type": {
+    "word": "booklet-type",
+    "definition": "In the form of a small paper book",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Many visitors need a booklet-type International Driving Permit from the 1949 Geneva Convention.",
+        "contextMeaning": "Here, \"booklet-type\" means the permit should be a paper booklet, not only a card or phone version",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "books": {
     "word": "books",
     "definition": "A set of pages you read",
@@ -26725,7 +26810,8 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -26767,6 +26853,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Cash has not disappeared, so prepare tap-and-go payments, phone wallets, clear receipts, visible surcharge information, and cash as an extra option.",
         "contextMeaning": "Here, \"cash\" means money you can hold that is not on cards or phones",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Ask if the car has ETC, a toll card system, or if you should pay in cash.",
+        "contextMeaning": "Here, \"cash\" means money you pay by hand for tolls on the road",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -44280,7 +44373,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -44344,6 +44438,13 @@
         "sentence": "A traveler buys a SIM card at an airport phone counter.",
         "contextMeaning": "Here, \"counter\" means place in airport to buy a SIM card",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "At the rental counter, staff may also check your passport and entry stamp.",
+        "contextMeaning": "Here, \"counter\" means the rental counter is the desk where staff check your car booking and documents",
+        "source": "codex_focused_practical_popup_repair",
         "confidence": "trusted"
       }
     ]
@@ -44712,6 +44813,29 @@
       "episode-2026-05-21-a2-work-schedule-change"
     ],
     "contexts": []
+  },
+  "coverage": {
+    "word": "coverage",
+    "definition": "Protection in an insurance plan",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "You can add extra coverage for accidents.",
+        "contextMeaning": "Here, \"coverage\" means extra coverage can help pay for accident problems",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
   },
   "covered": {
     "word": "covered",
@@ -45900,6 +46024,29 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "The hero becomes heroic only by crossing a border between safe life and the unknown.",
         "contextMeaning": "Here, \"crossing\" means going past the border from safe to unknown",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "crossings": {
+    "word": "crossings",
+    "definition": "Places where you go across roads or tracks",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "At railroad crossings, stop and check both ways.",
+        "contextMeaning": "Here, \"crossings\" means places where the road crosses train tracks, so you must stop",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -50406,6 +50553,52 @@
         "sentence": "It has a denser texture.",
         "contextMeaning": "Here, \"denser\" means thicker or heavier, with less air inside",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dent": {
+    "word": "dent",
+    "definition": "A small pushed-in mark",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Check scratches and dents, and take photos if the company allows it.",
+        "contextMeaning": "Here, \"dent\" means a small pushed-in place on the car",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "dents": {
+    "word": "dents",
+    "definition": "Small holes or pushed-in parts on something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Check scratches and dents, and take photos if the company allows it.",
+        "contextMeaning": "Here, \"dents\" means small pushed-in parts on the car to look for damage",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -55354,7 +55547,8 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -55396,6 +55590,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Preferential treatment may apply, so a customs broker should check the product and documents.",
         "contextMeaning": "Here, \"documents\" means papers that show details about the product for customs",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "If you want to drive in Japan as a tourist, check your driving documents before you travel.",
+        "contextMeaning": "Here, \"documents\" means papers you need to drive in Japan as a visitor",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -69142,6 +69343,52 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "A detailed face can be expressive, but it can also be narrow.",
         "contextMeaning": "Here, \"expressive\" means a face that shows feelings but can be limited",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "expressway": {
+    "word": "expressway",
+    "definition": "A fast road that often has tolls",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "On expressways, you pay tolls.",
+        "contextMeaning": "Here, \"expressway\" means an expressway may need a toll payment",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "expressways": {
+    "word": "expressways",
+    "definition": "Big roads where cars go fast",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "On expressways, you pay tolls.",
+        "contextMeaning": "Here, \"expressways\" means big fast roads where you pay money to drive",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -96705,7 +96952,8 @@
     "episodes": [
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -96727,6 +96975,13 @@
         "sentence": "The company may need to check product standards, wind-load requirements, installation methods, warranties, insurance, shipping weight, customs classification, installer training, and Queensland contractor licensing.",
         "contextMeaning": "Here, \"insurance\" means protection the company needs for problems or damage",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Ask about insurance, the return time, and the fuel rule.",
+        "contextMeaning": "Here, \"insurance\" means risa asks what insurance is included",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -97498,6 +97753,29 @@
         "sentence": "Eurovision is a huge international TV music contest.",
         "contextMeaning": "Here, \"international\" means involving people or things from more than one country",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "international driving permit": {
+    "word": "international driving permit",
+    "definition": "A travel driving document used with a license",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Many visitors need a booklet-type International Driving Permit from the 1949 Geneva Convention.",
+        "contextMeaning": "Here, \"international driving permit\" means risa shows her International Driving Permit",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -105541,6 +105819,29 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "But they need separate budgets, contracts, licences, and plans.",
         "contextMeaning": "Here, \"licences\" means official papers needed for business plans and contracts",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "license": {
+    "word": "license",
+    "definition": "A paper that says you can drive a car",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Some visitors from places such as Germany, France, Switzerland, Belgium, Monaco, and Taiwan use their own license with an official Japanese translation.",
+        "contextMeaning": "Here, \"license\" means the visitor’s own paper to drive from their country",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -123898,13 +124199,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "Would you accept camera-equipped AI glasses in public spaces if they offered excellent translation and navigation?",
         "contextMeaning": "Here, \"navigation\" means helping people know where to go or how to move",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "For navigation, ask for an English or foreign-language car navigation system.",
+        "contextMeaning": "Here, \"navigation\" means using a car system to help you find the road or place",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -134146,7 +134455,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
-      "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life"
+      "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -134168,6 +134478,36 @@
         "sentence": "If scientists detect amino acids or salts, they need to know whether those chemicals came from space or from a parking lot, a desert, a lab bench, or a handling tool.",
         "contextMeaning": "Here, \"parking\" means a place where cars are left outside",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Parking can be difficult in busy cities, so look for a real parking lot.",
+        "contextMeaning": "Here, \"parking\" means parking should be in a real parking lot",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "parking lot": {
+    "word": "parking lot",
+    "definition": "A place where you can leave a car",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Parking can be difficult in busy cities, so look for a real parking lot.",
+        "contextMeaning": "Here, \"parking lot\" means safer than street parking",
+        "source": "codex_focused_practical_popup_repair",
         "confidence": "trusted"
       }
     ]
@@ -135136,7 +135476,8 @@
       "episode-2026-05-21-a1-hotel-check-in",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
       "episode-2026-06-17-checking-in-at-a-hotel",
-      "episode-2026-06-17-getting-a-library-card"
+      "episode-2026-06-17-getting-a-library-card",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -135164,6 +135505,13 @@
         "episodeId": "episode-2026-06-17-getting-a-library-card",
         "sentence": "I can show my passport.",
         "contextMeaning": "Here, \"passport\" means an ID you can show to prove who you are",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "At the rental counter, staff may also check your passport and entry stamp.",
+        "contextMeaning": "Here, \"passport\" means the paper staff look at to know you can enter Japan",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -137686,7 +138034,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast"
+      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -137694,6 +138043,13 @@
         "sentence": "licence or permit",
         "contextMeaning": "Here, \"permit\" means official permission to do something",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Many visitors need a booklet-type International Driving Permit from the 1949 Geneva Convention.",
+        "contextMeaning": "Here, \"permit\" means a special paper to allow driving in Japan for visitors",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -149505,6 +149861,29 @@
       }
     ]
   },
+  "railroad crossing": {
+    "word": "railroad crossing",
+    "definition": "A place where a road crosses train tracks",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "At railroad crossings, stop and check both ways.",
+        "contextMeaning": "Here, \"railroad crossing\" means drivers stop and check both ways at railroad crossings",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "rain": {
     "word": "rain",
     "definition": "Water that falls from clouds",
@@ -151427,7 +151806,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-17-buying-a-sim-card-at-the-airport"
+      "episode-2026-06-17-buying-a-sim-card-at-the-airport",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -151477,6 +151857,13 @@
         "sentence": "Paying and Keeping the Receipt After the phone works, the traveler pays.",
         "contextMeaning": "Here, \"receipt\" means the worker gives a receipt",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Keep the receipt, arrive before the return time, and ask staff to check the car.",
+        "contextMeaning": "Here, \"receipt\" means the paper you keep to show you paid and rented the car",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -152808,6 +153195,29 @@
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "You can say: \"Less air means the flavor is packed into each scoop, so every bite feels thicker.\" Why would people build a cold dessert tradition long before modern refrigerators?",
         "contextMeaning": "Here, \"refrigerators\" means modern machines that keep food cold for a long time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "refuel": {
+    "word": "refuel",
+    "definition": "Put more fuel or gas into a car",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Before returning the car, refuel if the rule says full tank.",
+        "contextMeaning": "Here, \"refuel\" means fill the car with gas before giving it back if the rule says so",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -154829,6 +155239,29 @@
       }
     ]
   },
+  "rent a car": {
+    "word": "rent a car",
+    "definition": "Pay to use a car for a short time",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "If you want to drive in Japan as a tourist, check your driving documents before you travel.",
+        "contextMeaning": "Here, \"rent a car\" means risa rents a car for two days",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "rental": {
     "word": "rental",
     "definition": "Using something for some time and paying for it",
@@ -154840,13 +155273,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
         "sentence": "Learn how bike rental works, how to check safety, and how to ask where to return the bike.",
         "contextMeaning": "Here, \"rental\" means the process of paying to use a bike for a short time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "At the rental counter, staff may also check your passport and entry stamp.",
+        "contextMeaning": "Here, \"rental\" means the place where you get a car to use for a short time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -156378,9 +156819,18 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-hotel-check-in"
+      "episode-2026-05-21-a1-hotel-check-in",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "At the counter, give your name, reservation number, passport, and driving documents.",
+        "contextMeaning": "Here, \"reservation\" means a number that shows your saved car or service at the counter",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
   },
   "reserve": {
     "word": "reserve",
@@ -157655,6 +158105,29 @@
         "sentence": "Some libraries have a return box.",
         "contextMeaning": "Here, \"return box\" means people can use the return box",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "return time": {
+    "word": "return time",
+    "definition": "The time when you must bring something back",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Keep the receipt, arrive before the return time, and ask staff to check the car.",
+        "contextMeaning": "Here, \"return time\" means the return time is when the car must be back at the shop",
+        "source": "codex_focused_practical_popup_repair",
         "confidence": "trusted"
       }
     ]
@@ -161635,7 +162108,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what"
+      "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -161643,6 +162117,13 @@
         "sentence": "In rural areas, people may choose dogs for hunting, farm work, guarding, or outdoor activity.",
         "contextMeaning": "Here, \"rural\" means areas far from cities where people work on farms",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Book the car early, especially in rural areas or during holidays.",
+        "contextMeaning": "Here, \"rural\" means a rural area may have fewer rental cars or fewer English signs",
+        "source": "codex_focused_practical_popup_repair",
         "confidence": "trusted"
       }
     ]
@@ -165144,7 +165625,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-why-cats-act-so-strange"
+      "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -165152,6 +165634,36 @@
         "sentence": "Give it safe ways to climb, scratch, hide, chase, and think.",
         "contextMeaning": "Here, \"scratch\" means to use their claws on surfaces, like a scratching post",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Check scratches and dents, and take photos if the company allows it.",
+        "contextMeaning": "Here, \"scratch\" means a small line or mark on the car",
+        "source": "codex_focused_practical_popup_repair",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "scratches": {
+    "word": "scratches",
+    "definition": "Small lines or marks on something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Check scratches and dents, and take photos if the company allows it.",
+        "contextMeaning": "Here, \"scratches\" means small marks on the car's surface to check for damage",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -165765,6 +166277,29 @@
         "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
         "sentence": "They can check the brakes, seat, tires, and bell.",
         "contextMeaning": "Here, \"seat\" means the seat is too high",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "seat belt": {
+    "word": "seat belt",
+    "definition": "A safety belt in a car",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Everyone must wear a seat belt.",
+        "contextMeaning": "Here, \"seat belt\" means everyone must wear a seat belt",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -198422,6 +198957,52 @@
       }
     ]
   },
+  "toll": {
+    "word": "toll",
+    "definition": "Money paid to use some roads",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "Ask if the car has ETC, a toll card system, or if you should pay in cash.",
+        "contextMeaning": "Here, \"toll\" means eTC helps pay tolls",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tolls": {
+    "word": "tolls",
+    "definition": "Money paid to use some roads",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "On expressways, you pay tolls.",
+        "contextMeaning": "Here, \"tolls\" means eTC helps pay tolls",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "tombs": {
     "word": "tombs",
     "definition": "Houses or places where dead people are kept",
@@ -199365,7 +199946,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -199373,6 +199955,13 @@
         "sentence": "A family restaurant or tourist restaurant may use many photos because it wants customers to understand quickly.",
         "contextMeaning": "Here, \"tourist\" means a restaurant for visitors uses many photos to help them",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "If you want to drive in Japan as a tourist, check your driving documents before you travel.",
+        "contextMeaning": "Here, \"tourist\" means a tourist may drive in Japan with the right documents",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -207158,7 +207747,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-transportation-risa-docx-trial"
+      "episode-2026-05-14-transportation-risa-docx-trial",
+      "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist"
     ],
     "contexts": [
       {
@@ -207166,6 +207756,13 @@
         "sentence": "Station Staff: No, your ticket is still valid.",
         "contextMeaning": "Here, \"valid\" means still okay to use",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
+        "sentence": "It is valid for Japan.",
+        "contextMeaning": "Here, \"valid\" means a valid permit is accepted for driving in Japan",
+        "source": "codex_focused_practical_popup_repair",
         "confidence": "trusted"
       }
     ]
