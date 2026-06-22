@@ -2,25 +2,33 @@
   "personality": {
     "simpleMeaning": "what a person is like",
     "contextMeaning": "Here, \"personality\" means what a person is like.",
-    "sentence": "It fits my personality.",
-    "sourceSentence": "It fits my personality.",
-    "example": "Would Switzerland fit your personality?",
+    "sentence": "A place can look beautiful online, but still be wrong for your real personality.",
+    "sourceSentence": "A place can look beautiful online, but still be wrong for your real personality.",
+    "example": "Choose three words that fit your travel personality today.",
     "source": "authored_final_review"
   },
   "prefer": {
     "simpleMeaning": "like one thing more than another",
     "contextMeaning": "Here, \"prefer\" means like one thing more than another.",
-    "sentence": "Do you prefer a city trip or a nature trip?",
-    "sourceSentence": "Do you prefer a city trip or a nature trip?",
-    "example": "I prefer quiet places.",
+    "sentence": "In summer, I prefer ___.",
+    "sourceSentence": "In summer, I prefer ___.",
+    "example": "I prefer places that are ___.",
+    "source": "authored_final_review"
+  },
+  "mood": {
+    "simpleMeaning": "the feeling of a place or moment",
+    "contextMeaning": "Here, \"mood\" means the feeling of a place or moment.",
+    "sentence": "A different season, budget, travel partner, or mood can change the best match.",
+    "sourceSentence": "A different season, budget, travel partner, or mood can change the best match.",
+    "example": "A different season, budget, travel partner, or mood can change the best match.",
     "source": "authored_final_review"
   },
   "lively": {
     "simpleMeaning": "full of energy and activity",
     "contextMeaning": "Here, \"lively\" means full of energy and activity.",
-    "sentence": "Amsterdam can be lively, but there are also parks and quiet canal views.",
-    "sourceSentence": "Amsterdam can be lively, but there are also parks and quiet canal views.",
-    "example": "Some places are lively and crowded.",
+    "sentence": "calm / lively / organized / adventurous / comfortable / curious / social / independent / creative / practical / romantic / careful.",
+    "sourceSentence": "calm / lively / organized / adventurous / comfortable / curious / social / independent / creative / practical / romantic / careful.",
+    "example": "Some places feel lively and modern.",
     "source": "authored_final_review"
   },
   "peaceful": {
@@ -28,7 +36,7 @@
     "contextMeaning": "Here, \"peaceful\" means quiet and calm.",
     "sentence": "It sounds peaceful.",
     "sourceSentence": "It sounds peaceful.",
-    "example": "Maybe Switzerland fits people who like clean cities, calm lakes, mountain views, trains, and peaceful travel.",
+    "example": "Switzerland may fit someone who likes clean cities, calm lakes, mountain views, trains, and peaceful travel.",
     "source": "authored_final_review"
   },
   "crowded": {
@@ -36,7 +44,7 @@
     "contextMeaning": "Here, \"crowded\" means full of many people.",
     "sentence": "Crowded places make me tired.",
     "sourceSentence": "Crowded places make me tired.",
-    "example": "It can feel romantic and peaceful, but famous places can also be crowded.",
+    "example": "Crowded places make me tired.",
     "source": "authored_final_review"
   },
   "budget": {
@@ -44,15 +52,15 @@
     "contextMeaning": "Here, \"budget\" means money you can spend.",
     "sentence": "It is better for my budget.",
     "sourceSentence": "It is better for my budget.",
-    "example": "You should check your budget.",
+    "example": "You should check your budget and safety.",
     "source": "authored_final_review"
   },
   "organized": {
     "simpleMeaning": "arranged clearly and carefully",
     "contextMeaning": "Here, \"organized\" means arranged clearly and carefully.",
-    "sentence": "It can feel organized and safe, but it is usually expensive, so budget matters.",
-    "sourceSentence": "It can feel organized and safe, but it is usually expensive, so budget matters.",
-    "example": "Relaxing and organized: Switzerland.",
+    "sentence": "calm / lively / organized / adventurous / comfortable / curious / social / independent / creative / practical / romantic / careful.",
+    "sourceSentence": "calm / lively / organized / adventurous / comfortable / curious / social / independent / creative / practical / romantic / careful.",
+    "example": "If your words are calm, organized, and scenic, which place fits?",
     "source": "authored_final_review"
   },
   "modern": {
@@ -60,39 +68,47 @@
     "contextMeaning": "Here, \"modern\" means new or current in style.",
     "sentence": "I like modern cities.",
     "sourceSentence": "I like modern cities.",
-    "example": "Maybe Dubai fits people who like modern buildings, shopping malls, cafes, clean streets, hotels, warm weather, and beautiful night views.",
+    "example": "Dubai may fit someone who likes modern buildings, shopping malls, cafes, hotels, warm weather, clean streets, and bright night views.",
     "source": "authored_final_review"
   },
-  "traditional": {
-    "simpleMeaning": "connected to old customs",
-    "contextMeaning": "Here, \"traditional\" means connected to old customs.",
-    "sentence": "Culture and history: old towns, castles, museums, and traditional food.",
-    "sourceSentence": "Culture and history: old towns, castles, museums, and traditional food.",
-    "example": "Culture and history: old towns, castles, museums, and traditional food.",
+  "historic": {
+    "simpleMeaning": "connected with history",
+    "contextMeaning": "Here, \"historic\" means connected with history.",
+    "sentence": "If your words are modern, exciting, historic, or curious, which place fits?",
+    "sourceSentence": "If your words are modern, exciting, historic, or curious, which place fits?",
+    "example": "Some places feel natural, friendly, historic, colorful, or easy to use.",
     "source": "authored_final_review"
   },
   "multicultural": {
     "simpleMeaning": "including people and food from many cultures",
-    "contextMeaning": "Here, \"multicultural\" means including people and food from many cultures.",
-    "sentence": "Easy English and multicultural food: Toronto.",
-    "sourceSentence": "Easy English and multicultural food: Toronto.",
-    "example": "Easy English and multicultural food: Toronto.",
+    "contextMeaning": "In this lesson, \"multicultural\" means including people and food from many cultures.",
+    "sentence": "In this lesson, \"multicultural\" means including people and food from many cultures.",
+    "sourceSentence": "In this lesson, \"multicultural\" means including people and food from many cultures.",
+    "example": "",
     "source": "authored_final_review"
   },
   "scenery": {
     "simpleMeaning": "beautiful natural views",
-    "contextMeaning": "In this lesson, \"scenery\" means beautiful natural views.",
-    "sentence": "In this lesson, \"scenery\" means beautiful natural views.",
-    "sourceSentence": "In this lesson, \"scenery\" means beautiful natural views.",
-    "example": "",
+    "contextMeaning": "Here, \"scenery\" means beautiful natural views.",
+    "sentence": "Maybe you need a good cafe, clean streets, a quiet hotel, beautiful scenery, easy trains, good food, free time, or a place to practise English.",
+    "sourceSentence": "Maybe you need a good cafe, clean streets, a quiet hotel, beautiful scenery, easy trains, good food, free time, or a place to practise English.",
+    "example": "Maybe you need a good cafe, clean streets, a quiet hotel, beautiful scenery, easy trains, good food, free time, or a place to practise English.",
     "source": "authored_final_review"
   },
-  "fit": {
-    "simpleMeaning": "be right for someone",
-    "contextMeaning": "Here, \"fit\" means be right for someone.",
-    "sentence": "A travel place can look beautiful, but it still needs to fit your real life.",
-    "sourceSentence": "A travel place can look beautiful, but it still needs to fit your real life.",
-    "example": "Would Switzerland fit your personality?",
+  "match": {
+    "simpleMeaning": "something that fits well",
+    "contextMeaning": "Here, \"match\" means something that fits well.",
+    "sentence": "This is a conversation match, not travel advice.",
+    "sourceSentence": "This is a conversation match, not travel advice.",
+    "example": "What is your best match today?",
+    "source": "authored_final_review"
+  },
+  "advice": {
+    "simpleMeaning": "an idea that helps someone choose",
+    "contextMeaning": "Here, \"advice\" means an idea that helps someone choose.",
+    "sentence": "This is a conversation match, not travel advice.",
+    "sourceSentence": "This is a conversation match, not travel advice.",
+    "example": "This is only a fun match, not travel advice.",
     "source": "authored_final_review"
   }
 }
