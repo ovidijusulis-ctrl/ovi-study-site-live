@@ -9792,6 +9792,29 @@
       }
     ]
   },
+  "asia": {
+    "word": "asia",
+    "definition": "A large part of the world",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "It is in Asia.",
+        "contextMeaning": "Here, \"asia\" means south Korea is in Asia",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "asian": {
     "word": "asian",
     "definition": "From the continent called Asia",
@@ -14296,6 +14319,29 @@
         "sentence": "A train ride or a few hours by car can move you from a business city to a quiet hill town, from a museum street to a beach, or from mountains to the sea.",
         "contextMeaning": "Here, \"beach\" means land next to the sea",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "beaches": {
+    "word": "beaches",
+    "definition": "Land next to the sea",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "There are also mountains, small towns, parks, beaches, and quiet roads.",
+        "contextMeaning": "Here, \"beaches\" means land next to the sea",
+        "source": "operator_manual_popup_support_2026_06_22",
         "confidence": "trusted"
       }
     ]
@@ -33880,7 +33926,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -33956,6 +34003,13 @@
       {
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "The more power a system has, the clearer human responsibility must be.",
+        "contextMeaning": "Here, \"clearer\" means easier to understand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "This is clearer than saying only, \"Seoul is famous.\"",
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -46471,7 +46525,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -46512,6 +46567,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "it official region and city/travel pages; Italian Ministry of Foreign Affairs cultural material on Italy's regions; general geography facts about Italy's northern mountains, long coastline, Sicily, Sardinia, Rome, and major cities.",
+        "contextMeaning": "Here, \"cultural\" means about how people live and think",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "Useful Speaking Patterns Source checks used for factual details: official national overview; VisitKorea place pages; Korean Cultural Center and Ministry of Culture material on Hangeul; Britannica pages for the country and Seoul; World Factbook/OpenFactBook city and population context.",
         "contextMeaning": "Here, \"cultural\" means about how people live and think",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -52123,7 +52185,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -52230,6 +52293,13 @@
         "contextMeaning": "Here, \"detail\" means local detail makes a place clearer",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "Real study starts when we look at local details.",
+        "contextMeaning": "Here, \"detail\" means a small part that helps you understand",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -52303,7 +52373,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -52451,6 +52522,13 @@
         "sentence": "Useful Speaking Patterns Source checks used for factual details: Italia.",
         "contextMeaning": "Here, \"details\" means local detail makes a place clearer",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "Real study starts when we look at local details.",
+        "contextMeaning": "Here, \"details\" means small parts that help you understand",
+        "source": "operator_manual_popup_support_2026_06_22",
         "confidence": "trusted"
       }
     ]
@@ -75650,7 +75728,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
-      "episode-2026-06-03-shopping-at-a-supermarket"
+      "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -75665,6 +75744,13 @@
         "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
         "contextMeaning": "Here, \"fish\" means an animal from water, also eaten as food",
         "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "This map helps explain why ports, islands, and fish from the sea are important in some places.",
+        "contextMeaning": "Here, \"fish\" means an animal that lives in water",
+        "source": "operator_manual_popup_support_2026_06_22",
         "confidence": "trusted"
       }
     ]
@@ -113715,7 +113801,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -113758,6 +113845,13 @@
         "sentence": "The Map Changes Quickly Italy is in Southern Europe.",
         "contextMeaning": "Here, \"map\" means a drawing that shows where places are",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "This map helps explain why ports, islands, and fish from the sea are important in some places.",
+        "contextMeaning": "Here, \"map\" means a picture that shows places",
+        "source": "operator_manual_popup_support_2026_06_22",
         "confidence": "trusted"
       }
     ]
@@ -122336,7 +122430,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -122351,6 +122446,13 @@
         "sentence": "The north has mountains and busy cities.",
         "contextMeaning": "Here, \"mountains\" means very high land",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "The country has big cities, mountains, islands, markets, schools, homes, and old places.",
+        "contextMeaning": "Here, \"mountains\" means very high land",
+        "source": "operator_manual_popup_support_2026_06_22",
         "confidence": "trusted"
       }
     ]
@@ -134480,6 +134582,29 @@
       }
     ]
   },
+  "palaces": {
+    "word": "palaces",
+    "definition": "A large old home for a king",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "The same visitor can also see palaces, old gates, markets, and small streets.",
+        "contextMeaning": "Here, \"palaces\" means seoul has old palaces",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "panel": {
     "word": "panel",
     "definition": "A part of a screen or board",
@@ -137485,6 +137610,29 @@
         "sentence": "If a radio signal is like a wide flashlight, a deep space laser is closer to a pencil-thin beam aimed across a continent while both target and sender are moving.",
         "contextMeaning": "Here, \"pencil-thin\" means a laser beam that is very narrow and small across a big area",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "peninsula": {
+    "word": "peninsula",
+    "definition": "Land with water on three sides",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "It is on the south part of the Korean Peninsula.",
+        "contextMeaning": "Here, \"peninsula\" means land with water on three sides",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -142899,6 +143047,29 @@
         "sentence": "With a broad fund, one company can fail and the whole portfolio may still survive.",
         "contextMeaning": "Here, \"portfolio\" means all the investments kept together",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ports": {
+    "word": "ports",
+    "definition": "A place for boats by the water",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "This map helps explain why ports, islands, and fish from the sea are important in some places.",
+        "contextMeaning": "Here, \"ports\" means busan has an important port",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -171495,7 +171666,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -171557,6 +171729,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "A normal walk can pass a cafe, a small shop, and a very old wall.",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "Many people work, study, shop, and travel there every day.",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -171688,7 +171867,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -171736,6 +171916,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "A piazza is an open public square, often near shops, cafes, or old buildings.",
+        "contextMeaning": "Here, \"shops\" means a place where you buy things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "A visitor can see high buildings, shops, and trains.",
         "contextMeaning": "Here, \"shops\" means a place where you buy things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -203567,7 +203754,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -203582,6 +203770,13 @@
         "sentence": "Part 3: Use Digital Tools Carefully Research used to mean long trips and thick reports.",
         "contextMeaning": "Here, \"trips\" means a journey to another place",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "Many people go there for trips.",
+        "contextMeaning": "Here, \"trips\" means visits to another place",
+        "source": "operator_manual_popup_support_2026_06_22",
         "confidence": "trusted"
       }
     ]
@@ -207382,6 +207577,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places",
       "episode-2026-06-22-table-tennis-game-and-great-players"
     ],
     "contexts": [
@@ -207731,6 +207927,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "This is useful for learners and travelers.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "This old and new life is useful to talk about.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -210355,7 +210558,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-17-getting-a-library-card"
+      "episode-2026-06-17-getting-a-library-card",
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
       {
@@ -210363,6 +210567,13 @@
         "sentence": "The visitor fills in a form or gives the information at the desk.",
         "contextMeaning": "Here, \"visitor\" means a person who comes to a place",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+        "sentence": "A visitor can see high buildings, shops, and trains.",
+        "contextMeaning": "Here, \"visitor\" means a person who goes to a place for a short",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -218815,6 +219026,21 @@
         "confidence": "trusted"
       }
     ]
+  },
+  "writing system": {
+    "word": "writing system",
+    "definition": "A way to write a language",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
+    ],
+    "contexts": []
   },
   "written": {
     "word": "written",
