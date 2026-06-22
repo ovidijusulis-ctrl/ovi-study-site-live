@@ -33880,8 +33880,7 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-22-table-tennis-game-and-great-players"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
     ],
     "contexts": [
       {
@@ -33957,13 +33956,6 @@
       {
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "The more power a system has, the clearer human responsibility must be.",
-        "contextMeaning": "Here, \"clearer\" means easier to understand",
-        "source": "popup_support_router/producer_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
-        "sentence": "Later, clubs, better equipment, and clearer rules made the game more serious.",
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -49791,7 +49783,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing"
+      "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
+      "episode-2026-06-22-table-tennis-game-and-great-players"
     ],
     "contexts": [
       {
@@ -49799,6 +49792,13 @@
         "sentence": "How would school change if students could use AI agents, but had to explain and defend their final work?",
         "contextMeaning": "Here, \"defend\" means explain and give reasons for your work",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
+        "sentence": "In Tokyo 2020, he became the first man to defend an Olympic singles title in table tennis.",
+        "contextMeaning": "Here, \"defend\" means she defends very calmly",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -77626,7 +77626,7 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
-        "sentence": "Players repeat serves, returns, footwork, balance, body position, and difficult moments again and again.",
+        "sentence": "Players repeat serves, receives, returns, footwork, balance, body position, and difficult pressure moments again and again.",
         "contextMeaning": "Here, \"footwork\" means fast footwork helps the player reach the ball",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -109189,7 +109189,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-22-table-tennis-game-and-great-players"
     ],
     "contexts": [
       {
@@ -109202,6 +109203,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Her name is Kitty White, her birthday is November 1, and she is described as being from the suburbs of London, England.",
+        "contextMeaning": "Here, \"london\" means a city in England",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
+        "sentence": "In the same year, the first World Championships, the biggest world title event, were held in London.",
         "contextMeaning": "Here, \"london\" means a city in England",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -130125,9 +130133,32 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
-        "sentence": "In 1988, table tennis joined the Olympic Games.",
+        "sentence": "In 1988, table tennis joined the Olympic Games in Seoul, South Korea.",
         "contextMeaning": "Here, \"olympic\" means table tennis became an Olympic sport in 1988",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "olympics": {
+    "word": "olympics",
+    "definition": "Connected to the Olympic Games",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-table-tennis-game-and-great-players"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
+        "sentence": "1 for 11-point games and the two-point lead; Olympics Seoul 1988 table tennis results for Olympic debut context; Olympics athlete/result pages for Jan-Ove Waldner, Deng Yaping, and Ma Long.",
+        "contextMeaning": "Here, \"olympics\" means table tennis became an Olympic sport in 1988",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -152570,7 +152601,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-the-hero-story-in-greek-myth"
+      "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-22-table-tennis-game-and-great-players"
     ],
     "contexts": [
       {
@@ -152578,6 +152610,13 @@
         "sentence": "Perseus receives divine tools before facing Medusa.",
         "contextMeaning": "Here, \"receives\" means perseus gets special tools from gods before the fight",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
+        "sentence": "Players repeat serves, receives, returns, footwork, balance, body position, and difficult pressure moments again and again.",
+        "contextMeaning": "Here, \"receives\" means her receive is low and safe",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -163348,7 +163387,7 @@
       },
       {
         "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
-        "sentence": "If the return is low and safe, the point may become longer and more about thinking.",
+        "sentence": "If the receive is low and safe, the point may become longer and more about thinking.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -169413,7 +169452,7 @@
       },
       {
         "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
-        "sentence": "Players repeat serves, returns, footwork, balance, body position, and difficult moments again and again.",
+        "sentence": "Players repeat serves, receives, returns, footwork, balance, body position, and difficult pressure moments again and again.",
         "contextMeaning": "Here, \"serves\" means the serve starts the point",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
@@ -170467,7 +170506,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-22-table-tennis-game-and-great-players"
     ],
     "contexts": [
       {
@@ -170508,6 +170548,13 @@
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "A partner-led pilot means the Australian partner runs a small test, such as a pop-up, market stall, or shared cafe event.",
+        "contextMeaning": "Here, \"shared\" means used by more than one",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
+        "sentence": "This gave the sport a shared rule group.",
         "contextMeaning": "Here, \"shared\" means used by more than one",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -201710,6 +201757,21 @@
       }
     ]
   },
+  "training base": {
+    "word": "training base",
+    "definition": "A group of players and coaches who train together",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-22-table-tennis-game-and-great-players"
+    ],
+    "contexts": []
+  },
   "trains": {
     "word": "trains",
     "definition": "A long vehicle that runs on tracks",
@@ -212420,7 +212482,7 @@
       },
       {
         "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
-        "sentence": "Table Tennis: Why the Small Game Is So Deep Warm-Up Questions 1.",
+        "sentence": "Warm-Up Questions Introduction Table tennis can look simple from far away.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
