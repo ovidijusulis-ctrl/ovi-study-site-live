@@ -122,6 +122,7 @@ function fallbackResponse() {
 self.addEventListener("install", (event) => {
   event.waitUntil(caches.open(CACHE_NAME));
 });
+
 self.addEventListener("activate", (event) => {
   event.waitUntil((async () => {
     const keys = await caches.keys();
@@ -192,3 +193,4 @@ self.addEventListener("fetch", (event) => {
     })());
   }
 });
+
