@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-06-17T04:27:53.812Z",
+  "generatedAt": "2026-06-10T14:52:17.920Z",
   "latestRunType": "visual_probe",
-  "latestRunAt": "2026-06-17T04:27:53.800Z",
-  "reportPath": "/Users/ovi/Downloads/Trying things/ovi-english-school/logs/site-visual-feedback/2026-06-17T04-26-28/report.md",
-  "jsonPath": "/Users/ovi/Downloads/Trying things/ovi-english-school/logs/site-visual-feedback/2026-06-17T04-26-28/report.json",
+  "latestRunAt": "2026-06-10T14:52:17.898Z",
+  "reportPath": "/Users/ovi/Downloads/Trying things/ovi-english-school/logs/site-visual-feedback/2026-06-10T14-51-16/report.md",
+  "jsonPath": "/Users/ovi/Downloads/Trying things/ovi-english-school/logs/site-visual-feedback/2026-06-10T14-51-16/report.json",
   "status": "ready",
   "summary": {
-    "modelCount": 5,
-    "passCount": 2,
-    "totalCostUsd": 0.014649,
+    "modelCount": 1,
+    "passCount": 1,
+    "totalCostUsd": 0.00209,
     "keptIssues": 0,
     "droppedIssues": 0,
     "issueCount": 0
   },
-  "recommendedModel": "google/gemini-3.1-flash-lite",
+  "recommendedModel": "qwen/qwen3-vl-32b-instruct",
   "modelRoles": {
     "primaryVisualReviewer": "qwen/qwen3-vl-32b-instruct",
     "cheapSecondPass": "qwen/qwen3-vl-8b-instruct",
@@ -36,59 +36,15 @@
   },
   "models": [
     {
-      "model": "google/gemini-3.1-flash-lite",
-      "role": "back_and_forth_adjudicator",
+      "model": "qwen/qwen3-vl-32b-instruct",
+      "role": "cheap_baseline_visual_reviewer",
       "status": "pass",
-      "score": 69,
-      "costUsd": 0.001801,
-      "latencyMs": 4122,
-      "keptIssues": 3,
+      "score": 85,
+      "costUsd": 0.00209,
+      "latencyMs": 16793,
+      "keptIssues": 5,
       "droppedIssues": 0,
       "parseReliability": "strong"
-    },
-    {
-      "model": "google/gemini-3.1-pro-preview",
-      "role": "demoted_parse_retest_only",
-      "status": "pass",
-      "score": 65,
-      "costUsd": 0.012848,
-      "latencyMs": 7694,
-      "keptIssues": 2,
-      "droppedIssues": 0,
-      "parseReliability": "partial_visible_json"
-    },
-    {
-      "model": "google/gemini-3.5-flash",
-      "role": "selective_high_level_retest_only",
-      "status": "fail",
-      "score": 0,
-      "costUsd": 0,
-      "latencyMs": 18369,
-      "keptIssues": 0,
-      "droppedIssues": 0,
-      "parseReliability": "truncated_json_seen"
-    },
-    {
-      "model": "~google/gemini-pro-latest",
-      "role": "catalog_candidate",
-      "status": "fail",
-      "score": 0,
-      "costUsd": 0,
-      "latencyMs": 10899,
-      "keptIssues": 0,
-      "droppedIssues": 0,
-      "parseReliability": "unprobed"
-    },
-    {
-      "model": "~google/gemini-flash-latest",
-      "role": "catalog_candidate",
-      "status": "fail",
-      "score": 0,
-      "costUsd": 0,
-      "latencyMs": 6355,
-      "keptIssues": 0,
-      "droppedIssues": 0,
-      "parseReliability": "unprobed"
     }
   ],
   "issues": [],
