@@ -1,0 +1,1 @@
+import{s as e}from"./signals.module.Den5VCTh.js";export{e as signal};
