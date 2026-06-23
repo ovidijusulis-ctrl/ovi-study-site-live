@@ -210,10 +210,10 @@
     .stage {
       align-content: center;
       display: grid;
-      gap: 26px;
+      gap: clamp(16px, 2.8vh, 24px);
       margin: 0 auto;
       max-width: 1180px;
-      padding: 42px 0;
+      padding: 26px 0 20px;
       width: 100%;
     }
 
@@ -235,9 +235,9 @@
     }
 
     .intro h1 {
-      font-size: clamp(3rem, 7vw, 6.8rem);
+      font-size: clamp(3rem, 6.2vw, 5.7rem);
       font-weight: 860;
-      line-height: 0.9;
+      line-height: 0.92;
       margin: 0;
       text-wrap: balance;
     }
@@ -257,7 +257,7 @@
     }
 
     .choice {
-      align-content: end;
+      align-content: center;
       background:
         linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.03)),
         var(--panel);
@@ -266,7 +266,7 @@
       color: var(--ink);
       display: grid;
       gap: 13px;
-      min-height: clamp(236px, 34vh, 380px);
+      min-height: clamp(310px, 43vh, 430px);
       overflow: hidden;
       padding: clamp(18px, 3vw, 34px);
       position: relative;
@@ -467,8 +467,9 @@
       }
 
       .stage {
-        gap: 18px;
-        padding: 24px 0 20px;
+        align-content: start;
+        gap: 15px;
+        padding: 26px 0 16px;
       }
 
       .intro {
@@ -478,7 +479,8 @@
       }
 
       .intro h1 {
-        font-size: clamp(3.2rem, 17vw, 4.6rem);
+        font-size: clamp(2.72rem, 13vw, 3.55rem);
+        line-height: 0.94;
       }
 
       .choices {
@@ -486,7 +488,8 @@
       }
 
       .choice {
-        min-height: 190px;
+        gap: 10px;
+        min-height: 172px;
       }
 
       .choice-title {
@@ -509,11 +512,11 @@
       }
 
       .intro h1 {
-        font-size: 3rem;
+        font-size: 2.72rem;
       }
 
       .choice {
-        min-height: 176px;
+        min-height: 166px;
         padding: 18px;
       }
 
@@ -558,8 +561,8 @@
         <section class="stage" aria-labelledby="portal-title">
           <div class="intro">
             <div class="eyebrow">Scan result</div>
-            <h1 id="portal-title">Choose your door.</h1>
-            <p>One address. Two separate services.</p>
+            <h1 id="portal-title">Choose one.</h1>
+            <p>English school or photo studio.</p>
           </div>
 
           <nav class="choices" aria-label="Choose a service">
