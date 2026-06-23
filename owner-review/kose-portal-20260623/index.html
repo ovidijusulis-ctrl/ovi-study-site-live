@@ -152,8 +152,25 @@
       pointer-events: none;
       position: absolute;
       transform: translateX(-50%);
+      transition: left 560ms cubic-bezier(0.16, 1, 0.3, 1);
       width: 1px;
       z-index: 2;
+    }
+
+    body[data-hover="english"]:not(.is-routing) .split-mark {
+      left: 81%;
+    }
+
+    body[data-hover="studio"]:not(.is-routing) .split-mark {
+      left: 19%;
+    }
+
+    body.is-routing[data-choice="english"] .split-mark {
+      left: 89%;
+    }
+
+    body.is-routing[data-choice="studio"] .split-mark {
+      left: 11%;
     }
 
     .shell {
@@ -210,16 +227,16 @@
     .stage {
       align-content: center;
       display: grid;
-      gap: clamp(16px, 2.8vh, 24px);
+      gap: clamp(14px, 2.4vh, 20px);
       margin: 0 auto;
-      max-width: 1180px;
-      padding: 26px 0 20px;
+      max-width: none;
+      padding: 16px 0 14px;
       width: 100%;
     }
 
     .intro {
       display: grid;
-      gap: 12px;
+      gap: 9px;
       justify-self: center;
       max-width: 660px;
       text-align: center;
@@ -235,7 +252,7 @@
     }
 
     .intro h1 {
-      font-size: clamp(3rem, 6.2vw, 5.7rem);
+      font-size: clamp(2.8rem, 5.4vw, 4.9rem);
       font-weight: 860;
       line-height: 0.92;
       margin: 0;
@@ -251,9 +268,12 @@
     }
 
     .choices {
-      display: grid;
-      gap: 12px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      display: flex;
+      gap: 0;
+      height: clamp(410px, 63vh, 570px);
+      margin-left: -18px;
+      margin-right: -18px;
+      min-width: 0;
     }
 
     .choice {
@@ -261,17 +281,31 @@
       background:
         linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.03)),
         var(--panel);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
+      border: 0;
+      border-radius: 0;
+      box-shadow: inset 0 1px rgba(255, 255, 255, 0.14), inset 0 -1px rgba(255, 255, 255, 0.14);
       color: var(--ink);
       display: grid;
+      flex: 1 1 0;
       gap: 13px;
-      min-height: clamp(310px, 43vh, 430px);
+      min-height: 0;
+      min-width: 0;
       overflow: hidden;
-      padding: clamp(18px, 3vw, 34px);
+      padding: clamp(28px, 5vw, 64px);
       position: relative;
       text-decoration: none;
-      transition: border-color 220ms ease, background 220ms ease, transform 220ms ease, opacity 220ms ease;
+      transition:
+        background 260ms ease,
+        border-color 260ms ease,
+        flex-grow 560ms cubic-bezier(0.16, 1, 0.3, 1),
+        opacity 260ms ease;
+    }
+
+    .choice + .choice {
+      box-shadow:
+        inset 1px 0 rgba(255, 255, 255, 0.16),
+        inset 0 1px rgba(255, 255, 255, 0.14),
+        inset 0 -1px rgba(255, 255, 255, 0.14);
     }
 
     .choice::before {
@@ -293,7 +327,6 @@
         var(--panel-strong);
       border-color: rgba(255, 249, 235, 0.48);
       outline: none;
-      transform: translateY(-4px);
     }
 
     .choice:hover::before,
@@ -302,10 +335,65 @@
       transform: translateX(0);
     }
 
-    body[data-choice="english"] .choice:not(.english),
-    body[data-choice="studio"] .choice:not(.studio) {
-      opacity: 0.34;
-      transform: scale(0.985);
+    body[data-hover="english"]:not(.is-routing) .choice.english,
+    body[data-hover="studio"]:not(.is-routing) .choice.studio,
+    .choices:has(.english:hover) .choice.english,
+    .choices:has(.english:focus-visible) .choice.english,
+    .choices:has(.studio:hover) .choice.studio,
+    .choices:has(.studio:focus-visible) .choice.studio {
+      flex-grow: 2.55;
+    }
+
+    body[data-hover="english"]:not(.is-routing) .choice.studio,
+    body[data-hover="studio"]:not(.is-routing) .choice.english,
+    .choices:has(.english:hover) .choice.studio,
+    .choices:has(.english:focus-visible) .choice.studio,
+    .choices:has(.studio:hover) .choice.english,
+    .choices:has(.studio:focus-visible) .choice.english {
+      flex-grow: 0.56;
+      opacity: 0.78;
+    }
+
+    body[data-choice="english"].is-routing .choice.english,
+    body[data-choice="studio"].is-routing .choice.studio {
+      flex-grow: 4.1;
+    }
+
+    body[data-choice="english"].is-routing .choice.studio,
+    body[data-choice="studio"].is-routing .choice.english {
+      flex-grow: 0.38;
+      opacity: 0.24;
+    }
+
+    body.is-routing[data-choice="english"] .choices .choice.english,
+    body.is-routing[data-choice="studio"] .choices .choice.studio {
+      flex-grow: 4.1 !important;
+      opacity: 1 !important;
+      --content-scale: 1.06;
+      --content-shift: clamp(22px, 7vw, 98px);
+    }
+
+    body.is-routing[data-choice="english"] .choices .choice.studio,
+    body.is-routing[data-choice="studio"] .choices .choice.english {
+      flex-grow: 0.38 !important;
+      opacity: 0.24 !important;
+      padding-left: 22px;
+      padding-right: 22px;
+    }
+
+    body.is-routing[data-choice="english"] .choice.studio .choice-title,
+    body.is-routing[data-choice="studio"] .choice.english .choice-title {
+      font-size: clamp(1.35rem, 2.7vw, 2.35rem);
+      opacity: 0;
+    }
+
+    body.is-routing[data-choice="english"] .choice.studio .choice-brand,
+    body.is-routing[data-choice="english"] .choice.studio .choice-desc,
+    body.is-routing[data-choice="english"] .choice.studio .choice-cta,
+    body.is-routing[data-choice="studio"] .choice.english .choice-brand,
+    body.is-routing[data-choice="studio"] .choice.english .choice-desc,
+    body.is-routing[data-choice="studio"] .choice.english .choice-cta {
+      opacity: 0;
     }
 
     body.is-routing .choice {
@@ -314,14 +402,20 @@
 
     body.is-routing .choice.english,
     body.is-routing .choice.studio {
-      transition-duration: 360ms;
+      transition-duration: 620ms;
     }
 
+    .choice-index,
     .choice-title,
     .choice-brand,
     .choice-desc,
     .choice-cta {
       position: relative;
+      transform: translateX(var(--content-shift, 0)) scale(var(--content-scale, 1));
+      transform-origin: left center;
+      transition:
+        opacity 220ms ease,
+        transform 560ms cubic-bezier(0.16, 1, 0.3, 1);
       z-index: 1;
     }
 
@@ -331,6 +425,7 @@
       line-height: 0.88;
       margin: 0;
       max-width: 8ch;
+      overflow-wrap: anywhere;
     }
 
     .choice-brand {
@@ -448,6 +543,59 @@
       }
     }
 
+    @media (min-width: 721px) {
+      .shell {
+        display: block;
+      }
+
+      .topbar {
+        position: relative;
+        z-index: 4;
+      }
+
+      .stage {
+        inset: 0;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+      }
+
+      .intro {
+        left: 50%;
+        position: absolute;
+        top: clamp(88px, 11.5vh, 118px);
+        transform: translateX(-50%);
+        z-index: 3;
+      }
+
+      .choices {
+        inset: 0;
+        height: auto;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .choice {
+        box-shadow: none;
+        padding: clamp(118px, 18vh, 190px) clamp(34px, 6vw, 86px) clamp(72px, 11vh, 112px);
+      }
+
+      .choice + .choice {
+        box-shadow: inset 1px 0 rgba(255, 255, 255, 0.18);
+      }
+
+      .footer {
+        bottom: max(18px, env(safe-area-inset-bottom));
+        left: 50%;
+        max-width: 1180px;
+        position: absolute;
+        transform: translateX(-50%);
+        width: calc(100% - 36px);
+        z-index: 4;
+      }
+    }
+
     @media (max-width: 720px) {
       .split-mark {
         display: none;
@@ -468,8 +616,8 @@
 
       .stage {
         align-content: start;
-        gap: 15px;
-        padding: 26px 0 16px;
+        gap: 14px;
+        padding: 22px 0 16px;
       }
 
       .intro {
@@ -479,17 +627,31 @@
       }
 
       .intro h1 {
-        font-size: clamp(2.72rem, 13vw, 3.55rem);
+        font-size: clamp(2.58rem, 12vw, 3.25rem);
         line-height: 0.94;
       }
 
       .choices {
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        height: clamp(430px, 64vh, 520px);
+        margin-left: -14px;
+        margin-right: -14px;
       }
 
       .choice {
         gap: 10px;
-        min-height: 172px;
+        min-height: 0;
+      }
+
+      body[data-choice="english"].is-routing .choice.english,
+      body[data-choice="studio"].is-routing .choice.studio {
+        flex-grow: 1.7;
+      }
+
+      body[data-choice="english"].is-routing .choice.studio,
+      body[data-choice="studio"].is-routing .choice.english {
+        flex-grow: 0.64;
+        opacity: 0.3;
       }
 
       .choice-title {
@@ -512,11 +674,10 @@
       }
 
       .intro h1 {
-        font-size: 2.72rem;
+        font-size: 2.48rem;
       }
 
       .choice {
-        min-height: 166px;
         padding: 18px;
       }
 
@@ -596,6 +757,7 @@
     const ACCESS_KEY = "kose-portal-ovi-20260623";
     const params = new URLSearchParams(window.location.search);
     const hasAccess = params.get("access") === ACCESS_KEY;
+    const debugMode = params.get("debug") === "1";
 
     if (hasAccess) {
       document.body.classList.remove("is-locked");
@@ -605,6 +767,30 @@
     const handoff = document.querySelector(".handoff");
 
     choices.forEach((choice) => {
+      choice.addEventListener("pointerenter", () => {
+        if (!document.body.classList.contains("is-routing")) {
+          document.body.dataset.hover = choice.dataset.choice;
+        }
+      });
+
+      choice.addEventListener("pointerleave", () => {
+        if (!document.body.classList.contains("is-routing")) {
+          delete document.body.dataset.hover;
+        }
+      });
+
+      choice.addEventListener("focus", () => {
+        if (!document.body.classList.contains("is-routing")) {
+          document.body.dataset.hover = choice.dataset.choice;
+        }
+      });
+
+      choice.addEventListener("blur", () => {
+        if (!document.body.classList.contains("is-routing")) {
+          delete document.body.dataset.hover;
+        }
+      });
+
       choice.addEventListener("pointermove", (event) => {
         const rect = choice.getBoundingClientRect();
         const mx = ((event.clientX - rect.left) / rect.width) * 100;
@@ -620,6 +806,7 @@
 
         event.preventDefault();
         const label = choice.dataset.label || "selected site";
+        delete document.body.dataset.hover;
         document.body.dataset.choice = choice.dataset.choice;
         document.body.classList.add("is-routing");
         if (handoff) {
@@ -627,8 +814,10 @@
         }
 
         window.setTimeout(() => {
-          window.location.assign(choice.href);
-        }, 360);
+          if (!debugMode) {
+            window.location.assign(choice.href);
+          }
+        }, 620);
       });
     });
   </script>
