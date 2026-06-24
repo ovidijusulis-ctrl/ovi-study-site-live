@@ -743,7 +743,12 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
     };
 
     const syncSearchInputs = (query) => {
+      const normalizedQuery = normalizeSearchText(query);
       searchInputs.forEach((input) => {
+        const focusedDraftMatchesQuery = document.activeElement === input
+          && Boolean(normalizedQuery)
+          && normalizeSearchText(input.value) === normalizedQuery;
+        if (focusedDraftMatchesQuery) return;
         if (input.value !== query) input.value = query;
       });
       searchClearButtons.forEach((button) => {
