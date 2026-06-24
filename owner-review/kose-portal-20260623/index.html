@@ -8,17 +8,17 @@
   <meta name="description" content="Private owner preview for the shared Ovi English School and Studio do QR front door." />
   <style>
     :root {
-      color-scheme: dark;
-      --ink: #fff9eb;
-      --muted: rgba(255, 249, 235, 0.7);
-      --quiet: rgba(255, 249, 235, 0.52);
-      --dark: #080d0c;
-      --green: #57c19b;
-      --blue: #6fb5e6;
-      --amber: #f1bb63;
-      --line: rgba(255, 255, 255, 0.18);
-      --panel: rgba(8, 13, 12, 0.52);
-      --panel-strong: rgba(8, 13, 12, 0.76);
+      color-scheme: light;
+      --paper: #f7f4ed;
+      --ink: #111412;
+      --muted: #5e655f;
+      --line: rgba(17, 20, 18, 0.15);
+      --school: #0f604d;
+      --school-paper: #eaf2e8;
+      --studio: #9a5538;
+      --studio-paper: #221f1c;
+      --studio-ink: #fbf5eb;
+      --studio-muted: rgba(251, 245, 235, 0.68);
       --radius: 8px;
     }
 
@@ -33,7 +33,7 @@
 
     body {
       margin: 0;
-      background: var(--dark);
+      background: var(--paper);
       color: var(--ink);
       font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
       letter-spacing: 0;
@@ -48,14 +48,13 @@
 
     .page {
       min-height: 100svh;
-      position: relative;
     }
 
     .locked {
       align-items: center;
       display: grid;
       min-height: 100svh;
-      padding: 24px;
+      padding: 22px;
     }
 
     .is-locked .portal {
@@ -67,633 +66,314 @@
     }
 
     .locked-card {
-      background: #fff9eb;
+      background: #ffffff;
+      border: 1px solid var(--line);
       border-radius: var(--radius);
-      color: #101614;
       display: grid;
-      gap: 12px;
+      gap: 10px;
       margin: 0 auto;
-      max-width: 460px;
+      max-width: 440px;
       padding: 24px;
     }
 
     .locked-card h1,
-    .locked-card p {
+    .locked-card p,
+    .brand strong,
+    .brand span,
+    .place,
+    .choice * {
       margin: 0;
     }
 
     .locked-card h1 {
-      font-size: 1.5rem;
-      line-height: 1.05;
+      font-size: 1.45rem;
+      line-height: 1.08;
     }
 
     .locked-card p {
-      color: #59655e;
+      color: var(--muted);
       line-height: 1.45;
     }
 
     .portal {
-      isolation: isolate;
-      min-height: 100svh;
-      overflow: hidden;
-      position: relative;
-    }
-
-    .portal::before {
-      background: url("./assets/kose-portal-hero.jpg") center / cover no-repeat;
-      content: "";
-      filter: saturate(0.94) contrast(1.05);
-      inset: 0;
-      position: absolute;
-      transform: scale(1.045);
-      transition: filter 520ms ease, transform 640ms cubic-bezier(0.16, 1, 0.3, 1);
-      z-index: -3;
-    }
-
-    .portal::after {
-      background:
-        radial-gradient(circle at 50% 42%, rgba(255, 245, 218, 0.16), transparent 22rem),
-        linear-gradient(90deg, rgba(8, 13, 12, 0.88), rgba(17, 59, 45, 0.54) 36%, rgba(22, 35, 37, 0.32) 52%, rgba(17, 47, 72, 0.68) 100%),
-        linear-gradient(180deg, rgba(8, 13, 12, 0.1), rgba(8, 13, 12, 0.82));
-      content: "";
-      inset: 0;
-      position: absolute;
-      z-index: -2;
-    }
-
-    body[data-choice="english"] .portal::before {
-      filter: saturate(1.03) contrast(1.07);
-      transform: scale(1.08) translateX(1.2%);
-    }
-
-    body[data-choice="studio"] .portal::before {
-      filter: saturate(1.04) contrast(1.08);
-      transform: scale(1.08) translateX(-1.2%);
-    }
-
-    .scan-line {
-      animation: scan 4.8s cubic-bezier(0.16, 1, 0.3, 1) infinite;
-      background: linear-gradient(90deg, transparent, rgba(255, 243, 191, 0.72), transparent);
-      box-shadow: 0 0 38px rgba(241, 187, 99, 0.52);
-      height: 2px;
-      left: 0;
-      opacity: 0.72;
-      pointer-events: none;
-      position: absolute;
-      right: 0;
-      top: 0;
-      z-index: 3;
-    }
-
-    .split-mark {
-      background: linear-gradient(180deg, transparent, rgba(255, 243, 191, 0.76), transparent);
-      box-shadow: 0 0 44px rgba(241, 187, 99, 0.44), 0 0 120px rgba(241, 187, 99, 0.16);
-      inset: 0 auto 0 50%;
-      pointer-events: none;
-      position: absolute;
-      transform: translateX(-50%);
-      transition: left 560ms cubic-bezier(0.16, 1, 0.3, 1);
-      width: 1px;
-      z-index: 2;
-    }
-
-    body[data-hover="english"]:not(.is-routing) .split-mark {
-      left: 81%;
-    }
-
-    body[data-hover="studio"]:not(.is-routing) .split-mark {
-      left: 19%;
-    }
-
-    body.is-routing[data-choice="english"] .split-mark {
-      left: 89%;
-    }
-
-    body.is-routing[data-choice="studio"] .split-mark {
-      left: 11%;
-    }
-
-    .shell {
       display: grid;
-      grid-template-rows: auto minmax(0, 1fr) auto;
+      grid-template-rows: auto 1fr;
       min-height: 100svh;
-      padding: max(18px, env(safe-area-inset-top)) 18px max(18px, env(safe-area-inset-bottom));
-      position: relative;
-      z-index: 1;
     }
 
-    .topbar,
-    .footer {
+    .topbar {
       align-items: center;
-      display: flex;
-      gap: 14px;
-      justify-content: space-between;
-      margin: 0 auto;
-      max-width: 1180px;
-      width: 100%;
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 12px;
+      grid-template-columns: 1fr auto;
+      min-height: 74px;
+      padding: max(13px, env(safe-area-inset-top)) clamp(16px, 3vw, 36px) 13px;
     }
 
     .brand {
       display: grid;
-      gap: 4px;
+      gap: 3px;
       min-width: 0;
-      text-decoration: none;
     }
 
     .brand strong {
-      color: var(--ink);
-      font-size: 0.98rem;
-      line-height: 1.08;
-    }
-
-    .brand span,
-    .location,
-    .footer {
-      color: var(--muted);
-      font-size: 0.78rem;
-      font-weight: 700;
-      line-height: 1.25;
-    }
-
-    .location {
-      background: rgba(8, 13, 12, 0.42);
-      border: 1px solid rgba(255, 255, 255, 0.13);
-      border-radius: var(--radius);
-      max-width: 48vw;
-      padding: 10px 12px;
-      text-align: right;
-    }
-
-    .stage {
-      align-content: center;
-      display: grid;
-      gap: clamp(14px, 2.4vh, 20px);
-      margin: 0 auto;
-      max-width: none;
-      padding: 16px 0 14px;
-      width: 100%;
-    }
-
-    .intro {
-      display: grid;
-      gap: 9px;
-      justify-self: center;
-      max-width: 660px;
-      text-align: center;
-    }
-
-    .eyebrow,
-    .choice-index {
-      color: var(--amber);
-      font-size: 0.72rem;
-      font-weight: 860;
-      line-height: 1;
+      font-size: 0.86rem;
+      letter-spacing: 0.12em;
+      line-height: 1.1;
       text-transform: uppercase;
     }
 
-    .intro h1 {
-      font-size: clamp(2.8rem, 5.4vw, 4.9rem);
-      font-weight: 860;
-      line-height: 0.92;
-      margin: 0;
-      text-wrap: balance;
+    .brand span,
+    .place {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 760;
+      line-height: 1.25;
     }
 
-    .intro p {
-      color: var(--muted);
-      font-size: clamp(1rem, 1.6vw, 1.2rem);
-      font-weight: 640;
-      line-height: 1.45;
-      margin: 0;
+    .place {
+      text-align: right;
     }
 
     .choices {
-      display: flex;
-      gap: 0;
-      height: clamp(410px, 63vh, 570px);
-      margin-left: -18px;
-      margin-right: -18px;
-      min-width: 0;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      min-height: calc(100svh - 74px);
     }
 
     .choice {
-      align-content: center;
-      background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.12), rgba(255, 255, 255, 0.03)),
-        var(--panel);
-      border: 0;
-      border-radius: 0;
-      box-shadow: inset 0 1px rgba(255, 255, 255, 0.14), inset 0 -1px rgba(255, 255, 255, 0.14);
-      color: var(--ink);
+      color: inherit;
       display: grid;
-      flex: 1 1 0;
-      gap: 13px;
-      min-height: 0;
-      min-width: 0;
-      overflow: hidden;
-      padding: clamp(28px, 5vw, 64px);
-      position: relative;
+      grid-template-rows: auto 1fr auto;
+      min-height: calc(100svh - 74px);
+      padding: clamp(22px, 4vw, 56px);
       text-decoration: none;
-      transition:
-        background 260ms ease,
-        border-color 260ms ease,
-        flex-grow 560ms cubic-bezier(0.16, 1, 0.3, 1),
-        opacity 260ms ease;
     }
 
     .choice + .choice {
-      box-shadow:
-        inset 1px 0 rgba(255, 255, 255, 0.16),
-        inset 0 1px rgba(255, 255, 255, 0.14),
-        inset 0 -1px rgba(255, 255, 255, 0.14);
+      border-left: 1px solid var(--line);
     }
 
-    .choice::before {
+    .choice[data-kind="school"] {
       background:
-        radial-gradient(circle at var(--mx, 50%) var(--my, 50%), rgba(255, 255, 255, 0.24), transparent 9rem),
-        linear-gradient(110deg, transparent 0%, rgba(255, 255, 255, 0.13) 44%, transparent 56%);
-      content: "";
-      inset: 0;
-      opacity: 0;
-      position: absolute;
-      transform: translateX(-22%);
-      transition: opacity 220ms ease, transform 440ms cubic-bezier(0.16, 1, 0.3, 1);
+        linear-gradient(135deg, rgba(15, 96, 77, 0.11), rgba(15, 96, 77, 0) 42%),
+        var(--school-paper);
     }
 
-    .choice:hover,
+    .choice[data-kind="studio"] {
+      background:
+        linear-gradient(135deg, rgba(154, 85, 56, 0.28), rgba(154, 85, 56, 0) 45%),
+        var(--studio-paper);
+      color: var(--studio-ink);
+    }
+
     .choice:focus-visible {
-      background:
-        linear-gradient(145deg, rgba(255, 255, 255, 0.17), rgba(255, 255, 255, 0.04)),
-        var(--panel-strong);
-      border-color: rgba(255, 249, 235, 0.48);
-      outline: none;
+      outline: 4px solid rgba(17, 20, 18, 0.34);
+      outline-offset: -10px;
     }
 
-    .choice:hover::before,
-    .choice:focus-visible::before {
-      opacity: 1;
-      transform: translateX(0);
+    .meta {
+      align-items: center;
+      border-bottom: 1px solid var(--line);
+      display: flex;
+      gap: 12px;
+      justify-content: space-between;
+      padding-bottom: 16px;
     }
 
-    body[data-hover="english"]:not(.is-routing) .choice.english,
-    body[data-hover="studio"]:not(.is-routing) .choice.studio,
-    .choices:has(.english:hover) .choice.english,
-    .choices:has(.english:focus-visible) .choice.english,
-    .choices:has(.studio:hover) .choice.studio,
-    .choices:has(.studio:focus-visible) .choice.studio {
-      flex-grow: 2.55;
-    }
-
-    body[data-hover="english"]:not(.is-routing) .choice.studio,
-    body[data-hover="studio"]:not(.is-routing) .choice.english,
-    .choices:has(.english:hover) .choice.studio,
-    .choices:has(.english:focus-visible) .choice.studio,
-    .choices:has(.studio:hover) .choice.english,
-    .choices:has(.studio:focus-visible) .choice.english {
-      flex-grow: 0.56;
-      opacity: 0.78;
-    }
-
-    body[data-choice="english"].is-routing .choice.english,
-    body[data-choice="studio"].is-routing .choice.studio {
-      flex-grow: 4.1;
-    }
-
-    body[data-choice="english"].is-routing .choice.studio,
-    body[data-choice="studio"].is-routing .choice.english {
-      flex-grow: 0.38;
-      opacity: 0.24;
-    }
-
-    body.is-routing[data-choice="english"] .choices .choice.english,
-    body.is-routing[data-choice="studio"] .choices .choice.studio {
-      flex-grow: 4.1 !important;
-      opacity: 1 !important;
-      --content-scale: 1.06;
-      --content-shift: clamp(22px, 7vw, 98px);
-    }
-
-    body.is-routing[data-choice="english"] .choices .choice.studio,
-    body.is-routing[data-choice="studio"] .choices .choice.english {
-      flex-grow: 0.38 !important;
-      opacity: 0.24 !important;
-      padding-left: 22px;
-      padding-right: 22px;
-    }
-
-    body.is-routing[data-choice="english"] .choice.studio .choice-title,
-    body.is-routing[data-choice="studio"] .choice.english .choice-title {
-      font-size: clamp(1.35rem, 2.7vw, 2.35rem);
-      opacity: 0;
-    }
-
-    body.is-routing[data-choice="english"] .choice.studio .choice-brand,
-    body.is-routing[data-choice="english"] .choice.studio .choice-desc,
-    body.is-routing[data-choice="english"] .choice.studio .choice-cta,
-    body.is-routing[data-choice="studio"] .choice.english .choice-brand,
-    body.is-routing[data-choice="studio"] .choice.english .choice-desc,
-    body.is-routing[data-choice="studio"] .choice.english .choice-cta {
-      opacity: 0;
-    }
-
-    body.is-routing .choice {
-      pointer-events: none;
-    }
-
-    body.is-routing .choice.english,
-    body.is-routing .choice.studio {
-      transition-duration: 620ms;
-    }
-
-    .choice-index,
-    .choice-title,
-    .choice-brand,
-    .choice-desc,
-    .choice-cta {
-      position: relative;
-      transform: translateX(var(--content-shift, 0)) scale(var(--content-scale, 1));
-      transform-origin: left center;
-      transition:
-        opacity 220ms ease,
-        transform 560ms cubic-bezier(0.16, 1, 0.3, 1);
-      z-index: 1;
-    }
-
-    .choice-title {
-      font-size: clamp(2rem, 5vw, 4.8rem);
-      font-weight: 860;
-      line-height: 0.88;
-      margin: 0;
-      max-width: 8ch;
-      overflow-wrap: anywhere;
-    }
-
-    .choice-brand {
-      color: var(--ink);
-      font-size: clamp(1rem, 1.5vw, 1.2rem);
-      font-weight: 760;
-      line-height: 1.1;
-    }
-
-    .choice-desc {
+    .meta span {
       color: var(--muted);
-      font-size: 0.98rem;
-      font-weight: 610;
-      line-height: 1.35;
+      font-size: 0.76rem;
+      font-weight: 900;
+      letter-spacing: 0.09em;
+      line-height: 1.1;
+      text-transform: uppercase;
+    }
+
+    .meta b {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      display: inline-grid;
+      font-size: 0.76rem;
+      height: 34px;
+      line-height: 1;
+      place-items: center;
+      width: 34px;
+    }
+
+    .body {
+      align-content: center;
+      display: grid;
+      gap: 16px;
+      max-width: 580px;
+      padding: 26px 0;
+    }
+
+    .body h1 {
+      font-size: clamp(3.2rem, 8vw, 8rem);
+      letter-spacing: 0;
+      line-height: 0.88;
+      max-width: 8.5ch;
+    }
+
+    .body p {
+      color: var(--muted);
+      font-size: clamp(1rem, 1.3vw, 1.16rem);
+      font-weight: 690;
+      line-height: 1.38;
       max-width: 28ch;
     }
 
-    .choice-cta {
-      align-items: center;
-      border: 1px solid rgba(255, 255, 255, 0.22);
+    .bottom {
+      align-items: end;
+      display: grid;
+      gap: 16px;
+      grid-template-columns: minmax(92px, 150px) 1fr;
+    }
+
+    .proof-photo {
+      aspect-ratio: 4 / 3;
+      border: 1px solid rgba(17, 20, 18, 0.18);
       border-radius: var(--radius);
-      color: var(--ink);
-      display: inline-flex;
-      font-size: 0.88rem;
-      font-weight: 800;
-      justify-content: center;
-      justify-self: start;
-      min-height: 42px;
-      padding: 0 14px;
+      margin: 0;
+      max-width: 150px;
+      overflow: hidden;
+      width: 100%;
     }
 
-    .english .choice-cta {
-      background: rgba(87, 193, 155, 0.2);
+    .proof-photo img {
+      display: block;
+      height: 100%;
+      object-fit: cover;
+      width: 100%;
     }
 
-    .studio .choice-cta {
-      background: rgba(111, 181, 230, 0.2);
+    .action {
+      align-items: end;
+      display: grid;
+      gap: 8px;
+      justify-items: start;
     }
 
-    .footer {
-      color: var(--quiet);
-      justify-content: center;
-      text-align: center;
+    .action small {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 820;
+      line-height: 1.25;
     }
 
-    .handoff {
-      align-items: center;
-      animation: handoffIn 260ms ease both;
-      background: rgba(8, 13, 12, 0.74);
-      border: 1px solid rgba(255, 249, 235, 0.18);
+    .cta {
+      border: 1px solid currentColor;
       border-radius: var(--radius);
-      bottom: max(18px, env(safe-area-inset-bottom));
-      color: var(--ink);
-      display: none;
-      font-size: 0.86rem;
-      font-weight: 760;
-      gap: 10px;
-      left: 50%;
-      min-height: 44px;
-      padding: 10px 14px;
-      position: fixed;
-      transform: translateX(-50%);
-      z-index: 4;
+      color: var(--school);
+      display: inline-grid;
+      font-size: 0.94rem;
+      font-weight: 920;
+      min-height: 50px;
+      padding: 0 17px;
+      place-items: center;
     }
 
-    body.is-routing .handoff {
-      display: inline-flex;
+    .choice[data-kind="studio"] .meta {
+      border-bottom-color: rgba(251, 245, 235, 0.18);
     }
 
-    .handoff::before {
-      animation: pulse 620ms ease infinite alternate;
-      background: var(--amber);
-      border-radius: 999px;
-      content: "";
-      height: 8px;
-      width: 8px;
+    .choice[data-kind="studio"] .meta span,
+    .choice[data-kind="studio"] .body p,
+    .choice[data-kind="studio"] .action small {
+      color: var(--studio-muted);
     }
 
-    @keyframes scan {
-      0% {
-        opacity: 0;
-        transform: translateY(-8vh);
-      }
-      18% {
-        opacity: 0.7;
-      }
-      56% {
-        opacity: 0.44;
-      }
-      100% {
-        opacity: 0;
-        transform: translateY(108vh);
-      }
+    .choice[data-kind="studio"] .meta b,
+    .choice[data-kind="studio"] .proof-photo {
+      border-color: rgba(251, 245, 235, 0.18);
     }
 
-    @keyframes handoffIn {
-      from {
-        opacity: 0;
-        transform: translate(-50%, 10px);
+    .choice[data-kind="studio"] .cta {
+      color: #eeb184;
+    }
+
+    @media (hover: hover) {
+      .choice:hover .cta {
+        background: currentColor;
       }
-      to {
-        opacity: 1;
-        transform: translate(-50%, 0);
+
+      .choice[data-kind="school"]:hover .cta {
+        color: var(--school);
+      }
+
+      .choice[data-kind="school"]:hover .cta span {
+        color: var(--school-paper);
+      }
+
+      .choice[data-kind="studio"]:hover .cta span {
+        color: var(--studio-paper);
       }
     }
 
-    @keyframes pulse {
-      from {
-        opacity: 0.45;
-        transform: scale(0.82);
-      }
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
-
-    @media (min-width: 721px) {
-      .shell {
-        display: block;
-      }
-
+    @media (max-width: 760px) {
       .topbar {
-        position: relative;
-        z-index: 4;
+        grid-template-columns: 1fr;
+        min-height: 88px;
+        padding: max(12px, env(safe-area-inset-top)) 16px 12px;
       }
 
-      .stage {
-        inset: 0;
-        margin: 0;
-        padding: 0;
-        position: absolute;
-      }
-
-      .intro {
-        left: 50%;
-        position: absolute;
-        top: clamp(88px, 11.5vh, 118px);
-        transform: translateX(-50%);
-        z-index: 3;
-      }
-
-      .choices {
-        inset: 0;
-        height: auto;
-        margin: 0;
-        position: absolute;
-        z-index: 1;
-      }
-
-      .choice {
-        box-shadow: none;
-        padding: clamp(118px, 18vh, 190px) clamp(34px, 6vw, 86px) clamp(72px, 11vh, 112px);
-      }
-
-      .choice + .choice {
-        box-shadow: inset 1px 0 rgba(255, 255, 255, 0.18);
-      }
-
-      .footer {
-        bottom: max(18px, env(safe-area-inset-bottom));
-        left: 50%;
-        max-width: 1180px;
-        position: absolute;
-        transform: translateX(-50%);
-        width: calc(100% - 36px);
-        z-index: 4;
-      }
-    }
-
-    @media (max-width: 720px) {
-      .split-mark {
-        display: none;
-      }
-
-      .shell {
-        padding-left: 14px;
-        padding-right: 14px;
-      }
-
-      .topbar {
-        align-items: flex-start;
-      }
-
-      .location {
-        max-width: 46vw;
-      }
-
-      .stage {
-        align-content: start;
-        gap: 14px;
-        padding: 22px 0 16px;
-      }
-
-      .intro {
-        justify-self: start;
-        max-width: 22rem;
+      .place {
         text-align: left;
       }
 
-      .intro h1 {
-        font-size: clamp(2.58rem, 12vw, 3.25rem);
-        line-height: 0.94;
-      }
-
       .choices {
-        flex-direction: column;
-        height: clamp(430px, 64vh, 520px);
-        margin-left: -14px;
-        margin-right: -14px;
+        grid-template-columns: 1fr;
+        min-height: calc(100svh - 88px);
       }
 
       .choice {
-        gap: 10px;
-        min-height: 0;
+        min-height: calc((100svh - 88px) / 2);
+        padding: 17px;
       }
 
-      body[data-choice="english"].is-routing .choice.english,
-      body[data-choice="studio"].is-routing .choice.studio {
-        flex-grow: 1.7;
+      .choice + .choice {
+        border-left: 0;
+        border-top: 1px solid var(--line);
       }
 
-      body[data-choice="english"].is-routing .choice.studio,
-      body[data-choice="studio"].is-routing .choice.english {
-        flex-grow: 0.64;
-        opacity: 0.3;
+      .meta {
+        padding-bottom: 11px;
       }
 
-      .choice-title {
-        max-width: 10ch;
+      .body {
+        gap: 8px;
+        padding: 13px 0;
       }
 
-      .footer {
-        font-size: 0.74rem;
-      }
-    }
-
-    @media (max-width: 390px) {
-      .brand strong {
-        font-size: 0.9rem;
+      .body h1 {
+        font-size: clamp(2.55rem, 13vw, 4.4rem);
+        max-width: 11ch;
       }
 
-      .brand span,
-      .location {
-        font-size: 0.7rem;
+      .body p {
+        font-size: 0.94rem;
+        max-width: 30ch;
       }
 
-      .intro h1 {
-        font-size: 2.48rem;
+      .bottom {
+        align-items: center;
+        gap: 11px;
+        grid-template-columns: 82px 1fr;
       }
 
-      .choice {
-        padding: 18px;
+      .proof-photo {
+        max-width: 82px;
       }
 
-      .choice-title {
-        font-size: 2rem;
+      .action small {
+        display: none;
       }
-    }
 
-    @media (prefers-reduced-motion: reduce) {
-      *,
-      *::before,
-      *::after {
-        animation-duration: 1ms !important;
-        animation-iteration-count: 1 !important;
-        scroll-behavior: auto !important;
-        transition-duration: 1ms !important;
+      .cta {
+        min-height: 46px;
+        white-space: nowrap;
       }
     }
   </style>
@@ -708,118 +388,65 @@
     </section>
 
     <section class="portal" aria-label="Kose shared QR front door">
-      <span class="scan-line" aria-hidden="true"></span>
-      <span class="split-mark" aria-hidden="true"></span>
-      <div class="shell">
-        <header class="topbar" aria-label="Portal identity">
-          <a class="brand" href="https://ovienglish.com/">
-            <strong>Kose Portal</strong>
-            <span>Ovi English School + Studio do</span>
-          </a>
-          <div class="location">Kose, Kofu</div>
-        </header>
+      <header class="topbar" aria-label="Portal identity">
+        <div class="brand">
+          <strong>Kose Portal</strong>
+          <span>Ovi English School + Studio do</span>
+        </div>
+        <div class="place">Kofu / Kose, one shared address</div>
+      </header>
 
-        <section class="stage" aria-labelledby="portal-title">
-          <div class="intro">
-            <div class="eyebrow">Scan result</div>
-            <h1 id="portal-title">Choose one.</h1>
-            <p>English school or photo studio.</p>
+      <nav class="choices" aria-label="Choose a service">
+        <a class="choice" data-kind="school" href="https://ovienglish.com/">
+          <div class="meta">
+            <span>Ovi English School</span>
+            <b>01</b>
           </div>
+          <div class="body">
+            <h1>English School</h1>
+            <p>Lessons in Kofu and the online study platform.</p>
+          </div>
+          <div class="bottom">
+            <figure class="proof-photo" aria-label="Ovi English lesson reference">
+              <img src="assets/ovi-english-lesson.jpg" alt="Ovi English lesson worksheet" />
+            </figure>
+            <div class="action">
+              <small>For studying, booking, and lesson access.</small>
+              <span class="cta"><span>Open English</span></span>
+            </div>
+          </div>
+        </a>
 
-          <nav class="choices" aria-label="Choose a service">
-            <a class="choice english" href="https://ovienglish.com/" data-choice="english" data-label="Ovi English">
-              <span class="choice-index">01</span>
-              <span class="choice-title">English School</span>
-              <span class="choice-brand">Ovi English</span>
-              <span class="choice-desc">Lessons, booking, and online study.</span>
-              <span class="choice-cta">Enter English</span>
-            </a>
-            <a class="choice studio" href="https://www.instagram.com/studio_do_kose/" data-choice="studio" data-label="Studio do">
-              <span class="choice-index">02</span>
-              <span class="choice-title">Photo Studio</span>
-              <span class="choice-brand">Studio do</span>
-              <span class="choice-desc">Photoshoots and studio rental enquiries.</span>
-              <span class="choice-cta">Enter Studio</span>
-            </a>
-          </nav>
-        </section>
-
-        <footer class="footer">
-          <span>Same Kose base. Choose the service you came for.</span>
-        </footer>
-      </div>
-
-      <div class="handoff" role="status" aria-live="polite">Opening selected site</div>
+        <a class="choice" data-kind="studio" href="https://www.instagram.com/studio_do_kose/">
+          <div class="meta">
+            <span>Studio do</span>
+            <b>02</b>
+          </div>
+          <div class="body">
+            <h1>Photo Studio</h1>
+            <p>Photoshoots, studio use, and portfolio/contact.</p>
+          </div>
+          <div class="bottom">
+            <figure class="proof-photo" aria-label="Studio do room reference">
+              <img src="assets/studio-do-open-20250324.jpg" alt="Studio do room and logo detail" />
+            </figure>
+            <div class="action">
+              <small>For photoshoots, rental, and studio enquiries.</small>
+              <span class="cta"><span>Open Studio</span></span>
+            </div>
+          </div>
+        </a>
+      </nav>
     </section>
   </main>
 
   <script>
     const ACCESS_KEY = "kose-portal-ovi-20260623";
     const params = new URLSearchParams(window.location.search);
-    const hasAccess = params.get("access") === ACCESS_KEY;
-    const debugMode = params.get("debug") === "1";
 
-    if (hasAccess) {
+    if (params.get("access") === ACCESS_KEY) {
       document.body.classList.remove("is-locked");
     }
-
-    const choices = document.querySelectorAll("[data-choice]");
-    const handoff = document.querySelector(".handoff");
-
-    choices.forEach((choice) => {
-      choice.addEventListener("pointerenter", () => {
-        if (!document.body.classList.contains("is-routing")) {
-          document.body.dataset.hover = choice.dataset.choice;
-        }
-      });
-
-      choice.addEventListener("pointerleave", () => {
-        if (!document.body.classList.contains("is-routing")) {
-          delete document.body.dataset.hover;
-        }
-      });
-
-      choice.addEventListener("focus", () => {
-        if (!document.body.classList.contains("is-routing")) {
-          document.body.dataset.hover = choice.dataset.choice;
-        }
-      });
-
-      choice.addEventListener("blur", () => {
-        if (!document.body.classList.contains("is-routing")) {
-          delete document.body.dataset.hover;
-        }
-      });
-
-      choice.addEventListener("pointermove", (event) => {
-        const rect = choice.getBoundingClientRect();
-        const mx = ((event.clientX - rect.left) / rect.width) * 100;
-        const my = ((event.clientY - rect.top) / rect.height) * 100;
-        choice.style.setProperty("--mx", `${mx}%`);
-        choice.style.setProperty("--my", `${my}%`);
-      });
-
-      choice.addEventListener("click", (event) => {
-        if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
-          return;
-        }
-
-        event.preventDefault();
-        const label = choice.dataset.label || "selected site";
-        delete document.body.dataset.hover;
-        document.body.dataset.choice = choice.dataset.choice;
-        document.body.classList.add("is-routing");
-        if (handoff) {
-          handoff.textContent = `Opening ${label}`;
-        }
-
-        window.setTimeout(() => {
-          if (!debugMode) {
-            window.location.assign(choice.href);
-          }
-        }, 620);
-      });
-    });
   </script>
 </body>
 </html>
