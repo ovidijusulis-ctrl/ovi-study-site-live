@@ -4,22 +4,24 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Kose Portal | Owner Preview</title>
-  <meta name="description" content="Private owner preview for the shared Ovi English School and Studio do QR front door." />
+  <title>Kose Portal | Choice Flow Preview</title>
+  <meta name="description" content="Private owner preview for the shared Ovi English School and Studio do QR choice flow." />
   <style>
     :root {
       color-scheme: light;
-      --paper: #f7f4ed;
-      --ink: #111412;
-      --muted: #5e655f;
-      --line: rgba(17, 20, 18, 0.15);
-      --school: #0f604d;
-      --school-paper: #eaf2e8;
-      --studio: #9a5538;
-      --studio-paper: #221f1c;
-      --studio-ink: #fbf5eb;
-      --studio-muted: rgba(251, 245, 235, 0.68);
+      --paper: #f6f1e8;
+      --paper-2: #ede9df;
+      --ink: #151713;
+      --muted: #62675f;
+      --line: rgba(21, 23, 19, 0.14);
+      --school: #145f4f;
+      --school-soft: #dfece3;
+      --studio: #9b4f3b;
+      --studio-soft: #efe0d7;
+      --night: #171715;
+      --night-muted: rgba(246, 241, 232, 0.7);
       --radius: 8px;
+      --shadow: 0 28px 90px rgba(20, 18, 14, 0.16);
     }
 
     * {
@@ -46,42 +48,37 @@
       font: inherit;
     }
 
-    .page {
+    .locked,
+    .portal {
       min-height: 100svh;
     }
 
     .locked {
       align-items: center;
       display: grid;
-      min-height: 100svh;
       padding: 22px;
     }
 
-    .is-locked .portal {
-      display: none;
-    }
-
-    body:not(.is-locked) .locked {
-      display: none;
-    }
-
     .locked-card {
-      background: #ffffff;
+      background: #fffaf0;
       border: 1px solid var(--line);
       border-radius: var(--radius);
       display: grid;
       gap: 10px;
       margin: 0 auto;
-      max-width: 440px;
+      max-width: 430px;
       padding: 24px;
     }
 
     .locked-card h1,
     .locked-card p,
-    .brand strong,
-    .brand span,
-    .place,
-    .choice * {
+    .brand-mark p,
+    .brand-mark h1,
+    .choice-card *,
+    .detail-title *,
+    .info-card *,
+    .section-title *,
+    .map-band * {
       margin: 0;
     }
 
@@ -95,291 +92,882 @@
       line-height: 1.45;
     }
 
+    body:not(.is-locked) .locked,
+    .is-locked .portal {
+      display: none;
+    }
+
     .portal {
+      display: block;
+    }
+
+    .choice-screen,
+    .detail-screen {
+      display: none;
+    }
+
+    body[data-view="choice"] .choice-screen {
       display: grid;
-      grid-template-rows: auto 1fr;
+    }
+
+    body[data-view="english"] .english-screen,
+    body[data-view="studio"] .studio-screen {
+      display: block;
+    }
+
+    .choice-screen {
+      background:
+        linear-gradient(180deg, rgba(255, 250, 240, 0.04), transparent 28%),
+        #151713;
+      color: #fffaf0;
       min-height: 100svh;
+      overflow: hidden;
+      padding: max(18px, env(safe-area-inset-top)) clamp(14px, 3.5vw, 42px) max(18px, env(safe-area-inset-bottom));
+      position: relative;
     }
 
-    .topbar {
-      align-items: center;
-      border-bottom: 1px solid var(--line);
+    .choice-inner {
       display: grid;
-      gap: 12px;
-      grid-template-columns: 1fr auto;
-      min-height: 74px;
-      padding: max(13px, env(safe-area-inset-top)) clamp(16px, 3vw, 36px) 13px;
+      gap: 14px;
+      grid-template-rows: auto minmax(0, 1fr) auto;
+      min-height: calc(100svh - max(18px, env(safe-area-inset-top)) - max(18px, env(safe-area-inset-bottom)));
+      position: relative;
     }
 
-    .brand {
-      display: grid;
-      gap: 3px;
-      min-width: 0;
+    .brand-mark {
+      align-items: end;
+      display: flex;
+      gap: 6px;
+      justify-content: space-between;
+      max-width: none;
     }
 
-    .brand strong {
-      font-size: 0.86rem;
+    .brand-mark p {
+      color: rgba(255, 250, 240, 0.68);
+      font-size: 0.82rem;
+      font-weight: 820;
       letter-spacing: 0.12em;
-      line-height: 1.1;
+      line-height: 1.2;
       text-transform: uppercase;
     }
 
-    .brand span,
-    .place {
-      color: var(--muted);
-      font-size: 0.82rem;
-      font-weight: 760;
-      line-height: 1.25;
-    }
-
-    .place {
+    .brand-mark h1 {
+      font-size: clamp(0.92rem, 1.35vw, 1.35rem);
+      font-weight: 820;
+      line-height: 1;
+      max-width: none;
       text-align: right;
     }
 
-    .choices {
+    .choice-stage {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      min-height: calc(100svh - 74px);
-    }
-
-    .choice {
-      color: inherit;
-      display: grid;
-      grid-template-rows: auto 1fr auto;
-      min-height: calc(100svh - 74px);
-      padding: clamp(22px, 4vw, 56px);
-      text-decoration: none;
-    }
-
-    .choice + .choice {
-      border-left: 1px solid var(--line);
-    }
-
-    .choice[data-kind="school"] {
-      background:
-        linear-gradient(135deg, rgba(15, 96, 77, 0.11), rgba(15, 96, 77, 0) 42%),
-        var(--school-paper);
-    }
-
-    .choice[data-kind="studio"] {
-      background:
-        linear-gradient(135deg, rgba(154, 85, 56, 0.28), rgba(154, 85, 56, 0) 45%),
-        var(--studio-paper);
-      color: var(--studio-ink);
-    }
-
-    .choice:focus-visible {
-      outline: 4px solid rgba(17, 20, 18, 0.34);
-      outline-offset: -10px;
-    }
-
-    .meta {
-      align-items: center;
-      border-bottom: 1px solid var(--line);
-      display: flex;
       gap: 12px;
-      justify-content: space-between;
-      padding-bottom: 16px;
+      grid-template-rows: minmax(0, 1fr) auto;
+      min-height: 0;
     }
 
-    .meta span {
-      color: var(--muted);
-      font-size: 0.76rem;
+    .choice-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      height: 100%;
+      min-height: 0;
+    }
+
+    .choice-card {
+      align-content: stretch;
+      background: #fffaf0;
+      border: 1px solid rgba(255, 250, 240, 0.2);
+      border-radius: var(--radius);
+      color: #fffaf0;
+      display: grid;
+      height: 100%;
+      grid-template-rows: auto 1fr auto;
+      min-height: 0;
+      overflow: hidden;
+      padding: clamp(18px, 3vw, 34px);
+      position: relative;
+      text-decoration: none;
+      transform-origin: center bottom;
+      transition: transform 220ms ease, border-color 220ms ease, box-shadow 220ms ease;
+      animation: door-settle 560ms cubic-bezier(0.2, 0.72, 0.18, 1) both;
+    }
+
+    .choice-card::before {
+      background: center / cover no-repeat;
+      content: "";
+      inset: 0;
+      opacity: 0.78;
+      position: absolute;
+      transition: opacity 220ms ease, transform 360ms ease;
+    }
+
+    .choice-card::after {
+      background:
+        linear-gradient(180deg, rgba(8, 10, 9, 0.12), rgba(8, 10, 9, 0.84)),
+        linear-gradient(90deg, rgba(8, 10, 9, 0.68), rgba(8, 10, 9, 0.1));
+      content: "";
+      inset: 0;
+      position: absolute;
+    }
+
+    .choice-card[data-choice="english"] {
+      background: var(--school);
+    }
+
+    .choice-card[data-choice="english"]::before {
+      background-image: url("assets/ovi-english-lesson.jpg");
+    }
+
+    .choice-card[data-choice="studio"] {
+      background: var(--studio);
+    }
+
+    .choice-card[data-choice="studio"]::before {
+      background-image: url("assets/studio-do-open-20250324.jpg");
+      filter: saturate(0.92) brightness(1.08);
+      opacity: 0.84;
+    }
+
+    .choice-card[data-choice="studio"]::after {
+      background:
+        linear-gradient(180deg, rgba(8, 10, 9, 0.08), rgba(8, 10, 9, 0.78)),
+        linear-gradient(90deg, rgba(8, 10, 9, 0.7), rgba(8, 10, 9, 0.08));
+    }
+
+    .choice-card[data-choice="studio"] {
+      animation-delay: 70ms;
+    }
+
+    .choice-card span {
+      color: rgba(255, 250, 240, 0.74);
+      font-size: 0.78rem;
       font-weight: 900;
-      letter-spacing: 0.09em;
+      letter-spacing: 0.12em;
       line-height: 1.1;
+      position: relative;
+      text-transform: uppercase;
+      z-index: 1;
+    }
+
+    .choice-title {
+      align-self: center;
+      display: grid;
+      gap: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .choice-card h2 {
+      color: #fffaf0;
+      font-size: clamp(3.8rem, 7.4vw, 8.5rem);
+      line-height: 0.84;
+      max-width: 8ch;
+    }
+
+    .choice-card p {
+      color: rgba(255, 250, 240, 0.76);
+      font-size: clamp(1rem, 1.7vw, 1.3rem);
+      font-weight: 780;
+      line-height: 1.18;
+      max-width: 18ch;
+    }
+
+    .choice-card strong {
+      align-items: center;
+      border: 1px solid rgba(255, 250, 240, 0.54);
+      border-radius: var(--radius);
+      display: inline-flex;
+      font-size: 0.9rem;
+      font-weight: 900;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 16px;
+      position: relative;
+      width: fit-content;
+      z-index: 1;
+    }
+
+    .choice-note {
+      border-top: 1px solid rgba(255, 250, 240, 0.14);
+      color: rgba(255, 250, 240, 0.58);
+      font-size: 0.84rem;
+      font-weight: 780;
+      line-height: 1.25;
+      max-width: none;
+      padding-top: 12px;
+    }
+
+    .detail-screen {
+      background: var(--paper);
+      min-height: 100svh;
+    }
+
+    .detail-screen [id] {
+      scroll-margin-top: 88px;
+    }
+
+    .detail-nav {
+      align-items: center;
+      background: rgba(246, 241, 232, 0.92);
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 12px;
+      grid-template-columns: auto auto minmax(0, 1fr) auto;
+      min-height: 66px;
+      padding: max(10px, env(safe-area-inset-top)) clamp(14px, 3vw, 44px) 10px;
+      position: sticky;
+      top: 0;
+      z-index: 5;
+    }
+
+    .back-link,
+    .nav-action,
+    .primary-action,
+    .secondary-action {
+      align-items: center;
+      border-radius: var(--radius);
+      display: inline-flex;
+      font-weight: 900;
+      justify-content: center;
+      min-height: 44px;
+      padding: 0 14px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .back-link,
+    .secondary-action {
+      border: 1px solid var(--line);
+      color: var(--ink);
+    }
+
+    .nav-title {
+      color: var(--muted);
+      font-size: 0.8rem;
+      font-weight: 860;
+      letter-spacing: 0.1em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 8px;
+      justify-self: center;
+    }
+
+    .nav-links a {
+      border: 1px solid transparent;
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 860;
+      min-height: 34px;
+      padding: 8px 12px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav-links a:hover {
+      border-color: var(--line);
+      color: var(--ink);
+    }
+
+    .nav-action,
+    .primary-action {
+      background: var(--ink);
+      color: #fffaf0;
+    }
+
+    .detail-hero {
+      display: grid;
+      gap: clamp(22px, 4vw, 48px);
+      grid-template-columns: minmax(0, 1.08fr) minmax(260px, 0.92fr);
+      min-height: calc(100svh - 66px);
+      padding: clamp(30px, 6vw, 82px) clamp(16px, 5vw, 78px);
+    }
+
+    .branch-hero {
+      align-items: center;
+      background:
+        linear-gradient(135deg, rgba(255, 250, 240, 0.84), rgba(246, 241, 232, 0.18)),
+        var(--paper);
+    }
+
+    .detail-title {
+      align-content: center;
+      display: grid;
+      gap: 20px;
+      max-width: 720px;
+    }
+
+    .eyebrow {
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.13em;
+      line-height: 1.2;
       text-transform: uppercase;
     }
 
-    .meta b {
+    .detail-title h2 {
+      font-size: clamp(3rem, 7.2vw, 7.8rem);
+      line-height: 0.89;
+      max-width: 9ch;
+    }
+
+    .detail-title h2.wide-title {
+      max-width: 11ch;
+    }
+
+    .detail-title p {
+      color: var(--muted);
+      font-size: clamp(1.05rem, 1.8vw, 1.38rem);
+      font-weight: 690;
+      line-height: 1.35;
+      max-width: 34ch;
+    }
+
+    .action-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .trust-row {
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      max-width: 680px;
+    }
+
+    .trust-pill {
       border: 1px solid var(--line);
       border-radius: var(--radius);
-      display: inline-grid;
-      font-size: 0.76rem;
-      height: 34px;
+      display: grid;
+      gap: 3px;
+      min-height: 76px;
+      padding: 13px;
+    }
+
+    .trust-pill b {
+      font-size: 1.1rem;
       line-height: 1;
-      place-items: center;
-      width: 34px;
     }
 
-    .body {
-      align-content: center;
-      display: grid;
-      gap: 16px;
-      max-width: 580px;
-      padding: 26px 0;
-    }
-
-    .body h1 {
-      font-size: clamp(3.2rem, 8vw, 8rem);
-      letter-spacing: 0;
-      line-height: 0.88;
-      max-width: 8.5ch;
-    }
-
-    .body p {
+    .trust-pill span {
       color: var(--muted);
-      font-size: clamp(1rem, 1.3vw, 1.16rem);
-      font-weight: 690;
-      line-height: 1.38;
-      max-width: 28ch;
+      font-size: 0.78rem;
+      font-weight: 780;
+      line-height: 1.2;
     }
 
-    .bottom {
-      align-items: end;
-      display: grid;
-      gap: 16px;
-      grid-template-columns: minmax(92px, 150px) 1fr;
-    }
-
-    .proof-photo {
-      aspect-ratio: 4 / 3;
-      border: 1px solid rgba(17, 20, 18, 0.18);
+    .hero-photo {
+      align-self: stretch;
       border-radius: var(--radius);
-      margin: 0;
-      max-width: 150px;
+      box-shadow: var(--shadow);
+      min-height: 360px;
       overflow: hidden;
-      width: 100%;
+      position: relative;
     }
 
-    .proof-photo img {
+    .hero-photo img {
       display: block;
       height: 100%;
       object-fit: cover;
       width: 100%;
     }
 
-    .action {
-      align-items: end;
+    .hero-photo figcaption {
+      background: rgba(21, 23, 19, 0.74);
+      bottom: 12px;
+      color: #fffaf0;
+      font-size: 0.78rem;
+      font-weight: 800;
+      left: 12px;
+      line-height: 1.25;
+      padding: 8px 10px;
+      position: absolute;
+      right: 12px;
+    }
+
+    .info-section {
+      border-top: 1px solid var(--line);
+      padding: clamp(30px, 5vw, 70px) clamp(16px, 5vw, 78px);
+    }
+
+    .branch-section {
+      border-top: 1px solid var(--line);
+      padding: clamp(34px, 5.4vw, 78px) clamp(16px, 5vw, 78px);
+    }
+
+    .section-title {
       display: grid;
       gap: 8px;
-      justify-items: start;
+      margin-bottom: 22px;
+      max-width: 640px;
     }
 
-    .action small {
+    .section-title h3 {
+      font-size: clamp(1.8rem, 3.6vw, 3.6rem);
+      line-height: 0.98;
+    }
+
+    .section-title p {
       color: var(--muted);
-      font-size: 0.82rem;
-      font-weight: 820;
-      line-height: 1.25;
+      font-weight: 680;
+      line-height: 1.45;
     }
 
-    .cta {
-      border: 1px solid currentColor;
+    .info-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .branch-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .info-card,
+    .branch-card,
+    .booking-card,
+    .access-card,
+    .partner-card {
+      background: #fffaf0;
+      border: 1px solid var(--line);
       border-radius: var(--radius);
-      color: var(--school);
-      display: inline-grid;
-      font-size: 0.94rem;
-      font-weight: 920;
-      min-height: 50px;
-      padding: 0 17px;
-      place-items: center;
+      display: grid;
+      gap: 12px;
+      min-height: 190px;
+      padding: 22px;
     }
 
-    .choice[data-kind="studio"] .meta {
-      border-bottom-color: rgba(251, 245, 235, 0.18);
+    .info-card b,
+    .branch-card b,
+    .booking-card b,
+    .access-card b,
+    .partner-card b {
+      color: var(--muted);
+      font-size: 0.72rem;
+      letter-spacing: 0.11em;
+      text-transform: uppercase;
     }
 
-    .choice[data-kind="studio"] .meta span,
-    .choice[data-kind="studio"] .body p,
-    .choice[data-kind="studio"] .action small {
-      color: var(--studio-muted);
+    .info-card h4,
+    .branch-card h4,
+    .booking-card h4,
+    .access-card h4,
+    .partner-card h4 {
+      font-size: 1.35rem;
+      line-height: 1.04;
     }
 
-    .choice[data-kind="studio"] .meta b,
-    .choice[data-kind="studio"] .proof-photo {
-      border-color: rgba(251, 245, 235, 0.18);
+    .info-card p,
+    .info-card li,
+    .branch-card p,
+    .branch-card li,
+    .booking-card p,
+    .booking-card li,
+    .access-card p,
+    .partner-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.42;
     }
 
-    .choice[data-kind="studio"] .cta {
-      color: #eeb184;
+    .info-card ul,
+    .branch-card ul,
+    .booking-card ul {
+      margin: 0;
+      padding-left: 18px;
+    }
+
+    .branch-card.is-primary {
+      background: var(--night);
+      color: #fffaf0;
+    }
+
+    .branch-card.is-primary b,
+    .branch-card.is-primary p,
+    .branch-card.is-primary li {
+      color: var(--night-muted);
+    }
+
+    .branch-card.is-primary h4 {
+      color: #fffaf0;
+    }
+
+    .booking-layout {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+    }
+
+    .booking-card {
+      min-height: 0;
+    }
+
+    .booking-card.is-action {
+      background: var(--night);
+      color: #fffaf0;
+    }
+
+    .booking-card.is-action b,
+    .booking-card.is-action p,
+    .booking-card.is-action li {
+      color: var(--night-muted);
+    }
+
+    .booking-card.is-action h4 {
+      color: #fffaf0;
+      font-size: clamp(1.8rem, 3vw, 3.2rem);
+      max-width: 11ch;
+    }
+
+    .contact-list {
+      display: grid;
+      gap: 8px;
+    }
+
+    .contact-list a {
+      color: inherit;
+      font-weight: 900;
+      text-decoration: none;
+    }
+
+    .access-layout {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: minmax(0, 0.95fr) minmax(280px, 1.05fr);
+    }
+
+    .access-card {
+      min-height: 0;
+    }
+
+    .address-card h4 {
+      font-size: clamp(1.8rem, 3.4vw, 3.8rem);
+      line-height: 0.94;
+      max-width: 10ch;
+    }
+
+    .route-card {
+      background: var(--night);
+      color: #fffaf0;
+      min-height: 340px;
+    }
+
+    .route-card b,
+    .route-card p,
+    .route-card li {
+      color: var(--night-muted);
+    }
+
+    .route-card h4 {
+      color: #fffaf0;
+      font-size: clamp(1.8rem, 3vw, 3.2rem);
+      max-width: 12ch;
+    }
+
+    .route-card .secondary-action {
+      border-color: rgba(255, 250, 240, 0.26);
+      color: #fffaf0;
+    }
+
+    .mini-map {
+      background:
+        linear-gradient(90deg, rgba(255, 250, 240, 0.12) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(255, 250, 240, 0.12) 1px, transparent 1px),
+        linear-gradient(135deg, rgba(20, 95, 79, 0.54), rgba(155, 79, 59, 0.42)),
+        var(--night);
+      background-size: 44px 44px, 44px 44px, auto, auto;
+      border-radius: var(--radius);
+      color: #fffaf0;
+      display: grid;
+      min-height: 340px;
+      overflow: hidden;
+      padding: 24px;
+      position: relative;
+    }
+
+    .mini-map::after {
+      background: #fffaf0;
+      border-radius: 999px;
+      box-shadow: 0 0 0 14px rgba(255, 250, 240, 0.18), 0 0 0 32px rgba(255, 250, 240, 0.08);
+      content: "";
+      height: 16px;
+      left: 56%;
+      position: absolute;
+      top: 49%;
+      width: 16px;
+    }
+
+    .mini-map div {
+      align-self: end;
+      display: grid;
+      gap: 8px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .mini-map p {
+      color: var(--night-muted);
+      line-height: 1.45;
+      max-width: 42ch;
+    }
+
+    .map-embed {
+      background: var(--night);
+      border-radius: var(--radius);
+      display: grid;
+      min-height: 340px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .map-embed iframe {
+      border: 0;
+      filter: saturate(0.88) contrast(0.95);
+      height: 100%;
+      min-height: 340px;
+      width: 100%;
+    }
+
+    .map-embed figcaption {
+      background: rgba(21, 23, 19, 0.78);
+      bottom: 12px;
+      color: #fffaf0;
+      font-size: 0.8rem;
+      font-weight: 850;
+      left: 12px;
+      line-height: 1.3;
+      padding: 9px 10px;
+      position: absolute;
+      right: 12px;
+    }
+
+    .partner-strip {
+      background: var(--night);
+      color: #fffaf0;
+      padding: clamp(26px, 4vw, 48px) clamp(16px, 5vw, 78px);
+    }
+
+    .partner-card {
+      align-items: center;
+      background: rgba(255, 250, 240, 0.07);
+      border-color: rgba(255, 250, 240, 0.16);
+      grid-template-columns: minmax(0, 1fr) auto;
+      min-height: 0;
+    }
+
+    .partner-card h4 {
+      color: #fffaf0;
+    }
+
+    .partner-card p {
+      color: var(--night-muted);
+      max-width: 58ch;
+    }
+
+    .booking-card.is-action .secondary-action,
+    .partner-card .secondary-action {
+      border-color: rgba(255, 250, 240, 0.26);
+      color: #fffaf0;
+    }
+
+    .map-band {
+      align-items: stretch;
+      background: var(--night);
+      color: #fffaf0;
+      display: grid;
+      gap: 1px;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .map-panel {
+      display: grid;
+      gap: 12px;
+      padding: clamp(28px, 5vw, 68px);
+    }
+
+    .map-panel p {
+      color: var(--night-muted);
+      line-height: 1.45;
+      max-width: 42ch;
+    }
+
+    .map-panel h3 {
+      font-size: clamp(2rem, 4vw, 4.2rem);
+      line-height: 0.94;
+      max-width: 9ch;
+    }
+
+    .map-box {
+      background:
+        linear-gradient(90deg, rgba(255, 250, 240, 0.1) 1px, transparent 1px),
+        linear-gradient(0deg, rgba(255, 250, 240, 0.1) 1px, transparent 1px),
+        linear-gradient(135deg, rgba(20, 95, 79, 0.42), rgba(155, 79, 59, 0.34));
+      background-size: 42px 42px, 42px 42px, auto;
+      min-height: 420px;
+      position: relative;
+    }
+
+    .map-box::after {
+      background: #fffaf0;
+      border-radius: 999px;
+      box-shadow: 0 0 0 12px rgba(255, 250, 240, 0.18);
+      content: "";
+      height: 18px;
+      left: 54%;
+      position: absolute;
+      top: 47%;
+      width: 18px;
+    }
+
+    .english-screen .primary-action,
+    .english-screen .nav-action {
+      background: var(--school);
+    }
+
+    .english-screen .detail-hero {
+      background: linear-gradient(135deg, var(--school-soft), var(--paper) 58%);
+    }
+
+    .studio-screen .primary-action,
+    .studio-screen .nav-action {
+      background: var(--studio);
+    }
+
+    .studio-screen .detail-hero {
+      background: linear-gradient(135deg, var(--studio-soft), var(--paper) 58%);
     }
 
     @media (hover: hover) {
-      .choice:hover .cta {
-        background: currentColor;
+      .choice-card:hover {
+        transform: translateY(-5px);
+        border-color: rgba(255, 250, 240, 0.64);
+        box-shadow: 0 26px 70px rgba(0, 0, 0, 0.28);
       }
 
-      .choice[data-kind="school"]:hover .cta {
-        color: var(--school);
-      }
-
-      .choice[data-kind="school"]:hover .cta span {
-        color: var(--school-paper);
-      }
-
-      .choice[data-kind="studio"]:hover .cta span {
-        color: var(--studio-paper);
+      .choice-card:hover::before {
+        opacity: 0.86;
+        transform: scale(1.025);
       }
     }
 
-    @media (max-width: 760px) {
-      .topbar {
+    @media (max-width: 900px) {
+      .detail-hero,
+      .map-band,
+      .booking-layout,
+      .access-layout {
         grid-template-columns: 1fr;
-        min-height: 88px;
-        padding: max(12px, env(safe-area-inset-top)) 16px 12px;
       }
 
-      .place {
+      .hero-photo {
+        min-height: 300px;
+      }
+
+      .info-grid,
+      .branch-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-links {
+        justify-self: end;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .brand-mark {
+        align-items: start;
+        display: grid;
+      }
+
+      .brand-mark h1 {
+        max-width: none;
         text-align: left;
       }
 
-      .choices {
+      .choice-grid {
+        height: auto;
         grid-template-columns: 1fr;
-        min-height: calc(100svh - 88px);
       }
 
-      .choice {
-        min-height: calc((100svh - 88px) / 2);
-        padding: 17px;
+      .choice-card {
+        min-height: clamp(230px, 31svh, 260px);
       }
 
-      .choice + .choice {
-        border-left: 0;
-        border-top: 1px solid var(--line);
+      .choice-card h2 {
+        font-size: clamp(2.55rem, 12.5vw, 4.1rem);
       }
 
-      .meta {
-        padding-bottom: 11px;
+      .detail-nav {
+        grid-template-columns: auto 1fr;
       }
 
-      .body {
-        gap: 8px;
-        padding: 13px 0;
-      }
-
-      .body h1 {
-        font-size: clamp(2.55rem, 13vw, 4.4rem);
-        max-width: 11ch;
-      }
-
-      .body p {
-        font-size: 0.94rem;
-        max-width: 30ch;
-      }
-
-      .bottom {
-        align-items: center;
-        gap: 11px;
-        grid-template-columns: 82px 1fr;
-      }
-
-      .proof-photo {
-        max-width: 82px;
-      }
-
-      .action small {
+      .nav-links,
+      .nav-action {
         display: none;
       }
 
-      .cta {
-        min-height: 46px;
-        white-space: nowrap;
+      .detail-hero {
+        min-height: auto;
+      }
+
+      .detail-title h2 {
+        max-width: 8ch;
+      }
+
+      .trust-row {
+        grid-template-columns: 1fr;
+      }
+
+      .partner-card {
+        align-items: start;
+        grid-template-columns: 1fr;
+      }
+
+      .mini-map {
+        min-height: 280px;
+      }
+
+      .map-embed,
+      .map-embed iframe {
+        min-height: 300px;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation: none !important;
+        scroll-behavior: auto !important;
+        transition: none !important;
+      }
+    }
+
+    @keyframes door-settle {
+      from {
+        opacity: 0;
+        transform: translateY(16px) scale(0.985);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
       }
     }
   </style>
 </head>
-<body class="is-locked">
-  <main class="page">
+<body class="is-locked" data-view="choice">
+  <main>
     <section class="locked" aria-label="Private preview locked">
       <div class="locked-card">
         <h1>Private preview</h1>
@@ -387,65 +975,351 @@
       </div>
     </section>
 
-    <section class="portal" aria-label="Kose shared QR front door">
-      <header class="topbar" aria-label="Portal identity">
-        <div class="brand">
-          <strong>Kose Portal</strong>
-          <span>Ovi English School + Studio do</span>
+    <div class="portal">
+      <section class="choice-screen" aria-label="Choose Ovi English School or Studio do">
+        <div class="choice-inner">
+          <div class="brand-mark">
+            <p>Kose Portal</p>
+            <h1>Choose first.</h1>
+          </div>
+
+          <div class="choice-stage">
+            <nav class="choice-grid" aria-label="Primary choice">
+              <a class="choice-card" data-choice="english" href="#english">
+                <span>English school</span>
+                <div class="choice-title">
+                  <h2>Ovi English School</h2>
+                  <p>Lessons and online study.</p>
+                </div>
+                <strong>Choose English</strong>
+              </a>
+
+              <a class="choice-card" data-choice="studio" href="#studio">
+                <span>Photo studio</span>
+                <div class="choice-title">
+                  <h2>Studio do</h2>
+                  <p>Photoshoots and studio rental.</p>
+                </div>
+                <strong>Choose Studio</strong>
+              </a>
+            </nav>
+            <p class="choice-note">Same Kose place. Separate pages after you choose.</p>
+          </div>
         </div>
-        <div class="place">Kofu / Kose, one shared address</div>
-      </header>
+      </section>
 
-      <nav class="choices" aria-label="Choose a service">
-        <a class="choice" data-kind="school" href="https://ovienglish.com/">
-          <div class="meta">
-            <span>Ovi English School</span>
-            <b>01</b>
-          </div>
-          <div class="body">
-            <h1>English School</h1>
-            <p>Lessons in Kofu and the online study platform.</p>
-          </div>
-          <div class="bottom">
-            <figure class="proof-photo" aria-label="Ovi English lesson reference">
-              <img src="assets/ovi-english-lesson.jpg" alt="Ovi English lesson worksheet" />
-            </figure>
-            <div class="action">
-              <small>For studying, booking, and lesson access.</small>
-              <span class="cta"><span>Open English</span></span>
+      <section class="detail-screen english-screen" aria-label="Ovi English School">
+        <header class="detail-nav">
+          <a class="back-link" href="#choice">Back</a>
+          <div class="nav-title">Ovi English School</div>
+          <nav class="nav-links" aria-label="Ovi English page sections">
+            <a href="#english-lessons">Lessons</a>
+            <a href="#english-booking">Booking</a>
+            <a href="#english-access">Access</a>
+          </nav>
+          <a class="nav-action" href="https://ovienglish.com/book/">Book</a>
+        </header>
+
+        <section class="detail-hero branch-hero">
+          <div class="detail-title">
+            <p class="eyebrow">English school in Kofu / Kose and online</p>
+            <h2 class="wide-title">Ovi English School</h2>
+            <p>Private English lessons in a friendly local school, plus an online study platform for listening, reading, vocabulary support, and review.</p>
+            <div class="action-row">
+              <a class="primary-action" href="https://ovienglish.com/book/">Request a lesson</a>
+              <a class="secondary-action" href="https://ovienglish.com/">Study online</a>
+              <a class="secondary-action" href="https://ovienglish.com/profile/">Student profile</a>
+            </div>
+            <div class="trust-row" aria-label="Ovi English quick facts">
+              <div class="trust-pill">
+                <b>5.0</b>
+                <span>Google profile rating snapshot</span>
+              </div>
+              <div class="trust-pill">
+                <b>Kofu</b>
+                <span>Physical lessons in the Kose area</span>
+              </div>
+              <div class="trust-pill">
+                <b>Online</b>
+                <span>Lessons and study platform</span>
+              </div>
             </div>
           </div>
-        </a>
+          <figure class="hero-photo">
+            <img src="assets/ovi-english-lesson.jpg" alt="Ovi English lesson material" />
+            <figcaption>Local private lessons connected to Ovi English online study.</figcaption>
+          </figure>
+        </section>
 
-        <a class="choice" data-kind="studio" href="https://www.instagram.com/studio_do_kose/">
-          <div class="meta">
-            <span>Studio do</span>
-            <b>02</b>
+        <section class="branch-section" id="english-lessons">
+          <div class="section-title">
+            <h3>Choose the English path you need.</h3>
+            <p>The old school information is reorganized around what a visitor wants to do: book a local lesson, study online, or ask first.</p>
           </div>
-          <div class="body">
-            <h1>Photo Studio</h1>
-            <p>Photoshoots, studio use, and portfolio/contact.</p>
+          <div class="branch-grid">
+            <article class="branch-card is-primary">
+              <b>Local school</b>
+              <h4>Private lessons in Kofu / Kose</h4>
+              <p>Adult lessons, kids lessons, family lessons, conversation practice, grammar support, and custom study help in a friendly private environment.</p>
+            </article>
+            <article class="branch-card">
+              <b>Study platform</b>
+              <h4>Learn from real stories</h4>
+              <p>Open interactive lessons with listening, full readings, word help, review, quizzes, and learner support in English, Japanese, or Spanish.</p>
+              <div class="action-row">
+                <a class="secondary-action" href="https://ovienglish.com/">Open platform</a>
+              </div>
+            </article>
+            <article class="branch-card">
+              <b>Trial / level</b>
+              <h4>Request first, confirm by email</h4>
+              <ul>
+                <li>Choose Kofu or online</li>
+                <li>Send preferred day and time</li>
+                <li>Intermediate students can ask about level check</li>
+              </ul>
+            </article>
           </div>
-          <div class="bottom">
-            <figure class="proof-photo" aria-label="Studio do room reference">
-              <img src="assets/studio-do-open-20250324.jpg" alt="Studio do room and logo detail" />
-            </figure>
-            <div class="action">
-              <small>For photoshoots, rental, and studio enquiries.</small>
-              <span class="cta"><span>Open Studio</span></span>
+        </section>
+
+        <section class="branch-section" id="english-booking">
+          <div class="booking-layout">
+            <article class="booking-card is-action">
+              <b>Booking</b>
+              <h4>Request a lesson time.</h4>
+              <p>The live Ovi booking page already collects name, email, phone, level, preferred date/time, lesson kind, and best reply method.</p>
+              <div class="action-row">
+                <a class="primary-action" href="https://ovienglish.com/book/">Open booking form</a>
+                <a class="secondary-action" href="mailto:english.ovi@gmail.com">Email Ovi</a>
+              </div>
+            </article>
+            <article class="booking-card">
+              <b>Good for</b>
+              <h4>Adults, children, and families</h4>
+              <ul>
+                <li>Private lessons matched to level and request</li>
+                <li>Couples, siblings, friends, and small groups</li>
+                <li>Classroom lessons in Kofu or online lessons</li>
+              </ul>
+            </article>
+            <article class="booking-card">
+              <b>Contact</b>
+              <h4>Ask before booking</h4>
+              <div class="contact-list">
+                <p><a href="tel:+818094645050">080-9464-5050</a></p>
+                <p><a href="mailto:english.ovi@gmail.com">english.ovi@gmail.com</a></p>
+                <p>Contact details are used only to reply about lessons.</p>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="branch-section" id="english-access">
+          <div class="access-layout">
+            <article class="access-card address-card">
+              <b>Shared Kose address</b>
+              <h4>Find the school.</h4>
+              <p>〒400-0836 山梨県甲府市小瀬町76-12 辻ハイツ103</p>
+              <p>About two minutes from Yamashiro Elementary School, from the old school access copy.</p>
+              <div class="action-row">
+                <a class="primary-action" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Open map</a>
+                <a class="secondary-action" href="#choice">Choose again</a>
+              </div>
+            </article>
+            <article class="access-card route-card">
+              <b>Map pin</b>
+              <h4>Same pin for both businesses.</h4>
+              <p>Coordinates: 35.6272269, 138.5766947</p>
+              <p>Plus code: JHGG+VM Kofu, Yamanashi</p>
+              <div class="action-row">
+                <a class="primary-action" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Open Google Maps</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="partner-strip" aria-label="Studio do partner mention">
+          <article class="partner-card">
+            <div>
+              <b>Also at this place</b>
+              <h4>Studio do photo studio</h4>
+              <p>Same Kose address, separate service. See Studio do only if you want photoshoots, studio rental enquiries, or the photo portfolio.</p>
+            </div>
+            <a class="secondary-action" href="#studio">Open Studio do</a>
+          </article>
+        </section>
+      </section>
+
+      <section class="detail-screen studio-screen" aria-label="Studio do">
+        <header class="detail-nav">
+          <a class="back-link" href="#choice">Back</a>
+          <div class="nav-title">Studio do</div>
+          <nav class="nav-links" aria-label="Studio do page sections">
+            <a href="#studio-services">Services</a>
+            <a href="#studio-booking">Booking</a>
+            <a href="#studio-access">Access</a>
+          </nav>
+          <a class="nav-action" href="https://www.instagram.com/studio_do_kose/">Instagram</a>
+        </header>
+
+        <section class="detail-hero branch-hero">
+          <div class="detail-title">
+            <p class="eyebrow">Photo studio in Kofu / Kose</p>
+            <h2>Studio do</h2>
+            <p>A reserved photo studio for portraits, family sessions, creator shoots, and studio-use enquiries in the same Kose space as Ovi English School.</p>
+            <div class="action-row">
+              <a class="primary-action" href="https://www.instagram.com/studio_do_kose/">View Instagram</a>
+              <a class="secondary-action" href="https://www.instagram.com/nodo.do.do/">nodo portfolio</a>
+              <a class="secondary-action" href="#studio-booking">Booking info</a>
+            </div>
+            <div class="trust-row" aria-label="Studio do quick facts">
+              <div class="trust-pill">
+                <b>予約制</b>
+                <span>Reservation required in profile copy</span>
+              </div>
+              <div class="trust-pill">
+                <b>Kose</b>
+                <span>Small studio near Kose Sports Park Street</span>
+              </div>
+              <div class="trust-pill">
+                <b>Photo</b>
+                <span>Studio do and nodo photography</span>
+              </div>
             </div>
           </div>
-        </a>
-      </nav>
-    </section>
+          <figure class="hero-photo">
+            <img src="assets/studio-do-open-20250324.jpg" alt="Studio do interior and logo" />
+            <figcaption>Studio do - photo studio, portfolio, reservation, and access.</figcaption>
+          </figure>
+        </section>
+
+        <section class="branch-section" id="studio-services">
+          <div class="section-title">
+            <h3>Choose the studio path you need.</h3>
+            <p>The Studio page keeps the visitor focused on photos, space use, booking, and access. Ovi stays visible only as the shared-place partner.</p>
+          </div>
+          <div class="branch-grid">
+            <article class="branch-card is-primary">
+              <b>Photoshoots</b>
+              <h4>Portrait and family sessions</h4>
+              <p>Use this branch for portraits, family photos, baby and birthday sessions, Shichi-Go-San, personal branding, and small product shoots.</p>
+            </article>
+            <article class="branch-card">
+              <b>Studio use</b>
+              <h4>Rental enquiries</h4>
+              <p>Keep this as an enquiry path until final rental rules, equipment, prices, and time slots are confirmed by the owner.</p>
+            </article>
+            <article class="branch-card">
+              <b>Location work</b>
+              <h4>nodo photography</h4>
+              <p>nodo is connected to Yamanashi and Mt. Fuji-area location photography, with portfolio/contact through Instagram.</p>
+              <div class="action-row">
+                <a class="secondary-action" href="https://www.instagram.com/nodo.do.do/">View nodo</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="branch-section" id="studio-booking">
+          <div class="booking-layout">
+            <article class="booking-card is-action">
+              <b>Booking</b>
+              <h4>Reserve through the studio contact route.</h4>
+              <p>For this preview, Instagram is the confirmed public contact route. The final official LINE URL should be added before public launch.</p>
+              <div class="action-row">
+                <a class="primary-action" href="https://www.instagram.com/studio_do_kose/">Open Studio Instagram</a>
+                <a class="secondary-action" href="https://www.instagram.com/nodo.do.do/">Open nodo</a>
+              </div>
+            </article>
+            <article class="booking-card">
+              <b>Ask about</b>
+              <h4>Session details</h4>
+              <ul>
+                <li>Photoshoot date and purpose</li>
+                <li>People, product, or space-use needs</li>
+                <li>Studio or outdoor/location preference</li>
+              </ul>
+            </article>
+            <article class="booking-card">
+              <b>Before final launch</b>
+              <h4>Owner confirmation needed</h4>
+              <ul>
+                <li>Official LINE link</li>
+                <li>Hours and holidays</li>
+                <li>Rental availability and pricing</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="branch-section" id="studio-access">
+          <div class="access-layout">
+            <article class="access-card address-card">
+              <b>Shared Kose address</b>
+              <h4>Find the studio.</h4>
+              <p>〒400-0836 山梨県甲府市小瀬町76-12 辻ハイツ103</p>
+              <p>Studio do and Ovi English School share the same address, but the Studio page keeps booking focused on photos and studio use.</p>
+              <div class="action-row">
+                <a class="primary-action" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Open map</a>
+                <a class="secondary-action" href="#choice">Choose again</a>
+              </div>
+            </article>
+            <article class="access-card route-card">
+              <b>Map pin</b>
+              <h4>Same pin for both businesses.</h4>
+              <p>Coordinates: 35.6272269, 138.5766947</p>
+              <p>Plus code: JHGG+VM Kofu, Yamanashi</p>
+              <div class="action-row">
+                <a class="primary-action" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Open Google Maps</a>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section class="partner-strip" aria-label="Ovi English School partner mention">
+          <article class="partner-card">
+            <div>
+              <b>Also at this place</b>
+              <h4>Ovi English School</h4>
+              <p>Same Kose address, separate service. Open Ovi only if you want English lessons, online study, or school booking.</p>
+            </div>
+            <a class="secondary-action" href="#english">Open Ovi English</a>
+          </article>
+        </section>
+      </section>
+    </div>
   </main>
 
   <script>
     const ACCESS_KEY = "kose-portal-ovi-20260623";
     const params = new URLSearchParams(window.location.search);
+    const hasAccess = params.get("access") === ACCESS_KEY;
 
-    if (params.get("access") === ACCESS_KEY) {
+    function resolveView(hash) {
+      if (hash === "english" || hash.startsWith("english-")) return "english";
+      if (hash === "studio" || hash.startsWith("studio-")) return "studio";
+      return "choice";
+    }
+
+    function setViewFromHash() {
+      const view = window.location.hash.replace("#", "");
+      const next = resolveView(view);
+      document.body.dataset.view = next;
+      if (next !== "choice") {
+        if (view === next) {
+          window.scrollTo({ top: 0, behavior: "auto" });
+        } else {
+          requestAnimationFrame(() => {
+            document.getElementById(view)?.scrollIntoView({ block: "start", behavior: "auto" });
+          });
+        }
+      }
+    }
+
+    if (hasAccess) {
       document.body.classList.remove("is-locked");
+      setViewFromHash();
+      window.addEventListener("hashchange", setViewFromHash);
     }
   </script>
 </body>
