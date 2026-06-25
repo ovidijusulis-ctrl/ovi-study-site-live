@@ -4,26 +4,32 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
   <meta name="robots" content="noindex, nofollow" />
-  <title>Kose Portal | Ovi English School / Studio do</title>
+  <title>Kose 103 | Ovi English School / Studio do</title>
   <meta name="description" content="Private owner preview for the shared Kose QR portal: Ovi English School and Studio do." />
   <style>
+    @import url("https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:wght@400;700&family=Shippori+Mincho:wght@500;700&display=swap");
+
     :root {
       color-scheme: light;
-      --paper: #f8f5ef;
-      --paper-deep: #ece7dc;
-      --ink: #151715;
-      --muted: #62665f;
-      --line: rgba(21, 23, 21, 0.14);
-      --line-strong: rgba(21, 23, 21, 0.24);
+      --ink: #121512;
+      --soft-ink: #3e453f;
+      --muted: #72786f;
+      --paper: #fbf6ed;
+      --paper-2: #f2eadf;
+      --paper-3: #e7ddd0;
       --white: #fffdf8;
-      --school: #0d6d5b;
-      --school-soft: #e3f0ea;
-      --studio: #a95743;
-      --studio-soft: #f1e2da;
-      --night: #171a17;
-      --shadow: 0 24px 70px rgba(28, 24, 17, 0.13);
+      --school: #005b48;
+      --school-2: #dfeee6;
+      --studio: #7f231d;
+      --studio-2: #f3ded5;
+      --blue: #223f4a;
+      --line: rgba(18, 21, 18, 0.16);
+      --line-strong: rgba(18, 21, 18, 0.28);
+      --shadow: 0 24px 80px rgba(18, 21, 18, 0.16);
       --radius: 8px;
       --content: min(1180px, calc(100vw - 36px));
+      --display: "Shippori Mincho", "Yu Mincho", "Hiragino Mincho ProN", serif;
+      --body: "BIZ UDPGothic", "Hiragino Sans", "Yu Gothic", YuGothic, system-ui, sans-serif;
     }
 
     * {
@@ -31,6 +37,7 @@
     }
 
     html {
+      background: var(--paper);
       min-height: 100%;
       scroll-behavior: smooth;
     }
@@ -38,21 +45,23 @@
     body {
       background: var(--paper);
       color: var(--ink);
-      font-family: "Hiragino Sans", "Yu Gothic", "YuGothic", "Noto Sans JP", Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: var(--body);
       letter-spacing: 0;
       margin: 0;
       min-height: 100%;
       overflow-x: hidden;
+      text-rendering: optimizeLegibility;
     }
 
     a,
     button {
       -webkit-tap-highlight-color: transparent;
+      color: inherit;
       font: inherit;
     }
 
     a {
-      color: inherit;
+      text-decoration: none;
     }
 
     h1,
@@ -66,12 +75,7 @@
 
     p,
     li {
-      line-height: 1.72;
-    }
-
-    ul {
-      margin: 0;
-      padding-left: 1.05em;
+      line-height: 1.78;
     }
 
     img {
@@ -85,9 +89,9 @@
     }
 
     .locked {
-      align-items: center;
       display: grid;
       padding: 22px;
+      place-items: center;
     }
 
     .locked-card {
@@ -96,12 +100,12 @@
       border-radius: var(--radius);
       display: grid;
       gap: 10px;
-      margin: 0 auto;
       max-width: 430px;
       padding: 24px;
     }
 
     .locked-card h1 {
+      font-family: var(--display);
       font-size: 1.45rem;
       line-height: 1.1;
     }
@@ -116,14 +120,11 @@
     }
 
     .choice-screen,
-    .detail-screen {
+    .service-screen {
       display: none;
     }
 
-    body[data-view="choice"] .choice-screen {
-      display: block;
-    }
-
+    body[data-view="choice"] .choice-screen,
     body[data-view="english"] .english-screen,
     body[data-view="studio"] .studio-screen {
       display: block;
@@ -131,225 +132,251 @@
 
     .choice-screen {
       background:
-        linear-gradient(120deg, rgba(13, 109, 91, 0.08), transparent 38%),
-        linear-gradient(240deg, rgba(169, 87, 67, 0.08), transparent 42%),
+        linear-gradient(90deg, rgba(18, 21, 18, 0.05) 1px, transparent 1px),
+        linear-gradient(180deg, rgba(18, 21, 18, 0.04) 1px, transparent 1px),
         var(--paper);
+      background-size: 30px 30px;
       min-height: 100svh;
-      padding: max(20px, env(safe-area-inset-top)) 18px max(18px, env(safe-area-inset-bottom));
+      padding: 18px;
     }
 
-    .choice-shell {
+    .threshold {
+      background: rgba(255, 253, 248, 0.92);
+      border: 1px solid var(--line-strong);
       display: grid;
-      gap: clamp(14px, 2vw, 22px);
-      grid-template-rows: auto minmax(0, 1fr) auto;
-      margin: 0 auto;
-      max-width: 1220px;
-      min-height: calc(100svh - max(20px, env(safe-area-inset-top)) - max(18px, env(safe-area-inset-bottom)));
+      grid-template-columns: minmax(260px, 0.86fr) minmax(0, 2fr);
+      min-height: calc(100svh - 36px);
+      overflow: clip;
     }
 
-    .choice-top {
-      align-items: end;
+    .threshold-mark {
+      background: var(--ink);
+      color: var(--white);
       display: grid;
-      gap: 16px;
-      grid-template-columns: 1fr minmax(260px, 0.8fr);
+      grid-template-rows: auto 1fr auto;
+      min-height: 100%;
+      padding: clamp(20px, 3vw, 34px);
     }
 
-    .kicker {
-      color: var(--muted);
-      font-size: 0.72rem;
-      font-weight: 800;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
+    .mark-top,
+    .mark-bottom,
+    .door-meta,
+    .mini-label,
+    .section-index,
+    .service-kicker,
+    .owner-note {
+      font-size: 0.78rem;
+      font-weight: 700;
+      letter-spacing: 0;
+      line-height: 1.45;
     }
 
-    .choice-top h1 {
-      font-size: clamp(1.7rem, 3.7vw, 3.35rem);
-      font-weight: 780;
-      line-height: 1.08;
-      margin-top: 10px;
-      max-width: 21ch;
+    .mark-top span,
+    .mark-bottom span {
+      color: rgba(255, 253, 248, 0.62);
+      display: block;
+      margin-top: 3px;
     }
 
-    .choice-top p:last-child {
-      color: var(--muted);
-      font-size: clamp(0.95rem, 1.2vw, 1.08rem);
-      font-weight: 650;
-      max-width: 36rem;
-      text-align: right;
-    }
-
-    .choice-board {
-      align-self: start;
+    .mark-title {
+      align-self: center;
       display: grid;
-      gap: 16px;
+      gap: 18px;
+    }
+
+    .mark-title .room {
+      border: 1px solid rgba(255, 253, 248, 0.34);
+      border-radius: 999px;
+      color: rgba(255, 253, 248, 0.78);
+      font-size: 0.9rem;
+      font-weight: 700;
+      padding: 8px 14px;
+      width: fit-content;
+    }
+
+    .mark-title h1 {
+      font-family: var(--display);
+      font-size: clamp(3.8rem, 7vw, 8rem);
+      font-weight: 700;
+      line-height: 0.86;
+    }
+
+    .mark-title p {
+      color: rgba(255, 253, 248, 0.72);
+      font-size: clamp(0.98rem, 1.3vw, 1.12rem);
+      font-weight: 700;
+      max-width: 19rem;
+    }
+
+    .mark-bottom {
+      border-top: 1px solid rgba(255, 253, 248, 0.22);
+      display: grid;
+      gap: 8px;
+      padding-top: 18px;
+    }
+
+    .doors {
+      display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
-      margin-top: clamp(16px, 6svh, 58px);
-      min-height: 0;
+      min-height: 100%;
+      position: relative;
     }
 
-    .service-tile {
-      background: rgba(255, 253, 248, 0.86);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
+    .doors::before {
+      background: var(--line);
+      content: "";
+      inset: 0 auto 0 50%;
+      position: absolute;
+      width: 1px;
+      z-index: 2;
+    }
+
+    .door {
+      --accent: var(--school);
+      --soft: var(--school-2);
+      align-content: stretch;
+      background:
+        linear-gradient(180deg, var(--soft), rgba(255, 253, 248, 0.74) 46%, var(--white));
       color: var(--ink);
       display: grid;
-      gap: clamp(16px, 2vw, 24px);
-      grid-template-columns: minmax(160px, 0.42fr) 1fr;
-      min-height: clamp(330px, 48svh, 470px);
+      grid-template-rows: minmax(170px, 28svh) 1fr auto;
+      min-height: calc(100svh - 36px);
       overflow: hidden;
-      padding: clamp(14px, 1.7vw, 22px);
       position: relative;
-      text-decoration: none;
-      transform: translateY(10px);
-      animation: tile-in 560ms cubic-bezier(0.2, 0.72, 0.18, 1) forwards;
-      transition: border-color 220ms ease, box-shadow 220ms ease, transform 220ms ease;
+      transition: transform 260ms ease, filter 260ms ease, background 260ms ease;
     }
 
-    .service-tile:nth-child(2) {
-      animation-delay: 80ms;
-    }
-
-    .service-tile:hover,
-    .service-tile:focus-visible {
-      border-color: var(--line-strong);
-      box-shadow: 0 30px 84px rgba(28, 24, 17, 0.18);
-      outline: none;
-      transform: translateY(0);
-    }
-
-    .service-tile.is-school {
-      --accent: var(--school);
-      --soft: var(--school-soft);
-    }
-
-    .service-tile.is-studio {
+    .door.is-studio {
       --accent: var(--studio);
-      --soft: var(--studio-soft);
+      --soft: var(--studio-2);
     }
 
-    .tile-media {
-      background: var(--soft);
-      border-radius: calc(var(--radius) - 2px);
-      min-height: 100%;
+    .door:hover,
+    .door:focus-visible {
+      filter: saturate(1.08);
+      outline: none;
+      transform: translateY(-2px);
+    }
+
+    .door-media {
+      border-bottom: 1px solid var(--line);
       overflow: hidden;
       position: relative;
     }
 
-    .tile-media img {
+    .door-media img {
       height: 100%;
       object-fit: cover;
       width: 100%;
-      transition: transform 520ms ease;
     }
 
-    .service-tile:hover .tile-media img,
-    .service-tile:focus-visible .tile-media img {
-      transform: scale(1.035);
-    }
-
-    .tile-media::after {
-      background: linear-gradient(180deg, transparent, rgba(21, 23, 21, 0.18));
+    .door-media::after {
+      background: linear-gradient(180deg, rgba(18, 21, 18, 0.02), rgba(18, 21, 18, 0.36));
       content: "";
       inset: 0;
       position: absolute;
     }
 
-    .tile-copy {
-      align-content: center;
+    .door-copy {
       display: grid;
-      gap: clamp(10px, 1.3vw, 16px);
-      min-width: 0;
+      gap: clamp(14px, 2vw, 24px);
+      grid-template-rows: auto auto 1fr;
+      padding: clamp(18px, 4vw, 44px);
     }
 
-    .service-index {
+    .door-meta {
+      align-items: center;
       color: var(--accent);
-      font-size: 0.74rem;
-      font-weight: 850;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
     }
 
-    .tile-copy h2 {
-      font-size: clamp(1.8rem, 3.35vw, 3.35rem);
-      font-weight: 780;
-      line-height: 0.98;
+    .door-number {
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      display: inline-grid;
+      min-width: 46px;
+      padding: 7px 10px;
+      place-items: center;
     }
 
-    .brand-name {
-      color: var(--ink);
-      font-size: clamp(1rem, 1.4vw, 1.18rem);
-      font-weight: 800;
+    .door h2 {
+      color: var(--accent);
+      font-family: var(--display);
+      font-size: clamp(2.7rem, 6.7vw, 7.2rem);
+      font-weight: 700;
+      line-height: 0.88;
+      max-width: 7ch;
     }
 
-    .tile-copy p {
-      color: var(--muted);
-      font-size: clamp(0.95rem, 1.15vw, 1.04rem);
-      font-weight: 620;
-      max-width: 24rem;
+    .door p {
+      color: var(--soft-ink);
+      font-size: clamp(1rem, 1.32vw, 1.18rem);
+      font-weight: 700;
+      max-width: 27rem;
     }
 
-    .tile-action {
+    .door-action {
+      align-items: center;
+      border-top: 1px solid var(--line);
+      display: flex;
+      justify-content: space-between;
+      min-height: 84px;
+      padding: 0 clamp(18px, 4vw, 44px);
+    }
+
+    .door-action b {
+      color: var(--soft-ink);
+      font-size: 0.9rem;
+    }
+
+    .door-action span {
       align-items: center;
       background: var(--accent);
-      border-radius: var(--radius);
+      border-radius: 999px;
       color: var(--white);
       display: inline-flex;
-      font-size: 0.96rem;
-      font-weight: 800;
-      justify-content: center;
-      min-height: 48px;
-      padding: 0 18px;
-      width: fit-content;
-    }
-
-    .tile-facts {
-      color: var(--muted);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 6px;
-      list-style: none;
-      padding: 0;
-    }
-
-    .tile-facts li {
-      background: rgba(21, 23, 21, 0.055);
-      border: 1px solid rgba(21, 23, 21, 0.08);
-      border-radius: 999px;
-      font-size: 0.76rem;
-      font-weight: 700;
-      line-height: 1;
-      padding: 8px 10px;
-    }
-
-    .choice-note {
-      border-top: 1px solid var(--line);
-      color: var(--muted);
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px 18px;
-      justify-content: space-between;
-      padding-top: 14px;
       font-size: 0.88rem;
       font-weight: 700;
+      min-height: 42px;
+      padding: 0 18px;
     }
 
-    .detail-screen {
-      background:
-        linear-gradient(180deg, rgba(255, 253, 248, 0.74), rgba(248, 245, 239, 0.96) 420px),
-        var(--paper);
+    body.is-choosing .door {
+      filter: grayscale(0.9) opacity(0.38);
+      transform: scale(0.985);
+    }
+
+    body.is-choosing.picked-english .door.is-school,
+    body.is-choosing.picked-studio .door.is-studio {
+      filter: none;
+      transform: scale(1.025);
+      z-index: 3;
+    }
+
+    .service-screen {
+      --accent: var(--school);
+      --soft: var(--school-2);
+      background: var(--paper);
+      color: var(--ink);
       min-height: 100svh;
     }
 
-    .detail-nav {
+    .studio-screen {
+      --accent: var(--studio);
+      --soft: var(--studio-2);
+    }
+
+    .service-nav {
       align-items: center;
-      backdrop-filter: blur(14px);
-      background: rgba(255, 253, 248, 0.86);
+      backdrop-filter: blur(16px);
+      background: rgba(251, 246, 237, 0.88);
       border-bottom: 1px solid var(--line);
       display: grid;
       gap: 14px;
       grid-template-columns: auto auto 1fr auto;
-      min-height: 58px;
+      min-height: 62px;
       padding: 0 max(18px, calc((100vw - 1180px) / 2));
       position: sticky;
       top: 0;
@@ -357,394 +384,330 @@
     }
 
     .back-link,
-    .nav-action,
-    .primary-action,
-    .secondary-action {
+    .nav-cta,
+    .button,
+    .ghost-button {
       align-items: center;
-      border-radius: var(--radius);
+      border-radius: 999px;
       display: inline-flex;
-      font-size: 0.86rem;
-      font-weight: 800;
+      font-size: 0.88rem;
+      font-weight: 700;
       justify-content: center;
       min-height: 42px;
-      padding: 0 14px;
-      text-decoration: none;
+      padding: 0 16px;
+      white-space: nowrap;
     }
 
     .back-link,
-    .secondary-action {
-      background: var(--white);
+    .ghost-button {
+      background: rgba(255, 253, 248, 0.62);
       border: 1px solid var(--line);
+      color: var(--ink);
     }
 
-    .nav-title {
-      font-size: 0.82rem;
-      font-weight: 850;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 14px;
-      justify-self: end;
-    }
-
-    .nav-links a {
-      color: var(--muted);
-      font-size: 0.78rem;
-      font-weight: 800;
-      text-decoration: none;
-    }
-
-    .english-screen {
-      --accent: var(--school);
-      --soft: var(--school-soft);
-    }
-
-    .studio-screen {
-      --accent: var(--studio);
-      --soft: var(--studio-soft);
-    }
-
-    .nav-action,
-    .primary-action {
+    .nav-cta,
+    .button {
       background: var(--accent);
       color: var(--white);
     }
 
+    .service-name {
+      color: var(--accent);
+      font-weight: 700;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 16px;
+      justify-content: end;
+    }
+
+    .nav-links a {
+      color: var(--soft-ink);
+      font-size: 0.82rem;
+      font-weight: 700;
+    }
+
     .service-hero {
-      align-items: center;
+      border-bottom: 1px solid var(--line);
       display: grid;
-      gap: clamp(22px, 4vw, 56px);
-      grid-template-columns: minmax(0, 1fr) minmax(280px, 0.78fr);
-      margin: 0 auto;
-      max-width: var(--content);
-      padding: clamp(34px, 7vw, 78px) 0 clamp(30px, 6vw, 64px);
+      grid-template-columns: minmax(0, 1fr) minmax(330px, 0.82fr);
+      min-height: calc(100svh - 62px);
     }
 
     .hero-copy {
+      align-content: center;
       display: grid;
-      gap: 16px;
+      gap: clamp(18px, 3vw, 30px);
+      padding: clamp(34px, 7vw, 84px) clamp(22px, 6vw, 78px);
     }
 
-    .eyebrow {
+    .service-kicker {
       color: var(--accent);
-      font-size: 0.78rem;
-      font-weight: 850;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
     }
 
     .hero-copy h2 {
-      font-size: clamp(2.35rem, 5.6vw, 5.4rem);
-      font-weight: 780;
-      line-height: 0.98;
-      max-width: 10ch;
+      font-family: var(--display);
+      font-size: clamp(3.1rem, 7vw, 7.8rem);
+      font-weight: 700;
+      line-height: 0.93;
+      max-width: 11ch;
     }
 
     .hero-copy > p {
-      color: var(--muted);
+      color: var(--soft-ink);
       font-size: clamp(1rem, 1.35vw, 1.22rem);
-      font-weight: 650;
+      font-weight: 700;
       max-width: 42rem;
     }
 
-    .action-row {
+    .button-row {
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
     }
 
-    .quick-facts {
+    .hero-media {
+      background: var(--soft);
+      border-left: 1px solid var(--line);
       display: grid;
-      gap: 10px;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      margin-top: 4px;
-    }
-
-    .quick-fact {
-      background: rgba(255, 253, 248, 0.72);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: 13px;
-    }
-
-    .quick-fact b {
-      display: block;
-      font-size: 0.84rem;
-      margin-bottom: 4px;
-    }
-
-    .quick-fact span {
-      color: var(--muted);
-      display: block;
-      font-size: 0.78rem;
-      font-weight: 650;
-      line-height: 1.55;
-    }
-
-    .hero-card {
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
+      grid-template-rows: 1fr auto;
+      min-height: 100%;
       overflow: hidden;
     }
 
-    .hero-card img {
-      aspect-ratio: 4 / 3;
-      height: auto;
+    .hero-media img {
+      height: 100%;
+      min-height: 420px;
       object-fit: cover;
       width: 100%;
     }
 
-    .hero-caption {
+    .media-caption {
+      background: rgba(255, 253, 248, 0.88);
+      border-top: 1px solid var(--line);
       display: grid;
       gap: 5px;
-      padding: 14px;
+      padding: 18px 22px;
     }
 
-    .hero-caption b {
+    .media-caption b {
       color: var(--accent);
-      font-size: 0.74rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
+      font-size: 0.82rem;
     }
 
-    .hero-caption p {
-      color: var(--muted);
-      font-size: 0.86rem;
-      font-weight: 650;
+    .media-caption p {
+      color: var(--soft-ink);
+      font-size: 0.92rem;
+      font-weight: 700;
+      line-height: 1.6;
+    }
+
+    .quick-paths {
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      margin-top: 10px;
+      max-width: 780px;
+    }
+
+    .quick-path {
+      border-right: 1px solid var(--line);
+      display: grid;
+      gap: 7px;
+      min-height: 122px;
+      padding: 16px 16px 16px 0;
+    }
+
+    .quick-path:last-child {
+      border-right: 0;
+      padding-left: 16px;
+    }
+
+    .quick-path + .quick-path {
+      padding-left: 16px;
+    }
+
+    .quick-path b {
+      color: var(--accent);
+      font-size: 0.8rem;
+    }
+
+    .quick-path span {
+      color: var(--soft-ink);
+      font-size: 0.92rem;
+      font-weight: 700;
       line-height: 1.55;
     }
 
-    .detail-layout {
+    .content-band {
+      border-bottom: 1px solid var(--line);
+      padding: clamp(46px, 7vw, 86px) 0;
+    }
+
+    .band-inner {
       display: grid;
-      gap: 28px;
-      grid-template-columns: 210px minmax(0, 1fr);
+      gap: clamp(26px, 5vw, 70px);
+      grid-template-columns: minmax(180px, 0.5fr) minmax(0, 1.5fr);
       margin: 0 auto;
       max-width: var(--content);
-      padding-bottom: 54px;
     }
 
-    .section-rail {
+    .band-head {
       align-self: start;
       display: grid;
-      gap: 8px;
-      position: sticky;
-      top: 82px;
-    }
-
-    .section-rail a {
-      border-left: 3px solid transparent;
-      color: var(--muted);
-      font-size: 0.86rem;
-      font-weight: 800;
-      padding: 8px 0 8px 12px;
-      text-decoration: none;
-    }
-
-    .section-rail a:hover,
-    .section-rail a:focus-visible {
-      border-color: var(--accent);
-      color: var(--ink);
-      outline: none;
-    }
-
-    .content-stack {
-      display: grid;
-      gap: 18px;
-    }
-
-    .info-section {
-      background: rgba(255, 253, 248, 0.74);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      padding: clamp(18px, 3vw, 30px);
-    }
-
-    .section-head {
-      display: grid;
-      gap: 7px;
-      margin-bottom: 18px;
-    }
-
-    .section-head h3 {
-      font-size: clamp(1.55rem, 2.6vw, 2.35rem);
-      line-height: 1.1;
-    }
-
-    .section-head p {
-      color: var(--muted);
-      font-size: 0.96rem;
-      font-weight: 650;
-      max-width: 46rem;
-    }
-
-    .card-grid {
-      display: grid;
       gap: 12px;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      position: sticky;
+      top: 90px;
     }
 
-    .card-grid.three {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+    .section-index {
+      color: var(--accent);
     }
 
-    .info-card,
-    .price-card,
-    .contact-card,
-    .address-card {
-      background: var(--white);
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
+    .band-head h3 {
+      font-family: var(--display);
+      font-size: clamp(2rem, 4.2vw, 4.6rem);
+      line-height: 0.98;
+    }
+
+    .band-head p {
+      color: var(--muted);
+      font-weight: 700;
+      max-width: 18rem;
+    }
+
+    .info-flow {
+      border-top: 1px solid var(--line-strong);
       display: grid;
-      gap: 8px;
-      padding: 17px;
     }
 
-    .info-card.is-accent,
-    .contact-card.is-accent {
-      background: var(--accent);
-      color: var(--white);
+    .flow-row {
+      border-bottom: 1px solid var(--line);
+      display: grid;
+      gap: 22px;
+      grid-template-columns: minmax(120px, 0.38fr) minmax(0, 1fr);
+      padding: 22px 0;
     }
 
-    .info-card b,
-    .price-card b,
-    .contact-card b,
-    .address-card b {
+    .flow-row b {
       color: var(--accent);
-      font-size: 0.72rem;
-      font-weight: 850;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
+      font-size: 0.86rem;
+      line-height: 1.5;
     }
 
-    .info-card.is-accent b,
-    .contact-card.is-accent b,
-    .info-card.is-accent p,
-    .contact-card.is-accent p,
-    .info-card.is-accent li,
-    .contact-card.is-accent li {
-      color: rgba(255, 253, 248, 0.82);
+    .flow-row h4 {
+      font-size: clamp(1.3rem, 2vw, 1.9rem);
+      line-height: 1.24;
+      margin-bottom: 8px;
     }
 
-    .info-card.is-accent .secondary-action,
-    .contact-card.is-accent .secondary-action,
-    .partner-card .secondary-action {
-      background: transparent;
-      border-color: rgba(255, 253, 248, 0.3);
-      color: var(--white);
+    .flow-row p,
+    .flow-row li {
+      color: var(--soft-ink);
+      font-size: 0.98rem;
+      font-weight: 700;
     }
 
-    .info-card.is-accent .primary-action,
-    .contact-card.is-accent .primary-action {
-      background: var(--white);
+    .flow-row ul {
+      margin: 8px 0 0;
+      padding-left: 1.2em;
+    }
+
+    .price-line {
+      align-items: baseline;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 14px;
+      margin: 8px 0;
+    }
+
+    .price-line strong {
       color: var(--accent);
-    }
-
-    .info-card h4,
-    .price-card h4,
-    .contact-card h4,
-    .address-card h4 {
-      font-size: clamp(1.1rem, 1.6vw, 1.35rem);
-      line-height: 1.25;
-    }
-
-    .price-card strong {
-      font-size: clamp(1.8rem, 3vw, 2.45rem);
+      font-family: var(--display);
+      font-size: clamp(1.9rem, 3vw, 3rem);
       line-height: 1;
     }
 
-    .info-card p,
-    .price-card p,
-    .contact-card p,
-    .address-card p,
-    .info-card li,
-    .contact-card li {
-      color: var(--muted);
-      font-size: 0.92rem;
-      font-weight: 590;
-    }
-
-    .info-card.is-accent h4,
-    .contact-card.is-accent h4 {
+    .feature-strip {
+      background: var(--ink);
       color: var(--white);
     }
 
-    .note-line {
-      background: var(--soft);
-      border: 1px solid rgba(21, 23, 21, 0.08);
-      border-radius: var(--radius);
-      color: var(--muted);
-      font-size: 0.9rem;
-      font-weight: 700;
-      margin-top: 12px;
-      padding: 12px 14px;
+    .feature-strip .band-head p,
+    .feature-strip .flow-row p,
+    .feature-strip .flow-row li {
+      color: rgba(255, 253, 248, 0.72);
     }
 
-    .media-row {
+    .feature-strip .flow-row,
+    .feature-strip .info-flow {
+      border-color: rgba(255, 253, 248, 0.2);
+    }
+
+    .feature-strip .section-index,
+    .feature-strip .flow-row b {
+      color: var(--soft);
+    }
+
+    .feature-strip .ghost-button {
+      background: transparent;
+      border-color: rgba(255, 253, 248, 0.34);
+      color: var(--white);
+    }
+
+    .photo-pair {
       display: grid;
-      gap: 12px;
-      grid-template-columns: 0.8fr 1fr;
+      gap: 14px;
+      grid-template-columns: 0.95fr 1.05fr;
+      margin-top: 22px;
     }
 
-    .inline-photo {
+    .photo-pair img {
+      aspect-ratio: 4 / 3;
+      border: 1px solid var(--line);
       border-radius: var(--radius);
       height: 100%;
-      min-height: 260px;
       object-fit: cover;
       width: 100%;
     }
 
-    .partner-strip {
-      background: var(--night);
-      color: var(--white);
-      margin-top: 22px;
-      padding: 22px 0;
+    .partner-band {
+      background: var(--paper-2);
+      padding: 24px 0;
     }
 
-    .partner-card {
+    .partner-note {
       align-items: center;
-      border: 1px solid rgba(255, 253, 248, 0.16);
-      border-radius: var(--radius);
       display: grid;
-      gap: 16px;
+      gap: 14px;
       grid-template-columns: 1fr auto;
       margin: 0 auto;
       max-width: var(--content);
-      padding: 17px;
     }
 
-    .partner-card b {
-      color: rgba(255, 253, 248, 0.62);
-      font-size: 0.72rem;
-      letter-spacing: 0.09em;
-      text-transform: uppercase;
+    .partner-note b {
+      color: var(--muted);
+      display: block;
+      font-size: 0.78rem;
+      margin-bottom: 6px;
     }
 
-    .partner-card h4 {
-      font-size: 1.2rem;
-      line-height: 1.2;
-      margin-top: 4px;
+    .partner-note p {
+      color: var(--soft-ink);
+      font-weight: 700;
     }
 
-    .partner-card p {
-      color: rgba(255, 253, 248, 0.72);
-      font-size: 0.9rem;
-      font-weight: 620;
+    .owner-note {
+      background: var(--paper-3);
+      border-top: 1px solid var(--line);
+      color: var(--soft-ink);
+      padding: 12px 18px;
+      text-align: center;
     }
 
-    @keyframes tile-in {
-      from {
-        opacity: 0;
-        transform: translateY(16px) scale(0.99);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-      }
+    .service-screen {
+      animation: page-in 360ms ease both;
     }
 
     @keyframes page-in {
@@ -756,13 +719,6 @@
         opacity: 1;
         transform: translateY(0);
       }
-    }
-
-    body[data-view="english"] .english-screen .service-hero,
-    body[data-view="studio"] .studio-screen .service-hero,
-    body[data-view="english"] .english-screen .detail-layout,
-    body[data-view="studio"] .studio-screen .detail-layout {
-      animation: page-in 420ms cubic-bezier(0.2, 0.72, 0.18, 1) both;
     }
 
     @media (prefers-reduced-motion: reduce) {
@@ -777,128 +733,219 @@
     }
 
     @media (max-width: 980px) {
-      .choice-top,
+      .threshold,
       .service-hero,
-      .detail-layout,
-      .media-row {
+      .band-inner,
+      .partner-note {
         grid-template-columns: 1fr;
       }
 
-      .choice-top p:last-child {
-        text-align: left;
+      .threshold {
+        min-height: calc(100svh - 28px);
       }
 
-      .section-rail {
+      .threshold-mark {
+        min-height: auto;
+        padding: 18px;
+      }
+
+      .mark-title {
+        align-items: end;
+        grid-template-columns: auto 1fr;
+      }
+
+      .mark-title .room {
+        grid-column: 1 / -1;
+      }
+
+      .mark-title h1 {
+        font-size: clamp(2.7rem, 13vw, 4.6rem);
+      }
+
+      .mark-title p {
+        align-self: end;
+        font-size: 0.9rem;
+      }
+
+      .mark-bottom {
         display: none;
       }
 
-      .quick-facts,
-      .card-grid,
-      .card-grid.three {
+      .doors {
         grid-template-columns: 1fr;
       }
 
-      .nav-links,
-      .nav-action {
+      .doors::before {
         display: none;
       }
-    }
 
-    @media (max-width: 700px) {
-      :root {
-        --content: min(100vw - 28px, 1180px);
+      .door {
+        grid-template-columns: 116px 1fr;
+        grid-template-rows: minmax(178px, auto);
+        min-height: 178px;
       }
 
-      .choice-screen {
-        padding-left: 14px;
-        padding-right: 14px;
+      .door-media {
+        border-bottom: 0;
+        border-right: 1px solid var(--line);
       }
 
-      .choice-top {
+      .door-copy {
         gap: 8px;
-      }
-
-      .choice-top h1 {
-        font-size: clamp(1.45rem, 6.2vw, 2rem);
-        max-width: 13ch;
-      }
-
-      .choice-top p:last-child {
-        font-size: 0.9rem;
-      }
-
-      .choice-board {
-        align-self: start;
-        grid-template-columns: 1fr;
-      }
-
-      .service-tile {
-        gap: 12px;
-        grid-template-columns: 88px 1fr;
-        min-height: 138px;
-        padding: 12px;
-      }
-
-      .tile-copy {
-        gap: 6px;
-      }
-
-      .service-index {
-        font-size: 0.66rem;
-      }
-
-      .tile-copy h2 {
-        font-size: clamp(1.12rem, 5.4vw, 1.58rem);
-        line-height: 1.05;
-      }
-
-      .brand-name {
-        font-size: 0.9rem;
-      }
-
-      .tile-copy p {
-        font-size: 0.76rem;
-        line-height: 1.5;
-      }
-
-      .tile-facts {
-        display: none;
-      }
-
-      .tile-action {
-        font-size: 0.82rem;
-        min-height: 38px;
-        padding: 0 12px;
-      }
-
-      .choice-note {
-        display: grid;
-        font-size: 0.78rem;
-      }
-
-      .detail-nav {
-        padding-left: 14px;
-        padding-right: 14px;
-      }
-
-      .service-hero {
-        padding-top: 28px;
-      }
-
-      .hero-copy h2 {
-        font-size: clamp(2rem, 12vw, 3.5rem);
-      }
-
-      .hero-copy > p {
-        font-size: 0.96rem;
-      }
-
-      .info-section {
+        grid-template-rows: auto auto 1fr;
         padding: 16px;
       }
 
-      .partner-card {
+      .door h2 {
+        font-size: clamp(2rem, 10vw, 3.4rem);
+        max-width: 9ch;
+      }
+
+      .door p {
+        font-size: 0.9rem;
+        line-height: 1.55;
+      }
+
+      .door-action {
+        border-top: 1px solid var(--line);
+        grid-column: 1 / -1;
+        min-height: 58px;
+        padding: 0 16px;
+      }
+
+      .service-nav {
+        grid-template-columns: auto 1fr auto;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero-media {
+        border-left: 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .hero-media img {
+        max-height: 430px;
+        min-height: 280px;
+      }
+
+      .band-head {
+        position: static;
+      }
+    }
+
+    @media (max-width: 640px) {
+      .choice-screen {
+        padding: 14px;
+      }
+
+      .threshold {
+        min-height: calc(100svh - 28px);
+      }
+
+      .mark-top {
+        display: none;
+      }
+
+      .mark-title {
+        gap: 10px;
+      }
+
+      .mark-title h1 {
+        font-size: clamp(2.15rem, 12vw, 3.1rem);
+      }
+
+      .mark-title p {
+        max-width: 14rem;
+      }
+
+      .door {
+        grid-template-columns: 96px 1fr;
+        min-height: 178px;
+      }
+
+      .door-media img {
+        object-position: center;
+      }
+
+      .door-meta {
+        font-size: 0.7rem;
+      }
+
+      .door-number {
+        min-width: 36px;
+        padding: 5px 8px;
+      }
+
+      .door h2 {
+        font-size: clamp(1.8rem, 10vw, 2.65rem);
+      }
+
+      .door-action b {
+        display: none;
+      }
+
+      .owner-note {
+        font-size: 0.72rem;
+        padding: 9px 12px;
+      }
+
+      .service-nav {
+        min-height: 56px;
+        padding: 0 12px;
+      }
+
+      .service-name {
+        font-size: 0.86rem;
+      }
+
+      .nav-cta {
+        display: none;
+      }
+
+      .hero-copy {
+        padding: 34px 18px;
+      }
+
+      .hero-copy h2 {
+        font-size: clamp(2.45rem, 15vw, 4.3rem);
+      }
+
+      .quick-paths {
         grid-template-columns: 1fr;
+      }
+
+      .quick-path,
+      .quick-path + .quick-path,
+      .quick-path:last-child {
+        border-bottom: 1px solid var(--line);
+        border-right: 0;
+        min-height: 0;
+        padding: 13px 0;
+      }
+
+      .content-band {
+        padding: 42px 0;
+      }
+
+      .band-inner {
+        max-width: calc(100vw - 30px);
+      }
+
+      .flow-row {
+        gap: 8px;
+        grid-template-columns: 1fr;
+        padding: 18px 0;
+      }
+
+      .photo-pair {
+        grid-template-columns: 1fr;
+      }
+
+      .partner-note {
+        max-width: calc(100vw - 30px);
       }
     }
   </style>
@@ -914,455 +961,451 @@
 
     <div class="portal">
       <section class="choice-screen" aria-label="Ovi English School と Studio do を選ぶ">
-        <div class="choice-shell">
-          <header class="choice-top">
-            <div>
-              <p class="kicker">Kose / Shared front door</p>
-              <h1>どちらをお探しですか？</h1>
+        <div class="threshold">
+          <aside class="threshold-mark" aria-label="Shared Kose place">
+            <p class="mark-top">Kose 103<span>Ovi English School + Studio do</span></p>
+            <div class="mark-title">
+              <span class="room">小瀬町 76-12 / 辻ハイツ103</span>
+              <h1>今日は<br />どちらへ。</h1>
+              <p>同じ場所にある、英会話教室と写真スタジオ。必要な入口だけを選べます。</p>
             </div>
-            <p>同じ小瀬町の場所にある英会話教室とフォトスタジオです。選んだ後は、そのサービスだけを中心に案内します。</p>
-          </header>
+            <p class="mark-bottom">One QR. Two doors.<span>選んだ後は、そのサービスだけを案内します。</span></p>
+          </aside>
 
-          <nav class="choice-board" aria-label="サービスを選ぶ">
-            <a class="service-tile is-school" href="#english">
-              <figure class="tile-media">
+          <nav class="doors" aria-label="サービスを選ぶ">
+            <a class="door is-school" href="#english" data-pick="english">
+              <figure class="door-media">
                 <img src="assets/ovi-wix-classroom-with-boys.jpg" alt="Ovi English School classroom lesson" />
               </figure>
-              <div class="tile-copy">
-                <span class="service-index">01 / 英会話教室</span>
-                <h2>英会話・学習</h2>
-                <p class="brand-name">Ovi English School</p>
+              <div class="door-copy">
+                <p class="door-meta"><span>英会話・オンライン学習</span><span class="door-number">01</span></p>
+                <h2>Ovi English</h2>
                 <p>体験予約、レッスン料金、教室案内、オンライン教材はこちら。</p>
-                <ul class="tile-facts" aria-label="Ovi English quick choices">
-                  <li>小学生から大人まで</li>
-                  <li>プライベート</li>
-                  <li>オンライン教材</li>
-                </ul>
-                <span class="tile-action">英会話へ進む</span>
               </div>
+              <p class="door-action"><b>小学生から大人まで / プライベート中心</b><span>英会話へ</span></p>
             </a>
 
-            <a class="service-tile is-studio" href="#studio">
-              <figure class="tile-media">
+            <a class="door is-studio" href="#studio" data-pick="studio">
+              <figure class="door-media">
                 <img src="assets/studio-do-open-20250324.jpg" alt="Studio do interior and logo" />
               </figure>
-              <div class="tile-copy">
-                <span class="service-index">02 / 写真スタジオ</span>
-                <h2>撮影・スタジオ</h2>
-                <p class="brand-name">Studio do</p>
-                <p>写真撮影、プロフィール、家族の記念日、スタジオ利用の相談はこちら。</p>
-                <ul class="tile-facts" aria-label="Studio do quick choices">
-                  <li>完全予約制</li>
-                  <li>土日中心</li>
-                  <li>Instagram相談</li>
-                </ul>
-                <span class="tile-action">Studio doへ進む</span>
+              <div class="door-copy">
+                <p class="door-meta"><span>写真撮影・スタジオ相談</span><span class="door-number">02</span></p>
+                <h2>Studio do</h2>
+                <p>プロフィール、家族写真、記念日、スタジオ利用の相談はこちら。</p>
               </div>
+              <p class="door-action"><b>完全予約制 / Instagramから相談</b><span>Studioへ</span></p>
             </a>
           </nav>
-
-          <p class="choice-note">
-            <span>住所: 甲府市小瀬町76-12 辻ハイツ103</span>
-            <span>QRコードから来た方向けのオーナー確認ページです。</span>
-          </p>
         </div>
+        <p class="owner-note">オーナー確認用の非公開プレビューです。公開前にStudio doの料金・予約方法・営業時間を確認します。</p>
       </section>
 
-      <section class="detail-screen english-screen" aria-label="Ovi English School">
-        <header class="detail-nav">
+      <section class="service-screen english-screen" aria-label="Ovi English School">
+        <header class="service-nav">
           <a class="back-link" href="#choice">選び直す</a>
-          <div class="nav-title">Ovi English School</div>
+          <div class="service-name">Ovi English School</div>
           <nav class="nav-links" aria-label="Ovi English page sections">
             <a href="#english-about">教室</a>
-            <a href="#english-lessons">レッスン</a>
+            <a href="#english-lessons">料金</a>
             <a href="#english-online">オンライン</a>
-            <a href="#english-contact">体験予約</a>
+            <a href="#english-contact">予約</a>
             <a href="#english-access">アクセス</a>
           </nav>
-          <a class="nav-action" href="https://ovienglish.com/book/">予約</a>
+          <a class="nav-cta" href="https://ovienglish.com/book/">無料体験</a>
         </header>
 
         <section class="service-hero">
           <div class="hero-copy">
-            <p class="eyebrow">英会話｜甲府市小瀬町｜オンライン学習</p>
-            <h2>英語を好きになる教室。</h2>
-            <p>山城小学校から徒歩2分。明るくフレンドリーな外国人講師によるレッスンで、小学生から大人までアットホームな環境で楽しく英語を学べます。</p>
-            <div class="action-row">
-              <a class="primary-action" href="https://ovienglish.com/book/">無料体験・相談</a>
-              <a class="secondary-action" href="https://ovienglish.com/">オンライン教材</a>
-              <a class="secondary-action" href="https://ovienglish.com/profile/">学習プロフィール</a>
+            <p class="service-kicker">甲府市小瀬町 / 山城小学校から徒歩2分</p>
+            <h2>英語を好きに<br />なる教室。</h2>
+            <p>明るくフレンドリーな外国人講師によるプライベート中心の英会話。小学生から大人まで、教室レッスンとオンライン教材をつなげて学べます。</p>
+            <div class="button-row">
+              <a class="button" href="https://ovienglish.com/book/">無料体験を予約</a>
+              <a class="ghost-button" href="https://ovienglish.com/">オンライン教材</a>
+              <a class="ghost-button" href="https://ovienglish.com/profile/">学習プロフィール</a>
             </div>
-            <div class="quick-facts" aria-label="Ovi English quick facts">
-              <div class="quick-fact"><b>完全プライベート</b><span>レベルと希望に合わせて進めます。</span></div>
-              <div class="quick-fact"><b>小学生から大人まで</b><span>お一人、兄弟、友達、家族も相談可。</span></div>
-              <div class="quick-fact"><b>教室 + オンライン</b><span>小瀬町の教室と学習サイトを接続。</span></div>
+            <div class="quick-paths" aria-label="Ovi English quick paths">
+              <div class="quick-path"><b>01 体験相談</b><span>レベル、目的、曜日や時間を相談できます。</span></div>
+              <div class="quick-path"><b>02 教室レッスン</b><span>一人、兄弟、友達、家族での受講も相談可。</span></div>
+              <div class="quick-path"><b>03 自宅学習</b><span>オンライン教材で復習とリスニングを続けられます。</span></div>
             </div>
           </div>
-          <figure class="hero-card">
+          <figure class="hero-media">
             <img src="assets/ovi-wix-classroom-with-boys.jpg" alt="Ovi English School classroom lesson" />
-            <figcaption class="hero-caption">
-              <b>Local trust</b>
-              <p>旧サイトの安心感を引き継ぎ、まず教室の雰囲気が伝わる構成にしています。</p>
+            <figcaption class="media-caption">
+              <b>旧Wixサイトの情報を引き継いだ新しい案内</b>
+              <p>教室の安心感、レッスン料金、体験予約、オンライン教材への入口を一つに整理しています。</p>
             </figcaption>
           </figure>
         </section>
 
-        <div class="detail-layout">
-          <aside class="section-rail" aria-label="Ovi English section index">
-            <a href="#english-about">教室について</a>
-            <a href="#english-lessons">料金の目安</a>
-            <a href="#english-online">オンライン学習</a>
-            <a href="#english-staff">スタッフ</a>
-            <a href="#english-contact">無料体験</a>
-            <a href="#english-access">アクセス</a>
-          </aside>
-
-          <div class="content-stack">
-            <section class="info-section" id="english-about">
-              <div class="section-head">
-                <h3>教室について</h3>
-                <p>旧サイトの説明をベースに、現在のオンライン学習ともつながる形で整理しています。</p>
-              </div>
-              <div class="card-grid">
-                <article class="info-card is-accent">
-                  <b>School style</b>
-                  <h4>気兼ねなく、楽しく学べるプライベート環境。</h4>
-                  <p>完全プライベートの環境で、レベルとご要望に合わせたテキストや内容を使い、効率良く英語を学べます。</p>
-                </article>
-                <article class="info-card">
-                  <b>Who can join</b>
-                  <h4>お一人でも、友達・兄弟・ご家族でも。</h4>
-                  <p>ご夫婦やカップル、ご兄弟、お友達同士の同時レッスンも相談できます。基本は最大4人まで。</p>
-                </article>
-              </div>
-            </section>
-
-            <section class="info-section" id="english-lessons">
-              <div class="section-head">
-                <h3>レッスンと料金の目安</h3>
-                <p>旧サイト掲載内容を引き継いだオーナー確認用の表示です。公開前に現在の料金として出すか、問い合わせ制にするか確認します。</p>
-              </div>
-              <div class="card-grid three">
-                <article class="price-card">
-                  <b>Private lesson</b>
-                  <h4>プライベートレッスン</h4>
-                  <strong>12,000円</strong>
-                  <p>月4回、50分。1対1でレベルと希望に合わせて進めます。</p>
-                </article>
-                <article class="price-card">
-                  <b>Pair lesson</b>
-                  <h4>2人同時レッスン</h4>
-                  <strong>16,000円</strong>
-                  <p>月4回、50分。1人あたり8,000円。ご夫婦、兄弟、友達同士に。</p>
-                </article>
-                <article class="price-card">
-                  <b>Small group</b>
-                  <h4>3人以上のグループ</h4>
-                  <strong>1人6,000円</strong>
-                  <p>月4回、50分。仲良しグループで一緒に学びたい方へ。最大4人まで。</p>
-                </article>
-              </div>
-              <p class="note-line">中級レベル以上の方は、初回体験レッスン前に無料レベルチェックを相談できます。</p>
-            </section>
-
-            <section class="info-section" id="english-online">
-              <div class="section-head">
-                <h3>オンラインでも学べます</h3>
-                <p>新しいOvi Englishの学習サイトは、教室に来る前後の復習や、自宅での英語学習に使えます。</p>
-              </div>
-              <div class="card-grid three">
-                <article class="info-card">
-                  <b>Listen / Read</b>
-                  <h4>音声と読み物</h4>
-                  <p>短い英語ストーリー、リスニング、読み物、単語サポートで学べます。</p>
-                </article>
-                <article class="info-card">
-                  <b>Word support</b>
-                  <h4>単語ヘルプと復習</h4>
-                  <p>わからない単語を確認し、クイズやレビューで自分のペースで復習できます。</p>
-                </article>
-                <article class="info-card is-accent">
-                  <b>Start online</b>
-                  <h4>まず教材を見る</h4>
-                  <p>教室レッスンとは別に、オンライン教材だけでも試せます。</p>
-                  <div class="action-row">
-                    <a class="secondary-action" href="https://ovienglish.com/">教材を開く</a>
-                  </div>
-                </article>
-              </div>
-            </section>
-
-            <section class="info-section" id="english-staff">
-              <div class="section-head">
-                <h3>スタッフ</h3>
-                <p>旧サイトのStaffページから、問い合わせの安心感につながる内容を残しています。</p>
-              </div>
-              <div class="media-row">
-                <img class="inline-photo" src="assets/ovi-english-lesson.jpg" alt="Ovi English lesson worksheet" />
-                <div class="card-grid">
-                  <article class="info-card">
-                    <b>NODOKA</b>
-                    <h4>Manager</h4>
-                    <p>教室の運営を担当しています。日本語でお気軽にお問い合わせください。</p>
-                  </article>
-                  <article class="info-card">
-                    <b>OVIDIJUS</b>
-                    <h4>Teacher</h4>
-                    <p>フレンドリーで明るい先生です。英語を学ぶことを好きになるようなレッスンを心がけています。</p>
-                  </article>
-                  <article class="info-card">
-                    <b>Note</b>
-                    <h4>教室環境</h4>
-                    <p>旧サイトでは猫についての注意も掲載されていました。猫アレルギーなどの案内は公開前に確認します。</p>
-                  </article>
-                </div>
-              </div>
-            </section>
-
-            <section class="info-section" id="english-contact">
-              <div class="section-head">
-                <h3>無料体験・お問い合わせ</h3>
-                <p>体験レッスンをご希望の方は、ご希望の曜日・時間帯もお知らせください。</p>
-              </div>
-              <div class="card-grid">
-                <article class="contact-card is-accent">
-                  <b>Trial lesson</b>
-                  <h4>まずは希望日時を送ってください。</h4>
-                  <p>予約ページでは、お名前・メール・電話番号・レベル・希望日・希望時間・レッスン種類・返信方法を送信できます。</p>
-                  <div class="action-row">
-                    <a class="primary-action" href="https://ovienglish.com/book/">予約フォームを開く</a>
-                    <a class="secondary-action" href="mailto:english.ovi@gmail.com">メールする</a>
-                  </div>
-                </article>
-                <article class="contact-card">
-                  <b>Contact</b>
-                  <h4>直接のお問い合わせ</h4>
-                  <p><a href="tel:+818094645050">080-9464-5050</a></p>
-                  <p><a href="mailto:english.ovi@gmail.com">english.ovi@gmail.com</a></p>
-                  <p>フォームからのお問い合わせには、上記メールアドレスより返信します。受信設定をご確認ください。</p>
-                </article>
-              </div>
-            </section>
-
-            <section class="info-section" id="english-access">
-              <div class="section-head">
-                <h3>アクセス</h3>
-                <p>英会話教室とStudio doは、同じ小瀬町の住所です。</p>
-              </div>
-              <div class="card-grid">
-                <article class="address-card">
-                  <b>Address</b>
-                  <h4>小瀬町の教室</h4>
-                  <p>〒400-0836 山梨県甲府市小瀬町76-12 辻ハイツ103</p>
-                  <p>山城小学校から徒歩2分ほどの場所です。</p>
-                  <div class="action-row">
-                    <a class="primary-action" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Googleマップを開く</a>
-                    <a class="secondary-action" href="#choice">選び直す</a>
-                  </div>
-                </article>
-                <article class="info-card is-accent">
-                  <b>Shared place</b>
-                  <h4>同じ場所で、別々のサービス。</h4>
-                  <p>英会話の方には英会話情報を、写真の方には撮影情報を中心に案内します。</p>
-                </article>
-              </div>
-            </section>
-          </div>
-        </div>
-
-        <section class="partner-strip" aria-label="Studio do partner mention">
-          <article class="partner-card">
-            <div>
-              <b>Also here</b>
-              <h4>同じ場所にStudio doもあります。</h4>
-              <p>写真撮影やスタジオ利用を探している方だけ、Studio doページへ進めます。</p>
+        <section class="content-band" id="english-about">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">01 / 教室について</p>
+              <h3>小さく、近く、続けやすく。</h3>
+              <p>最初に知りたい安心材料だけを、短くまとめます。</p>
             </div>
-            <a class="secondary-action" href="#studio">Studio doを見る</a>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Private style</b>
+                <div>
+                  <h4>完全プライベートの環境で、気兼ねなく学べます。</h4>
+                  <p>レベルとご要望に合わせたテキストや内容を使い、効率良く英語を学べます。</p>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Who can join</b>
+                <div>
+                  <h4>小学生から大人まで。友達、兄弟、ご家族でも相談できます。</h4>
+                  <p>ご夫婦やカップル、ご兄弟、お友達同士の同時レッスンも相談できます。基本は最大4人まで。</p>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Local trust</b>
+                <div>
+                  <h4>山城小学校から徒歩2分ほどの小瀬町の教室です。</h4>
+                  <p>近くで通いやすい英会話を探している方に、場所・先生・予約方法をすぐ確認できる案内にします。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-band feature-strip" id="english-lessons">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">02 / レッスンと料金</p>
+              <h3>料金は見やすく、でも確認前提。</h3>
+              <p>旧サイト掲載内容を引き継いだオーナー確認用表示です。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Private lesson</b>
+                <div>
+                  <h4>プライベートレッスン</h4>
+                  <p class="price-line"><strong>12,000円</strong><span>月4回 / 50分 / 1対1</span></p>
+                  <p>レベルと目的に合わせて、一人でしっかり進めたい方へ。</p>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Pair lesson</b>
+                <div>
+                  <h4>2人同時レッスン</h4>
+                  <p class="price-line"><strong>16,000円</strong><span>月4回 / 50分 / 1人あたり8,000円</span></p>
+                  <p>ご夫婦、兄弟、友達同士など、一緒に学びたい方へ。</p>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Small group</b>
+                <div>
+                  <h4>3人以上のグループ</h4>
+                  <p class="price-line"><strong>1人6,000円</strong><span>月4回 / 50分 / 最大4人まで</span></p>
+                  <p>仲良しグループで一緒に学びたい方へ。公開前に現在料金として出すか、問い合わせ制にするか確認します。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-band" id="english-online">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">03 / オンライン学習</p>
+              <h3>教室の外でも、英語に戻れる。</h3>
+              <p>Ovi Englishの今の強みを、旧サイト情報に足します。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Listen / Read</b>
+                <div>
+                  <h4>短いストーリー、リスニング、読み物で学べます。</h4>
+                  <p>教室レッスンとは別に、オンライン教材だけでも英語に触れられます。</p>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Word support</b>
+                <div>
+                  <h4>わからない単語を確認しながら復習できます。</h4>
+                  <p>自分のペースで読む、聞く、見直す流れを作れます。</p>
+                  <div class="button-row">
+                    <a class="button" href="https://ovienglish.com/">教材を開く</a>
+                    <a class="ghost-button" href="https://ovienglish.com/profile/">プロフィールを見る</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+            <div class="photo-pair">
+              <img src="assets/ovi-english-lesson.jpg" alt="Ovi English worksheet detail" />
+              <img src="assets/ovi-wix-classroom-with-boys.jpg" alt="Ovi English classroom conversation" />
+            </div>
+          </div>
+        </section>
+
+        <section class="content-band" id="english-contact">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">04 / 体験予約</p>
+              <h3>まずは希望日時を送る。</h3>
+              <p>日本語で問い合わせできる安心感を前面に出します。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Trial lesson</b>
+                <div>
+                  <h4>無料体験・相談を予約できます。</h4>
+                  <p>お名前、メール、電話番号、レベル、希望日、希望時間、レッスン種類、返信方法を送信できます。</p>
+                  <div class="button-row">
+                    <a class="button" href="https://ovienglish.com/book/">予約フォームを開く</a>
+                    <a class="ghost-button" href="mailto:english.ovi@gmail.com">メールする</a>
+                  </div>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Staff</b>
+                <div>
+                  <h4>NODOKA / OVIDIJUS</h4>
+                  <p>教室運営はNODOKA、レッスンはフレンドリーで明るいOVIDIJUSが担当します。日本語でお気軽にお問い合わせください。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="content-band" id="english-access">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">05 / アクセス</p>
+              <h3>小瀬町の同じ場所。</h3>
+              <p>英会話を選んだ人には、英会話の案内だけを中心に。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Address</b>
+                <div>
+                  <h4>〒400-0836 山梨県甲府市小瀬町76-12 辻ハイツ103</h4>
+                  <p>山城小学校から徒歩2分ほどの場所です。</p>
+                  <div class="button-row">
+                    <a class="button" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Googleマップを開く</a>
+                    <a class="ghost-button" href="#choice">選び直す</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="partner-band" aria-label="Studio do partner mention">
+          <article class="partner-note">
+            <div>
+              <b>同じ場所の別サービス</b>
+              <p>写真撮影やスタジオ利用を探している方だけ、Studio doのページへ進めます。</p>
+            </div>
+            <a class="ghost-button" href="#studio">Studio doを見る</a>
           </article>
         </section>
       </section>
 
-      <section class="detail-screen studio-screen" aria-label="Studio do">
-        <header class="detail-nav">
+      <section class="service-screen studio-screen" aria-label="Studio do">
+        <header class="service-nav">
           <a class="back-link" href="#choice">選び直す</a>
-          <div class="nav-title">Studio do</div>
+          <div class="service-name">Studio do</div>
           <nav class="nav-links" aria-label="Studio do page sections">
             <a href="#studio-about">スタジオ</a>
             <a href="#studio-services">撮影</a>
             <a href="#studio-booking">予約</a>
-            <a href="#studio-check">確認事項</a>
+            <a href="#studio-check">確認</a>
             <a href="#studio-access">アクセス</a>
           </nav>
-          <a class="nav-action" href="https://www.instagram.com/studio_do_kose/">Instagram</a>
+          <a class="nav-cta" href="https://www.instagram.com/studio_do_kose/">Instagram</a>
         </header>
 
         <section class="service-hero">
           <div class="hero-copy">
-            <p class="eyebrow">撮影スタジオ｜甲府市小瀬町｜完全予約制</p>
-            <h2>小瀬町の小さな撮影スタジオ。</h2>
-            <p>小瀬スポーツ公園通りの小さなスタジオです。写真撮影、家族の記念日、プロフィール撮影、スタジオ利用の相談はこちらから。</p>
-            <div class="action-row">
-              <a class="primary-action" href="https://www.instagram.com/studio_do_kose/">Studio do Instagram</a>
-              <a class="secondary-action" href="https://www.instagram.com/nodo.do.do/">nodoの作品を見る</a>
-              <a class="secondary-action" href="#studio-booking">予約について</a>
+            <p class="service-kicker">甲府市小瀬町 / 完全予約制フォトスタジオ</p>
+            <h2>写真の相談は<br />Studio doへ。</h2>
+            <p>小瀬スポーツ公園通りの小さなスタジオ。プロフィール、家族写真、記念日、スタジオ利用の相談を、英会話とは分けて案内します。</p>
+            <div class="button-row">
+              <a class="button" href="https://www.instagram.com/studio_do_kose/">Studio do Instagram</a>
+              <a class="ghost-button" href="https://www.instagram.com/nodo.do.do/">nodoの作品を見る</a>
+              <a class="ghost-button" href="#studio-booking">予約の流れ</a>
             </div>
-            <div class="quick-facts" aria-label="Studio do quick facts">
-              <div class="quick-fact"><b>完全予約制</b><span>Instagram掲載情報に基づく表示。</span></div>
-              <div class="quick-fact"><b>土日中心</b><span>平日も一部、写真スタジオとして利用。</span></div>
-              <div class="quick-fact"><b>山梨 / 富士山周辺</b><span>nodoの出張撮影とも接続。</span></div>
+            <div class="quick-paths" aria-label="Studio do quick paths">
+              <div class="quick-path"><b>01 撮影相談</b><span>撮りたい内容、希望日、人数を送ります。</span></div>
+              <div class="quick-path"><b>02 スタジオ確認</b><span>完全予約制。日時や設備は事前確認。</span></div>
+              <div class="quick-path"><b>03 作品を見る</b><span>nodoのInstagramで撮影イメージを確認。</span></div>
             </div>
           </div>
-          <figure class="hero-card">
+          <figure class="hero-media">
             <img src="assets/studio-do-open-20250324.jpg" alt="Studio do interior and logo" />
-            <figcaption class="hero-caption">
-              <b>Studio do</b>
-              <p>写真・予約・アクセスに絞って、英会話ページとは分けて案内します。</p>
+            <figcaption class="media-caption">
+              <b>Studio doの情報だけに集中</b>
+              <p>英会話の案内を混ぜず、写真・予約・場所・確認事項だけを見せます。</p>
             </figcaption>
           </figure>
         </section>
 
-        <div class="detail-layout">
-          <aside class="section-rail" aria-label="Studio do section index">
-            <a href="#studio-about">Studio doについて</a>
-            <a href="#studio-services">撮影メニュー</a>
-            <a href="#studio-booking">予約・相談</a>
-            <a href="#studio-check">確認事項</a>
-            <a href="#studio-access">アクセス</a>
-          </aside>
-
-          <div class="content-stack">
-            <section class="info-section" id="studio-about">
-              <div class="section-head">
-                <h3>Studio doについて</h3>
-                <p>英会話の説明と混ぜず、撮影を探している人に必要なことだけを先に見せます。</p>
-              </div>
-              <div class="card-grid">
-                <article class="info-card is-accent">
-                  <b>Studio</b>
-                  <h4>小瀬スポーツ公園通りの、完全予約制スタジオ。</h4>
+        <section class="content-band" id="studio-about">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">01 / スタジオ</p>
+              <h3>小瀬町の小さな撮影室。</h3>
+              <p>まずは場所と予約制であることを、まっすぐ伝えます。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Studio</b>
+                <div>
+                  <h4>小瀬スポーツ公園通りの完全予約制スタジオです。</h4>
                   <p>Studio doは同じ小瀬町の場所にある撮影スタジオです。写真撮影やスタジオ利用の情報を案内します。</p>
-                </article>
-                <article class="info-card">
-                  <b>Schedule</b>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Schedule</b>
+                <div>
                   <h4>写真スタジオは土日中心、平日も一部。</h4>
-                  <p>Instagramプロフィール情報では、英会話教室は平日、Photo studioは土日と平日一部という案内です。公開前に営業時間・休みを確認します。</p>
-                </article>
-              </div>
-            </section>
+                  <p>Instagramプロフィール情報では、英会話教室は平日、Photo studioは土日と平日一部という案内です。公開前に営業時間と休みを確認します。</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-            <section class="info-section" id="studio-services">
-              <div class="section-head">
-                <h3>撮影メニューの見せ方</h3>
-                <p>まだ料金やレンタル条件が確定していない部分は、断定せず「相談」導線にします。</p>
-              </div>
-              <div class="card-grid three">
-                <article class="info-card is-accent">
-                  <b>Photo session</b>
+        <section class="content-band feature-strip" id="studio-services">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">02 / 撮影</p>
+              <h3>写真を見て、相談できる。</h3>
+              <p>料金未確定のものは断定せず、相談導線にします。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Family</b>
+                <div>
                   <h4>家族・子ども・記念日の撮影</h4>
-                  <p>家族写真、ベビー、誕生日、七五三、お宮参りなど、思い出を残したい方向けの案内。</p>
-                </article>
-                <article class="info-card">
-                  <b>Portrait</b>
+                  <p>家族写真、ベビー、誕生日、七五三、お宮参りなど、思い出を残したい方向け。</p>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Portrait</b>
+                <div>
                   <h4>プロフィール・仕事用の写真</h4>
                   <p>SNS、仕事用プロフィール、個人活動、作品づくりなど、小さなスタジオで撮りたい方へ。</p>
-                </article>
-                <article class="info-card">
-                  <b>Location</b>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Location</b>
+                <div>
                   <h4>山梨・富士山周辺の出張撮影</h4>
                   <p>nodoの出張撮影アカウントへ接続。ウェディング、七五三、成人式、お宮参りなどの作品確認に。</p>
-                  <div class="action-row">
-                    <a class="secondary-action" href="https://www.instagram.com/nodo.do.do/">nodoを見る</a>
+                  <div class="button-row">
+                    <a class="ghost-button" href="https://www.instagram.com/nodo.do.do/">nodoを見る</a>
                   </div>
-                </article>
-              </div>
-            </section>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-            <section class="info-section" id="studio-booking">
-              <div class="section-head">
-                <h3>予約・お問い合わせ</h3>
-                <p>Studio doは完全予約制として案内し、今はInstagramを確定済みの連絡先として置きます。</p>
-              </div>
-              <div class="card-grid">
-                <article class="contact-card is-accent">
-                  <b>Booking</b>
-                  <h4>まずはInstagramから相談。</h4>
-                  <p>撮影希望日、撮りたい内容、人数、スタジオ撮影か出張撮影かを送ってもらう流れにします。</p>
-                  <div class="action-row">
-                    <a class="primary-action" href="https://www.instagram.com/studio_do_kose/">Studio do Instagram</a>
-                    <a class="secondary-action" href="https://www.instagram.com/nodo.do.do/">nodo Instagram</a>
+        <section class="content-band" id="studio-booking">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">03 / 予約</p>
+              <h3>まずInstagramから。</h3>
+              <p>確定している連絡先を前に出します。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Booking</b>
+                <div>
+                  <h4>撮影希望日、内容、人数を送って相談。</h4>
+                  <p>スタジオ撮影か出張撮影か、納品枚数、料金、衣装や小物なども相談時に確認できる流れにします。</p>
+                  <div class="button-row">
+                    <a class="button" href="https://www.instagram.com/studio_do_kose/">Studio do Instagram</a>
+                    <a class="ghost-button" href="https://www.instagram.com/nodo.do.do/">nodo Instagram</a>
                   </div>
-                </article>
-                <article class="contact-card">
-                  <b>Ask about</b>
-                  <h4>相談時に伝えること</h4>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Send first</b>
+                <div>
+                  <h4>最初に伝えるとスムーズなこと</h4>
                   <ul>
                     <li>希望日・時間帯</li>
                     <li>撮影内容と人数</li>
                     <li>スタジオ撮影か出張撮影か</li>
-                    <li>納品枚数・料金・衣装や小物の確認</li>
+                    <li>納品枚数・料金・小物や衣装の確認</li>
                   </ul>
-                </article>
-              </div>
-            </section>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
 
-            <section class="info-section" id="studio-check">
-              <div class="section-head">
-                <h3>公開前に確認すること</h3>
-                <p>ここはオーナー確認用です。公開版では、確定したものだけを自然に表示します。</p>
-              </div>
-              <div class="card-grid three">
-                <article class="info-card">
-                  <b>Contact</b>
+        <section class="content-band" id="studio-check">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">04 / オーナー確認</p>
+              <h3>未確定は、きちんと未確定に。</h3>
+              <p>公開版では確定したものだけを自然に表示します。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Official LINE</b>
+                <div>
                   <h4>公式LINE URL</h4>
                   <p>Instagram以外の予約導線として、正式なLINEリンクを確認してから掲載します。</p>
-                </article>
-                <article class="info-card">
-                  <b>Rental</b>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Rental</b>
+                <div>
                   <h4>スタジオレンタル条件</h4>
                   <p>レンタル可能日、時間、料金、使える設備、禁止事項を確認してから断定します。</p>
-                </article>
-                <article class="info-card">
-                  <b>Hours</b>
+                </div>
+              </article>
+              <article class="flow-row">
+                <b>Hours</b>
+                <div>
                   <h4>営業時間・休み</h4>
                   <p>不定休、土日中心、平日対応など、最終的な表示ルールを確認します。</p>
-                </article>
-              </div>
-            </section>
-
-            <section class="info-section" id="studio-access">
-              <div class="section-head">
-                <h3>アクセス</h3>
-                <p>Studio doとOvi English Schoolは、同じ小瀬町の住所です。</p>
-              </div>
-              <div class="card-grid">
-                <article class="address-card">
-                  <b>Address</b>
-                  <h4>小瀬町のスタジオ</h4>
-                  <p>〒400-0836 山梨県甲府市小瀬町76-12 辻ハイツ103</p>
-                  <p>撮影スタジオ利用の方は、予約後に詳細をご確認ください。</p>
-                  <div class="action-row">
-                    <a class="primary-action" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Googleマップを開く</a>
-                    <a class="secondary-action" href="#choice">選び直す</a>
-                  </div>
-                </article>
-                <article class="info-card is-accent">
-                  <b>Shared place</b>
-                  <h4>同じ場所で、別々のサービス。</h4>
-                  <p>写真の情報が必要な方にはStudio doを、英会話の情報が必要な方にはOvi Englishを案内します。</p>
-                </article>
-              </div>
-            </section>
-          </div>
-        </div>
-
-        <section class="partner-strip" aria-label="Ovi English partner mention">
-          <article class="partner-card">
-            <div>
-              <b>Also here</b>
-              <h4>同じ場所にOvi English Schoolもあります。</h4>
-              <p>英会話レッスンやオンライン教材を探している方だけ、Ovi Englishページへ進めます。</p>
+                </div>
+              </article>
             </div>
-            <a class="secondary-action" href="#english">英会話を見る</a>
+          </div>
+        </section>
+
+        <section class="content-band" id="studio-access">
+          <div class="band-inner">
+            <div class="band-head">
+              <p class="section-index">05 / アクセス</p>
+              <h3>小瀬町の同じ場所。</h3>
+              <p>写真を選んだ人には、Studio doの案内だけを中心に。</p>
+            </div>
+            <div class="info-flow">
+              <article class="flow-row">
+                <b>Address</b>
+                <div>
+                  <h4>〒400-0836 山梨県甲府市小瀬町76-12 辻ハイツ103</h4>
+                  <p>撮影スタジオ利用の方は、予約後に詳細をご確認ください。</p>
+                  <div class="button-row">
+                    <a class="button" href="https://www.google.com/maps/search/?api=1&query=35.6272269,138.5766947">Googleマップを開く</a>
+                    <a class="ghost-button" href="#choice">選び直す</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="partner-band" aria-label="Ovi English partner mention">
+          <article class="partner-note">
+            <div>
+              <b>同じ場所の別サービス</b>
+              <p>英会話レッスンやオンライン教材を探している方だけ、Ovi English Schoolのページへ進めます。</p>
+            </div>
+            <a class="ghost-button" href="#english">英会話を見る</a>
           </article>
         </section>
       </section>
@@ -1373,6 +1416,8 @@
     const ACCESS_KEY = "kose-portal-ovi-20260623";
     const params = new URLSearchParams(window.location.search);
     const hasAccess = params.get("access") === ACCESS_KEY;
+    const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)");
+
     const viewForHash = (hash) => {
       if (hash.startsWith("#english")) return "english";
       if (hash.startsWith("#studio")) return "studio";
@@ -1381,8 +1426,16 @@
 
     const setViewFromHash = () => {
       document.body.dataset.view = viewForHash(window.location.hash || "#choice");
-      if (window.location.hash === "" || window.location.hash === "#choice") {
+      if (!window.location.hash || window.location.hash === "#choice" || window.location.hash === "#english" || window.location.hash === "#studio") {
         window.scrollTo({ top: 0, behavior: "instant" });
+      }
+    };
+
+    const updateHash = (href) => {
+      window.location.hash = href;
+      setViewFromHash();
+      if (href !== "#choice" && href !== "#english" && href !== "#studio") {
+        document.querySelector(href)?.scrollIntoView({ block: "start" });
       }
     };
 
@@ -1390,25 +1443,34 @@
       document.body.classList.remove("is-locked");
       setViewFromHash();
       window.addEventListener("hashchange", setViewFromHash);
+
       document.addEventListener("click", (event) => {
         const link = event.target.closest("a[href^='#']");
         if (!link) return;
         const href = link.getAttribute("href");
         if (!href) return;
         event.preventDefault();
-        const update = () => {
-          window.location.hash = href;
-          setViewFromHash();
-          if (href === "#choice" || href === "#english" || href === "#studio") {
-            window.scrollTo({ top: 0, behavior: "instant" });
-          } else {
-            document.querySelector(href)?.scrollIntoView({ block: "start" });
-          }
-        };
-        if (document.startViewTransition && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-          document.startViewTransition(update);
+
+        const pick = link.dataset.pick;
+        const run = () => updateHash(href);
+
+        if (pick && !reduceMotion.matches) {
+          document.body.classList.add("is-choosing", `picked-${pick}`);
+          window.setTimeout(() => {
+            document.body.classList.remove("is-choosing", `picked-${pick}`);
+            if (document.startViewTransition) {
+              document.startViewTransition(run);
+            } else {
+              run();
+            }
+          }, 220);
+          return;
+        }
+
+        if (document.startViewTransition && !reduceMotion.matches) {
+          document.startViewTransition(run);
         } else {
-          update();
+          run();
         }
       });
     }
