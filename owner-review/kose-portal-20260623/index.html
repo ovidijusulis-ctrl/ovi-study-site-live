@@ -124,10 +124,16 @@
       display: none;
     }
 
-    body[data-view="choice"] .choice-screen,
     body[data-view="english"] .english-screen,
     body[data-view="studio"] .studio-screen {
       display: block;
+    }
+
+    body[data-view="choice"] .choice-screen {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     .choice-screen {
@@ -144,9 +150,10 @@
       background: rgba(255, 253, 248, 0.92);
       border: 1px solid var(--line-strong);
       display: grid;
-      grid-template-columns: minmax(260px, 0.86fr) minmax(0, 2fr);
-      min-height: calc(100svh - 36px);
+      grid-template-columns: minmax(220px, 0.42fr) minmax(0, 1fr);
+      min-height: auto;
       overflow: clip;
+      width: min(100%, 1040px);
     }
 
     .threshold-mark {
@@ -155,7 +162,7 @@
       display: grid;
       grid-template-rows: auto 1fr auto;
       min-height: 100%;
-      padding: clamp(20px, 3vw, 34px);
+      padding: clamp(18px, 2.5vw, 28px);
     }
 
     .mark-top,
@@ -181,7 +188,7 @@
     .mark-title {
       align-self: center;
       display: grid;
-      gap: 18px;
+      gap: 14px;
     }
 
     .mark-title .room {
@@ -196,9 +203,9 @@
 
     .mark-title h1 {
       font-family: var(--display);
-      font-size: clamp(3.8rem, 7vw, 8rem);
+      font-size: clamp(2.55rem, 3.4vw, 3.35rem);
       font-weight: 700;
-      line-height: 0.86;
+      line-height: 1.04;
     }
 
     .mark-title p {
@@ -216,19 +223,18 @@
     }
 
     .doors {
+      align-content: center;
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      min-height: 100%;
+      gap: clamp(12px, 1.8vw, 18px);
+      grid-template-columns: 1fr;
+      justify-content: center;
+      min-height: auto;
+      padding: clamp(16px, 2.5vw, 28px);
       position: relative;
     }
 
     .doors::before {
-      background: var(--line);
-      content: "";
-      inset: 0 auto 0 50%;
-      position: absolute;
-      width: 1px;
-      z-index: 2;
+      display: none;
     }
 
     .door {
@@ -236,11 +242,14 @@
       --soft: var(--school-2);
       align-content: stretch;
       background:
-        linear-gradient(180deg, var(--soft), rgba(255, 253, 248, 0.74) 46%, var(--white));
+        linear-gradient(100deg, var(--soft), rgba(255, 253, 248, 0.86) 52%, var(--white));
+      border: 1px solid var(--line);
+      border-radius: 8px;
       color: var(--ink);
       display: grid;
-      grid-template-rows: minmax(170px, 28svh) 1fr auto;
-      min-height: calc(100svh - 36px);
+      grid-template-columns: minmax(150px, 28%) minmax(0, 1fr);
+      grid-template-rows: 1fr auto;
+      min-height: clamp(178px, 24svh, 225px);
       overflow: hidden;
       position: relative;
       transition: transform 260ms ease, filter 260ms ease, background 260ms ease;
@@ -259,7 +268,8 @@
     }
 
     .door-media {
-      border-bottom: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+      grid-row: 1 / span 2;
       overflow: hidden;
       position: relative;
     }
@@ -279,9 +289,9 @@
 
     .door-copy {
       display: grid;
-      gap: clamp(14px, 2vw, 24px);
+      gap: clamp(10px, 1.45vw, 18px);
       grid-template-rows: auto auto 1fr;
-      padding: clamp(18px, 4vw, 44px);
+      padding: clamp(18px, 3vw, 34px);
     }
 
     .door-meta {
@@ -304,15 +314,15 @@
     .door h2 {
       color: var(--accent);
       font-family: var(--display);
-      font-size: clamp(2.7rem, 6.7vw, 7.2rem);
+      font-size: clamp(2.1rem, 4vw, 4.25rem);
       font-weight: 700;
-      line-height: 0.88;
-      max-width: 7ch;
+      line-height: 0.94;
+      max-width: none;
     }
 
     .door p {
       color: var(--soft-ink);
-      font-size: clamp(1rem, 1.32vw, 1.18rem);
+      font-size: clamp(0.94rem, 1.05vw, 1.05rem);
       font-weight: 700;
       max-width: 27rem;
     }
@@ -322,8 +332,8 @@
       border-top: 1px solid var(--line);
       display: flex;
       justify-content: space-between;
-      min-height: 84px;
-      padding: 0 clamp(18px, 4vw, 44px);
+      min-height: 58px;
+      padding: 0 clamp(18px, 3vw, 34px);
     }
 
     .door-action b {
@@ -741,12 +751,13 @@
       }
 
       .threshold {
-        min-height: calc(100svh - 28px);
+        min-height: auto;
+        width: min(100%, 860px);
       }
 
       .threshold-mark {
         min-height: auto;
-        padding: 18px;
+        padding: 18px 20px;
       }
 
       .mark-title {
@@ -759,7 +770,7 @@
       }
 
       .mark-title h1 {
-        font-size: clamp(2.7rem, 13vw, 4.6rem);
+        font-size: clamp(2.25rem, 8.5vw, 3.2rem);
       }
 
       .mark-title p {
@@ -773,6 +784,8 @@
 
       .doors {
         grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 12px;
       }
 
       .doors::before {
@@ -780,13 +793,12 @@
       }
 
       .door {
-        grid-template-columns: 116px 1fr;
-        grid-template-rows: minmax(178px, auto);
-        min-height: 178px;
+        grid-template-columns: 124px 1fr;
+        grid-template-rows: 1fr auto;
+        min-height: 158px;
       }
 
       .door-media {
-        border-bottom: 0;
         border-right: 1px solid var(--line);
       }
 
@@ -797,7 +809,7 @@
       }
 
       .door h2 {
-        font-size: clamp(2rem, 10vw, 3.4rem);
+        font-size: clamp(1.75rem, 7vw, 2.65rem);
         max-width: 9ch;
       }
 
@@ -808,8 +820,8 @@
 
       .door-action {
         border-top: 1px solid var(--line);
-        grid-column: 1 / -1;
-        min-height: 58px;
+        grid-column: 2;
+        min-height: 48px;
         padding: 0 16px;
       }
 
@@ -837,12 +849,16 @@
     }
 
     @media (max-width: 640px) {
+      body[data-view="choice"] .choice-screen {
+        justify-content: flex-start;
+      }
+
       .choice-screen {
         padding: 14px;
       }
 
       .threshold {
-        min-height: calc(100svh - 28px);
+        min-height: auto;
       }
 
       .mark-top {
@@ -854,7 +870,7 @@
       }
 
       .mark-title h1 {
-        font-size: clamp(2.15rem, 12vw, 3.1rem);
+        font-size: clamp(1.9rem, 9vw, 2.35rem);
       }
 
       .mark-title p {
@@ -862,12 +878,17 @@
       }
 
       .door {
-        grid-template-columns: 96px 1fr;
-        min-height: 178px;
+        grid-template-columns: 88px 1fr;
+        min-height: 134px;
       }
 
       .door-media img {
         object-position: center;
+      }
+
+      .door-copy {
+        gap: 7px;
+        padding: 12px;
       }
 
       .door-meta {
@@ -880,11 +901,26 @@
       }
 
       .door h2 {
-        font-size: clamp(1.8rem, 10vw, 2.65rem);
+        font-size: clamp(1.58rem, 8vw, 2.15rem);
+      }
+
+      .door p {
+        font-size: 0.82rem;
+        line-height: 1.45;
       }
 
       .door-action b {
         display: none;
+      }
+
+      .door-action {
+        min-height: 44px;
+        padding: 0 12px;
+      }
+
+      .door-action span {
+        min-height: 38px;
+        padding: 0 15px;
       }
 
       .owner-note {
