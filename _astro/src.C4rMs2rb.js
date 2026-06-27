@@ -154,7 +154,7 @@ var e=(function(){let e=0;return function(){return(++e).toString()}})();function
       /*
       * Author: Timo Lins
       * License: MIT
-      * Source:
+      * Source: 
       * - https://github.com/timolins/react-hot-toast/blob/main/src/components/checkmark.tsx
       * - https://github.com/timolins/react-hot-toast/blob/main/src/components/error.tsx
       * - https://github.com/timolins/react-hot-toast/blob/main/src/components/loader.tsx
