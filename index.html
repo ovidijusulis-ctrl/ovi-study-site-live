@@ -304,6 +304,37 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
   ];
   const SEARCH_STOP_WORDS = new Set(["the", "a", "an", "and", "or", "to", "for", "of", "in", "on", "at", "with", "how", "what", "where", "when", "why", "do", "does", "did", "can", "could", "i", "you", "me", "my", "your", "is", "are", "be"]);
   const LATEST_QUERY_TERMS = new Set(["latest", "newest", "recent", "new", "material", "materials", "lesson", "lessons"]);
+  const BROAD_SEARCH_INTENT_TERMS = new Set([
+    "speaking",
+    "conversation",
+    "talk",
+    "roleplay",
+    "role",
+    "play",
+    "practice",
+    "dialogue",
+    "lesson",
+    "lessons",
+    "material",
+    "materials",
+    "latest",
+    "newest",
+    "recent",
+    "new",
+    "beginner",
+    "easy",
+    "simple",
+    "first",
+    "a1",
+    "a2",
+    "basic",
+    "elementary",
+    "card",
+    "payment",
+    "pay",
+    "problem",
+    "data",
+  ]);
 
   const getSearchTermAlternatives = (term) => {
     const normalized = normalizeSearchFieldText(term);
@@ -328,6 +359,8 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
     if (/\b(doctor|clinic|symptom|symptoms|sick|medicine|pharmacy|drugstore|headache)\b/.test(normalized)) skills.push("health");
     if (/\b(airport|departure|departures|flight|boarding|gate|sim card|data plan)\b/.test(normalized)) skills.push("airport");
     if (/\b(convenience|konbini)\b/.test(normalized)) skills.push("convenience");
+    if (/\b(supermarket|grocery|groceries)\b/.test(normalized)) skills.push("supermarket");
+    if (/\bphone\b/.test(normalized) && /\bdata\b/.test(normalized) && /\bproblem\b/.test(normalized)) skills.push("phone-data-problem");
     if (/\b(job interview|interview|resume|cv|hiring)\b/.test(normalized)) skills.push("job-interview");
     return { normalized, tokens, latest: skills.includes("latest"), level, skills };
   };
@@ -336,6 +369,11 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
 
   const escapeRegExp = (value) =>
     String(value || "").replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const fieldMatchesSearchToken = (field = "", token = "") => {
+    if (!field || !token) return false;
+    const pattern = new RegExp(`(^|[^a-z0-9])${escapeRegExp(token)}(?=$|[^a-z0-9])`, "u");
+    return pattern.test(field) || field.includes(token);
+  };
 
   const scrollToTarget = (selector) => {
     if (!selector) return;
@@ -904,6 +942,14 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       if (intent.skills.includes("convenience") && !fullAnchor.match(/\b(convenience|konbini)\b/)) {
         return 0;
       }
+      if (intent.skills.includes("supermarket") && !fullAnchor.match(/\b(supermarket|grocery|groceries)\b/)) {
+        return 0;
+      }
+      const specificRawTokens = intent.tokens.filter((token) => !BROAD_SEARCH_INTENT_TERMS.has(token));
+      if (specificRawTokens.length > 0) {
+        const specificMatches = specificRawTokens.filter((token) => fieldMatchesSearchToken(fullAnchor, token));
+        if (specificMatches.length < specificRawTokens.length) return 0;
+      }
       if (
         intent.skills.includes("speaking")
         && !relevanceAnchor.match(/\b(speaking|conversation|roleplay|practice|dialogue|questions|ask)\b/)
@@ -959,6 +1005,16 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       if (intent.skills.includes("airport") && card.searchIndex.searchTags.match(/\b(airport|departures|flight|boarding|gate)\b/)) {
         totalScore += 52;
         if (card.searchIndex.searchTags.match(/\b(departures|flight|boarding|gate)\b/)) totalScore += 58;
+      }
+      if (intent.skills.includes("supermarket")) {
+        if (`${card.searchIndex.title} ${card.searchIndex.searchTags}`.match(/\b(supermarket|grocery|groceries)\b/)) totalScore += 180;
+        if (`${card.searchIndex.title} ${card.searchIndex.searchTags} ${card.searchIndex.supporting}`.match(/\b(pay|payment|card|cash|checkout)\b/)) totalScore += 80;
+        if (card.searchIndex.title.includes("sim card")) totalScore -= 110;
+      }
+      if (intent.skills.includes("phone-data-problem")) {
+        if (`${card.searchIndex.title} ${card.searchIndex.searchTags} ${card.searchIndex.supporting}`.match(/\bphone\b/) && fullAnchor.match(/\bdata\b/) && fullAnchor.match(/\bproblem\b/)) totalScore += 260;
+        if (card.searchIndex.title.includes("phone store")) totalScore += 160;
+        if (card.searchIndex.title.includes("sim card") || fullAnchor.match(/\bairport\b/)) totalScore -= 110;
       }
       if (intent.skills.includes("job-interview")) {
         if (`${card.searchIndex.title} ${card.searchIndex.searchTags}`.match(/\b(job interview|interview|resume|hiring)\b/)) totalScore += 84;
