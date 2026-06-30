@@ -37,8 +37,8 @@
     "source": "popup_support_router/authored_reading_vocabulary",
     "popupMode": "prebuilt_safe",
     "supportAction": "teach",
-    "simpleMeaningSource": "authored_reading_vocabulary",
-    "contextMeaningSource": "authored_reading_vocabulary",
+    "simpleMeaningSource": "codex_manual_review",
+    "contextMeaningSource": "codex_manual_review",
     "generatedBy": "popup_support_router_v1",
     "language": "en",
     "sourceEvidenceIds": [
@@ -47,7 +47,11 @@
     "evidenceId": "ovi_ev_en_6584e7187533",
     "popupBankBridgeStatus": "local_only_needs_registry_review",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "selectedSenseConfidence": "local_only_no_registry"
+    "selectedSenseConfidence": "local_only_no_registry",
+    "manualReviewStatus": "reviewed_safe",
+    "reviewedAt": "2026-06-30T00:58:30.000Z",
+    "reviewSource": "codex_manual_review",
+    "runtimeTargetReason": "visible_vocabulary_row_after_legacy_practice_cleanup"
   },
   "prepare": {
     "simpleMeaning": "get ready before something",
@@ -242,11 +246,11 @@
     "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
     "popupMode": "prebuilt_safe",
     "supportAction": "teach",
-    "simpleMeaningSource": "codex_manual_review",
-    "contextMeaningSource": "codex_manual_review",
+    "simpleMeaningSource": "legacy_hidden_question_sheet_source",
+    "contextMeaningSource": "legacy_hidden_question_sheet_source",
     "translationJa": "",
     "translationEs": "",
-    "generatedBy": "popup_reviewed_meaning_packet_v1",
+    "generatedBy": "popup_support_router_v1",
     "language": "en",
     "sourceEvidenceIds": [
       "ovi_ev_en_66d877614def"
@@ -255,9 +259,7 @@
     "popupBankBridgeStatus": "local_only_needs_registry_review",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "selectedSenseConfidence": "local_only_no_registry",
-    "manualReviewStatus": "reviewed_safe",
-    "reviewedAt": "2026-06-29T22:50:00.000Z",
-    "reviewSource": "codex_manual_review"
+    "runtimeTargetReason": "not_a_browser_click_target_after_legacy_practice_cleanup"
   },
   "visitors": {
     "simpleMeaning": "people who visit",
