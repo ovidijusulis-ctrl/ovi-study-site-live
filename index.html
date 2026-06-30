@@ -770,7 +770,7 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       searchChipButtons.forEach((button) => {
         const buttonTopic = normalizeTopic(button.dataset.searchChipTopic || "all");
         const buttonQuery = normalizeSearchText(button.dataset.searchChip || "");
-        const active = buttonTopic === normalizedTopic && buttonQuery === normalizedQuery;
+        const active = buttonTopic === normalizedTopic && (!buttonQuery || buttonQuery === normalizedQuery);
         button.classList.toggle("is-active", active);
         button.setAttribute("aria-pressed", active ? "true" : "false");
       });
@@ -1529,8 +1529,9 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
         setState({
           panel: "find",
           mode: activeMode,
-          level: activeLevel,
-          topic: activeTopic,
+          level: nextQuery ? "all" : activeLevel,
+          difficultyValue: nextQuery ? 0 : undefined,
+          topic: nextQuery ? "all" : activeTopic,
           query: nextQuery,
         });
       };
@@ -1754,6 +1755,8 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
     let initialQuery = "";
     let initialPanel = "start";
     let initialDifficultyValue;
+    let hasExplicitInitialLevel = false;
+    let hasExplicitInitialTopic = false;
     try {
       const urlParams = new URLSearchParams(window.location.search || "");
       const urlLevel = urlParams.get("level");
@@ -1768,6 +1771,7 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
       if (urlLevel === "all" || CEFR_LEVELS.includes(urlLevel)) {
         initialLevel = urlLevel;
         initialDifficultyValue = getDifficultyValueFromLevel(initialLevel);
+        hasExplicitInitialLevel = true;
       } else if (storedLevel === "all" || CEFR_LEVELS.includes(storedLevel)) {
         initialLevel = storedLevel;
         initialDifficultyValue = getDifficultyValueFromLevel(initialLevel);
@@ -1776,6 +1780,7 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
         initialDifficultyValue = getDifficultyValueFromLevel(initialLevel);
       }
       initialTopic = urlTopic ? normalizeTopic(urlTopic) : normalizeTopic(localStorage.getItem(TOPIC_KEY));
+      hasExplicitInitialTopic = Boolean(urlTopic);
       initialQuery = normalizeSearchText(urlQuery || localStorage.getItem(SEARCH_KEY));
       if (isPendingSearchQuery(initialQuery)) initialQuery = "";
       const storedPanel = localStorage.getItem(HERO_PANEL_KEY);
@@ -1791,6 +1796,10 @@ const topicFilterIdsJson = "[\"all\",\"grammar\",\"animation\",\"travel\",\"tech
     if (isLatestIntentQuery(initialQuery)) {
       initialPanel = "find";
       initialMode = "newest";
+      initialLevel = "all";
+      initialDifficultyValue = 0;
+      initialTopic = "all";
+    } else if (initialQuery && !hasExplicitInitialLevel && !hasExplicitInitialTopic) {
       initialLevel = "all";
       initialDifficultyValue = 0;
       initialTopic = "all";

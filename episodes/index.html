@@ -313,6 +313,11 @@ No lessons found. Try a simpler word or choose All levels and All topics.
 
     input.addEventListener("input", () => {
       state.q = input.value;
+      if (normalize(state.q)) {
+        state.level = "all";
+        state.topic = "all";
+        state.newest = false;
+      }
       applyFilters();
     });
     clearButton.addEventListener("click", () => {
