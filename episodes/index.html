@@ -53,8 +53,34 @@
     const levelButtons = [...root.querySelectorAll("[data-episodes-index-level]")];
     const topicButtons = [...root.querySelectorAll("[data-episodes-index-topic]")];
     const originalCards = [...cards];
-    const stopWords = new Set(["the", "a", "an", "and", "or", "to", "for", "of", "in", "on", "at", "with", "how", "what", "where", "when", "why", "do", "does", "did", "can", "could", "i", "you", "me", "my", "your", "is", "are", "be"]);
+    const stopWords = new Set(["the", "a", "an", "and", "or", "to", "for", "of", "in", "on", "at", "with", "by", "how", "what", "where", "when", "why", "do", "does", "did", "can", "could", "i", "you", "me", "my", "your", "is", "are", "be"]);
     const latestQueryTerms = new Set(["latest", "newest", "recent", "new", "material", "materials", "lesson", "lessons"]);
+    const broadIntentTerms = new Set([
+      "speaking",
+      "conversation",
+      "talk",
+      "roleplay",
+      "role",
+      "play",
+      "practice",
+      "dialogue",
+      "lesson",
+      "lessons",
+      "material",
+      "materials",
+      "latest",
+      "newest",
+      "recent",
+      "new",
+      "beginner",
+      "easy",
+      "simple",
+      "first",
+      "a1",
+      "a2",
+      "basic",
+      "elementary",
+    ]);
     const state = {
       q: "",
       level: "all",
@@ -115,8 +141,15 @@
       if (/\b(doctor|clinic|symptom|symptoms|sick|medicine|pharmacy|drugstore|headache)\b/.test(normalized)) skills.push("health");
       if (/\b(airport|departure|departures|flight|boarding|gate|sim card|data plan)\b/.test(normalized)) skills.push("airport");
       if (/\b(convenience|konbini)\b/.test(normalized)) skills.push("convenience");
+      if (/\b(supermarket|grocery|groceries)\b/.test(normalized)) skills.push("supermarket");
+      if (/\bphone\b/.test(normalized) && /\bdata\b/.test(normalized) && /\bproblem\b/.test(normalized)) skills.push("phone-data-problem");
       if (/\b(job interview|interview|resume|cv|hiring)\b/.test(normalized)) skills.push("job-interview");
       return { normalized, rawTokens, latest: skills.includes("latest"), level, skills };
+    };
+    const fieldMatchesToken = (field = "", token = "") => {
+      if (!field || !token) return false;
+      const pattern = new RegExp(`(^|[^a-z0-9])${token.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?=$|[^a-z0-9])`, "u");
+      return pattern.test(field) || field.includes(token);
     };
     const scoreCard = (card, tokens) => {
       if (!tokens.length) return 0;
@@ -143,6 +176,14 @@
       }
       if (intent.skills.includes("convenience") && !fullAnchor.match(/\b(convenience|konbini)\b/)) {
         return -1;
+      }
+      if (intent.skills.includes("supermarket") && !fullAnchor.match(/\b(supermarket|grocery|groceries)\b/)) {
+        return -1;
+      }
+      const specificRawTokens = intent.rawTokens.filter((token) => !broadIntentTerms.has(token));
+      if (specificRawTokens.length > 0) {
+        const specificMatches = specificRawTokens.filter((token) => fieldMatchesToken(fullAnchor, token));
+        if (specificMatches.length < specificRawTokens.length) return -1;
       }
       if (
         intent.skills.includes("speaking")
@@ -209,6 +250,15 @@
         else score -= 36;
         if (title.includes("travel abroad")) score -= 42;
         if (searchTags.match(/\b(departures|flight|boarding|gate)\b/)) score += 58;
+      }
+      if (intent.skills.includes("supermarket")) {
+        if (`${title} ${searchTags}`.match(/\b(supermarket|grocery|groceries)\b/)) score += 180;
+        if (`${title} ${searchTags} ${corpus}`.match(/\b(pay|payment|card|cash|checkout)\b/)) score += 80;
+      }
+      if (intent.skills.includes("phone-data-problem")) {
+        if (`${title} ${searchTags} ${corpus}`.match(/\bphone\b/) && fullAnchor.match(/\bdata\b/) && fullAnchor.match(/\bproblem\b/)) score += 260;
+        if (title.includes("phone store")) score += 160;
+        if (title.includes("sim card") || fullAnchor.match(/\bairport\b/)) score -= 110;
       }
       return score;
     };
