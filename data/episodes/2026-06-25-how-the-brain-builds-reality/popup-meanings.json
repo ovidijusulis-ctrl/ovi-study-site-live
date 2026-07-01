@@ -1,40 +1,4 @@
 {
-  "construct": {
-    "simpleMeaning": "To build or create an experience or idea",
-    "contextMeaning": "Here, construct means the brain actively builds experience",
-    "sentence": "The important point is not \"the self is useless.\" The point is more careful: The self is useful, but it is constructed.",
-    "sourceSentence": "The important point is not \"the self is useless.\" The point is more careful: The self is useful, but it is constructed.",
-    "example": "The important point is not \"the self is useless.\" The point is more careful: The self is useful, but it is constructed.",
-    "translationJa": "",
-    "translationEs": "",
-    "source": "manual_brain_reality_popup_coverage_repair_20260626",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "contextMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "generatedBy": "brain_reality_popup_coverage_repair_v1",
-    "popupContextRepair": {
-      "contractVersion": "popup_context_apply_v1",
-      "applied": true,
-      "matchType": "inflected_phrase",
-      "confidence": "high",
-      "source": "generated_popup_context_plan"
-    },
-    "reviewedBy": "codex_manual_review",
-    "repairedAt": "2026-06-26T10:05:44.478Z",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_dc1e0b56b3a0",
-      "ovi_ev_en_1252b9c16cee"
-    ],
-    "evidenceId": "ovi_ev_en_dc1e0b56b3a0",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_2b04cacd633d",
-    "matchedFormId": "ovi_form_en_ba777fae3cd4",
-    "selectedSenseId": "ovi_sense_en_350ac69960c1",
-    "selectedSenseConfidence": "source_and_meaning_match"
-  },
   "predict": {
     "simpleMeaning": "to guess what will happen or what is present",
     "contextMeaning": "",
@@ -136,9 +100,9 @@
   "signal": {
     "simpleMeaning": "information sent from one place to another",
     "contextMeaning": "",
-    "sentence": "ANSWER 1: Perception is not that simple because the brain receives signals and must build a useful model from them.",
-    "sourceSentence": "ANSWER 1: Perception is not that simple because the brain receives signals and must build a useful model from them.",
-    "example": "ANSWER 1: Perception is not that simple because the brain receives signals and must build a useful model from them.",
+    "sentence": "What is one useful \"dashboard signal\" your brain gives you in daily life?",
+    "sourceSentence": "What is one useful \"dashboard signal\" your brain gives you in daily life?",
+    "example": "What is one useful \"dashboard signal\" your brain gives you in daily life?",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_support_router/authored_reading_vocabulary",
@@ -165,7 +129,13 @@
     "lexemeId": "ovi_lex_en_0b55029307ce",
     "matchedFormId": "ovi_form_en_b5325eec5c71",
     "selectedSenseId": "ovi_sense_en_f36704e46183",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "expectation": {
     "simpleMeaning": "a belief about what will probably happen",
@@ -1440,9 +1410,9 @@
   "choose": {
     "simpleMeaning": "To pick one thing",
     "contextMeaning": "",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
+    "sourceSentence": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
+    "example": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
     "source": "popup_support_router/teaching_lexicon_trusted",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1754,9 +1724,9 @@
   "voice": {
     "simpleMeaning": "The sound a person makes when speaking",
     "contextMeaning": "",
-    "sentence": "The brain does not only build a model of tables, rooms, voices, and faces.",
-    "sourceSentence": "The brain does not only build a model of tables, rooms, voices, and faces.",
-    "example": "The brain does not only build a model of tables, rooms, voices, and faces.",
+    "sentence": "If you meet your close friend, you expect their face and voice to feel familiar.",
+    "sourceSentence": "If you meet your close friend, you expect their face and voice to feel familiar.",
+    "example": "If you meet your close friend, you expect their face and voice to feel familiar.",
     "source": "popup_support_router/teaching_lexicon_trusted",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1783,7 +1753,13 @@
     "lexemeId": "ovi_lex_en_c1dfeda271db",
     "matchedFormId": "ovi_form_en_e881f524d023",
     "selectedSenseId": "ovi_sense_en_13bd37938579",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "energy": {
     "simpleMeaning": "Power for action or movement",
@@ -2098,9 +2074,9 @@
   "quick": {
     "simpleMeaning": "Fast, happening in a short time",
     "contextMeaning": "Here, quick describes a prediction made before careful checking",
-    "sentence": "You understand a friend's face quickly.",
-    "sourceSentence": "You understand a friend's face quickly.",
-    "example": "You understand a friend's face quickly.",
+    "sentence": "When can a quick prediction help you, and when can it mislead you?",
+    "sourceSentence": "When can a quick prediction help you, and when can it mislead you?",
+    "example": "When can a quick prediction help you, and when can it mislead you?",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -2129,7 +2105,13 @@
     "lexemeId": "ovi_lex_en_a3880c1088d0",
     "matchedFormId": "ovi_form_en_2aca81030049",
     "selectedSenseId": "ovi_sense_en_a2967758acc4",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "predictions": {
     "simpleMeaning": "best guesses about what is happening",
@@ -2168,9 +2150,9 @@
   "psychedelic": {
     "simpleMeaning": "related to strong mind-changing substances studied in consciousness research",
     "contextMeaning": "",
-    "sentence": "Classic psychedelics, such as psilocybin, can strongly change perception, emotion, and the sense of self.",
-    "sourceSentence": "Classic psychedelics, such as psilocybin, can strongly change perception, emotion, and the sense of self.",
-    "example": "Classic psychedelics, such as psilocybin, can strongly change perception, emotion, and the sense of self.",
+    "sentence": "Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
+    "sourceSentence": "Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
+    "example": "Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_full_assets_popup_repair",
@@ -2197,7 +2179,13 @@
     "lexemeId": "ovi_lex_en_55386cb0c302",
     "matchedFormId": "ovi_form_en_819fa9bab2f2",
     "selectedSenseId": "ovi_sense_en_84b990f29371",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "happening": {
     "simpleMeaning": "taking place now",
@@ -2674,9 +2662,9 @@
   "happen": {
     "simpleMeaning": "to take place or occur",
     "contextMeaning": "",
-    "sentence": "When that happens, bottom-up information may have more room to enter awareness.",
-    "sourceSentence": "When that happens, bottom-up information may have more room to enter awareness.",
-    "example": "When that happens, bottom-up information may have more room to enter awareness.",
+    "sentence": "What will happen next?",
+    "sourceSentence": "What will happen next?",
+    "example": "What will happen next?",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_full_assets_popup_repair",
@@ -2703,7 +2691,13 @@
     "lexemeId": "ovi_lex_en_c8aa71ddaa7d",
     "matchedFormId": "ovi_form_en_0572f2178ff9",
     "selectedSenseId": "ovi_sense_en_a1757380b395",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "psilocybin": {
     "simpleMeaning": "a psychedelic compound studied in controlled research",
@@ -3899,9 +3893,9 @@
   "message": {
     "simpleMeaning": "Information sent from one person to another",
     "contextMeaning": "",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
+    "sourceSentence": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
+    "example": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
     "source": "popup_support_router/teaching_lexicon_trusted",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -4110,35 +4104,6 @@
     "selectedSenseId": "ovi_sense_en_71fc7cc8afd8",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
-  "bottom-up signal": {
-    "simpleMeaning": "Information coming from the senses or body",
-    "contextMeaning": "Here, bottom-up signal means information coming from the body or senses",
-    "sentence": "When that happens, bottom-up information may have more room to enter awareness.",
-    "sourceSentence": "When that happens, bottom-up information may have more room to enter awareness.",
-    "example": "When that happens, bottom-up information may have more room to enter awareness.",
-    "translationJa": "",
-    "translationEs": "",
-    "source": "manual_brain_reality_popup_coverage_repair_20260626",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "contextMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "generatedBy": "brain_reality_popup_coverage_repair_v1",
-    "reviewedBy": "codex_manual_review",
-    "repairedAt": "2026-06-26T10:05:44.446Z",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_964143ba903a",
-      "ovi_ev_en_4f9de9636d0b"
-    ],
-    "evidenceId": "ovi_ev_en_964143ba903a",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_9fa80c67ea58",
-    "matchedFormId": "ovi_form_en_b7e44e3ad88a",
-    "selectedSenseId": "ovi_sense_en_c8ad69666671",
-    "selectedSenseConfidence": "source_and_meaning_match"
-  },
   "clinical settings": {
     "simpleMeaning": "Medical or research places with trained support and safety rules",
     "contextMeaning": "Here, clinical settings means medical or research environments",
@@ -4224,35 +4189,6 @@
     "lexemeId": "ovi_lex_en_82e1c6347f52",
     "matchedFormId": "ovi_form_en_1533a6b3403a",
     "selectedSenseId": "ovi_sense_en_21f64b092e36",
-    "selectedSenseConfidence": "source_and_meaning_match"
-  },
-  "ego dissolution": {
-    "simpleMeaning": "A temporary weakening of the usual feeling of a separate self",
-    "contextMeaning": "Here, ego dissolution describes a weaker separate-self feeling",
-    "sentence": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
-    "sourceSentence": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
-    "example": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
-    "translationJa": "",
-    "translationEs": "",
-    "source": "manual_brain_reality_popup_coverage_repair_20260626",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "contextMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "generatedBy": "brain_reality_popup_coverage_repair_v1",
-    "reviewedBy": "codex_manual_review",
-    "repairedAt": "2026-06-26T10:05:44.447Z",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_bb3b1139ba72",
-      "ovi_ev_en_a361ba12f8d0"
-    ],
-    "evidenceId": "ovi_ev_en_bb3b1139ba72",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_125eda55de97",
-    "matchedFormId": "ovi_form_en_8cddf3957bf4",
-    "selectedSenseId": "ovi_sense_en_5e6764fb72ab",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
   "entropic brain hypothesis": {
@@ -4400,49 +4336,20 @@
     "selectedSenseId": "ovi_sense_en_104fcf1a0100",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
-  "top-down prediction": {
-    "simpleMeaning": "An expectation from the brain that shapes what you notice",
-    "contextMeaning": "Here, top-down prediction means an expectation from the brain",
-    "sentence": "You expect your keys on the table, so you look there first.",
-    "sourceSentence": "You expect your keys on the table, so you look there first.",
-    "example": "You expect your keys on the table, so you look there first.",
-    "translationJa": "",
-    "translationEs": "",
-    "source": "manual_brain_reality_popup_coverage_repair_20260626",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "contextMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "generatedBy": "brain_reality_popup_coverage_repair_v1",
-    "reviewedBy": "codex_manual_review",
-    "repairedAt": "2026-06-26T10:05:44.448Z",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_6dc97c0df788",
-      "ovi_ev_en_9ef1d2cfd6f3"
-    ],
-    "evidenceId": "ovi_ev_en_6dc97c0df788",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_7d3f45724db8",
-    "matchedFormId": "ovi_form_en_a589cd6f8bf7",
-    "selectedSenseId": "ovi_sense_en_580b097e0a66",
-    "selectedSenseConfidence": "source_and_meaning_match"
-  },
   "carhart-harris": {
-    "simpleMeaning": "Part of Robin Carhart-Harris, a psychedelic-science researcher",
-    "contextMeaning": "Here, Carhart-Harris is part of the researcher name Robin Carhart-Harris.",
-    "sentence": "Another may believe, \"I can never change.\" The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
-    "sourceSentence": "Another may believe, \"I can never change.\" The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
-    "example": "Another may believe, \"I can never change.\" The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "simpleMeaning": "a researcher in psychedelic science",
+    "contextMeaning": "Here, Carhart-Harris identifies a researcher linked with the REBUS idea.",
+    "sentence": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "sourceSentence": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "example": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
     "translationJa": "",
     "translationEs": "",
-    "source": "manual_brain_reality_popup_coverage_repair_20260626",
+    "source": "popup_manual_review/brain_reality_definition_lint_cleanup_2026_06_27",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
-    "simpleMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "contextMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "generatedBy": "brain_reality_popup_coverage_repair_v1",
+    "simpleMeaningSource": "codex_manual_review",
+    "contextMeaningSource": "codex_manual_review",
+    "generatedBy": "popup_reviewed_meaning_packet_v1",
     "reviewedBy": "codex_manual_review",
     "repairedAt": "2026-06-26T10:11:16.098Z",
     "language": "en",
@@ -4456,7 +4363,10 @@
     "lexemeId": "ovi_lex_en_3368813eb4de",
     "matchedFormId": "ovi_form_en_ac37744aa054",
     "selectedSenseId": "ovi_sense_en_c3f7f542366a",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "manualReviewStatus": "reviewed_safe",
+    "reviewedAt": "2026-06-27T14:20:00.000Z",
+    "reviewSource": "codex_manual_review"
   },
   "order": {
     "simpleMeaning": "ask for food or drink",
@@ -7282,9 +7192,9 @@
   "range": {
     "simpleMeaning": "The full set of possible things between limits",
     "contextMeaning": "",
-    "sentence": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
-    "sourceSentence": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
-    "example": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
+    "sentence": "Again, a wider range of patterns is not automatically wisdom.",
+    "sourceSentence": "Again, a wider range of patterns is not automatically wisdom.",
+    "example": "Again, a wider range of patterns is not automatically wisdom.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -7306,7 +7216,13 @@
     "lexemeId": "ovi_lex_en_147c35aaacb4",
     "matchedFormId": "ovi_form_en_48187287cb1e",
     "selectedSenseId": "ovi_sense_en_902af7bde353",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "related": {
     "simpleMeaning": "Connected in some way",
@@ -7340,9 +7256,9 @@
   "respect": {
     "simpleMeaning": "Careful attention to something important",
     "contextMeaning": "",
-    "sentence": "For example, a person may think, \"I always fail,\" \"Nobody respects me,\" or \"This feeling will never change.\" These thoughts may feel like reality.",
-    "sourceSentence": "For example, a person may think, \"I always fail,\" \"Nobody respects me,\" or \"This feeling will never change.\" These thoughts may feel like reality.",
-    "example": "For example, a person may think, \"I always fail,\" \"Nobody respects me,\" or \"This feeling will never change.\" These thoughts may feel like reality.",
+    "sentence": "It needs clear language, careful limits, and respect for risk.",
+    "sourceSentence": "It needs clear language, careful limits, and respect for risk.",
+    "example": "It needs clear language, careful limits, and respect for risk.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -7364,7 +7280,13 @@
     "lexemeId": "ovi_lex_en_7f8a237cf601",
     "matchedFormId": "ovi_form_en_57ffae4b39a0",
     "selectedSenseId": "ovi_sense_en_b25dd83b4261",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "thoughts": {
     "simpleMeaning": "Ideas in the mind",
@@ -8603,9 +8525,9 @@
   "find": {
     "simpleMeaning": "To discover or get something",
     "contextMeaning": "",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
+    "sourceSentence": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
+    "example": "Task 2: Find the Prediction Choose one situation: - A friend does not reply to your message.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -9381,9 +9303,9 @@
   "use": {
     "simpleMeaning": "To do something with a tool, idea, or ability",
     "contextMeaning": "",
-    "sentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "sourceSentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "example": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
+    "sentence": "You do not need a dramatic experience to use the main idea of this lesson.",
+    "sourceSentence": "You do not need a dramatic experience to use the main idea of this lesson.",
+    "example": "You do not need a dramatic experience to use the main idea of this lesson.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -9405,7 +9327,13 @@
     "lexemeId": "ovi_lex_en_420080891c22",
     "matchedFormId": "ovi_form_en_a14438ff1b24",
     "selectedSenseId": "ovi_sense_en_0059b34d78c8",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "past": {
     "simpleMeaning": "The time before now",
@@ -9733,9 +9661,9 @@
   "new": {
     "simpleMeaning": "Not old or not known before",
     "contextMeaning": "",
-    "sentence": "[NEWS STORY] Look around the room.",
-    "sourceSentence": "[NEWS STORY] Look around the room.",
-    "example": "[NEWS STORY] Look around the room.",
+    "sentence": "Then new sensory information checks that answer.",
+    "sourceSentence": "Then new sensory information checks that answer.",
+    "example": "Then new sensory information checks that answer.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -9757,7 +9685,13 @@
     "lexemeId": "ovi_lex_en_ee15034d3a1a",
     "matchedFormId": "ovi_form_en_677b235413a7",
     "selectedSenseId": "ovi_sense_en_c32979b09954",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "called": {
     "simpleMeaning": "Named or described as",
@@ -9936,9 +9870,9 @@
   "mode": {
     "simpleMeaning": "A way a system works",
     "contextMeaning": "",
-    "sentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "sourceSentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "example": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
+    "sentence": "Researchers often discuss a set of brain areas called the default mode network, or DMN.",
+    "sourceSentence": "Researchers often discuss a set of brain areas called the default mode network, or DMN.",
+    "example": "Researchers often discuss a set of brain areas called the default mode network, or DMN.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -9960,7 +9894,13 @@
     "lexemeId": "ovi_lex_en_565dc42c5a2b",
     "matchedFormId": "ovi_form_en_b9433a39b357",
     "selectedSenseId": "ovi_sense_en_8836c6a78886",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "always": {
     "simpleMeaning": "Every time",
@@ -10023,9 +9963,9 @@
   "everyday": {
     "simpleMeaning": "Normal and part of daily life",
     "contextMeaning": "",
-    "sentence": "",
-    "sourceSentence": "",
-    "example": "",
+    "sentence": "Task 1: Explain the Dashboard Explain this sentence in your own words: \"The dashboard is not fake, but it is not the whole engine.\" Use one everyday example.",
+    "sourceSentence": "Task 1: Explain the Dashboard Explain this sentence in your own words: \"The dashboard is not fake, but it is not the whole engine.\" Use one everyday example.",
+    "example": "Task 1: Explain the Dashboard Explain this sentence in your own words: \"The dashboard is not fake, but it is not the whole engine.\" Use one everyday example.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -10168,9 +10108,9 @@
   "see": {
     "simpleMeaning": "To notice with your eyes or understand an idea",
     "contextMeaning": "",
-    "sentence": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
-    "sourceSentence": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
-    "example": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
+    "sentence": "You may see a wall, a table, a cup, a phone, a window, or another person.",
+    "sourceSentence": "You may see a wall, a table, a cup, a phone, a window, or another person.",
+    "example": "You may see a wall, a table, a cup, a phone, a window, or another person.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -10192,7 +10132,13 @@
     "lexemeId": "ovi_lex_en_9ced2d0fadde",
     "matchedFormId": "ovi_form_en_8eae428df5ae",
     "selectedSenseId": "ovi_sense_en_f016e96f6130",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "wall": {
     "simpleMeaning": "A side of a room or building",
@@ -10632,9 +10578,9 @@
   "discuss": {
     "simpleMeaning": "To talk about something carefully",
     "contextMeaning": "",
-    "sentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "sourceSentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "example": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
+    "sentence": "Researchers often discuss a set of brain areas called the default mode network, or DMN.",
+    "sourceSentence": "Researchers often discuss a set of brain areas called the default mode network, or DMN.",
+    "example": "Researchers often discuss a set of brain areas called the default mode network, or DMN.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -10656,7 +10602,13 @@
     "lexemeId": "ovi_lex_en_41ffbd1b6a62",
     "matchedFormId": "ovi_form_en_c83cf571dcff",
     "selectedSenseId": "ovi_sense_en_d202aa01c54c",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "never": {
     "simpleMeaning": "Not at any time",
@@ -11096,9 +11048,9 @@
   "direct": {
     "simpleMeaning": "Without a middle step",
     "contextMeaning": "",
-    "sentence": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
-    "sourceSentence": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
-    "example": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
+    "sentence": "It feels direct.",
+    "sourceSentence": "It feels direct.",
+    "example": "It feels direct.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -11120,7 +11072,13 @@
     "lexemeId": "ovi_lex_en_70b7e5c8e670",
     "matchedFormId": "ovi_form_en_21492fd09dc9",
     "selectedSenseId": "ovi_sense_en_c2ae5e61e200",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "inside": {
     "simpleMeaning": "in something",
@@ -11572,9 +11530,9 @@
   "car": {
     "simpleMeaning": "A road vehicle for carrying people",
     "contextMeaning": "",
-    "sentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "sourceSentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "example": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
+    "sentence": "A car dashboard does not show the full engine.",
+    "sourceSentence": "A car dashboard does not show the full engine.",
+    "example": "A car dashboard does not show the full engine.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -11596,7 +11554,13 @@
     "lexemeId": "ovi_lex_en_9d7eab12d3fb",
     "matchedFormId": "ovi_form_en_10c20e90bb45",
     "selectedSenseId": "ovi_sense_en_5e9b3f63609e",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "fuel": {
     "simpleMeaning": "Material that gives energy to a machine or body",
@@ -11775,9 +11739,9 @@
   "act": {
     "simpleMeaning": "To do something",
     "contextMeaning": "",
-    "sentence": "What should this body do next?\" This is why some scientists describe perception as active.",
-    "sourceSentence": "What should this body do next?\" This is why some scientists describe perception as active.",
-    "example": "What should this body do next?\" This is why some scientists describe perception as active.",
+    "sentence": "That is enough for the driver to act.",
+    "sourceSentence": "That is enough for the driver to act.",
+    "example": "That is enough for the driver to act.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -11799,7 +11763,13 @@
     "lexemeId": "ovi_lex_en_b0776a9656ee",
     "matchedFormId": "ovi_form_en_96be51c37b39",
     "selectedSenseId": "ovi_sense_en_b45d8288b785",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "driver": {
     "simpleMeaning": "A person who controls a car or vehicle",
@@ -11920,9 +11890,9 @@
   "process": {
     "simpleMeaning": "A series of steps or changes",
     "contextMeaning": "",
-    "sentence": "This is sometimes called predictive processing.",
-    "sourceSentence": "This is sometimes called predictive processing.",
-    "example": "This is sometimes called predictive processing.",
+    "sentence": "The brain does not need to show every atom, wave, force, and hidden process.",
+    "sourceSentence": "The brain does not need to show every atom, wave, force, and hidden process.",
+    "example": "The brain does not need to show every atom, wave, force, and hidden process.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -11944,7 +11914,13 @@
     "lexemeId": "ovi_lex_en_068327071168",
     "matchedFormId": "ovi_form_en_8e4804e391ac",
     "selectedSenseId": "ovi_sense_en_ddf85d8b1318",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "wave": {
     "simpleMeaning": "A moving pattern of energy, such as light or sound",
@@ -12566,9 +12542,9 @@
   "care": {
     "simpleMeaning": "Careful attention or support",
     "contextMeaning": "",
-    "sentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "sourceSentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
-    "example": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
+    "sentence": "But this topic needs care.",
+    "sourceSentence": "But this topic needs care.",
+    "example": "But this topic needs care.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -12590,7 +12566,13 @@
     "lexemeId": "ovi_lex_en_7e197b91310e",
     "matchedFormId": "ovi_form_en_314220f12904",
     "selectedSenseId": "ovi_sense_en_0339a838b28d",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "controlled": {
     "simpleMeaning": "Managed carefully with rules",
@@ -12885,9 +12867,9 @@
   "risk": {
     "simpleMeaning": "A possible danger or bad result",
     "contextMeaning": "",
-    "sentence": "These substances can carry serious risks, especially outside controlled research or clinical settings.",
-    "sourceSentence": "These substances can carry serious risks, especially outside controlled research or clinical settings.",
-    "example": "These substances can carry serious risks, especially outside controlled research or clinical settings.",
+    "sentence": "It needs clear language, careful limits, and respect for risk.",
+    "sourceSentence": "It needs clear language, careful limits, and respect for risk.",
+    "example": "It needs clear language, careful limits, and respect for risk.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -12909,7 +12891,13 @@
     "lexemeId": "ovi_lex_en_952d866e4176",
     "matchedFormId": "ovi_form_en_0b3e02cd3365",
     "selectedSenseId": "ovi_sense_en_bbf2ca3387bf",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "relaxed": {
     "simpleMeaning": "Less tight, strict, or tense",
@@ -12943,9 +12931,9 @@
   "meet": {
     "simpleMeaning": "To come together or see someone",
     "contextMeaning": "",
-    "sentence": "It means experience is a meeting between the outside world and the brain's model.",
-    "sourceSentence": "It means experience is a meeting between the outside world and the brain's model.",
-    "example": "It means experience is a meeting between the outside world and the brain's model.",
+    "sentence": "If you meet your close friend, you expect their face and voice to feel familiar.",
+    "sourceSentence": "If you meet your close friend, you expect their face and voice to feel familiar.",
+    "example": "If you meet your close friend, you expect their face and voice to feel familiar.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -12967,7 +12955,13 @@
     "lexemeId": "ovi_lex_en_4d898b1260c5",
     "matchedFormId": "ovi_form_en_a246e0b869d2",
     "selectedSenseId": "ovi_sense_en_1383d4dfd7eb",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "everywhere": {
     "simpleMeaning": "In every place",
@@ -13001,9 +12995,9 @@
   "relax": {
     "simpleMeaning": "To make something less tight or less controlling",
     "contextMeaning": "",
-    "sentence": "One important idea is called relaxed priors.",
-    "sourceSentence": "One important idea is called relaxed priors.",
-    "example": "One important idea is called relaxed priors.",
+    "sentence": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "sourceSentence": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "example": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -13025,7 +13019,13 @@
     "lexemeId": "ovi_lex_en_ad332b4ef20b",
     "matchedFormId": "ovi_form_en_ebfa95777f71",
     "selectedSenseId": "ovi_sense_en_9cca864179e1",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "strongest": {
     "simpleMeaning": "Most powerful",
@@ -13088,9 +13088,9 @@
   "matter": {
     "simpleMeaning": "To be important",
     "contextMeaning": "",
-    "sentence": "It needs to show what matters for this body now.",
-    "sourceSentence": "It needs to show what matters for this body now.",
-    "example": "It needs to show what matters for this body now.",
+    "sentence": "Context, support, and integration matter.",
+    "sourceSentence": "Context, support, and integration matter.",
+    "example": "Context, support, and integration matter.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -13112,7 +13112,13 @@
     "lexemeId": "ovi_lex_en_961ed21088ce",
     "matchedFormId": "ovi_form_en_89b15d4b1e58",
     "selectedSenseId": "ovi_sense_en_93c2dba51200",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "classroom": {
     "simpleMeaning": "A place or situation for learning",
@@ -13204,9 +13210,9 @@
   "high": {
     "simpleMeaning": "Large in amount, level, or position",
     "contextMeaning": "",
-    "sentence": "The brain highlights what it thinks you need.",
-    "sourceSentence": "The brain highlights what it thinks you need.",
-    "example": "The brain highlights what it thinks you need.",
+    "sentence": "High entropy means more uncertainty and more possible patterns.",
+    "sourceSentence": "High entropy means more uncertainty and more possible patterns.",
+    "example": "High entropy means more uncertainty and more possible patterns.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -13228,7 +13234,13 @@
     "lexemeId": "ovi_lex_en_2722400c6ee5",
     "matchedFormId": "ovi_form_en_efcbcd4752ba",
     "selectedSenseId": "ovi_sense_en_3975e65c0e69",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "waking": {
     "simpleMeaning": "Being awake, not sleeping",
@@ -13643,9 +13655,9 @@
   "word": {
     "simpleMeaning": "One unit of language",
     "contextMeaning": "Here, word means one language unit in the technical concept table",
-    "sentence": "In simple words, the DMN is related to the brain's habit of building a personal story: Who am I?",
-    "sourceSentence": "In simple words, the DMN is related to the brain's habit of building a personal story: Who am I?",
-    "example": "In simple words, the DMN is related to the brain's habit of building a personal story: Who am I?",
+    "sentence": "Entropy can be a difficult word, but here is a useful classroom version.",
+    "sourceSentence": "Entropy can be a difficult word, but here is a useful classroom version.",
+    "example": "Entropy can be a difficult word, but here is a useful classroom version.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -13667,7 +13679,13 @@
     "lexemeId": "ovi_lex_en_3f238c8b3bf6",
     "matchedFormId": "ovi_form_en_1abea14940c0",
     "selectedSenseId": "ovi_sense_en_1f31e4b130a5",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "words": {
     "simpleMeaning": "Units of language",
@@ -13701,9 +13719,9 @@
   "help": {
     "simpleMeaning": "To make something easier or better",
     "contextMeaning": "",
-    "sentence": "It helps the body survive.",
-    "sourceSentence": "It helps the body survive.",
-    "example": "It helps the body survive.",
+    "sentence": "This story can help us.",
+    "sourceSentence": "This story can help us.",
+    "example": "This story can help us.",
     "translationJa": "",
     "translationEs": "",
     "source": "manual_brain_reality_popup_coverage_repair_20260626",
@@ -13725,7 +13743,13 @@
     "lexemeId": "ovi_lex_en_7b8299efbbe5",
     "matchedFormId": "ovi_form_en_8b4d81844a54",
     "selectedSenseId": "ovi_sense_en_1b6b589efb33",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "contextRepair": {
+      "contractVersion": "popup_reviewed_meaning_packet_v1",
+      "reason": "definition_lint_target_sentence_fit",
+      "reviewedAt": "2026-06-27T14:20:00.000Z",
+      "reviewSource": "codex_manual_review"
+    }
   },
   "patterns": {
     "simpleMeaning": "Repeated ways things happen",
@@ -13873,19 +13897,19 @@
     "selectedSenseConfidence": "source_and_meaning_match"
   },
   "the rebus": {
-    "simpleMeaning": "The REBUS idea about relaxed beliefs under psychedelics",
-    "contextMeaning": "Here, The REBUS names the research idea linked with Carhart-Harris and Friston.",
-    "sentence": "Another may believe, \"I can never change.\" The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
-    "sourceSentence": "Another may believe, \"I can never change.\" The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
-    "example": "Another may believe, \"I can never change.\" The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "simpleMeaning": "a research idea about relaxed beliefs under psychedelics",
+    "contextMeaning": "Here, The REBUS names the idea linked with Carhart-Harris and Friston.",
+    "sentence": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "sourceSentence": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
+    "example": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
     "translationJa": "",
     "translationEs": "",
-    "source": "manual_brain_reality_popup_coverage_repair_20260626",
+    "source": "popup_manual_review/brain_reality_definition_lint_cleanup_2026_06_27",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
-    "simpleMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "contextMeaningSource": "manual_brain_reality_popup_coverage_repair_20260626",
-    "generatedBy": "brain_reality_popup_coverage_repair_v1",
+    "simpleMeaningSource": "codex_manual_review",
+    "contextMeaningSource": "codex_manual_review",
+    "generatedBy": "popup_reviewed_meaning_packet_v1",
     "reviewedBy": "codex_manual_review",
     "repairedAt": "2026-06-26T10:11:16.098Z",
     "language": "en",
@@ -13899,6 +13923,61 @@
     "lexemeId": "ovi_lex_en_c2e38c7c27cd",
     "matchedFormId": "ovi_form_en_70592b208f90",
     "selectedSenseId": "ovi_sense_en_112311a7e6be",
-    "selectedSenseConfidence": "source_and_meaning_match"
+    "selectedSenseConfidence": "source_and_meaning_match",
+    "manualReviewStatus": "reviewed_safe",
+    "reviewedAt": "2026-06-27T14:20:00.000Z",
+    "reviewSource": "codex_manual_review"
+  },
+  "bottom-up information": {
+    "simpleMeaning": "information coming from the senses or body",
+    "contextMeaning": "Here, bottom-up information means details entering awareness from the body or senses.",
+    "sentence": "When that happens, bottom-up information may have more room to enter awareness.",
+    "sourceSentence": "When that happens, bottom-up information may have more room to enter awareness.",
+    "example": "When that happens, bottom-up information may have more room to enter awareness.",
+    "translationJa": "",
+    "translationEs": "",
+    "source": "popup_manual_review/brain_reality_definition_lint_cleanup_2026_06_27",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "simpleMeaningSource": "codex_manual_review",
+    "contextMeaningSource": "codex_manual_review",
+    "generatedBy": "popup_reviewed_meaning_packet_v1",
+    "language": "en",
+    "manualReviewStatus": "reviewed_safe",
+    "reviewedAt": "2026-06-27T14:20:00.000Z",
+    "reviewSource": "codex_manual_review",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_7890430fe550"
+    ],
+    "evidenceId": "ovi_ev_en_7890430fe550",
+    "popupBankBridgeStatus": "local_only_needs_registry_review",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "selectedSenseConfidence": "local_only_no_registry"
+  },
+  "sense of separation": {
+    "simpleMeaning": "the feeling that you are apart from other people or the world",
+    "contextMeaning": "Here, sense of separation means the normal feeling of being a separate self.",
+    "sentence": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
+    "sourceSentence": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
+    "example": "This may help explain why some people report new connections, strange images, deep emotions, or a weaker sense of separation.",
+    "translationJa": "",
+    "translationEs": "",
+    "source": "popup_manual_review/brain_reality_definition_lint_cleanup_2026_06_27",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "simpleMeaningSource": "codex_manual_review",
+    "contextMeaningSource": "codex_manual_review",
+    "generatedBy": "popup_reviewed_meaning_packet_v1",
+    "language": "en",
+    "manualReviewStatus": "reviewed_safe",
+    "reviewedAt": "2026-06-27T14:20:00.000Z",
+    "reviewSource": "codex_manual_review",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_2b4499b40c22"
+    ],
+    "evidenceId": "ovi_ev_en_2b4499b40c22",
+    "popupBankBridgeStatus": "local_only_needs_registry_review",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "selectedSenseConfidence": "local_only_no_registry"
   }
 }
