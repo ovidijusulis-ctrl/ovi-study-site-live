@@ -63468,7 +63468,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -63503,6 +63504,13 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "The brain may turn deep information into a world of objects and distances because that is the easiest way for us to act.",
         "contextMeaning": "Here, \"easiest\" means the brain makes things simple so we can act fast",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "3: Which move sounds easiest: walk, stop, turn left, or turn right?",
+        "contextMeaning": "Here, \"easiest\" means the riding move that is the simplest to do",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -75960,7 +75968,8 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -76108,6 +76117,13 @@
         "sentence": "What makes music last: a beautiful sound, a strong idea, famous performers, awards, recordings, or repeated performances?",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A jockey can become famous after big wins",
+        "contextMeaning": "Here, \"famous\" means a jockey can become famous after big wins",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -76675,7 +76691,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -76830,6 +76847,13 @@
         "sentence": "In learning, it means knowledge helps you learn the next thing faster.",
         "contextMeaning": "Here, \"faster\" means faster describes learning the next thing in less time",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "1: Would you like to start with a slow walk or a faster ride?",
+        "contextMeaning": "Here, \"faster\" means riding the horse quicker than a slow walk",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -95010,13 +95034,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
         "sentence": "They can also ask for a helmet if they want one.",
         "contextMeaning": "Here, \"helmet\" means people can ask for a helmet",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A helmet protects the head",
+        "contextMeaning": "Here, \"helmet\" means a helmet protects the head",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -97996,6 +98028,52 @@
         "sentence": "The brass, like trumpets and horns, can sound strong, noble, or dramatic.",
         "contextMeaning": "Here, \"horns\" means a brass instrument that can sound strong or dramatic",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "horse": {
+    "word": "horse",
+    "definition": "A big strong animal",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The horse can walk, stop, and turn",
+        "contextMeaning": "Here, \"horse\" means the horse can walk, stop, and turn",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "horse riding": {
+    "word": "horse riding",
+    "definition": "Sitting on and moving with a horse",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The lesson is about horse riding",
+        "contextMeaning": "Here, \"horse riding\" means the lesson is about horse riding",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -107531,6 +107609,29 @@
       }
     ]
   },
+  "jockey": {
+    "word": "jockey",
+    "definition": "A rider in a horse race",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A jockey rides a racehorse",
+        "contextMeaning": "Here, \"jockey\" means a jockey rides a racehorse",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "john": {
     "word": "john",
     "definition": "A boy’s name",
@@ -112876,7 +112977,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -112891,6 +112993,13 @@
         "sentence": "The stairs to Platform 2 are on your left.",
         "contextMeaning": "Here, \"left\" means the stairs are on the side of your body with your heart",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The reins help the rider ask the horse to stop, turn left, or turn right.",
+        "contextMeaning": "Here, \"left\" means left is a direction the horse can turn",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -131273,7 +131382,8 @@
       "episode-2026-05-08-create-a-site-only-a2-fluid-practical-material-3",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -131323,6 +131433,36 @@
         "sentence": "When did you move?",
         "contextMeaning": "Here, \"move\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Before riding, people should move slowly.",
+        "contextMeaning": "Here, \"move\" means walking or changing position near a horse",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "move slowly": {
+    "word": "move slowly",
+    "definition": "Go or act in a not-fast way",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "People should move slowly near a horse",
+        "contextMeaning": "Here, \"move slowly\" means people should move slowly near a horse",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -165413,6 +165553,29 @@
       }
     ]
   },
+  "reins": {
+    "word": "reins",
+    "definition": "Long straps for guiding a horse",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The rider holds the reins",
+        "contextMeaning": "Here, \"reins\" means the rider holds the reins",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "reinvent": {
     "word": "reinvent",
     "definition": "To make something new in a different way",
@@ -171444,7 +171607,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -171474,6 +171638,13 @@
         "contextMeaning": "Here, \"ride\" means the time when people use the bike and move on it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Some people ride for fun.",
+        "contextMeaning": "Here, \"ride\" means to sit on a horse for fun",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -171488,7 +171659,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why"
+      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -171496,6 +171668,36 @@
         "sentence": "So the rider is not loose inside the seat.",
         "contextMeaning": "Here, \"rider\" means the person sitting in the seat",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The rider holds the reins",
+        "contextMeaning": "Here, \"rider\" means the rider holds the reins",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "riders": {
+    "word": "riders",
+    "definition": "People who ride horses",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Many riders wear a helmet.",
+        "contextMeaning": "Here, \"riders\" means people learning or practicing horse riding",
+        "source": "popup_manual_review/horse_riding_lint_cleanup_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -171567,7 +171769,8 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -171806,6 +172009,13 @@
         "sentence": "In Queensland, a company doing roof-tiling work needs the right QBCC licence.",
         "contextMeaning": "Here, \"right\" means the correct licence needed for roof work",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The reins help the rider ask the horse to stop, turn left, or turn right.",
+        "contextMeaning": "Here, \"right\" means right is the direction a rider can turn",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -174918,6 +175128,29 @@
         "sentence": "When a fan is sad, she can feel quiet and gentle.",
         "contextMeaning": "Here, \"sad\" means a fan feels quiet and soft when she is unhappy",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "saddle": {
+    "word": "saddle",
+    "definition": "The seat on a horse",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The rider sits on the saddle",
+        "contextMeaning": "Here, \"saddle\" means the rider sits on the saddle",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -187896,7 +188129,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -188016,6 +188250,13 @@
         "sentence": "Institutions can be slow, biased, and political.",
         "contextMeaning": "Here, \"slow\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Walking is slow and useful.",
+        "contextMeaning": "Here, \"slow\" means slow describes walking with the horse",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -191866,7 +192107,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -192035,6 +192277,13 @@
         "sentence": "It turns a complicated world into colors, sounds, objects, distances, emotions, and stories.",
         "contextMeaning": "Here, \"sounds\" means things you hear",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "3: Which move sounds easiest: walk, stop, turn left, or turn right?",
+        "contextMeaning": "Here, \"sounds\" means which riding move seems easiest to do",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -197967,7 +198216,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -198024,6 +198274,13 @@
         "sentence": "High-risk actions should stop and ask a human before anything happens.",
         "contextMeaning": "Here, \"stop\" means high danger actions should not happen without asking a person first",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The reins help the rider ask the horse to stop, turn left, or turn right.",
+        "contextMeaning": "Here, \"stop\" means asking the horse not to move forward",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -226083,7 +226340,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-17-getting-a-haircut",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -226147,6 +226405,13 @@
         "sentence": "You walk through a doorway without thinking about every piece of light.",
         "contextMeaning": "Here, \"walk\" means move on foot",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "At first, many riders only walk with the horse.",
+        "contextMeaning": "Here, \"walk\" means riders move slowly next to the horse at the start",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -229056,7 +229321,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -229064,6 +229330,13 @@
         "sentence": "Can I use it, wear it, eat it, give it, or display it?",
         "contextMeaning": "Here, \"wear\" means to have clothes or shoes on your body",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Many riders wear a helmet.",
+        "contextMeaning": "Here, \"wear\" means putting on a helmet for safety",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       }
     ]
