@@ -362,7 +362,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal"
+      "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -370,6 +371,13 @@
         "sentence": "Ocean alkalinity enhancement, often shortened to OAE, tries to shift seawater chemistry so the ocean can absorb more carbon dioxide and store it mainly as dissolved bicarbonate and carbonate forms.",
         "contextMeaning": "Here, \"absorb\" means ocean takes in more carbon gas from the air",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A living tradition must absorb film, politics, place, technology, memory, and public emotion without losing craft.",
+        "contextMeaning": "Here, \"absorb\" means a living tradition can take in film, politics, place, and memory",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -5675,6 +5683,7 @@
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -5751,6 +5760,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Some people want to be alone.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "This matters because future legacy may not always look like the old model of one composer alone at a desk.",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -7167,6 +7183,29 @@
         "sentence": "Some songs are used in anime, movies, dramas, or commercials.",
         "contextMeaning": "Here, \"anime\" means japanese cartoons where songs are used",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "anna thorvaldsdottir": {
+    "word": "anna thorvaldsdottir",
+    "definition": "An Icelandic contemporary classical composer",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Anna Thorvaldsdottir offers a different model.",
+        "contextMeaning": "Here, \"anna thorvaldsdottir\" means the lesson compares Thorvaldsdottir's slow sound world with Chin's sharper o",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -10268,7 +10307,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -10281,6 +10321,13 @@
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "He became not only a name on a music score, but a visible modern artist.",
+        "contextMeaning": "Here, \"artist\" means a person who makes art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "DISCUSSION 1: What evidence would make you believe an artist may last for a long time?",
         "contextMeaning": "Here, \"artist\" means a person who makes art",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -10324,7 +10371,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -10351,6 +10399,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Sesame Workshop describes work across many countries, and some local versions are made with local educators, writers, artists, and performers.",
+        "contextMeaning": "Here, \"artists\" means a person who makes art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Legacy means a work keeps returning to listeners, performers, teachers, and other artists over time.",
         "contextMeaning": "Here, \"artists\" means a person who makes art",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -11601,6 +11656,29 @@
         "sentence": "The ocean already absorbs a large amount of carbon dioxide from the atmosphere.",
         "contextMeaning": "Here, \"atmosphere\" means the air around Earth where carbon dioxide is found",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "atmospheric": {
+    "word": "atmospheric",
+    "definition": "Creating a strong mood or feeling",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "3: Which kind of sound world interests you more: sharp and playful, or slow and atmospheric?",
+        "contextMeaning": "Here, \"atmospheric\" means a slow sound world can interest listeners through mood and space",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -14284,7 +14362,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -14292,6 +14371,13 @@
         "sentence": "Diaghilev and the Ballets Russes Stravinsky's international fame began through ballet.",
         "contextMeaning": "Here, \"ballet\" means a stage performance that combines music and dance",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A short beautiful piece can matter, but opera, ballet, concerto, and large orchestra works test a composer in a different way.",
+        "contextMeaning": "Here, \"ballet\" means ballet is one large form that tests a composer's control",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -15523,6 +15609,7 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -15585,6 +15672,13 @@
       {
         "episodeId": "episode-2026-06-25-how-the-brain-builds-reality",
         "sentence": "This can sound beautiful, but it can also be intense or difficult.",
+        "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "What makes music last: a beautiful sound, a strong idea, famous performers, awards, recordings, or repeated performances?",
         "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -19177,6 +19271,29 @@
       }
     ]
   },
+  "best orchestral performance": {
+    "word": "best orchestral performance",
+    "definition": "A Grammy category for orchestra recordings",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "His ballet score Dante, recorded by Gustavo Dudamel and the Los Angeles Philharmonic, won a Grammy for Best Orchestral Performance in 2024.",
+        "contextMeaning": "Here, \"best orchestral performance\" means ades's Dante recording won this award category in 2024",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "bet": {
     "word": "bet",
     "definition": "A guess with money or hope",
@@ -20401,6 +20518,29 @@
         "sentence": "They may need that money for train tickets, rent, bills, or daily food.",
         "contextMeaning": "Here, \"bills\" means money needed to pay for things like water or electricity",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "biography": {
+    "word": "biography",
+    "definition": "A written account of someone's life or career",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She writes orchestral, chamber, and operatic music, and her biography points to major commissions, residencies, and opera work.",
+        "contextMeaning": "Here, \"biography\" means mazzoli's biography gives career evidence, not just praise",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -24418,6 +24558,7 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -24459,6 +24600,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "When you study, do you usually try to work longer, work smarter, or build a better system?",
+        "contextMeaning": "Here, \"build\" means to make something by putting parts together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Big Forms and Big Stages: Thomas Ades and Missy Mazzoli Another legacy signal is the ability to build large forms.",
         "contextMeaning": "Here, \"build\" means to make something by putting parts together",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24633,7 +24781,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -24662,6 +24811,13 @@
         "sentence": "It also builds a model of \"me.\" This model is very useful.",
         "contextMeaning": "Here, \"builds\" means creates an experience in the mind",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A sound world is the musical atmosphere a composer builds: the colors, textures, energy, and sense of movement that make the music feel like their own.",
+        "contextMeaning": "Here, \"builds\" means to make something by putting parts together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -27777,6 +27933,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -27888,6 +28045,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "The important point is more careful: well-designed educational media can help when it has clear goals, repeated practice, and a real learning plan.",
+        "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A listener can separate evidence from prediction without pretending to know the future.",
         "contextMeaning": "Here, \"careful\" means paying attention to avoid mistakes",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -28397,6 +28561,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -28473,6 +28638,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "The idea was simple but powerful: if many children watch TV, then TV can carry early learning into the home.",
+        "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Third, what human feeling or idea does it carry?",
         "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -29503,6 +29675,29 @@
       }
     ]
   },
+  "cellist": {
+    "word": "cellist",
+    "definition": "A musician who plays the cello",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her background as a cellist is important because her scores often feel physical.",
+        "contextMeaning": "Here, \"cellist\" means her cello background helps explain the physical feeling in her scores",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "cellos": {
     "word": "cellos",
     "definition": "Big string instruments played with a bow",
@@ -29667,7 +29862,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold"
+      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -29701,6 +29897,13 @@
       {
         "episodeId": "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
         "sentence": "The Willow result matters because it addresses one of the central questions in the field: can a quantum computer become more reliable by using more physical qubits to protect fewer logical qubits?",
+        "contextMeaning": "Here, \"central\" means in the middle or most important part",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Some composers were famous during their lives and then became less central.",
         "contextMeaning": "Here, \"central\" means in the middle or most important part",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -30904,6 +31107,7 @@
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -31062,6 +31266,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A useful test is this: Can people explain what the composer changed?",
+        "contextMeaning": "Here, \"changed\" means the question asks what new musical thinking the composer created",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The object has not changed.",
         "contextMeaning": "Here, \"changed\" means became different because the situation or mood changed",
@@ -31118,6 +31329,7 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -31381,6 +31593,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "But if the score changes how other composers think about sound, tension, or silence, then it may become part of a longer musical conversation.",
+        "contextMeaning": "Here, \"changes\" means a score may matter if it changes how composers think",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "It changes the decision from \"Do I need this?\"",
         "contextMeaning": "Here, \"changes\" means moves the buyer from one question to another",
@@ -31412,7 +31631,8 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -31504,6 +31724,13 @@
         "sentence": "2: It gives mechanical advantage by changing the relation between force and distance around a fulcrum.",
         "contextMeaning": "Here, \"changing\" means making the force-distance relation different",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
+        "contextMeaning": "Here, \"changing\" means musical taste changes, so a lasting composer must survive new opinions",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -33585,6 +33812,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -33661,6 +33889,13 @@
       {
         "episodeId": "episode-2026-06-23-talking-about-what-people-like-a1",
         "sentence": "It is a small choice or feeling.",
+        "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Which composer in the lesson seems most interesting to you, and what evidence supports your choice?",
         "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -33851,6 +34086,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -34060,6 +34296,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "The teacher can choose six to ten questions and model short answers out loud.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Choose one living composer and listen to one short piece or one movement.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -35093,12 +35336,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "When you hear classical music, do you imagine something calm, dramatic, strange, or powerful?",
+        "contextMeaning": "Here, \"classical music\" means \"classical music\" names background knowledge from history, art, music, or culture",
+        "source": "popup_support_router/trusted_cultural_phrase_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Do you know any living composer from film, games, classical music, opera, or concerts?",
         "contextMeaning": "Here, \"classical music\" means \"classical music\" names background knowledge from history, art, music, or culture",
         "source": "popup_support_router/trusted_cultural_phrase_rule",
         "confidence": "trusted"
@@ -35368,7 +35619,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -35402,6 +35654,13 @@
       {
         "episodeId": "episode-2026-06-24-why-socks-disappear-psychology-science",
         "sentence": "Our brain prefers a clean story: \"The washing machine ate it.\"",
+        "contextMeaning": "Here, \"clean\" means not dirty",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "History is not a clean exam.",
         "contextMeaning": "Here, \"clean\" means not dirty",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -36205,7 +36464,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -36281,6 +36541,13 @@
       {
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "What basic question do you want to answer clearly?",
+        "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "These phrases help you speak clearly without pretending to know the future.",
         "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -38108,6 +38375,7 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -38156,6 +38424,13 @@
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Many customers understand flat whites, long blacks, cold brew, milk texture, and alternative milks.",
+        "contextMeaning": "Here, \"cold\" means low in temperature",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her music is modern, but it is not cold.",
         "contextMeaning": "Here, \"cold\" means low in temperature",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -39779,6 +40054,29 @@
       }
     ]
   },
+  "commission": {
+    "word": "commission",
+    "definition": "A paid request for a new work",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A commission is a sign that institutions trust a composer.",
+        "contextMeaning": "Here, \"commission\" means a paid request for a new work",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "commissioned": {
     "word": "commissioned",
     "definition": "Asked someone to make something for you",
@@ -39798,6 +40096,29 @@
         "sentence": "3: They were important because they commissioned his early ballet successes, including The Firebird and Petrushka, and helped make him internationally famous.",
         "contextMeaning": "Here, \"commissioned\" means they asked him to create early ballets",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "commissions": {
+    "word": "commissions",
+    "definition": "Paid requests for new works",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She writes orchestral, chamber, and operatic music, and her biography points to major commissions, residencies, and opera work.",
+        "contextMeaning": "Here, \"commissions\" means paid requests for new works",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -41772,7 +42093,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -41793,6 +42115,13 @@
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Igor Stravinsky: The Composer Who Made Rhythm Feel Dangerous Warm-Up Questions 1.",
         "contextMeaning": "Here, \"composer\" means a person who writes music",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Can a composer become important while they are still alive, or does history need more time?",
+        "contextMeaning": "Here, \"composer\" means the lesson studies composers whose work may matter for a long time",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -41856,7 +42185,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -41871,6 +42201,13 @@
         "sentence": "Today, Stravinsky is seen as one of the most important composers of the 20th century.",
         "contextMeaning": "Here, \"composers\" means composer means a person who writes music",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Some composers were famous during their lives and then became less central.",
+        "contextMeaning": "Here, \"composers\" means the lesson compares living composers using evidence, not hype",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -42472,6 +42809,29 @@
       }
     ]
   },
+  "concerto": {
+    "word": "concerto",
+    "definition": "Music for a solo instrument and orchestra",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her Violin Concerto won the 2004 Grawemeyer Award, and major orchestras and conductors have performed her work internationally.",
+        "contextMeaning": "Here, \"concerto\" means chin's Violin Concerto is the award-winning work named here",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "concerts": {
     "word": "concerts",
     "definition": "Shows where people play music for others",
@@ -42622,7 +42982,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -42630,6 +42991,13 @@
         "sentence": "He was a Russian composer, conductor, and pianist, and he later became a citizen of France and the United States.",
         "contextMeaning": "Here, \"conductor\" means a person who leads an orchestra or choir",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "He is also a conductor and pianist, so his career connects writing, performing, and leading.",
+        "contextMeaning": "Here, \"conductor\" means a musician who leads a group in performance",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -47717,7 +48085,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -47746,6 +48115,13 @@
         "sentence": "Learn how a Japanese craft business could test Australia carefully, using company structure, cafe costs, local lifestyle, and customer behavior before making a large expansion decision.",
         "contextMeaning": "Here, \"craft\" means the business makes special things by hand carefully",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "More importantly, her orchestral music brings Mexican musical energy and contemporary classical craft into major international performance spaces.",
+        "contextMeaning": "Here, \"craft\" means the musical skill behind a composer's ideas",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -47989,7 +48365,8 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -48135,6 +48512,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "QUESTION 4: What feeling does the title Sesame Street create?",
+        "contextMeaning": "Here, \"create\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "How can institutions help a composer become known, and how can they create unfair limits?",
         "contextMeaning": "Here, \"create\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -49376,6 +49760,29 @@
       }
     ]
   },
+  "cultural reach": {
+    "word": "cultural reach",
+    "definition": "Connection with wider public life",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Gabriela Ortiz shows cultural reach through rhythm, color, and public themes.",
+        "contextMeaning": "Here, \"cultural reach\" means music speaks through film, place, politics, memory, or community",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "culturally": {
     "word": "culturally",
     "definition": "About people's ways of living and thinking",
@@ -49420,7 +49827,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -49496,6 +49904,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "Naples has its own strong energy, food culture, sea views, and history.",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "It means connecting serious musical thinking with the wider culture.",
         "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -49640,7 +50055,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -49669,6 +50085,13 @@
         "sentence": "Curiosity helps learning.",
         "contextMeaning": "Here, \"curiosity\" means curiosity helps learning",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Shaw's career shows curiosity as a serious artistic engine.",
+        "contextMeaning": "Here, \"curiosity\" means shaw's curiosity helps her keep asking fresh musical questions",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -52468,6 +52891,7 @@
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -52483,6 +52907,13 @@
         "sentence": "That matters in Kofu because the old building is not just decoration.",
         "contextMeaning": "Here, \"decoration\" means something that makes a place look pretty, not its main use",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Sound is not just decoration; it can become pressure, fear, memory, and space.",
+        "contextMeaning": "Here, \"decoration\" means the lesson says sound can carry emotion, not just decorate a scene",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       },
       {
@@ -55396,7 +55827,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -55530,6 +55962,13 @@
         "sentence": "The student also practices short answers with more detail.",
         "contextMeaning": "Here, \"detail\" means one small part that makes an answer clearer",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Chin may impress listeners through sharp imagination and orchestral detail.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -58774,6 +59213,29 @@
       }
     ]
   },
+  "distinctive": {
+    "word": "distinctive",
+    "definition": "Clearly different and easy to recognize",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Which legacy signal is strongest: awards, major performances, recordings, influence, cultural reach, or a distinctive sound?",
+        "contextMeaning": "Here, \"distinctive\" means a distinctive sound helps a composer stand out",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "distinguish": {
     "word": "distinguish",
     "definition": "See how things are different",
@@ -59709,7 +60171,8 @@
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -59785,6 +60248,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "In that story, the words open a hidden door.",
+        "contextMeaning": "Here, \"door\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Then keep the door open, because history will continue listening after us.",
         "contextMeaning": "Here, \"door\" means the part you open to enter a room",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -63177,6 +63647,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -63358,6 +63829,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "What makes a character easy for children to remember?",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Introduction It is easy to say, \"This composer will be legendary.\"",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -66277,7 +66755,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -66395,6 +66874,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "His voice, energy, and messy eating make him easy to remember.",
+        "contextMeaning": "Here, \"energy\" means power for action or movement",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A sound world is the musical atmosphere a composer builds: the colors, textures, energy, and sense of movement that make the music feel like their own.",
         "contextMeaning": "Here, \"energy\" means power for action or movement",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67361,6 +67847,29 @@
         "sentence": "Animal experts often talk about environmental enrichment.",
         "contextMeaning": "Here, \"enrichment\" means making the animal's home more interesting and fun",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "ensembles": {
+    "word": "ensembles",
+    "definition": "Groups of musicians or performers",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Many living composers work across ensembles, recordings, installations, popular music, film, dance, and performance.",
+        "contextMeaning": "Here, \"ensembles\" means modern composers may work with many kinds of performing groups",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -73522,7 +74031,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea"
+      "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -73530,6 +74040,13 @@
         "sentence": "They open the bag, thinking treasure is inside, and the winds explode.",
         "contextMeaning": "Here, \"explode\" means the winds suddenly come out of the bag with great force",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Does the music grow, break, circle, explode, or slowly transform?",
+        "contextMeaning": "Here, \"explode\" means the question asks how the music moves and changes shape",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -73946,6 +74463,29 @@
         "sentence": "On expressways, you pay tolls.",
         "contextMeaning": "Here, \"expressways\" means big fast roads where you pay money to drive",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "exterminating angel": {
+    "word": "exterminating angel",
+    "definition": "An opera by Thomas Ades",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "His operas include The Tempest and The Exterminating Angel, and these works have reached major houses such as the Metropolitan Opera, the Royal Opera House, La Scala, and the Paris Opera.",
+        "contextMeaning": "Here, \"exterminating angel\" means this opera is one of Ades's major stage works",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -74944,7 +75484,8 @@
     "episodes": [
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -74966,6 +75507,13 @@
         "sentence": "The teacher still decides what is true, useful, fair, and right for the student.",
         "contextMeaning": "Here, \"fair\" means what the teacher thinks is honest and kind for the student",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A fair listener asks, \"What is this music trying to do?\"",
+        "contextMeaning": "Here, \"fair\" means a fair listener asks what the music is trying to do first",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -75411,7 +75959,8 @@
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -75550,6 +76099,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "This lesson is not only a list of famous characters.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "What makes music last: a beautiful sound, a strong idea, famous performers, awards, recordings, or repeated performances?",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -80440,7 +80996,8 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -80462,6 +81019,13 @@
         "sentence": "A later permanent business or showroom relationship may fit Brisbane better.",
         "contextMeaning": "Here, \"fit\" means a business or showroom may be good for Brisbane",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Caroline Shaw is useful because she does not fit only one box.",
+        "contextMeaning": "Here, \"fit\" means shaw does not belong in only one musical category",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -83264,7 +83828,8 @@
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -83300,6 +83865,36 @@
         "sentence": "It is one of the strongest forms of leverage because each round can make the next round smarter.",
         "contextMeaning": "Here, \"forms\" means types of leverage",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Another legacy signal is the ability to build large forms.",
+        "contextMeaning": "Here, \"forms\" means opera and ballet test how a composer controls long musical structure",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "fortune-telling": {
+    "word": "fortune-telling",
+    "definition": "Claiming to know the future",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The second is fortune-telling.",
+        "contextMeaning": "Here, \"fortune-telling\" means the lesson warns against pretending to know which composers will last",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -84078,7 +84673,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -84154,6 +84750,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Repetition helps children remember, but the different scenes keep the lesson fresh.",
+        "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The deeper lesson is that a composer can be legendary not because every piece sounds the same, but because every piece asks a fresh question in a convincing voice.",
         "contextMeaning": "Here, \"fresh\" means new, clean, or recently made",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -84880,12 +85483,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-the-history-of-gelato"
+      "episode-2026-05-26-the-history-of-gelato",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-26-the-history-of-gelato",
         "sentence": "Gelato is a specific style of frozen dessert with three practical traits: 1.",
+        "contextMeaning": "Here, \"frozen\" means made very cold until it becomes hard or icy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "These composers remind us that \"classical\" is not frozen.",
         "contextMeaning": "Here, \"frozen\" means made very cold until it becomes hard or icy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -85761,6 +86372,29 @@
         "sentence": "It sounds futuristic, but the real question is simple.",
         "contextMeaning": "Here, \"futuristic\" means sounds like it is from the future, very new and advanced",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "gabriela ortiz": {
+    "word": "gabriela ortiz",
+    "definition": "A Mexican contemporary classical composer",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Gabriela Ortiz shows cultural reach through rhythm, color, and public themes.",
+        "contextMeaning": "Here, \"gabriela ortiz\" means the lesson uses Ortiz as evidence for rhythm, color, and public themes",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -86726,7 +87360,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -86734,6 +87369,13 @@
         "sentence": "In a regional area such as Yamanashi, geography matters.",
         "contextMeaning": "Here, \"geography\" means the land shapes and places in Yamanashi are important",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "It is affected by publishers, teachers, institutions, recordings, politics, money, language, geography, and access.",
+        "contextMeaning": "Here, \"geography\" means where music is performed and taught can shape reputation",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -87879,7 +88521,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -87929,6 +88572,13 @@
         "sentence": "Think of giving keys to a helper.",
         "contextMeaning": "Here, \"giving\" means think about letting a helper have keys",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Both teach us that a composer can become important by giving listeners a new way to hear.",
+        "contextMeaning": "Here, \"giving\" means these composers offer listeners a new way to hear music",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -88357,7 +89007,8 @@
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -88454,6 +89105,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "If the goal is clear, the tool can help move faster.",
+        "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The goal is not to pretend to be a professional critic.",
         "contextMeaning": "Here, \"goal\" means something you want to reach or achieve",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -90252,7 +90910,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -90302,6 +90961,13 @@
         "sentence": "Ecommerce keeps growing, virtual sales are common in many B2B markets, and AI-related goods helped world trade grow faster than expected in 2025.",
         "contextMeaning": "Here, \"grow\" means world trade became bigger faster than people thought in 2025",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Does the music grow, break, circle, explode, or slowly transform?",
+        "contextMeaning": "Here, \"grow\" means the question asks whether the music develops over time",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -91068,6 +91734,29 @@
       }
     ]
   },
+  "gustavo dudamel": {
+    "word": "gustavo dudamel",
+    "definition": "A Venezuelan conductor",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "His ballet score Dante, recorded by Gustavo Dudamel and the Los Angeles Philharmonic, won a Grammy for Best Orchestral Performance in 2024.",
+        "contextMeaning": "Here, \"gustavo dudamel\" means dudamel conducted the recording of Ades's Dante named here",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "gym": {
     "word": "gym",
     "definition": "A room for sport at school",
@@ -91087,6 +91776,29 @@
         "sentence": "Scene 2: The Rope Says Whoosh On Friday, the class goes to the gym.",
         "contextMeaning": "Here, \"gym\" means the class goes to the gym",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "gyorgy ligeti": {
+    "word": "gyorgy ligeti",
+    "definition": "A twentieth-century composer and teacher",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She was born in Seoul, studied with Gyorgy Ligeti, and has lived in Berlin for many years.",
+        "contextMeaning": "Here, \"gyorgy ligeti\" means chin studied with Ligeti before building her own style",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -91112,7 +91824,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -91188,6 +91901,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "What tool gives people strong leverage now: a phone, a computer, a calendar, a habit, or a good teacher?",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The goal is to build a listening habit.",
         "contextMeaning": "Here, \"habit\" means a usual action you do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -92001,7 +92721,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -92107,6 +92828,13 @@
         "sentence": "When that happens, bottom-up information may have more room to enter awareness.",
         "contextMeaning": "Here, \"happen\" means to take place or occur",
         "source": "manual_full_assets_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Rediscovery can happen when.",
+        "contextMeaning": "Here, \"happen\" means the prompt asks what can cause rediscovery later",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -93615,7 +94343,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -93733,6 +94462,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "A child could see a funny scene, hear a song, watch a short animation, and meet a real person on the street.",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Both teach us that a composer can become important by giving listeners a new way to hear.",
         "contextMeaning": "Here, \"hear\" means listening to sounds or words",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -95014,6 +95750,29 @@
       }
     ]
   },
+  "her violin concerto": {
+    "word": "her violin concerto",
+    "definition": "Chin's piece for violin and orchestra",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her Violin Concerto won the 2004 Grawemeyer Award, and major orchestras and conductors have performed her work internationally.",
+        "contextMeaning": "Here, \"her violin concerto\" means this is the work that won the 2004 Grawemeyer Award",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "herb": {
     "word": "herb",
     "definition": "A small plant used for flavouring food",
@@ -96023,6 +96782,29 @@
       }
     ]
   },
+  "hildur gudnadottir": {
+    "word": "hildur gudnadottir",
+    "definition": "An Icelandic composer and cellist",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Hildur Gudnadottir is known to many people through film and television.",
+        "contextMeaning": "Here, \"hildur gudnadottir\" means an Icelandic composer and cellist",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "hill": {
     "word": "hill",
     "definition": "A small, high piece of land",
@@ -96873,7 +97655,8 @@
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -96942,6 +97725,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "It is useful and honest, but it is limited by time.",
+        "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The Limits: History Is Not Fair or Finished Now comes the honest part.",
         "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -98831,6 +99621,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -98996,6 +99787,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Useful Speaking Patterns Source checks: this lesson uses general consumer psychology ideas in learner-friendly language: mood and reward, memory objects, scarcity, identity, social pressure, mental accounting, impulse buying, and regret.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
@@ -99088,6 +99886,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -99157,6 +99956,13 @@
       {
         "episodeId": "episode-2026-06-25-how-the-brain-builds-reality",
         "sentence": "When you feel sure that someone dislikes you, ask: \"Is this reality, or is this my brain's prediction?\" When you feel stuck in an old identity, ask: \"Is this my permanent self, or is this a story I repeat?\" When you are angry, ask: \"What did my brain predict, and what evidence do I actually have?\" When you are moved by a big idea, ask: \"How will this change one small action today?\" This is the calm version of the lesson.",
+        "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "If a composer changes direction too often, listeners may not feel a clear identity.",
         "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -100096,6 +100902,29 @@
       }
     ]
   },
+  "immortality": {
+    "word": "immortality",
+    "definition": "Lasting forever or being remembered forever",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Those awards are not proof of immortality, but they show strong current momentum.",
+        "contextMeaning": "Here, \"immortality\" means awards do not prove a composer's music will last forever",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "immune": {
     "word": "immune",
     "definition": "Body's way to fight sickness",
@@ -100574,7 +101403,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -100589,6 +101419,13 @@
         "sentence": "Each act hoped to impress both the public and the juries.",
         "contextMeaning": "Here, \"impress\" means acts wanted to make people and judges feel happy",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Chin may impress listeners through sharp imagination and orchestral detail.",
+        "contextMeaning": "Here, \"impress\" means chin's imagination and detail may make listeners respect her music",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -100893,6 +101730,29 @@
         "sentence": "Veterans helped other veterans by improving a place they could all use.",
         "contextMeaning": "Here, \"improving\" means helping make a place nicer for all veterans to use",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "improvisation": {
+    "word": "improvisation",
+    "definition": "Creating music in the moment",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her work mixes classical writing with vernacular music, improvisation, poetry, and social consciousness.",
+        "contextMeaning": "Here, \"improvisation\" means creating music in the moment",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -102038,7 +102898,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -102046,6 +102907,13 @@
         "sentence": "They describe ordinary decisions about how much of your life a system is allowed to observe and influence.",
         "contextMeaning": "Here, \"influence\" means how much a system can change your life",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "If the answer includes sound, form, influence, performance history, and artistic risk, the evidence is stronger.",
+        "contextMeaning": "Here, \"influence\" means a composer changes how other musicians think or work",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -103237,6 +104105,29 @@
       }
     ]
   },
+  "institution": {
+    "word": "institution",
+    "definition": "An important organization",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "An institution can be an orchestra, opera house, publisher, prize, or conservatory.",
+        "contextMeaning": "Here, \"institution\" means an important organization",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "institutions": {
     "word": "institutions",
     "definition": "Big places or groups that help people",
@@ -103248,7 +104139,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -103256,6 +104148,13 @@
         "sentence": "He worked for churches, courts, and town institutions.",
         "contextMeaning": "Here, \"institutions\" means important places in town where Bach did his job",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Institutions can be slow, biased, and political.",
+        "contextMeaning": "Here, \"institutions\" means institutions can help music last, but they can also be biased",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -104091,6 +104990,7 @@
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -104146,6 +105046,13 @@
       {
         "episodeId": "episode-2026-06-24-why-socks-disappear-psychology-science",
         "sentence": "The real explanation is more interesting.",
+        "contextMeaning": "Here, \"interesting\" means making you want to know more",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Which composer in the lesson seems most interesting to you, and what evidence supports your choice?",
         "contextMeaning": "Here, \"interesting\" means making you want to know more",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -106578,6 +107485,29 @@
       }
     ]
   },
+  "jessie montgomery": {
+    "word": "jessie montgomery",
+    "definition": "An American composer and violinist",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Jessie Montgomery is another important example.",
+        "contextMeaning": "Here, \"jessie montgomery\" means the lesson uses Montgomery as evidence for living American classical music",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "job": {
     "word": "job",
     "definition": "Work someone does to earn money",
@@ -107700,7 +108630,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -107771,6 +108702,13 @@
         "sentence": "The brain keeps experience stable.",
         "contextMeaning": "Here, \"keeps\" means the brain maintains stable experience",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Legacy means a work keeps returning to listeners, performers, teachers, and other artists over time.",
+        "contextMeaning": "Here, \"keeps\" means to continue to have or do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -111109,7 +112047,8 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -111230,6 +112169,13 @@
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -111333,7 +112279,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -111418,6 +112365,13 @@
         "sentence": "This is why serious learners test, measure, and adjust.",
         "contextMeaning": "Here, \"learners\" means people who are studying seriously",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "This makes the topic useful because it teaches careful judgment.",
+        "contextMeaning": "Here, \"learners\" means english learners can practice careful language through this music topic",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -111975,7 +112929,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -111983,6 +112938,13 @@
         "sentence": "Understand Igor Stravinsky's life, major works, musical style, and legacy, then practice explaining how modern art can feel shocking at first but important later in clear B1-B2 English.",
         "contextMeaning": "Here, \"legacy\" means what Igor Stravinsky left for music and people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Learn how to discuss living famous composers with evidence, not hype, and practice judging musical legacy in careful B1-B2 English.",
+        "contextMeaning": "Here, \"legacy\" means the lesson uses legacy to mean lasting musical influence, not short fame",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -117933,6 +118895,29 @@
         "sentence": "Their official profile calls this return \"Phase 2.\" In 2026, the band started \"Phase 3\" and released a song called \"lulu.\" A break can be important for a band.",
         "contextMeaning": "Here, \"lulu\" means the name of a new song by the band",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "luna composition lab": {
+    "word": "luna composition lab",
+    "definition": "A program supporting young composers",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her work with Luna Composition Lab also matters because legacy is not only what one person writes.",
+        "contextMeaning": "Here, \"luna composition lab\" means mazzoli's work with the lab connects legacy to the next generation",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -124285,7 +125270,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -124307,6 +125293,36 @@
         "sentence": "Bach often builds complexity through several melodies moving together.",
         "contextMeaning": "Here, \"melodies\" means different tunes that play together in the music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The Pulitzer description points to the unusual vocal world of the piece: speech, whispers, sighs, murmurs, melodies, and vocal effects.",
+        "contextMeaning": "Here, \"melodies\" means the Pulitzer description lists melodies as one vocal element in the piece",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "melody": {
+    "word": "melody",
+    "definition": "The main tune in music",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Instead of quick melody first, she often builds long textures, deep quiet, pressure, and release.",
+        "contextMeaning": "Here, \"melody\" means the main tune in music",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -124456,7 +125472,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -124485,6 +125502,13 @@
         "sentence": "What do you think is more memorable: reading that Yamanashi is famous for fruit, or tasting a fresh peach there?",
         "contextMeaning": "Here, \"memorable\" means something that is special and easy to remember",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A sound world becomes memorable when.",
+        "contextMeaning": "Here, \"memorable\" means the prompt asks what makes a composer's sound stay in the mind",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -124584,6 +125608,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -124681,6 +125706,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "A child can practice letters, numbers, listening, memory, and problem-solving before entering school.",
+        "contextMeaning": "Here, \"memory\" means a thought from the past that you remember",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Sound is not just decoration; it can become pressure, fear, memory, and space.",
         "contextMeaning": "Here, \"memory\" means a thought from the past that you remember",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -126370,6 +127402,7 @@
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -126390,6 +127423,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "Explain the article aloud for one minute.",
+        "contextMeaning": "Here, \"minute\" means a unit of time equal to sixty seconds",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A new piece may not reveal its structure in one minute.",
         "contextMeaning": "Here, \"minute\" means a unit of time equal to sixty seconds",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -126817,6 +127857,29 @@
         "sentence": "Radio is reliable and forgiving, but modern missions can produce far more data than older systems were designed to send.",
         "contextMeaning": "Here, \"missions\" means space trips that send data back to Earth",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "missy mazzoli": {
+    "word": "missy mazzoli",
+    "definition": "An American contemporary classical composer",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Missy Mazzoli shows another kind of stage power.",
+        "contextMeaning": "Here, \"missy mazzoli\" means the lesson uses Mazzoli as evidence for opera and stage power",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -127381,7 +128444,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-      "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work"
+      "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -127452,6 +128516,13 @@
         "sentence": "Introduction For several years, most public AI news sounded like a contest: which model could write better, solve harder problems, or answer faster?",
         "contextMeaning": "Here, \"model\" means a computer system trained to do AI tasks",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Anna Thorvaldsdottir offers a different model.",
+        "contextMeaning": "Here, \"model\" means the AI service chosen for a specific task",
+        "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
       }
     ]
@@ -127567,7 +128638,8 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -127671,6 +128743,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "What should modern apps or YouTube channels learn from Sesame Street?",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her music is modern, but it is not cold.",
         "contextMeaning": "Here, \"modern\" means new and current in style or method",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -127922,6 +129001,7 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -128054,6 +129134,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "Best Moment Ask for one clear memory.",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "That can be a stronger legacy signal than one viral moment.",
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -130647,7 +131734,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work"
+      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -130781,6 +131869,13 @@
         "sentence": "This order can feel busy because many people are moving at the same time.",
         "contextMeaning": "Here, \"moving\" means people are walking or going around",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A living composer is still moving.",
+        "contextMeaning": "Here, \"moving\" means a living composer's career is not fixed yet",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -131162,6 +132257,29 @@
         "sentence": "The key idea is \"place your effort where it can multiply.\"",
         "contextMeaning": "Here, \"multiply\" means make one effort create more results",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "murmurs": {
+    "word": "murmurs",
+    "definition": "Low, soft sounds made by voices",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The Pulitzer description points to the unusual vocal world of the piece: speech, whispers, sighs, murmurs, melodies, and vocal effects.",
+        "contextMeaning": "Here, \"murmurs\" means murmurs are part of the unusual vocal sound world in Shaw's piece",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -139567,6 +140685,29 @@
       }
     ]
   },
+  "operatic": {
+    "word": "operatic",
+    "definition": "Related to opera",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She writes orchestral, chamber, and operatic music, and her biography points to major commissions, residencies, and opera work.",
+        "contextMeaning": "Here, \"operatic\" means mazzoli writes music for opera as part of her career",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "operating": {
     "word": "operating",
     "definition": "Doing the work to keep a business going",
@@ -140201,7 +141342,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -140224,6 +141366,13 @@
         "contextMeaning": "Here, \"orchestra\" means a big group of people playing music together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A short beautiful piece can matter, but opera, ballet, concerto, and large orchestra works test a composer in a different way.",
+        "contextMeaning": "Here, \"orchestra\" means large orchestra works test how a composer writes for many sounds",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
       }
     ]
   },
@@ -140238,7 +141387,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -140246,6 +141396,36 @@
         "sentence": "The important point is that Stravinsky had changed what orchestral music could do.",
         "contextMeaning": "Here, \"orchestral\" means music played by a big group of players",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Chin may impress listeners through sharp imagination and orchestral detail.",
+        "contextMeaning": "Here, \"orchestral\" means the detail is in how Chin writes for many instruments together",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "orchestras": {
+    "word": "orchestras",
+    "definition": "Large groups of musicians with many instruments",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A composer may not be a household name, but their work may be played by major orchestras, studied by young composers, recorded by serious labels, and discussed by critics.",
+        "contextMeaning": "Here, \"orchestras\" means major orchestras playing a composer's music can be evidence of serious attention",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -141935,6 +143115,29 @@
         "sentence": "A poor orientation can create glare on desks, overheating near windows, and dark areas that need extra electric light.",
         "contextMeaning": "Here, \"overheating\" means becoming too hot near the windows",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "overlap": {
+    "word": "overlap",
+    "definition": "Share part of the same area or idea",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The two can overlap, but they are not identical.",
+        "contextMeaning": "Here, \"overlap\" means popularity and legacy can be connected, but they are not the same",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -146474,6 +147677,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -146571,6 +147775,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "A good system does not make you perfect.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "DISCUSSION 4: Would you rather judge a composer by one perfect short piece or by a difficult long work?",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -146708,6 +147919,29 @@
         "sentence": "They can remove waste, handle water balance, and perform kidney-like tasks.",
         "contextMeaning": "Here, \"perform\" means they do jobs like kidneys do in the body",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "performable": {
+    "word": "performable",
+    "definition": "Possible for musicians to perform",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "But if curiosity keeps producing recognizable, teachable, performable work, it can become part of the identity itself.",
+        "contextMeaning": "Here, \"performable\" means a work can last longer if performers can actually bring it to audiences",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -148010,7 +149244,8 @@
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -148051,6 +149286,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "At first, you may learn simple words and phrases.",
+        "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "These phrases help you speak clearly without pretending to know the future.",
         "contextMeaning": "Here, \"phrases\" means short groups of words that have a meaning",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -148232,7 +149474,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -148240,6 +149483,13 @@
         "sentence": "He was a Russian composer, conductor, and pianist, and he later became a citizen of France and the United States.",
         "contextMeaning": "Here, \"pianist\" means a person who plays music on the piano",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "He is also a conductor and pianist, so his career connects writing, performing, and leading.",
+        "contextMeaning": "Here, \"pianist\" means ades's piano work is part of his broader musical career",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -149969,6 +151219,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -150033,6 +151284,13 @@
         "sentence": "The playful public detail was useful because video makes bandwidth easy to understand.",
         "contextMeaning": "Here, \"playful\" means a fun way to explain video to help people understand bandwidth",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "It can be brilliant, playful, precise, and strange in a controlled way.",
+        "contextMeaning": "Here, \"playful\" means chin's music can feel clever and energetic, not cold",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       },
       {
@@ -150844,7 +152102,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-26-the-history-of-gelato",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -150894,6 +152153,13 @@
         "sentence": "The sock system has many transfer points: foot to floor, floor to basket, basket to washer, washer to drying area, drying area to folding place, folding place to drawer.",
         "contextMeaning": "Here, \"points\" means transfer points are steps where socks move",
         "source": "codex_manual_lesson_context",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She writes orchestral, chamber, and operatic music, and her biography points to major commissions, residencies, and opera work.",
+        "contextMeaning": "Here, \"points\" means directs attention to something",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -151327,12 +152593,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Over time, some political and hateful groups used Pepe in negative ways.",
+        "contextMeaning": "Here, \"political\" means about government or public decisions",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Institutions can be slow, biased, and political.",
         "contextMeaning": "Here, \"political\" means about government or public decisions",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -151586,7 +152860,8 @@
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
       "episode-2026-06-29-school-festival-conversation-a2",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -151676,6 +152951,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Elmo: Speaking From a Small Child’s View Elmo became especially popular with very young children.",
+        "contextMeaning": "Here, \"popular\" means liked by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Many living composers work across ensembles, recordings, installations, popular music, film, dance, and performance.",
         "contextMeaning": "Here, \"popular\" means liked by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -153647,13 +154929,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Britannica describes the premiere as one of the most scandalous in history, with arguing in the audience so loud that dancers had trouble hearing the orchestra.",
         "contextMeaning": "Here, \"premiere\" means the first public performance of a work",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A premiere is when a new work enters public life.",
+        "contextMeaning": "Here, \"premiere\" means when a new piece enters public musical life",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -157971,6 +159261,29 @@
       }
     ]
   },
+  "pulitzer prize": {
+    "word": "pulitzer prize",
+    "definition": "A major American award for arts and journalism",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her Partita for 8 Voices won the 2013 Pulitzer Prize in Music.",
+        "contextMeaning": "Here, \"pulitzer prize\" means the prize recognized Shaw's Partita for 8 Voices in 2013",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "pull": {
     "word": "pull",
     "definition": "Use hands to take something away",
@@ -159407,7 +160720,8 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -159609,6 +160923,13 @@
       {
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Step 4: Questions for Understanding and Help Understanding questions help you continue when English is fast, quiet, or new.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Instead of quick melody first, she often builds long textures, deep quiet, pressure, and release.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -162384,6 +163705,29 @@
       }
     ]
   },
+  "recent grammy": {
+    "word": "recent grammy",
+    "definition": "A major music award record from recent years",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Recent Grammy records show wins for Revolucion Diamantina, Dzonot, and Yanga.",
+        "contextMeaning": "Here, \"recent grammy\" means recent Grammy wins show Ortiz has strong current recognition",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "recently": {
     "word": "recently",
     "definition": "A short time ago, not long before now",
@@ -162582,7 +163926,8 @@
     "episodes": [
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -162604,6 +163949,13 @@
         "sentence": "8: Is it better for an artist to keep one recognizable style or to keep changing?",
         "contextMeaning": "Here, \"recognizable\" means a style that people can easily know is yours",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "But if curiosity keeps producing recognizable, teachable, performable work, it can become part of the identity itself.",
+        "contextMeaning": "Here, \"recognizable\" means easy to identify again",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -163076,6 +164428,52 @@
         "sentence": "Google Search received one of the most consequential changes: AI Mode is moving onto Gemini 3.5 Flash, and the search box itself is being redesigned for longer, more multimodal requests.",
         "contextMeaning": "Here, \"redesigned\" means the search box is changed to handle longer, different types of questions",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rediscovered": {
+    "word": "rediscovered",
+    "definition": "Found and valued again later",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Some are rediscovered decades later.",
+        "contextMeaning": "Here, \"rediscovered\" means some composers become important again many years after less attention",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "rediscovery": {
+    "word": "rediscovery",
+    "definition": "Finding and valuing something again later",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "7: Because reputation is shaped by many forces, including institutions, recordings, politics, access, and later rediscovery.",
+        "contextMeaning": "Here, \"rediscovery\" means reputation can change when later people return to neglected music",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -166401,6 +167799,29 @@
       }
     ]
   },
+  "repertoire": {
+    "word": "repertoire",
+    "definition": "Works regularly performed or studied",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Repertoire is music that becomes part of concert life.",
+        "contextMeaning": "Here, \"repertoire\" means music that becomes part of concert life",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "repetition": {
     "word": "repetition",
     "definition": "Doing or saying something again and again",
@@ -167394,6 +168815,29 @@
         "sentence": "It can help you reset.",
         "contextMeaning": "Here, \"reset\" means to make yourself feel fresh and calm again",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "residencies": {
+    "word": "residencies",
+    "definition": "Official periods working with an institution",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She writes orchestral, chamber, and operatic music, and her biography points to major commissions, residencies, and opera work.",
+        "contextMeaning": "Here, \"residencies\" means official periods working with an institution",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -169466,6 +170910,29 @@
       }
     ]
   },
+  "revolucion diamantina": {
+    "word": "revolucion diamantina",
+    "definition": "A music work by Gabriela Ortiz",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Recent Grammy records show wins for Revolucion Diamantina, Dzonot, and Yanga.",
+        "contextMeaning": "Here, \"revolucion diamantina\" means this title is named as part of Ortiz's recent Grammy recognition",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "revolution": {
     "word": "revolution",
     "definition": "Big change in a country or world",
@@ -170774,7 +172241,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -170845,6 +172313,13 @@
         "sentence": "The risky step is.",
         "contextMeaning": "Here, \"risky\" means a risky step is where the sock may be lost",
         "source": "codex_manual_lesson_context",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Curiosity can be risky.",
+        "contextMeaning": "Here, \"risky\" means changing direction can make a composer's identity less clear",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -183731,6 +185206,29 @@
       }
     ]
   },
+  "sighs": {
+    "word": "sighs",
+    "definition": "Long breaths that show feeling",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The Pulitzer description points to the unusual vocal world of the piece: speech, whispers, sighs, murmurs, melodies, and vocal effects.",
+        "contextMeaning": "Here, \"sighs\" means sighs are one vocal sound used in Shaw's piece",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sign": {
     "word": "sign",
     "definition": "A board or mark that shows information",
@@ -186397,7 +187895,8 @@
       "episode-2026-06-22-table-tennis-game-and-great-players",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -186511,6 +188010,13 @@
         "contextMeaning": "Here, \"slow\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Institutions can be slow, biased, and political.",
+        "contextMeaning": "Here, \"slow\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -186615,7 +188121,8 @@
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -186707,6 +188214,13 @@
         "sentence": "Speak slowly, please.",
         "contextMeaning": "Here, \"slowly\" means speak slowly, please",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her music often feels like a large landscape slowly changing.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -190225,6 +191739,29 @@
       }
     ]
   },
+  "sound world": {
+    "word": "sound world",
+    "definition": "A composer's special musical atmosphere",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "One strong sign of legacy is a sound world.",
+        "contextMeaning": "Here, \"sound world\" means a sound world includes texture, color, movement, rhythm, and space",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sounded": {
     "word": "sounded",
     "definition": "Was heard or seemed to be like something",
@@ -191095,7 +192632,8 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -191136,6 +192674,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "A person can show how adults speak kindly, help solve problems, and include others.",
+        "contextMeaning": "Here, \"speak\" means to say words out loud",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "These phrases help you speak clearly without pretending to know the future.",
         "contextMeaning": "Here, \"speak\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -198469,6 +200014,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -198629,6 +200175,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Muppets and Real People Together One strong feature of Sesame Street is the mix of Muppets and human characters.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "What makes music last: a beautiful sound, a strong idea, famous performers, awards, recordings, or repeated performances?",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -201398,7 +202951,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life"
+      "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -201448,6 +203002,13 @@
         "sentence": "The finding supports the idea that useful chemistry may be widespread in the solar system.",
         "contextMeaning": "Here, \"supports\" means helps the idea that useful chemistry is common in the solar system",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Which composer in the lesson seems most interesting to you, and what evidence supports your choice?",
+        "contextMeaning": "Here, \"supports\" means the question asks what evidence makes your choice stronger",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -204704,7 +206265,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -204761,6 +206323,13 @@
         "sentence": "Food and Taste Food likes are about taste and choice.",
         "contextMeaning": "Here, \"taste\" means sweet, spicy, simple, or new",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -205070,7 +206639,8 @@
       "episode-2026-06-22-table-tennis-game-and-great-players",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -205134,6 +206704,36 @@
         "sentence": "Can a TV show teach children serious life skills, or only simple facts?",
         "contextMeaning": "Here, \"teach\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Both teach us that a composer can become important by giving listeners a new way to hear.",
+        "contextMeaning": "Here, \"teach\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "teachable": {
+    "word": "teachable",
+    "definition": "Possible to explain or learn",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "But if curiosity keeps producing recognizable, teachable, performable work, it can become part of the identity itself.",
+        "contextMeaning": "Here, \"teachable\" means teachable work can enter lessons, rehearsals, and future musical thinking",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -207155,7 +208755,8 @@
       "episode-2026-05-04-food-that-surprises-people-around-the-world-create-4",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -207182,6 +208783,13 @@
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Both ideas can share one story: Japanese craftsmanship, clay, fire, texture, and design.",
+        "contextMeaning": "Here, \"texture\" means how something feels in your mouth or hand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Notice texture, instruments, rhythm, space, silence, and energy.",
         "contextMeaning": "Here, \"texture\" means how something feels in your mouth or hand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -207643,6 +209251,29 @@
       }
     ]
   },
+  "the exterminating angel": {
+    "word": "the exterminating angel",
+    "definition": "An opera by Thomas Ades",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "His operas include The Tempest and The Exterminating Angel, and these works have reached major houses such as the Metropolitan Opera, the Royal Opera House, La Scala, and the Paris Opera.",
+        "contextMeaning": "Here, \"the exterminating angel\" means this title names one of Ades's major operas",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "the firebird": {
     "word": "the firebird",
     "definition": "A famous ballet by Stravinsky",
@@ -207662,6 +209293,29 @@
         "sentence": "The first big success was The Firebird in 1910.",
         "contextMeaning": "Here, \"the firebird\" means a famous ballet by Stravinsky",
         "source": "manual_popup_name_polish_v1",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "the grammy": {
+    "word": "the grammy",
+    "definition": "A major music award",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The Chicago Symphony Orchestra identifies her as a former Mead Composer-in-Residence, and her Rounds won the 2024 Grammy for Best Contemporary Classical Composition.",
+        "contextMeaning": "Here, \"the grammy\" means a major music award",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -207735,6 +209389,52 @@
       }
     ]
   },
+  "the pulitzer": {
+    "word": "the pulitzer",
+    "definition": "A major American arts award",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The Pulitzer description points to the unusual vocal world of the piece: speech, whispers, sighs, murmurs, melodies, and vocal effects.",
+        "contextMeaning": "Here, \"the pulitzer\" means the Pulitzer description explains why Shaw's vocal piece was unusual",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "the pulitzer prize": {
+    "word": "the pulitzer prize",
+    "definition": "A major American award for arts and journalism",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her Partita for 8 Voices won the 2013 Pulitzer Prize in Music.",
+        "contextMeaning": "Here, \"the pulitzer prize\" means this award is evidence of strong recognition for Shaw's work",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "the rite of spring": {
     "word": "the rite of spring",
     "definition": "A famous ballet by Stravinsky",
@@ -207777,6 +209477,29 @@
         "sentence": "World War I and the Russian Revolution changed his world.",
         "contextMeaning": "Here, \"the russian revolution\" means a major political change in Russia",
         "source": "manual_popup_name_polish_v1",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "the tempest": {
+    "word": "the tempest",
+    "definition": "An opera by Thomas Ades",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "His operas include The Tempest and The Exterminating Angel, and these works have reached major houses such as the Metropolitan Opera, the Royal Opera House, La Scala, and the Paris Opera.",
+        "contextMeaning": "Here, \"the tempest\" means this title names one of Ades's major operas",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -209305,6 +211028,29 @@
         "sentence": "Thomas School.",
         "contextMeaning": "Here, \"thomas\" means the name of the school where he taught music",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "thomas ades": {
+    "word": "thomas ades",
+    "definition": "A British composer, conductor, and pianist",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Thomas Ades has strong evidence here.",
+        "contextMeaning": "Here, \"thomas ades\" means the lesson uses Ades as evidence for large forms and major stages",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -220217,6 +221963,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -220636,6 +222383,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "This combination is useful for children.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A useful test is this: Can people explain what the composer changed?",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -222241,6 +223995,29 @@
       }
     ]
   },
+  "vernacular": {
+    "word": "vernacular",
+    "definition": "Everyday language or local cultural style",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her work mixes classical writing with vernacular music, improvisation, poetry, and social consciousness.",
+        "contextMeaning": "Here, \"vernacular\" means montgomery uses musical styles connected to lived culture, not only formal tradition",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "version": {
     "word": "version",
     "definition": "A form of something",
@@ -222851,6 +224628,29 @@
         "sentence": "Some heroes are proud, violent, selfish, or reckless.",
         "contextMeaning": "Here, \"violent\" means some heroes hurt others with fighting or anger",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "violinist": {
+    "word": "violinist",
+    "definition": "A musician who plays the violin",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She is a composer, violinist, vocalist, and collaborator.",
+        "contextMeaning": "Here, \"violinist\" means shaw is both a composer and a performer",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -223570,6 +225370,29 @@
       }
     ]
   },
+  "vocalist": {
+    "word": "vocalist",
+    "definition": "A singer or voice performer",
+    "cefrLevel": "B2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She is a composer, violinist, vocalist, and collaborator.",
+        "contextMeaning": "Here, \"vocalist\" means voice performance is one part of Shaw's musical identity",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "voice": {
     "word": "voice",
     "definition": "The sound a person makes when speaking",
@@ -223585,7 +225408,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -223619,6 +225443,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "His voice, energy, and messy eating make him easy to remember.",
+        "contextMeaning": "Here, \"voice\" means the sound a person makes when speaking",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
         "contextMeaning": "Here, \"voice\" means the sound a person makes when speaking",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -223661,7 +225492,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -223681,6 +225513,13 @@
       {
         "episodeId": "episode-2026-06-25-how-the-brain-builds-reality",
         "sentence": "The brain does not only build a model of tables, rooms, voices, and faces.",
+        "contextMeaning": "Here, \"voices\" means the sound a person makes when speaking",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Her Partita for 8 Voices won the 2013 Pulitzer Prize in Music.",
         "contextMeaning": "Here, \"voices\" means the sound a person makes when speaking",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -225247,6 +227086,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -225715,6 +227555,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Sesame Street: A Street That Changed Children’s TV Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Living Composers Who May Shape the Future Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -226847,7 +228694,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -226891,6 +228739,13 @@
         "contextMeaning": "Here, \"ways\" means different methods",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Some may influence people in ways we cannot see yet.",
+        "contextMeaning": "Here, \"ways\" means a composer's influence may appear in different forms later",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
       }
     ]
   },
@@ -226913,6 +228768,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -226968,6 +228824,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "If the support point is in the wrong place, the lever is weak.",
+        "contextMeaning": "Here, \"weak\" means not strong",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "Some composers disappear from attention because their work is weak.",
         "contextMeaning": "Here, \"weak\" means not strong",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -228794,7 +230657,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -228802,6 +230666,13 @@
         "sentence": "It whispers, \"Wait.",
         "contextMeaning": "Here, \"whispers\" means the sock “whispers” means it seems to ask you to wait",
         "source": "codex_manual_lesson_context",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "The Pulitzer description points to the unusual vocal world of the piece: speech, whispers, sighs, murmurs, melodies, and vocal effects.",
+        "contextMeaning": "Here, \"whispers\" means whispers are one vocal texture in Shaw's Partita",
+        "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
         "confidence": "trusted"
       }
     ]
@@ -231515,6 +233386,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -231654,6 +233526,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Big Bird often works like a child inside the story.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -232492,7 +234371,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-30-living-composers-who-may-shape-the-future"
     ],
     "contexts": [
       {
@@ -232526,6 +234406,13 @@
       {
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "A question agent writes comprehension questions.",
+        "contextMeaning": "Here, \"writes\" means to make words with a pen, keyboard, or screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
+        "sentence": "She writes orchestral, chamber, and operatic music, and her biography points to major commissions, residencies, and opera work.",
         "contextMeaning": "Here, \"writes\" means to make words with a pen, keyboard, or screen",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
