@@ -2826,7 +2826,8 @@
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-22-which-country-fits-your-personality",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -2890,6 +2891,13 @@
         "sentence": "It helps the student give advice.",
         "contextMeaning": "Here, \"advice\" means a helpful idea for next year's students",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Feedback is advice about what you did well and what you can improve next.",
+        "contextMeaning": "Here, \"advice\" means feedback is help about what you did good and can fix",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -3266,6 +3274,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -3720,6 +3729,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "| What happened after that?",
+        "contextMeaning": "Here, \"after\" means later than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Ten minutes of review after class is useful.",
         "contextMeaning": "Here, \"after\" means later than something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -13073,7 +13089,8 @@
       "episode-2026-05-21-a2-apartment-repair-call",
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work"
+      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -13093,6 +13110,13 @@
       {
         "episodeId": "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
         "sentence": "Seat question: Mina: Is an aisle seat available?",
+        "contextMeaning": "Here, \"available\" means ready to use or get",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "When are you usually available for lessons?",
         "contextMeaning": "Here, \"available\" means ready to use or get",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -17446,6 +17470,7 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -17970,6 +17995,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "This helps the student answer before we ask small details.",
+        "contextMeaning": "Here, \"before\" means earlier than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Some learners feel calm before a trial lesson.",
         "contextMeaning": "Here, \"before\" means earlier than something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24575,7 +24607,8 @@
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -24630,6 +24663,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The Object Helps Build a Vacation Identity People do not only buy things for use.",
+        "contextMeaning": "Here, \"build\" means to make something by putting parts together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Teacher: We can build a small speaking habit.",
         "contextMeaning": "Here, \"build\" means to make something by putting parts together",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -25285,7 +25325,8 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -25391,6 +25432,13 @@
         "sentence": "Was it fun, busy, or tiring?",
         "contextMeaning": "Here, \"busy\" means many things were happening at the festival",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "If you are busy, do not promise two hours every day.",
+        "contextMeaning": "Here, \"busy\" means it describes a learner with limited free time",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -26437,7 +26485,8 @@
       "episode-2026-06-22-table-tennis-game-and-great-players",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -26591,6 +26640,13 @@
         "episodeId": "episode-2026-06-25-how-the-brain-builds-reality",
         "sentence": "QUESTION 10: What is the calm everyday practice from this lesson?",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Some learners feel calm before a trial lesson.",
+        "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
@@ -31369,7 +31425,8 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -31643,6 +31700,13 @@
         "sentence": "It changes the decision from \"Do I need this?\"",
         "contextMeaning": "Here, \"changes\" means moves the buyer from one question to another",
         "source": "producer_reviewed_popup_patch_v1",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "If your schedule changes often, tell the teacher that too.",
+        "contextMeaning": "Here, \"changes\" means if your plan is different often, tell your teacher",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -34126,7 +34190,8 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -34349,6 +34414,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The friend says, \"Then choose gifts connected to their real interests.\"",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Choose a plan you can really do.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -36355,7 +36427,8 @@
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-22-south-korea-fast-cities-and-local-places",
       "episode-2026-06-23-talking-about-what-people-like-a1",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -36448,6 +36521,13 @@
         "contextMeaning": "Here, \"clearer\" means easier to understand",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "A clearer goal is, \"I want to speak more comfortably when I travel.\"",
+        "contextMeaning": "Here, \"clearer\" means easier to understand",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -36505,6 +36585,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -36588,6 +36669,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "These phrases help you speak clearly without pretending to know the future.",
+        "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "The important thing is to name the problem clearly.",
         "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -39826,7 +39914,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-10-getting-to-know-someone-b1",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -39891,6 +39980,13 @@
         "contextMeaning": "Here, \"comfortable\" means a pattern that makes the listener feel relaxed and easy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Are you comfortable with greetings?",
+        "contextMeaning": "Here, \"comfortable\" means it asks if basic greetings feel easy enough for the learner",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
+        "confidence": "trusted"
       }
     ]
   },
@@ -39905,7 +40001,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-weekly-catch-up-conversation-a2"
+      "episode-2026-05-21-weekly-catch-up-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -39913,6 +40010,13 @@
         "sentence": "The goal is to speak more comfortably, build longer answers, and connect ideas naturally.",
         "contextMeaning": "Here, \"comfortably\" means speak without feeling nervous or hard",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "I want to speak more comfortably when I travel.",
+        "contextMeaning": "Here, \"comfortably\" means speaking without too much stress",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -43588,7 +43692,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -43666,6 +43771,13 @@
         "sentence": "This is why missing socks feel confusing.",
         "contextMeaning": "Here, \"confusing\" means missing socks feel confusing because the memory feels complete",
         "source": "codex_manual_lesson_context",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "If grammar is confusing, say it.",
+        "contextMeaning": "Here, \"confusing\" means it describes grammar that feels unclear to the learner",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -45952,7 +46064,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -46170,6 +46283,13 @@
         "sentence": "This gives more action to the conversation.",
         "contextMeaning": "Here, \"conversation\" means the student and teacher talking together",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You may want English for travel, work, school, a test, a hobby, or daily conversation.",
+        "contextMeaning": "Here, \"conversation\" means everyday English speaking practice",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -47041,7 +47161,8 @@
     "episodes": [
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold"
+      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -47063,6 +47184,13 @@
         "sentence": "Explain why quantum computers need error correction and why below-threshold operation is a milestone, not a finished machine.",
         "contextMeaning": "Here, \"correction\" means fixing the mistakes that the special computer makes",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You can also tell the teacher what kind of correction you like.",
+        "contextMeaning": "Here, \"correction\" means the teacher's help after the learner speaks",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -50840,7 +50968,8 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -50986,6 +51115,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "ANSWER 7: A system uses cues, small steps, and lower friction, so the action does not depend only on daily feelings.",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You may want English for travel, work, school, a test, a hobby, or daily conversation.",
         "contextMeaning": "Here, \"daily\" means happening every day",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -52334,7 +52470,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-22-table-tennis-game-and-great-players"
+      "episode-2026-06-22-table-tennis-game-and-great-players",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -52396,6 +52533,13 @@
       {
         "episodeId": "episode-2026-06-22-table-tennis-game-and-great-players",
         "sentence": "They train small details that decide a point.",
+        "contextMeaning": "Here, \"decide\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "This helps you decide if the class feels right for you.",
         "contextMeaning": "Here, \"decide\" means to make a choice",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -54817,7 +54961,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -54895,6 +55040,13 @@
         "sentence": "This helps the student describe the feeling of the place.",
         "contextMeaning": "Here, \"describe\" means say what the festival place felt like",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You can describe your level with simple words.",
+        "contextMeaning": "Here, \"describe\" means telling the teacher about your English ability",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -55085,7 +55237,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-report-a-lost-item",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -55099,6 +55252,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": ": Why is \"energy company\" a better description than only \"gas company\"?",
         "contextMeaning": "Here, \"description\" means better words to explain what kind of company it is",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "A simple level description has two parts: what is okay now and what is hard now.",
+        "contextMeaning": "Here, \"description\" means a simple level description says what is easy and hard now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -55884,6 +56044,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -56023,6 +56184,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Chin may impress listeners through sharp imagination and orchestral detail.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Then change one detail: the goal, the schedule, the worry, or the homework plan.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -56532,7 +56700,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-international-transport-get-to-the-right-place"
+      "episode-2026-05-27-international-transport-get-to-the-right-place",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -56540,6 +56709,13 @@
         "sentence": "Which dialogue is most useful for you: airport, train, or bus?",
         "contextMeaning": "Here, \"dialogue\" means a short talk for practice about airport, train, or bus",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Practice this dialogue.",
+        "contextMeaning": "Here, \"dialogue\" means a short practice conversation between people",
+        "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -62389,7 +62565,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work"
+      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -62535,6 +62712,13 @@
       {
         "episodeId": "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
         "sentence": "During security, listen and follow short instructions.",
+        "contextMeaning": "Here, \"during\" means at some time in a period",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "When can you study during the week?",
         "contextMeaning": "Here, \"during\" means at some time in a period",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -63719,7 +63903,8 @@
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -63914,6 +64099,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Useless Does Not Always Mean Meaningless It is easy to laugh at tourist souvenirs, but \"useless\" is not always the same as \"meaningless.\"",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "What is easy for you in English?",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -69474,7 +69666,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2"
+      "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -69482,6 +69675,13 @@
         "sentence": "Do you want evenings free, or are you willing to trade time for a chance at larger upside?",
         "contextMeaning": "Here, \"evenings\" means night time after work or school, before sleeping",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Weekday evenings may work for some learners.",
+        "contextMeaning": "Here, \"evenings\" means the later part of the day before night",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -75879,7 +76079,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -75894,6 +76095,13 @@
         "sentence": "For example, if you enter your home at night, you expect the furniture to be in familiar places.",
         "contextMeaning": "Here, \"familiar\" means known well because you have seen it before",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Grammar may feel familiar, but listening may still feel difficult.",
+        "contextMeaning": "Here, \"familiar\" means grammar feels like you know it, but listening is still hard",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -80146,7 +80354,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-17-renting-a-bike-for-a-short-trip"
+      "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -80230,6 +80439,13 @@
         "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
         "sentence": "It is important to lock the bike and finish the payment.",
         "contextMeaning": "Here, \"finish\" means to complete paying and locking the bike after use",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Some learners want to finish speaking first.",
+        "contextMeaning": "Here, \"finish\" means some learners want to say all their words first",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -80589,6 +80805,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -80978,6 +81195,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "My First Trial Lesson Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"first\" means number one in order",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "First, understand the place.",
         "contextMeaning": "Here, \"first\" means number one in order",
@@ -81108,7 +81332,8 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -81137,6 +81362,13 @@
         "sentence": "Caroline Shaw is useful because she does not fit only one box.",
         "contextMeaning": "Here, \"fit\" means shaw does not belong in only one musical category",
         "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "A strong plan must fit your real life.",
+        "contextMeaning": "Here, \"fit\" means the study plan must work with real life",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -90096,7 +90328,8 @@
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work"
+      "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -90116,6 +90349,13 @@
       {
         "episodeId": "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
         "sentence": "A student may understand grammar on paper but freeze in conversation.",
+        "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Grammar may feel familiar, but listening may still feel difficult.",
         "contextMeaning": "Here, \"grammar\" means rules for making correct sentences",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -90769,7 +91009,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-06-daily-life-family-and-practical-english-review"
+      "episode-2026-05-06-daily-life-family-and-practical-english-review",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -90777,6 +91018,13 @@
         "sentence": "At the beginning, you learn greetings and short questions.",
         "contextMeaning": "Here, \"greetings\" means words used to say hello when you meet someone",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Are you comfortable with greetings?",
+        "contextMeaning": "Here, \"greetings\" means simple first words like hello or nice to meet you",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -91952,7 +92200,8 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -92038,6 +92287,13 @@
         "contextMeaning": "Here, \"habit\" means a usual action you do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "A small habit can help a lot.",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -92058,7 +92314,8 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -92106,6 +92363,13 @@
       {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "Habits and Friction: Make the Right Action Easier Motivation changes from day to day.",
+        "contextMeaning": "Here, \"habits\" means usual things people do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Share Your Schedule and Study Habits Your schedule matters.",
         "contextMeaning": "Here, \"habits\" means usual things people do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -96328,7 +96592,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -96371,6 +96636,13 @@
         "sentence": "7: Each item feels harmless alone, but many small purchases can add up and hide the total cost.",
         "contextMeaning": "Here, \"hide\" means to make the total cost less obvious",
         "source": "producer_reviewed_popup_patch_v1",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Do not hide your weak points.",
+        "contextMeaning": "Here, \"hide\" means not telling the teacher what is difficult",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -97311,7 +97583,8 @@
       "episode-2026-06-09-casual-conversation-branches-a2",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -97347,6 +97620,13 @@
         "sentence": "A hobby can show what kind of rest a person wants.",
         "contextMeaning": "Here, \"hobby\" means reading, walking, cooking, or music",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You may want English for travel, work, school, a test, a hobby, or daily conversation.",
+        "contextMeaning": "Here, \"hobby\" means it gives one possible reason for studying English",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -97774,7 +98054,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -97782,6 +98063,13 @@
         "sentence": "The boyfriend might be \"me,\" the girlfriend might be \"my homework,\" and the person he is looking at might be \"YouTube.\" The picture becomes a simple story about temptation.",
         "contextMeaning": "Here, \"homework\" means the school work that the boyfriend in the meme should do",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You can ask, \"Will I get homework?\"",
+        "contextMeaning": "Here, \"homework\" means extra English practice the teacher may give after lessons",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -97830,7 +98118,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -97906,6 +98195,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "The Limits: History Is Not Fair or Finished Now comes the honest part.",
+        "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You only need honest answers and a little practice.",
         "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -101777,7 +102073,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -101833,6 +102130,13 @@
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "What did you improve yourself?\"",
         "contextMeaning": "Here, \"improve\" means what did you make better by yourself",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Feedback is advice about what you did well and what you can improve next.",
+        "contextMeaning": "Here, \"improve\" means feedback shows what you can get better at next",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -112309,6 +112613,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -112439,6 +112744,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You also learn about the teacher and the class style.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "Then learn a few food, sightseeing, and shopping choices.",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
@@ -112548,7 +112860,8 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -112640,6 +112953,13 @@
         "sentence": "This makes the topic useful because it teaches careful judgment.",
         "contextMeaning": "Here, \"learners\" means english learners can practice careful language through this music topic",
         "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Some learners feel calm before a trial lesson.",
+        "contextMeaning": "Here, \"learners\" means people taking English classes",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -112817,7 +113137,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -112844,6 +113165,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "He asks simple questions, shows simple emotions, and learns together with the viewer.",
+        "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "The teacher meets you, listens to your English, and learns what you need.",
         "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -113480,7 +113808,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -113571,6 +113900,13 @@
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Its creators wanted to use television to help children prepare for school, especially children who had less access to early education.",
         "contextMeaning": "Here, \"less\" means children who did not have much early education",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Then your first trial lesson can feel less scary and more useful.",
+        "contextMeaning": "Here, \"less\" means not as much scary in your first trial lesson",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -113852,7 +114188,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -113860,6 +114197,13 @@
         "sentence": "At A2 level, you do not need to explain the whole phone system.",
         "contextMeaning": "Here, \"level\" means a stage, amount, or height",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Many learners worry about their level.",
+        "contextMeaning": "Here, \"level\" means how easy or difficult English feels for the learner",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -118546,7 +118890,8 @@
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-23-talking-about-what-people-like-a1",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -118594,6 +118939,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "The teacher can choose six to ten questions and model short answers out loud.",
+        "contextMeaning": "Here, \"loud\" means making a lot of noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Speaking one answer out loud is useful.",
         "contextMeaning": "Here, \"loud\" means making a lot of noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -125401,7 +125753,8 @@
       "episode-2026-05-31-ai-assistants-at-work-help-risk-and-judgment",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -125449,6 +125802,13 @@
       {
         "episodeId": "episode-2026-06-25-how-the-brain-builds-reality",
         "sentence": "It means experience is a meeting between the outside world and the brain's model.",
+        "contextMeaning": "Here, \"meeting\" means a planned time when people talk together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "It is a first meeting.",
         "contextMeaning": "Here, \"meeting\" means a planned time when people talk together",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -128293,7 +128653,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -128378,6 +128739,13 @@
         "sentence": "These agents could give practice at the right level and explain mistakes in simple language.",
         "contextMeaning": "Here, \"mistakes\" means wrong things in work that the agents help with",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "They think, \"My English is too low,\" or \"I will make mistakes.\"",
+        "contextMeaning": "Here, \"mistakes\" means normal errors learners make while speaking English",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -135061,7 +135429,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -135145,6 +135514,13 @@
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "I was nervous before my job started.",
         "contextMeaning": "Here, \"nervous\" means i was nervous before my job started",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Some learners feel nervous.",
+        "contextMeaning": "Here, \"nervous\" means it describes how some learners feel before a first class",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -135800,6 +136176,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -135876,6 +136253,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "Time And Schedule Ask about time next.",
+        "contextMeaning": "Here, \"next\" means coming after this one",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Feedback is advice about what you did well and what you can improve next.",
         "contextMeaning": "Here, \"next\" means coming after this one",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -148064,7 +148448,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -148175,6 +148560,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The beach hat that felt perfect in a beach town may feel strange in an office apartment.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You do not need perfect English.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -152489,7 +152881,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -152546,6 +152939,13 @@
         "sentence": "She writes orchestral, chamber, and operatic music, and her biography points to major commissions, residencies, and opera work.",
         "contextMeaning": "Here, \"points\" means directs attention to something",
         "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Do not hide your weak points.",
+        "contextMeaning": "Here, \"points\" means the learner's difficult parts in English",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -152626,7 +153026,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -152767,6 +153168,13 @@
         "sentence": "Use a polite first word when you need attention.",
         "contextMeaning": "Here, \"polite\" means kind and respectful",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You will also ask for help in a polite way.",
+        "contextMeaning": "Here, \"polite\" means it describes a good way to ask a teacher for help",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -155467,7 +155875,8 @@
       "episode-2026-06-23-family-food-travel-catch-up-conversation",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-school-festival-conversation-a2",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -155566,6 +155975,13 @@
         "sentence": "Its creators wanted to use television to help children prepare for school, especially children who had less access to early education.",
         "contextMeaning": "Here, \"prepare\" means help children get ready to go to school",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "In this lesson, you will prepare simple answers for a trial lesson.",
+        "contextMeaning": "Here, \"prepare\" means practicing answers before the first class",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -158334,7 +158750,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants"
+      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -158362,6 +158779,13 @@
         "episodeId": "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
         "sentence": "How would you explain the difference between promise and proof?",
         "contextMeaning": "Here, \"promise\" means a word that means to say you will do something",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "If you are busy, do not promise two hours every day.",
+        "contextMeaning": "Here, \"promise\" means do not say you will study two hours if you are busy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -158519,7 +158943,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -158534,6 +158959,13 @@
         "sentence": "A voice recorder can help you hear your own pronunciation.",
         "contextMeaning": "Here, \"pronunciation\" means how your English sounds when you speak",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "If pronunciation is hard, say it.",
+        "contextMeaning": "Here, \"pronunciation\" means the learner wants help saying English sounds clearly",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -162868,7 +163300,8 @@
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -162958,6 +163391,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "Final Reflection Useful Topic Vocabulary festival - a special event with many activities booth - a small place for a game, food, or activity prepare - get ready before something crowded - full of many people audience - the people watching a show nervous - worried before doing something proud - happy because you did something well sold out - all gone because people bought everything next time - the next chance or event",
+        "contextMeaning": "Here, \"ready\" means prepared to do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "I feel a little nervous, but I am ready.",
         "contextMeaning": "Here, \"ready\" means prepared to do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -163372,7 +163812,8 @@
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -163407,6 +163848,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "For the first step, a partner-led pilot is probably the most realistic.",
         "contextMeaning": "Here, \"realistic\" means a partner-led pilot is the best first step that can work",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "The best study plan is realistic.",
+        "contextMeaning": "Here, \"realistic\" means a good study plan is one you can really do",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -177686,7 +178134,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by"
+      "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -177721,6 +178170,13 @@
         "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
         "sentence": "This kind of change can feel scary.",
         "contextMeaning": "Here, \"scary\" means this kind of change can make you feel afraid",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Then your first trial lesson can feel less scary and more useful.",
+        "contextMeaning": "Here, \"scary\" means making your first trial lesson feel frightening or scary",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -177902,7 +178358,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-work-schedule-change",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -177910,6 +178367,13 @@
         "sentence": "Be careful if the company cannot explain the internship schedule, gives vague answers about training, hides basic work conditions, has repeated negative reviews with the same pattern, or seems uninterested in the future of energy.",
         "contextMeaning": "Here, \"schedule\" means a plan that shows when things happen",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Your schedule matters.",
+        "contextMeaning": "Here, \"schedule\" means the real times when the learner can take lessons",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -178458,7 +178922,8 @@
     "episodes": [
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -178480,6 +178945,13 @@
         "sentence": "He became not only a name on a music score, but a visible modern artist.",
         "contextMeaning": "Here, \"score\" means the paper with music notes where his name was written",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "A trial lesson is not a test with a score.",
+        "contextMeaning": "Here, \"score\" means it says the first class is not only about getting a mark",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -188447,7 +188919,8 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-07-01-horse-riding-basics-a1"
+      "episode-2026-07-01-horse-riding-basics-a1",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -188574,6 +189047,13 @@
         "sentence": "Walking is slow and useful.",
         "contextMeaning": "Here, \"slow\" means slow describes walking with the horse",
         "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Can you understand slow questions?",
+        "contextMeaning": "Here, \"slow\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -189106,7 +189586,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -189190,6 +189671,13 @@
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "It is smart to choose one job and come back quickly.",
         "contextMeaning": "Here, \"smart\" means good idea to pick one job fast",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "They are smart.",
+        "contextMeaning": "Here, \"smart\" means they know many things or think well",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -193199,7 +193687,8 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -193247,6 +193736,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "These phrases help you speak clearly without pretending to know the future.",
+        "contextMeaning": "Here, \"speak\" means to say words out loud",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "The teacher may ask you to read, listen, or speak for a short time.",
         "contextMeaning": "Here, \"speak\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -200628,7 +201124,8 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -200802,6 +201299,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Vacation objects often have weak practical value but strong emotional value.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "A strong plan must fit your real life.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -201470,7 +201974,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -201590,6 +202095,36 @@
         "sentence": "I want to answer where I study.",
         "contextMeaning": "Here, \"study\" means to spend time learning",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Why do you want to study English now?",
+        "contextMeaning": "Here, \"study\" means to spend time learning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "study habit": {
+    "word": "study habit",
+    "definition": "Something you do often to learn",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-my-first-trial-lesson"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Do you have a study habit now?",
+        "contextMeaning": "Here, \"study habit\" means a small regular action the learner does to study English",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -207269,7 +207804,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -207341,6 +207877,13 @@
         "contextMeaning": "Here, \"teach\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "The teacher learns what to teach.",
+        "contextMeaning": "Here, \"teach\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -207390,7 +207933,8 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -207480,6 +208024,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "A character for toddlers should not sound like a teenager or a teacher.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "What do you want the teacher to know about you?",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -208722,7 +209273,8 @@
       "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -208765,6 +209317,13 @@
         "sentence": "The teacher can choose six to ten questions and model short answers out loud.",
         "contextMeaning": "Here, \"ten\" means the teacher can choose up to about 10 questions",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Ten minutes of review after class is useful.",
+        "contextMeaning": "Here, \"ten\" means ten minutes of practice after class helps you",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -210298,6 +210857,7 @@
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -210346,6 +210906,13 @@
       {
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Then change the final word.",
+        "contextMeaning": "Here, \"then\" means after that or at that time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Then change one detail: the goal, the schedule, the worry, or the homework plan.",
         "contextMeaning": "Here, \"then\" means after that or at that time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -216343,7 +216910,8 @@
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -216440,6 +217008,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "You are walking through a small street near the beach, a train station, or an old town.",
+        "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "I can listen to the audio on the train.",
         "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -217475,7 +218050,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -217600,6 +218176,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "When you travel, do you spend money more carefully or more freely than usual?",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You may want English for travel, work, school, a test, a hobby, or daily conversation.",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -219720,7 +220303,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -219762,6 +220346,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Bach married twice.",
         "contextMeaning": "Here, \"twice\" means bach had a husband or wife two times",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Listening to the audio twice a week is useful.",
+        "contextMeaning": "Here, \"twice\" means listen to the sound two times every week to help",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -222618,6 +223209,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -223051,6 +223643,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The useful question is not only \"Why do people waste money?\"",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "A not-sure goal is still useful when it is honest.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -229485,7 +230084,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -229554,6 +230154,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Vacation objects often have weak practical value but strong emotional value.",
+        "contextMeaning": "Here, \"weak\" means not strong",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Do not hide your weak points.",
         "contextMeaning": "Here, \"weak\" means not strong",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -230213,6 +230820,29 @@
       }
     ]
   },
+  "weekday evening": {
+    "word": "weekday evening",
+    "definition": "An evening from Monday to Friday",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-my-first-trial-lesson"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Learner: I am available on weekday evenings and weekend mornings.",
+        "contextMeaning": "Here, \"weekday evening\" means a normal work or school night when the learner can take a lesson",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "weekend": {
     "word": "weekend",
     "definition": "Saturday and Sunday",
@@ -230225,7 +230855,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3"
+      "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -230240,6 +230871,13 @@
         "sentence": "People often choose it for school runs, work trips, and weekend travel.",
         "contextMeaning": "Here, \"weekend\" means the end of the week, usually Saturday and Sunday",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Weekend mornings may work for others.",
+        "contextMeaning": "Here, \"weekend\" means saturday and Sunday",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -234592,7 +235230,8 @@
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -234614,6 +235253,13 @@
         "sentence": "8: Which future worries you most, and what could reduce that risk?",
         "contextMeaning": "Here, \"worries\" means things about the future that make you feel scared or nervous",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "You will talk about your goal, your level, your schedule, and your worries.",
+        "contextMeaning": "Here, \"worries\" means the problems the learner feels nervous about before class",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
@@ -234639,7 +235285,8 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
-      "episode-2026-06-10-opening-a-business-abroad-b1"
+      "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -234717,6 +235364,13 @@
         "sentence": "2: Which would worry you more as a new exporter: strong competition or unclear rules?",
         "contextMeaning": "Here, \"worry\" means feel nervous about strong competition or unclear rules as a new seller",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-my-first-trial-lesson",
+        "sentence": "Many learners worry about their level.",
+        "contextMeaning": "Here, \"worry\" means learners feel unsure about their English skill",
+        "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
         "confidence": "trusted"
       }
     ]
