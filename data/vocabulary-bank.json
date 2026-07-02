@@ -2564,7 +2564,6 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
     ],
     "contexts": [
@@ -2620,13 +2619,6 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Adults can also enjoy kawaii characters because they reduce stress, bring back memories, or make daily life feel lighter.",
-        "contextMeaning": "Here, \"adults\" means grown-up people",
-        "source": "popup_support_router/trusted_popup_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Children, teenagers, and adults can all enjoy games.",
         "contextMeaning": "Here, \"adults\" means grown-up people",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -3274,6 +3266,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -3658,9 +3651,9 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Some people play games after school.",
-        "contextMeaning": "Here, \"after\" means playing games happens when school is finished",
-        "source": "popup_prebuild_coverage/context_explain",
+        "sentence": "Some people play for fun after school or work.",
+        "contextMeaning": "Here, \"after\" means later than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -3729,6 +3722,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "| What happened after that?",
+        "contextMeaning": "Here, \"after\" means later than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "After that, the customer pays and waits near the counter.",
         "contextMeaning": "Here, \"after\" means later than something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -5702,6 +5702,7 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
@@ -5749,6 +5750,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "a market alone.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Do you like playing alone or with friends?",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -6570,6 +6578,29 @@
         "sentence": "He was Russian-born, but his career became European and American.",
         "contextMeaning": "Here, \"american\" means his work life was connected to the United States",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "americano": {
+    "word": "americano",
+    "definition": "Espresso with hot water",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "An americano is black coffee with water",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "An americano is black coffee with water",
+        "contextMeaning": "Here, \"americano\" means black coffee with water",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -14823,8 +14854,8 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
-        "contextMeaning": "Here, \"baseball\" means a sport game where players hit a ball with a bat",
+        "sentence": "In a sports game, players can play soccer, basketball, baseball, or racing.",
+        "contextMeaning": "Here, \"baseball\" means a sports game where you play the ball and run bases",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -15052,8 +15083,8 @@
   },
   "basketball": {
     "word": "basketball",
-    "definition": "A game where you throw a ball in a hoop",
-    "cefrLevel": "A1",
+    "definition": "A game where you throw a ball into a hoop",
+    "cefrLevel": "A2",
     "partOfSpeech": "",
     "phonetic": "",
     "exampleGeneral": "",
@@ -15066,8 +15097,8 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
-        "contextMeaning": "Here, \"basketball\" means a sport game where players throw a ball into a hoop",
+        "sentence": "In a sports game, players can play soccer, basketball, baseball, or racing.",
+        "contextMeaning": "Here, \"basketball\" means a sports game where you try to put the ball in a basket",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -15309,8 +15340,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -15325,13 +15355,6 @@
         "sentence": "Later, it grew into a larger world with characters, battles, and story-like episodes.",
         "contextMeaning": "Here, \"battles\" means fights or contests between characters in the story",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Some people like difficult battles.",
-        "contextMeaning": "Here, \"battles\" means fights in games that some players like",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -16030,7 +16053,6 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
@@ -16501,13 +16523,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Unclear rules would worry me more because...",
         "contextMeaning": "Here, \"because\" means shows why unclear rules make me more worried",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Some people like team games because they can play with friends.",
-        "contextMeaning": "Here, \"because\" means they like team games for playing with friends",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -17460,6 +17475,7 @@
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
@@ -17927,6 +17943,13 @@
         "sentence": "Learn how to research a foreign market before you spend serious money on an international business plan.",
         "contextMeaning": "Here, \"before\" means do research first, earlier than spending a lot of money",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Friends can also make a small plan before they start.",
+        "contextMeaning": "Here, \"before\" means earlier than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -23145,6 +23168,7 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
@@ -23197,6 +23221,13 @@
         "sentence": "None of these topics sounds glamorous, but any one of them can break a business if ignored.",
         "contextMeaning": "Here, \"break\" means cause a business to fail or have big problems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "After one round, let's take a short break.",
+        "contextMeaning": "Here, \"break\" means a short rest or pause",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       },
       {
@@ -24604,6 +24635,7 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
@@ -24635,6 +24667,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Bach worked inside churches, courts, schools, and town institutions, but he used those practical responsibilities to build music with lasting power.",
+        "contextMeaning": "Here, \"build\" means to make something by putting parts together",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "What should we build first?",
         "contextMeaning": "Here, \"build\" means to make something by putting parts together",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -25831,7 +25870,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-23-talking-about-what-people-like-a1",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -25917,6 +25957,13 @@
         "contextMeaning": "Here, \"cafe\" means the mountain cafe connected to a memory",
         "source": "producer_reviewed_popup_patch_v1",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A cafe worker does more than make coffee.",
+        "contextMeaning": "Here, \"cafe\" means a place where a worker makes coffee and helps customers",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -25939,7 +25986,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -26003,6 +26051,36 @@
         "sentence": "Some people like small cafes.",
         "contextMeaning": "Here, \"cafes\" means places some people like for talking or resting",
         "source": "codex_manual_a1_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Small problems happen in cafes.",
+        "contextMeaning": "Here, \"cafes\" means small problems happen in coffee places",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "caffeine": {
+    "word": "caffeine",
+    "definition": "A thing in coffee that makes you feel awake",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Decaf means coffee with very little caffeine.",
+        "contextMeaning": "Here, \"caffeine\" means a small amount of this is in decaf coffee",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -26479,6 +26557,7 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
@@ -26486,6 +26565,7 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -26595,6 +26675,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Another friend may want a calm building game.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "Tea was also connected to education and calm thinking.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
@@ -26639,6 +26726,13 @@
       {
         "episodeId": "episode-2026-06-25-how-the-brain-builds-reality",
         "sentence": "QUESTION 10: What is the calm everyday practice from this lesson?",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A calm answer is usually better than a long explanation.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -26707,7 +26801,8 @@
       "episode-2026-05-21-a2-restaurant-fix-wrong-order",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -26749,6 +26844,13 @@
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The goal is to practice English for small problems: asking calmly, explaining what happened, saying sorry, and making a better plan.",
         "contextMeaning": "Here, \"calmly\" means asking questions in a quiet and nice way",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker needs to check the order, explain the menu simply, and fix small problems calmly.",
+        "contextMeaning": "Here, \"calmly\" means fix problems without getting upset or loud",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -27413,6 +27515,29 @@
         "sentence": "One important step was the move to a capped-profit model.",
         "contextMeaning": "Here, \"capped-profit\" means a way to make money but only up to a certain amount",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cappuccino": {
+    "word": "cappuccino",
+    "definition": "Espresso with milk and foam",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "A cappuccino has more foam than a latte",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A cappuccino has more foam than a latte",
+        "contextMeaning": "Here, \"cappuccino\" means a cappuccino has more foam than a latte",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -28189,6 +28314,7 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
@@ -28325,6 +28451,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "In Bach's music, every musical line feels carefully placed.",
         "contextMeaning": "Here, \"carefully\" means every music part is put with great attention in Bach's music",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Players think carefully and solve a small problem.",
+        "contextMeaning": "Here, \"carefully\" means thinking slowly and with attention to solve a problem",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -28651,6 +28784,7 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
@@ -28698,6 +28832,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "The company was not only asking, \"How can we sell more goods?\" It was also asking, \"How can small goods help people communicate?\" A gift can be small, cheap, and simple, but it can still carry a message.",
+        "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A phone is easy to carry.",
         "contextMeaning": "Here, \"carry\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -33916,7 +34057,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -34009,6 +34151,13 @@
         "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Then a small latte is a good choice.",
+        "contextMeaning": "Here, \"choice\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -34033,6 +34182,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-23-talking-about-what-people-like-a1",
@@ -34111,6 +34261,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In an action game, players move quickly and make fast choices.",
+        "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "We can ask a practical question: how can we make good choices feel easier without forcing people?",
         "contextMeaning": "Here, \"choices\" means the thing you decide to pick",
@@ -34175,6 +34332,7 @@
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
@@ -34191,6 +34349,7 @@
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -34314,6 +34473,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Friends can choose the game, agree on the time, and decide if they want voice chat or short messages.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "It is smart to choose one job and come back quickly.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
@@ -34419,6 +34585,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Then practice three customer situations: taking an order, helping a customer choose a coffee, and fixing a wrong drink.",
+        "contextMeaning": "Here, \"choose\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "Choose a plan you can really do.",
         "contextMeaning": "Here, \"choose\" means to pick one thing",
@@ -34442,7 +34615,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -34478,6 +34652,13 @@
         "sentence": "One person often chooses coffee.",
         "contextMeaning": "Here, \"chooses\" means choose tea, coffee, a hobby, or a place",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "First, the customer chooses a drink.",
+        "contextMeaning": "Here, \"chooses\" means to pick one thing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -36585,6 +36766,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -36669,6 +36851,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "These phrases help you speak clearly without pretending to know the future.",
+        "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "I want to say \"to go\" clearly.",
         "contextMeaning": "Here, \"clearly\" means in an easy way to understand",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -38519,7 +38708,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -38581,6 +38771,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The best solution is not to become cold and practical about everything.",
+        "contextMeaning": "Here, \"cold\" means low in temperature",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "An iced coffee is cold coffee with ice.",
         "contextMeaning": "Here, \"cold\" means low in temperature",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -40357,7 +40554,8 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -40492,6 +40690,13 @@
         "contextMeaning": "Here, \"common\" means happening often or seen often",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Cafe menus can be different, so the lesson focuses on useful customer-service language and common drink meanings.",
+        "contextMeaning": "Here, \"common\" means happening often or seen often",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -40576,6 +40781,7 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-25-how-the-brain-builds-reality"
@@ -40627,6 +40833,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Communication felt easy because...",
         "contextMeaning": "Here, \"communication\" means talking or sharing ideas that felt easy and natural",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Playing with friends needs simple communication.",
+        "contextMeaning": "Here, \"communication\" means talking simply with friends when playing games together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -42597,7 +42810,7 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Do you play on a phone, computer, console, or tablet?",
+        "sentence": "Do you play games on a phone, computer, console, or tablet?",
         "contextMeaning": "Here, \"computer\" means a machine used for digital work",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -44432,6 +44645,7 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-23-talking-about-what-people-like-a1"
     ],
@@ -44531,6 +44745,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "This lesson connects meditation with relational neuroscience: the study of how human brains and bodies work in relationships.",
         "contextMeaning": "Here, \"connects\" means joins meditation and brain study in this lesson",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A console connects to a TV or screen.",
+        "contextMeaning": "Here, \"connects\" means joins a game machine to a TV or screen to show pictures",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -44752,8 +44973,8 @@
   },
   "console": {
     "word": "console",
-    "definition": "A special box to play video games",
-    "cefrLevel": "A1",
+    "definition": "A game machine that connects to a screen",
+    "cefrLevel": "A2",
     "partOfSpeech": "",
     "phonetic": "",
     "exampleGeneral": "",
@@ -44766,9 +44987,9 @@
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Do you play on a phone, computer, console, or tablet?",
-        "contextMeaning": "Here, \"console\" means a machine used to play games, not phone or computer",
-        "source": "popup_prebuild_coverage/context_explain",
+        "sentence": "Some people play games on a console",
+        "contextMeaning": "Here, \"console\" means some people play games on a console",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -46517,7 +46738,6 @@
     "episodes": [
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold"
@@ -46534,13 +46754,6 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "People may feel stylish, successful, cool, elegant, or rich when they use it.",
         "contextMeaning": "Here, \"cool\" means feeling good and popular when using the item",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Some people like cool characters.",
-        "contextMeaning": "Here, \"cool\" means nice or fun people or animals in games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -47738,7 +47951,8 @@
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
       "episode-2026-06-21-driving-a-car-in-japan-as-a-tourist",
-      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work"
+      "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -47816,6 +48030,13 @@
         "sentence": "First, you arrive at the airport and look for your airline counter or check-in area.",
         "contextMeaning": "Here, \"counter\" means the desk where airline staff help passengers",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "After that, the customer pays and waits near the counter.",
+        "contextMeaning": "Here, \"counter\" means the place where the customer waits after paying",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -52405,6 +52626,29 @@
       }
     ]
   },
+  "decaf": {
+    "word": "decaf",
+    "definition": "Coffee with very little caffeine",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "A customer can ask for decaf coffee",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A customer can ask for decaf coffee",
+        "contextMeaning": "Here, \"decaf\" means a customer can ask for decaf coffee",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "decarbonization": {
     "word": "decarbonization",
     "definition": "Reducing carbon emissions",
@@ -52468,6 +52712,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-22-table-tennis-game-and-great-players",
@@ -52512,6 +52757,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Do you think people are logical when they decide what something is worth?",
+        "contextMeaning": "Here, \"decide\" means to make a choice",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Friends can choose the game, agree on the time, and decide if they want voice chat or short messages.",
         "contextMeaning": "Here, \"decide\" means to make a choice",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -54857,7 +55109,7 @@
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
         "sentence": "It depends on the game.",
-        "contextMeaning": "Here, \"depends\" means it changes based on which game you mean",
+        "contextMeaning": "Here, \"depends\" means changes based on which game you play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -56034,6 +56286,7 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
@@ -56044,6 +56297,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -56119,6 +56373,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Then change one detail: the platform, the game type, the time, or the reason.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
         "sentence": "Then change one detail.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
@@ -56184,6 +56445,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Chin may impress listeners through sharp imagination and orchestral detail.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Then change one detail: the drink, the size, hot or iced, or for here or to go.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -57205,7 +57473,6 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
@@ -57401,13 +57668,6 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Think of a difficult walk up a hill.",
         "contextMeaning": "Here, \"difficult\" means hard to walk up or do something",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Some people like difficult battles.",
-        "contextMeaning": "Here, \"difficult\" means hard or not easy fights in games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -60411,7 +60671,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -60494,6 +60755,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Then keep the door open, because history will continue listening after us.",
+        "contextMeaning": "Here, \"door\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "People come in, look at the menu, order a drink, pay, wait, and then take their drink to a table or out the door.",
         "contextMeaning": "Here, \"door\" means the part you open to enter a room",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -61737,7 +62005,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-shopping-at-a-convenience-store",
-      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1"
+      "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -61814,6 +62083,13 @@
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "You can suggest: watch a short video, play a simple phone game, listen to music, get a drink, walk in a park, take photos, or study together.",
         "contextMeaning": "Here, \"drink\" means you can get something to drink",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
+        "contextMeaning": "Here, \"drink\" means the coffee or other liquid the worker makes for the customer",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -62564,6 +62840,7 @@
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-07-02-my-first-trial-lesson"
@@ -62700,6 +62977,13 @@
         "sentence": "Interpersonal synchrony research describes how people can align during social interaction.",
         "contextMeaning": "Here, \"during\" means at the same time as people talk or meet",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Useful Topic Vocabulary platform - the device or place you use to play console - a game machine that connects to a screen single-player - for one player explore - go around a place to see it item - a thing players can find or use voice chat - talking by microphone during a game take a break - stop for a short time relaxing - helping you feel calm",
+        "contextMeaning": "Here, \"during\" means at some time in a period",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -62859,7 +63143,6 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-24-why-socks-disappear-psychology-science"
     ],
@@ -63071,13 +63354,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Founder comparison box: For Country A and Country B, score each item from 1 to 5.",
         "contextMeaning": "Here, \"each\" means give a number to every item separately",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "They can talk, help each other, and make a plan.",
-        "contextMeaning": "Here, \"each\" means help the other person in the group, not just yourself",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -63891,6 +64167,7 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
@@ -64008,6 +64285,13 @@
       {
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "Is it easy or hard for you to say no politely?",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A phone is easy to carry.",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67732,7 +68016,6 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-23-talking-about-what-people-like-a1",
@@ -67777,13 +68060,6 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Do you usually enjoy music that feels simple immediately, or music that becomes deeper after repeated listening?",
-        "contextMeaning": "Here, \"enjoy\" means to like doing something",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Children, teenagers, and adults can all enjoy games.",
         "contextMeaning": "Here, \"enjoy\" means to like doing something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -67975,7 +68251,6 @@
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
@@ -68027,13 +68302,6 @@
       {
         "episodeId": "episode-2026-06-05-shopping-for-clothes",
         "sentence": "Short sentences are enough: \"I need a new jacket,\" \"Can I try this on?\" \"It is too small,\" and \"I will pay by card.\" Speaking Practice Questions 1.",
-        "contextMeaning": "Here, \"enough\" means not as much as needed",
-        "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Short sentences are enough: \"I like adventure games,\" \"Players explore new places,\" \"I play on weekends,\" and \"I like team games because I can play with friends.\" Speaking Practice Questions 1.",
         "contextMeaning": "Here, \"enough\" means not as much as needed",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -69195,12 +69463,13 @@
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "Espresso is the base for many coffee drinks",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -69208,6 +69477,13 @@
         "sentence": "For the first test, keep the menu small: charcoal latte, iced charcoal latte, regular espresso drinks, one Japanese-inspired toast, one simple sweet product, and one seasonal special.",
         "contextMeaning": "Here, \"espresso\" means a type of coffee drink on the menu",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Espresso is the base for many coffee drinks",
+        "contextMeaning": "Here, \"espresso\" means espresso is the base for many coffee drinks",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -71198,7 +71474,8 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life"
+      "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -71232,6 +71509,13 @@
       {
         "episodeId": "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
         "sentence": "That gap is not a failure; it is exactly where the next research question begins.",
+        "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Helping Customers Choose Some customers know exactly what they want.",
         "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -72268,9 +72552,9 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Games can be fun, exciting, and relaxing.",
-        "contextMeaning": "Here, \"exciting\" means games can be exciting",
-        "source": "authored_reading_vocabulary",
+        "sentence": "I like action games because they are exciting.",
+        "contextMeaning": "Here, \"exciting\" means games that make you feel happy and full of fun",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
       {
@@ -74439,7 +74723,7 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In adventure games, players explore new places and find items.",
+        "sentence": "Players explore new places",
         "contextMeaning": "Here, \"explore\" means players explore new places",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
@@ -76645,7 +76929,8 @@
     "episodes": [
       "episode-2026-04-21-dogs-around-the-world-which-country-chooses-what",
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship"
+      "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -76666,6 +76951,13 @@
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "Mountain areas, spread-out homes, farms, inns, small restaurants, and local factories may need a different service model from central Tokyo.",
         "contextMeaning": "Here, \"farms\" means places with plants and animals that need special service",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Players can make houses, towns, farms, or their own world.",
+        "contextMeaning": "Here, \"farms\" means places players can build in the game to grow food or animals",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -76772,7 +77064,6 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
@@ -76869,13 +77160,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "AI gives you a fast first draft of reality, not reality itself.",
         "contextMeaning": "Here, \"fast\" means give a quick first version",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "I do not like fast games.",
-        "contextMeaning": "Here, \"fast\" means games that move quickly and are not slow",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -79369,8 +79653,7 @@
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-21-what-is-gintama",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-05-21-what-is-gintama"
     ],
     "contexts": [
       {
@@ -79391,13 +79674,6 @@
         "episodeId": "episode-2026-05-21-what-is-gintama",
         "sentence": "They fight, joke, complain, and help each other.",
         "contextMeaning": "Here, \"fight\" means they use anger or hit each other sometimes",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In action games, players fight, run, or move quickly.",
-        "contextMeaning": "Here, \"fight\" means to hit or attack in action games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -80796,6 +81072,7 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
@@ -80805,6 +81082,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -81132,6 +81410,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "First, learn how to talk about platforms, game types, friends, and safe habits.",
+        "contextMeaning": "Here, \"first\" means number one in order",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "In the first half, one team attacks.",
         "contextMeaning": "Here, \"first\" means the part of the game that happens before the second",
@@ -81190,6 +81475,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "| Use this when the first answer is too short.",
+        "contextMeaning": "Here, \"first\" means number one in order",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "First, learn the cafe job and the coffee types.",
         "contextMeaning": "Here, \"first\" means number one in order",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -81659,7 +81951,8 @@
     "episodes": [
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-10-meditation-and-the-social-brain-b1"
+      "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -81680,6 +81973,13 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Do not try to fix it.",
         "contextMeaning": "Here, \"fix\" means do not try to make the problem better",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker needs to check the order, explain the menu simply, and fix small problems calmly.",
+        "contextMeaning": "Here, \"fix\" means make small problems better in the cafe",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -82542,6 +82842,29 @@
         "sentence": "They may ask where you are flying and whether you have checked baggage.",
         "contextMeaning": "Here, \"flying\" means where you will go by plane",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "foam": {
+    "word": "foam",
+    "definition": "Light bubbles on top of milk or coffee",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "A cappuccino has foam on top",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A cappuccino has foam on top",
+        "contextMeaning": "Here, \"foam\" means a cappuccino has foam on top",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -85414,6 +85737,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-school-festival-conversation-a2",
@@ -85481,6 +85805,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "It can also mean soft, safe, friendly, gentle, small, warm, or comforting.",
         "contextMeaning": "Here, \"friendly\" means feels nice and warm like a good friend",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Good game English is friendly, clear, and not too long.",
+        "contextMeaning": "Here, \"friendly\" means easy and kind words used in good game English",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -86225,7 +86556,6 @@
     "episodes": [
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple"
     ],
@@ -86241,13 +86571,6 @@
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "Learn to ask, suggest, agree, and choose a fun activity with friends in simple English.",
         "contextMeaning": "Here, \"fun\" means choose a happy activity with friends",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Games can be fun, exciting, and relaxing.",
-        "contextMeaning": "Here, \"fun\" means games can make you happy and enjoy yourself",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -88414,7 +88737,6 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
     ],
     "contexts": [
@@ -88478,13 +88800,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "6: Give three tasks AI can help with, and say what humans must still do.",
         "contextMeaning": "Here, \"give\" means tell three jobs AI can do and what people must do",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "You can name the kind of game, say what players do, and give one reason.",
-        "contextMeaning": "Here, \"give\" means say one reason or idea about the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -88571,7 +88886,8 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -88859,6 +89175,13 @@
         "sentence": "This gives the story a clear order.",
         "contextMeaning": "Here, \"gives\" means it helps the story have a clear order",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
+        "contextMeaning": "Here, \"gives\" means the worker puts the drink into the customer’s hand",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -89882,7 +90205,6 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
@@ -89963,13 +90285,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Good founders research before they move, not after.",
         "contextMeaning": "Here, \"good\" means smart or careful people who start companies",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Video games are also good for talking in English.",
-        "contextMeaning": "Here, \"good\" means video games help you practice speaking English well",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -91025,6 +91340,29 @@
         "sentence": "Are you comfortable with greetings?",
         "contextMeaning": "Here, \"greetings\" means simple first words like hello or nice to meet you",
         "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "greets": {
+    "word": "greets",
+    "definition": "To say hello to someone",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
+        "contextMeaning": "Here, \"greets\" means the worker says hello to the customer first",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -92195,6 +92533,7 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
@@ -92242,6 +92581,13 @@
       {
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "What is one small noticing habit you could add to your week?",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "They talk about the platform, the kind of game, the time, and one safe habit.",
         "contextMeaning": "Here, \"habit\" means a usual action you do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -92310,6 +92656,7 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
@@ -92328,6 +92675,13 @@
       {
         "episodeId": "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
         "sentence": "internship - short work experience for a student corporate group - connected companies under a larger business infrastructure - basic systems that society uses every day customer service - helping customers with questions or problems work culture - the normal habits and values inside a workplace transferable skill - a skill useful in many jobs decarbonization - reducing carbon emissions renewable energy - energy from sources such as sun or wind warning sign - a signal that something may be wrong",
+        "contextMeaning": "Here, \"habits\" means usual things people do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "First, learn how to talk about platforms, game types, friends, and safe habits.",
         "contextMeaning": "Here, \"habits\" means usual things people do often",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -93136,7 +93490,8 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -93249,6 +93604,13 @@
         "sentence": "Rediscovery can happen when.",
         "contextMeaning": "Here, \"happen\" means the prompt asks what can cause rediscovery later",
         "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Small problems happen in cafes.",
+        "contextMeaning": "Here, \"happen\" means small problems take place in cafes",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -97582,6 +97944,7 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-06-09-casual-conversation-branches-a2",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-07-02-my-first-trial-lesson"
@@ -97605,6 +97968,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "For Bach, music was not just a hobby.",
         "contextMeaning": "Here, \"hobby\" means not just a fun activity for Bach",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Video games are a normal hobby for many people.",
+        "contextMeaning": "Here, \"hobby\" means playing video games for fun and free time",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -99778,7 +100148,8 @@
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -99792,6 +100163,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "For the first test, keep the menu small: charcoal latte, iced charcoal latte, regular espresso drinks, one Japanese-inspired toast, one simple sweet product, and one seasonal special.",
         "contextMeaning": "Here, \"iced\" means cold version of the charcoal latte drink",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Then the customer gives details, like small or medium, hot or iced, and here or to go.",
+        "contextMeaning": "Here, \"iced\" means a cold drink choice the customer can ask for",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -100139,6 +100517,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -100313,6 +100692,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Useful Speaking Patterns Source checks: this lesson uses general consumer psychology ideas in learner-friendly language: mood and reward, memory objects, scarcity, identity, social pressure, mental accounting, impulse buying, and regret.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Basic Coffee Types Coffee names can look difficult, but many cafe orders have simple ideas.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -107540,8 +107926,7 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-03-why-some-objects-become-special"
     ],
     "contexts": [
       {
@@ -107577,13 +107962,6 @@
         "sentence": "It can tell other people, \"This is my taste,\" or \"This is the kind of person I want to be.\" This is why some people pay much more for branded items.",
         "contextMeaning": "Here, \"items\" means objects people buy to show their taste or who they are",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In adventure games, players explore new places and find items.",
-        "contextMeaning": "Here, \"items\" means things players find when they look in new places",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -109869,7 +110247,6 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
@@ -109915,13 +110292,6 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Warm-up: When you hear the name Bach, what kind of music do you imagine?",
         "contextMeaning": "Here, \"kind\" means what type of music do you think about when you hear Bach",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "You can say what game you like, what kind of game it is, what players do, and why you like it.",
-        "contextMeaning": "Here, \"kind\" means type of game, like what it is or how it works",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -110153,8 +110523,8 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
-        "contextMeaning": "Here, \"kinds\" means different types of games you like to play",
+        "sentence": "There are many kinds of games.",
+        "contextMeaning": "Here, \"kinds\" means different types of games you can play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -111806,13 +112176,14 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "A latte is usually mild",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -111827,6 +112198,13 @@
         "sentence": "For the first test, keep the menu small: charcoal latte, iced charcoal latte, regular espresso drinks, one Japanese-inspired toast, one simple sweet product, and one seasonal special.",
         "contextMeaning": "Here, \"latte\" means a coffee drink with milk on the menu",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A latte is usually mild",
+        "contextMeaning": "Here, \"latte\" means usually mild",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -112601,6 +112979,7 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
@@ -112613,6 +112992,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -112655,6 +113035,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Restrictions can stop your plan completely if you learn about them too late.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "First, learn how to talk about platforms, game types, friends, and safe habits.",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112739,6 +113126,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "First, learn the cafe job and the coffee types.",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -113809,6 +114203,7 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -113900,6 +114295,13 @@
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Its creators wanted to use television to help children prepare for school, especially children who had less access to early education.",
         "contextMeaning": "Here, \"less\" means children who did not have much early education",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "It can taste stronger than a latte because it has less milk.",
+        "contextMeaning": "Here, \"less\" means having a smaller amount of milk in the drink",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -115163,7 +115565,6 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
@@ -115289,13 +115690,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Tools like this are useful at the early stage.",
         "contextMeaning": "Here, \"like\" means tools that are similar to this one",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
-        "contextMeaning": "Here, \"like\" means the kinds of games you enjoy or want",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -120667,7 +121061,6 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
@@ -120760,13 +121153,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Agreements may make trade easier or cheaper.",
         "contextMeaning": "Here, \"make\" means help trade become easier or cheaper",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In building games, players can make houses, towns, or their own world.",
-        "contextMeaning": "Here, \"make\" means players build houses or towns in the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -121853,7 +122239,6 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
@@ -122365,13 +122750,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Many people dream of taking their business to another country.",
         "contextMeaning": "Here, \"many\" means a large number of people who want to start business abroad",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Many people like playing video games.",
-        "contextMeaning": "Here, \"many\" means a lot of people like to play video games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -125669,13 +126047,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-shopping-for-clothes"
+      "episode-2026-06-05-shopping-for-clothes",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-05-shopping-for-clothes",
         "sentence": "A shirt can be small, medium, or large.",
         "contextMeaning": "Here, \"medium\" means a size for shirts between small and large",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Then the customer gives details, like small or medium, hot or iced, and here or to go.",
+        "contextMeaning": "Here, \"medium\" means a size choice the customer can ask for",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -126566,7 +126952,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-17-getting-a-haircut",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -126615,6 +127002,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "A small cafe pilot should not start with a full brunch menu.",
         "contextMeaning": "Here, \"menu\" means the list of food choices in a small cafe pilot",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "People come in, look at the menu, order a drink, pay, wait, and then take their drink to a table or out the door.",
+        "contextMeaning": "Here, \"menu\" means people look at this list to pick a drink",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -126901,6 +127295,7 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-why-socks-disappear-psychology-science"
@@ -126930,6 +127325,13 @@
       {
         "episodeId": "episode-2026-06-03-surprise-cake-mystery",
         "sentence": "The class has a chocolate cake, paper cups, a music speaker, and a card with many short messages.",
+        "contextMeaning": "Here, \"messages\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Friends can choose the game, agree on the time, and decide if they want voice chat or short messages.",
         "contextMeaning": "Here, \"messages\" means information sent from one person to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -127592,14 +127994,23 @@
     "cefrLevel": "A2",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "A latte is a mild coffee choice",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a2-clinic-appointment-symptoms"
+      "episode-2026-05-21-a2-clinic-appointment-symptoms",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A latte is a mild coffee choice",
+        "contextMeaning": "Here, \"mild\" means a latte is a mild coffee choice",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "miles": {
     "word": "miles",
@@ -127691,7 +128102,8 @@
     "episodes": [
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -127712,6 +128124,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Many customers understand flat whites, long blacks, cold brew, milk texture, and alternative milks.",
         "contextMeaning": "Here, \"milk\" means milk texture means how the milk feels in coffee",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
+        "contextMeaning": "Here, \"milk\" means a choice the worker asks about to put in the coffee",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -133585,7 +134004,6 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
@@ -133688,13 +134106,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "The idea is exciting: new customers, new income, and a bigger name for the company.",
         "contextMeaning": "Here, \"name\" means how well people know the company",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "You can name the kind of game, say what players do, and give one reason.",
-        "contextMeaning": "Here, \"name\" means say the kind of game it is",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -134349,7 +134760,8 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -134488,6 +134900,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "You are walking through a small street near the beach, a train station, or an old town.",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "After that, the customer pays and waits near the counter.",
         "contextMeaning": "Here, \"near\" means not far away",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -135811,7 +136230,6 @@
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
@@ -135930,13 +136348,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "The idea is exciting: new customers, new income, and a bigger name for the company.",
         "contextMeaning": "Here, \"new\" means customers and money that the company did not have before",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In adventure games, players explore new places and find items.",
-        "contextMeaning": "Here, \"new\" means players find places they did not see before",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -136176,6 +136587,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -136253,6 +136665,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "Time And Schedule Ask about time next.",
+        "contextMeaning": "Here, \"next\" means coming after this one",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Then give a clear next step.",
         "contextMeaning": "Here, \"next\" means coming after this one",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -138289,6 +138708,29 @@
       }
     ]
   },
+  "oat milk": {
+    "word": "oat milk",
+    "definition": "Milk made from oats",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The customer asks for oat milk",
+        "contextMeaning": "Here, \"oat milk\" means the customer asks for oat milk",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "oats": {
     "word": "oats",
     "definition": "Widely cultivated cereal grass, typically Avena sativa",
@@ -139401,7 +139843,6 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
@@ -139739,13 +140180,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "5: Which checklist item do people forget most often?",
         "contextMeaning": "Here, \"often\" means the checklist thing people do not remember many times",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "I do not play games often.",
-        "contextMeaning": "Here, \"often\" means not many times I play games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -140895,6 +141329,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-05-sending-a-package-at-the-post-office",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-17-getting-a-library-card",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
@@ -140958,6 +141393,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "How has online selling changed what it means to enter a foreign market?",
+        "contextMeaning": "Here, \"online\" means connected through the internet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A computer can be good for many online games.",
         "contextMeaning": "Here, \"online\" means connected through the internet",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -142377,7 +142819,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -142392,6 +142835,13 @@
         "sentence": "Before the customer orders, explain the seat charge.",
         "contextMeaning": "Here, \"orders\" means what the customer does after sitting",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Coffee names can look difficult, but many cafe orders have simple ideas.",
+        "contextMeaning": "Here, \"orders\" means the drinks the customer asks for at the cafe",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -143015,7 +143465,6 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
@@ -143218,13 +143667,6 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Learn how meditation may support calm attention and better connection with other people.",
         "contextMeaning": "Here, \"other\" means people who are not you or me, different people",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Do you like playing alone or with other people?",
-        "contextMeaning": "Here, \"other\" means different people, not you, playing together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -145240,12 +145682,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-23-talking-about-what-people-like-a1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "You can suggest: watch a short video, play a simple phone game, listen to music, get a drink, walk in a park, take photos, or study together.",
+        "contextMeaning": "Here, \"park\" means an open public place for walking or relaxing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Mika: Let's build a park and a small cafe.",
         "contextMeaning": "Here, \"park\" means an open public place for walking or relaxing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -147397,7 +147847,8 @@
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
       "episode-2026-06-17-using-a-laundromat",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -147482,6 +147933,13 @@
         "sentence": "A lost charger, a missed email, a forgotten umbrella, and a late payment may all come from weak transfer points.",
         "contextMeaning": "Here, \"payment\" means a late payment can come from a weak process",
         "source": "codex_manual_lesson_context",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
+        "contextMeaning": "Here, \"payment\" means money the worker takes from the customer for the drink",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -148442,6 +148900,7 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
@@ -148511,6 +148970,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "That made it perfect for a musician who loved structure, depth, and powerful musical design.",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Mika: Perfect.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -151242,7 +151708,6 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-17-buying-a-sim-card-at-the-airport",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
@@ -151298,13 +151763,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Learn how to research a foreign market before you spend serious money on an international business plan.",
         "contextMeaning": "Here, \"plan\" means a detailed idea for starting a business in another country",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "They can talk, help each other, and make a plan.",
-        "contextMeaning": "Here, \"plan\" means a good idea players make to work together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -151734,7 +152192,8 @@
       "episode-2026-05-21-a1-train-station-platform-help",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-transport-backup-plan",
-      "episode-2026-06-05-asking-for-directions-in-a-station"
+      "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -151771,6 +152230,13 @@
         "contextMeaning": "Here, \"platform\" means the traveler asks for platform three",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A phone, computer, console, or tablet can be a platform",
+        "contextMeaning": "Here, \"platform\" means a phone, computer, console, or tablet can be a platform",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -151788,7 +152254,8 @@
       "episode-2026-05-14-transportation-risa-docx-trial",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-transport-backup-plan"
+      "episode-2026-06-03-transport-backup-plan",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -151816,6 +152283,13 @@
         "episodeId": "episode-2026-06-03-transport-backup-plan",
         "sentence": "the platforms.",
         "contextMeaning": "Here, \"platforms\" means the traveler needs Platform 2",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A phone, computer, console, or tablet can be a platform",
+        "contextMeaning": "Here, \"platforms\" means a phone, computer, console, or tablet can be a platform",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -152080,29 +152554,6 @@
       }
     ]
   },
-  "playing": {
-    "word": "playing",
-    "definition": "Doing a game or fun activity",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-10-playing-video-games"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Do you like playing alone or with other people?",
-        "contextMeaning": "Here, \"playing\" means doing a game alone or with friends",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "plays": {
     "word": "plays",
     "definition": "Works when you use it for fun",
@@ -152115,7 +152566,6 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple"
     ],
     "contexts": [
@@ -152123,13 +152573,6 @@
         "episodeId": "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
         "sentence": "But reports say it still looks good and plays well.",
         "contextMeaning": "Here, \"plays\" means the game still works well when used",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Who Plays Video Games?",
-        "contextMeaning": "Here, \"plays\" means does video games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -155521,6 +155964,7 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-taking-a-taxi",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-22-which-country-fits-your-personality",
@@ -155587,6 +156031,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "DISCUSSION 3: Do you prefer characters with simple designs or detailed designs?",
         "contextMeaning": "Here, \"prefer\" means do you like simple or detailed character pictures more",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Do you prefer single-player games or team games?",
+        "contextMeaning": "Here, \"prefer\" means like single-player or team games more than the other",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -160710,6 +161161,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-why-cats-act-so-strange",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life"
     ],
     "contexts": [
@@ -160721,9 +161173,39 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Puzzle games are also different.",
+        "contextMeaning": "Here, \"puzzle\" means a game where you think and find the right answer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
         "sentence": "NASA notes that Bennu contains a more equal mixture, which makes the puzzle sharper: if early chemistry could make both versions, why did biology on our planet strongly choose one?",
         "contextMeaning": "Here, \"puzzle\" means a hard question about why life chose one type when both exist",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "puzzles": {
+    "word": "puzzles",
+    "definition": "Games where you find answers or fit pieces",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people play because they like stories, sports, puzzles, or teamwork.",
+        "contextMeaning": "Here, \"puzzles\" means games where you think and find answers or solutions",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -161530,6 +162012,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-17-getting-a-library-card",
@@ -161679,6 +162162,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It could fill a church with sound, from a quiet prayer-like tone to a huge wave of music.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "This can be good when you want quiet time.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -161929,29 +162419,6 @@
         "sentence": "The system should also have quotas, logs, evaluation tests, and provider failover.",
         "contextMeaning": "Here, \"quotas\" means a cap on model credits, calls, or expensive reasoning",
         "source": "popup_support_router/authored_reading_vocabulary",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "racing": {
-    "word": "racing",
-    "definition": "Running or driving very fast to win",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-10-playing-video-games"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
-        "contextMeaning": "Here, \"racing\" means a sport where players try to go fastest and win",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -162650,7 +163117,6 @@
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants"
     ],
@@ -162673,13 +163139,6 @@
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "| In an emergency, I would rather know...",
         "contextMeaning": "Here, \"rather\" means shows a choice or preference for knowing something",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "3: Would you rather explore a new place or build a new world?",
-        "contextMeaning": "Here, \"rather\" means choose if you like exploring or building more",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -163301,6 +163760,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -163391,6 +163851,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "Final Reflection Useful Topic Vocabulary festival - a special event with many activities booth - a small place for a game, food, or activity prepare - get ready before something crowded - full of many people audience - the people watching a show nervous - worried before doing something proud - happy because you did something well sold out - all gone because people bought everything next time - the next chance or event",
+        "contextMeaning": "Here, \"ready\" means prepared to do something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Your latte will be ready soon.",
         "contextMeaning": "Here, \"ready\" means prepared to do something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -166699,8 +167166,8 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Other people like games because they can relax and have fun.",
-        "contextMeaning": "Here, \"relax\" means to rest and feel calm when playing games",
+        "sentence": "Some people play to relax.",
+        "contextMeaning": "Here, \"relax\" means to rest and feel calm by playing games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -166734,6 +167201,7 @@
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
     ],
     "contexts": [
@@ -166755,6 +167223,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Some like relaxed or funny characters.",
         "contextMeaning": "Here, \"relaxed\" means characters that are calm and easygoing",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A tablet can feel simple and relaxed.",
+        "contextMeaning": "Here, \"relaxed\" means feeling easy and simple when using a tablet",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -166823,8 +167298,8 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Games can be fun, exciting, and relaxing.",
-        "contextMeaning": "Here, \"relaxing\" means games can be relaxing",
+        "sentence": "Mika wants something relaxing",
+        "contextMeaning": "Here, \"relaxing\" means mika wants something relaxing",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -167433,6 +167908,29 @@
         "sentence": "Radio remains valuable because it is proven and robust.",
         "contextMeaning": "Here, \"remains\" means radio still is useful and does not stop being good",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "remake": {
+    "word": "remake",
+    "definition": "Make again",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "The worker can remake the wrong drink",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker can remake the wrong drink",
+        "contextMeaning": "Here, \"remake\" means the worker can remake the wrong drink",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -175234,8 +175732,8 @@
   },
   "run": {
     "word": "run",
-    "definition": "To move fast with your legs",
-    "cefrLevel": "A1",
+    "definition": "To do or manage an activity",
+    "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
     "exampleGeneral": "",
@@ -175243,17 +175741,9 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
     ],
     "contexts": [
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In action games, players fight, run, or move quickly.",
-        "contextMeaning": "Here, \"run\" means players move quickly in the game",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "In the controlled pilot, run several pop-ups or market events, not only one day.",
@@ -175954,6 +176444,7 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
@@ -176074,6 +176565,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "Workers keep the area clean and safe.",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "First, learn how to talk about platforms, game types, friends, and safe habits.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -177509,7 +178007,6 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
@@ -177613,13 +178110,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "6: Give three tasks AI can help with, and say what humans must still do.",
         "contextMeaning": "Here, \"say\" means tell what people must still do after AI helps",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Learn useful game words, answer short questions, and say what kinds of games you like.",
-        "contextMeaning": "Here, \"say\" means to tell what kinds of games you enjoy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -179118,6 +179608,7 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
@@ -179155,6 +179646,13 @@
       {
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "It is not far away on a screen.",
+        "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A console connects to a TV or screen.",
         "contextMeaning": "Here, \"screen\" means phone or computer parts that show pictures",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -187595,6 +188093,29 @@
       }
     ]
   },
+  "single-player": {
+    "word": "single-player",
+    "definition": "For one player",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "A single-player game can be quiet",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A single-player game can be quiet",
+        "contextMeaning": "Here, \"single-player\" means a single-player game can be quiet",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sink": {
     "word": "sink",
     "definition": "The kitchen basin where Mina puts her cup",
@@ -189152,6 +189673,7 @@
       "episode-2026-05-31-apartment-repair-explain-the-problem",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-09-working-at-a-winery",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
@@ -189194,6 +189716,13 @@
       {
         "episodeId": "episode-2026-06-09-working-at-a-winery",
         "sentence": "They may ask, \"Where is the tasting room?\" or \"Can I buy this bottle?\" A worker can answer slowly and point to the place.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "I like puzzle games because I can think slowly.",
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -190091,7 +190620,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work"
+      "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -190104,6 +190634,13 @@
       {
         "episodeId": "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
         "sentence": "This matters for serious work because people need to check the source, not only read a smooth summary.",
+        "contextMeaning": "Here, \"smooth\" means soft and even, without rough pieces",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "It is usually smooth and mild.",
         "contextMeaning": "Here, \"smooth\" means soft and even, without rough pieces",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -190386,29 +190923,6 @@
         "sentence": "She said it came after she got sober.",
         "contextMeaning": "Here, \"sober\" means not using alcohol or drugs anymore",
         "source": "episode-supported",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "soccer": {
-    "word": "soccer",
-    "definition": "A game where you kick a ball to score",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-10-playing-video-games"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In sports games, players can play soccer, basketball, baseball, or racing.",
-        "contextMeaning": "Here, \"soccer\" means a sport game where players kick a ball to score",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -191195,6 +191709,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-29-important-questions-for-real-life-a1",
@@ -191261,6 +191776,13 @@
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Oedipus' intelligence helps him solve the riddle of the Sphinx, but his certainty pushes him toward a terrible truth.",
         "contextMeaning": "Here, \"solve\" means find the answer to the hard question from the Sphinx",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Players think carefully and solve a small problem.",
+        "contextMeaning": "Here, \"solve\" means find the right answer to a small problem in the game",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -192533,7 +193055,8 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-17-checking-in-at-a-hotel",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -192588,6 +193111,13 @@
       {
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Ask people to repeat: \"Sorry, can you say that again?\"",
+        "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker can say, \"I am sorry.",
         "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -193855,7 +194385,6 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-23-talking-about-what-people-like-a1"
@@ -194201,13 +194730,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Speaking Practice Questions 1.",
         "contextMeaning": "Here, \"speaking\" means practice questions to help you talk out loud",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Speaking Practice Questions 1.",
-        "contextMeaning": "Here, \"speaking\" means talking practice questions to help you speak",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -195417,7 +195939,8 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -195438,6 +195961,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "People visit famous music studios, old castles, temples, sports stadiums, movie locations, and historical sites because they want to stand where something meaningful happened.",
         "contextMeaning": "Here, \"sports\" means places where people play games or sports",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In a sports game, players can play soccer, basketball, baseball, or racing.",
+        "contextMeaning": "Here, \"sports\" means games where you play soccer, basketball, or other physical games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -201125,6 +201655,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -201299,6 +201830,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Vacation objects often have weak practical value but strong emotional value.",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "An espresso is a very small, strong coffee.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -203000,6 +203538,29 @@
       }
     ]
   },
+  "sugar": {
+    "word": "sugar",
+    "definition": "A sweet white thing to put in food or drinks",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
+        "contextMeaning": "Here, \"sugar\" means a choice the worker asks about to put in the coffee",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "suggest": {
     "word": "suggest",
     "definition": "Give an idea or help with a choice",
@@ -203018,7 +203579,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -203076,6 +203638,36 @@
         "contextMeaning": "Here, \"suggest\" means to say something may be true, without proving it completely",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "For example, if the customer wants a mild hot drink, suggest a latte.",
+        "contextMeaning": "Here, \"suggest\" means say a drink name for the customer to try",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "suggestion": {
+    "word": "suggestion",
+    "definition": "An idea to help or choose something",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "After that, give one simple suggestion.",
+        "contextMeaning": "Here, \"suggestion\" means give one easy idea for what to drink",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -203094,7 +203686,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -203130,6 +203723,13 @@
         "sentence": "The REBUS idea, linked with Robin Carhart-Harris and Karl Friston, suggests that psychedelics may relax the precision of high-level priors.",
         "contextMeaning": "Here, \"suggests\" means says something may be true, without proving it completely",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": ": The worker suggests a latte because the customer wants something mild.",
+        "contextMeaning": "Here, \"suggests\" means the worker gives a drink idea to the customer",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -205212,7 +205812,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -205276,6 +205877,13 @@
         "sentence": "Some people like sweet food.",
         "contextMeaning": "Here, \"sweet\" means \"sweet\" describes one kind of food taste",
         "source": "codex_manual_a1_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "They may say, \"I want something not too strong,\" or \"I want something cold and sweet.\"",
+        "contextMeaning": "Here, \"sweet\" means the drink tastes like sugar and is cold",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -206176,7 +206784,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a1-pharmacy-ask-for-medicine",
-      "episode-2026-06-05-buying-medicine-at-a-drugstore"
+      "episode-2026-06-05-buying-medicine-at-a-drugstore",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -206184,6 +206793,13 @@
         "sentence": "The worker may say, \"Take one tablet after food with water.\" It is smart to repeat the advice.",
         "contextMeaning": "Here, \"tablet\" means the customer takes one tablet",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "A tablet can feel simple and relaxed.",
+        "contextMeaning": "Here, \"tablet\" means a small computer you use to play games easily",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -206337,6 +206953,29 @@
       }
     ]
   },
+  "take a break": {
+    "word": "take a break",
+    "definition": "Stop for a short time",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "Friends can take a break after one round",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Friends can take a break after one round",
+        "contextMeaning": "Here, \"take a break\" means friends can take a break after one round",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "takeaway": {
     "word": "takeaway",
     "definition": "Food you take away from the shop",
@@ -206405,7 +207044,8 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
+      "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -206490,6 +207130,13 @@
         "sentence": "A strong tool user asks clear questions, checks important facts, edits the result, and takes responsibility for the final decision.",
         "contextMeaning": "Here, \"takes\" means accepts responsibility",
         "source": "popup_manual_review/leverage_safe_meaning_pack_2026_06_27",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
+        "contextMeaning": "Here, \"takes\" means the worker gets money from the customer",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -206760,7 +207407,6 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple"
     ],
     "contexts": [
@@ -206845,13 +207491,6 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "The best research still ends with a human checking official sources and talking to real customers.",
         "contextMeaning": "Here, \"talking\" means speaking with real customers to learn from them",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Video games are also good for talking in English.",
-        "contextMeaning": "Here, \"talking\" means using words to speak English while playing video games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -207415,6 +208054,7 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -207477,6 +208117,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
+        "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "It can taste stronger than a latte because it has less milk.",
         "contextMeaning": "Here, \"taste\" means to try food or drink with your mouth",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -207797,6 +208444,7 @@
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
@@ -207818,6 +208466,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "His job was not only to \"be creative.\" He had to compose, teach, rehearse musicians, play the organ, and prepare music for religious services.",
+        "contextMeaning": "Here, \"teach\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "It does not teach brand-specific game names or novelty game vocabulary.",
         "contextMeaning": "Here, \"teach\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -207927,6 +208582,7 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
@@ -207934,6 +208590,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -207975,6 +208632,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "During his life, he was known more as an excellent organist, keyboard player, teacher, and church musician.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Useful Speaking Patterns Teacher review is enough for this low-risk hobby lesson.",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -208029,6 +208693,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Useful Speaking Patterns Teacher review is enough for this low-risk practical lesson.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "What do you want the teacher to know about you?",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
@@ -208050,6 +208721,7 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
@@ -208068,6 +208740,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This teaches an important lesson: memes do not always keep the same meaning.",
+        "contextMeaning": "Here, \"teaches\" means to help someone learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "The lesson teaches general everyday game English and simple online-play habits.",
         "contextMeaning": "Here, \"teaches\" means to help someone learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -208237,7 +208916,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -208252,6 +208932,13 @@
         "sentence": "They did not lose the cake, but they almost lost their teamwork.",
         "contextMeaning": "Here, \"teamwork\" means they need teamwork to save the party",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Some people play because they like stories, sports, puzzles, or teamwork.",
+        "contextMeaning": "Here, \"teamwork\" means teamwork is one skill an intern can learn by watching real employees",
+        "source": "popup_support_router/curated_support_definition",
         "confidence": "trusted"
       }
     ]
@@ -208724,8 +209411,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
     ],
     "contexts": [
       {
@@ -208733,13 +209419,6 @@
         "sentence": "A meme can be obvious to children or teenagers but completely confusing to adults.",
         "contextMeaning": "Here, \"teenagers\" means young people between childhood and adult age",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Children, teenagers, and adults can all enjoy games.",
-        "contextMeaning": "Here, \"teenagers\" means teenagers can enjoy games",
-        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -208985,7 +209664,8 @@
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -209014,6 +209694,13 @@
         "sentence": "It shows speed, fuel, temperature, and warning lights.",
         "contextMeaning": "Here, \"temperature\" means how hot or cold something is",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "First ask about temperature: \"Would you like a hot drink or an iced drink?\"",
+        "contextMeaning": "Here, \"temperature\" means ask if the drink should be hot or cold",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -209917,8 +210604,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
     ],
     "contexts": [
       {
@@ -209926,13 +210612,6 @@
         "sentence": "For example, AI can write text, answer questions, study patterns, and help people plan work.",
         "contextMeaning": "Here, \"text\" means written words or sentences",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Read a simple A1-A2 text about video games.",
-        "contextMeaning": "Here, \"text\" means a short reading about video games for learners",
-        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -210855,8 +211534,10 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -210897,6 +211578,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Then practice a longer conversation between two friends choosing a game.",
+        "contextMeaning": "Here, \"then\" means after that or at that time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
         "sentence": "Then you practice short airport dialogues.",
         "contextMeaning": "Here, \"then\" means after that or at that time",
@@ -210906,6 +211594,13 @@
       {
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Then change the final word.",
+        "contextMeaning": "Here, \"then\" means after that or at that time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "People come in, look at the menu, order a drink, pay, wait, and then take their drink to a table or out the door.",
         "contextMeaning": "Here, \"then\" means after that or at that time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -212202,7 +212897,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-21-a2-clinic-appointment-symptoms",
-      "episode-2026-05-22-australia-branch-business-catch-up"
+      "episode-2026-05-22-australia-branch-business-catch-up",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -212216,6 +212912,13 @@
         "episodeId": "episode-2026-05-22-australia-branch-business-catch-up",
         "sentence": "How would you explain your company in thirty seconds?",
         "contextMeaning": "Here, \"thirty\" means the amount of seconds to explain your company",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "I would play for thirty minutes.",
+        "contextMeaning": "Here, \"thirty\" means the number of minutes someone wants to play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -214218,6 +214921,7 @@
       "episode-2026-05-31-at-the-clinic-say-what-hurts",
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-29-school-festival-conversation-a2"
     ],
     "contexts": [
@@ -214302,6 +215006,13 @@
         "episodeId": "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
         "sentence": "I am tired.",
         "contextMeaning": "Here, \"tired\" means i feel I need to rest",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": ": Mika is a little tired and wants something relaxing.",
+        "contextMeaning": "Here, \"tired\" means feeling a little sleepy or needing a break",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -214507,14 +215218,23 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "The customer wants the latte to go",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack"
+      "episode-2026-05-21-a1-cafe-order-a-drink-and-snack",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
-    "contexts": []
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The customer wants the latte to go",
+        "contextMeaning": "Here, \"to go\" means the customer wants the latte to go",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
   },
   "toast": {
     "word": "toast",
@@ -216286,8 +217006,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture"
     ],
     "contexts": [
       {
@@ -216301,13 +217020,6 @@
         "episodeId": "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
         "sentence": "In many Japanese towns, people now repair these houses and use them in new ways.",
         "contextMeaning": "Here, \"towns\" means small cities in Japan where people live and fix houses",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "In building games, players can make houses, towns, or their own world.",
-        "contextMeaning": "Here, \"towns\" means small places with many buildings players can make",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -216906,6 +217618,7 @@
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-05-asking-for-directions-in-a-station",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
@@ -216973,6 +217686,13 @@
       {
         "episodeId": "episode-2026-06-05-asking-for-directions-in-a-station",
         "sentence": "People see signs for the ticket gate, platforms, exits, and train lines.",
+        "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "They play one quick game on the train or at home.",
         "contextMeaning": "Here, \"train\" means a long vehicle that runs on tracks",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -221448,7 +222168,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-08-gap-selling-sales-logic-explainer",
-      "episode-2026-05-30-a2-city-office-ask-about-a-form"
+      "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -221461,6 +222182,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-city-office-ask-about-a-form",
         "sentence": "She says, \"I need to update my address.\" The worker understands the main purpose.",
+        "contextMeaning": "Here, \"understands\" means to know what something means",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "This shows the customer that the worker understands.",
         "contextMeaning": "Here, \"understands\" means to know what something means",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -221482,7 +222210,8 @@
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -221517,6 +222246,13 @@
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "It feels like music made by someone who understood both beauty and hardship.",
         "contextMeaning": "Here, \"understood\" means he knew about both good and hard things",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "The customer needs to feel understood.",
+        "contextMeaning": "Here, \"understood\" means the customer wants the worker to know what they want",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -223184,6 +223920,7 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-12-listening-to-mrs-green-apple",
@@ -223209,6 +223946,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -223473,6 +224211,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "In an adventure game, players explore new places and find useful items.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-10-the-history-of-tea",
         "sentence": "It also felt useful for the body and mind.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
@@ -223643,6 +224388,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The useful question is not only \"Why do people waste money?\"",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Useful Speaking Patterns Teacher review is enough for this low-risk practical lesson.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -224147,7 +224899,6 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
@@ -224391,13 +225142,6 @@
         "episodeId": "episode-2026-06-10-meditation-and-the-social-brain-b1",
         "sentence": "Warm-up: When you feel stressed, what usually helps you become calm again?",
         "contextMeaning": "Here, \"usually\" means what often helps you feel calm when stressed",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "1: When do you usually play games?",
-        "contextMeaning": "Here, \"usually\" means at what time you most often play games",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -225668,6 +226412,29 @@
       }
     ]
   },
+  "video-game english": {
+    "word": "video-game english",
+    "definition": "Words used in video games to help players",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Video-game English does not need to be complicated.",
+        "contextMeaning": "Here, \"video-game english\" means easy and simple words used in video games",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "videos": {
     "word": "videos",
     "definition": "Moving pictures you can watch on a screen",
@@ -226751,6 +227518,29 @@
         "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
         "contextMeaning": "Here, \"voice\" means the sound a person makes when speaking",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "voice chat": {
+    "word": "voice chat",
+    "definition": "Talking by microphone during a game",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "Friends may use voice chat or short messages",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Friends may use voice chat or short messages",
+        "contextMeaning": "Here, \"voice chat\" means friends may use voice chat or short messages",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -228184,7 +228974,8 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-23-talking-about-what-people-like-a1",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -228312,6 +229103,13 @@
         "contextMeaning": "Here, \"warm\" means friendly and comforting",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "A latte is espresso with a lot of warm milk.",
+        "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -228395,6 +229193,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -228701,7 +229500,7 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Warm-Up Questions 1.",
+        "sentence": "Playing Video Games Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -228877,6 +229676,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Why People Buy Useless Things on Vacation Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "Cafe Coffee and Working at a Cafe Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -230894,7 +231700,6 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
-      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
     ],
     "contexts": [
@@ -230903,13 +231708,6 @@
         "sentence": "Weekends bring another kind of learning.",
         "contextMeaning": "Here, \"weekends\" means the days at the end of the week that bring different kinds of learning",
         "source": "episode-supported",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Some people play games on weekends.",
-        "contextMeaning": "Here, \"weekends\" means saturday and Sunday",
-        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -232859,8 +233657,7 @@
     "episodes": [
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
     ],
     "contexts": [
       {
@@ -232881,13 +233678,6 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "Rankings are not only about winning.",
         "contextMeaning": "Here, \"winning\" means getting first place is not the only thing about rankings",
-        "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Some people like winning.",
-        "contextMeaning": "Here, \"winning\" means people like being the best in a game or contest",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -234143,6 +234933,7 @@
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
       "episode-2026-06-17-using-a-laundromat",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -234296,6 +235087,13 @@
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Brisbane is a larger resident, worker, and business market.",
+        "contextMeaning": "Here, \"worker\" means a person who does a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+        "sentence": "What Happens in a Cafe A cafe worker does more than make coffee.",
         "contextMeaning": "Here, \"worker\" means a person who does a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -234750,6 +235548,7 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
@@ -234854,6 +235653,13 @@
       {
         "episodeId": "episode-2026-06-10-johann-sebastian-bach-music-architecture",
         "sentence": "Bach wrote many cantatas, which are musical works for singers and instruments.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Mika: Yes, that works.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
