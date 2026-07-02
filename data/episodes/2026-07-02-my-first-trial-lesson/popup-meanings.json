@@ -55,12 +55,12 @@
     "selectedSenseId": "ovi_sense_en_ece7669aecba",
     "selectedSenseConfidence": "first_trusted_sense"
   },
-  "available": {
-    "simpleMeaning": "free to do something at a time",
-    "contextMeaning": "Here, it means the times when the learner can meet for class.",
-    "sentence": "You can tell the teacher when you are available.",
-    "sourceSentence": "You can tell the teacher when you are available.",
-    "example": "You can tell the teacher when you are available.",
+  "weekday evening": {
+    "simpleMeaning": "an evening from Monday to Friday",
+    "contextMeaning": "Here, it means a normal work or school night when the learner can take a lesson.",
+    "sentence": "Learner: I am available on weekday evenings and weekend mornings.",
+    "sourceSentence": "Learner: I am available on weekday evenings and weekend mornings.",
+    "example": "Learner: I am available on weekday evenings and weekend mornings.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_manual_review/my_first_trial_lesson_density_repair_2026-07-02",
@@ -74,16 +74,12 @@
     "reviewedAt": "2026-07-02T03:00:00.000Z",
     "reviewSource": "codex_manual_review",
     "sourceEvidenceIds": [
-      "ovi_ev_en_2a044929bb1a",
-      "ovi_ev_en_31cc70d55c06"
+      "ovi_ev_en_d81e35fb1992"
     ],
-    "evidenceId": "ovi_ev_en_2a044929bb1a",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
+    "evidenceId": "ovi_ev_en_d81e35fb1992",
+    "popupBankBridgeStatus": "local_only_needs_registry_review",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_a0baf3971cbd",
-    "matchedFormId": "ovi_form_en_1dfce6bb3940",
-    "selectedSenseId": "ovi_sense_en_43d1c8dc2c7e",
-    "selectedSenseConfidence": "first_trusted_sense"
+    "selectedSenseConfidence": "local_only_no_registry"
   },
   "study habit": {
     "simpleMeaning": "something you do often to learn",
@@ -104,9 +100,9 @@
     "reviewedAt": "2026-07-02T03:00:00.000Z",
     "reviewSource": "codex_manual_review",
     "sourceEvidenceIds": [
-      "ovi_ev_en_eec4aa56bc9b"
+      "ovi_ev_en_660b53ac39e1"
     ],
-    "evidenceId": "ovi_ev_en_eec4aa56bc9b",
+    "evidenceId": "ovi_ev_en_660b53ac39e1",
     "popupBankBridgeStatus": "local_only_needs_registry_review",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "selectedSenseConfidence": "local_only_no_registry"
@@ -285,12 +281,39 @@
     "selectedSenseId": "ovi_sense_en_8cf6d8fb1096",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
+  "dialogue": {
+    "simpleMeaning": "A short practice conversation",
+    "contextMeaning": "Here, dialogue means a short practice conversation between people.",
+    "sentence": "Practice this dialogue.",
+    "sourceSentence": "Practice this dialogue.",
+    "example": "Practice this dialogue.",
+    "source": "popup_support_router/trusted_popup_context_rule",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "trusted_popup_context_rule",
+    "contextMeaningSource": "trusted_popup_context_rule",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1",
+    "language": "en",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_31e055432eda",
+      "ovi_ev_en_b82da52600bb"
+    ],
+    "evidenceId": "ovi_ev_en_31e055432eda",
+    "popupBankBridgeStatus": "supported_with_selected_sense",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "lexemeId": "ovi_lex_en_2f0522b29617",
+    "matchedFormId": "ovi_form_en_ef084bd49133",
+    "selectedSenseId": "ovi_sense_en_50e0698458f9",
+    "selectedSenseConfidence": "source_and_meaning_match"
+  },
   "grammar": {
     "simpleMeaning": "Rules for making correct sentences",
     "contextMeaning": "Here, \"grammar\" means rules for making correct sentences.",
-    "sentence": "You can say, \"I know some grammar, but I need more practice.\"",
-    "sourceSentence": "You can say, \"I know some grammar, but I need more practice.\"",
-    "example": "You can say, \"I know some grammar, but I need more practice.\"",
+    "sentence": "Grammar may feel familiar, but listening may still feel difficult.",
+    "sourceSentence": "Grammar may feel familiar, but listening may still feel difficult.",
+    "example": "Grammar may feel familiar, but listening may still feel difficult.",
     "source": "popup_support_router/producer_context_rule",
     "popupMode": "prebuilt_safe",
     "supportAction": "support_inline",
@@ -301,10 +324,10 @@
     "generatedBy": "popup_support_router_v1",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_1221fa15e04a",
+      "ovi_ev_en_4d01aebc455c",
       "ovi_ev_en_3de8eed106d9"
     ],
-    "evidenceId": "ovi_ev_en_1221fa15e04a",
+    "evidenceId": "ovi_ev_en_4d01aebc455c",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_ff49013b7fe5",
@@ -477,9 +500,9 @@
   "useful": {
     "simpleMeaning": "Helpful for a purpose",
     "contextMeaning": "Here, \"useful\" means helpful for a purpose.",
-    "sentence": "This is a useful answer.",
-    "sourceSentence": "This is a useful answer.",
-    "example": "This is a useful answer.",
+    "sentence": "A not-sure goal is still useful when it is honest.",
+    "sourceSentence": "A not-sure goal is still useful when it is honest.",
+    "example": "A not-sure goal is still useful when it is honest.",
     "source": "popup_support_router/teaching_lexicon_trusted",
     "popupMode": "prebuilt_safe",
     "supportAction": "teach",
@@ -490,10 +513,10 @@
     "generatedBy": "popup_support_router_v1",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_e6ca0b44ac2f",
+      "ovi_ev_en_60c31a51ceac",
       "ovi_ev_en_1532d9073839"
     ],
-    "evidenceId": "ovi_ev_en_e6ca0b44ac2f",
+    "evidenceId": "ovi_ev_en_60c31a51ceac",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_ef0ac6b3c425",
@@ -504,9 +527,9 @@
   "evenings": {
     "simpleMeaning": "The later part of the day before night",
     "contextMeaning": "Here, \"evenings\" means the later part of the day before night.",
-    "sentence": "For example, \"I am free on Tuesday evenings.\"",
-    "sourceSentence": "For example, \"I am free on Tuesday evenings.\"",
-    "example": "For example, \"I am free on Tuesday evenings.\"",
+    "sentence": "Weekday evenings may work for some learners.",
+    "sourceSentence": "Weekday evenings may work for some learners.",
+    "example": "Weekday evenings may work for some learners.",
     "source": "popup_support_router/teaching_lexicon_trusted",
     "popupMode": "prebuilt_safe",
     "supportAction": "teach",
@@ -517,43 +540,16 @@
     "generatedBy": "popup_support_router_v1",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_0e1ae47255d5",
+      "ovi_ev_en_82adedb800d3",
       "ovi_ev_en_78757844ae5b"
     ],
-    "evidenceId": "ovi_ev_en_0e1ae47255d5",
+    "evidenceId": "ovi_ev_en_82adedb800d3",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_997e105d9d62",
     "matchedFormId": "ovi_form_en_fee114a9226d",
     "selectedSenseId": "ovi_sense_en_452ae0434afe",
     "selectedSenseConfidence": "first_trusted_sense"
-  },
-  "weekends": {
-    "simpleMeaning": "Saturday and Sunday",
-    "contextMeaning": "Here, \"weekends\" means saturday and Sunday.",
-    "sentence": "You can also say, \"Weekends are better for me.\"",
-    "sourceSentence": "You can also say, \"Weekends are better for me.\"",
-    "example": "You can also say, \"Weekends are better for me.\"",
-    "source": "popup_support_router/teaching_lexicon_trusted",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "teach",
-    "simpleMeaningSource": "teaching_lexicon_trusted",
-    "contextMeaningSource": "teaching_lexicon_trusted",
-    "translationJa": "",
-    "translationEs": "",
-    "generatedBy": "popup_support_router_v1",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_7bf15dc79991",
-      "ovi_ev_en_be78ffe5b5b2"
-    ],
-    "evidenceId": "ovi_ev_en_7bf15dc79991",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_c9f20b17168b",
-    "matchedFormId": "ovi_form_en_883b0321f076",
-    "selectedSenseId": "ovi_sense_en_033505414399",
-    "selectedSenseConfidence": "source_and_meaning_match"
   },
   "learns": {
     "simpleMeaning": "To get knowledge or skill",
@@ -609,6 +605,33 @@
     "selectedSenseId": "ovi_sense_en_7a72c16c7cf6",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
+  "weekend": {
+    "simpleMeaning": "Saturday and Sunday",
+    "contextMeaning": "Here, \"weekend\" means saturday and Sunday.",
+    "sentence": "Weekend mornings may work for others.",
+    "sourceSentence": "Weekend mornings may work for others.",
+    "example": "Weekend mornings may work for others.",
+    "source": "popup_support_router/teaching_lexicon_trusted",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "teaching_lexicon_trusted",
+    "contextMeaningSource": "teaching_lexicon_trusted",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1",
+    "language": "en",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_6a187793b734",
+      "ovi_ev_en_6925a38905b0"
+    ],
+    "evidenceId": "ovi_ev_en_6a187793b734",
+    "popupBankBridgeStatus": "supported_with_selected_sense",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "lexemeId": "ovi_lex_en_b7f6c317b3fd",
+    "matchedFormId": "ovi_form_en_f3525140cdcb",
+    "selectedSenseId": "ovi_sense_en_582ebe16c7fb",
+    "selectedSenseConfidence": "source_sentence_match"
+  },
   "first": {
     "simpleMeaning": "Number one in order",
     "contextMeaning": "Here, \"first\" means number one in order.",
@@ -634,6 +657,33 @@
     "lexemeId": "ovi_lex_en_56e99b1cfdbe",
     "matchedFormId": "ovi_form_en_f0f72d98636c",
     "selectedSenseId": "ovi_sense_en_a76265a942f9",
+    "selectedSenseConfidence": "source_and_meaning_match"
+  },
+  "decide": {
+    "simpleMeaning": "To make a choice",
+    "contextMeaning": "Here, \"decide\" means to make a choice.",
+    "sentence": "This helps you decide if the class feels right for you.",
+    "sourceSentence": "This helps you decide if the class feels right for you.",
+    "example": "This helps you decide if the class feels right for you.",
+    "source": "popup_support_router/teaching_lexicon_trusted",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "teach",
+    "simpleMeaningSource": "teaching_lexicon_trusted",
+    "contextMeaningSource": "teaching_lexicon_trusted",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1",
+    "language": "en",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_9b81b0209148",
+      "ovi_ev_en_22231a882587"
+    ],
+    "evidenceId": "ovi_ev_en_9b81b0209148",
+    "popupBankBridgeStatus": "supported_with_selected_sense",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "lexemeId": "ovi_lex_en_58f7711a208c",
+    "matchedFormId": "ovi_form_en_e169bedf08fb",
+    "selectedSenseId": "ovi_sense_en_50776e6a10ef",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
   "teach": {
@@ -717,33 +767,6 @@
     "selectedSenseId": "ovi_sense_en_4f7d63c5a12b",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
-  "after": {
-    "simpleMeaning": "Later than something",
-    "contextMeaning": "Here, \"after\" means later than something.",
-    "sentence": "Ten minutes of review after class is useful.",
-    "sourceSentence": "Ten minutes of review after class is useful.",
-    "example": "Ten minutes of review after class is useful.",
-    "source": "popup_support_router/teaching_lexicon_trusted",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "teaching_lexicon_trusted",
-    "contextMeaningSource": "teaching_lexicon_trusted",
-    "translationJa": "",
-    "translationEs": "",
-    "generatedBy": "popup_support_router_v1",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_8e29d146c67a",
-      "ovi_ev_en_4fe20fab639b"
-    ],
-    "evidenceId": "ovi_ev_en_8e29d146c67a",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_633d52b76eb2",
-    "matchedFormId": "ovi_form_en_0173c76f4b5d",
-    "selectedSenseId": "ovi_sense_en_8049c87047f2",
-    "selectedSenseConfidence": "source_and_meaning_match"
-  },
   "before": {
     "simpleMeaning": "Earlier than something",
     "contextMeaning": "Here, \"before\" means earlier than something.",
@@ -771,12 +794,12 @@
     "selectedSenseId": "ovi_sense_en_d4098ef32d73",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
-  "slowly": {
-    "simpleMeaning": "Not fast",
-    "contextMeaning": "Here, \"slowly\" means not fast.",
-    "sentence": "\"Please speak slowly.\"",
-    "sourceSentence": "\"Please speak slowly.\"",
-    "example": "\"Please speak slowly.\"",
+  "clearly": {
+    "simpleMeaning": "In an easy way to understand",
+    "contextMeaning": "Here, \"clearly\" means in an easy way to understand.",
+    "sentence": "The important thing is to name the problem clearly.",
+    "sourceSentence": "The important thing is to name the problem clearly.",
+    "example": "The important thing is to name the problem clearly.",
     "source": "popup_support_router/teaching_lexicon_trusted",
     "popupMode": "prebuilt_safe",
     "supportAction": "support_inline",
@@ -787,15 +810,42 @@
     "generatedBy": "popup_support_router_v1",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_55ddbc7d0377",
-      "ovi_ev_en_ef57a89d61d1"
+      "ovi_ev_en_5fd22d08a84f",
+      "ovi_ev_en_e681d4963908"
     ],
-    "evidenceId": "ovi_ev_en_55ddbc7d0377",
+    "evidenceId": "ovi_ev_en_5fd22d08a84f",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_47970b08e0d3",
-    "matchedFormId": "ovi_form_en_78c2fff28dc7",
-    "selectedSenseId": "ovi_sense_en_877535adfbb1",
+    "lexemeId": "ovi_lex_en_0cc2f331224a",
+    "matchedFormId": "ovi_form_en_fb2f0ed98556",
+    "selectedSenseId": "ovi_sense_en_0ebede86cf14",
+    "selectedSenseConfidence": "source_and_meaning_match"
+  },
+  "after": {
+    "simpleMeaning": "Later than something",
+    "contextMeaning": "Here, \"after\" means later than something.",
+    "sentence": "Ten minutes of review after class is useful.",
+    "sourceSentence": "Ten minutes of review after class is useful.",
+    "example": "Ten minutes of review after class is useful.",
+    "source": "popup_support_router/teaching_lexicon_trusted",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "simpleMeaningSource": "teaching_lexicon_trusted",
+    "contextMeaningSource": "teaching_lexicon_trusted",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1",
+    "language": "en",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_8e29d146c67a",
+      "ovi_ev_en_4fe20fab639b"
+    ],
+    "evidenceId": "ovi_ev_en_8e29d146c67a",
+    "popupBankBridgeStatus": "supported_with_selected_sense",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "lexemeId": "ovi_lex_en_633d52b76eb2",
+    "matchedFormId": "ovi_form_en_0173c76f4b5d",
+    "selectedSenseId": "ovi_sense_en_8049c87047f2",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
   "next": {
@@ -1012,6 +1062,33 @@
     "lexemeId": "ovi_lex_en_c2b2f065c8dd",
     "matchedFormId": "ovi_form_en_9a4392dca381",
     "selectedSenseId": "ovi_sense_en_9051606d5caa",
+    "selectedSenseConfidence": "source_and_meaning_match"
+  },
+  "available": {
+    "simpleMeaning": "Ready to use or get",
+    "contextMeaning": "Here, \"available\" means ready to use or get.",
+    "sentence": "When are you usually available for lessons?",
+    "sourceSentence": "When are you usually available for lessons?",
+    "example": "When are you usually available for lessons?",
+    "source": "popup_support_router/teaching_lexicon_trusted",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "simpleMeaningSource": "teaching_lexicon_trusted",
+    "contextMeaningSource": "teaching_lexicon_trusted",
+    "translationJa": "",
+    "translationEs": "",
+    "generatedBy": "popup_support_router_v1",
+    "language": "en",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_bfa3a4c2ee00",
+      "ovi_ev_en_c4d7ef0a2cf6"
+    ],
+    "evidenceId": "ovi_ev_en_bfa3a4c2ee00",
+    "popupBankBridgeStatus": "supported_with_selected_sense",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "lexemeId": "ovi_lex_en_a0baf3971cbd",
+    "matchedFormId": "ovi_form_en_1dfce6bb3940",
+    "selectedSenseId": "ovi_sense_en_497ad45292e5",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
   "easy": {
@@ -1860,12 +1937,12 @@
     "selectedSenseId": "ovi_sense_en_f72e00a823e2",
     "selectedSenseConfidence": "source_and_meaning_match"
   },
-  "will i": {
-    "simpleMeaning": "Ask if something will happen to me",
-    "contextMeaning": "Asking if I will get homework or not",
-    "sentence": "You can ask, \"Will I get homework?\"",
-    "sourceSentence": "You can ask, \"Will I get homework?\"",
-    "example": "You can ask, \"Will I get homework?\"",
+  "not-sure": {
+    "simpleMeaning": "You do not know for sure",
+    "contextMeaning": "A goal you are not sure about can still help you if honest",
+    "sentence": "A not-sure goal is still useful when it is honest.",
+    "sourceSentence": "A not-sure goal is still useful when it is honest.",
+    "example": "A not-sure goal is still useful when it is honest.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1876,16 +1953,43 @@
     "translationEs": "",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_3f63b692cbb4"
+      "ovi_ev_en_50473b607ed6"
     ],
-    "evidenceId": "ovi_ev_en_3f63b692cbb4",
+    "evidenceId": "ovi_ev_en_50473b607ed6",
     "popupBankBridgeStatus": "local_only_needs_registry_review",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "selectedSenseConfidence": "local_only_no_registry"
   },
+  "familiar": {
+    "simpleMeaning": "You know it before",
+    "contextMeaning": "Grammar feels like you know it, but listening is still hard",
+    "sentence": "Grammar may feel familiar, but listening may still feel difficult.",
+    "sourceSentence": "Grammar may feel familiar, but listening may still feel difficult.",
+    "example": "Grammar may feel familiar, but listening may still feel difficult.",
+    "source": "popup_prebuild_coverage/context_explain",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "simpleMeaningSource": "context_explain",
+    "contextMeaningSource": "context_explain",
+    "generatedBy": "popup_prebuild_coverage_v1",
+    "translationJa": "",
+    "translationEs": "",
+    "language": "en",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_b1f7dab62e26",
+      "ovi_ev_en_8795fd86d0a3"
+    ],
+    "evidenceId": "ovi_ev_en_b1f7dab62e26",
+    "popupBankBridgeStatus": "supported_with_selected_sense",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "lexemeId": "ovi_lex_en_d46b03df84ac",
+    "matchedFormId": "ovi_form_en_eefd98bcdd54",
+    "selectedSenseId": "ovi_sense_en_851fa33abb45",
+    "selectedSenseConfidence": "first_trusted_sense"
+  },
   "promise": {
-    "simpleMeaning": "Say you will do something for sure",
-    "contextMeaning": "Don't say you will study two hours if busy",
+    "simpleMeaning": "Say you will do something",
+    "contextMeaning": "Do not say you will study two hours if you are busy",
     "sentence": "If you are busy, do not promise two hours every day.",
     "sourceSentence": "If you are busy, do not promise two hours every day.",
     "example": "If you are busy, do not promise two hours every day.",
@@ -1900,47 +2004,22 @@
     "language": "en",
     "sourceEvidenceIds": [
       "ovi_ev_en_c3d9cfe05ba1",
-      "ovi_ev_en_2872cb6da99d"
+      "ovi_ev_en_d495af744d74"
     ],
     "evidenceId": "ovi_ev_en_c3d9cfe05ba1",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_4a1d572f853b",
     "matchedFormId": "ovi_form_en_86da18033601",
-    "selectedSenseId": "ovi_sense_en_8a236f7f296a",
-    "selectedSenseConfidence": "source_sentence_match"
-  },
-  "tuesday": {
-    "simpleMeaning": "The day after Monday and before Wednesday",
-    "contextMeaning": "Talking about being free on Tuesday evenings",
-    "sentence": "For example, \"I am free on Tuesday evenings.\"",
-    "sourceSentence": "For example, \"I am free on Tuesday evenings.\"",
-    "example": "For example, \"I am free on Tuesday evenings.\"",
-    "source": "popup_prebuild_coverage/context_explain",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
-    "translationJa": "",
-    "translationEs": "",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_25d77f0dc2b5"
-    ],
-    "evidenceId": "ovi_ev_en_25d77f0dc2b5",
-    "popupBankBridgeStatus": "supported_key_needs_sense_link",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_4fa9d9bb0e03",
-    "matchedFormId": "ovi_form_en_fd2269427c73",
-    "selectedSenseConfidence": "registry_key_only_no_safe_sense"
+    "selectedSenseId": "ovi_sense_en_60f991ca429e",
+    "selectedSenseConfidence": "first_trusted_sense"
   },
   "changes": {
-    "simpleMeaning": "When something becomes different",
-    "contextMeaning": "When your schedule is not the same all the time",
-    "sentence": "If your schedule changes, you can say, \"My work schedule is not always the same.\"",
-    "sourceSentence": "If your schedule changes, you can say, \"My work schedule is not always the same.\"",
-    "example": "If your schedule changes, you can say, \"My work schedule is not always the same.\"",
+    "simpleMeaning": "Things become different",
+    "contextMeaning": "If your plan is different often, tell your teacher",
+    "sentence": "If your schedule changes often, tell the teacher that too.",
+    "sourceSentence": "If your schedule changes often, tell the teacher that too.",
+    "example": "If your schedule changes often, tell the teacher that too.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1951,20 +2030,20 @@
     "translationEs": "",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_6cbcf0dd4f2c",
-      "ovi_ev_en_3617a2678d06"
+      "ovi_ev_en_3cbc480e9cd7",
+      "ovi_ev_en_9bafcd0ef92d"
     ],
-    "evidenceId": "ovi_ev_en_6cbcf0dd4f2c",
+    "evidenceId": "ovi_ev_en_3cbc480e9cd7",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_95ccf055ecd1",
     "matchedFormId": "ovi_form_en_c6aeade3aa78",
-    "selectedSenseId": "ovi_sense_en_2321f7f5259c",
+    "selectedSenseId": "ovi_sense_en_b923fd2994ae",
     "selectedSenseConfidence": "source_sentence_match"
   },
   "ten": {
-    "simpleMeaning": "The number after nine and before eleven",
-    "contextMeaning": "Talking about ten minutes to review after class",
+    "simpleMeaning": "Number after nine",
+    "contextMeaning": "Ten minutes of practice after class helps you",
     "sentence": "Ten minutes of review after class is useful.",
     "sourceSentence": "Ten minutes of review after class is useful.",
     "example": "Ten minutes of review after class is useful.",
@@ -1979,19 +2058,19 @@
     "language": "en",
     "sourceEvidenceIds": [
       "ovi_ev_en_35b9f2fe4cf2",
-      "ovi_ev_en_d53da704bac4"
+      "ovi_ev_en_ed164e20b5a6"
     ],
     "evidenceId": "ovi_ev_en_35b9f2fe4cf2",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_8f82a8bdff55",
     "matchedFormId": "ovi_form_en_dc7a09e0fa5c",
-    "selectedSenseId": "ovi_sense_en_0eecdeb7414d",
-    "selectedSenseConfidence": "source_sentence_match"
+    "selectedSenseId": "ovi_sense_en_c26735891049",
+    "selectedSenseConfidence": "first_trusted_sense"
   },
   "twice": {
     "simpleMeaning": "Two times",
-    "contextMeaning": "Listening two times in one week",
+    "contextMeaning": "Listen to the sound two times every week to help",
     "sentence": "Listening to the audio twice a week is useful.",
     "sourceSentence": "Listening to the audio twice a week is useful.",
     "example": "Listening to the audio twice a week is useful.",
@@ -2017,8 +2096,8 @@
     "selectedSenseConfidence": "source_sentence_match"
   },
   "realistic": {
-    "simpleMeaning": "Something that can really happen",
-    "contextMeaning": "A study plan that you can really do",
+    "simpleMeaning": "Can really happen",
+    "contextMeaning": "A good study plan is one you can really do",
     "sentence": "The best study plan is realistic.",
     "sourceSentence": "The best study plan is realistic.",
     "example": "The best study plan is realistic.",
@@ -2033,72 +2112,18 @@
     "language": "en",
     "sourceEvidenceIds": [
       "ovi_ev_en_06ce579dc931",
-      "ovi_ev_en_cc89a2a34581"
+      "ovi_ev_en_d6d160b6a095"
     ],
     "evidenceId": "ovi_ev_en_06ce579dc931",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_36648cd13e76",
     "matchedFormId": "ovi_form_en_f4934c61f3e1",
-    "selectedSenseId": "ovi_sense_en_fb9806c69fc4",
-    "selectedSenseConfidence": "source_sentence_match"
-  },
-  "finish": {
-    "simpleMeaning": "Stop doing something at the end",
-    "contextMeaning": "When I stop, can you check my work",
-    "sentence": "\"Can you correct me after I finish?\"",
-    "sourceSentence": "\"Can you correct me after I finish?\"",
-    "example": "\"Can you correct me after I finish?\"",
-    "source": "popup_prebuild_coverage/context_explain",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
-    "translationJa": "",
-    "translationEs": "",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_cae0dfb36df5",
-      "ovi_ev_en_821a29b3b131"
-    ],
-    "evidenceId": "ovi_ev_en_cae0dfb36df5",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_f8d681d87455",
-    "matchedFormId": "ovi_form_en_7a14b95340f1",
-    "selectedSenseId": "ovi_sense_en_e8d538a51fd1",
-    "selectedSenseConfidence": "first_trusted_sense"
-  },
-  "correct": {
-    "simpleMeaning": "Make something right or fix mistakes",
-    "contextMeaning": "Can you fix my mistakes after I finish",
-    "sentence": "\"Can you correct me after I finish?\"",
-    "sourceSentence": "\"Can you correct me after I finish?\"",
-    "example": "\"Can you correct me after I finish?\"",
-    "source": "popup_prebuild_coverage/context_explain",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
-    "translationJa": "",
-    "translationEs": "",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_ef70b134a33e",
-      "ovi_ev_en_d764c10de989"
-    ],
-    "evidenceId": "ovi_ev_en_ef70b134a33e",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_e733f4879504",
-    "matchedFormId": "ovi_form_en_a4ec0797d2b0",
-    "selectedSenseId": "ovi_sense_en_ae1c93e99c88",
+    "selectedSenseId": "ovi_sense_en_c5604bcb0521",
     "selectedSenseConfidence": "first_trusted_sense"
   },
   "smart": {
-    "simpleMeaning": "Someone who knows a lot or thinks well",
+    "simpleMeaning": "Knows a lot or thinks well",
     "contextMeaning": "They know many things or think well",
     "sentence": "They are smart.",
     "sourceSentence": "They are smart.",
@@ -2124,12 +2149,12 @@
     "selectedSenseId": "ovi_sense_en_a476ed859a4e",
     "selectedSenseConfidence": "first_trusted_sense"
   },
-  "improve": {
-    "simpleMeaning": "Get better at something",
-    "contextMeaning": "Get better after advice about what to do next",
-    "sentence": "Feedback is advice about what you did well and what you can improve next.",
-    "sourceSentence": "Feedback is advice about what you did well and what you can improve next.",
-    "example": "Feedback is advice about what you did well and what you can improve next.",
+  "finish": {
+    "simpleMeaning": "Do all of something",
+    "contextMeaning": "Some learners want to say all their words first",
+    "sentence": "Some learners want to finish speaking first.",
+    "sourceSentence": "Some learners want to finish speaking first.",
+    "example": "Some learners want to finish speaking first.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -2140,20 +2165,20 @@
     "translationEs": "",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_63bc77d2f0db",
-      "ovi_ev_en_df2dcdfa54a7"
+      "ovi_ev_en_9c25370ad90e",
+      "ovi_ev_en_821a29b3b131"
     ],
-    "evidenceId": "ovi_ev_en_63bc77d2f0db",
+    "evidenceId": "ovi_ev_en_9c25370ad90e",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_2d7592597016",
-    "matchedFormId": "ovi_form_en_74fdaef8bb6e",
-    "selectedSenseId": "ovi_sense_en_31b3988cc68c",
+    "lexemeId": "ovi_lex_en_f8d681d87455",
+    "matchedFormId": "ovi_form_en_7a14b95340f1",
+    "selectedSenseId": "ovi_sense_en_e8d538a51fd1",
     "selectedSenseConfidence": "first_trusted_sense"
   },
   "advice": {
-    "simpleMeaning": "Helpful words to make things better",
-    "contextMeaning": "Helpful words about what you did well and can do better",
+    "simpleMeaning": "Help with what to do",
+    "contextMeaning": "Feedback is help about what you did good and can fix",
     "sentence": "Feedback is advice about what you did well and what you can improve next.",
     "sourceSentence": "Feedback is advice about what you did well and what you can improve next.",
     "example": "Feedback is advice about what you did well and what you can improve next.",
@@ -2178,12 +2203,12 @@
     "selectedSenseId": "ovi_sense_en_2fbe1dffe8f6",
     "selectedSenseConfidence": "first_trusted_sense"
   },
-  "fine": {
-    "simpleMeaning": "okay enough",
-    "contextMeaning": "The teacher says it is okay or good",
-    "sentence": "Teacher: That is completely fine.",
-    "sourceSentence": "Teacher: That is completely fine.",
-    "example": "Teacher: That is completely fine.",
+  "improve": {
+    "simpleMeaning": "Get better",
+    "contextMeaning": "Feedback shows what you can get better at next",
+    "sentence": "Feedback is advice about what you did well and what you can improve next.",
+    "sourceSentence": "Feedback is advice about what you did well and what you can improve next.",
+    "example": "Feedback is advice about what you did well and what you can improve next.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -2192,29 +2217,25 @@
     "generatedBy": "popup_prebuild_coverage_v1",
     "translationJa": "",
     "translationEs": "",
-    "popupMeaningPolish": {
-      "contractVersion": "popup_meaning_polish_v1",
-      "applied": true
-    },
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_b1560a432afe",
-      "ovi_ev_en_0f1c6add60f8"
+      "ovi_ev_en_63bc77d2f0db",
+      "ovi_ev_en_df2dcdfa54a7"
     ],
-    "evidenceId": "ovi_ev_en_b1560a432afe",
+    "evidenceId": "ovi_ev_en_63bc77d2f0db",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_1dc288ea320c",
-    "matchedFormId": "ovi_form_en_4f5f123b48b6",
-    "selectedSenseId": "ovi_sense_en_8f368e27194b",
-    "selectedSenseConfidence": "source_sentence_match"
+    "lexemeId": "ovi_lex_en_2d7592597016",
+    "matchedFormId": "ovi_form_en_74fdaef8bb6e",
+    "selectedSenseId": "ovi_sense_en_31b3988cc68c",
+    "selectedSenseConfidence": "first_trusted_sense"
   },
-  "saturday": {
-    "simpleMeaning": "The day after Friday and before Sunday",
-    "contextMeaning": "Talking about being free on Saturday mornings",
-    "sentence": "Learner: I am available on Tuesday evenings and Saturday mornings.",
-    "sourceSentence": "Learner: I am available on Tuesday evenings and Saturday mornings.",
-    "example": "Learner: I am available on Tuesday evenings and Saturday mornings.",
+  "description": {
+    "simpleMeaning": "Say what something is like",
+    "contextMeaning": "A simple level description says what is easy and hard now",
+    "sentence": "A simple level description has two parts: what is okay now and what is hard now.",
+    "sourceSentence": "A simple level description has two parts: what is okay now and what is hard now.",
+    "example": "A simple level description has two parts: what is okay now and what is hard now.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -2225,20 +2246,20 @@
     "translationEs": "",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_a7450bd82432",
-      "ovi_ev_en_5b9d79c7f956"
+      "ovi_ev_en_8f3c8be08df0",
+      "ovi_ev_en_6352adbc55a3"
     ],
-    "evidenceId": "ovi_ev_en_a7450bd82432",
+    "evidenceId": "ovi_ev_en_8f3c8be08df0",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_a011b3f5cde4",
-    "matchedFormId": "ovi_form_en_1b10fd88305d",
-    "selectedSenseId": "ovi_sense_en_04a62fd1cd28",
-    "selectedSenseConfidence": "source_sentence_match"
+    "lexemeId": "ovi_lex_en_832542c27af5",
+    "matchedFormId": "ovi_form_en_86ce626e105b",
+    "selectedSenseId": "ovi_sense_en_27fc60be52ac",
+    "selectedSenseConfidence": "first_trusted_sense"
   },
   "less": {
-    "simpleMeaning": "Not as much",
-    "contextMeaning": "The lesson feels not so scary or hard",
+    "simpleMeaning": "Not so much",
+    "contextMeaning": "Not as much scary in your first trial lesson",
     "sentence": "Then your first trial lesson can feel less scary and more useful.",
     "sourceSentence": "Then your first trial lesson can feel less scary and more useful.",
     "example": "Then your first trial lesson can feel less scary and more useful.",
@@ -2261,11 +2282,11 @@
     "lexemeId": "ovi_lex_en_472315b90e11",
     "matchedFormId": "ovi_form_en_9eaf68f170af",
     "selectedSenseId": "ovi_sense_en_7e874a43adf0",
-    "selectedSenseConfidence": "source_sentence_match"
+    "selectedSenseConfidence": "first_trusted_sense"
   },
   "scary": {
-    "simpleMeaning": "Makes you feel afraid or nervous",
-    "contextMeaning": "Feels less like something that makes you afraid in the first lesson",
+    "simpleMeaning": "Something that makes you feel afraid",
+    "contextMeaning": "Making your first trial lesson feel frightening or scary",
     "sentence": "Then your first trial lesson can feel less scary and more useful.",
     "sourceSentence": "Then your first trial lesson can feel less scary and more useful.",
     "example": "Then your first trial lesson can feel less scary and more useful.",
@@ -2280,14 +2301,14 @@
     "language": "en",
     "sourceEvidenceIds": [
       "ovi_ev_en_6c12432ab876",
-      "ovi_ev_en_e378f85157f5"
+      "ovi_ev_en_800bdb17ba1b"
     ],
     "evidenceId": "ovi_ev_en_6c12432ab876",
     "popupBankBridgeStatus": "supported_with_selected_sense",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "lexemeId": "ovi_lex_en_79d6683450c3",
     "matchedFormId": "ovi_form_en_4012c06e8af7",
-    "selectedSenseId": "ovi_sense_en_4afef88ec8aa",
+    "selectedSenseId": "ovi_sense_en_99ff34790449",
     "selectedSenseConfidence": "source_sentence_match"
   }
 }
