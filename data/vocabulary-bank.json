@@ -2574,7 +2574,8 @@
     "episodes": [
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -2594,6 +2595,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "Children can laugh at a silly character, then watch a real adult explain, comfort, or guide.",
+        "contextMeaning": "Here, \"adult\" means a grown-up person",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The story world becomes a door into adult conversation.",
         "contextMeaning": "Here, \"adult\" means a grown-up person",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -2642,7 +2650,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -2704,6 +2713,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "There are songs, puppets, jokes, animation, and friendly adults.",
+        "contextMeaning": "Here, \"adults\" means grown-up people",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Can a story for children also be serious for adults?",
         "contextMeaning": "Here, \"adults\" means grown-up people",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -2812,6 +2828,7 @@
     "episodes": [
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -2827,6 +2844,13 @@
         "sentence": "Greek myths are not only old adventure stories.",
         "contextMeaning": "Here, \"adventure\" means exciting and sometimes dangerous stories in old Greek tales",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories balance comfort and adventure.",
+        "contextMeaning": "Here, \"adventure\" means the stories balance comfort and adventure",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       },
       {
@@ -2890,7 +2914,7 @@
     "cefrLevel": "B2",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "It helps you describe yourself, compare choices, explain reasons, and give friendly advice.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -2903,7 +2927,6 @@
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -2956,13 +2979,6 @@
         "sentence": "Would you trust AI to only give advice, or also take actions for you?",
         "contextMeaning": "Here, \"advice\" means helpful words AI gives to help you decide",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "This is not real travel advice.",
-        "contextMeaning": "Here, \"advice\" means an idea that helps someone choose",
-        "source": "authored_final_review",
         "confidence": "trusted"
       },
       {
@@ -5383,7 +5399,8 @@
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -5426,6 +5443,13 @@
         "sentence": "Warm-up: Can a composer become important while they are still alive, or does history need more time?",
         "contextMeaning": "Here, \"alive\" means the composer is still living, so history has not finished judging the work",
         "source": "living_composers_popup_density_repair_2026_07_01",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley feels visual and alive.",
+        "contextMeaning": "Here, \"alive\" means the story world feels active and real",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -5866,6 +5890,7 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -5956,6 +5981,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "This matters because future legacy may not always look like the old model of one composer alone at a desk.",
+        "contextMeaning": "Here, \"alone\" means by yourself, without other people",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Some want company, while others want to be alone.",
         "contextMeaning": "Here, \"alone\" means by yourself, without other people",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -10617,6 +10649,7 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
     "contexts": [
@@ -10642,9 +10675,39 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson was also a painter and artist.",
+        "contextMeaning": "Here, \"artist\" means jansson was also a painter and artist",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "A Strandbeest is a kinetic sculpture by the Dutch artist Theo Jansen.",
         "contextMeaning": "Here, \"artist\" means a person who makes art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "artist's": {
+    "word": "artist's",
+    "definition": "A person who makes art",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It is an artist's way of thinking about home, fear, love, independence, and the right to be unusual.",
+        "contextMeaning": "Here, \"artist's\" means a person who makes art",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -13165,6 +13228,29 @@
       }
     ]
   },
+  "author": {
+    "word": "author",
+    "definition": "A person who writes books or stories",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Tove Jansson was a Finnish author and artist.",
+        "contextMeaning": "Here, \"author\" means author describes Tove Jansson's role",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "autobiographical": {
     "word": "autobiographical",
     "definition": "About a person's own life story",
@@ -14145,7 +14231,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-18-sending-video-across-deep-space-with-lasers"
+      "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -14188,6 +14275,13 @@
         "sentence": "The spacecraft is moving, Earth is rotating, the distance is huge, and the light has to arrive at a receiver that can separate a weak signal from background noise.",
         "contextMeaning": "Here, \"background\" means other noise around the weak message",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Tove Jansson's background helps explain the Moomin world.",
+        "contextMeaning": "Here, \"background\" means the facts that help explain Jansson and the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -14636,6 +14730,7 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
@@ -14714,6 +14809,13 @@
         "sentence": "Another can show balance.",
         "contextMeaning": "Here, \"balance\" means another can show balance",
         "source": "manual_reviewed_tennis_a2_popup_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "One strong idea is the balance between safety and adventure.",
+        "contextMeaning": "Here, \"balance\" means safety and adventure both matter",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -16148,6 +16250,7 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -16218,6 +16321,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "What makes music last: a beautiful sound, a strong idea, famous performers, awards, recordings, or repeated performances?",
+        "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Nature can be beautiful, but it can also be powerful and frightening.",
         "contextMeaning": "Here, \"beautiful\" means very attractive to see or hear",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -17464,6 +17574,7 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -17717,6 +17828,13 @@
         "sentence": "Now the idea becomes more personal.",
         "contextMeaning": "Here, \"becomes\" means starts to be something different",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley becomes a serious place for thinking about home.",
+        "contextMeaning": "Here, \"becomes\" means becomes shows a change in how we understand the place",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -19495,7 +19613,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -19510,6 +19629,13 @@
         "sentence": "8: A brand can add symbolic value, such as style, status, identity, or the feeling of belonging to a certain image.",
         "contextMeaning": "Here, \"belonging\" means feeling part of a group or image from a brand",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Many guests search for belonging.",
+        "contextMeaning": "Here, \"belonging\" means many guests search for belonging",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -19532,6 +19658,7 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -19582,6 +19709,13 @@
         "episodeId": "episode-2026-06-24-why-socks-disappear-psychology-science",
         "sentence": "It belongs to a pair, and the pair might return.",
         "contextMeaning": "Here, \"belongs\" means hello Kitty is owned by Sanrio and is part of kawaii culture",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It belongs to Finland, but it also travels easily.",
+        "contextMeaning": "Here, \"belongs\" means hello Kitty is owned by Sanrio and is part of kawaii",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
       },
@@ -22292,7 +22426,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -22307,6 +22442,13 @@
         "sentence": "Maybe you have a drink, a book, or dinner with family.",
         "contextMeaning": "Here, \"book\" means something you read for fun or learning",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The first Moomin book was published in 1945.",
+        "contextMeaning": "Here, \"book\" means one published Moomin work",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -22422,7 +22564,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -22430,6 +22573,13 @@
         "sentence": "In the past, culture moved through books, newspapers, TV, and face-to-face conversation.",
         "contextMeaning": "Here, \"books\" means a set of pages you read",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories grew into books, comic strips, picture books, theatre, television, animation, museums, and international translations.",
+        "contextMeaning": "Here, \"books\" means the published Moomin works",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -25376,7 +25526,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "Think about budget, weather, crowds, transport, food, language, safety, and comfort.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -25384,7 +25534,6 @@
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -25407,13 +25556,6 @@
         "sentence": "The money agent checks the budget.",
         "contextMeaning": "Here, \"budget\" means the money helper looks at how much money is available",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "You should check your budget and safety.",
-        "contextMeaning": "Here, \"budget\" means money you can spend",
-        "source": "authored_final_review",
         "confidence": "trusted"
       },
       {
@@ -27558,6 +27700,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
@@ -27728,6 +27871,13 @@
         "episodeId": "episode-2026-06-29-tennis-small-court-big-choices",
         "sentence": "The score can make a normal shot feel calm or scary.",
         "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It is calm, strange, funny, and sometimes a little sad.",
+        "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       },
@@ -29784,6 +29934,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -29833,6 +29984,13 @@
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "In that model, the Japanese company itself registers and carries on business in Australia.",
+        "contextMeaning": "Here, \"carries\" means to hold and take something somewhere",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "This is a simple story idea, but it carries a deep feeling.",
         "contextMeaning": "Here, \"carries\" means to hold and take something somewhere",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -35134,7 +35292,8 @@
     "episodes": [
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-07-create-a-proper-a1-adult-beginner-english-lesson-6",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -35156,6 +35315,36 @@
         "sentence": "A meme can be obvious to children or teenagers but completely confusing to adults.",
         "contextMeaning": "Here, \"children\" means young people",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "At first, it may look like a simple world for children.",
+        "contextMeaning": "Here, \"children\" means young readers or viewers",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "children's": {
+    "word": "children's",
+    "definition": "Made for or connected with children",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Can a children's story also be serious for adults?",
+        "contextMeaning": "Here, \"children's\" means children's describes stories that young readers can enjoy",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -41609,7 +41798,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -41659,6 +41849,13 @@
         "sentence": "Stravinsky's story shows that modern art does not always try to comfort the audience.",
         "contextMeaning": "Here, \"comfort\" means make the people watching feel calm and happy",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Comfort matters after difficult times.",
+        "contextMeaning": "Here, \"comfort\" means comfort matters after difficult times",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -41832,6 +42029,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -41840,6 +42038,13 @@
         "sentence": "\"This Is Fine\" comes from a comic by KC Green.",
         "contextMeaning": "Here, \"comic\" means a picture story where the dog is from",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories grew into comic strips.",
+        "contextMeaning": "Here, \"comic\" means comic strips and visual storytelling",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -50787,7 +50992,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -50852,6 +51058,13 @@
         "contextMeaning": "Here, \"created\" means made music that is not easy to play",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The Moomin stories were created by Tove Jansson.",
+        "contextMeaning": "Here, \"created\" means jansson made the story world",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
       }
     ]
   },
@@ -50883,6 +51096,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -51002,6 +51216,13 @@
       {
         "episodeId": "episode-2026-06-29-tennis-small-court-big-choices",
         "sentence": "The Score Creates Pressure Tennis scoring can feel strange for new watchers.",
+        "contextMeaning": "Here, \"creates\" means to make something new",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Useful Topic Vocabulary illustrator - a person who makes pictures for books artist - a person who creates art fictional - made for a story, not real valley - low land between hills translation - a text changed into another language comfort - a feeling of safety or relief adventure - an exciting or risky experience belonging - the feeling that you have a place in a group outsider - someone who does not fully feel part of a group cultural brand - a famous story world used in many products and media",
         "contextMeaning": "Here, \"creates\" means to make something new",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -52011,7 +52232,8 @@
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
-      "episode-2026-06-22-south-korea-fast-cities-and-local-places"
+      "episode-2026-06-22-south-korea-fast-cities-and-local-places",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -52061,6 +52283,36 @@
         "sentence": "Useful Speaking Patterns Source checks used for factual details: official national overview; VisitKorea place pages; Korean Cultural Center and Ministry of Culture material on Hangeul; Britannica pages for the country and Seoul; World Factbook/OpenFactBook city and population context.",
         "contextMeaning": "Here, \"cultural\" means about how people live and think",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "From Books to a Larger Cultural World The Moomin stories began as literature and drawings, but they became much bigger.",
+        "contextMeaning": "Here, \"cultural\" means about how people live and think",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "cultural brand": {
+    "word": "cultural brand",
+    "definition": "A famous story world used in many products and media",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moomins became a cultural brand.",
+        "contextMeaning": "Here, \"cultural brand\" means moomins became a cultural brand",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -53116,6 +53368,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -53270,6 +53523,13 @@
       {
         "episodeId": "episode-2026-06-29-tennis-small-court-big-choices",
         "sentence": "DISCUSSION 2: In daily life, when does having more choices make something harder?",
+        "contextMeaning": "Here, \"daily\" means happening every day",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It was part of daily life.",
         "contextMeaning": "Here, \"daily\" means happening every day",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -53885,7 +54145,8 @@
       "episode-2026-06-05-ordering-at-a-bakery",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -53933,6 +54194,13 @@
       {
         "episodeId": "episode-2026-06-25-how-the-brain-builds-reality",
         "sentence": "It sits inside a dark skull.",
+        "contextMeaning": "Here, \"dark\" means with little or no light",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "A warm house matters more when the world outside is dark, wet, or uncertain.",
         "contextMeaning": "Here, \"dark\" means with little or no light",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -58357,6 +58625,7 @@
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
@@ -58514,6 +58783,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Chin may impress listeners through sharp imagination and orchestral detail.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "This is an important detail: she was Finnish, but her literary language was Swedish.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -59395,7 +59671,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -59466,6 +59743,13 @@
         "sentence": "Softer colors create a different message.",
         "contextMeaning": "Here, \"different\" means not the same",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories include people who feel different.",
+        "contextMeaning": "Here, \"different\" means different describes people who may feel outside a group",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -59594,6 +59878,7 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -59834,6 +60119,13 @@
         "sentence": "This can sound beautiful, but it can also be intense or difficult.",
         "contextMeaning": "Here, \"difficult\" means not easy",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The first book appeared after a difficult time.",
+        "contextMeaning": "Here, \"difficult\" means difficult describes history and strong feelings",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -62881,6 +63173,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -62964,6 +63257,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Then keep the door open, because history will continue listening after us.",
+        "contextMeaning": "Here, \"door\" means the part you open to enter a room",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The story world becomes a door into adult conversation.",
         "contextMeaning": "Here, \"door\" means the part you open to enter a room",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -66469,6 +66769,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -66672,6 +66973,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Introduction It is easy to say, \"This composer will be legendary.\"",
+        "contextMeaning": "Here, \"easy\" means not hard",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "They do not say, \"Everything is always easy.\"",
         "contextMeaning": "Here, \"easy\" means not hard",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -73968,6 +74276,7 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -74003,6 +74312,13 @@
         "episodeId": "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
         "sentence": "That gap is not a failure; it is exactly where the next research question begins.",
         "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson wrote before these topics were discussed in exactly the same language, but her stories often touch the same human questions.",
+        "contextMeaning": "Here, \"exactly\" means in the same precise way",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       },
@@ -76325,6 +76641,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
@@ -76658,6 +76975,13 @@
         "sentence": "Thirty seconds: explain the kawara business, clay and fire, and the smoked-silver latte idea.",
         "contextMeaning": "Here, \"explain\" means to tell about the business and ideas in thirty seconds",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Explain who Tove Jansson was and how Moominvalley began.",
+        "contextMeaning": "Here, \"explain\" means help someone understand the topic",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -79075,7 +79399,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -79133,6 +79458,13 @@
         "contextMeaning": "Here, \"family\" means the people you live with and eat dinner with",
         "source": "episode-popup-meanings",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories talk about fear, freedom, family, and belonging.",
+        "contextMeaning": "Here, \"family\" means both relatives and a welcoming group",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
       }
     ]
   },
@@ -79169,6 +79501,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-seoul-food-places-and-shopping",
@@ -79325,6 +79658,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "What makes music last: a beautiful sound, a strong idea, famous performers, awards, recordings, or repeated performances?",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "But the most important question is not only \"Why are the Moomins famous?\"",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -80462,7 +80802,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -80491,6 +80832,13 @@
         "sentence": "Mythology is not only \"old stories about gods.\" Artists use myth to talk about fear, power, sacrifice, beauty, fate, and human limits.",
         "contextMeaning": "Here, \"fear\" means the feeling of being scared in stories",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The lesson explains why a gentle story world can still talk about fear.",
+        "contextMeaning": "Here, \"fear\" means worry or danger inside the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -80848,6 +81196,7 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
@@ -81015,6 +81364,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Why do people sometimes feel close to imaginary characters?",
+        "contextMeaning": "Here, \"feel\" means feel is about emotion or personal experience",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
         "sentence": "Riding can feel exciting, but it can also feel calm.",
         "contextMeaning": "Here, \"feel\" means the rider's emotion during horse riding",
@@ -81097,6 +81453,7 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
@@ -81281,6 +81638,13 @@
         "sentence": "A better feeling is casual premium: excellent coffee, friendly explanations, clear prices, warm service, and an open space.",
         "contextMeaning": "Here, \"feeling\" means the way the cafe looks and feels",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Many people know the feeling of being an outsider.",
+        "contextMeaning": "Here, \"feeling\" means what a reader experiences inside",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -81477,6 +81841,7 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -81647,6 +82012,13 @@
         "sentence": "It feels direct.",
         "contextMeaning": "Here, \"feels\" means to notice something in your body or emotions",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley feels visual and alive.",
+        "contextMeaning": "Here, \"feels\" means feels describes the atmosphere of the story world",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -82247,7 +82619,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -82262,6 +82635,13 @@
         "sentence": "DISCUSSION 7: Why do people sometimes feel emotionally connected to fictional characters?",
         "contextMeaning": "Here, \"fictional\" means characters that are made up, not real people",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley is a fictional place.",
+        "contextMeaning": "Here, \"fictional\" means moominvalley is a fictional place",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -83739,7 +84119,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -83747,6 +84128,36 @@
         "sentence": "They were Lithuania, Israel, Armenia, Denmark, Austria, Luxembourg, Finland, Latvia, Malta,.",
         "contextMeaning": "Here, \"finland\" means finland is one of the countries in the list",
         "source": "lexical_support_regenerator/material_surface",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley is one of Finland's best-known imaginary worlds.",
+        "contextMeaning": "Here, \"finland\" means finland is the country connected with Tove Jansson and the Moomins",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "finnish": {
+    "word": "finnish",
+    "definition": "From Finland or connected with Finland",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The Moomin stories were created by Tove Jansson, a Finnish author and artist.",
+        "contextMeaning": "Here, \"finnish\" means finnish describes Tove Jansson and her cultural background",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -87038,13 +87449,44 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "But the show is not set in a castle or a magic forest.",
         "contextMeaning": "Here, \"forest\" means a large area full of trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "DISCUSSION 8: Which natural place affects your mood most: forest, sea, mountain, city park, or river?",
+        "contextMeaning": "Here, \"forest\" means a large area full of trees",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "forests": {
+    "word": "forests",
+    "definition": "A large area full of trees",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "They are also shaped by drawings, weather, rooms, forests, boats, islands, and faces.",
+        "contextMeaning": "Here, \"forests\" means a large area full of trees",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
@@ -88206,7 +88648,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -88221,6 +88664,13 @@
         "sentence": "Sometimes artists need tradition first, then freedom, because...",
         "contextMeaning": "Here, \"freedom\" means the new way artists want after old ways",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories talk about fear, freedom, family, and belonging.",
+        "contextMeaning": "Here, \"freedom\" means the chance to be yourself or leave and return",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -88958,6 +89408,7 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -88980,6 +89431,13 @@
         "sentence": "In a family, classroom, workplace, or friendship, one steady person can change the feeling of the group.",
         "contextMeaning": "Here, \"friendship\" means a group where people like and trust each other",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories include friendship, fear, and belonging.",
+        "contextMeaning": "Here, \"friendship\" means friendship is one of the human feelings in the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -89882,6 +90340,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -89967,6 +90426,13 @@
         "sentence": "Use one funny daily problem to understand attention, habits, memory, static electricity, small spaces, and simple systems thinking.",
         "contextMeaning": "Here, \"funny\" means the missing sock problem is funny but still useful",
         "source": "codex_manual_rendered_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It is calm, strange, funny, and sometimes a little sad.",
+        "contextMeaning": "Here, \"funny\" means funny describes one gentle part of the story mood",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -91080,6 +91546,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
@@ -91144,6 +91611,13 @@
         "sentence": "When a fan is sad, she can feel quiet and gentle.",
         "contextMeaning": "Here, \"gentle\" means feeling quiet and soft when someone is sad",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Explain who Tove Jansson was, how Moominvalley began, and why a gentle story world can still talk about fear, freedom, family, and belonging.",
+        "contextMeaning": "Here, \"gentle\" means a gentle story can talk about serious ideas in a soft way",
+        "source": "manual_reviewed_popup_patch",
         "confidence": "trusted"
       },
       {
@@ -94845,7 +95319,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -94860,6 +95335,13 @@
         "sentence": "Memes help people feel like they belong to a group.",
         "contextMeaning": "Here, \"group\" means a number of people or things together",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "An outsider may not feel part of a group.",
+        "contextMeaning": "Here, \"group\" means a community or social circle",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -98581,7 +99063,8 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -98706,6 +99189,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Both teach us that a composer can become important by giving listeners a new way to hear.",
+        "contextMeaning": "Here, \"hear\" means listening to sounds or words",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Finnish, Swedish-Speaking, and International Many learners hear \"Finnish author\" and expect the books to be written in Finnish.",
         "contextMeaning": "Here, \"hear\" means listening to sounds or words",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -99907,6 +100397,7 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -99986,6 +100477,13 @@
         "sentence": "It helps the body survive.",
         "contextMeaning": "Here, \"helps\" means to make something easier for someone",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "This background helps explain the story world.",
+        "contextMeaning": "Here, \"helps\" means gives support or explanation",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -101244,29 +101742,6 @@
       }
     ]
   },
-  "historic": {
-    "word": "historic",
-    "definition": "Connected with history",
-    "cefrLevel": "A2",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "Some places feel natural, friendly, historic, warm, or easy to use.",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-22-which-country-fits-your-personality"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "Some places feel natural, friendly, historic, warm, or easy to use.",
-        "contextMeaning": "Here, \"historic\" means connected with history",
-        "source": "authored_final_review",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "historical": {
     "word": "historical",
     "definition": "About things that happened a long time ago",
@@ -101782,7 +102257,8 @@
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -101825,6 +102301,13 @@
         "sentence": "For example, if you enter your home at night, you expect the furniture to be in familiar places.",
         "contextMeaning": "Here, \"home\" means the place where you live",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley becomes a place for thinking about home, danger, kindness, freedom, and belonging.",
+        "contextMeaning": "Here, \"home\" means home is both a real place and a feeling of safety",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -102052,6 +102535,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -102128,6 +102612,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "The Limits: History Is Not Fair or Finished Now comes the honest part.",
+        "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "This makes nature in the stories feel honest.",
         "contextMeaning": "Here, \"honest\" means telling the truth and not cheating",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -103258,7 +103749,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -103308,6 +103800,13 @@
         "sentence": "It sits between business and human behavior.",
         "contextMeaning": "Here, \"human\" means a person",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories explore human feelings.",
+        "contextMeaning": "Here, \"human\" means human describes real emotions inside the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -104046,6 +104545,7 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -104184,6 +104684,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "One strong idea in Moomin stories is the balance between safety and adventure.",
+        "contextMeaning": "Here, \"idea\" means one meaning inside the story",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "Can you explain a simple idea?",
         "contextMeaning": "Here, \"idea\" means can you say a simple thought or plan",
@@ -104234,6 +104741,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -104408,6 +104916,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "ANSWER 9: People may see them only as cute products and forget the serious ideas in the stories.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Useful Speaking Patterns Source checks: this lesson uses general consumer psychology ideas in learner-friendly language: mood and reward, memory objects, scarcity, identity, social pressure, mental accounting, impulse buying, and regret.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
@@ -104523,6 +105038,7 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -104599,6 +105115,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "If a composer changes direction too often, listeners may not feel a clear identity.",
+        "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Many people today talk about mental health, identity, personal space, family pressure, and the need to belong without losing yourself.",
         "contextMeaning": "Here, \"identity\" means what makes a person or place recognizable",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -105023,7 +105546,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -105038,6 +105562,13 @@
         "sentence": "This does not mean the outside world is imaginary.",
         "contextMeaning": "Here, \"imaginary\" means not real, only in the mind",
         "source": "manual_full_assets_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Why do people sometimes feel close to imaginary characters?",
+        "contextMeaning": "Here, \"imaginary\" means moominvalley is an imaginary place",
+        "source": "manual_reviewed_popup_patch",
         "confidence": "trusted"
       }
     ]
@@ -105855,6 +106386,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
@@ -105957,6 +106489,13 @@
         "sentence": "Is that sound important?",
         "contextMeaning": "Here, \"important\" means has strong value",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "One important detail is language.",
+        "contextMeaning": "Here, \"important\" means worth noticing or discussing",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -109732,6 +110271,7 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
@@ -109802,6 +110342,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Which composer in the lesson seems most interesting to you, and what evidence supports your choice?",
+        "contextMeaning": "Here, \"interesting\" means making you want to know more",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Tove Jansson's case is more interesting.",
         "contextMeaning": "Here, \"interesting\" means making you want to know more",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -109980,7 +110527,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3"
+      "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more-3",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -109988,6 +110536,13 @@
         "sentence": "Eurovision is a huge international TV music contest.",
         "contextMeaning": "Here, \"international\" means involving people or things from more than one country",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories grew into international translations.",
+        "contextMeaning": "Here, \"international\" means the stories travelled beyond Finland",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -111482,6 +112037,29 @@
       }
     ]
   },
+  "island": {
+    "word": "island",
+    "definition": "Land with water all around it",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson herself spent important time near the sea, and island life became part of her imagination.",
+        "contextMeaning": "Here, \"island\" means land with water all around it",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "islands": {
     "word": "islands",
     "definition": "Land with water all around it",
@@ -111494,12 +112072,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "The south and the islands have warm coastlines, strong local food, and long history.",
+        "contextMeaning": "Here, \"islands\" means land with water all around it",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "They are also shaped by drawings, weather, rooms, forests, boats, islands, and faces.",
         "contextMeaning": "Here, \"islands\" means land with water all around it",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -112842,7 +113428,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-the-silk-road-more-than-a-road-2"
+      "episode-2026-05-17-the-silk-road-more-than-a-road-2",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -112850,6 +113437,13 @@
         "sentence": "Imagine a trader in Xi’an, the old Chinese city where many journeys began.",
         "contextMeaning": "Here, \"journeys\" means long trips or travels, often to faraway places",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It shows the idea through meals, visits, journeys, small conflicts, and quiet kindness.",
+        "contextMeaning": "Here, \"journeys\" means a long trip",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -114948,6 +115542,7 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -114972,6 +115567,13 @@
         "sentence": "Today’s story starts with a travel dream many people know well.",
         "contextMeaning": "Here, \"know\" means many people have information about the travel dream",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Many people know the feeling of being an outsider.",
+        "contextMeaning": "Here, \"know\" means recognize from experience",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -115669,6 +116271,7 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -115691,6 +116294,13 @@
         "sentence": "Have you ever filled in a form in another language?",
         "contextMeaning": "Here, \"language\" means words and grammar people use to communicate",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "One important detail is language.",
+        "contextMeaning": "Here, \"language\" means language points to Swedish, Finnish, and translation",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -119329,6 +119939,7 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -119379,6 +119990,13 @@
         "sentence": "Should a powerful experience automatically become a life philosophy?",
         "contextMeaning": "Here, \"life\" means the time when a person or animal is alive",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories connect fantasy with real life.",
+        "contextMeaning": "Here, \"life\" means everyday experience and personal feeling",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -121674,15 +122292,14 @@
     "cefrLevel": "A2",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "City Explorer: modern, lively, easy to move around.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
       "episode-2026-05-17-the-silk-road-more-than-a-road-2",
-      "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-22-which-country-fits-your-personality"
+      "episode-2026-05-31-the-psychology-of-menus"
     ],
     "contexts": [
       {
@@ -121704,13 +122321,6 @@
         "sentence": "These colors can make the restaurant feel casual and lively.",
         "contextMeaning": "Here, \"lively\" means full of life and energy",
         "source": "popup_support_router/producer_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "Walk through a lively city with shops and lights.",
-        "contextMeaning": "Here, \"lively\" means full of energy and activity",
-        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -121990,7 +122600,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -122047,6 +122658,13 @@
         "sentence": "It is a small local drinking place.",
         "contextMeaning": "Here, \"local\" means a small neighborhood place",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories began in a local cultural background and later travelled widely.",
+        "contextMeaning": "Here, \"local\" means close to a specific community or culture",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -122950,6 +123568,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -123064,6 +123683,13 @@
         "sentence": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
         "contextMeaning": "Here, \"look\" means to use your eyes intentionally",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "At first, it may look like a simple world for children.",
+        "contextMeaning": "Here, \"look\" means how something appears at first",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -123698,7 +124324,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life"
+      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -123706,6 +124333,13 @@
         "sentence": "Insulation matters in cold conditions because it slows heat loss.",
         "contextMeaning": "Here, \"loss\" means heat going away from the room",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Some stories quietly include loss.",
+        "contextMeaning": "Here, \"loss\" means sadness about something gone",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -123859,6 +124493,7 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -123908,6 +124543,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "The teacher can choose six to ten questions and model short answers out loud.",
+        "contextMeaning": "Here, \"loud\" means making a lot of noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Sometimes a quiet story can stay with readers longer than a loud one.",
         "contextMeaning": "Here, \"loud\" means making a lot of noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -125949,7 +126591,8 @@
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -126195,6 +126838,13 @@
         "sentence": "The safety agent warns if any message makes promises that are too strong.",
         "contextMeaning": "Here, \"makes\" means the safety helper creates warnings about strong promises",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "This makes the story world feel welcoming.",
+        "contextMeaning": "Here, \"makes\" means makes explains why the stories have a special effect",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -126907,6 +127557,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -127470,6 +128121,13 @@
         "sentence": "It moves through many places: floor, basket, washer, dryer or drying rack, folding area, and drawer.",
         "contextMeaning": "Here, \"many\" means many places means many chances to lose a sock",
         "source": "codex_manual_rendered_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Many people know the feeling of being an outsider.",
+        "contextMeaning": "Here, \"many\" means a lot of people or examples",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -128160,7 +128818,7 @@
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "What is your best match today?",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -128171,8 +128829,7 @@
       "episode-2026-05-15-madonna-shakira-and-bts-to-headline-world-cup-3",
       "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-22-which-country-fits-your-personality"
+      "episode-2026-06-12-going-to-a-world-cup-football-match"
     ],
     "contexts": [
       {
@@ -128222,13 +128879,6 @@
         "sentence": "Going to a World Cup Football Match Warm-Up Questions 1.",
         "contextMeaning": "Here, \"match\" means fans go to a football match",
         "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "My second match is different because ___.",
-        "contextMeaning": "Here, \"match\" means something that fits well",
-        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -128530,7 +129180,8 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -128658,6 +129309,13 @@
         "contextMeaning": "Here, \"matter\" means to be important",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Small details can matter in a serious story.",
+        "contextMeaning": "Here, \"matter\" means have value or meaning",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
       }
     ]
   },
@@ -128742,7 +129400,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -129023,6 +129682,13 @@
         "sentence": "It needs to show what matters for this body now.",
         "contextMeaning": "Here, \"matters\" means is important",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Comfort matters after difficult times.",
+        "contextMeaning": "Here, \"matters\" means has value",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -133315,6 +133981,29 @@
       }
     ]
   },
+  "minority": {
+    "word": "minority",
+    "definition": "A smaller group inside a larger population",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson belonged to Finland's Swedish-speaking minority.",
+        "contextMeaning": "Here, \"minority\" means minority describes Finland's Swedish-speaking community",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "minus": {
     "word": "minus",
     "definition": "Below zero on a number scale",
@@ -134609,7 +135298,7 @@
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "City Explorer: modern, lively, easy to move around.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -134626,11 +135315,11 @@
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
-      "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -134719,13 +135408,6 @@
         "confidence": "trusted"
       },
       {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "I like modern cities.",
-        "contextMeaning": "Here, \"modern\" means new or current in style",
-        "source": "authored_final_review",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
         "sentence": "Which type of leverage is most useful for you now: physical tool, skill, habit, feedback, asset, or modern tool?",
         "contextMeaning": "Here, \"modern\" means new and current in style or method",
@@ -134749,6 +135431,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Her music is modern, but it is not cold.",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Why the Stories Still Feel Modern The Moomin stories still feel modern because they do not give simple answers to every problem.",
         "contextMeaning": "Here, \"modern\" means new and current in style or method",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -135721,7 +136410,7 @@
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "A different season, budget, travel partner, or mood can change the best match.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -135737,7 +136426,6 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-23-talking-about-what-people-like-a1"
     ],
     "contexts": [
@@ -135819,13 +136507,6 @@
         "confidence": "trusted"
       },
       {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "Look back at your mood, travel style, three words, and daily needs.",
-        "contextMeaning": "Here, \"mood\" means the feeling of a place or moment",
-        "source": "authored_final_review",
-        "confidence": "trusted"
-      },
-      {
         "episodeId": "episode-2026-06-23-talking-about-what-people-like-a1",
         "sentence": "Likes are connected to time, mood, and daily life.",
         "contextMeaning": "Here, \"mood\" means feeling calm, tired, happy, or busy",
@@ -135861,6 +136542,29 @@
         "sentence": "Sanrio characters often use round shapes, soft colors, simple faces, and friendly moods.",
         "contextMeaning": "Here, \"moods\" means friendly feelings shown by the characters",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "moominvalley": {
+    "word": "moominvalley",
+    "definition": "The imaginary valley where the Moomin stories happen",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley is one of Finland's best-known imaginary worlds.",
+        "contextMeaning": "Here, \"moominvalley\" means moominvalley is the story setting created by Tove Jansson",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -137129,6 +137833,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -137149,6 +137854,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "Some places feel close to mountain life.",
+        "contextMeaning": "Here, \"mountain\" means very high land",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "DISCUSSION 8: Which natural place affects your mood most: forest, sea, mountain, city park, or river?",
         "contextMeaning": "Here, \"mountain\" means very high land",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -138432,6 +139144,7 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -138472,6 +139185,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "A museum, TV series, or translated book can bring a reader into Jansson's work.",
+        "contextMeaning": "Here, \"museum\" means a place where people see history or art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "On vacation, a person may feel like an explorer, a beach person, a city traveler, a food lover, a museum visitor, or a careful gift giver.",
         "contextMeaning": "Here, \"museum\" means a place where people see history or art",
@@ -138498,9 +139218,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories grew into books, comic strips, picture books, theatre, television, animation, museums, and international translations.",
+        "contextMeaning": "Here, \"museums\" means a place where people see history or art",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "Museums show Jansen's large works, including the 2025 exhibition in Delft.",
@@ -139774,7 +140502,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -139794,6 +140523,13 @@
       {
         "episodeId": "episode-2026-06-24-why-socks-disappear-psychology-science",
         "sentence": "It means the physical nature of socks makes them easy to attach, fold, twist, and disappear inside other fabric.",
+        "contextMeaning": "Here, \"nature\" means plants, animals, and the natural world",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Nature, Islands, and Freedom Nature is not only decoration in Jansson's stories.",
         "contextMeaning": "Here, \"nature\" means plants, animals, and the natural world",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -139931,6 +140667,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
@@ -140075,6 +140812,13 @@
       {
         "episodeId": "episode-2026-06-29-tennis-small-court-big-choices",
         "sentence": "Why can one small mistake feel big near the end of a game?",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Instead, they show that comfort can exist near fear.",
         "contextMeaning": "Here, \"near\" means not far away",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -140283,7 +141027,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -140459,6 +141204,13 @@
         "sentence": "The brain does not need to show every atom, wave, force, and hidden process.",
         "contextMeaning": "Here, \"need\" means to require something because it is important",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Students need support for difficult content words.",
+        "contextMeaning": "Here, \"need\" means what a learner may want help with",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -142699,6 +143451,29 @@
         "sentence": "A visitor may see bindaetteok, a mung bean pancake, plus gimbap, handmade noodles, bibimbap, and other dishes.",
         "contextMeaning": "Here, \"noodles\" means a food made from long, thin cooked dough",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "nordic": {
+    "word": "nordic",
+    "definition": "Connected with northern European countries such as Finland and Sweden",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The Moomin world has a Nordic background.",
+        "contextMeaning": "Here, \"nordic\" means nordic describes the cultural area around the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -145218,7 +145993,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -145611,6 +146387,13 @@
         "sentence": "Researchers often discuss a set of brain areas called the default mode network, or DMN.",
         "contextMeaning": "Here, \"often\" means many times, but not always",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Outsiders often appear in the stories.",
+        "contextMeaning": "Here, \"often\" means something happens again and again",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -148596,15 +149379,14 @@
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "calm / lively / organized / adventurous / comfortable / curious / social / independent / creative / practical / romantic / careful.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
-      "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-22-which-country-fits-your-personality"
+      "episode-2026-06-03-classical-music-history-composers"
     ],
     "contexts": [
       {
@@ -148626,13 +149408,6 @@
         "sentence": "At first, this can sound complex, but when you listen carefully, it feels deeply organized.",
         "contextMeaning": "Here, \"organized\" means music feels like it has a clear and good order",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "Calm Planner: quiet, organized, comfortable, scenic.",
-        "contextMeaning": "Here, \"organized\" means arranged clearly and carefully",
-        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -148774,7 +149549,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-05-shopping-at-a-convenience-store"
+      "episode-2026-06-05-shopping-at-a-convenience-store",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -148852,6 +149628,13 @@
         "sentence": "Read the original A1 convenience-store passage.",
         "contextMeaning": "Here, \"original\" means the first A1 convenience-store text to read",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson wrote the original Moomin books in Swedish.",
+        "contextMeaning": "Here, \"original\" means original describes the first Moomin books and language",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -149513,7 +150296,8 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-09-working-at-a-winery",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -149626,6 +150410,13 @@
         "sentence": "Customers may dress casually, sit outside, and still expect high quality.",
         "contextMeaning": "Here, \"outside\" means sit in the open air, not indoors",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Some characters feel outside the group.",
+        "contextMeaning": "Here, \"outside\" means outside can describe social distance",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -151238,6 +152029,7 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -151258,6 +152050,13 @@
       {
         "episodeId": "episode-2026-06-23-talking-about-what-people-like-a1",
         "sentence": "A park can be good for walking.",
+        "contextMeaning": "Here, \"park\" means an open public place for walking or relaxing",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "DISCUSSION 8: Which natural place affects your mood most: forest, sea, mountain, city park, or river?",
         "contextMeaning": "Here, \"park\" means an open public place for walking or relaxing",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -151465,6 +152264,7 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -151606,6 +152406,13 @@
         "sentence": "If you say, \"Help me prepare for a job interview,\" the agent can research the company, list likely questions, create practice answers, and ask which part feels weak.",
         "contextMeaning": "Here, \"part\" means the agent asks which piece of the job help is weak",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "An outsider may not feel part of a group.",
+        "contextMeaning": "Here, \"part\" means belonging to a group or story",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -153724,14 +154531,13 @@
     "cefrLevel": "B2",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "Switzerland may fit someone who likes clean cities, calm lakes, mountain views, trains, and peaceful travel.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
-      "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-23-talking-about-what-people-like-a1"
     ],
     "contexts": [
@@ -153747,13 +154553,6 @@
         "sentence": "It is peaceful here.",
         "contextMeaning": "Here, \"peaceful\" means how the host describes Yamanashi",
         "source": "codex_manual_snack_bar_rebuild",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "It sounds peaceful.",
-        "contextMeaning": "Here, \"peaceful\" means quiet and calm",
-        "source": "authored_final_review",
         "confidence": "trusted"
       }
     ]
@@ -154070,6 +154869,7 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
@@ -154298,6 +155098,13 @@
         "sentence": "It helps you remember your past, plan your future, protect your body, explain your actions, and live with other people.",
         "contextMeaning": "Here, \"people\" means humans in daily life or research reports",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Many people know the feeling of being an outsider.",
+        "contextMeaning": "Here, \"people\" means readers, visitors, and characters in society",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -154557,6 +155364,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
@@ -154670,6 +155478,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "DISCUSSION 4: Would you rather judge a composer by one perfect short piece or by a difficult long work?",
+        "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "But it is not a perfect world where nothing happens.",
         "contextMeaning": "Here, \"perfect\" means without mistakes or problems",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -155113,7 +155928,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -155149,6 +155965,13 @@
         "sentence": "A business generally must register for GST if its GST turnover reaches A$75,000 or more in a 12-month period.",
         "contextMeaning": "Here, \"period\" means a time of 12 months to check money earned",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The first Moomin book was published just after a hard period in European history.",
+        "contextMeaning": "Here, \"period\" means a difficult part of history",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -155486,6 +156309,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -155567,6 +156391,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Students can talk about family, travel, independence, risk, rest, and personal space.",
+        "contextMeaning": "Here, \"personal\" means about one person or private life",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "In these moments, buying can feel social, not only personal.",
         "contextMeaning": "Here, \"personal\" means about one person or private life",
@@ -155604,7 +156435,7 @@
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "Ask about their personality first.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -155614,7 +156445,6 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-23-talking-about-what-people-like-a1"
     ],
     "contexts": [
@@ -155651,13 +156481,6 @@
         "sentence": "Of course, a famous person's real personality does not move into an object.",
         "contextMeaning": "Here, \"personality\" means the real way a famous person is, not in a thing",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "Choose three words that fit your travel personality today.",
-        "contextMeaning": "Here, \"personality\" means what a person is like",
-        "source": "authored_final_review",
         "confidence": "trusted"
       },
       {
@@ -156615,6 +157438,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -156669,6 +157493,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories grew into books, comic strips, picture books, theatre, television, animation, museums, and international translations.",
+        "contextMeaning": "Here, \"picture\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
         "sentence": "What Manga Is A panel is one picture box on a page.",
         "contextMeaning": "Here, \"picture\" means an image you can look at",
@@ -156699,6 +157530,7 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -156726,6 +157558,13 @@
       {
         "episodeId": "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
         "sentence": "With a slow link, the team may have to choose only a few pictures or remove many details before sending them.",
+        "contextMeaning": "Here, \"pictures\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Useful Topic Vocabulary illustrator - a person who makes pictures for books artist - a person who creates art fictional - made for a story, not real valley - low land between hills translation - a text changed into another language comfort - a feeling of safety or relief adventure - an exciting or risky experience belonging - the feeling that you have a place in a group outsider - someone who does not fully feel part of a group cultural brand - a famous story world used in many products and media",
         "contextMeaning": "Here, \"pictures\" means an image you can look at",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -157203,6 +158042,7 @@
       "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -157338,6 +158178,13 @@
         "sentence": "The legal status also depends on place and context.",
         "contextMeaning": "Here, \"place\" means a location or area",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley becomes a serious place for thinking about home.",
+        "contextMeaning": "Here, \"place\" means place can mean an imagined setting or a social position",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -161936,7 +162783,7 @@
     "cefrLevel": "B1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "In summer, I prefer ___.",
+    "exampleGeneral": "",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -161953,7 +162800,6 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-22-which-country-fits-your-personality",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
@@ -162041,13 +162887,6 @@
         "sentence": "2: Would you prefer AI as a quiet tool or as an active teammate?",
         "contextMeaning": "Here, \"prefer\" means want AI to be quiet or active, which do you like more",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "I usually prefer ___.",
-        "contextMeaning": "Here, \"prefer\" means like one thing more than another",
-        "source": "authored_final_review",
         "confidence": "trusted"
       },
       {
@@ -168076,7 +168915,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-27-international-transport-get-to-the-right-place",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -168112,6 +168952,13 @@
         "sentence": "Useful questions are, \"Do I need a new plan?\", \"Is there an extra charge?\", and \"Can I try the simple fix first?\" The worker changes one setting.",
         "contextMeaning": "Here, \"questions\" means words you ask to get an answer",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The lesson includes questions for students.",
+        "contextMeaning": "Here, \"questions\" means sentences that ask for information or opinions",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -168268,6 +169115,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
@@ -168485,6 +169333,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Instead of quick melody first, she often builds long textures, deep quiet, pressure, and release.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It often feels peaceful: there are trees, water, a home, meals, and quiet routines.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -170144,6 +170999,29 @@
       }
     ]
   },
+  "readers": {
+    "word": "readers",
+    "definition": "People who read a text",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Readers can feel that the valley welcomes outsiders.",
+        "contextMeaning": "Here, \"readers\" means the people who enjoy or study the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "reading": {
     "word": "reading",
     "definition": "Looking at words and understanding them",
@@ -170991,7 +171869,8 @@
       "episode-2026-05-04-food-that-surprises-people-around-the-world-create-4",
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -171027,6 +171906,13 @@
         "sentence": "One reason socks disappear is simple: we often look without noticing.",
         "contextMeaning": "Here, \"reason\" means one cause of disappearing socks",
         "source": "codex_manual_rendered_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "There is a reason the stories feel gentle and serious.",
+        "contextMeaning": "Here, \"reason\" means the explanation behind an idea",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -180226,7 +181112,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -180297,6 +181184,13 @@
         "sentence": "These substances can carry serious risks, especially outside controlled research or clinical settings.",
         "contextMeaning": "Here, \"risk\" means a possible danger or bad result",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Adventure can include risk.",
+        "contextMeaning": "Here, \"risk\" means risk connects adventure with danger",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -180635,6 +181529,7 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -180655,6 +181550,13 @@
       {
         "episodeId": "episode-2026-06-17-renting-a-bike-for-a-short-trip",
         "sentence": "The customer can ask, \"Is there a bike path?\" or \"Can I ride near the river?\" A safe route is better than a fast route.",
+        "contextMeaning": "Here, \"river\" means a long line of moving water",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "DISCUSSION 8: Which natural place affects your mood most: forest, sea, mountain, city park, or river?",
         "contextMeaning": "Here, \"river\" means a long line of moving water",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -183405,6 +184307,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
@@ -183600,6 +184503,13 @@
       {
         "episodeId": "episode-2026-06-29-tennis-small-court-big-choices",
         "sentence": "Was it deep, short, safe, or aggressive?",
+        "contextMeaning": "Here, \"safe\" means less likely to feel risky",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Readers in many countries understand fear, loneliness, friendship, and the wish for a safe home.",
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -183877,6 +184787,7 @@
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
@@ -183997,6 +184908,13 @@
         "sentence": "A person opens a work screen that shows several AI agents: a research agent, a writing agent, a meeting agent, a customer agent, a money agent, and a safety agent.",
         "contextMeaning": "Here, \"safety\" means an AI helper that watches to keep things safe",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "One strong idea is the balance between safety and adventure.",
+        "contextMeaning": "Here, \"safety\" means feeling protected and welcome",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -184402,7 +185320,8 @@
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
-      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3"
+      "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -184431,6 +185350,13 @@
         "sentence": "Musk and Altman were once on the same side.",
         "contextMeaning": "Here, \"same\" means in the past, these two people agreed",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The same story can feel gentle and serious.",
+        "contextMeaning": "Here, \"same\" means same helps compare ideas across the lesson",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -185826,29 +186752,6 @@
       }
     ]
   },
-  "scenery": {
-    "word": "scenery",
-    "definition": "Beautiful natural views",
-    "cefrLevel": "A2",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "Maybe you need a good cafe, clean streets, a quiet hotel, beautiful scenery, easy trains, good food, free time, or a place to practise English.",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-06-22-which-country-fits-your-personality"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-06-22-which-country-fits-your-personality",
-        "sentence": "Maybe you need a good cafe, clean streets, a quiet hotel, beautiful scenery, easy trains, good food, free time, or a place to practise English.",
-        "contextMeaning": "Here, \"scenery\" means beautiful natural views",
-        "source": "authored_final_review",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "scenes": {
     "word": "scenes",
     "definition": "Parts of a story or pictures in a movie",
@@ -185863,7 +186766,8 @@
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -185890,6 +186794,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Many memes use photos, movie scenes, songs, art, or videos that someone else created.",
+        "contextMeaning": "Here, \"scenes\" means parts of a story or show",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Use original Nordic story-world scenes: an artist's desk, a safe valley, stormy nature, guests arriving, island/sea atmosphere, and readers discovering the books.",
         "contextMeaning": "Here, \"scenes\" means parts of a story or show",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -187102,7 +188013,8 @@
     "episodes": [
       "episode-2026-05-31-lost-phone-at-the-station-a1-to-b2",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -187122,6 +188034,13 @@
       {
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "For example, an agent might search the web, read files, compare choices, write a draft, and ask for approval before sending anything.",
+        "contextMeaning": "Here, \"search\" means to look for something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Many people know what it means to search for home, to feel different, to need freedom, or to want a place where they are accepted.",
         "contextMeaning": "Here, \"search\" means to look for something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -189735,6 +190654,7 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -189932,6 +190852,13 @@
         "sentence": "A serious answer needs more than awards.",
         "contextMeaning": "Here, \"serious\" means the answer should be careful, not only excited or simple",
         "source": "living_composers_popup_density_repair_2026_07_01",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Can a story for children also be serious for adults?",
+        "contextMeaning": "Here, \"serious\" means the story can discuss deeper ideas",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -193072,6 +193999,7 @@
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -193171,6 +194099,13 @@
         "sentence": "A car dashboard does not show the full engine.",
         "contextMeaning": "Here, \"show\" means a performance to watch",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories show that comfort can exist near fear.",
+        "contextMeaning": "Here, \"show\" means help readers notice an idea",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -200033,6 +200968,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
     ],
     "contexts": [
@@ -200342,6 +201278,13 @@
         "sentence": "I sometimes prefer fewer choices because.",
         "contextMeaning": "Here, \"sometimes\" means i sometimes prefer fewer choices because",
         "source": "manual_reviewed_tennis_a2_popup_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Why do people sometimes feel close to imaginary characters?",
+        "contextMeaning": "Here, \"sometimes\" means people sometimes feel close to story characters",
+        "source": "manual_reviewed_popup_patch",
         "confidence": "trusted"
       },
       {
@@ -201609,6 +202552,7 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -201715,6 +202659,13 @@
         "sentence": "A better feeling is casual premium: excellent coffee, friendly explanations, clear prices, warm service, and an open space.",
         "contextMeaning": "Here, \"space\" means a place that is open and not crowded",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley gives outsiders space to belong.",
+        "contextMeaning": "Here, \"space\" means emotional room to be different",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -201938,6 +202889,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -201986,6 +202938,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "These phrases help you speak clearly without pretending to know the future.",
+        "contextMeaning": "Here, \"speak\" means to say words out loud",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It can speak softly about fear, independence, loss, and hope.",
         "contextMeaning": "Here, \"speak\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -206872,6 +207831,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -207301,6 +208261,13 @@
         "sentence": "Customers may dress casually, sit outside, and still expect high quality.",
         "contextMeaning": "Here, \"still\" means people dress simply and sit outside but want good quality",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "A gentle story world can still talk about fear.",
+        "contextMeaning": "Here, \"still\" means still shows that two ideas can be true together",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -208007,6 +208974,7 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -208036,6 +209004,13 @@
         "sentence": "Why do so many old stories send the main character away from home?",
         "contextMeaning": "Here, \"stories\" means things people tell about events or ideas",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories grew into books, comic strips, picture books, theatre, television, animation, museums, and international translations.",
+        "contextMeaning": "Here, \"stories\" means the Moomin books and other Moomin media",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -208141,6 +209116,7 @@
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
@@ -208289,6 +209265,13 @@
         "sentence": "That common problem is the center of today’s story.",
         "contextMeaning": "Here, \"story\" means the thing being told or explained in this text",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "A story for children can also be serious for adults.",
+        "contextMeaning": "Here, \"story\" means an imagined world with characters and ideas",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -209736,6 +210719,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
@@ -209915,6 +210899,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "What makes music last: a beautiful sound, a strong idea, famous performers, awards, recordings, or repeated performances?",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Safety and Adventure Together One strong idea in Moomin stories is the balance between safety and adventure.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -212044,12 +213035,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "If a menu says \"Only this month\" or \"Summer Special,\" customers may feel they should order now before the chance disappears.",
+        "contextMeaning": "Here, \"summer\" means the warm season of the year",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It feels Nordic because of its forests, sea, islands, long winters, and summer light.",
         "contextMeaning": "Here, \"summer\" means the warm season of the year",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -214016,6 +215015,52 @@
       }
     ]
   },
+  "swedish": {
+    "word": "swedish",
+    "definition": "The language used in Sweden and by some people in Finland",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson wrote the original Moomin books in Swedish.",
+        "contextMeaning": "Here, \"swedish\" means swedish is the language of the original Moomin books",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "swedish-speaking": {
+    "word": "swedish-speaking",
+    "definition": "Using Swedish as a main language",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson belonged to Finland's Swedish-speaking minority.",
+        "contextMeaning": "Here, \"swedish-speaking\" means swedish-speaking describes Jansson's minority community in Finland",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "sweet": {
     "word": "sweet",
     "definition": "Nice and kind or yummy like candy",
@@ -215511,6 +216556,7 @@
       "episode-2026-05-06-daily-life-family-and-practical-english-review",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -215534,6 +216580,13 @@
         "sentence": "Some studies suggest that psychedelics can disrupt usual patterns in the default mode network and increase communication between brain networks that do not usually talk as much.",
         "contextMeaning": "Here, \"talk\" means to speak with someone",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The lesson asks how a story can talk about fear and belonging.",
+        "contextMeaning": "Here, \"talk\" means discuss serious ideas",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -217779,7 +218832,8 @@
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -217808,6 +218862,13 @@
         "sentence": "Hildur Gudnadottir is known to many people through film and television.",
         "contextMeaning": "Here, \"television\" means programs and moving pictures watched on TV or screens",
         "source": "living_composers_popup_density_repair_2026_07_01",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The stories grew into books, comic strips, picture books, theatre, television, animation, museums, and international translations.",
+        "contextMeaning": "Here, \"television\" means one way the Moomin stories reached more people",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -220758,7 +221819,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -221082,6 +222144,13 @@
         "contextMeaning": "Here, \"think\" means to use your mind to consider an idea",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The lesson asks students to think about why gentle stories can be serious.",
+        "contextMeaning": "Here, \"think\" means reflect on an idea",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
       }
     ]
   },
@@ -221133,7 +222202,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -221239,6 +222309,13 @@
         "sentence": "You walk through a doorway without thinking about every piece of light.",
         "contextMeaning": "Here, \"thinking\" means using your mind to consider something",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley becomes a serious place for thinking about home.",
+        "contextMeaning": "Here, \"thinking\" means reflecting on serious human ideas",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -222865,7 +223942,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -223034,6 +224112,13 @@
         "sentence": "In other words, the mind may become less locked into its usual paths for a time.",
         "contextMeaning": "Here, \"time\" means what we measure in minutes, hours, and days",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The first Moomin book appeared after a difficult time in European history.",
+        "contextMeaning": "Here, \"time\" means time often points to history or personal experience",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -224140,6 +225225,7 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
@@ -224176,6 +225262,13 @@
         "sentence": "A campus is a large place with buildings and services together.",
         "contextMeaning": "Here, \"together\" means all people working as a group to do tasks",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Safety and adventure can exist together.",
+        "contextMeaning": "Here, \"together\" means together shows ideas or people connected",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -225410,6 +226503,29 @@
         "sentence": "The biggest tennis events are called Grand Slam tournaments.",
         "contextMeaning": "Here, \"tournaments\" means the biggest tennis events are called Grand Slam tournaments",
         "source": "manual_reviewed_tennis_a2_popup_backfill",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tove jansson": {
+    "word": "tove jansson",
+    "definition": "The Finnish author and artist who created the Moomin stories",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Explain who Tove Jansson was, how Moominvalley began, and why a gentle story world can still talk about fear, freedom, family, and belonging.",
+        "contextMeaning": "Here, \"tove jansson\" means tove Jansson created Moominvalley",
+        "source": "manual_reviewed_popup_patch",
         "confidence": "trusted"
       }
     ]
@@ -227146,7 +228262,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -227154,6 +228271,13 @@
         "sentence": "Workspace gained Google Pics, an image creation and editing tool with object-level control, text editing, translation, and future integration into Slides and Drive.",
         "contextMeaning": "Here, \"translation\" means changing text from one language to another in the tool",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Translation helped the stories travel.",
+        "contextMeaning": "Here, \"translation\" means translation helped the stories travel",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -227169,7 +228293,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers"
+      "episode-2026-06-01-snack-bar-host-welcome-foreign-customers",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -227177,6 +228302,13 @@
         "sentence": "Use the support language button when you want Japanese help.",
         "contextMeaning": "Here, \"translations\" means japanese help for hard words",
         "source": "codex_manual_snack_bar_rebuild",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Translation helped the stories travel.",
+        "contextMeaning": "Here, \"translations\" means translation helped the stories travel",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -227433,6 +228565,7 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
@@ -227554,6 +228687,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "The big idea can travel, but the details should listen to the local place.",
+        "contextMeaning": "Here, \"travel\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Characters go outside, meet danger, travel, explore, and sometimes make mistakes.",
         "contextMeaning": "Here, \"travel\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -227717,7 +228857,8 @@
     "episodes": [
       "episode-2026-05-15-cia-director-meets-with-top-officials-in-havana-2",
       "episode-2026-06-10-the-history-of-tea",
-      "episode-2026-06-14-piano-stairs-fun-can-change-behavior"
+      "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -227737,6 +228878,13 @@
       {
         "episodeId": "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
         "sentence": "Useful Speaking Patterns Useful Topic Vocabulary commuter - a person who travels regularly to work or school staircase - a set of stairs inside or outside a building escalator - moving stairs that carry people up or down habit - something you do often, sometimes without thinking behavior - the way a person acts playful - fun, light, and not too serious experiment - a test to learn what happens measure - to check the size, amount, or result of something carefully - slowly and with attention bother - to make someone feel a little uncomfortable or disturbed",
+        "contextMeaning": "Here, \"travels\" means to go from one place to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It belongs to Finland, but it also travels easily.",
         "contextMeaning": "Here, \"travels\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -228028,7 +229176,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -228043,6 +229192,13 @@
         "sentence": "It may have stones, trees, water, and small paths.",
         "contextMeaning": "Here, \"trees\" means the garden may have big plants with leaves",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It often feels peaceful: there are trees, water, a home, meals, and quiet routines.",
+        "contextMeaning": "Here, \"trees\" means a tall plant with a trunk and branches",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -230882,6 +232038,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -230981,6 +232138,13 @@
         "sentence": "Understanding questions help you continue when English is fast, quiet, or new.",
         "contextMeaning": "Here, \"understanding\" means knowing questions help you keep going with English",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Check understanding after each section.",
+        "contextMeaning": "Here, \"understanding\" means checking if you really followed the article",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       },
       {
@@ -231979,7 +233143,8 @@
       "episode-2026-05-21-a2-bank-card-problem",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -232022,6 +233187,13 @@
         "sentence": "Researchers connect this with unusual perception, intense emotion, and experiences in which the self feels less fixed.",
         "contextMeaning": "Here, \"unusual\" means not normal or not common",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The story world can feel unusual but meaningful.",
+        "contextMeaning": "Here, \"unusual\" means unusual describes the strange, special feeling of the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -232798,6 +233970,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
@@ -233243,6 +234416,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "A useful test is this: Can people explain what the composer changed?",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "For B1 speaking, this is a useful topic because it connects to real life.",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -234193,6 +235373,29 @@
         "sentence": "Do I need to validate them?",
         "contextMeaning": "Here, \"validate\" means maya must check the ticket before boarding",
         "source": "episode-supported",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "valley": {
+    "word": "valley",
+    "definition": "Low land between hills",
+    "cefrLevel": "B1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The characters live in a valley.",
+        "contextMeaning": "Here, \"valley\" means the characters live in a valley",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -236286,12 +237489,20 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "A street has neighbors, visitors, problems, small conversations, and everyday routines.",
+        "contextMeaning": "Here, \"visitors\" means a person who comes to a place",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley is a fictional valley where the Moomin family and many visitors live or arrive.",
         "contextMeaning": "Here, \"visitors\" means a person who comes to a place",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -236317,7 +237528,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-30-a2-city-office-ask-about-a-form",
-      "episode-2026-05-30-a2-phone-store-explain-data-problem"
+      "episode-2026-05-30-a2-phone-store-explain-data-problem",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -236330,6 +237542,13 @@
       {
         "episodeId": "episode-2026-05-30-a2-phone-store-explain-data-problem",
         "sentence": "He visits a phone store and asks for help.",
+        "contextMeaning": "Here, \"visits\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "It shows the idea through meals, visits, journeys, small conflicts, and quiet kindness.",
         "contextMeaning": "Here, \"visits\" means to go to a place or person for a time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -236351,7 +237570,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -236387,6 +237607,13 @@
         "sentence": "For this case, it may be better for the first cafe pilot because the partner is already there and the charcoal latte is highly visual.",
         "contextMeaning": "Here, \"visual\" means something that looks interesting or catches people’s eyes",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley feels visual and alive.",
+        "contextMeaning": "Here, \"visual\" means visual describes the strong picture-like quality of the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -236499,7 +237726,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -236540,6 +237768,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
+        "contextMeaning": "Here, \"voice\" means the sound a person makes when speaking",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The biggest lesson may be this: a serious story does not always need a loud voice.",
         "contextMeaning": "Here, \"voice\" means the sound a person makes when speaking",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -238061,7 +239296,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -238076,6 +239312,13 @@
         "sentence": "World War I and the Russian Revolution changed his world.",
         "contextMeaning": "Here, \"war\" means world War I was a big fight that changed his life",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The first Moomin book appeared just after war in Europe.",
+        "contextMeaning": "Here, \"war\" means war is part of the difficult European background",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -238109,6 +239352,7 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
@@ -238240,6 +239484,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "A warm house matters more when the world outside is dark, wet, or uncertain.",
+        "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "A latte is espresso with a lot of warm milk.",
         "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
@@ -238335,6 +239586,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
@@ -238822,6 +240074,13 @@
       {
         "episodeId": "episode-2026-06-30-living-composers-who-may-shape-the-future",
         "sentence": "Living Composers Who May Shape the Future Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley: Tove Jansson and a World for Outsiders Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -239887,7 +241146,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -240000,6 +241260,13 @@
         "sentence": "A simple way to say it is this: The brain predicts first, then corrects.",
         "contextMeaning": "Here, \"way\" means a method, path, or manner of doing something",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "This is one way a gentle story can discuss serious themes.",
+        "contextMeaning": "Here, \"way\" means how something works or is done",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -240497,7 +241764,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina"
+      "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -240545,6 +241813,13 @@
       {
         "episodeId": "episode-2026-06-19-talking-about-hobbies-around-the-world-sora-hina",
         "sentence": "Outdoor hobbies are good when the weather is nice.",
+        "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "They are also shaped by drawings, weather, rooms, forests, boats, islands, and faces.",
         "contextMeaning": "Here, \"weather\" means rain, sun, or air outside",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -243834,7 +245109,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-31-the-psychology-of-menus",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -243926,6 +245202,13 @@
         "sentence": "In simple words, the DMN is related to the brain's habit of building a personal story: Who am I?",
         "contextMeaning": "Here, \"words\" means language units used to explain the idea",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "The vocabulary section gives useful words for speaking.",
+        "contextMeaning": "Here, \"words\" means the language learners use to discuss the topic",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
@@ -245114,7 +246397,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -245158,6 +246442,13 @@
         "contextMeaning": "Here, \"world\" means all the people and places on Earth",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Moominvalley may look like a simple world for children.",
+        "contextMeaning": "Here, \"world\" means the imagined life, places, and feelings inside the stories",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
       }
     ]
   },
@@ -245199,7 +246490,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-22-italy-one-country-many-local-worlds"
+      "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -245233,6 +246525,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "Italy: One Country, Many Local Worlds Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"worlds\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Introduction Moominvalley is one of the best-known story worlds from Finland.",
         "contextMeaning": "Here, \"worlds\" means all the people and places on Earth",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -245852,7 +247151,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -245865,6 +247165,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "A small room can feel important if a famous writer worked there.",
+        "contextMeaning": "Here, \"writer\" means a person who writes books or articles",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Tove Jansson was not only a children's writer.",
         "contextMeaning": "Here, \"writer\" means a person who writes books or articles",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -246298,7 +247605,8 @@
       "episode-2026-05-15-how-to-buy-a-home-in-japan-as",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-10-johann-sebastian-bach-music-architecture"
+      "episode-2026-06-10-johann-sebastian-bach-music-architecture",
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -246348,6 +247656,13 @@
         "sentence": "Bach wrote many cantatas, which are musical works for singers and instruments.",
         "contextMeaning": "Here, \"wrote\" means created many musical works by writing them",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+        "sentence": "Jansson wrote the original Moomin books in Swedish.",
+        "contextMeaning": "Here, \"wrote\" means created books or stories in writing",
+        "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
       }
     ]
