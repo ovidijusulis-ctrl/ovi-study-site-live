@@ -309,9 +309,9 @@
   "jockeys": {
     "simpleMeaning": "people who ride horses in races",
     "contextMeaning": "Here, jockeys means professional race riders.",
-    "sentence": "Jockeys can become famous when they win important races.",
-    "sourceSentence": "Jockeys can become famous when they win important races.",
-    "example": "Jockeys can become famous when they win important races.",
+    "sentence": "Jockeys are light, strong, and skilled.",
+    "sourceSentence": "Jockeys are light, strong, and skilled.",
+    "example": "Jockeys are light, strong, and skilled.",
     "source": "popup_manual_review/horse_riding_lint_cleanup_2026-07-01",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -1999,9 +1999,9 @@
   "skilled": {
     "simpleMeaning": "Good at doing something because of practice",
     "contextMeaning": "Jockeys are very good and strong at riding horses",
-    "sentence": "Jockeys are small, light, strong, and very skilled.",
-    "sourceSentence": "Jockeys are small, light, strong, and very skilled.",
-    "example": "Jockeys are small, light, strong, and very skilled.",
+    "sentence": "Jockeys are light, strong, and skilled.",
+    "sourceSentence": "Jockeys are light, strong, and skilled.",
+    "example": "Jockeys are light, strong, and skilled.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -2053,9 +2053,9 @@
   "races": {
     "simpleMeaning": "Games where people run or ride to win",
     "contextMeaning": "Important horse competitions that jockeys try to win",
-    "sentence": "Jockeys can become famous when they win important races.",
-    "sourceSentence": "Jockeys can become famous when they win important races.",
-    "example": "Jockeys can become famous when they win important races.",
+    "sentence": "A jockey is a person who rides a horse in a race.",
+    "sourceSentence": "A jockey is a person who rides a horse in a race.",
+    "example": "A jockey is a person who rides a horse in a race.",
     "source": "popup_prebuild_coverage/context_explain",
     "popupMode": "prebuilt_safe",
     "supportAction": "popup",
@@ -2072,33 +2072,6 @@
     "popupBankBridgeStatus": "local_only_needs_registry_review",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
     "selectedSenseConfidence": "local_only_no_registry"
-  },
-  "brave": {
-    "simpleMeaning": "Not afraid to do hard things",
-    "contextMeaning": "A jockey who is not scared when riding horses",
-    "sentence": "A famous jockey is not only brave.",
-    "sourceSentence": "A famous jockey is not only brave.",
-    "example": "A famous jockey is not only brave.",
-    "source": "popup_prebuild_coverage/context_explain",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "popup",
-    "simpleMeaningSource": "context_explain",
-    "contextMeaningSource": "context_explain",
-    "generatedBy": "popup_prebuild_coverage_v1",
-    "translationJa": "",
-    "translationEs": "",
-    "language": "en",
-    "sourceEvidenceIds": [
-      "ovi_ev_en_bbc538a7f629",
-      "ovi_ev_en_e60487481026"
-    ],
-    "evidenceId": "ovi_ev_en_bbc538a7f629",
-    "popupBankBridgeStatus": "supported_with_selected_sense",
-    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "lexemeId": "ovi_lex_en_3cf875b9f2a1",
-    "matchedFormId": "ovi_form_en_5c14f0e92f28",
-    "selectedSenseId": "ovi_sense_en_e415d6b6fecc",
-    "selectedSenseConfidence": "source_sentence_match"
   },
   "every": {
     "simpleMeaning": "All of something, no one missed",
@@ -2564,9 +2537,9 @@
   "become": {
     "simpleMeaning": "to start to be something",
     "contextMeaning": "Here, become describes a rider changing into a famous jockey.",
-    "sentence": "Jockeys can become famous when they win important races.",
-    "sourceSentence": "Jockeys can become famous when they win important races.",
-    "example": "Jockeys can become famous when they win important races.",
+    "sentence": "A jockey is a person who rides a horse in a race.",
+    "sourceSentence": "A jockey is a person who rides a horse in a race.",
+    "example": "A jockey is a person who rides a horse in a race.",
     "translationJa": "",
     "translationEs": "",
     "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
@@ -3491,27 +3464,64 @@
     "selectedSenseId": "ovi_sense_en_3b3fbf356cc0",
     "selectedSenseConfidence": "first_trusted_sense"
   },
-  "horse's": {
-    "simpleMeaning": "A large animal people can ride",
-    "contextMeaning": "Here, \"horse's\" means a large animal people can ride.",
-    "sentence": "Then change one detail: the feeling, the horse's size, or the first move.",
-    "sourceSentence": "Then change one detail: the feeling, the horse's size, or the first move.",
-    "example": "Then change one detail: the feeling, the horse's size, or the first move.",
-    "source": "popup_support_router/teaching_lexicon_trusted",
-    "popupMode": "prebuilt_safe",
-    "supportAction": "teach",
-    "simpleMeaningSource": "teaching_lexicon_trusted",
-    "contextMeaningSource": "teaching_lexicon_trusted",
+  "yutaka take": {
+    "simpleMeaning": "a famous Japanese jockey",
+    "contextMeaning": "In this lesson, Yutaka Take is an example of a famous jockey.",
+    "sentence": "One famous Japanese jockey is Yutaka Take.",
+    "sourceSentence": "One famous Japanese jockey is Yutaka Take.",
+    "example": "One famous Japanese jockey is Yutaka Take.",
     "translationJa": "",
     "translationEs": "",
-    "generatedBy": "popup_support_router_v1",
+    "source": "popup_manual_review/horse_jockey_fact_update_2026-07-03",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "simpleMeaningSource": "codex_manual_review",
+    "contextMeaningSource": "codex_manual_review",
+    "generatedBy": "popup_reviewed_meaning_packet_v1",
     "language": "en",
     "sourceEvidenceIds": [
-      "ovi_ev_en_067053710997"
+      "ovi_ev_en_5cefa286a2b4"
     ],
-    "evidenceId": "ovi_ev_en_067053710997",
+    "evidenceId": "ovi_ev_en_5cefa286a2b4",
     "popupBankBridgeStatus": "local_only_needs_registry_review",
     "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
-    "selectedSenseConfidence": "local_only_no_registry"
+    "selectedSenseConfidence": "local_only_no_registry",
+    "manualReviewStatus": "reviewed_safe",
+    "reviewedAt": "2026-07-03T04:50:11.476Z",
+    "reviewSource": "codex_manual_review",
+    "referenceLinks": [
+      {
+        "label": "Japan Racing note",
+        "url": "https://japanracing.jp/_news2025/250804.html",
+        "type": "reference",
+        "note": "Official Japan Racing profile note that describes Yutaka Take as a longstanding top jockey."
+      }
+    ]
+  },
+  "calm riding": {
+    "simpleMeaning": "riding in a quiet, controlled way",
+    "contextMeaning": "Here, calm riding means the jockey rides without rough or wild moves.",
+    "sentence": "People know him for many big wins and calm riding.",
+    "sourceSentence": "People know him for many big wins and calm riding.",
+    "example": "People know him for many big wins and calm riding.",
+    "translationJa": "",
+    "translationEs": "",
+    "source": "popup_manual_review/horse_jockey_fact_update_2026-07-03",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "simpleMeaningSource": "codex_manual_review",
+    "contextMeaningSource": "codex_manual_review",
+    "generatedBy": "popup_reviewed_meaning_packet_v1",
+    "language": "en",
+    "sourceEvidenceIds": [
+      "ovi_ev_en_11221a9d1c2f"
+    ],
+    "evidenceId": "ovi_ev_en_11221a9d1c2f",
+    "popupBankBridgeStatus": "local_only_needs_registry_review",
+    "compatibilityBridgeVersion": "popup_bank_generation_bridge_v1",
+    "selectedSenseConfidence": "local_only_no_registry",
+    "manualReviewStatus": "reviewed_safe",
+    "reviewedAt": "2026-07-03T04:50:11.476Z",
+    "reviewSource": "codex_manual_review"
   }
 }
