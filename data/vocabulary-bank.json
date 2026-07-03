@@ -7209,6 +7209,7 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
@@ -7217,6 +7218,13 @@
       {
         "episodeId": "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
         "sentence": "For example, an animal does not need to understand the full physics of light.",
+        "contextMeaning": "Here, \"animal\" means a living thing like a dog, cat, or bird",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Animal Crossing is a calm life game: players decorate, catch fish, and visit neighbors.",
         "contextMeaning": "Here, \"animal\" means a living thing like a dog, cat, or bird",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -27415,7 +27423,7 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Another friend may want a calm building game.",
+        "sentence": "Animal Crossing is a calm life game: players decorate, catch fish, and visit neighbors.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -50726,6 +50734,29 @@
       }
     ]
   },
+  "creative mode": {
+    "word": "creative mode",
+    "definition": "A game mode where building is the main activity",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Mika and Leo choose Minecraft in creative mode",
+        "contextMeaning": "Here, \"creative mode\" means mika and Leo choose Minecraft in creative mode",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "creativity": {
     "word": "creativity",
     "definition": "Using your ideas to make something new",
@@ -64668,7 +64699,7 @@
       },
       {
         "episodeId": "episode-2026-06-10-playing-video-games",
-        "sentence": "Useful Topic Vocabulary platform - the device or place you use to play console - a game machine that connects to a screen single-player - for one player explore - go around a place to see it item - a thing players can find or use voice chat - talking by microphone during a game take a break - stop for a short time relaxing - helping you feel calm",
+        "sentence": "Useful Topic Vocabulary platform - the device or place you use to play console - a game machine that connects to a screen creative mode - a game mode where building is the main activity single-player - for one player explore - go around a place to see it item - a thing players can find or use voice chat - talking by microphone during a game take a break - stop for a short time relaxing - helping you feel calm",
         "contextMeaning": "Here, \"during\" means at some time in a period",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -83748,6 +83779,7 @@
     "episodes": [
       "episode-2026-05-11-kofu-kosemachi-restaurant-cafe-food-guide",
       "episode-2026-06-03-shopping-at-a-supermarket",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-22-south-korea-fast-cities-and-local-places"
     ],
     "contexts": [
@@ -83763,6 +83795,13 @@
         "sentence": "Many people go to supermarkets to buy food and drinks. Supermarkets are bigger than convenience stores. People can buy vegetables, fruit, meat, fish, bread, milk, and snacks there.",
         "contextMeaning": "Here, \"fish\" means an animal from water, also eaten as food",
         "source": "manual_supermarket_original_paragraph_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Animal Crossing is a calm life game: players decorate, catch fish, and visit neighbors.",
+        "contextMeaning": "Here, \"fish\" means an animal that lives in water",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       },
       {
@@ -89496,7 +89535,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -89509,6 +89549,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "For example, players of one game may share jokes that only other players understand.",
+        "contextMeaning": "Here, \"game\" means an activity people play for fun",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "What kind of game is fun for you?",
         "contextMeaning": "Here, \"game\" means an activity people play for fun",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -89526,12 +89573,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "This is common in schools, fandoms, games, workplaces, and online communities.",
+        "contextMeaning": "Here, \"games\" means an activity people play for fun",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Playing Video Games Warm-Up Questions 1.",
         "contextMeaning": "Here, \"games\" means an activity people play for fun",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -156790,6 +156845,29 @@
       }
     ]
   },
+  "play": {
+    "word": "play",
+    "definition": "To do something for fun or sport",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-06-10-playing-video-games"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Do you play games on a phone, computer, console, or tablet?",
+        "contextMeaning": "Here, \"play\" means to do something for fun or sport",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "played": {
     "word": "played",
     "definition": "Did a game for fun",
@@ -222607,6 +222685,7 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-09-working-at-a-winery",
       "episode-2026-06-10-opening-a-business-abroad-b1",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results"
@@ -222713,6 +222792,13 @@
       {
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "Part 3: Use Digital Tools Carefully Research used to mean long trips and thick reports.",
+        "contextMeaning": "Here, \"tools\" means things that help you do something",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "The Legend of Zelda is an adventure series: players explore, find tools, and solve puzzles.",
         "contextMeaning": "Here, \"tools\" means things that help you do something",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -233078,7 +233164,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture"
+      "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -233091,6 +233178,13 @@
       {
         "episodeId": "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
         "sentence": "Do you usually understand image memes, video memes, sound memes, or phrase memes fastest?",
+        "contextMeaning": "Here, \"video\" means moving pictures on a screen",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Playing Video Games Warm-Up Questions 1.",
         "contextMeaning": "Here, \"video\" means moving pictures on a screen",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -233600,6 +233694,7 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -233790,6 +233885,13 @@
       {
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "People visit famous music studios, old castles, temples, sports stadiums, movie locations, and historical sites because they want to stand where something meaningful happened.",
+        "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Animal Crossing is a calm life game: players decorate, catch fish, and visit neighbors.",
         "contextMeaning": "Here, \"visit\" means to go to a place or person for a time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -242818,6 +242920,7 @@
     "episodes": [
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
+      "episode-2026-06-10-playing-video-games",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-22-italy-one-country-many-local-worlds"
     ],
@@ -242832,6 +242935,13 @@
       {
         "episodeId": "episode-2026-05-27-the-hero-story-in-greek-myth",
         "sentence": "Many Greek heroes stand between human and divine worlds.",
+        "contextMeaning": "Here, \"worlds\" means all the people and places on Earth",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-06-10-playing-video-games",
+        "sentence": "Minecraft is a building and survival game: players use blocks to make houses, farms, or whole worlds.",
         "contextMeaning": "Here, \"worlds\" means all the people and places on Earth",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
