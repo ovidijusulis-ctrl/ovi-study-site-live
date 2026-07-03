@@ -3328,6 +3328,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -3784,6 +3785,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "| What happened after that?",
+        "contextMeaning": "Here, \"after\" means later than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Speaking Practice: Explain the First Ride Practice after you understand the horse and the safety rules.",
         "contextMeaning": "Here, \"after\" means later than something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -7170,6 +7178,7 @@
     "episodes": [
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
     "contexts": [
@@ -7185,6 +7194,13 @@
         "sentence": "What is new is the combination of gene editing, cleaner animal facilities, immune monitoring, and formal human trials.",
         "contextMeaning": "Here, \"animal\" means a living thing like a dog, cat, or bird",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse riding is a sport and a relationship with an animal.",
+        "contextMeaning": "Here, \"animal\" means the horse",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -7231,7 +7247,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants"
+      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -7246,6 +7263,13 @@
         "sentence": "Useful Topic Vocabulary xenotransplantation - cross-species transplant dialysis - machine-supported blood cleaning gene edit - intentional DNA change immune rejection - body attacks transplant clinical trial - human research study compatibility - biological match zoonotic infection - infection crossing from animals informed consent - understanding before agreeing",
         "contextMeaning": "Here, \"animals\" means a living thing like a dog, cat, or bird",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Many people ride horses only for fun, health, or time with animals.",
+        "contextMeaning": "Here, \"animals\" means animals includes horses",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -10779,6 +10803,7 @@
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -10864,6 +10889,13 @@
         "sentence": "It must ask, \"What is probably out there?",
         "contextMeaning": "Here, \"ask\" means to put a question in your mind or to another person",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The reins help the rider ask the horse to stop, turn left, or turn right.",
+        "contextMeaning": "Here, \"ask\" means use the reins to tell the horse what to do",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -14412,7 +14444,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants"
+      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -14482,6 +14515,13 @@
         "episodeId": "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
         "sentence": "How should patients balance hope with uncertainty in experimental medicine?",
         "contextMeaning": "Here, \"balance\" means to keep hope and worry about new medicine in a good way",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The rider learns balance.",
+        "contextMeaning": "Here, \"balance\" means the rider learns to stay steady on the horse",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -16851,7 +16891,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -17111,6 +17152,13 @@
         "sentence": "Should a powerful experience automatically become a life philosophy?",
         "contextMeaning": "Here, \"become\" means to start to be something different",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A jockey is a person who rides a horse in a race.",
+        "contextMeaning": "Here, \"become\" means become describes a rider changing into a famous jockey",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -17745,6 +17793,7 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
@@ -18277,6 +18326,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "This helps the student answer before we ask small details.",
+        "contextMeaning": "Here, \"before\" means earlier than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Before riding, people should move slowly.",
         "contextMeaning": "Here, \"before\" means earlier than something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -22063,6 +22119,29 @@
         "sentence": "What games or booths did you visit?",
         "contextMeaning": "Here, \"booths\" means festival places people can visit",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "boots": {
+    "word": "boots",
+    "definition": "Strong shoes that cover your feet and lower legs",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Riders also wear shoes or boots that are good for riding.",
+        "contextMeaning": "Here, \"boots\" means riders wear special strong shoes for riding horses",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -27004,6 +27083,7 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -27170,6 +27250,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A calm rider helps the horse feel calm too.",
+        "contextMeaning": "Here, \"calm\" means calm describes a safe feeling near the horse",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "A calm answer is usually better than a long explanation.",
         "contextMeaning": "Here, \"calm\" means peaceful and not rough or noisy",
@@ -27181,6 +27268,29 @@
         "sentence": "Some learners feel calm before a trial lesson.",
         "contextMeaning": "Here, \"calm\" means quiet, peaceful, or not busy",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "calm riding": {
+    "word": "calm riding",
+    "definition": "Riding in a quiet, controlled way",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "People know him for many big wins and calm riding.",
+        "contextMeaning": "Here, \"calm riding\" means the jockey rides without rough or wild moves",
+        "source": "popup_manual_review/horse_jockey_fact_update_2026-07-03",
         "confidence": "trusted"
       }
     ]
@@ -28780,7 +28890,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -28991,6 +29102,13 @@
         "sentence": "When you travel, do you spend money more carefully or more freely than usual?",
         "contextMeaning": "Here, \"carefully\" means spending money after checking the choice",
         "source": "producer_reviewed_popup_patch_v1",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A good rider moves slowly, listens carefully, and uses small signals.",
+        "contextMeaning": "Here, \"carefully\" means listening and moving slowly to be a good rider",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -31417,7 +31535,8 @@
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -31831,6 +31950,13 @@
         "sentence": "For example, a person may think, \"I always fail,\" \"Nobody respects me,\" or \"This feeling will never change.\" These thoughts may feel like reality.",
         "contextMeaning": "Here, \"change\" means to become different or make something different",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Then change one detail: the feeling, the horse's size, or the first move.",
+        "contextMeaning": "Here, \"change\" means make one part of the speaking example different",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -38913,6 +39039,29 @@
       }
     ]
   },
+  "coaches": {
+    "word": "coaches",
+    "definition": "A person who trains a team or player",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A famous jockey also trains a lot, listens to coaches, and learns how each horse moves.",
+        "contextMeaning": "Here, \"coaches\" means a person who trains a team or player",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "coast": {
     "word": "coast",
     "definition": "The edge of the land next to the sea",
@@ -40571,7 +40720,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -40705,6 +40855,13 @@
         "sentence": "The Firebird comes from Russian fairy-tale material.",
         "contextMeaning": "Here, \"comes\" means the music is made from Russian fairy-tale stories",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Safety Comes First",
+        "contextMeaning": "Here, \"comes\" means comes first means safety is most important",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -57260,6 +57417,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -57410,6 +57568,13 @@
         "sentence": "Chin may impress listeners through sharp imagination and orchestral detail.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Then change one detail: the feeling, the horse's size, or the first move.",
+        "contextMeaning": "Here, \"detail\" means one small part of the speaking answer",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -71194,7 +71359,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-17-getting-a-library-card",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -71249,6 +71415,13 @@
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "In the controlled pilot, run several pop-ups or market events, not only one day.",
+        "contextMeaning": "Here, \"events\" means something planned that happens",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They can win important events.",
         "contextMeaning": "Here, \"events\" means something planned that happens",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -71446,6 +71619,7 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -71824,6 +71998,13 @@
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Help questions are useful for every age.",
         "contextMeaning": "Here, \"every\" means useful for people of all ages, young and old",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "This does not mean every rider must race.",
+        "contextMeaning": "Here, \"every\" means not all riders need to take part in horse races",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -73544,7 +73725,8 @@
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -73734,6 +73916,13 @@
         "sentence": "Was it cool, funny, or exciting?",
         "contextMeaning": "Here, \"exciting\" means making people feel interested and happy",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Riding can feel exciting, but it can also feel calm.",
+        "contextMeaning": "Here, \"exciting\" means riding can make you feel happy and full of energy",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -74927,6 +75116,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -75258,6 +75448,13 @@
         "sentence": "Thirty seconds: explain the kawara business, clay and fire, and the smoked-silver latte idea.",
         "contextMeaning": "Here, \"explain\" means to tell about the business and ideas in thirty seconds",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Explain a first riding lesson in five small steps.",
+        "contextMeaning": "Here, \"explain\" means telling the steps of a first riding lesson",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -77689,7 +77886,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "A jockey can become famous after big wins",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -78268,7 +78465,8 @@
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -78401,6 +78599,13 @@
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Understanding questions help you continue when English is fast, quiet, or new.",
         "contextMeaning": "Here, \"fast\" means english that is spoken quickly and hard to hear",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A fast hand, a loud voice, or running feet can surprise a horse.",
+        "contextMeaning": "Here, \"fast\" means a quick hand or voice can make the horse jump",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -79339,6 +79544,7 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -79504,6 +79710,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Riding can feel exciting, but it can also feel calm.",
+        "contextMeaning": "Here, \"feel\" means the rider's emotion during horse riding",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "The customer needs to feel understood.",
         "contextMeaning": "Here, \"feel\" means the customer needs to know they are cared for and listened to",
@@ -79572,6 +79785,7 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -79758,6 +79972,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Then change one detail: the feeling, the horse's size, or the first move.",
+        "contextMeaning": "Here, \"feeling\" means how the rider feels in the speaking answer",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "Other customers only know the feeling they want.",
         "contextMeaning": "Here, \"feeling\" means other customers only know the small idea or mood they want",
@@ -79927,7 +80148,8 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -80097,6 +80319,13 @@
         "contextMeaning": "Here, \"feels\" means to notice something in your body or emotions",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "If the rider feels worried, the rider can say, \"Can we go slowly?\"",
+        "contextMeaning": "Here, \"feels\" means the rider is worried",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
+        "confidence": "trusted"
       }
     ]
   },
@@ -80150,13 +80379,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
         "sentence": "His feet move a little.",
         "contextMeaning": "Here, \"feet\" means the parts under his legs move a little",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A fast hand, a loud voice, or running feet can surprise a horse.",
+        "contextMeaning": "Here, \"feet\" means fast moving feet can make the horse jump",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -81528,7 +81765,8 @@
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
       "episode-2026-05-20-a-busy-morning-a1-to-b2-english-ladder",
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -81577,6 +81815,13 @@
         "episodeId": "episode-2026-06-03-why-some-objects-become-special",
         "sentence": "Finally, it may gain market value.",
         "contextMeaning": "Here, \"finally\" means at the last step, it may get value",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Finally, walk slowly with the teacher.",
+        "contextMeaning": "Here, \"finally\" means the last thing to do is walk slowly with the teacher",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -82313,6 +82558,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -82708,6 +82954,13 @@
         "sentence": "| Use this when the first answer is too short.",
         "contextMeaning": "Here, \"first\" means number one in order",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "At first, many riders only walk with the horse.",
+        "contextMeaning": "Here, \"first\" means the beginning of a riding lesson",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -87857,7 +88110,8 @@
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -87886,6 +88140,13 @@
         "sentence": "The songs can sound fun, but they can also feel deep.",
         "contextMeaning": "Here, \"fun\" means the songs can make you feel happy and playful",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Some people ride for fun.",
+        "contextMeaning": "Here, \"fun\" means people enjoy riding horses",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -89232,7 +89493,8 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-06-03-classical-music-history-composers",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -89295,6 +89557,13 @@
         "episodeId": "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
         "sentence": "When a fan is sad, she can feel quiet and gentle.",
         "contextMeaning": "Here, \"gentle\" means feeling quiet and soft when someone is sad",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horses are big and strong, but many horses are gentle.",
+        "contextMeaning": "Here, \"gentle\" means many horses are kind even if they are big",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -89498,7 +89767,8 @@
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -89569,6 +89839,13 @@
         "sentence": "The Business Registration Service can register a company, apply for a company name, and get an ACN.",
         "contextMeaning": "Here, \"get\" means to receive an official company number",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They listen to the teacher before they get on the horse.",
+        "contextMeaning": "Here, \"get\" means get on means climb onto the horse before riding",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -91547,6 +91824,7 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -91695,6 +91973,13 @@
         "sentence": "Good science does not need hype.",
         "contextMeaning": "Here, \"good\" means useful, correct, or positive",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Good riders do not pull hard.",
+        "contextMeaning": "Here, \"good\" means good describes riders who use safe gentle actions",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -94771,7 +95056,8 @@
       "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
       "episode-2026-05-15-a-food-lover-s-paradise-in-the-swedish-3",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -94800,6 +95086,13 @@
         "sentence": "I clap my hands.",
         "contextMeaning": "Here, \"hands\" means i clap the parts at the end of my arms",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The rider holds the reins with both hands.",
+        "contextMeaning": "Here, \"hands\" means hands hold the reins while riding",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -97854,7 +98147,8 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -97932,6 +98226,13 @@
         "sentence": "It helps the body survive.",
         "contextMeaning": "Here, \"helps\" means to make something easier for someone",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A calm rider helps the horse feel calm too.",
+        "contextMeaning": "Here, \"helps\" means a calm rider can make the horse calmer",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -99464,7 +99765,8 @@
       "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -99500,6 +99802,13 @@
         "sentence": "A good souvenir can be a small memory you can hold.",
         "contextMeaning": "Here, \"hold\" means to carry a memory or meaning",
         "source": "producer_reviewed_popup_patch_v1",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider learns how to meet the horse, sit well, hold the reins, and listen to the teacher.",
+        "contextMeaning": "Here, \"hold\" means use your hands to keep the horse's reins",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -99571,7 +99880,8 @@
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -99593,6 +99903,13 @@
         "sentence": "If you buy because the object truly holds a memory, the purchase may be fine.",
         "contextMeaning": "Here, \"holds\" means carries a memory or meaning",
         "source": "producer_reviewed_popup_patch_v1",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The rider holds the reins with both hands.",
+        "contextMeaning": "Here, \"holds\" means the rider keeps the reins in both hands",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -100317,7 +100634,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "The horse can walk, stop, and turn",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -100340,7 +100657,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "The lesson is about horse riding",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -100353,6 +100670,52 @@
         "sentence": "The lesson is about horse riding",
         "contextMeaning": "Here, \"horse riding\" means the lesson is about horse riding",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "horse-riding": {
+    "word": "horse-riding",
+    "definition": "To sit on a horse and make it move",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "6: Explain your first horse-riding lesson.",
+        "contextMeaning": "Here, \"horse-riding\" means your first time learning to sit on and ride a horse",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "horses": {
+    "word": "horses",
+    "definition": "Large animals that people can ride",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horses are big and strong, but many horses are gentle.",
+        "contextMeaning": "Here, \"horses\" means the animals used in riding lessons and races",
+        "source": "popup_manual_review/horse_riding_lint_cleanup_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -103670,6 +104033,7 @@
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -103769,6 +104133,13 @@
         "sentence": "Is that sound important?",
         "contextMeaning": "Here, \"important\" means has strong value",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Stop sounds important.",
+        "contextMeaning": "Here, \"important\" means safety words matter a lot",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -114843,6 +115214,7 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping",
@@ -114980,6 +115352,13 @@
         "sentence": "A composer needs a voice that other people recognize, works that performers return to, ideas that younger musicians learn from, and enough range to survive changing taste.",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider learns how to meet the horse, sit well, hold the reins, and listen to the teacher.",
+        "contextMeaning": "Here, \"learn\" means getting better at horse riding step by step",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -115391,6 +115770,7 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
@@ -115421,6 +115801,13 @@
         "sentence": "He asks simple questions, shows simple emotions, and learns together with the viewer.",
         "contextMeaning": "Here, \"learns\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider learns how to meet the horse, sit well, hold the reins, and listen to the teacher.",
+        "contextMeaning": "Here, \"learns\" means the rider gets better step by step",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -115942,7 +116329,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger"
+      "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -115950,6 +116338,13 @@
         "sentence": "They bite your arms and legs.",
         "contextMeaning": "Here, \"legs\" means the lower limbs of your body that get bitten",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They also use their body and legs.",
+        "contextMeaning": "Here, \"legs\" means they use their body and feet parts to help control the horse",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -118564,6 +118959,7 @@
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -118600,6 +118996,13 @@
         "sentence": "So as you listen, watch for three key ideas: trust, risk, and rules.",
         "contextMeaning": "Here, \"listen\" means pay attention with your ears to hear ideas here",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider learns how to meet the horse, sit well, hold the reins, and listen to the teacher.",
+        "contextMeaning": "Here, \"listen\" means pay attention to the teacher's words",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -118729,8 +119132,8 @@
   },
   "listens": {
     "word": "listens",
-    "definition": "Hears with attention now",
-    "cefrLevel": "A2",
+    "definition": "Hears and pays attention",
+    "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
     "exampleGeneral": "",
@@ -118738,9 +119141,17 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A famous jockey also trains a lot, listens to coaches, and learns how each horse moves.",
+        "contextMeaning": "Here, \"listens\" means the jockey pays attention to coaches",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
+        "confidence": "trusted"
+      },
       {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
@@ -121302,6 +121713,7 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -121350,6 +121762,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "The teacher can choose six to ten questions and model short answers out loud.",
+        "contextMeaning": "Here, \"loud\" means making a lot of noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A fast hand, a loud voice, or running feet can surprise a horse.",
         "contextMeaning": "Here, \"loud\" means making a lot of noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -124264,6 +124683,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -124825,6 +125245,13 @@
         "sentence": "It moves through many places: floor, basket, washer, dryer or drying rack, folding area, and drawer.",
         "contextMeaning": "Here, \"many\" means many places means many chances to lose a sock",
         "source": "codex_manual_rendered_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Many riders wear a helmet.",
+        "contextMeaning": "Here, \"many\" means many talks about a lot of riders",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -126643,7 +127070,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -126756,6 +127184,13 @@
         "sentence": "This does not mean the outside world is imaginary.",
         "contextMeaning": "Here, \"mean\" means to have a meaning or result",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse riding means sitting on a horse and moving with the horse.",
+        "contextMeaning": "Here, \"mean\" means mean explains what horse riding is",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -128184,7 +128619,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-29-important-questions-for-real-life-a1"
+      "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -128219,6 +128655,13 @@
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Some questions help you meet a person or give basic information.",
         "contextMeaning": "Here, \"meet\" means to see and talk with a new person",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider learns how to meet the horse, sit well, hold the reins, and listen to the teacher.",
+        "contextMeaning": "Here, \"meet\" means get to know the horse before riding it",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -132238,7 +132681,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -132384,6 +132828,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "The better question is \"What job was that object doing in that moment?\"",
+        "contextMeaning": "Here, \"moment\" means a very short time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "People can remember their best moment.",
         "contextMeaning": "Here, \"moment\" means a very short time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -134577,7 +135028,7 @@
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
-    "exampleGeneral": "",
+    "exampleGeneral": "People should move slowly near a horse",
     "relatedWords": [],
     "source": "shared-bank",
     "confidence": "trusted",
@@ -134855,6 +135306,7 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
     "contexts": [
@@ -134891,6 +135343,13 @@
         "sentence": "It moves through many places: floor, basket, washer, dryer or drying rack, folding area, and drawer.",
         "contextMeaning": "Here, \"moves\" means to go from one place to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Saddle, Reins, and Simple Moves",
+        "contextMeaning": "Here, \"moves\" means simple riding actions like walk, stop, and turn",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -135026,7 +135485,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -135167,6 +135627,13 @@
         "sentence": "A living composer is still moving.",
         "contextMeaning": "Here, \"moving\" means a living composer's career is not fixed yet",
         "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse riding means sitting on a horse and moving with the horse.",
+        "contextMeaning": "Here, \"moving\" means going with the horse as it walks or runs",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -137050,6 +137517,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
@@ -137191,6 +137659,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "You are walking through a small street near the beach, a train station, or an old town.",
+        "contextMeaning": "Here, \"near\" means not far away",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Why should people move slowly near a horse?",
         "contextMeaning": "Here, \"near\" means not far away",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -138162,6 +138637,7 @@
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -138247,6 +138723,13 @@
         "sentence": "I was nervous before my job started.",
         "contextMeaning": "Here, \"nervous\" means i was nervous before my job started",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "I feel a little nervous.",
+        "contextMeaning": "Here, \"nervous\" means feeling a little scared before or during horse riding",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
       {
@@ -138900,6 +139383,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -138978,6 +139462,13 @@
       {
         "episodeId": "episode-2026-06-29-school-festival-conversation-a2",
         "sentence": "Time And Schedule Ask about time next.",
+        "contextMeaning": "Here, \"next\" means coming after this one",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Next, put on a helmet.",
         "contextMeaning": "Here, \"next\" means coming after this one",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -150890,6 +151381,7 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -151115,6 +151607,13 @@
         "sentence": "It helps you remember your past, plan your future, protect your body, explain your actions, and live with other people.",
         "contextMeaning": "Here, \"people\" means humans in daily life or research reports",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Some people ride for fun.",
+        "contextMeaning": "Here, \"people\" means riders, learners, teachers, or families",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -162661,7 +163160,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants"
+      "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -162696,6 +163196,13 @@
         "episodeId": "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
         "sentence": "This protects patients and helps researchers understand safety signals before broader use.",
         "contextMeaning": "Here, \"protects\" means keeps patients safe from bad effects before many use it",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A helmet protects the head.",
+        "contextMeaning": "Here, \"protects\" means a helmet keeps the head safe from injury",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -163299,13 +163806,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
         "sentence": "The main actions are simple: pull weeds, clear paths, and come back again.",
         "contextMeaning": "Here, \"pull\" means take weeds out by hand to clean the garden",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Good riders do not pull hard.",
+        "contextMeaning": "Here, \"pull\" means good riders do not use strong hand force on reins",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -164765,7 +165280,8 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -164984,6 +165500,13 @@
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They can say hello in a quiet voice.",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -165162,6 +165685,52 @@
         "sentence": "The system should also have quotas, logs, evaluation tests, and provider failover.",
         "contextMeaning": "Here, \"quotas\" means a cap on model credits, calls, or expensive reasoning",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "race": {
+    "word": "race",
+    "definition": "A fast contest to see who is first",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A jockey is a person who rides a horse in a race.",
+        "contextMeaning": "Here, \"race\" means a fast horse contest where jockeys ride",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "races": {
+    "word": "races",
+    "definition": "Games where people run or ride to win",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A jockey is a person who rides a horse in a race.",
+        "contextMeaning": "Here, \"races\" means important horse competitions that jockeys try to win",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -169854,7 +170423,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-05-22-the-future-worker-ai-agents-vibe-coding-marketing",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -169896,6 +170466,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "A later permanent business or showroom relationship may fit Brisbane better.",
         "contextMeaning": "Here, \"relationship\" means a business connection that fits well in Brisbane later",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse riding is a sport and a relationship with an animal.",
+        "contextMeaning": "Here, \"relationship\" means how you and the horse are friends or work together",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -175897,6 +176474,29 @@
       }
     ]
   },
+  "rides": {
+    "word": "rides",
+    "definition": "To sit on and control an animal or vehicle",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-01-horse-riding-basics-a1"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A jockey is a person who rides a horse in a race.",
+        "contextMeaning": "Here, \"rides\" means a jockey sits on and controls a horse in a race",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "riding": {
     "word": "riding",
     "definition": "Sitting on and moving with something",
@@ -175908,7 +176508,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why"
+      "episode-2026-05-05-b1-site-only-fun-explainer-lesson-about-why",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -175916,6 +176517,13 @@
         "sentence": "That is why people keep riding them at parks around the world, from Cedar Point to Disneyland to places in Europe and Asia.",
         "contextMeaning": "Here, \"riding\" means people keep sitting on rides at parks worldwide",
         "source": "episode-supported",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse riding means sitting on a horse and moving with the horse.",
+        "contextMeaning": "Here, \"riding\" means going on a horse to move with it",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -178635,7 +179243,8 @@
       "episode-2026-05-12-b1-practical-workplace-english-conversation-lesson-using-ai",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -178664,6 +179273,13 @@
         "sentence": "It is not a rule.",
         "contextMeaning": "Here, \"rule\" means likes are not something everyone must do",
         "source": "codex_manual_a1_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "What safety rule do you know for a sport?",
+        "contextMeaning": "Here, \"rule\" means a safety instruction you follow in sports",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -178735,7 +179351,8 @@
       "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -178814,6 +179431,13 @@
         "contextMeaning": "Here, \"rules\" means the laws companies must follow to get lower tax",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Practice after you understand the horse and the safety rules.",
+        "contextMeaning": "Here, \"rules\" means safety instructions to follow when working with horses",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -178856,7 +179480,8 @@
       "episode-2026-05-13-why-cats-act-so-strange",
       "episode-2026-05-15-hundreds-of-comedians-unpaid-by-one-of-uk-2",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
-      "episode-2026-05-21-google-io-2026-agentic-operating-system"
+      "episode-2026-05-21-google-io-2026-agentic-operating-system",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -178898,6 +179523,13 @@
         "episodeId": "episode-2026-05-21-google-io-2026-agentic-operating-system",
         "sentence": "Gemini Spark is meant to operate as a 24/7 personal agent, running in the cloud and continuing work even when a laptop or phone is closed.",
         "contextMeaning": "Here, \"running\" means working in the internet system all the time",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A fast hand, a loud voice, or running feet can surprise a horse.",
+        "contextMeaning": "Here, \"running\" means feet that move fast can make the horse jump",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -179541,7 +180173,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -179732,6 +180365,13 @@
         "contextMeaning": "Here, \"safe\" means less likely to feel risky",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "What can you do to help an animal feel safe?",
+        "contextMeaning": "Here, \"safe\" means the animal does not feel danger",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
+        "confidence": "trusted"
       }
     ]
   },
@@ -179773,7 +180413,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-05-taking-a-taxi",
-      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -179809,6 +180450,13 @@
         "sentence": "The story works because the problem is clear, the mistakes get bigger, the helper gives useful advice, and the ending pays off the joke safely.",
         "contextMeaning": "Here, \"safely\" means the ending finishes the funny part without problems",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse Riding: Ride Slowly and Safely",
+        "contextMeaning": "Here, \"safely\" means riding with care and good safety rules",
+        "source": "popup_manual_review/horse_riding_density_repair_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -179990,7 +180638,8 @@
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -180109,6 +180758,13 @@
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "A person opens a work screen that shows several AI agents: a research agent, a writing agent, a meeting agent, a customer agent, a money agent, and a safety agent.",
         "contextMeaning": "Here, \"safety\" means an AI helper that watches to keep things safe",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "What safety rule do you know for a sport?",
+        "contextMeaning": "Here, \"safety\" means rules to keep you safe when doing sports",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -181123,6 +181779,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -181264,6 +181921,13 @@
         "sentence": "A simple way to say it is this: The brain predicts first, then corrects.",
         "contextMeaning": "Here, \"say\" means to express something in words",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They can say hello in a quiet voice.",
+        "contextMeaning": "Here, \"say\" means speak to the horse in a quiet way",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -181700,13 +182364,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
         "sentence": "He is scared too.",
         "contextMeaning": "Here, \"scared\" means he feels afraid too",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A horse can still feel scared.",
+        "contextMeaning": "Here, \"scared\" means the horse can feel afraid sometimes",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -181751,6 +182423,7 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
@@ -181786,6 +182459,13 @@
         "episodeId": "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
         "sentence": "This kind of change can feel scary.",
         "contextMeaning": "Here, \"scary\" means this kind of change can make you feel afraid",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Do you think horse riding looks fun or scary?",
+        "contextMeaning": "Here, \"scary\" means riding a horse can look a little frightening",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -188290,6 +188970,7 @@
       "episode-2026-05-17-kofu-and-yamanashi-modern-cafe-culture",
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-05-shopping-for-clothes",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -188312,6 +188993,13 @@
         "sentence": "People can buy shirts, pants, jackets, dresses, socks, and shoes.",
         "contextMeaning": "Here, \"shoes\" means people can buy shoes",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Riders also wear shoes or boots that are good for riding.",
+        "contextMeaning": "Here, \"shoes\" means riders wear shoes that are good for riding horses",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
       {
@@ -190084,7 +190772,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -190162,6 +190851,13 @@
         "sentence": "ANSWER 1: Perception is not that simple because the brain receives signals and must build a useful model from them.",
         "contextMeaning": "Here, \"signals\" means information sent from one place to another",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They use small signals.",
+        "contextMeaning": "Here, \"signals\" means they use little signs to tell the horse what to do",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -191418,7 +192114,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-17-getting-a-haircut",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -191481,6 +192178,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Customers may dress casually, sit outside, and still expect high quality.",
         "contextMeaning": "Here, \"sit\" means put your body on a chair outside",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider learns how to meet the horse, sit well, hold the reins, and listen to the teacher.",
+        "contextMeaning": "Here, \"sit\" means put your bottom on the horse in the right way",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -191553,6 +192257,7 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -191627,6 +192332,13 @@
         "confidence": "trusted"
       },
       {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider sits on a saddle.",
+        "contextMeaning": "Here, \"sits\" means the rider puts their bottom on the saddle",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "It sits between Gyeongbokgung Palace and Changdeokgung Palace.",
         "contextMeaning": "Here, \"sits\" means it is between two palaces",
@@ -191652,7 +192364,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -191702,6 +192415,13 @@
         "sentence": "But the self may not be a tiny person sitting behind your eyes.",
         "contextMeaning": "Here, \"sitting\" means resting on a chair",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse riding means sitting on a horse and moving with the horse.",
+        "contextMeaning": "Here, \"sitting\" means putting your bottom on a horse to stay there",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -192029,6 +192749,7 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -192064,6 +192785,13 @@
         "episodeId": "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
         "sentence": "That narrowness is one reason light-based links can offer much higher data rates with equipment of comparable size and power.",
         "contextMeaning": "Here, \"size\" means the amount of space the equipment takes up",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Then change one detail: the feeling, the horse's size, or the first move.",
+        "contextMeaning": "Here, \"size\" means how big the horse is in the story or lesson",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
@@ -192251,13 +192979,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "This background matters because Stravinsky became very skilled at instrumental color.",
         "contextMeaning": "Here, \"skilled\" means stravinsky was very good at making music sound different",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Jockeys are light, strong, and skilled.",
+        "contextMeaning": "Here, \"skilled\" means jockeys are very good and strong at riding horses",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -192996,7 +193732,8 @@
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -193103,6 +193840,13 @@
         "contextMeaning": "Here, \"slowly\" means not fast",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse Riding: Ride Slowly and Safely Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"slowly\" means not fast",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -193194,6 +193938,7 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
@@ -193293,6 +194038,13 @@
         "sentence": "When you are moved by a big idea, ask: \"How will this change one small action today?\"",
         "contextMeaning": "Here, \"small\" means not large",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They use small signals.",
+        "contextMeaning": "Here, \"small\" means small describes quiet signals from the rider",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -197732,7 +198484,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -198089,6 +198842,13 @@
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "Speaking Practice Questions 1.",
         "contextMeaning": "Here, \"speaking\" means talking practice questions for learners to answer",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Speaking Practice Questions 1.",
+        "contextMeaning": "Here, \"speaking\" means practice questions to help you say words out loud",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -199246,7 +200006,8 @@
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-23-talking-about-what-people-like-a1",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -199275,6 +200036,13 @@
         "sentence": "During deep music, prayer, meditation, sport, art, or love, people sometimes feel less separate from the world.",
         "contextMeaning": "Here, \"sport\" means physical activity or a game with rules",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Some people ride as a sport.",
+        "contextMeaning": "Here, \"sport\" means riding horses as a game or exercise",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -200217,7 +200985,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-12-going-to-a-world-cup-football-match"
+      "episode-2026-06-12-going-to-a-world-cup-football-match",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -200259,6 +201028,13 @@
         "episodeId": "episode-2026-06-12-going-to-a-world-cup-football-match",
         "sentence": "Many fans stand up.",
         "contextMeaning": "Here, \"stand\" means many fans get up from their seats",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They can stand where the teacher says.",
+        "contextMeaning": "Here, \"stand\" means they stay on their feet where the teacher says",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -200498,7 +201274,8 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -200548,6 +201325,13 @@
         "sentence": "You can say, \"I sent the wrong file,\" \"I used the old version,\" or \"I missed the message.\" Start with the fact.",
         "contextMeaning": "Here, \"start\" means to begin",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "I would like to start with a slow walk.",
+        "contextMeaning": "Here, \"start\" means begin the first ride with a slow walk",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -201976,7 +202760,8 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -202069,6 +202854,13 @@
         "contextMeaning": "Here, \"step\" means one transfer point in laundry",
         "source": "codex_manual_rendered_popup_support",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "6: What is the first step in this practice?",
+        "contextMeaning": "Here, \"step\" means the first small action to do in this practice",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
       }
     ]
   },
@@ -202094,7 +202886,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035"
+      "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -202178,6 +202971,13 @@
         "episodeId": "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
         "sentence": "An AI agent is different because it can connect steps.",
         "contextMeaning": "Here, \"steps\" means small actions that the AI agent can join together",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Explain a first riding lesson in five small steps.",
+        "contextMeaning": "Here, \"steps\" means small actions to explain how to have a first riding lesson",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -202338,7 +203138,8 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -202765,6 +203566,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Customers may dress casually, sit outside, and still expect high quality.",
         "contextMeaning": "Here, \"still\" means people dress simply and sit outside but want good quality",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A horse can still feel scared.",
+        "contextMeaning": "Here, \"still\" means the horse can feel afraid even now",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -205093,6 +205901,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
@@ -205271,6 +206080,13 @@
         "sentence": "Vacation objects often have weak practical value but strong emotional value.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horses are big and strong, but many horses are gentle.",
+        "contextMeaning": "Here, \"strong\" means strong describes horses as powerful animals",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       },
       {
@@ -208511,7 +209327,8 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-surprise-cake-mystery",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-29-school-festival-conversation-a2"
+      "episode-2026-06-29-school-festival-conversation-a2",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -208610,6 +209427,13 @@
         "sentence": "Was it a good surprise?",
         "contextMeaning": "Here, \"surprise\" means something at the festival that the student did not expect",
         "source": "school_festival_conversation_a2_popup_coverage_backfill_2026_06_29",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A fast hand, a loud voice, or running feet can surprise a horse.",
+        "contextMeaning": "Here, \"surprise\" means quick actions can make the horse feel shocked",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -212100,6 +212924,7 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson"
     ],
@@ -212198,6 +213023,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "A character for toddlers should not sound like a teenager or a teacher.",
+        "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A rider learns how to meet the horse, sit well, hold the reins, and listen to the teacher.",
         "contextMeaning": "Here, \"teacher\" means a person who helps students learn",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -215125,6 +215957,7 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-29-important-questions-for-real-life-a1",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping"
@@ -215182,6 +216015,13 @@
       {
         "episodeId": "episode-2026-06-29-important-questions-for-real-life-a1",
         "sentence": "Then change the final word.",
+        "contextMeaning": "Here, \"then\" means after that or at that time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Then sit on the saddle.",
         "contextMeaning": "Here, \"then\" means after that or at that time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -218291,7 +219131,8 @@
       "episode-2026-05-26-the-history-of-gelato",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold"
+      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -218340,6 +219181,13 @@
         "episodeId": "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
         "sentence": "The Nature paper still discusses strict timing requirements, real-time decoding, correlated error events, and remaining questions about error floors.",
         "contextMeaning": "Here, \"timing\" means the exact time when actions must happen in the system",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "They practice balance, timing, and calm thinking.",
+        "contextMeaning": "Here, \"timing\" means doing things at the right time while balancing and thinking",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -219243,7 +220091,8 @@
       "episode-2026-05-04-food-that-surprises-people-around-the-world-create-4",
       "episode-2026-05-15-meta-brings-virtual-writing-to-everyone-with-meta-3",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -219279,6 +220128,13 @@
         "sentence": "A campus is a large place with buildings and services together.",
         "contextMeaning": "Here, \"together\" means all people working as a group to do tasks",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "The horse and rider work together.",
+        "contextMeaning": "Here, \"together\" means the horse and rider work as one team",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -221598,6 +222454,7 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-06-05-asking-for-directions-in-a-station",
       "episode-2026-06-22-italy-one-country-many-local-worlds",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
@@ -221618,6 +222475,13 @@
       {
         "episodeId": "episode-2026-06-22-italy-one-country-many-local-worlds",
         "sentence": "Streets, markets, cafes, trains, and squares are not only for moving from one place to another.",
+        "contextMeaning": "Here, \"trains\" means a long vehicle that runs on tracks",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "A famous jockey also trains a lot, listens to coaches, and learns how each horse moves.",
         "contextMeaning": "Here, \"trains\" means a long vehicle that runs on tracks",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -227321,7 +228185,8 @@
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -227462,6 +228327,13 @@
         "sentence": "[OPENING] Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
         "contextMeaning": "Here, \"use\" means to do something with a tool, idea, or ability",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "I can use a quiet voice.",
+        "contextMeaning": "Here, \"use\" means speak with a quiet voice near the horse",
+        "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
         "confidence": "trusted"
       }
     ]
@@ -232112,6 +232984,7 @@
       "episode-2026-06-03-transport-backup-plan",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
     "contexts": [
@@ -232169,6 +233042,13 @@
         "sentence": "Some hobbies are active, like walking, dancing, or playing a sport.",
         "contextMeaning": "Here, \"walking\" means an active but simple hobby",
         "source": "codex_manual_a1_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Walking is slow and useful.",
+        "contextMeaning": "Here, \"walking\" means moving slowly is good and helpful here",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       },
       {
@@ -233016,6 +233896,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-seoul-food-places-and-shopping",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
@@ -233500,6 +234381,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Why People Buy Useless Things on Vacation Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "Horse Riding: Ride Slowly and Safely Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -239841,7 +240729,8 @@
       "episode-2026-05-27-international-transport-get-to-the-right-place",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-09-casual-conversation-branches-a2"
+      "episode-2026-06-09-casual-conversation-branches-a2",
+      "episode-2026-07-01-horse-riding-basics-a1"
     ],
     "contexts": [
       {
@@ -239912,6 +240801,13 @@
         "sentence": "I was a little worried.",
         "contextMeaning": "Here, \"worried\" means feeling nervous about a problem",
         "source": "authored_final_review",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-01-horse-riding-basics-a1",
+        "sentence": "If the rider feels worried, the rider can say, \"Can we go slowly?\"",
+        "contextMeaning": "Here, \"worried\" means if the rider feels scared, they ask to go slowly",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
