@@ -3451,7 +3451,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -3947,6 +3948,13 @@
       {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "The roleplays come later, after the food, sightseeing, and shopping ideas are clear.",
+        "contextMeaning": "Here, \"after\" means later than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Picasso made Guernica after a violent attack in Spain.",
         "contextMeaning": "Here, \"after\" means later than something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -7461,7 +7469,8 @@
     "episodes": [
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
-      "episode-2026-07-01-horse-riding-basics-a1"
+      "episode-2026-07-01-horse-riding-basics-a1",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -7483,6 +7492,13 @@
         "sentence": "Many people ride horses only for fun, health, or time with animals.",
         "contextMeaning": "Here, \"animals\" means animals includes horses",
         "source": "popup_manual_review/horse_riding_density_target_2026-07-01",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "It sends a strong message about war and its terrible effects on people and animals.",
+        "contextMeaning": "Here, \"animals\" means a living thing like a dog, cat, or bird",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -8297,6 +8313,29 @@
         "sentence": "One of those AI companies is Anthropic, the maker of Claude.",
         "contextMeaning": "Here, \"anthropic\" means the name of a specific company that makes AI",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "anti-war": {
+    "word": "anti-war",
+    "definition": "Against war",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "It is an anti-war painting.",
+        "contextMeaning": "Here, \"anti-war\" means against war",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -10900,7 +10939,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -10936,6 +10976,13 @@
         "sentence": "A Strandbeest is a kinetic sculpture by the Dutch artist Theo Jansen.",
         "contextMeaning": "Here, \"artist\" means a person who makes art",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Pablo Picasso: A Famous Artist Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"artist\" means a person who makes art",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -11009,7 +11056,8 @@
       "episode-2026-06-10-the-history-of-tea",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -11046,6 +11094,13 @@
         "contextMeaning": "Here, \"artists\" means a person who makes art",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "In Cubism, artists break a face, a body, or an object into simple shapes.",
+        "contextMeaning": "Here, \"artists\" means a person who makes art",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -11067,6 +11122,29 @@
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "What is more interesting to you: the artwork, the engineering, or the learning process?",
         "contextMeaning": "Here, \"artwork\" means the part about the creative or beautiful things made",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "artworks": {
+    "word": "artworks",
+    "definition": "Pictures or objects made to show ideas or beauty",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "He lived a long life and made a very large number of artworks.",
+        "contextMeaning": "Here, \"artworks\" means the many pieces of art he created",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -18488,7 +18566,8 @@
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -19047,6 +19126,13 @@
       {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "It is not too far, but check the map before you walk.",
+        "contextMeaning": "Here, \"before\" means earlier than something",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Have you seen a painting by Pablo Picasso before?",
         "contextMeaning": "Here, \"before\" means earlier than something",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -20548,6 +20634,29 @@
         "sentence": "His ballet score Dante, recorded by Gustavo Dudamel and the Los Angeles Philharmonic, won a Grammy for Best Orchestral Performance in 2024.",
         "contextMeaning": "Here, \"best orchestral performance\" means ades's Dante recording won this award category in 2024",
         "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "best-known": {
+    "word": "best-known",
+    "definition": "Many people know about it or him",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Picasso is one of the best-known names in modern art.",
+        "contextMeaning": "Here, \"best-known\" means one of the most famous names in new art",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -33220,7 +33329,8 @@
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -33389,6 +33499,13 @@
         "sentence": "The object has not changed.",
         "contextMeaning": "Here, \"changed\" means became different because the situation or mood changed",
         "source": "producer_reviewed_popup_patch_v1",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "People remember Picasso because he changed art.",
+        "contextMeaning": "Here, \"changed\" means he made art look new and different",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -41515,7 +41632,8 @@
       "episode-2026-05-15-the-10-best-songs-competing-at-a-very-2",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -41551,6 +41669,13 @@
         "sentence": "A shop is full of colorful objects: magnets, cups, hats, snacks, wooden toys, funny shirts, tiny bottles, local signs, and things you cannot even name.",
         "contextMeaning": "Here, \"colorful\" means bright and attractive in a tourist shop",
         "source": "producer_reviewed_popup_patch_v1",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "What kinds of art do you like: realistic, colorful, simple, or unusual?",
+        "contextMeaning": "Here, \"colorful\" means art with many bright and different colors",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -49594,7 +49719,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -49630,6 +49756,13 @@
         "sentence": "The deeper lesson is not \"copy this exact machine.\"",
         "contextMeaning": "Here, \"copy\" means the lesson is not to make the same machine exactly",
         "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "He did not only copy the world in a simple way.",
+        "contextMeaning": "Here, \"copy\" means he did not just make art like real life",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -65065,7 +65198,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -65073,6 +65207,13 @@
         "sentence": "Some hobbies are quiet, like reading, drawing, cooking, or listening to music.",
         "contextMeaning": "Here, \"drawing\" means \"drawing\" is a quiet hobby",
         "source": "codex_manual_a1_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "He showed talent for drawing when he was young.",
+        "contextMeaning": "Here, \"drawing\" means making pictures with lines when he was young",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -66199,7 +66340,8 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-12-going-to-a-world-cup-football-match",
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
-      "episode-2026-07-02-my-first-trial-lesson"
+      "episode-2026-07-02-my-first-trial-lesson",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -66359,6 +66501,13 @@
       {
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "When can you study during the week?",
+        "contextMeaning": "Here, \"during\" means at some time in a period",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "During this time, he used many blue colors in his paintings.",
         "contextMeaning": "Here, \"during\" means at some time in a period",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -75272,7 +75421,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -75320,6 +75470,13 @@
       {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "Helping Customers Choose Some customers know exactly what they want.",
+        "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Picasso used Cubism to show that art did not need to look exactly like real life.",
         "contextMeaning": "Here, \"exactly\" means in a very clear way, with no doubt",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -80588,7 +80745,8 @@
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -80776,6 +80934,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "The Leg Logic: One Crank, Many Links The famous Strandbeest walk comes from a linkage.",
+        "contextMeaning": "Here, \"famous\" means known by many people",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Pablo Picasso: A Famous Artist Warm-Up Questions 1.",
         "contextMeaning": "Here, \"famous\" means known by many people",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -85496,7 +85661,8 @@
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -85936,6 +86102,13 @@
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
         "sentence": "Some anime first comes from manga.",
+        "contextMeaning": "Here, \"first\" means number one in order",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "This style can look strange at first.",
         "contextMeaning": "Here, \"first\" means number one in order",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -106260,7 +106433,8 @@
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -106455,6 +106629,13 @@
       {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "The roleplays come later, after the food, sightseeing, and shopping ideas are clear.",
+        "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "He was not afraid to try new ideas.",
         "contextMeaning": "Here, \"ideas\" means a thought or plan in your mind",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -116786,7 +116967,8 @@
       "episode-2026-06-10-playing-video-games",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -116870,6 +117052,13 @@
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "It is near the old Namdaemun gate area and is useful for many kinds of goods, food, and small shops.",
         "contextMeaning": "Here, \"kinds\" means many different types of goods, food, and shops are there",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "What kinds of art do you like: realistic, colorful, simple, or unusual?",
+        "contextMeaning": "Here, \"kinds\" means different types of art you can like",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -119619,7 +119808,8 @@
       "episode-2026-07-02-seoul-food-places-and-shopping",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
       "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -119816,6 +120006,13 @@
         "sentence": "Learners learn how to explain Japan in English.",
         "contextMeaning": "Here, \"learn\" means learners learn how to explain Japan in English",
         "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Many of Picasso’s works are in museums today, where people can look at them and learn from them.",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -127593,7 +127790,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -127678,6 +127876,13 @@
         "sentence": "It may be a pattern made by the brain.",
         "contextMeaning": "Here, \"made\" means created or formed",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "He lived a long life and made a very large number of artworks.",
+        "contextMeaning": "Here, \"made\" means he created many pieces of art",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -134657,7 +134862,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -134761,6 +134967,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "A gift also carries a message: \"I thought about you while I was away.\"",
+        "contextMeaning": "Here, \"message\" means information sent from one person to another",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "It sends a strong message about war and its terrible effects on people and animals.",
         "contextMeaning": "Here, \"message\" means information sent from one person to another",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -137301,7 +137514,8 @@
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -137429,6 +137643,13 @@
         "contextMeaning": "Here, \"modern\" means new and current in style or method",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Picasso is one of the best-known names in modern art.",
+        "contextMeaning": "Here, \"modern\" means new and current in style or method",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -137443,12 +137664,20 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
         "sentence": "Final Reflection Stravinsky's story shows that modern art does not always try to comfort the audience.",
+        "contextMeaning": "Here, \"modern art\" means \"modern art\" names background knowledge from history, art, music, or culture",
+        "source": "popup_support_router/trusted_cultural_phrase_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Picasso is one of the best-known names in modern art.",
         "contextMeaning": "Here, \"modern art\" means \"modern art\" names background knowledge from history, art, music, or culture",
         "source": "popup_support_router/trusted_cultural_phrase_rule",
         "confidence": "trusted"
@@ -141279,7 +141508,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -141294,6 +141524,13 @@
         "sentence": "Museums show Jansen's large works, including the 2025 exhibition in Delft.",
         "contextMeaning": "Here, \"museums\" means a place where people see history or art",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Many of Picasso’s works are in museums today, where people can look at them and learn from them.",
+        "contextMeaning": "Here, \"museums\" means a place to see art",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -149777,7 +150014,8 @@
       "episode-2026-06-17-getting-a-library-card",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -149874,6 +150112,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "A desk model, a classroom robot, or an online linkage simulator cannot replace the feeling of a full-size sculpture moving in the wind.",
+        "contextMeaning": "Here, \"online\" means connected through the internet",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Where do people usually see art: in a museum, at school, or online?",
         "contextMeaning": "Here, \"online\" means connected through the internet",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -153747,7 +153992,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-15-eurovision-final-lineup-is-confirmed-after-5-more",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -153762,6 +154008,36 @@
         "sentence": "Have you ever disliked a song, painting, movie, or book at first, but respected it more later?",
         "contextMeaning": "Here, \"painting\" means a picture made with colors on a wall or paper",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Have you seen a painting by Pablo Picasso before?",
+        "contextMeaning": "Here, \"painting\" means art made with paint",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "paintings": {
+    "word": "paintings",
+    "definition": "Art made with paint",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "During this time, he used many blue colors in his paintings.",
+        "contextMeaning": "Here, \"paintings\" means art made with paint",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -159812,7 +160088,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -159884,6 +160161,13 @@
         "contextMeaning": "Here, \"picture\" means an image you can look at",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "A portrait is a picture of a person, often showing the face.",
+        "contextMeaning": "Here, \"picture\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
       }
     ]
   },
@@ -159903,7 +160187,8 @@
       "episode-2026-05-31-why-apps-and-menus-guide-our-choices",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -159944,6 +160229,13 @@
       {
         "episodeId": "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
         "sentence": "Do pictures help you understand a story?",
+        "contextMeaning": "Here, \"pictures\" means an image you can look at",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "A painter makes pictures with paint.",
         "contextMeaning": "Here, \"pictures\" means an image you can look at",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -171605,7 +171897,8 @@
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -171844,6 +172137,13 @@
         "sentence": "Quiet manga can still be powerful because the feelings are close to real life.",
         "contextMeaning": "Here, \"quiet\" means making little or no noise",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "The paintings from this time can make viewers feel quiet and thoughtful.",
+        "contextMeaning": "Here, \"quiet\" means calm and gentle in feeling",
+        "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -174171,7 +174471,8 @@
       "episode-2026-05-22-australia-branch-business-catch-up",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-07-02-my-first-trial-lesson"
+      "episode-2026-07-02-my-first-trial-lesson",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -174213,6 +174514,13 @@
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "The best study plan is realistic.",
         "contextMeaning": "Here, \"realistic\" means a good study plan is one you can really do",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "What kinds of art do you like: realistic, colorful, simple, or unusual?",
+        "contextMeaning": "Here, \"realistic\" means art that looks like real people or things",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -178023,7 +178331,8 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -178059,6 +178368,13 @@
         "sentence": "Remember the order path: choose the drink, give the details, pay, wait, and check the drink.",
         "contextMeaning": "Here, \"remember\" means keep the steps in your mind to order a drink",
         "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "People remember him because he tried many different ways of making art.",
+        "contextMeaning": "Here, \"remember\" means to keep something in your mind",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -189505,7 +189821,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
-      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv"
+      "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -189553,6 +189870,13 @@
       {
         "episodeId": "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
         "sentence": "A child could see a funny scene, hear a song, watch a short animation, and meet a real person on the street.",
+        "contextMeaning": "Here, \"scene\" means parts of a story or show",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "It does not show a happy scene.",
         "contextMeaning": "Here, \"scene\" means parts of a story or show",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -194965,7 +195289,8 @@
       "episode-2026-04-29-how-animation-creates-movement-why-drawings-seem-alive",
       "episode-2026-05-15-honda-s-hybrid-future-starts-with-new-accord-3",
       "episode-2026-05-22-australia-branch-business-catch-up",
-      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company"
+      "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -195001,6 +195326,13 @@
         "sentence": "Sanrio characters often use round shapes, soft colors, simple faces, and friendly moods.",
         "contextMeaning": "Here, \"shapes\" means forms like round used in the characters' design",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Sometimes he used strong shapes and unusual forms.",
+        "contextMeaning": "Here, \"shapes\" means a form like a square or circle",
+        "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -205884,13 +206216,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
         "sentence": "Barcelona is a large city in Spain, known for beaches, art, and unusual buildings.",
         "contextMeaning": "Here, \"spain\" means a country where Barcelona city is",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Pablo Picasso was a very famous artist from Spain.",
+        "contextMeaning": "Here, \"spain\" means the country where Picasso was born and lived",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -205961,7 +206301,8 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-02-my-first-trial-lesson"
+      "episode-2026-07-02-my-first-trial-lesson",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -206023,6 +206364,13 @@
       {
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "The teacher may ask you to read, listen, or speak for a short time.",
+        "contextMeaning": "Here, \"speak\" means to say words out loud",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Guernica is important because art can speak about serious things.",
         "contextMeaning": "Here, \"speak\" means to say words out loud",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -213913,7 +214261,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -214136,6 +214485,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "DISCUSSION 4: Can something look fragile and still be strong enough for its job?",
+        "contextMeaning": "Here, \"strong\" means having a lot of power",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Sometimes he used strong shapes and unusual forms.",
         "contextMeaning": "Here, \"strong\" means having a lot of power",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -214884,7 +215240,8 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -215016,6 +215373,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "In this lesson, we study the structure, not only the surprise.",
+        "contextMeaning": "Here, \"study\" means to spend time learning",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Cubism changed modern art, and many people still study it in museums and art classes.",
         "contextMeaning": "Here, \"study\" means to spend time learning",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -219796,13 +220160,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-03-classical-music-history-composers",
         "sentence": "He was famous even as a child because he had incredible musical talent.",
         "contextMeaning": "Here, \"talent\" means he had a special skill for music when young",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "He showed talent for drawing when he was young.",
+        "contextMeaning": "Here, \"talent\" means he was good at making pictures when young",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -237607,7 +237979,8 @@
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -238096,6 +238469,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "For students, Jansen's story is useful because it shows design as a cycle.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Useful Topic Vocabulary artist - a person who makes art museum - a place to see art canvas - a cloth surface for painting portrait - a picture of a person shape - a form like a square or circle cubism - an art style that uses shapes and different views anti-war - against war painting - art made with paint",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -243301,7 +243681,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -243832,6 +244213,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "Theo Jansen's Strandbeest: How Walking Structures Think Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "Pablo Picasso: A Famous Artist Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -245006,7 +245394,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-29-tennis-small-court-big-choices",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -245063,6 +245452,13 @@
         "sentence": "Some may influence people in ways we cannot see yet.",
         "contextMeaning": "Here, \"ways\" means a composer's influence may appear in different forms later",
         "source": "living_composers_future_legends_popup_coverage_backfill_2026_06_30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "People remember him because he tried many different ways of making art.",
+        "contextMeaning": "Here, \"ways\" means different styles Picasso used to make art",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -249202,7 +249598,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -249272,6 +249669,13 @@
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "Otherwise, one partner may say, \"Many people came, so it worked,\" while the other says, \"Not enough people bought twice, so it failed.\"",
         "contextMeaning": "Here, \"worked\" means many people came, so the plan was successful",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "He became an artist very early in life and worked for many years.",
+        "contextMeaning": "Here, \"worked\" means he made art for many years",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -249934,7 +250338,8 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
     ],
     "contexts": [
       {
@@ -250101,6 +250506,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "The Associated Press reported in 2025 that a Delft exhibition showed this fossil record, from simple early forms to more complicated later works.",
+        "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+        "sentence": "A style is the special way an artist works.",
         "contextMeaning": "Here, \"works\" means a job or the activity of doing a job",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
