@@ -1495,9 +1495,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Action anime can feel fast and exciting.",
-        "contextMeaning": "Here, \"action\" means action anime can feel fast and exciting",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "Action anime can feel fast.",
+        "contextMeaning": "Here, \"action\" means exciting movement or big events",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -7510,6 +7510,29 @@
       }
     ]
   },
+  "animated tv series": {
+    "word": "animated tv series",
+    "definition": "A moving-picture story with many TV episodes",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Sazae-san is an animated TV series.",
+        "contextMeaning": "Here, \"animated tv series\" means in this lesson, \"animated TV series\" means a moving-picture story with many TV",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "animation": {
     "word": "animation",
     "definition": "Moving pictures made from many still images",
@@ -7551,8 +7574,8 @@
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
         "sentence": "Animation is a story with moving pictures.",
-        "contextMeaning": "Here, \"animation\" means anime is one kind of animation",
-        "source": "manual_remake/authored_reading_popup_dictionary",
+        "contextMeaning": "Here, \"animation\" means in this lesson, \"animation\" means stories or pictures that move on a screen",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -7606,8 +7629,8 @@
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
         "sentence": "Anime means animation from Japan.",
-        "contextMeaning": "Here, \"anime\" means in this lesson, anime means animation from Japan",
-        "source": "manual_remake/authored_reading_popup_dictionary",
+        "contextMeaning": "Here, \"anime\" means in this lesson, \"anime\" means japanese animation",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -19102,7 +19125,8 @@
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-29-tennis-small-court-big-choices"
+      "episode-2026-06-29-tennis-small-court-big-choices",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -19150,6 +19174,13 @@
       {
         "episodeId": "episode-2026-06-29-tennis-small-court-big-choices",
         "sentence": "You begin to see why a player wins before the final shot.",
+        "contextMeaning": "Here, \"begin\" means to start",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "This shows that anime can begin in more than one place.",
         "contextMeaning": "Here, \"begin\" means to start",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -24306,8 +24337,7 @@
       "episode-2026-05-13-greek-mythology-as-a-cultural-system-technical-explainer",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-03-why-some-objects-become-special",
-      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope"
     ],
     "contexts": [
       {
@@ -24336,13 +24366,6 @@
         "sentence": "His mouth is brave, but his feet are not brave.",
         "contextMeaning": "Here, \"brave\" means his mouth is not scared, but his feet are scared",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "A brave character can make a story exciting.",
-        "contextMeaning": "Here, \"brave\" means a brave character can make a story exciting",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -34092,9 +34115,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Anime characters help viewers care about the story.",
-        "contextMeaning": "Here, \"character\" means anime characters help viewers care about the story",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "Which character do you like?",
+        "contextMeaning": "Here, \"character\" means a person in a story",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -40268,29 +40291,6 @@
       }
     ]
   },
-  "clubs": {
-    "word": "clubs",
-    "definition": "School groups for activities",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "A school story can show classes and clubs.",
-        "contextMeaning": "Here, \"clubs\" means a school story can show classes and clubs",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
-        "confidence": "trusted"
-      }
-    ]
-  },
   "clue": {
     "word": "clue",
     "definition": "A small piece of information",
@@ -42107,9 +42107,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Comedy anime tries to make people laugh.",
-        "contextMeaning": "Here, \"comedy\" means comedy anime tries to make people laugh",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "I like comedy because it is funny.",
+        "contextMeaning": "Here, \"comedy\" means a funny story",
+        "source": "episode-supported",
         "confidence": "trusted"
       }
     ]
@@ -52037,7 +52037,8 @@
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -52059,6 +52060,13 @@
         "sentence": "4: Different creatures experience light differently, so color may be a brain-made experience that helps each creature live and act.",
         "contextMeaning": "Here, \"creatures\" means different living things that see light in their own way",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Pokemon has friends and creatures.",
+        "contextMeaning": "Here, \"creatures\" means in this lesson, \"creatures\" means animals or imaginary living things",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -59335,7 +59343,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -59532,6 +59541,13 @@
         "sentence": "Then change one detail: the item, the size, the color, or the payment.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Say one detail and one reason.",
+        "contextMeaning": "Here, \"detail\" means in this lesson, \"detail\" means one small important part",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -72489,8 +72505,7 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-04-27-architecture-and-how-design-shapes-everyday-life"
     ],
     "contexts": [
       {
@@ -72498,13 +72513,6 @@
         "sentence": "In this episode, you will learn the core ideas that help us judge a space logically.",
         "contextMeaning": "Here, \"episode\" means one part of this show, where you will learn new ideas",
         "source": "episode-popup-meanings",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "A friend can start with one episode.",
-        "contextMeaning": "Here, \"episode\" means a friend can start with one episode",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -75331,7 +75339,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -75634,6 +75643,13 @@
         "contextMeaning": "Here, \"example\" means the best place to show market food is Gwangjang Market",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "My Neighbor Totoro is an anime example.",
+        "contextMeaning": "Here, \"example\" means in this lesson, \"example\" means one thing that shows an idea",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -75655,7 +75671,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -75712,6 +75729,13 @@
         "sentence": "The lesson uses famous titles as genre examples.",
         "contextMeaning": "Here, \"examples\" means the lesson uses famous titles as genre examples",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Real examples include My Neighbor Totoro, Pokemon, Sazae-san, and Spirited Away.",
+        "contextMeaning": "Here, \"examples\" means in this lesson, \"examples\" means more than one thing that shows an idea",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -76114,8 +76138,7 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-07-01-horse-riding-basics-a1",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
       {
@@ -76318,13 +76341,6 @@
         "episodeId": "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
         "sentence": "Sports and action manga can feel exciting.",
         "contextMeaning": "Here, \"exciting\" means sports and action manga can feel exciting",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Action anime can feel exciting.",
-        "contextMeaning": "Here, \"exciting\" means action anime can feel exciting",
         "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
@@ -79566,7 +79582,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-04-24-investing-vs-building-a-business-which-compounds-better-2",
-      "episode-2026-05-30-a2-workplace-explain-a-small-mistake"
+      "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -79581,6 +79598,13 @@
         "sentence": "You can say, \"I sent the wrong file,\" \"I used the old version,\" or \"I missed the message.\" Start with the fact.",
         "contextMeaning": "Here, \"fact\" means something that is true",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Then say the type, the mood, and one fact.",
+        "contextMeaning": "Here, \"fact\" means in this lesson, \"fact\" means a true detail",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -80326,7 +80350,8 @@
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
-      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -80390,6 +80415,13 @@
         "sentence": "The stories talk about fear, freedom, family, and belonging.",
         "contextMeaning": "Here, \"family\" means both relatives and a welcoming group",
         "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Sazae-san is a family anime on Japanese TV.",
+        "contextMeaning": "Here, \"family\" means in this lesson, \"family\" means parents, children, or people at home",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -80741,9 +80773,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Fantasy anime can have magic or strange places.",
-        "contextMeaning": "Here, \"fantasy\" means fantasy anime can have magic or strange places",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "Spirited Away is fantasy.",
+        "contextMeaning": "Here, \"fantasy\" means in this lesson, \"fantasy\" means a story with magic or impossible things",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -81625,8 +81657,7 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
       {
@@ -81711,13 +81742,6 @@
         "sentence": "The roleplay is about favorite manga.",
         "contextMeaning": "Here, \"favorite\" means the roleplay is about favorite manga",
         "source": "popup_support_router/authored_reading_popup_dictionary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "The roleplay is about favorite anime.",
-        "contextMeaning": "Here, \"favorite\" means the roleplay is about favorite anime",
-        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -82428,8 +82452,7 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-01-horse-riding-basics-a1",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
     ],
     "contexts": [
       {
@@ -82633,13 +82656,6 @@
         "sentence": "Other customers only know the feeling they want.",
         "contextMeaning": "Here, \"feeling\" means other customers only know the small idea or mood they want",
         "source": "popup_prebuild_coverage/visible_density_backfill",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Learners can describe anime by saying how it feels.",
-        "contextMeaning": "Here, \"feeling\" means learners can describe anime by saying how it feels",
-        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -85354,7 +85370,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -85787,6 +85804,13 @@
       {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "The first part teaches the place.",
+        "contextMeaning": "Here, \"first\" means number one in order",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Some anime first comes from manga.",
         "contextMeaning": "Here, \"first\" means number one in order",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -90205,9 +90229,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "The lesson has two friends talking after class.",
-        "contextMeaning": "Here, \"friend\" means the lesson has two friends talking after class",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "In this lesson, you learn real examples, one small record, and how to recommend anime to a friend.",
+        "contextMeaning": "Here, \"friend\" means a person you like and trust",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -90406,7 +90430,8 @@
     "episodes": [
       "episode-2026-05-07-puppet-sunsun-2",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-05-31-the-psychology-of-menus"
+      "episode-2026-05-31-the-psychology-of-menus",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -90426,6 +90451,13 @@
       {
         "episodeId": "episode-2026-05-31-the-psychology-of-menus",
         "sentence": "A customer may be hungry, tired, with friends, or unsure about unfamiliar dishes.",
+        "contextMeaning": "Here, \"friends\" means a person you like and trust",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Pokemon is a TV anime with friends and creatures.",
         "contextMeaning": "Here, \"friends\" means a person you like and trust",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -91402,8 +91434,7 @@
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
       {
@@ -91502,13 +91533,6 @@
         "sentence": "It feels funny / serious / warm / exciting.",
         "contextMeaning": "Here, \"funny\" means it describes the feeling of a manga",
         "source": "popup_manual_review/manga_full_assets_density_repair_2026-07-03",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "A comedy anime can be funny.",
-        "contextMeaning": "Here, \"funny\" means a comedy anime can be funny",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -91813,7 +91837,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-10-playing-video-games"
+      "episode-2026-06-10-playing-video-games",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -91828,6 +91853,13 @@
         "sentence": "Playing Video Games Warm-Up Questions 1.",
         "contextMeaning": "Here, \"games\" means an activity people play for fun",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Pokemon games launched in Japan in 1996.",
+        "contextMeaning": "Here, \"games\" means in this lesson, \"games\" means activities you play",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -92616,7 +92648,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-01-horse-riding-basics-a1"
+      "episode-2026-07-01-horse-riding-basics-a1",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -92694,6 +92727,13 @@
         "sentence": "Horses are big and strong, but many horses are gentle.",
         "contextMeaning": "Here, \"gentle\" means many horses are kind even if they are big",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "My Neighbor Totoro is a gentle movie.",
+        "contextMeaning": "Here, \"gentle\" means in this lesson, \"gentle\" means kind and soft",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -93475,7 +93515,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -93553,6 +93594,13 @@
         "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
         "contextMeaning": "Here, \"give\" means to hand the drink to the customer",
         "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Give one reason for your recommendation.",
+        "contextMeaning": "Here, \"give\" means in this lesson, \"give\" means to tell or offer something",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -97340,6 +97388,29 @@
         "sentence": "Drama manga can show guilt and change.",
         "contextMeaning": "Here, \"guilt\" means drama manga can show guilt and change",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "guinness": {
+    "word": "guinness",
+    "definition": "The group that records world records",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Guinness lists Sazae-san as long-running.",
+        "contextMeaning": "Here, \"guinness\" means in this lesson, \"Guinness\" means the group that records world records",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -105798,7 +105869,8 @@
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -105960,6 +106032,13 @@
         "sentence": "A designer, engineer, artist, or language learner can use the same idea: keep the evidence, study the mistake, and build the next version with more intelligence.",
         "contextMeaning": "Here, \"idea\" means a way to learn by keeping proof, checking mistakes, and improving",
         "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Thanks for the idea.",
+        "contextMeaning": "Here, \"idea\" means in this lesson, \"idea\" means a thought or plan",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -108409,7 +108488,8 @@
       "episode-2026-05-26-understanding-a-tokyo-gas-group-internship",
       "episode-2026-06-05-buying-medicine-at-a-drugstore",
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal"
+      "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -108515,6 +108595,13 @@
         "sentence": "Monitoring should include.",
         "contextMeaning": "Here, \"include\" means to have these things in watching or checking",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Real examples include My Neighbor Totoro, Pokemon, Sazae-san, and Spirited Away.",
+        "contextMeaning": "Here, \"include\" means in this lesson, \"include\" means to have something as part of a group",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -111579,7 +111666,8 @@
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -111671,6 +111759,13 @@
         "sentence": "I want something interesting, but not too hard.",
         "contextMeaning": "Here, \"interesting\" means making you want to know more",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Which example sounds interesting to you?",
+        "contextMeaning": "Here, \"interesting\" means in this lesson, \"interesting\" means making you want to know more",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -114008,9 +114103,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Anime is strongly connected with Japan.",
-        "contextMeaning": "Here, \"japan\" means anime is strongly connected with Japan",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "Anime means animation from Japan.",
+        "contextMeaning": "Here, \"japan\" means in this lesson, \"Japan\" means the country where anime comes from",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -114146,6 +114241,29 @@
         "sentence": "Manga is strongly connected with Japanese publishing and reading culture.",
         "contextMeaning": "Here, \"japanese\" means manga is strongly connected with Japanese publishing and reading culture",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "japanese tv": {
+    "word": "japanese tv",
+    "definition": "Television in Japan",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Sazae-san is a family anime on Japanese TV.",
+        "contextMeaning": "Here, \"japanese tv\" means in this lesson, \"Japanese TV\" means television in Japan",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -118516,8 +118634,7 @@
       "episode-2026-05-21-what-is-gintama",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-03-surprise-cake-mystery",
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
     ],
     "contexts": [
       {
@@ -118567,13 +118684,6 @@
         "sentence": "Imagine Kazuto walks into class and two students laugh.",
         "contextMeaning": "Here, \"laugh\" means two students make happy sounds when Kazuto comes in",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Comedy anime tries to make people laugh.",
-        "contextMeaning": "Here, \"laugh\" means comedy anime tries to make people laugh",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -118721,7 +118831,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -118729,6 +118840,13 @@
         "sentence": "The Switch first launched in 2017.",
         "contextMeaning": "Here, \"launched\" means the Switch started being sold in 2017",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Pokemon games launched in Japan in 1996.",
+        "contextMeaning": "Here, \"launched\" means in this lesson, \"launched\" means started or came out for people to use",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -119258,7 +119376,8 @@
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -119439,6 +119558,13 @@
       {
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "Why do people sometimes learn more from a prototype that fails than from a perfect final product?",
+        "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "In this lesson, you learn real examples, one small record, and how to recommend anime to a friend.",
         "contextMeaning": "Here, \"learn\" means to get knowledge or skill",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -122030,7 +122156,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -122206,6 +122333,13 @@
         "sentence": "A Strandbeest looks like a walking skeleton, but it is also a lesson in design.",
         "contextMeaning": "Here, \"like\" means looks almost the same as a walking skeleton",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Say why your friend may like it.",
+        "contextMeaning": "Here, \"like\" means in this lesson, \"like\" means to enjoy something",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -123392,7 +123526,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast"
+      "episode-2026-05-17-opening-a-business-branch-on-the-gold-coast",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -123400,6 +123535,13 @@
         "sentence": "Business Queensland lists start-up costs such as market research, licences, lease bonds, insurance, equipment, marketing, staff wages, and initial stock.",
         "contextMeaning": "Here, \"lists\" means shows all the costs needed to start the business",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Guinness lists it as the longest-running animated TV series.",
+        "contextMeaning": "Here, \"lists\" means in this lesson, \"lists\" means says something is on a list or record",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -125048,6 +125190,29 @@
         "sentence": "The goal is to speak more comfortably, build longer answers, and connect ideas naturally.",
         "contextMeaning": "Here, \"longer\" means make answers that have more words or time",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "longest-running": {
+    "word": "longest-running",
+    "definition": "Continuing for the longest time",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Guinness lists it as the longest-running animated TV series.",
+        "contextMeaning": "Here, \"longest-running\" means continuing for the longest time",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -127358,8 +127523,7 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
       {
@@ -127436,13 +127600,6 @@
         "episodeId": "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
         "sentence": "Magical girl manga often mixes school life and magic.",
         "contextMeaning": "Here, \"magic\" means magical girl manga often mixes school life and magic",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Fantasy anime can have magic.",
-        "contextMeaning": "Here, \"magic\" means fantasy anime can have magic",
         "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
@@ -128921,7 +129078,8 @@
     "episodes": [
       "episode-2026-04-30-chiikawa-small-cute-and-surprisingly-deep",
       "episode-2026-05-21-what-is-gintama",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -128943,6 +129101,13 @@
         "sentence": "In this lesson, manga is the story form with panels and speech bubbles.",
         "contextMeaning": "Here, \"manga\" means in this lesson, manga is the story form with panels and speech bubbles",
         "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Some anime stories first come from manga.",
+        "contextMeaning": "Here, \"manga\" means in this lesson, \"manga\" means a Japanese comic story",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -137985,7 +138150,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
-      "episode-2026-06-23-talking-about-what-people-like-a1"
+      "episode-2026-06-23-talking-about-what-people-like-a1",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -138070,6 +138236,13 @@
         "sentence": "Likes are connected to time, mood, and daily life.",
         "contextMeaning": "Here, \"mood\" means feeling calm, tired, happy, or busy",
         "source": "codex_manual_a1_popup_repair",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Then say the type, the mood, and one fact.",
+        "contextMeaning": "Here, \"mood\" means in this lesson, \"mood\" means the feeling of a story",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -140063,9 +140236,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Anime can also be a movie.",
-        "contextMeaning": "Here, \"movie\" means anime can also be a movie",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "Anime can be a TV show or a movie.",
+        "contextMeaning": "Here, \"movie\" means in this lesson, \"movie\" means a long story you watch on a screen",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -140141,8 +140314,7 @@
       "episode-2026-06-25-airport-english-for-travel-how-airport-departures-work",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-07-01-horse-riding-basics-a1",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
     "contexts": [
       {
@@ -140297,13 +140469,6 @@
         "sentence": "A linkage is a group of rods connected by moving joints.",
         "contextMeaning": "Here, \"moving\" means joints that can change position to help the rods move",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Animation uses moving pictures.",
-        "contextMeaning": "Here, \"moving\" means animation uses moving pictures",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -140887,8 +141052,7 @@
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-seoul-food-places-and-shopping"
     ],
     "contexts": [
       {
@@ -140952,13 +141116,6 @@
         "sentence": "Many people know Seoul for music, cafes, fashion, shopping, and fast trains.",
         "contextMeaning": "Here, \"music\" means seoul is known for songs and sounds people enjoy",
         "source": "popup_prebuild_coverage/visible_density_backfill",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Music can change the feeling of an anime.",
-        "contextMeaning": "Here, \"music\" means music can change the feeling of an anime",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -141520,7 +141677,8 @@
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -141662,6 +141820,13 @@
         "contextMeaning": "Here, \"name\" means gwangjang Market is the word for a food market place",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "When you recommend anime, name one title.",
+        "contextMeaning": "Here, \"name\" means in this lesson, \"name\" means to say what something is called",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -141754,7 +141919,8 @@
       "episode-2026-05-15-no-joke-ahead-of-his-100th-birthday-mel-2",
       "episode-2026-05-31-the-psychology-of-menus",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -141811,6 +141977,13 @@
         "sentence": "Use real names to make the map clear.",
         "contextMeaning": "Here, \"names\" means use real words for places to help people understand the map",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "These names help you talk about real anime.",
+        "contextMeaning": "Here, \"names\" means in this lesson, \"names\" means words for people or things",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -143944,7 +144117,8 @@
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -144106,6 +144280,13 @@
         "sentence": "[NEWS STORY] Look around the room.",
         "contextMeaning": "Here, \"new\" means not old or not known before",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Anime can be new.",
+        "contextMeaning": "Here, \"new\" means in this lesson, \"new\" means not old",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -145411,6 +145592,29 @@
         "sentence": "Can you take me to North City Airport, Terminal 2?\" The driver says, \"Yes, Terminal 2.\" Maya does one more check.",
         "contextMeaning": "Here, \"north\" means the direction opposite south",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "north america": {
+    "word": "north america",
+    "definition": "Canada, the United States, Mexico, and nearby places",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "The animated series came to North America in 1998.",
+        "contextMeaning": "Here, \"north america\" means in this lesson, \"North America\" means canada, the United States, Mexico, and nearby",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -148273,7 +148477,8 @@
       "episode-2026-05-30-a2-workplace-explain-a-small-mistake",
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -148337,6 +148542,13 @@
         "sentence": "Gyeongbokgung Palace and Gwanghwamun Square show royal history near the old center of Seoul.",
         "contextMeaning": "Here, \"old\" means the center of Seoul that is from a long time ago",
         "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Anime can also be very old.",
+        "contextMeaning": "Here, \"old\" means in this lesson, \"old\" means from a long time ago",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -151390,6 +151602,29 @@
         "sentence": "The two images were not originally connected, but together they create a perfect argument.",
         "contextMeaning": "Here, \"originally\" means at first, the two pictures were not connected",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "oscar": {
+    "word": "oscar",
+    "definition": "A famous movie award",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "It won an Oscar in 2003.",
+        "contextMeaning": "Here, \"oscar\" means in this lesson, \"Oscar\" means a famous movie award",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -173377,6 +173612,29 @@
       }
     ]
   },
+  "real detail": {
+    "word": "real detail",
+    "definition": "One true small fact",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "A real detail makes your idea stronger.",
+        "contextMeaning": "Here, \"real detail\" means in this lesson, \"real detail\" means one true small fact",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "real-life": {
     "word": "real-life",
     "definition": "Things that happen with people and animals now",
@@ -173768,9 +174026,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "A friend gives one reason for a recommendation.",
-        "contextMeaning": "Here, \"reason\" means a friend gives one reason for a recommendation",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "Give one reason for your recommendation.",
+        "contextMeaning": "Here, \"reason\" means in this lesson, \"reason\" means why you think something",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -174641,9 +174899,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "The friends recommend anime to each other.",
-        "contextMeaning": "Here, \"recommend\" means the friends recommend anime to each other",
-        "source": "authored_reading_popup_dictionary",
+        "sentence": "I recommend it because it feels warm.",
+        "contextMeaning": "Here, \"recommend\" means in this lesson, \"recommend\" means to tell someone something good to try",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -174659,7 +174917,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -174667,6 +174926,13 @@
         "sentence": "Understand how the brain uses predictions to build experience, why the feeling of \"self\" can be studied as a mental model, and why psychedelic science should be discussed carefully as research, not as a simple lifestyle recommendation.",
         "contextMeaning": "Here, \"recommendation\" means advice about what someone should do",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "A real detail makes your recommendation stronger.",
+        "contextMeaning": "Here, \"recommendation\" means in this lesson, \"recommendation\" means advice about what to try",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -174736,7 +175002,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3"
+      "episode-2026-05-14-clio-s-500m-milestone-arrives-just-as-anthropic-3",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -174744,6 +175011,13 @@
         "sentence": "They need to record hours of work and send clear bills.",
         "contextMeaning": "Here, \"record\" means write down hours worked by lawyers",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Guinness lists a TV record.",
+        "contextMeaning": "Here, \"record\" means in this lesson, \"record\" means a best or special fact written down by a group",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -176622,8 +176896,7 @@
       "episode-2026-06-09-casual-conversation-branches-a2",
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
-      "episode-2026-06-10-playing-video-games",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-06-10-playing-video-games"
     ],
     "contexts": [
       {
@@ -176666,13 +176939,6 @@
         "sentence": "Mika wants something relaxing",
         "contextMeaning": "Here, \"relaxing\" means mika wants something relaxing",
         "source": "authored_reading_vocabulary",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "A relaxing anime can be good when someone is tired.",
-        "contextMeaning": "Here, \"relaxing\" means a relaxing anime can be good when someone is tired",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -188164,9 +188430,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Friends say why they like a story.",
-        "contextMeaning": "Here, \"say\" means friends say why they like a story",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "Say one detail and one reason.",
+        "contextMeaning": "Here, \"say\" means in this lesson, \"say\" means to speak or tell someone something",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -188380,6 +188646,29 @@
         "sentence": "Warm-Up Questions Scene 1: The Champion Walk Useful Phrases Talk About It Scene 2: The Rope Says Whoosh Useful Phrases Talk About It Scene 3: Two Big Smacks Useful Phrases Talk About It Scene 4: The Beat Helps Useful Phrases Talk About It Scene 5: Good Game, Rope Useful Phrases Talk About It Practice: Gym Role Play Gym practice Role-play Final Reflection Mr. Ping Pong starts the story proud and loud.",
         "contextMeaning": "Here, \"says whoosh useful phrases\" means helpful words in the story called 'The Rope Says Whoosh'",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "sazae-san": {
+    "word": "sazae-san",
+    "definition": "A long-running family anime on Japanese TV",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Sazae-san started in 1969.",
+        "contextMeaning": "Here, \"sazae-san\" means in this lesson, \"Sazae-san\" means a long-running family anime on Japanese TV",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -188827,8 +189116,7 @@
       "episode-2026-05-15-what-the-jury-will-actually-decide-in-the-3",
       "episode-2026-05-21-google-io-2026-agentic-operating-system",
       "episode-2026-05-27-memes-the-logic-history-and-power-of-internet-culture",
-      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
     ],
     "contexts": [
       {
@@ -188864,13 +189152,6 @@
         "sentence": "Use original Nordic story-world scenes: an artist's desk, a safe valley, stormy nature, guests arriving, island/sea atmosphere, and readers discovering the books.",
         "contextMeaning": "Here, \"scenes\" means parts of a story or show",
         "source": "popup_support_router/producer_context_rule",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Action anime can have fast scenes.",
-        "contextMeaning": "Here, \"scenes\" means action anime can have fast scenes",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -189185,29 +189466,6 @@
         "sentence": "Some manga examples include school life or school sports.",
         "contextMeaning": "Here, \"school\" means some manga examples include school life or school sports",
         "source": "popup_support_router/authored_reading_popup_dictionary",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "school story": {
-    "word": "school story",
-    "definition": "A story about students and school life",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "School anime can show friends, classes, and clubs.",
-        "contextMeaning": "Here, \"school story\" means school anime can show friends, classes, and clubs",
-        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -192726,7 +192984,8 @@
       "episode-2026-04-29-how-animation-creates-movement-why-drawings-seem-alive",
       "episode-2026-05-13-the-odyssey-mythology-symbols-characters-and-the-idea",
       "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-2",
-      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4"
+      "episode-2026-05-15-metroid-prime-4-beyond-got-its-first-big-4",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -192755,6 +193014,13 @@
         "sentence": "She is the space hero of the series.",
         "contextMeaning": "Here, \"series\" means the stories about the space hero are all connected",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Its animated series came to North America in 1998.",
+        "contextMeaning": "Here, \"series\" means in this lesson, \"series\" means a story with many episodes or parts",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -195853,29 +196119,6 @@
         "sentence": "The teacher may ask you to read, listen, or speak for a short time.",
         "contextMeaning": "Here, \"short\" means a little time to read, listen, or speak",
         "source": "popup_prebuild_coverage/visible_density_backfill",
-        "confidence": "trusted"
-      }
-    ]
-  },
-  "short video": {
-    "word": "short video",
-    "definition": "A small video that is not long",
-    "cefrLevel": "A1",
-    "partOfSpeech": "",
-    "phonetic": "",
-    "exampleGeneral": "",
-    "relatedWords": [],
-    "source": "shared-bank",
-    "confidence": "trusted",
-    "episodes": [
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
-    ],
-    "contexts": [
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Some anime or anime clips can be short videos.",
-        "contextMeaning": "Here, \"short video\" means some anime or anime clips can be short videos",
-        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -200773,6 +201016,29 @@
       }
     ]
   },
+  "small record": {
+    "word": "small record",
+    "definition": "One easy fact about something special",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "In this lesson, you learn one small record.",
+        "contextMeaning": "Here, \"small record\" means in this lesson, \"small record\" means one easy fact about something special",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "smaller": {
     "word": "smaller",
     "definition": "Not big, little in size",
@@ -204314,8 +204580,7 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-01-horse-riding-basics-a1",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
       {
@@ -204498,13 +204763,6 @@
         "sentence": "Sports manga sounds interesting because.",
         "contextMeaning": "Here, \"sounds\" means the genre seems interesting to you",
         "source": "popup_manual_review/manga_full_assets_density_repair_2026-07-03",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "That sounds relaxing means it seems relaxing.",
-        "contextMeaning": "Here, \"sounds\" means that sounds relaxing means it seems relaxing",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -206675,6 +206933,29 @@
       }
     ]
   },
+  "spirited away": {
+    "word": "spirited away",
+    "definition": "A famous fantasy anime movie",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Try Spirited Away for fantasy.",
+        "contextMeaning": "Here, \"spirited away\" means in this lesson, \"Spirited Away\" means a famous fantasy anime movie",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "spirits": {
     "word": "spirits",
     "definition": "Souls of people who are not alive",
@@ -208515,7 +208796,8 @@
     "episodes": [
       "episode-2026-05-30-a2-delivery-fix-a-missed-package",
       "episode-2026-05-30-a2-phone-store-explain-data-problem",
-      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying"
+      "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -208537,6 +208819,13 @@
         "sentence": "Today’s story starts with a travel dream many people know well.",
         "contextMeaning": "Here, \"starts\" means the story begins with a travel dream",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Some anime starts from a video game.",
+        "contextMeaning": "Here, \"starts\" means to begin",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -211245,7 +211534,8 @@
       "episode-2026-05-24-sisyphus-the-man-who-pushed-a-rock-forever",
       "episode-2026-05-27-the-hero-story-in-greek-myth",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -211288,6 +211578,13 @@
         "sentence": "Manga: Stories in Panels Warm-Up Questions 1.",
         "contextMeaning": "Here, \"stories\" means things people tell about events or ideas",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Anime stories can be new, but they can also be very old.",
+        "contextMeaning": "Here, \"stories\" means in this lesson, \"stories\" means things that happen to people or characters",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -211577,9 +211874,9 @@
       },
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "You can say the story type, one detail, and one reason.",
-        "contextMeaning": "Here, \"story type\" means the kind of story",
-        "source": "manual_remake/authored_reading_popup_dictionary",
+        "sentence": "Fantasy is one story type.",
+        "contextMeaning": "Here, \"story type\" means in this lesson, \"story type\" means the kind of story",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -211962,8 +212259,7 @@
       "episode-2026-06-29-tennis-small-court-big-choices",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
     ],
     "contexts": [
       {
@@ -212104,13 +212400,6 @@
         "sentence": "When several legs move together, the whole structure can cross a beach in a strange and beautiful way.",
         "contextMeaning": "Here, \"strange\" means the way it moves is unusual and interesting",
         "source": "popup_prebuild_coverage/context_explain",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Fantasy anime can have strange places.",
-        "contextMeaning": "Here, \"strange\" means fantasy anime can have strange places",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -213320,7 +213609,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -213433,6 +213723,13 @@
         "sentence": "Patterns may feel stronger.",
         "contextMeaning": "Here, \"stronger\" means more powerful or more intense",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "A real detail makes your idea stronger.",
+        "contextMeaning": "Here, \"stronger\" means in this lesson, \"stronger\" means better or more useful",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -218968,8 +219265,7 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-my-first-trial-lesson"
     ],
     "contexts": [
       {
@@ -219012,13 +219308,6 @@
         "sentence": "Can you talk about your day?",
         "contextMeaning": "Here, \"talk\" means to speak with someone",
         "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "The friends talk about anime.",
-        "contextMeaning": "Here, \"talk\" means the friends talk about anime",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -223519,7 +223808,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-02-seoul-food-places-and-shopping"
+      "episode-2026-07-02-seoul-food-places-and-shopping",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -223616,6 +223906,13 @@
       {
         "episodeId": "episode-2026-07-02-seoul-food-places-and-shopping",
         "sentence": "In the morning, visit Gyeongbokgung Palace, then walk toward Gwanghwamun Square.",
+        "contextMeaning": "Here, \"then\" means after that or at that time",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Then say the type, the mood, and one fact.",
         "contextMeaning": "Here, \"then\" means after that or at that time",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -227289,7 +227586,8 @@
     "episodes": [
       "episode-2026-05-21-weekly-catch-up-conversation-a2",
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -227311,6 +227609,13 @@
         "sentence": "A title is the name of a song.",
         "contextMeaning": "Here, \"title\" means the name of a song",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "When you recommend anime, name one title.",
+        "contextMeaning": "Here, \"title\" means in this lesson, \"title\" means the name of a show, movie, or book",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -232943,6 +233248,29 @@
     ],
     "contexts": []
   },
+  "try my neighbor totoro": {
+    "word": "try my neighbor totoro",
+    "definition": "A simple recommendation for one anime movie",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Try My Neighbor Totoro for a gentle movie.",
+        "contextMeaning": "Here, \"try my neighbor totoro\" means in this lesson, \"Try My Neighbor Totoro\" means a simple recommendation for",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "try on": {
     "word": "try on",
     "definition": "Put on clothes to check them",
@@ -232962,6 +233290,29 @@
         "sentence": "I try on jackets and pants.",
         "contextMeaning": "Here, \"try on\" means people can try clothes on before they buy them",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "try spirited away": {
+    "word": "try spirited away",
+    "definition": "A simple recommendation for one fantasy anime movie",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Try Spirited Away for fantasy.",
+        "contextMeaning": "Here, \"try spirited away\" means in this lesson, \"Try Spirited Away\" means a simple recommendation for one fanta",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -233394,7 +233745,7 @@
   },
   "tv show": {
     "word": "tv show",
-    "definition": "A story or program you watch on television",
+    "definition": "A story or program you watch on television or online",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -233409,8 +233760,8 @@
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
         "sentence": "Anime can be a TV show or a movie.",
-        "contextMeaning": "Here, \"tv show\" means in this lesson, a TV show is one form anime can have",
-        "source": "manual_remake/authored_reading_popup_dictionary",
+        "contextMeaning": "Here, \"tv show\" means in this lesson, \"TV show\" means a story or program you watch on television or online",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -233899,7 +234250,8 @@
       "episode-2026-05-14-microsoft-and-8217-s-edge-copilot-update-uses-4",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-17-getting-a-library-card",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -233929,6 +234281,13 @@
         "contextMeaning": "Here, \"type\" means which kind of coffee do you want",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Then say the type, the mood, and one fact.",
+        "contextMeaning": "Here, \"type\" means in this lesson, \"type\" means one kind of thing",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -233957,7 +234316,7 @@
   },
   "types": {
     "word": "types",
-    "definition": "Kinds or groups",
+    "definition": "Different kinds of things",
     "cefrLevel": "A1",
     "partOfSpeech": "",
     "phonetic": "",
@@ -233971,9 +234330,9 @@
     "contexts": [
       {
         "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "Action, comedy, and fantasy are anime types.",
-        "contextMeaning": "Here, \"types\" means action, comedy, and fantasy are anime types",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "sentence": "These names help you talk about real anime, not only story types.",
+        "contextMeaning": "Here, \"types\" means in this lesson, \"types\" means different kinds of things",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -239190,6 +239549,29 @@
       }
     ]
   },
+  "video game": {
+    "word": "video game",
+    "definition": "A game you play on a screen",
+    "cefrLevel": "A1",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "Some anime starts from a video game.",
+        "contextMeaning": "Here, \"video game\" means in this lesson, \"video game\" means a game you play on a screen",
+        "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "video-game english": {
     "word": "video-game english",
     "definition": "Words used in video games to help players",
@@ -242014,8 +242396,7 @@
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
     ],
     "contexts": [
       {
@@ -242163,13 +242544,6 @@
         "sentence": "is warm and funny.",
         "contextMeaning": "Here, \"warm\" means a little hot in a comfortable way",
         "source": "popup_support_router/teaching_lexicon_trusted",
-        "confidence": "trusted"
-      },
-      {
-        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-        "sentence": "A warm anime can feel relaxing and friendly.",
-        "contextMeaning": "Here, \"warm\" means a warm anime can feel relaxing and friendly",
-        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -247555,7 +247929,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-why-some-objects-become-special"
+      "episode-2026-06-03-why-some-objects-become-special",
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
     ],
     "contexts": [
       {
@@ -247563,6 +247938,13 @@
         "sentence": "A sports field can feel emotional if a championship was won there.",
         "contextMeaning": "Here, \"won\" means to get the championship or be the best team there",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+        "sentence": "It won an Oscar in 2003.",
+        "contextMeaning": "Here, \"won\" means in this lesson, \"won\" means got a prize or game result",
+        "source": "manual_review/anime_clean_popup_dictionary",
         "confidence": "trusted"
       }
     ]
