@@ -34,10 +34,10 @@ Keep read-along alignment fallback research as a report-only proof lane, but wai
 
 ## Current Visual Evidence
 
-Live full-page and true-bottom screenshots were captured for:
+Live full-page and true-bottom screenshots were captured for the current fixture packet:
 
-- `https://ovienglish.com/episodes/2026-05-21-a1-supermarket-find-and-pay/`
-- `https://ovienglish.com/episodes/2026-05-21-a1-train-station-platform-help/`
+- `https://ovienglish.com/episodes/2026-06-20-spanish-start-ordering-at-a-bakery/`
+- `https://ovienglish.com/episodes/2026-07-02-cafe-coffee-and-working-at-a-cafe/`
 - `https://ovienglish.com/episodes/2026-06-05-taking-a-taxi/`
 
 Capture report:
@@ -54,7 +54,7 @@ Capture report:
 
 ## Council Reading
 
-- Keep the report-only lane because Ovi needs timing/coverage proof on degraded fixtures and controls before changing Listen Mode.
+- Keep the report-only lane because Ovi needs timing/coverage proof on sentence-level fallback fixtures and controls before changing Listen Mode.
 - Wait on dependency setup because stable-ts is archived/dependency-gated, WhisperX may need local model/cache policy, and MFA needs dictionary/acoustic-model/corpus proof.
 - Reject any path that writes sync/caption/episode JSON/output/study-site/live files from this preview lane.
 - Keep paid STT held until local forced-alignment candidates have measured rows and the operator explicitly approves a small spend cap.

@@ -32,7 +32,7 @@ The design council synthesis is:
 - Reviewed art unchanged: yes
 - Private paths absent: yes
 - Public route proof ready: yes
-- Public route used for visual proof: `/episodes/2026-05-17-kofu-and-yamanashi-modern-cafe-culture/`
+- Public route used for visual proof: `/episodes/2026-07-02-cafe-coffee-and-working-at-a-cafe/`
 - Real import-path freshness proof ready: yes, convenience-store `4/4` matched scenes
 - Repeat import-path freshness proof ready: yes, AI Agent Swarms `6/6` matched scenes
 - Public asset hashes match producer output: yes
