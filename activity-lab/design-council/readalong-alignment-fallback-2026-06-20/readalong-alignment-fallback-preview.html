@@ -1,0 +1,557 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Read-Along Alignment Fallback Preview | Ovi Design Council</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #10243a;
+        --muted: #617286;
+        --paper: #f3eee6;
+        --panel: #fffdf8;
+        --line: rgba(16, 36, 58, 0.14);
+        --teal: #00766d;
+        --teal-dark: #063c46;
+        --teal-soft: #e5f5f0;
+        --copper: #aa5c22;
+        --copper-soft: #fff0de;
+        --red: #9d372f;
+        --red-soft: #fff0ed;
+        --blue-soft: #eef4ff;
+        --shadow: 0 16px 44px rgba(16, 36, 58, 0.12);
+        --radius: 8px;
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body {
+        margin: 0;
+        overflow-x: clip;
+        background: var(--paper);
+        color: var(--ink);
+      }
+      img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: var(--radius);
+      }
+      button, summary { font: inherit; }
+      code { overflow-wrap: anywhere; }
+      .hero {
+        min-height: 560px;
+        color: #fff;
+        background:
+          linear-gradient(90deg, rgba(7, 45, 53, 0.98), rgba(0, 89, 88, 0.76) 52%, rgba(7, 45, 53, 0.12)),
+          url("assets/gpt-image-2-readalong-dependency-gate.png") center / cover;
+      }
+      .hero-inner, .section-inner, .foot {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+      .hero-inner {
+        min-height: 560px;
+        display: grid;
+        align-content: end;
+        padding: 34px 0 46px;
+      }
+      .eyebrow, .label {
+        margin: 0;
+        color: var(--teal);
+        font-size: 0.76rem;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+      .hero .eyebrow { color: #adf2de; }
+      h1, h2, h3, p { margin-top: 0; }
+      h1 {
+        width: min(920px, 100%);
+        margin-bottom: 16px;
+        font-size: 4rem;
+        line-height: 1;
+        letter-spacing: 0;
+      }
+      .hero-copy {
+        width: min(840px, 100%);
+        margin-bottom: 22px;
+        color: rgba(255, 255, 255, 0.88);
+        font-size: 1.12rem;
+        line-height: 1.55;
+      }
+      .hero-metrics, .posture-grid, .direction-grid, .council-grid, .candidate-grid, .shot-grid, .decision-grid {
+        display: grid;
+        gap: 14px;
+      }
+      .hero-metrics { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .metric {
+        min-width: 0;
+        padding: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.22);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.13);
+        backdrop-filter: blur(10px);
+      }
+      .metric strong {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 1.42rem;
+        line-height: 1;
+      }
+      .metric span {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 0.88rem;
+        line-height: 1.35;
+      }
+      main { padding: 32px 0 62px; }
+      section + section { margin-top: 30px; }
+      .section-head {
+        display: flex;
+        gap: 18px;
+        align-items: end;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+      .section-head h2 {
+        margin: 4px 0 0;
+        font-size: 2rem;
+        letter-spacing: 0;
+      }
+      .section-head p {
+        max-width: 800px;
+        margin-bottom: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .panel, .shot, .decision-card, details {
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+      .panel.pad, .decision-card { padding: 20px; }
+      .posture-grid { grid-template-columns: 1.08fr 1fr 1fr; }
+      .direction-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+      .council-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+      .candidate-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .shot-grid, .decision-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .panel h3, .decision-card h3 {
+        margin: 5px 0 10px;
+        font-size: 1.08rem;
+        letter-spacing: 0;
+      }
+      .panel p, .decision-card p, details p, li {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+      .panel p:last-child, .decision-card p:last-child { margin-bottom: 0; }
+      .recommendation {
+        border-color: rgba(0, 118, 109, 0.35);
+        background: linear-gradient(180deg, #fffdf8, var(--teal-soft));
+      }
+      .warning {
+        border-color: rgba(170, 92, 34, 0.36);
+        background: linear-gradient(180deg, #fffdf8, var(--copper-soft));
+      }
+      .risk {
+        border-color: rgba(157, 55, 47, 0.24);
+        background: linear-gradient(180deg, #fffdf8, var(--red-soft));
+      }
+      .info {
+        border-color: rgba(16, 80, 150, 0.2);
+        background: linear-gradient(180deg, #fffdf8, var(--blue-soft));
+      }
+      .chip-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .chip {
+        display: inline-flex;
+        min-height: 30px;
+        align-items: center;
+        border-radius: 999px;
+        padding: 5px 10px;
+        background: rgba(0, 118, 109, 0.1);
+        color: var(--teal-dark);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+      .chip.warn { background: var(--copper-soft); color: var(--copper); }
+      .chip.stop { background: var(--red-soft); color: var(--red); }
+      .score {
+        display: inline-flex;
+        width: 58px;
+        height: 58px;
+        align-items: center;
+        justify-content: center;
+        border: 4px solid var(--teal);
+        border-radius: 999px;
+        color: var(--teal-dark);
+        font-size: 1.24rem;
+        font-weight: 950;
+      }
+      .council-card, .candidate-card { padding: 16px; }
+      .council-card .score {
+        width: 46px;
+        height: 46px;
+        margin-bottom: 12px;
+        border-width: 3px;
+        font-size: 1rem;
+      }
+      figure { margin: 0; }
+      figcaption {
+        padding: 12px 14px 14px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.45;
+      }
+      .shot img { border-radius: var(--radius) var(--radius) 0 0; }
+      details { overflow: hidden; }
+      summary {
+        cursor: pointer;
+        min-height: 52px;
+        padding: 16px 18px;
+        color: var(--teal-dark);
+        font-weight: 900;
+      }
+      details[open] summary { border-bottom: 1px solid var(--line); }
+      .details-body { padding: 18px; }
+      .table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+      }
+      .table th, .table td {
+        padding: 13px 12px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+      .table th {
+        color: var(--teal-dark);
+        font-size: 0.78rem;
+        text-transform: uppercase;
+      }
+      .table tr:last-child td { border-bottom: 0; }
+      .decision-card button {
+        min-height: 48px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        padding: 0 16px;
+        background: #fff;
+        color: var(--ink);
+        font-weight: 900;
+        cursor: pointer;
+      }
+      .decision-card button[data-decision="keep"] {
+        border-color: rgba(0, 118, 109, 0.35);
+        background: var(--teal);
+        color: #fff;
+      }
+      .decision-card button[data-decision="wait"] {
+        border-color: rgba(170, 92, 34, 0.42);
+        background: var(--copper-soft);
+        color: var(--copper);
+      }
+      .decision-card button[data-decision="no"] {
+        border-color: rgba(157, 55, 47, 0.34);
+        background: var(--red-soft);
+        color: var(--red);
+      }
+      #decision-result {
+        min-height: 58px;
+        margin-top: 14px;
+        padding: 14px;
+        border: 1px dashed rgba(16, 36, 58, 0.24);
+        border-radius: var(--radius);
+        background: #fffaf0;
+        color: var(--muted);
+      }
+      .foot {
+        display: flex;
+        gap: 12px;
+        justify-content: space-between;
+        padding: 28px 0 36px;
+        color: var(--muted);
+      }
+      @media (max-width: 980px) {
+        h1 { font-size: 3rem; }
+        .hero-metrics, .posture-grid, .direction-grid, .council-grid, .candidate-grid, .shot-grid, .decision-grid {
+          grid-template-columns: 1fr;
+        }
+        .section-head { display: block; }
+      }
+      @media (max-width: 560px) {
+        .hero { min-height: 620px; }
+        .hero-inner { min-height: 620px; padding-bottom: 34px; }
+        h1 { font-size: 2.38rem; }
+        .hero-copy { font-size: 1rem; }
+        main { padding-top: 24px; }
+        .panel.pad, .decision-card, .details-body { padding: 16px; }
+        .foot { display: block; }
+      }
+    </style>
+  </head>
+  <body data-preview-root>
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Preview mode - Ovi Design Council</p>
+        <h1>Read-along alignment fallback gate.</h1>
+        <p class="hero-copy">
+          Recommendation: keep the report-only alignment proof lane, wait before dependency setup or paid STT, and satisfy easyaligner first unless stable-ts archived risk is explicitly accepted.
+        </p>
+        <div class="hero-metrics" aria-label="Preview metrics">
+          <div class="metric"><strong>84</strong><span>fallback review score</span></div>
+          <div class="metric"><strong>87</strong><span>tech review score</span></div>
+          <div class="metric"><strong>71.74m</strong><span>selected fixture packet</span></div>
+          <div class="metric"><strong>0</strong><span>sync, caption, episode, or paid writes</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section-inner">
+        <div class="section-head">
+          <div>
+            <p class="label">Council posture</p>
+            <h2>Useful proof shape, dependency-gated.</h2>
+          </div>
+          <p>The current packet is valuable because it fixes fixtures, metrics, and no-write rules. It is not ready for production alignment changes or paid provider calibration.</p>
+        </div>
+        <div class="posture-grid">
+          <article class="panel pad recommendation">
+            <span class="score">84</span>
+            <h3>Keep report-only lane</h3>
+            <p>Keep the alignment fallback review as a bounded local proof packet with problem fixtures, controls, and explicit no-write policy.</p>
+            <div class="chip-row"><span class="chip">zero spend</span><span class="chip">read-only</span><span class="chip">controls required</span></div>
+          </article>
+          <article class="panel pad warning">
+            <span class="score">3</span>
+            <h3>Wait on dependency setup</h3>
+            <p>Stable-ts, WhisperX, and MFA all need dependency review before any runnable local probe. Paid STT remains held.</p>
+            <div class="chip-row"><span class="chip warn">dependency gate</span><span class="chip warn">owner review</span></div>
+          </article>
+          <article class="panel pad risk">
+            <span class="score">0</span>
+            <h3>No production sync writes</h3>
+            <p>Do not write sync, captions, episode JSON, output folders, study-site data, or live routes from this preview lane.</p>
+            <div class="chip-row"><span class="chip stop">no paid STT</span><span class="chip stop">no publish</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-inner">
+        <div class="section-head">
+          <div>
+            <p class="label">GPT Image 2 directions</p>
+            <h2>Design options for the alignment council.</h2>
+          </div>
+          <p>These generated directions show how the proof can be reviewed as an owner surface without implying an automatic model, dependency, or production route decision.</p>
+        </div>
+        <div class="direction-grid">
+          <figure class="shot">
+            <img src="assets/gpt-image-2-readalong-dependency-gate.png" alt="GPT Image 2 read-along alignment dependency gate direction" />
+            <figcaption><strong>Dependency gate.</strong> Stable-ts, WhisperX, MFA, and paid STT shown as an ordered review path.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/gpt-image-2-readalong-council.png" alt="GPT Image 2 read-along alignment multi-reviewer council direction" />
+            <figcaption><strong>Alignment council.</strong> Reviewer cards compare timing quality, learner UX, dependency risk, privacy, and peer review.</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/gpt-image-2-readalong-proof-loop.png" alt="GPT Image 2 recursive read-along proof loop direction" />
+            <figcaption><strong>Recursive proof loop.</strong> Select fixtures, run report-only aligner, compare coverage, review screenshots, then decide.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-inner">
+        <div class="section-head">
+          <div>
+            <p class="label">Fallback candidates</p>
+            <h2>What the packet recommends next.</h2>
+          </div>
+          <p>easyaligner is now the strongest non-archived transcript-aware path because Ovi already owns trusted scripts. Stable-ts stays useful proof-shape evidence, but its archived/dependency risk keeps it manual.</p>
+        </div>
+        <div class="candidate-grid">
+          <article class="panel candidate-card recommendation">
+            <h3>easyaligner first</h3>
+            <p>Candidate score <strong>87</strong>. Best non-archived local proof path, gated by local Python module and alignment/emission model-cache readiness.</p>
+            <span class="chip">top current candidate</span>
+          </article>
+          <article class="panel candidate-card warning">
+            <h3>Stable-ts proof</h3>
+            <p>Score <strong>84</strong>. Harness ready, but blocked by missing <code>stable_whisper</code>, cached <code>base.en</code> model, and archived upstream risk.</p>
+            <span class="chip warn">dependency-blocked</span>
+          </article>
+          <article class="panel candidate-card info">
+            <h3>WhisperX second</h3>
+            <p>Candidate score <strong>86</strong>. Strong fallback after easyaligner or explicit stable-ts risk review, but still needs local dependency and alignment-model cache policy.</p>
+            <span class="chip warn">second fallback</span>
+          </article>
+          <article class="panel candidate-card info">
+            <h3>MFA third</h3>
+            <p>Candidate score <strong>83</strong>. Useful for known-transcript forced alignment after dictionary, acoustic model, and TextGrid proof.</p>
+            <span class="chip warn">setup heavy</span>
+          </article>
+          <article class="panel candidate-card risk">
+            <h3>Paid STT held</h3>
+            <p>Candidate score <strong>63</strong>. OpenAI, Deepgram, or AssemblyAI calibration stays held until local candidates have measured rows.</p>
+            <span class="chip stop">operator approval required</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-inner">
+        <div class="section-head">
+          <div>
+            <p class="label">Council roles</p>
+            <h2>Who should review before any install.</h2>
+          </div>
+          <p>The council needs more than model scoring. Timing quality, learner experience, dependency maintenance, privacy, and peer review all have to agree before the next loop runs.</p>
+        </div>
+        <div class="council-grid">
+          <article class="panel council-card"><span class="score">88</span><h3>Alignment engineer</h3><p>Checks coverage, cue gaps, word timing usability, and control regressions.</p><span class="chip">timing proof</span></article>
+          <article class="panel council-card"><span class="score">86</span><h3>Learner UX</h3><p>Checks whether read-along timing would actually help A1 listening instead of distracting learners.</p><span class="chip">learner value</span></article>
+          <article class="panel council-card"><span class="score">84</span><h3>Audio quality</h3><p>Checks TTS/audio assumptions, silence, long cues, and phrase boundary behavior.</p><span class="chip warn">audio review</span></article>
+          <article class="panel council-card"><span class="score">78</span><h3>Dependency risk</h3><p>Challenges archived libraries, model downloads, runtime size, and maintenance burden.</p><span class="chip stop">risk</span></article>
+          <article class="panel council-card"><span class="score">90</span><h3>Privacy</h3><p>Requires temp files only, no raw audio retention, no diarization token, and no private route data.</p><span class="chip">no retention</span></article>
+          <article class="panel council-card"><span class="score">82</span><h3>Model peer review</h3><p>Blocks paid calibration until local transcript-aware candidates have a real scorecard.</p><span class="chip warn">peer check</span></article>
+        </div>
+      </section>
+
+      <section class="section-inner">
+        <div class="section-head">
+          <div>
+            <p class="label">Current live lesson context</p>
+            <h2>Full-page and true-bottom captures.</h2>
+          </div>
+          <p>These screenshots show the whole lesson context around the read-along/listen experience. The bottom captures confirm the final learner actions and footer, not only the top of the lesson.</p>
+        </div>
+        <details open>
+          <summary>Supermarket problem fixture</summary>
+          <div class="details-body shot-grid">
+            <figure class="shot"><img src="assets/readalong-alignment-supermarket-problem-desktop-full.png" alt="Desktop full-page supermarket problem fixture screenshot" /><figcaption>Desktop full page.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-supermarket-problem-desktop-bottom.png" alt="Desktop bottom supermarket problem fixture screenshot" /><figcaption>Desktop bottom: next lesson, listen again, issue report, and footer captured.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-supermarket-problem-mobile-full.png" alt="Mobile full-page supermarket problem fixture screenshot" /><figcaption>Mobile full page.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-supermarket-problem-mobile-bottom.png" alt="Mobile bottom supermarket problem fixture screenshot" /><figcaption>Mobile bottom: final learner actions and footer captured.</figcaption></figure>
+          </div>
+        </details>
+        <details>
+          <summary>Train station problem fixture</summary>
+          <div class="details-body shot-grid">
+            <figure class="shot"><img src="assets/readalong-alignment-train-station-problem-desktop-full.png" alt="Desktop full-page train station problem fixture screenshot" /><figcaption>Desktop full page.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-train-station-problem-desktop-bottom.png" alt="Desktop bottom train station problem fixture screenshot" /><figcaption>Desktop bottom: next lesson, listen again, issue report, and footer captured.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-train-station-problem-mobile-full.png" alt="Mobile full-page train station problem fixture screenshot" /><figcaption>Mobile full page.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-train-station-problem-mobile-bottom.png" alt="Mobile bottom train station problem fixture screenshot" /><figcaption>Mobile bottom: final learner actions and footer captured.</figcaption></figure>
+          </div>
+        </details>
+        <details>
+          <summary>Taxi control fixture</summary>
+          <div class="details-body shot-grid">
+            <figure class="shot"><img src="assets/readalong-alignment-taxi-control-desktop-full.png" alt="Desktop full-page taxi control fixture screenshot" /><figcaption>Desktop full page.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-taxi-control-desktop-bottom.png" alt="Desktop bottom taxi control fixture screenshot" /><figcaption>Desktop bottom: next lesson, listen again, issue report, and footer captured.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-taxi-control-mobile-full.png" alt="Mobile full-page taxi control fixture screenshot" /><figcaption>Mobile full page.</figcaption></figure>
+            <figure class="shot"><img src="assets/readalong-alignment-taxi-control-mobile-bottom.png" alt="Mobile bottom taxi control fixture screenshot" /><figcaption>Mobile bottom: final learner actions and footer captured.</figcaption></figure>
+          </div>
+        </details>
+      </section>
+
+      <section class="section-inner">
+        <div class="section-head">
+          <div>
+            <p class="label">Proof table</p>
+            <h2>What passed and what remains blocked.</h2>
+          </div>
+          <p>The proof is ready as a review packet. It is not a production writer, not a dependency install request, and not a paid provider request.</p>
+        </div>
+        <table class="table">
+          <thead>
+            <tr><th>Gate</th><th>Result</th><th>Decision meaning</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Fallback review</td><td><code>84/100</code>, status <code>fallback_review_ready_dependency_gate</code></td><td>Strong enough for owner review, not promotion.</td></tr>
+            <tr><td>Tech review</td><td><code>87/100</code>, easyaligner local alignment preferred</td><td>Do not jump to paid STT or generic transcription first.</td></tr>
+            <tr><td>Fixture packet</td><td><code>5</code> problem fixtures, <code>2</code> controls, <code>71.74</code> minutes</td><td>Good review packet size for choosing the next proof lane.</td></tr>
+            <tr><td>Dependency gates</td><td>easyaligner, stable-ts, WhisperX, and MFA not runnable without setup</td><td>Owner review must choose whether setup is worth it.</td></tr>
+            <tr><td>Write policy</td><td><code>0</code> sync, caption, episode JSON, output, study-site, live-route, provider, or paid writes</td><td>Preview remains safe and reversible.</td></tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section-inner">
+        <div class="section-head">
+          <div>
+            <p class="label">Owner decision</p>
+            <h2>Choose the next loop.</h2>
+          </div>
+          <p>This saves a local preview decision only. It does not install dependencies, call providers, write alignment output, or change lessons.</p>
+        </div>
+        <div class="decision-grid">
+          <article class="decision-card">
+            <h3>Decision controls</h3>
+            <div class="chip-row">
+              <button type="button" data-decision="keep">Keep report-only lane</button>
+              <button type="button" data-decision="wait">Wait for dependency review</button>
+              <button type="button" data-decision="no">No / revise</button>
+              <button type="button" data-decision="clear">Clear local decision</button>
+            </div>
+            <div id="decision-result" data-active="false">No local decision selected yet.</div>
+          </article>
+          <article class="decision-card recommendation">
+            <h3>Council recommendation</h3>
+            <p><strong>Keep-wait.</strong> Keep read-along alignment fallback research as a report-only proof lane, but wait before stable-ts setup, WhisperX setup, MFA setup, or paid STT calibration.</p>
+            <p>The next useful loop is a dependency decision: satisfy easyaligner first, or explicitly accept stable-ts archived risk for a local-only proof before comparing WhisperX/MFA.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span>Preview-only Ovi Design Council artifact.</span>
+      <span>Generated 2026-06-20. No production behavior changed.</span>
+    </footer>
+
+    <script>
+      const result = document.querySelector("#decision-result");
+      const key = "ovi-preview-readalong-alignment-fallback-decision";
+      const copy = {
+        keep: "Keep report-only lane selected locally. Next loop: keep the same no-write fixture packet and choose one dependency setup path.",
+        wait: "Wait for dependency review selected locally. Next loop: inspect easyaligner setup, stable-ts risk, WhisperX setup, MFA setup, and paid-STT hold policy before running anything.",
+        no: "No / revise selected locally. Next loop: redesign the read-along alignment proof before any dependency setup or paid calibration.",
+      };
+      function render(value) {
+        if (!value || !copy[value]) {
+          result.dataset.active = "false";
+          result.textContent = "No local decision selected yet.";
+          return;
+        }
+        result.dataset.active = "true";
+        result.textContent = copy[value];
+      }
+      document.querySelectorAll("[data-decision]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const value = button.dataset.decision;
+          if (value === "clear") {
+            localStorage.removeItem(key);
+            render("");
+            return;
+          }
+          localStorage.setItem(key, value);
+          render(value);
+        });
+      });
+      render(localStorage.getItem(key));
+    </script>
+  </body>
+</html>

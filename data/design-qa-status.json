@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-06-10T14:52:17.920Z",
+  "latestRunType": "visual_probe",
+  "latestRunAt": "2026-06-10T14:52:17.898Z",
+  "reportPath": "/Users/ovi/Downloads/Trying things/ovi-english-school/logs/site-visual-feedback/2026-06-10T14-51-16/report.md",
+  "jsonPath": "/Users/ovi/Downloads/Trying things/ovi-english-school/logs/site-visual-feedback/2026-06-10T14-51-16/report.json",
+  "status": "ready",
+  "summary": {
+    "modelCount": 1,
+    "passCount": 1,
+    "totalCostUsd": 0.00209,
+    "keptIssues": 0,
+    "droppedIssues": 0,
+    "issueCount": 0
+  },
+  "recommendedModel": "qwen/qwen3-vl-32b-instruct",
+  "modelRoles": {
+    "primaryVisualReviewer": "qwen/qwen3-vl-32b-instruct",
+    "cheapSecondPass": "qwen/qwen3-vl-8b-instruct",
+    "deepScout": "qwen/qwen3-vl-235b-a22b-instruct",
+    "eliteProbeLane": [
+      "openai/gpt-5.5",
+      "anthropic/claude-opus-4.8",
+      "google/gemini-3.5-flash",
+      "x-ai/grok-4.3",
+      "x-ai/grok-build-0.1",
+      "anthropic/claude-fable-5",
+      "mistralai/mistral-medium-3-5",
+      "qwen/qwen3-vl-235b-a22b-instruct",
+      "qwen/qwen3-vl-32b-instruct"
+    ],
+    "reasoningJudges": [
+      "deepseek/deepseek-v4-flash",
+      "deepseek/deepseek-v4-pro"
+    ]
+  },
+  "models": [
+    {
+      "model": "qwen/qwen3-vl-32b-instruct",
+      "role": "cheap_baseline_visual_reviewer",
+      "status": "pass",
+      "score": 85,
+      "costUsd": 0.00209,
+      "latencyMs": 16793,
+      "keptIssues": 5,
+      "droppedIssues": 0,
+      "parseReliability": "strong"
+    }
+  ],
+  "issues": [],
+  "nextAction": "Build a review packet from the latest owner-control probe, verify it in browser, then run the reasoning judge loop."
+}
