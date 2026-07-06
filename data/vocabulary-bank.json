@@ -2379,7 +2379,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -2387,6 +2388,13 @@
         "sentence": "Classical music is different because many pieces were written hundreds of years ago, but people still perform them today.",
         "contextMeaning": "Here, \"ago\" means a long time before today",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Rome was very important in ancient Rome, a long time ago.",
+        "contextMeaning": "Here, \"ago\" means a long time before now in ancient Rome",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -5732,7 +5740,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -5747,6 +5756,13 @@
         "sentence": "Understand Igor Stravinsky's life, major works, musical style, and legacy, then practice explaining how modern art can feel shocking at first but important later in clear B1-B2 English.",
         "contextMeaning": "Here, \"art\" means modern things made to show ideas or feelings",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Florence is famous for art and beautiful old buildings.",
+        "contextMeaning": "Here, \"art\" means florence is known for paintings and nice buildings",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -10838,7 +10854,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-07-02-my-first-trial-lesson"
+      "episode-2026-07-02-my-first-trial-lesson",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -10896,6 +10913,13 @@
         "contextMeaning": "Here, \"best\" means the most good study plan is not always big",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Pizza is one of the best-known Italian foods.",
+        "contextMeaning": "Here, \"best\" means pizza is one of the most famous Italian foods",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
       }
     ]
   },
@@ -10933,13 +10957,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
         "sentence": "Picasso is one of the best-known names in modern art.",
         "contextMeaning": "Here, \"best-known\" means one of the most famous names in new art",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Pizza is one of the best-known Italian foods.",
+        "contextMeaning": "Here, \"best-known\" means one of the most famous Italian foods",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -12049,6 +12081,29 @@
         "sentence": "Next, you check in and get your boarding pass if you do not already have it.",
         "contextMeaning": "Here, \"boarding pass\" means the paper or phone pass you scan before entering the plane",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "boat": {
+    "word": "boat",
+    "definition": "A small vehicle to move on water",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "People often travel by boat there.",
+        "contextMeaning": "Here, \"boat\" means people use it to move in Venice",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -13861,6 +13916,29 @@
       }
     ]
   },
+  "brought": {
+    "word": "brought",
+    "definition": "To make something come to a place",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Later, the Renaissance brought new art, learning, and thinking.",
+        "contextMeaning": "Here, \"brought\" means the Renaissance made new art, learning, and thinking come",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "brown": {
     "word": "brown",
     "definition": "The color like chocolate or wood",
@@ -14184,7 +14262,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -14199,6 +14278,13 @@
         "sentence": "Tokyo has many tall buildings.",
         "contextMeaning": "Here, \"buildings\" means tokyo has many tall buildings",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Florence is famous for art and beautiful old buildings.",
+        "contextMeaning": "Here, \"buildings\" means old big places in Florence that look nice and are important",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -14946,7 +15032,8 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -15002,6 +15089,13 @@
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "QUESTION 5: Why can a Strandbeest be called a teaching object?",
         "contextMeaning": "Here, \"called\" means why the Strandbeest is named a tool for teaching",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Word Help: Venice is a city with water roads called canals.",
+        "contextMeaning": "Here, \"called\" means water roads in Venice have the name canals",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -15675,6 +15769,29 @@
         "sentence": "The mission team tested a different idea: use lasers for high data capacity links across deep space.",
         "contextMeaning": "Here, \"capacity\" means how much data the links can carry",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "capital": {
+    "word": "capital",
+    "definition": "The main city of a country",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Rome is the capital of Italy.",
+        "contextMeaning": "Here, \"capital\" means rome is the main city of Italy where the government is",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -17398,6 +17515,29 @@
         "sentence": "If one leg unit works, Jansen can place many related units along the body and connect them to a central motion.",
         "contextMeaning": "Here, \"central\" means in the middle or most important part",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "centuries": {
+    "word": "centuries",
+    "definition": "A long time of 100 years",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Ancient Rome means Rome many centuries ago.",
+        "contextMeaning": "Here, \"centuries\" means rome from many 100-year times ago",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -19233,6 +19373,29 @@
       }
     ]
   },
+  "cheese": {
+    "word": "cheese",
+    "definition": "A food made from milk",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "People often eat it with sauce, cheese, or vegetables.",
+        "contextMeaning": "Here, \"cheese\" means food people eat with sauce or vegetables",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "chemical": {
     "word": "chemical",
     "definition": "A tiny thing that makes up stuff around us",
@@ -20168,7 +20331,8 @@
     "episodes": [
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-02-gemini-spark-is-the-most-impressive-and-terrifying",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -20190,6 +20354,13 @@
         "sentence": "Tokyo, Kyoto, Osaka, and Nara are city examples in the lesson.",
         "contextMeaning": "Here, \"city\" means tokyo, Kyoto, Osaka, and Nara are city examples in the lesson",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Word Help: Rome is the capital city of Italy.",
+        "contextMeaning": "Here, \"city\" means rome is the main big town in Italy",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -24989,7 +25160,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -25039,6 +25211,13 @@
         "sentence": "People connect Tokyo with trains, stations, shops, and pop culture.",
         "contextMeaning": "Here, \"connect\" means people connect Tokyo with trains, stations, shops, and pop culture",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "History, food, and travel all connect in Italy.",
+        "contextMeaning": "Here, \"connect\" means history, food, and travel are linked in Italy",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -26973,6 +27152,29 @@
       }
     ]
   },
+  "country": {
+    "word": "country",
+    "definition": "A land with its own people and rules",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Italy is a country in Europe.",
+        "contextMeaning": "Here, \"country\" means italy is a land in Europe",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "counts": {
     "word": "counts",
     "definition": "To say numbers in order",
@@ -27230,13 +27432,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
         "sentence": "This means a simple pilot is very different from a full cafe with eggs, dairy meals, fresh sandwiches, meat, cream cakes, or cooked brunch plates.",
         "contextMeaning": "Here, \"cream\" means sweet cakes made with soft, white milk part",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Gelato is a cold dessert like ice cream.",
+        "contextMeaning": "Here, \"cream\" means a cold dessert like ice cream",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -35874,7 +36084,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-05-do-we-see-the-world-as-it-really-is"
+      "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -35882,6 +36093,13 @@
         "sentence": "It helps you act: \"Pick it up,\" \"Eat it,\" or \"Avoid it if it is rotten.\" The brain turns complex reality into usable objects.",
         "contextMeaning": "Here, \"eat\" means put the apple in your mouth and chew it",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "People often eat it with sauce, cheese, or vegetables.",
+        "contextMeaning": "Here, \"eat\" means people put food in their mouth with sauce, cheese, or vegetables",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -38986,7 +39204,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon"
+      "episode-2026-06-02-how-europe-s-ai-strategy-diverges-from-silicon",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -38994,6 +39213,13 @@
         "sentence": "How should Europe build AI?",
         "contextMeaning": "Here, \"europe\" means the place where people want to make AI carefully",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Italy is a country in Europe.",
+        "contextMeaning": "Here, \"europe\" means italy is a country in the big place called Europe",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -41137,7 +41363,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -41250,6 +41477,13 @@
         "sentence": "The lesson asks learners to explain Japan with map, place, season, and daily-life details.",
         "contextMeaning": "Here, \"explain\" means the lesson asks learners to explain Japan with map, place, season, and daily-life details",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Can you explain one food, one place, and one history word from this lesson?",
+        "contextMeaning": "Here, \"explain\" means tell about one food, one place, and one history word",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -42529,7 +42763,8 @@
     "episodes": [
       "episode-2026-06-02-thermacell-s-latest-smart-mosquito-system-is-bigger",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -42551,6 +42786,13 @@
         "sentence": "Sazae-san is a family anime on Japanese TV.",
         "contextMeaning": "Here, \"family\" means in this lesson, \"family\" means parents, children, or people at home",
         "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Many people in Italy eat food slowly and enjoy time with family or friends.",
+        "contextMeaning": "Here, \"family\" means people enjoy eating slowly with people they love",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -44160,7 +44402,8 @@
       "episode-2026-06-03-shopping-at-a-supermarket",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -44188,6 +44431,13 @@
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "With a few clear questions, a cafe worker can help many customers.",
         "contextMeaning": "Here, \"few\" means with a small number of clear questions, a worker can help many people",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "You will also learn a few useful words for talking about Italy.",
+        "contextMeaning": "Here, \"few\" means you will learn a small number of useful words",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -45954,6 +46204,29 @@
         "sentence": "Have you seen a photo of Rome, Venice, or Florence?",
         "contextMeaning": "Here, \"florence\" means a city known for art",
         "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "flour": {
+    "word": "flour",
+    "definition": "Powder made from grain for cooking",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Pasta is food made from flour and water.",
+        "contextMeaning": "Here, \"flour\" means main food ingredient to make pasta",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -48833,7 +49106,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-10-playing-video-games",
-      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime"
+      "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -48848,6 +49122,13 @@
         "sentence": "Pokemon games launched in Japan in 1996.",
         "contextMeaning": "Here, \"games\" means in this lesson, \"games\" means activities you play",
         "source": "manual_review/anime_clean_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "People used to watch games and events there.",
+        "contextMeaning": "Here, \"games\" means people watched fun sports and shows there",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -50717,7 +50998,8 @@
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -50878,6 +51160,13 @@
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "A good designer does not only ask, \"Is it beautiful?\"",
         "contextMeaning": "Here, \"good\" means a nice designer thinks about more than looks",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "It is known for good food, famous old places, and a long history.",
+        "contextMeaning": "Here, \"good\" means the food is nice and tasty in Italy",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -54284,7 +54573,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -54313,6 +54603,13 @@
         "sentence": "Can the person integrate anything helpful?",
         "contextMeaning": "Here, \"helpful\" means useful or giving support",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "DISCUSSION 4: Why is it helpful to learn history through a country like Italy?",
+        "contextMeaning": "Here, \"helpful\" means good for learning history by using Italy as an example",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -56690,13 +56987,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "Then the customer gives details, like small or medium, hot or iced, and here or to go.",
         "contextMeaning": "Here, \"ice\" means cold coffee with frozen water in the drink",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Many people visit Italy to see cities like Rome, Venice, and Florence.",
+        "contextMeaning": "Here, \"ice\" means this word is not used about cold water here",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -62694,7 +62999,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-my-first-trial-lesson",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -62737,6 +63043,13 @@
         "sentence": "Learners say what they already know about Japan.",
         "contextMeaning": "Here, \"know\" means learners say what they already know about Japan",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "It is known for good food, famous old places, and a long history.",
+        "contextMeaning": "Here, \"know\" means people have information about the place for food and history",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -63106,7 +63419,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -63114,6 +63428,13 @@
         "sentence": "A campus is a large place with buildings and services together.",
         "contextMeaning": "Here, \"large\" means a place that is very big with many buildings and things",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "The Colosseum is a very old, large building for public events.",
+        "contextMeaning": "Here, \"large\" means the building is very big and old for many people",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -63306,7 +63627,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -63362,6 +63684,13 @@
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "Later versions added more careful legs, sails, air storage, sensors, and other experiments.",
         "contextMeaning": "Here, \"later\" means newer versions added more parts and tests",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Later, the Renaissance brought new art, learning, and thinking.",
+        "contextMeaning": "Here, \"later\" means after some time, new art and ideas came",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -64191,7 +64520,8 @@
     "episodes": [
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-05-do-we-see-the-world-as-it-really-is",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -64212,6 +64542,13 @@
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "[OPENING] Explain how Theo Jansen's Strandbeesten turn wind and repeated linkages into walking sculptures, and use them to discuss design, failure, and learning from prototypes.",
         "contextMeaning": "Here, \"learning\" means finding out new things from making and testing models",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Later, the Renaissance brought new art, learning, and thinking.",
+        "contextMeaning": "Here, \"learning\" means new knowledge and ideas came during the Renaissance",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -66965,7 +67302,8 @@
     "episodes": [
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -66987,6 +67325,13 @@
         "sentence": "Jansen often describes the older forms as fossils, because each structure belongs to one stage of a long design history.",
         "contextMeaning": "Here, \"long\" means not short",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "It is known for good food, famous old places, and a long history.",
+        "contextMeaning": "Here, \"long\" means italy has a big amount of history from many years",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -67252,7 +67597,8 @@
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-17-getting-a-haircut",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -67309,6 +67655,13 @@
         "sentence": "A Strandbeest looks like a walking skeleton, but it is also a lesson in design.",
         "contextMeaning": "Here, \"looks\" means shows the appearance of a walking skeleton",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "The city looks different from many other places in Italy.",
+        "contextMeaning": "Here, \"looks\" means the city seems different from other places in Italy",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -69079,7 +69432,8 @@
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -69297,6 +69651,13 @@
         "sentence": "Many is used because Japan has many places, seasons, and local stories.",
         "contextMeaning": "Here, \"many\" means many is used because Japan has many places, seasons, and local stories",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Many people visit Italy to see cities like Rome, Venice, and Florence.",
+        "contextMeaning": "Here, \"many\" means a large number of visitors come to Italy",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -70098,7 +70459,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-03-shopping-at-a-supermarket",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -70113,6 +70475,13 @@
         "sentence": "This means a simple pilot is very different from a full cafe with eggs, dairy meals, fresh sandwiches, meat, cream cakes, or cooked brunch plates.",
         "contextMeaning": "Here, \"meals\" means different kinds of food served in a full cafe",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Pasta is also very important in Italian meals.",
+        "contextMeaning": "Here, \"meals\" means pasta is important in the food people eat",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -76004,7 +76373,8 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -76145,6 +76515,13 @@
         "sentence": "Learners name one island or place.",
         "contextMeaning": "Here, \"name\" means learners name one island or place",
         "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "[PRACTICE] QUESTION 1: Name three foods from Italy.",
+        "contextMeaning": "Here, \"name\" means say three special words for foods from Italy",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -77445,7 +77822,8 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -77593,6 +77971,13 @@
         "sentence": "New places and old places can both explain Japan.",
         "contextMeaning": "Here, \"new\" means new places and old places can both explain Japan",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "[NEWS STORY] Italy is famous for simple, tasty food.",
+        "contextMeaning": "Here, \"new\" means a recent story about Italy and its food",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -79363,7 +79748,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -79526,6 +79912,13 @@
         "contextMeaning": "Here, \"often\" means people often connect Tokyo with trains",
         "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Why do people often talk about Italy’s history?",
+        "contextMeaning": "Here, \"often\" means many people talk many times about Italy’s history",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
       }
     ]
   },
@@ -79652,7 +80045,8 @@
       "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -79681,6 +80075,13 @@
         "sentence": "Old places help explain history and traditional culture.",
         "contextMeaning": "Here, \"old\" means old places help explain history and traditional culture",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "It is known for good food, famous old places, and a long history.",
+        "contextMeaning": "Here, \"old\" means italy has famous places from a long time ago",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -81335,7 +81736,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -81433,6 +81835,13 @@
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "Later versions added more careful legs, sails, air storage, sensors, and other experiments.",
         "contextMeaning": "Here, \"other\" means more experiments added besides legs, sails, and sensors",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "The city looks different from many other places in Italy.",
+        "contextMeaning": "Here, \"other\" means different places in Italy, not this city",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -82478,7 +82887,8 @@
       "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -82612,6 +83022,13 @@
         "sentence": "An outsider may not feel part of a group.",
         "contextMeaning": "Here, \"part\" means belonging to a group or story",
         "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Ancient Rome was a powerful part of that history.",
+        "contextMeaning": "Here, \"part\" means ancient Rome was one important piece of history",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -82770,7 +83187,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -82805,6 +83223,13 @@
         "episodeId": "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
         "sentence": "Students and hobby builders make smaller models from kits, 3D-printed parts, cardboard, wood, or plastic.",
         "contextMeaning": "Here, \"parts\" means pieces like plastic or wood used to build smaller models",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "QUESTION 4: What are two important parts of Italy’s history?",
+        "contextMeaning": "Here, \"parts\" means two important pieces of Italy’s history",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -83044,7 +83469,8 @@
       "episode-2026-06-03-why-some-objects-become-special",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -83080,6 +83506,13 @@
         "sentence": "It helps you remember your past, plan your future, protect your body, explain your actions, and live with other people.",
         "contextMeaning": "Here, \"past\" means the time before now",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "They also go there for pizza, pasta, and gelato.",
+        "contextMeaning": "Here, \"past\" means the sentence does not use this word",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -84062,7 +84495,8 @@
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -84147,6 +84581,13 @@
         "sentence": "People in this lesson means locals, visitors, learners, or travelers.",
         "contextMeaning": "Here, \"people\" means people in this lesson means locals, visitors, learners, or travelers",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Many people visit Italy to see cities like Rome, Venice, and Florence.",
+        "contextMeaning": "Here, \"people\" means many visitors come to Italy to see cities",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -84639,7 +85080,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -84669,6 +85111,13 @@
         "contextMeaning": "Here, \"period\" means a difficult part of history",
         "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "The Renaissance was a period of new art and ideas.",
+        "contextMeaning": "Here, \"period\" means a time when new art and ideas happened",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
       }
     ]
   },
@@ -84686,7 +85135,8 @@
       "episode-2026-06-10-johann-sebastian-bach-music-architecture",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-gene-edited-pig-kidneys-and-the-future-of-transplants",
-      "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal"
+      "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -84715,6 +85165,13 @@
         "sentence": "Natural weathering happens when rocks react with water and carbon dioxide over long periods.",
         "contextMeaning": "Here, \"periods\" means long times when rocks change with water and gas",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "These two periods are very important when people study Italy.",
+        "contextMeaning": "Here, \"periods\" means two important times when people learn about Italy",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -87805,7 +88262,8 @@
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga"
+      "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -87890,6 +88348,13 @@
         "sentence": "A quiet drama can still feel powerful to readers.",
         "contextMeaning": "Here, \"powerful\" means a quiet drama can still feel powerful to readers",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Ancient Rome was a powerful part of that history.",
+        "contextMeaning": "Here, \"powerful\" means ancient Rome was very strong in history",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -88883,7 +89348,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-classical-music-history-composers"
+      "episode-2026-06-03-classical-music-history-composers",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -88891,6 +89357,13 @@
         "sentence": "Pop music is often connected to the present moment.",
         "contextMeaning": "Here, \"present\" means the time that is happening now",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Italy is a good place to learn about both the past and the present.",
+        "contextMeaning": "Here, \"present\" means italy shows us about now and the past",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -90555,6 +91028,29 @@
         "sentence": "an Australian proprietary limited company, written as Pty Ltd.",
         "contextMeaning": "Here, \"pty ltd company\" means an Australian company type called Pty Ltd",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "public": {
+    "word": "public",
+    "definition": "For all people to use or see",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "The Colosseum is a very old, large building for public events.",
+        "contextMeaning": "Here, \"public\" means the building is for events that everyone can go to",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -100946,6 +101442,29 @@
       }
     ]
   },
+  "sauce": {
+    "word": "sauce",
+    "definition": "A liquid food to add flavor",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "People often eat it with sauce, cheese, or vegetables.",
+        "contextMeaning": "Here, \"sauce\" means food people eat with cheese or vegetables",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "save": {
     "word": "save",
     "definition": "To keep something from loss or danger",
@@ -102605,7 +103124,8 @@
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -102704,6 +103224,13 @@
         "sentence": "Visitors can see both busy and quiet places.",
         "contextMeaning": "Here, \"see\" means visitors can see both busy and quiet places",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Many people visit Italy to see cities like Rome, Venice, and Florence.",
+        "contextMeaning": "Here, \"see\" means people look at cities like Rome, Venice, and Florence",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -108627,7 +109154,8 @@
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-17-mr-ping-pong-and-the-big-jump-rope",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -108656,6 +109184,13 @@
         "sentence": "A sock is small, soft, easy to hide, and easy to forget.",
         "contextMeaning": "Here, \"soft\" means socks are soft, so they can fold and hide easily",
         "source": "codex_manual_rendered_popup_support",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Gelato is soft, cold, sweet dessert.",
+        "contextMeaning": "Here, \"soft\" means gelato is easy to eat and not hard",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -109748,7 +110283,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -109840,6 +110376,13 @@
         "sentence": "Kyoto sounds traditional to many learners.",
         "contextMeaning": "Here, \"sounds\" means kyoto sounds traditional to many learners",
         "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "DISCUSSION 3: Which city sounds more interesting to you, Venice or Florence?",
+        "contextMeaning": "Here, \"sounds\" means which city seems more fun or interesting to you",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -110522,6 +111065,29 @@
         "sentence": "customer care explanation says she \"speaks from her heart\" and is not tied to one language.",
         "contextMeaning": "Here, \"speaks from her heart\" means communicates feelings honestly and warmly",
         "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "special": {
+    "word": "special",
+    "definition": "Different and important or nice",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Venice is a special city with water, canals, and bridges.",
+        "contextMeaning": "Here, \"special\" means venice is a city that is different with water and bridges",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -116486,7 +117052,8 @@
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-23-talking-about-what-people-like-a1",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -116514,6 +117081,13 @@
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "They may say, \"I want something not too strong,\" or \"I want something cold and sweet.\"",
         "contextMeaning": "Here, \"sweet\" means the drink tastes like sugar and is cold",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Gelato is soft, cold, sweet dessert.",
+        "contextMeaning": "Here, \"sweet\" means gelato tastes like sugar and is nice",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -117200,7 +117774,8 @@
       "episode-2026-06-05-shopping-at-a-convenience-store",
       "episode-2026-06-05-shopping-for-clothes",
       "episode-2026-06-10-opening-a-business-abroad-b1",
-      "episode-2026-06-12-listening-to-mrs-green-apple"
+      "episode-2026-06-12-listening-to-mrs-green-apple",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -117235,6 +117810,13 @@
         "episodeId": "episode-2026-06-12-listening-to-mrs-green-apple",
         "sentence": "Practice English for talking about a band, songs, live shows, favorite music, and why a song feels good.",
         "contextMeaning": "Here, \"talking\" means using English to say things about music",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "You will also learn a few useful words for talking about Italy.",
+        "contextMeaning": "Here, \"talking\" means using words to say things about Italy",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -117641,6 +118223,29 @@
         "sentence": "People need food, but people choose different tastes.",
         "contextMeaning": "Here, \"tastes\" means sweet, spicy, simple, or new",
         "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "tasty": {
+    "word": "tasty",
+    "definition": "Food that tastes very good",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Italy is famous for simple, tasty food.",
+        "contextMeaning": "Here, \"tasty\" means food from Italy that tastes very good",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -120370,7 +120975,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn"
+      "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -120483,6 +121089,13 @@
         "sentence": "The lesson is to think like a careful builder.",
         "contextMeaning": "Here, \"think\" means use your mind carefully like someone who builds things",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Warm-up: What foods do you think of when you hear Italy?",
+        "contextMeaning": "Here, \"think\" means what foods do you imagine when you hear Italy",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -120883,7 +121496,8 @@
       "episode-2026-06-10-opening-a-business-abroad-b1",
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -120933,6 +121547,13 @@
         "sentence": "6% of Australians were born overseas, and the Gold Coast says almost one in three residents were born overseas.",
         "contextMeaning": "Here, \"three\" means almost one out of three people on the Gold Coast were born overseas",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "[PRACTICE] QUESTION 1: Name three foods from Italy.",
+        "contextMeaning": "Here, \"three\" means name the number of foods from Italy that is 3",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -121260,7 +121881,8 @@
     "episodes": [
       "episode-2026-06-02-cara-delevingne-says-new-music-was-inspired-by",
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -121282,6 +121904,13 @@
         "sentence": "The first Moomin book appeared after a difficult time in European history.",
         "contextMeaning": "Here, \"time\" means time often points to history or personal experience",
         "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Many people in Italy eat food slowly and enjoy time with family or friends.",
+        "contextMeaning": "Here, \"time\" means moments spent happily with family or friends",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -122460,6 +123089,29 @@
         "episodeId": "episode-2026-06-10-opening-a-business-abroad-b1",
         "sentence": "None of these topics sounds glamorous, but any one of them can break a business if ignored.",
         "contextMeaning": "Here, \"topics\" means important subjects to know for business success",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "toppings": {
+    "word": "toppings",
+    "definition": "Things put on top of food",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Word Help: Pizza is a bread food with toppings.",
+        "contextMeaning": "Here, \"toppings\" means things put on pizza bread",
         "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
@@ -124701,7 +125353,8 @@
       "episode-2026-06-12-listening-to-mrs-green-apple",
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-18-ocean-alkalinity-enhancement-and-the-chemistry-of-carbon-removal",
-      "episode-2026-06-18-sending-video-across-deep-space-with-lasers"
+      "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -124758,6 +125411,13 @@
         "sentence": "[PRACTICE] QUESTION 1: What problem does laser communication try to solve?",
         "contextMeaning": "Here, \"try\" means to make an effort to fix a problem",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Italy is a country in Europe.",
+        "contextMeaning": "Here, \"try\" means the sentence does not use this word",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -125223,7 +125883,8 @@
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
-      "episode-2026-07-02-my-first-trial-lesson"
+      "episode-2026-07-02-my-first-trial-lesson",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -125335,6 +125996,13 @@
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "If you are busy, do not promise two hours every day.",
         "contextMeaning": "Here, \"two\" means do not say you will do two hours every day if busy",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "These two periods are very important when people study Italy.",
+        "contextMeaning": "Here, \"two\" means there are two important times when people study Italy",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -127768,6 +128436,29 @@
       }
     ]
   },
+  "varied": {
+    "word": "varied",
+    "definition": "Different kinds, not all the same",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Venice and Florence show how varied Italy can be.",
+        "contextMeaning": "Here, \"varied\" means italy has many different places and things to see",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "varies": {
     "word": "varies",
     "definition": "Changes or is not always the same",
@@ -129537,7 +130228,8 @@
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
-      "episode-2026-07-02-my-first-trial-lesson"
+      "episode-2026-07-02-my-first-trial-lesson",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -129579,6 +130271,13 @@
         "episodeId": "episode-2026-07-02-my-first-trial-lesson",
         "sentence": "The teacher wants to understand your English.",
         "contextMeaning": "Here, \"want\" means the teacher wishes to know how good your English is",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "DISCUSSION 2: Why do you think many people want to visit Rome?",
+        "contextMeaning": "Here, \"want\" means many people wish to visit the city Rome",
         "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
@@ -130585,7 +131284,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take"
+      "episode-2026-06-02-for-veterans-a-place-where-peace-can-take",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -130593,6 +131293,13 @@
         "sentence": "It may have stones, trees, water, and small paths.",
         "contextMeaning": "Here, \"water\" means the garden may have liquid like a small river",
         "source": "episode-popup-meanings",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "Pasta is food made from flour and water.",
+        "contextMeaning": "Here, \"water\" means one thing used to make pasta food",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -133051,7 +133758,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -133059,6 +133767,13 @@
         "sentence": "In simple words, the DMN is related to the brain's habit of building a personal story: Who am I?",
         "contextMeaning": "Here, \"word\" means one language unit in the technical concept table",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "You will also learn a few useful words for talking about Italy.",
+        "contextMeaning": "Here, \"word\" means you will learn some small parts of language",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
@@ -133075,7 +133790,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-25-how-the-brain-builds-reality",
-      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders"
+      "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
     ],
     "contexts": [
       {
@@ -133090,6 +133806,13 @@
         "sentence": "The vocabulary section gives useful words for speaking.",
         "contextMeaning": "Here, \"words\" means the language learners use to discuss the topic",
         "source": "popup_manual_review/moominvalley_density_repair_2026-06-30",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+        "sentence": "You will also learn a few useful words for talking about Italy.",
+        "contextMeaning": "Here, \"words\" means you will learn some small parts of language",
+        "source": "popup_prebuild_coverage/visible_density_backfill",
         "confidence": "trusted"
       }
     ]
