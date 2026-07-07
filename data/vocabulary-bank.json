@@ -4781,7 +4781,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -4789,6 +4790,13 @@
         "sentence": "Read and perform a fun A2+ story with two roles, clear emotions, apologies, problem-solving language, and a happy ending.",
         "contextMeaning": "Here, \"apologies\" means words in the story that say sorry to others",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In this lesson, apology can mean care for the relationship, not only accepting blame.",
+        "contextMeaning": "Here, \"apologies\" means in this lesson, apology can mean care for the relationship",
+        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -4850,7 +4858,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-03-surprise-cake-mystery"
+      "episode-2026-06-03-surprise-cake-mystery",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -4858,6 +4867,13 @@
         "sentence": "Honest apology: Mina: I am sorry I got angry.",
         "contextMeaning": "Here, \"apology\" means mina says sorry because she got angry",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In this lesson, apology can mean care for the relationship, not only accepting blame.",
+        "contextMeaning": "Here, \"apology\" means in this lesson, apology can mean care for the relationship",
+        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -7704,6 +7720,29 @@
         "sentence": "What could go wrong if a laser beam must hit a receiver millions of miles away?",
         "contextMeaning": "Here, \"away\" means the receiver is very far from the laser beam",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "awkward": {
+    "word": "awkward",
+    "definition": "Uncomfortable in a social situation",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Silence may feel awkward in some conversations.",
+        "contextMeaning": "Here, \"awkward\" means silence may feel awkward in some conversations",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -19663,7 +19702,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -19671,6 +19711,13 @@
         "sentence": "Cherry blossoms show why seasons and place matter in Japan.",
         "contextMeaning": "Here, \"cherry blossoms\" means cherry blossoms show why seasons and place matter in Japan",
         "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Cherry blossoms in spring, summer festivals, red leaves in autumn, and hot foods in winter can all shape how people enjoy the year.",
+        "contextMeaning": "Here, \"cherry blossoms\" means flowers in spring that help people enjoy the year",
+        "source": "popup_prebuild_coverage/context_explain",
         "confidence": "trusted"
       }
     ]
@@ -21980,7 +22027,8 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-24-why-socks-disappear-psychology-science",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -22028,6 +22076,13 @@
       {
         "episodeId": "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
         "sentence": "Seasons also shape food, clothes, travel plans, school life, and public events.",
+        "contextMeaning": "Here, \"clothes\" means things people wear",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Snacks, drinks, packages, clothes, and decorations may change for a short time only.",
         "contextMeaning": "Here, \"clothes\" means things people wear",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -28512,7 +28567,8 @@
       "episode-2026-06-22-italy-one-country-many-local-worlds",
       "episode-2026-06-22-south-korea-fast-cities-and-local-places",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -28555,6 +28611,13 @@
         "sentence": "Mount Fuji is also a cultural image.",
         "contextMeaning": "Here, \"cultural\" means mount Fuji is also a cultural image",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Useful Speaking Patterns Source checks used for factual framing: Japan National Tourism Organization guidance on Japanese manners and omotenashi; Japan-Guide train manners; Tokyo official food/omiyage guidance; Cultural Atlas notes on Japanese communication and core concepts; and intercultural/business research notes on Japanese apology functions.",
+        "contextMeaning": "Here, \"cultural\" means about how people live and think",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -28649,7 +28712,8 @@
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-07-02-seoul-food-places-and-shopping",
       "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
-      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -28725,6 +28789,13 @@
       {
         "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
         "sentence": "UNESCO lists the skill of Neapolitan pizza makers as important culture.",
+        "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Japanese Culture Habits That Can Feel Different Warm-Up Questions 1.",
         "contextMeaning": "Here, \"culture\" means the ideas and way of life of a group",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -28959,6 +29030,29 @@
         "sentence": "The worker greets the customer, listens to the order, checks the size, asks about milk or sugar, takes payment, makes the drink, and gives the drink to the customer.",
         "contextMeaning": "Here, \"customer\" means a person who buys something",
         "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "customer service": {
+    "word": "customer service",
+    "definition": "Help given to customers in shops, hotels, or restaurants",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Japanese customer service is often careful and polite.",
+        "contextMeaning": "Here, \"customer service\" means japanese customer service is often careful and polite",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -30918,7 +31012,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold"
+      "episode-2026-06-18-quantum-error-correction-and-the-willow-threshold",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -30926,6 +31021,13 @@
         "sentence": "They are also frustrating because quantum information is delicate.",
         "contextMeaning": "Here, \"delicate\" means quantum information is easy to hurt or lose",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A delicate situation may need softer words.",
+        "contextMeaning": "Here, \"delicate\" means a delicate situation may need softer words",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -31983,7 +32085,8 @@
       "episode-2026-07-02-seoul-food-places-and-shopping",
       "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
       "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
-      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -32150,6 +32253,13 @@
       {
         "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
         "sentence": "Final Reflection Italy is famous for pizza, pasta, old buildings, and art, but the stronger idea is local detail.",
+        "contextMeaning": "Here, \"detail\" means a small piece of information",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "This attention to detail is one reason many Japanese products and services feel high quality.",
         "contextMeaning": "Here, \"detail\" means a small piece of information",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -32941,7 +33051,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
-      "episode-2026-06-25-how-the-brain-builds-reality"
+      "episode-2026-06-25-how-the-brain-builds-reality",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -32956,6 +33067,13 @@
         "sentence": "Warm-up: When you look around a room, does it feel like you are seeing the world directly?",
         "contextMeaning": "Here, \"direct\" means without a middle step",
         "source": "manual_brain_reality_popup_coverage_repair_20260626",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A direct no can feel too strong in some situations.",
+        "contextMeaning": "Here, \"direct\" means a direct no can feel too strong in some situations",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -39015,7 +39133,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles"
+      "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -39023,6 +39142,13 @@
         "sentence": "The first roof-tile opportunity should be smaller than a full roof project: a cafe entrance, small demonstration roof, decorative wall, restaurant design feature, architect sample display, or collaboration with a licensed Australian roofer.",
         "contextMeaning": "Here, \"entrance\" means the door or way to go into a cafe",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "The entrance can show where to take off shoes.",
+        "contextMeaning": "Here, \"entrance\" means the entrance can show where to take off shoes",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -44712,7 +44838,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -44720,6 +44847,13 @@
         "sentence": "Summer festivals can fill local streets.",
         "contextMeaning": "Here, \"festivals\" means summer festivals can fill local streets",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Cherry blossoms in spring, summer festivals, red leaves in autumn, and hot foods in winter can all shape how people enjoy the year.",
+        "contextMeaning": "Here, \"festivals\" means a special public celebration",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -50301,7 +50435,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-09-sanrio-and-hello-kitty-the-history-of-a-cute-company",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -50314,6 +50449,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "Practice 2: The Gift Decision A traveler wants to buy gifts for family members.",
+        "contextMeaning": "Here, \"gifts\" means something you give to someone",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In this lesson, you will study everyday habits around quietness, indirect speech, shoes, gifts, service, groups, seasons, apologies, and small details.",
         "contextMeaning": "Here, \"gifts\" means something you give to someone",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -52879,7 +53021,8 @@
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-06-30-living-composers-who-may-shape-the-future",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -52951,6 +53094,13 @@
         "contextMeaning": "Here, \"habit\" means daily habits can help explain a place",
         "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "What Japanese habit or custom have you heard about before?",
+        "contextMeaning": "Here, \"habit\" means a usual action you do often",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
       }
     ]
   },
@@ -52972,7 +53122,8 @@
       "episode-2026-06-25-how-the-brain-builds-reality",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
       "episode-2026-07-02-my-first-trial-lesson",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -53029,6 +53180,13 @@
         "sentence": "Daily habits can help explain a place.",
         "contextMeaning": "Here, \"habits\" means daily habits can help explain a place",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Japanese Culture Habits That Can Feel Different Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"habits\" means usual things people do often",
+        "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
       }
     ]
@@ -54019,7 +54177,8 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor"
+      "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -54027,6 +54186,13 @@
         "sentence": "5: Which is more powerful for you in music: melody, rhythm, harmony, or atmosphere?",
         "contextMeaning": "Here, \"harmony\" means one part of music that can feel strong or important",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Wa means social harmony.",
+        "contextMeaning": "Here, \"harmony\" means peaceful balance in a group",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -59315,6 +59481,52 @@
       }
     ]
   },
+  "indirect speech": {
+    "word": "indirect speech",
+    "definition": "Talking without saying something clearly or straight",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In this lesson, you will study everyday habits around quietness, indirect speech, shoes, gifts, service, groups, seasons, apologies, and small details.",
+        "contextMeaning": "Here, \"indirect speech\" means talking in a quiet or not clear way in daily habits",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "indirectly": {
+    "word": "indirectly",
+    "definition": "Not saying something in a clear direct way",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "People may say no indirectly.",
+        "contextMeaning": "Here, \"indirectly\" means people may say no indirectly",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "individuality": {
     "word": "individuality",
     "definition": "Being different and special from others",
@@ -61590,7 +61802,8 @@
       "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-29-school-festival-conversation-a2",
       "episode-2026-07-04-anime-what-it-is-simple-story-types-and-friends-talking-about-favorite-anime",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -61632,6 +61845,13 @@
         "episodeId": "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
         "sentence": "In this lesson, Japan is studied through maps, places, seasons, food, and daily life.",
         "contextMeaning": "Here, \"japan\" means in this lesson, Japan is studied through maps, places, seasons, food, and daily life",
+        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Here, Japan is studied through everyday culture habits, not only famous places.",
+        "contextMeaning": "Here, \"japan\" means japan is studied through everyday culture habits, not only famous places",
         "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
@@ -61696,6 +61916,29 @@
         "sentence": "Japanese food, trains, places, and culture appear in the lesson.",
         "contextMeaning": "Here, \"japanese\" means japanese food, trains, places, and culture appear in the lesson",
         "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "japanese culture": {
+    "word": "japanese culture",
+    "definition": "Habits, values, and ways of living connected with Japan",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "This lesson explains some Japanese culture habits carefully, without saying everyone is the same.",
+        "contextMeaning": "Here, \"japanese culture\" means this lesson explains some Japanese culture habits carefully",
+        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -80766,6 +81009,29 @@
       }
     ]
   },
+  "omiyage": {
+    "word": "omiyage",
+    "definition": "A gift from a trip, often for other people",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Omiyage shows that the traveler thought about family, friends, or coworkers.",
+        "contextMeaning": "Here, \"omiyage\" means omiyage shows that the traveler thought about family, friends, or coworkers",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "on sale": {
     "word": "on sale",
     "definition": "Cheaper than the normal price",
@@ -82461,6 +82727,29 @@
         "sentence": "Otherwise, one partner may say, \"Many people came, so it worked,\" while the other says, \"Not enough people bought twice, so it failed.\"",
         "contextMeaning": "Here, \"otherwise\" means if no agreement, partners will say different things",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "outdoor shoes": {
+    "word": "outdoor shoes",
+    "definition": "Shoes worn outside",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Outdoor shoes are usually removed before entering a home.",
+        "contextMeaning": "Here, \"outdoor shoes\" means outdoor shoes are usually removed before entering a home",
+        "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
     ]
@@ -91578,6 +91867,29 @@
       }
     ]
   },
+  "public manners": {
+    "word": "public manners",
+    "definition": "Behavior that shows respect in shared places",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Quiet train behavior is one example of public manners.",
+        "contextMeaning": "Here, \"public manners\" means quiet train behavior is one example of public manners",
+        "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "public space": {
     "word": "public space",
     "definition": "A place used by many people",
@@ -92352,7 +92664,8 @@
       "episode-2026-07-01-horse-riding-basics-a1",
       "episode-2026-07-02-manga-what-it-is-famous-genre-examples-and-friends-talking-about-favorite-manga",
       "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
-      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2"
+      "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -92514,6 +92827,13 @@
         "sentence": "The paintings from this time can make viewers feel quiet and thoughtful.",
         "contextMeaning": "Here, \"quiet\" means calm and gentle in feeling",
         "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "What public place feels quiet or noisy in your country?",
+        "contextMeaning": "Here, \"quiet\" means making little or no noise",
+        "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
       }
     ]
@@ -95645,7 +95965,8 @@
     "confidence": "trusted",
     "episodes": [
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
-      "episode-2026-07-01-horse-riding-basics-a1"
+      "episode-2026-07-01-horse-riding-basics-a1",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -95660,6 +95981,13 @@
         "sentence": "Horse riding is a sport and a relationship with an animal.",
         "contextMeaning": "Here, \"relationship\" means how you and the horse are friends or work together",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Several habits in this lesson protect the relationship.",
+        "contextMeaning": "Here, \"relationship\" means several habits in this lesson protect the relationship",
+        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -105589,7 +105917,8 @@
       "episode-2026-06-17-renting-a-bike-for-a-short-trip",
       "episode-2026-06-19-australia-business-expansion-cafe-roof-tiles",
       "episode-2026-06-22-table-tennis-game-and-great-players",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -105623,6 +105952,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "A local snack can be shared with family.",
+        "contextMeaning": "Here, \"shared\" means used by more than one",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "People may still talk softly with friends, but the public space is shared, so voices are often lower.",
         "contextMeaning": "Here, \"shared\" means used by more than one",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -106101,6 +106437,29 @@
       }
     ]
   },
+  "shoes indoors": {
+    "word": "shoes indoors",
+    "definition": "Wearing outdoor shoes inside a building",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "This matters because many Japanese homes separate outside shoes from clean indoor space.",
+        "contextMeaning": "Here, \"shoes indoors\" means this matters because many Japanese homes separate outside shoes from clean indoor s",
+        "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "shop": {
     "word": "shop",
     "definition": "To buy things in a store or online",
@@ -106123,7 +106482,8 @@
       "episode-2026-06-29-important-questions-for-real-life-a1",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -106206,6 +106566,13 @@
       {
         "episodeId": "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
         "sentence": "Useful Topic Vocabulary island country - a country made of one or more islands East Asia - the eastern part of Asia mountain - very high land cherry blossom - a pink or white spring flower on cherry trees temple - a religious building shrine - a Japanese religious place high-speed train - a very fast train convenience store - a small shop open for daily needs respectful - showing care for people and places detail - a small part that helps you understand something",
+        "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A shop may prepare the bag carefully.",
         "contextMeaning": "Here, \"shop\" means to buy things in a store or online",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -106324,7 +106691,8 @@
       "episode-2026-06-23-talking-about-what-people-like-a1",
       "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
       "episode-2026-07-02-seoul-food-places-and-shopping",
-      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life"
+      "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -106386,6 +106754,13 @@
       {
         "episodeId": "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
         "sentence": "Many people connect Tokyo with trains, tall buildings, busy stations, shops, offices, restaurants, and pop culture.",
+        "contextMeaning": "Here, \"shops\" means a place where you buy things",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Seasonal culture also appears in shops.",
         "contextMeaning": "Here, \"shops\" means a place where you buy things",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -107336,7 +107711,8 @@
       "episode-2026-06-10-meditation-and-the-social-brain-b1",
       "episode-2026-06-18-sending-video-across-deep-space-with-lasers",
       "episode-2026-06-23-talking-about-what-people-like-a1",
-      "episode-2026-06-30-living-composers-who-may-shape-the-future"
+      "episode-2026-06-30-living-composers-who-may-shape-the-future",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -107365,6 +107741,13 @@
         "sentence": "But if the score changes how other composers think about sound, tension, or silence, then it may become part of a longer musical conversation.",
         "contextMeaning": "Here, \"silence\" means silence is part of musical thinking, not just empty space",
         "source": "living_composers_popup_density_repair_2026_07_01",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In this lesson, silence can show respect, thinking, or careful communication.",
+        "contextMeaning": "Here, \"silence\" means in this lesson, silence can show respect, thinking, or careful communication",
+        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -109074,6 +109457,29 @@
       }
     ]
   },
+  "small details": {
+    "word": "small details",
+    "definition": "Little things that are easy to miss but are important",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In this lesson, you will study everyday habits around quietness, indirect speech, shoes, gifts, service, groups, seasons, apologies, and small details.",
+        "contextMeaning": "Here, \"small details\" means little habits and things people do every day",
+        "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "small record": {
     "word": "small record",
     "definition": "One easy fact about something special",
@@ -109383,7 +109789,8 @@
       "episode-2026-06-03-classical-music-history-composers",
       "episode-2026-06-24-from-better-chat-to-ai-systems-that-do-work",
       "episode-2026-06-29-tennis-small-court-big-choices",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -109410,6 +109817,13 @@
       {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "It is usually smooth and mild.",
+        "contextMeaning": "Here, \"smooth\" means soft and even, without rough pieces",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A strong opinion may be easier to share after listening, reading the room, and keeping the relationship smooth.",
         "contextMeaning": "Here, \"smooth\" means soft and even, without rough pieces",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -110625,7 +111039,8 @@
       "episode-2026-06-10-choosing-something-fun-to-do-with-friends-a1",
       "episode-2026-06-17-checking-in-at-a-hotel",
       "episode-2026-06-29-important-questions-for-real-life-a1",
-      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe"
+      "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -110666,6 +111081,13 @@
       {
         "episodeId": "episode-2026-07-02-cafe-coffee-and-working-at-a-cafe",
         "sentence": "The worker can say, \"I am sorry.",
+        "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Apologizing Can Smooth the Relationship In Japan, people may say sorry to keep a relationship smooth, even when the problem is not fully their fault.",
         "contextMeaning": "Here, \"sorry\" means a polite word when something is wrong or not possible",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -111122,13 +111544,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "a vacation object that holds a memory",
         "contextMeaning": "Here, \"souvenir\" means a vacation object that holds a memory",
+        "source": "authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A souvenir can be for yourself.",
+        "contextMeaning": "Here, \"souvenir\" means a souvenir can be for yourself",
         "source": "authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -111145,13 +111575,21 @@
     "source": "shared-bank",
     "confidence": "trusted",
     "episodes": [
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "a vacation object that holds a memory",
         "contextMeaning": "Here, \"souvenirs\" means a vacation object that holds a memory",
+        "source": "popup_support_router/authored_reading_vocabulary",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A souvenir can be for yourself.",
+        "contextMeaning": "Here, \"souvenirs\" means a souvenir can be for yourself",
         "source": "popup_support_router/authored_reading_vocabulary",
         "confidence": "trusted"
       }
@@ -113611,6 +114049,29 @@
         "sentence": "Explain a first riding lesson in five small steps.",
         "contextMeaning": "Here, \"steps\" means small actions to explain how to have a first riding lesson",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "stereotype": {
+    "word": "stereotype",
+    "definition": "An over-simple idea about a group of people",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "The lesson avoids stereotypes by using careful words like often, may, and can.",
+        "contextMeaning": "Here, \"stereotype\" means the lesson avoids stereotypes by using careful words like often, may, and can",
+        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -117314,7 +117775,8 @@
     "episodes": [
       "episode-2026-06-14-igor-stravinsky-russian-composer-and-conductor",
       "episode-2026-06-14-piano-stairs-fun-can-change-behavior",
-      "episode-2026-06-24-why-socks-disappear-psychology-science"
+      "episode-2026-06-24-why-socks-disappear-psychology-science",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -117334,6 +117796,13 @@
       {
         "episodeId": "episode-2026-06-24-why-socks-disappear-psychology-science",
         "sentence": "That is why a boring routine can produce a surprising mistake.",
+        "contextMeaning": "Here, \"surprising\" means not expected",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Introduction Japan can feel familiar and surprising at the same time.",
         "contextMeaning": "Here, \"surprising\" means not expected",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -120567,6 +121036,29 @@
       }
     ]
   },
+  "that might be difficult": {
+    "word": "that might be difficult",
+    "definition": "A soft phrase that can sometimes mean no",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In a Japanese setting, this phrase may be a polite refusal, depending on context.",
+        "contextMeaning": "Here, \"that might be difficult\" means in a Japanese setting, this phrase may be a polite refusal",
+        "source": "authored_reading_popup_dictionary",
+        "confidence": "trusted"
+      }
+    ]
+  },
   "that's": {
     "word": "that's",
     "definition": "Short for 'that is', showing something is right",
@@ -123522,7 +124014,8 @@
       "episode-2026-06-18-asteroid-bennu-and-the-chemistry-before-life",
       "episode-2026-06-19-ai-agent-swarms-and-work-in-2035",
       "episode-2026-06-25-the-leverage-principle-why-small-actions-create-big-results",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -123556,6 +124049,13 @@
       {
         "episodeId": "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
         "sentence": "It is also a memory tool.",
+        "contextMeaning": "Here, \"tool\" means something that helps you do something",
+        "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "In Japan, an apology can be a social tool for repair, trust, and care.",
         "contextMeaning": "Here, \"tool\" means something that helps you do something",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
@@ -128121,7 +128621,8 @@
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
       "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
       "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
-      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -128512,6 +129013,13 @@
       {
         "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
         "sentence": "The useful question is not only about national food.",
+        "contextMeaning": "Here, \"useful\" means helpful for a purpose",
+        "source": "popup_support_router/teaching_lexicon_trusted",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A useful listening question is: Is this person really agreeing, or are they gently refusing?",
         "contextMeaning": "Here, \"useful\" means helpful for a purpose",
         "source": "popup_support_router/teaching_lexicon_trusted",
         "confidence": "trusted"
@@ -129886,7 +130394,8 @@
     "episodes": [
       "episode-2026-06-17-getting-a-library-card",
       "episode-2026-06-22-south-korea-fast-cities-and-local-places",
-      "episode-2026-06-30-why-people-buy-useless-things-on-vacation"
+      "episode-2026-06-30-why-people-buy-useless-things-on-vacation",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -129909,6 +130418,13 @@
         "contextMeaning": "Here, \"visitor\" means a person who comes to a place",
         "source": "popup_support_router/producer_context_rule",
         "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A respectful visitor watches local habits before judging.",
+        "contextMeaning": "Here, \"visitor\" means a respectful visitor watches local habits before judging",
+        "source": "popup_support_router/authored_reading_popup_dictionary",
+        "confidence": "trusted"
       }
     ]
   },
@@ -129925,7 +130441,8 @@
     "episodes": [
       "episode-2026-06-29-sesame-street-a-street-that-changed-children-s-tv",
       "episode-2026-06-30-moominvalley-tove-jansson-and-a-world-for-outsiders",
-      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -129947,6 +130464,13 @@
         "sentence": "Places like the Grand Canal and the Rialto Bridge help visitors understand why Venice feels different.",
         "contextMeaning": "Here, \"visitors\" means a person who comes to a place",
         "source": "popup_support_router/producer_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "A respectful visitor watches local habits before judging.",
+        "contextMeaning": "Here, \"visitors\" means a respectful visitor watches local habits before judging",
+        "source": "popup_support_router/authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -130418,6 +130942,29 @@
         "sentence": "A desperate patient can be vulnerable to exaggerated promises.",
         "contextMeaning": "Here, \"vulnerable\" means a sick person who can be easily tricked or hurt",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "wa": {
+    "word": "wa",
+    "definition": "A Japanese idea often translated as harmony",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Wa helps explain why group balance can matter in communication.",
+        "contextMeaning": "Here, \"wa\" means wa helps explain why group balance can matter in communication",
+        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
@@ -131243,7 +131790,8 @@
       "episode-2026-07-03-theo-jansen-strandbeest-structure-logic-creator-history-and-what-builders-learn",
       "episode-2026-07-04-japan-culture-places-seasons-and-daily-life",
       "episode-2026-07-04-pablo-picasso-art-cubism-and-guernica-a2",
-      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history"
+      "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
     ],
     "contexts": [
       {
@@ -131599,6 +132147,13 @@
       {
         "episodeId": "episode-2026-07-06-factory-light-test-italy-food-famous-places-and-history",
         "sentence": "Italy: Food, Famous Places, and History Warm-Up Questions 1.",
+        "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
+        "source": "popup_support_router/trusted_popup_context_rule",
+        "confidence": "trusted"
+      },
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "Japanese Culture Habits That Can Feel Different Warm-Up Questions 1.",
         "contextMeaning": "Here, \"warm-up questions\" means simple questions that help learners start thinking",
         "source": "popup_support_router/trusted_popup_context_rule",
         "confidence": "trusted"
@@ -133060,6 +133615,29 @@
         "sentence": "Today, he is seen as one of the greatest composers in Western music history, especially as a master of the Baroque period.",
         "contextMeaning": "Here, \"western\" means music from countries in the west",
         "source": "popup_prebuild_coverage/context_explain",
+        "confidence": "trusted"
+      }
+    ]
+  },
+  "western countries": {
+    "word": "western countries",
+    "definition": "Countries often connected with Europe",
+    "cefrLevel": "A2",
+    "partOfSpeech": "",
+    "phonetic": "",
+    "exampleGeneral": "",
+    "relatedWords": [],
+    "source": "shared-bank",
+    "confidence": "trusted",
+    "episodes": [
+      "episode-2026-07-07-japanese-culture-habits-that-can-feel-different"
+    ],
+    "contexts": [
+      {
+        "episodeId": "episode-2026-07-07-japanese-culture-habits-that-can-feel-different",
+        "sentence": "The lesson uses this phrase carefully because Western countries are not all the same.",
+        "contextMeaning": "Here, \"western countries\" means the lesson uses this phrase carefully because Western countries are not all",
+        "source": "authored_reading_popup_dictionary",
         "confidence": "trusted"
       }
     ]
