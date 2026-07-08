@@ -1,0 +1,40 @@
+{
+  "name": "Ovi English School",
+  "short_name": "Ovi English",
+  "description": "Free English lessons with story-based audio, transcripts, vocabulary, and quizzes.",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fff7f2",
+  "theme_color": "#f6f2ea",
+  "lang": "en",
+  "categories": ["education", "language", "podcasts"],
+  "icons": [
+    {
+      "src": "/icons/ovi-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/ovi-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/ovi-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Find Lessons",
+      "short_name": "Find",
+      "description": "Browse all English lessons.",
+      "url": "/episodes/"
+    }
+  ]
+}
