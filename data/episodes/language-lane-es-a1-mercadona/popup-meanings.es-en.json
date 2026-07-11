@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "ovi_v2_popup_pair_sidecar_v1",
+  "targetLanguage": "es",
+  "supportLanguage": "en",
+  "interactionMode": "tap_word",
+  "entries": {
+    "plátanos": {
+      "simpleMeaning": "bananas",
+      "example": "Busco plátanos.",
+      "sentence": "Primero, la persona busca plátanos y manzanas.",
+      "source": "guarded_human_es_en_v1"
+    },
+    "caja": {
+      "simpleMeaning": "checkout",
+      "example": "Pago en la caja.",
+      "sentence": "En la caja dice: Con tarjeta, por favor.",
+      "source": "guarded_human_es_en_v1"
+    },
+    "recibo": {
+      "simpleMeaning": "receipt",
+      "example": "Aquí tiene el recibo.",
+      "sentence": "La cajera entrega el recibo.",
+      "source": "guarded_human_es_en_v1"
+    }
+  }
+}
