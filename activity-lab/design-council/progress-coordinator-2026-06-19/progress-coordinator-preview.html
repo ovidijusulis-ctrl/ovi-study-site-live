@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Progress Coordinator Preview | Ovi Design Council</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #10283a;
+        --muted: #5e7280;
+        --paper: #f5f1e8;
+        --panel: #ffffff;
+        --line: rgba(16, 40, 58, 0.14);
+        --line-strong: rgba(16, 40, 58, 0.26);
+        --navy: #112b44;
+        --teal: #0d8d80;
+        --teal-soft: #e5f5f0;
+        --amber: #b86614;
+        --amber-soft: #fff3df;
+        --red: #b53631;
+        --red-soft: #fff0ed;
+        --blue-soft: #eaf3ff;
+        --shadow: 0 18px 50px rgba(17, 43, 68, 0.12);
+        --radius: 8px;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: var(--radius);
+      }
+
+      button {
+        font: inherit;
+      }
+
+      .hero {
+        background:
+          linear-gradient(90deg, rgba(17, 43, 68, 0.97), rgba(17, 43, 68, 0.84) 52%, rgba(17, 43, 68, 0.48)),
+          url("assets/current-desktop-lab-full.png") center top / cover;
+        color: #ffffff;
+      }
+
+      .hero-inner,
+      .section-inner,
+      .foot {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .hero-inner {
+        min-height: 540px;
+        display: grid;
+        align-content: end;
+        padding: 34px 0 46px;
+      }
+
+      .eyebrow,
+      .label {
+        margin: 0;
+        color: var(--teal);
+        font-size: 0.76rem;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .hero .eyebrow {
+        color: #99f0df;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        width: min(920px, 100%);
+        margin-bottom: 16px;
+        font-size: clamp(2.5rem, 7vw, 5.8rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .hero-copy {
+        width: min(760px, 100%);
+        margin-bottom: 22px;
+        color: rgba(255, 255, 255, 0.86);
+        font-size: clamp(1rem, 2vw, 1.25rem);
+        line-height: 1.55;
+      }
+
+      .hero-metrics,
+      .recommendation-grid,
+      .direction-grid,
+      .evidence-grid,
+      .gate-grid,
+      .decision-grid {
+        display: grid;
+        gap: 14px;
+      }
+
+      .hero-metrics {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .metric {
+        min-width: 0;
+        padding: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+      }
+
+      .metric strong {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 1.42rem;
+        line-height: 1;
+      }
+
+      .metric span {
+        color: rgba(255, 255, 255, 0.76);
+        font-size: 0.88rem;
+        line-height: 1.35;
+      }
+
+      main {
+        padding: 32px 0 60px;
+      }
+
+      section + section {
+        margin-top: 30px;
+      }
+
+      .section-head {
+        display: flex;
+        gap: 18px;
+        align-items: end;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+
+      .section-head h2 {
+        margin: 4px 0 0;
+        font-size: clamp(1.5rem, 3vw, 2.15rem);
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        max-width: 710px;
+        margin-bottom: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .panel,
+      .shot,
+      .decision-card,
+      .gate-card {
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .panel.pad,
+      .decision-card,
+      .gate-card {
+        padding: 20px;
+      }
+
+      .recommendation-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+
+      .panel h3,
+      .gate-card h3,
+      .decision-card h3 {
+        margin: 5px 0 10px;
+        font-size: 1.1rem;
+        letter-spacing: 0;
+      }
+
+      .panel p,
+      .gate-card p,
+      .decision-card p {
+        color: var(--muted);
+        line-height: 1.52;
+      }
+
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        align-items: center;
+      }
+
+      .pill {
+        display: inline-flex;
+        min-height: 30px;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: #ffffff;
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 800;
+        white-space: nowrap;
+      }
+
+      .pill.good {
+        border-color: rgba(13, 141, 128, 0.28);
+        background: var(--teal-soft);
+        color: #057365;
+      }
+
+      .pill.wait {
+        border-color: rgba(184, 102, 20, 0.32);
+        background: var(--amber-soft);
+        color: var(--amber);
+      }
+
+      .pill.stop {
+        border-color: rgba(181, 54, 49, 0.28);
+        background: var(--red-soft);
+        color: var(--red);
+      }
+
+      .check-list {
+        display: grid;
+        gap: 10px;
+        margin: 16px 0 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .check-list li {
+        display: grid;
+        grid-template-columns: 24px minmax(0, 1fr);
+        gap: 10px;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .mark {
+        display: inline-flex;
+        width: 24px;
+        height: 24px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 999px;
+        background: var(--teal-soft);
+        color: var(--teal);
+        font-size: 0.78rem;
+        font-weight: 900;
+      }
+
+      .mark.wait {
+        background: var(--amber-soft);
+        color: var(--amber);
+      }
+
+      .mark.stop {
+        background: var(--red-soft);
+        color: var(--red);
+      }
+
+      .direction-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .shot {
+        overflow: hidden;
+      }
+
+      .shot img {
+        border-radius: 0;
+      }
+
+      .shot figcaption {
+        display: grid;
+        gap: 6px;
+        padding: 13px 14px 15px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.38;
+      }
+
+      .shot b {
+        color: var(--ink);
+      }
+
+      .evidence-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .evidence-grid .wide {
+        grid-column: 1 / -1;
+      }
+
+      .gate-grid {
+        grid-template-columns: 0.9fr 1.1fr;
+      }
+
+      .gate-table {
+        width: 100%;
+        border-collapse: collapse;
+        overflow: hidden;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: #ffffff;
+      }
+
+      .gate-table th,
+      .gate-table td {
+        padding: 12px 13px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+        font-size: 0.93rem;
+        line-height: 1.35;
+      }
+
+      .gate-table th {
+        color: var(--muted);
+        font-size: 0.76rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .gate-table tr:last-child td {
+        border-bottom: 0;
+      }
+
+      .gate-table strong {
+        color: var(--ink);
+      }
+
+      .decision-grid {
+        grid-template-columns: 1fr 1fr;
+        align-items: stretch;
+      }
+
+      .decision-controls {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 16px;
+      }
+
+      .decision-button {
+        min-height: 48px;
+        border: 1px solid var(--line-strong);
+        border-radius: var(--radius);
+        background: #ffffff;
+        color: var(--ink);
+        font-weight: 900;
+        cursor: pointer;
+      }
+
+      .decision-button:hover,
+      .decision-button:focus-visible {
+        border-color: var(--teal);
+        outline: 3px solid rgba(13, 141, 128, 0.2);
+      }
+
+      .decision-button.selected {
+        border-color: var(--teal);
+        background: var(--teal);
+        color: #ffffff;
+      }
+
+      .decision-button.wait.selected {
+        border-color: var(--amber);
+        background: var(--amber);
+      }
+
+      .decision-button.stop.selected {
+        border-color: var(--red);
+        background: var(--red);
+      }
+
+      .decision-output {
+        min-height: 94px;
+        margin-top: 14px;
+        padding: 14px;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--blue-soft);
+        color: var(--ink);
+        line-height: 1.5;
+      }
+
+      .note-box {
+        margin-top: 14px;
+        padding: 14px;
+        border: 1px solid rgba(184, 102, 20, 0.28);
+        border-radius: var(--radius);
+        background: var(--amber-soft);
+        color: #704009;
+        line-height: 1.48;
+      }
+
+      .foot {
+        margin-top: 34px;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.9rem;
+        line-height: 1.5;
+      }
+
+      code {
+        overflow-wrap: anywhere;
+      }
+
+      @media (max-width: 920px) {
+        .hero {
+          background:
+            linear-gradient(180deg, rgba(17, 43, 68, 0.98), rgba(17, 43, 68, 0.78)),
+            url("assets/current-mobile-lab-bottom.png") center top / cover;
+        }
+
+        .hero-metrics,
+        .recommendation-grid,
+        .direction-grid,
+        .evidence-grid,
+        .gate-grid,
+        .decision-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .hero-inner {
+          min-height: 570px;
+        }
+
+        .section-head {
+          display: block;
+        }
+      }
+
+      @media (max-width: 520px) {
+        .hero-inner,
+        .section-inner,
+        .foot {
+          width: min(100% - 22px, 1180px);
+        }
+
+        .hero-inner {
+          min-height: 620px;
+          padding-bottom: 28px;
+        }
+
+        h1 {
+          font-size: clamp(2.25rem, 13vw, 3.65rem);
+        }
+
+        .decision-controls {
+          grid-template-columns: 1fr;
+        }
+
+        .gate-table th,
+        .gate-table td {
+          padding: 10px 9px;
+          font-size: 0.84rem;
+        }
+
+        .panel.pad,
+        .decision-card,
+        .gate-card {
+          padding: 16px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Ovi Design Council preview mode</p>
+        <h1>Progress Coordinator Lesson Bridge</h1>
+        <p class="hero-copy">
+          Keep the first-party transport proof, but wait before adding visible duplicate-submit or stale-tab
+          feedback to production lessons.
+        </p>
+        <div class="hero-metrics" aria-label="Progress coordinator preview metrics">
+          <div class="metric">
+            <strong>87/100</strong>
+            <span>review packet score</span>
+          </div>
+          <div class="metric">
+            <strong>2</strong>
+            <span>received progress hints</span>
+          </div>
+          <div class="metric">
+            <strong>2</strong>
+            <span>duplicate events detected</span>
+          </div>
+          <div class="metric">
+            <strong>0</strong>
+            <span>learner or mastery writes</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section aria-labelledby="recommendation">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Council synthesis</p>
+              <h2 id="recommendation">Keep the proof, wait on visible behavior</h2>
+            </div>
+            <p>
+              This is a coordination layer, not a new source of truth. The preview keeps the current native proof
+              and asks whether the next step should be a visible learner feedback experiment.
+            </p>
+          </div>
+
+          <div class="recommendation-grid">
+            <article class="panel pad">
+              <div class="pill-row">
+                <span class="pill good">Keep</span>
+                <span class="pill">first-party</span>
+              </div>
+              <h3>Use native browser transport</h3>
+              <p>
+                BroadcastChannel and Web Locks already prove the common tab-sync shape without a new dependency.
+              </p>
+              <ul class="check-list">
+                <li><span class="mark">OK</span><span>Event IDs dedupe repeat progress hints.</span></li>
+                <li><span class="mark">OK</span><span>Web Locks keeps one sync owner at a time.</span></li>
+                <li><span class="mark">OK</span><span>Unsupported fallback stays safe and non-writing.</span></li>
+              </ul>
+            </article>
+
+            <article class="panel pad">
+              <div class="pill-row">
+                <span class="pill wait">Wait</span>
+                <span class="pill">visible feedback</span>
+              </div>
+              <h3>Do not promote the UI yet</h3>
+              <p>
+                The hidden bridge is ready for owner review. A production lesson should only show duplicate or stale-tab
+                messages after exact copy, focus, and failure states are proven.
+              </p>
+              <ul class="check-list">
+                <li><span class="mark wait">1</span><span>Choose one exact visible behavior: duplicate-submit or stale-tab.</span></li>
+                <li><span class="mark wait">2</span><span>Prove desktop and mobile route behavior in a hidden variant.</span></li>
+                <li><span class="mark wait">3</span><span>Keep event IDs plus storage/API validation as durable truth.</span></li>
+              </ul>
+            </article>
+
+            <article class="panel pad">
+              <div class="pill-row">
+                <span class="pill stop">Do not change</span>
+                <span class="pill">mastery truth</span>
+              </div>
+              <h3>Protect evidence boundaries</h3>
+              <p>
+                The coordinator can hint and dedupe. It must not become learner evidence, mastery evidence, or a
+                hidden production write path.
+              </p>
+              <ul class="check-list">
+                <li><span class="mark stop">NO</span><span>No learner evidence writes.</span></li>
+                <li><span class="mark stop">NO</span><span>No mastery writes.</span></li>
+                <li><span class="mark stop">NO</span><span>No third-party sync dependency promotion.</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="directions">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">GPT Image 2 recursive directions</p>
+              <h2 id="directions">Three routes to judge</h2>
+            </div>
+            <p>
+              These generated mocks explore the future shape. They are not implementation proof and did not change
+              the live lesson.
+            </p>
+          </div>
+
+          <div class="direction-grid">
+            <figure class="shot">
+              <img
+                src="assets/gpt-image-2-learner-duplicate-feedback.png"
+                alt="Generated learner-facing lesson mock with saved-from-this-tab and duplicate-answer-ignored feedback."
+              />
+              <figcaption>
+                <b>A. Learner Duplicate Feedback</b>
+                <span>Best if we want visible production feedback for duplicate answer handling inside the lesson.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/gpt-image-2-owner-proof-gate.png"
+                alt="Generated owner proof gate mock for Progress Coordinator evidence and decision controls."
+              />
+              <figcaption>
+                <b>B. Owner Proof Gate</b>
+                <span>Best current keep-wait direction: readable proof, clear owner choice, safe-to-publish false.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/gpt-image-2-stale-tab-sync-recovery.png"
+                alt="Generated stale-tab and sync-owner recovery mock for an Ovi lesson progress flow."
+              />
+              <figcaption>
+                <b>C. Stale-Tab Recovery</b>
+                <span>Best future learner safety pattern if real stale-tab confusion appears in class or practice.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="evidence">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Current visual proof</p>
+              <h2 id="evidence">Full pages and bottom states captured</h2>
+            </div>
+            <p>
+              Evidence includes the current lab after broadcast/duplicate/lock actions, the hidden bridge, the real
+              convenience-store lesson surface, and bottom screenshots.
+            </p>
+          </div>
+
+          <div class="evidence-grid">
+            <figure class="shot wide">
+              <img
+                src="assets/current-desktop-lab-full.png"
+                alt="Full desktop screenshot of the current Progress Coordinator lab after proof actions."
+              />
+              <figcaption>
+                <b>Current Progress Coordinator lab, full desktop</b>
+                <span>Broadcast available, Web Locks available, received 2, duplicates 2, max concurrent owner 1.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/current-desktop-lab-status.png"
+                alt="Screenshot of the current Progress Coordinator status panel."
+              />
+              <figcaption>
+                <b>Current lab status</b>
+                <span>Policy remains transport-only with no learner or mastery writes.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/current-desktop-lab-lock-proof.png"
+                alt="Screenshot of the current Progress Coordinator Web Locks proof panel."
+              />
+              <figcaption>
+                <b>Current lock proof</b>
+                <span>While held is denied, after release is granted, max concurrent owner is 1.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/current-mobile-lab-bottom.png"
+                alt="Mobile bottom screenshot of the current Progress Coordinator lab."
+              />
+              <figcaption>
+                <b>Current lab, mobile bottom</b>
+                <span>Bottom state captured so the proof is not only top-of-page.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot wide">
+              <img
+                src="assets/current-desktop-bridge-full.png"
+                alt="Full desktop screenshot of the current hidden Progress Coordinator lesson bridge."
+              />
+              <figcaption>
+                <b>Hidden lesson bridge, full desktop</b>
+                <span>Exact route bridge is ready, transport-only, learner evidence false, mastery false.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/current-mobile-bridge-full.png"
+                alt="Full mobile screenshot of the hidden Progress Coordinator lesson bridge."
+              />
+              <figcaption>
+                <b>Hidden lesson bridge, mobile full</b>
+                <span>The access key is stripped after load and the route remains noindex owner proof.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/current-mobile-bridge-bottom.png"
+                alt="Mobile bottom screenshot of the hidden Progress Coordinator lesson bridge."
+              />
+              <figcaption>
+                <b>Hidden lesson bridge, mobile bottom</b>
+                <span>Bottom captured with embedded lesson shell still visible and no private payload shown.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot wide">
+              <img
+                src="assets/current-desktop-lesson-full.png"
+                alt="Full desktop screenshot of the current convenience-store lesson with study checks visible."
+              />
+              <figcaption>
+                <b>Convenience-store lesson, full desktop</b>
+                <span>Real lesson surface used by the bridge. 3 images loaded, 0 broken images, learning-check choice visible.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/current-mobile-lesson-full.png"
+                alt="Full mobile screenshot of the convenience-store lesson surface."
+              />
+              <figcaption>
+                <b>Convenience-store lesson, mobile full</b>
+                <span>Full learner page captured, including study checks, article flow, roleplay, vocab, and bottom sections.</span>
+              </figcaption>
+            </figure>
+
+            <figure class="shot">
+              <img
+                src="assets/current-mobile-lesson-bottom.png"
+                alt="Mobile bottom screenshot of the convenience-store lesson resources and next lesson."
+              />
+              <figcaption>
+                <b>Convenience-store lesson, mobile bottom</b>
+                <span>Resources and next-lesson bottom states captured for the whole learner flow.</span>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="gate">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Acceptance gate</p>
+              <h2 id="gate">What must be true before production</h2>
+            </div>
+            <p>
+              The coordinator can move forward only as a hidden owner-reviewed variant until the copy, focus behavior,
+              and evidence boundaries are proven on one exact route.
+            </p>
+          </div>
+
+          <div class="gate-grid">
+            <article class="gate-card">
+              <div class="pill-row">
+                <span class="pill good">Owner proof ready</span>
+                <span class="pill wait">Not promoted</span>
+              </div>
+              <h3>Current state</h3>
+              <p>
+                The current hidden bridge proves the exact lesson-learning-check surface on
+                <code>/episodes/2026-06-05-shopping-at-a-convenience-store/</code>.
+              </p>
+              <div class="note-box">
+                Recommended decision: keep-wait. Keep the first-party coordinator and owner proof gate, but wait
+                before adding visible duplicate-submit or stale-tab messages to production.
+              </div>
+            </article>
+
+            <article class="gate-card">
+              <table class="gate-table" aria-label="Progress Coordinator acceptance checks">
+                <thead>
+                  <tr>
+                    <th>Check</th>
+                    <th>Evidence</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>Broadcast hint</strong></td>
+                    <td>Received 2 progress hints across tabs</td>
+                    <td><span class="pill good">Pass</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Duplicate event ID</strong></td>
+                    <td>2 duplicate events detected and deduped</td>
+                    <td><span class="pill good">Pass</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Web Locks owner</strong></td>
+                    <td>Denied while held, granted after release, max concurrent 1</td>
+                    <td><span class="pill good">Pass</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Evidence boundary</strong></td>
+                    <td>Learner evidence false, mastery writes false, private fields stripped</td>
+                    <td><span class="pill good">Pass</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Visible lesson feedback</strong></td>
+                    <td>Needs owner-reviewed visible-feedback proof before production</td>
+                    <td><span class="pill wait">Wait</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Production integration</strong></td>
+                    <td>No live route or production UI change from preview mode</td>
+                    <td><span class="pill wait">Hold</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="decision">
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Owner decision</p>
+              <h2 id="decision">Choose what to do with this preview</h2>
+            </div>
+            <p>
+              These controls store only a browser-local preview decision. They do not publish, write progress, or
+              change the production lesson.
+            </p>
+          </div>
+
+          <div class="decision-grid">
+            <article class="decision-card">
+              <div class="pill-row">
+                <span class="pill good">Recommended</span>
+                <span class="pill wait">Keep-wait</span>
+              </div>
+              <h3>Decision controls</h3>
+              <p>
+                Use these to decide whether the direction should continue into an owner-reviewed visible-feedback proof.
+              </p>
+              <div class="decision-controls" data-decision-controls>
+                <button class="decision-button" type="button" data-choice="keep" data-decision="keep">
+                  Keep direction
+                </button>
+                <button class="decision-button wait" type="button" data-choice="wait" data-decision="wait">
+                  Wait for visible proof
+                </button>
+                <button class="decision-button stop" type="button" data-choice="revise" data-decision="no">
+                  No / revise
+                </button>
+                <button class="decision-button" type="button" data-choice="clear" data-decision="clear">
+                  Clear decision
+                </button>
+              </div>
+              <div class="decision-output" data-decision-output aria-live="polite">
+                No decision selected yet.
+              </div>
+            </article>
+
+            <article class="decision-card">
+              <div class="pill-row">
+                <span class="pill">Preview-only</span>
+                <span class="pill">No live writes</span>
+              </div>
+              <h3>Boundary</h3>
+              <p>
+                This preview changed no live route, learner-visible production UI, owner data, learner state,
+                account state, dependencies, model route, TTS route, image baseline, publish workflow, output
+                contract, learner evidence, or mastery writes.
+              </p>
+              <ul class="check-list">
+                <li><span class="mark">OK</span><span>GPT Image 2 was used for design direction only.</span></li>
+                <li><span class="mark">OK</span><span>Current proof uses local tests, build, and browser screenshots.</span></li>
+                <li><span class="mark wait">NEXT</span><span>If kept, prove one visible feedback variant before production.</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      Preview artifact: Progress Coordinator lesson bridge, generated 2026-06-19. Source evidence:
+      <code>output/playwright/design-progress-coordinator-current-2026-06-19/summary.json</code>.
+    </footer>
+
+    <script>
+      (() => {
+        const key = "ovi:progress-coordinator-preview-decision";
+        const controls = document.querySelector("[data-decision-controls]");
+        const output = document.querySelector("[data-decision-output]");
+        const labels = {
+          keep:
+            "Decision saved: keep the Progress Coordinator proof direction for an owner-reviewed visible-feedback experiment.",
+          wait:
+            "Decision saved: wait for exact visible duplicate-submit or stale-tab proof before any production integration.",
+          revise:
+            "Decision saved: do not promote this direction without clearer copy, focus behavior, or evidence boundaries.",
+        };
+
+        function paint(choice) {
+          const buttons = [...controls.querySelectorAll("[data-choice]")];
+          buttons.forEach((button) => button.classList.toggle("selected", button.dataset.choice === choice));
+          output.textContent = labels[choice] || "No decision selected yet.";
+        }
+
+        const saved = localStorage.getItem(key);
+        if (saved) paint(saved);
+
+        controls.addEventListener("click", (event) => {
+          const button = event.target.closest("[data-choice]");
+          if (!button) return;
+          const choice = button.dataset.choice;
+          if (choice === "clear") {
+            localStorage.removeItem(key);
+            paint("");
+            return;
+          }
+          localStorage.setItem(key, choice);
+          paint(choice);
+        });
+      })();
+    </script>
+  </body>
+</html>

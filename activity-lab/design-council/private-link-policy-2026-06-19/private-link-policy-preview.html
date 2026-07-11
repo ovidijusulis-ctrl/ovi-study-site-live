@@ -1,0 +1,819 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Private Link Policy Preview | Ovi Design Council</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #102b34;
+        --muted: #5d7177;
+        --paper: #f5f2e8;
+        --panel: #fffdf8;
+        --line: rgba(16, 43, 52, 0.14);
+        --line-strong: rgba(16, 43, 52, 0.26);
+        --teal: #087f78;
+        --teal-dark: #004b54;
+        --teal-soft: #e6f5f1;
+        --copper: #b85f25;
+        --copper-soft: #fff0df;
+        --red: #a83b32;
+        --red-soft: #fff0ed;
+        --green: #0f7b62;
+        --green-soft: #e8f6ee;
+        --blue-soft: #eaf3f5;
+        --shadow: 0 18px 48px rgba(16, 43, 52, 0.12);
+        --radius: 8px;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        overflow-x: clip;
+        background: var(--paper);
+        color: var(--ink);
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        border-radius: var(--radius);
+      }
+
+      button,
+      summary {
+        font: inherit;
+      }
+
+      code {
+        overflow-wrap: anywhere;
+      }
+
+      .hero {
+        min-height: 560px;
+        color: #ffffff;
+        background:
+          linear-gradient(90deg, rgba(0, 52, 58, 0.96), rgba(0, 76, 84, 0.84) 54%, rgba(0, 76, 84, 0.28)),
+          url("assets/gpt-image-2-safer-student-link-flow.png") center / cover;
+      }
+
+      .hero-inner,
+      .section-inner,
+      .foot {
+        width: min(1180px, calc(100% - 32px));
+        margin: 0 auto;
+      }
+
+      .hero-inner {
+        min-height: 560px;
+        display: grid;
+        align-content: end;
+        padding: 34px 0 46px;
+      }
+
+      .eyebrow,
+      .label {
+        margin: 0;
+        color: var(--teal);
+        font-size: 0.76rem;
+        font-weight: 900;
+        letter-spacing: 0;
+        text-transform: uppercase;
+      }
+
+      .hero .eyebrow {
+        color: #aef3df;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+
+      h1 {
+        width: min(900px, 100%);
+        margin-bottom: 16px;
+        font-size: 4.35rem;
+        line-height: 0.98;
+        letter-spacing: 0;
+      }
+
+      .hero-copy {
+        width: min(780px, 100%);
+        margin-bottom: 22px;
+        color: rgba(255, 255, 255, 0.86);
+        font-size: 1.14rem;
+        line-height: 1.55;
+      }
+
+      .hero-metrics,
+      .posture-grid,
+      .direction-grid,
+      .proof-grid,
+      .shot-grid,
+      .caveat-grid,
+      .decision-grid,
+      .focus-grid {
+        display: grid;
+        gap: 14px;
+      }
+
+      .hero-metrics {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .metric {
+        min-width: 0;
+        padding: 16px;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: var(--radius);
+        background: rgba(255, 255, 255, 0.11);
+        backdrop-filter: blur(10px);
+      }
+
+      .metric strong {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 1.42rem;
+        line-height: 1;
+      }
+
+      .metric span {
+        color: rgba(255, 255, 255, 0.78);
+        font-size: 0.88rem;
+        line-height: 1.35;
+      }
+
+      main {
+        padding: 32px 0 62px;
+      }
+
+      section + section {
+        margin-top: 30px;
+      }
+
+      .section-head {
+        display: flex;
+        gap: 18px;
+        align-items: end;
+        justify-content: space-between;
+        margin-bottom: 14px;
+      }
+
+      .section-head h2 {
+        margin: 4px 0 0;
+        font-size: 2rem;
+        letter-spacing: 0;
+      }
+
+      .section-head p {
+        max-width: 750px;
+        margin-bottom: 0;
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .panel,
+      .shot,
+      .decision-card,
+      .caveat-card,
+      details {
+        min-width: 0;
+        border: 1px solid var(--line);
+        border-radius: var(--radius);
+        background: var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .panel.pad,
+      .decision-card,
+      .caveat-card {
+        padding: 20px;
+      }
+
+      .posture-grid {
+        grid-template-columns: 1.05fr 1fr 1fr;
+      }
+
+      .panel h3,
+      .decision-card h3,
+      .caveat-card h3 {
+        margin: 5px 0 10px;
+        font-size: 1.1rem;
+        letter-spacing: 0;
+      }
+
+      .panel p,
+      .decision-card p,
+      .caveat-card p,
+      li {
+        color: var(--muted);
+        line-height: 1.5;
+      }
+
+      .status {
+        display: inline-flex;
+        min-height: 32px;
+        align-items: center;
+        padding: 6px 10px;
+        border-radius: 999px;
+        background: var(--copper-soft);
+        color: var(--copper);
+        font-size: 0.82rem;
+        font-weight: 900;
+      }
+
+      .status.good {
+        background: var(--green-soft);
+        color: var(--green);
+      }
+
+      .status.stop {
+        background: var(--red-soft);
+        color: var(--red);
+      }
+
+      .direction-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .direction img {
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+      }
+
+      .direction .caption,
+      .shot .caption {
+        padding: 14px 16px 16px;
+      }
+
+      .direction h3,
+      .shot h3 {
+        margin: 0 0 8px;
+        font-size: 1rem;
+      }
+
+      .direction p,
+      .shot p {
+        margin-bottom: 0;
+        color: var(--muted);
+        font-size: 0.92rem;
+        line-height: 1.45;
+      }
+
+      .proof-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .proof-list {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      .proof-list li {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        gap: 10px;
+        align-items: start;
+        padding: 10px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .proof-list li:first-child {
+        border-top: 0;
+      }
+
+      .dot {
+        width: 22px;
+        height: 22px;
+        border-radius: 999px;
+        display: inline-grid;
+        place-items: center;
+        background: var(--green);
+        color: #ffffff;
+        font-size: 0.82rem;
+        font-weight: 900;
+      }
+
+      .dot.warn {
+        background: var(--copper);
+      }
+
+      .dot.stop {
+        background: var(--red);
+      }
+
+      details {
+        overflow: hidden;
+      }
+
+      details + details {
+        margin-top: 14px;
+      }
+
+      summary {
+        min-height: 56px;
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        justify-content: space-between;
+        padding: 16px 18px;
+        cursor: pointer;
+        font-weight: 900;
+      }
+
+      summary span {
+        color: var(--muted);
+        font-size: 0.88rem;
+        font-weight: 700;
+      }
+
+      .details-body {
+        padding: 0 18px 18px;
+      }
+
+      .shot-grid {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .focus-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .shot {
+        overflow: hidden;
+      }
+
+      .shot img {
+        aspect-ratio: 16 / 11;
+        object-fit: contain;
+        object-position: top center;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        background: #ede8dd;
+      }
+
+      .shot.tall img {
+        aspect-ratio: 4 / 5;
+      }
+
+      .shot-link {
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+        margin-top: 10px;
+        color: var(--teal-dark);
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .shot-link:hover {
+        text-decoration: underline;
+      }
+
+      .caveat-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .caveat-card {
+        border-color: rgba(184, 95, 37, 0.34);
+        background: #fffaf2;
+      }
+
+      .decision-grid {
+        grid-template-columns: 1.2fr 0.8fr;
+        align-items: start;
+      }
+
+      .decision-card.primary {
+        border-color: rgba(8, 127, 120, 0.34);
+      }
+
+      .decision-actions {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        margin: 16px 0 12px;
+      }
+
+      .decision-actions button,
+      .clear-button {
+        min-height: 52px;
+        border: 1px solid var(--line-strong);
+        border-radius: var(--radius);
+        background: #ffffff;
+        color: var(--ink);
+        cursor: pointer;
+        font-weight: 900;
+      }
+
+      .decision-actions button[data-selected="true"] {
+        background: var(--teal-dark);
+        color: #ffffff;
+        border-color: var(--teal-dark);
+      }
+
+      .decision-actions button[data-decision="wait"][data-selected="true"] {
+        background: var(--copper);
+        border-color: var(--copper);
+      }
+
+      .decision-actions button[data-decision="no"][data-selected="true"] {
+        background: var(--red);
+        border-color: var(--red);
+      }
+
+      .clear-button {
+        width: 100%;
+        color: var(--muted);
+      }
+
+      [data-decision-status] {
+        min-height: 44px;
+        display: grid;
+        align-items: center;
+        padding: 10px 12px;
+        border: 1px dashed var(--line-strong);
+        border-radius: var(--radius);
+        color: var(--muted);
+        font-weight: 800;
+      }
+
+      .foot {
+        padding: 22px 0 34px;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+
+      @media (max-width: 960px) {
+        h1 {
+          font-size: 3.1rem;
+        }
+
+        .hero-metrics,
+        .posture-grid,
+        .direction-grid,
+        .proof-grid,
+        .caveat-grid,
+        .decision-grid,
+        .focus-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .shot-grid {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+
+        .section-head {
+          display: block;
+        }
+      }
+
+      @media (max-width: 620px) {
+        .hero {
+          min-height: 520px;
+        }
+
+        .hero-inner {
+          min-height: 520px;
+        }
+
+        h1 {
+          font-size: 2.32rem;
+        }
+
+        .shot-grid,
+        .decision-actions {
+          grid-template-columns: 1fr;
+        }
+
+        summary {
+          align-items: start;
+          flex-direction: column;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-inner">
+        <p class="eyebrow">Ovi Design Council · Preview mode · owner only</p>
+        <h1>Private Student/Classroom Link Policy</h1>
+        <p class="hero-copy">
+          This preview collects the real current surfaces, bottom-of-page evidence, and GPT Image 2 council directions for the private lesson-link gate. The recommendation is keep the hardened foundation, wait on protected owner/learner evidence.
+        </p>
+        <div class="hero-metrics" aria-label="Preview metrics">
+          <div class="metric"><strong>91/100</strong><span>Policy packet score: evidence-capture gate ready, not safe to publish.</span></div>
+          <div class="metric"><strong>14</strong><span>Current full-page captures across desktop and mobile, with bottom shots included.</span></div>
+          <div class="metric"><strong>3</strong><span>GPT Image 2 recursive directions for learner, owner, and proof-gate views.</span></div>
+          <div class="metric"><strong>0</strong><span>Real private codes or PINs used; fixtures are synthetic only.</span></div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Council posture</p>
+              <h2>Keep the foundation. Wait on rollout.</h2>
+            </div>
+            <p>The engineering base and private-link hardening are now stronger than the durable proof record. The next design review should keep the safety gate visible while the protected owner/learner pass proves the workflow with masked screenshots.</p>
+          </div>
+          <div class="posture-grid">
+            <article class="panel pad">
+              <span class="status good">Keep</span>
+              <h3>Private-link core is worth preserving</h3>
+              <p>Random access codes, generated and hashed PINs, expiry, revoke, signed-in claims, claim hijack blocking, no-store APIs, noindex/no-referrer route metadata, attempt throttling, session-only PIN memory, masked reports, and public safe-share blockers are already proven in the packet.</p>
+            </article>
+            <article class="panel pad">
+              <span class="status">Wait</span>
+              <h3>Promotion needs protected pass proof</h3>
+              <p>The current gate needs one owner fresh-link/PIN pass, learner open, learner PIN submit/account claim, assignment snapshot, durable masked report review, and at least four protected screenshots before this becomes a broader classroom workflow.</p>
+            </article>
+            <article class="panel pad">
+              <span class="status stop">Do not publish</span>
+              <h3>Private links are not public sharing</h3>
+              <p>The owner flow can copy link and PIN together. That should stay a one-time owner-only moment, with durable reports, analytics, screenshots, and design artifacts masked.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">GPT Image 2 recursion</p>
+              <h2>Three design directions to judge</h2>
+            </div>
+            <p>These are not implementation commits. They are visual council inputs for deciding how the learner, owner, and proof-gate surfaces should evolve.</p>
+          </div>
+          <div class="direction-grid">
+            <article class="panel direction">
+              <img src="assets/gpt-image-2-safer-student-link-flow.png" alt="GPT Image 2 concept for safer private student lesson-link entry on desktop and mobile" />
+              <div class="caption">
+                <h3>Learner entry</h3>
+                <p>Session-only by default, explicit remember-device choice, privacy copy, and safety badges for noindex, no-referrer, attempt limit, expiry, and revoke.</p>
+              </div>
+            </article>
+            <article class="panel direction">
+              <img src="assets/gpt-image-2-owner-link-pin-control.png" alt="GPT Image 2 concept for owner-only private lesson link and PIN controls" />
+              <div class="caption">
+                <h3>Owner controls</h3>
+                <p>One-time visible PIN, guarded copy link-and-PIN action, revoke, expiry, masked reports, and a strong separation from public safe-share.</p>
+              </div>
+            </article>
+            <article class="panel direction">
+              <img src="assets/gpt-image-2-private-link-proof-gate.png" alt="GPT Image 2 concept for a private-link policy proof gate with score and blocking rows" />
+              <div class="caption">
+                <h3>Proof gate</h3>
+                <p>A review packet surface that makes the 91/100 score, pass rows, remaining evidence rows, and Keep/Wait/No decision clear without changing production behavior.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Current surface atlas</p>
+              <h2>Full-page and bottom captures</h2>
+            </div>
+            <p>Every screenshot here is from the current app using synthetic private-link fixtures. Bottom captures are paired with full-page captures so the review does not stop at the top of the flow.</p>
+          </div>
+
+          <details open>
+            <summary>Student `/student/go/` manual entry <span>Desktop and mobile · full and bottom</span></summary>
+            <div class="details-body shot-grid">
+              <article class="shot"><img src="assets/student-go-manual-entry-desktop-full.png" alt="Current desktop manual private lesson code entry full-page screenshot" /><div class="caption"><h3>Desktop full</h3><p>Manual code and PIN entry before any private-link claim.</p><a class="shot-link" href="assets/student-go-manual-entry-desktop-full.png">Open source image</a></div></article>
+              <article class="shot"><img src="assets/student-go-manual-entry-desktop-bottom.png" alt="Current desktop manual private lesson code entry bottom screenshot" /><div class="caption"><h3>Desktop bottom</h3><p>Bottom viewport confirms the page ending and footer state.</p><a class="shot-link" href="assets/student-go-manual-entry-desktop-bottom.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-manual-entry-mobile-full.png" alt="Current mobile manual private lesson code entry full-page screenshot" /><div class="caption"><h3>Mobile full</h3><p>Mobile manual entry layout.</p><a class="shot-link" href="assets/student-go-manual-entry-mobile-full.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-manual-entry-mobile-bottom.png" alt="Current mobile manual private lesson code entry bottom screenshot" /><div class="caption"><h3>Mobile bottom</h3><p>Mobile bottom state.</p><a class="shot-link" href="assets/student-go-manual-entry-mobile-bottom.png">Open source image</a></div></article>
+            </div>
+          </details>
+
+          <details>
+            <summary>Student `/student/go/` with synthetic code and PIN <span>Desktop and mobile · full and bottom</span></summary>
+            <div class="details-body shot-grid">
+              <article class="shot"><img src="assets/student-go-code-pin-entry-desktop-full.png" alt="Current desktop private lesson entry with synthetic code and PIN full-page screenshot" /><div class="caption"><h3>Desktop full</h3><p>Synthetic query state before opening.</p><a class="shot-link" href="assets/student-go-code-pin-entry-desktop-full.png">Open source image</a></div></article>
+              <article class="shot"><img src="assets/student-go-code-pin-entry-desktop-bottom.png" alt="Current desktop private lesson entry with synthetic code and PIN bottom screenshot" /><div class="caption"><h3>Desktop bottom</h3><p>Bottom viewport for synthetic query state.</p><a class="shot-link" href="assets/student-go-code-pin-entry-desktop-bottom.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-code-pin-entry-mobile-full.png" alt="Current mobile private lesson entry with synthetic code and PIN full-page screenshot" /><div class="caption"><h3>Mobile full</h3><p>Mobile synthetic query state.</p><a class="shot-link" href="assets/student-go-code-pin-entry-mobile-full.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-code-pin-entry-mobile-bottom.png" alt="Current mobile private lesson entry with synthetic code and PIN bottom screenshot" /><div class="caption"><h3>Mobile bottom</h3><p>Mobile bottom for synthetic query state.</p><a class="shot-link" href="assets/student-go-code-pin-entry-mobile-bottom.png">Open source image</a></div></article>
+            </div>
+          </details>
+
+          <details>
+            <summary>Student `/student/go/` opened lesson state <span>Desktop and mobile · full and bottom</span></summary>
+            <div class="details-body shot-grid">
+              <article class="shot"><img src="assets/student-go-opened-desktop-full.png" alt="Current desktop opened private lesson state full-page screenshot" /><div class="caption"><h3>Desktop full</h3><p>Opened link state with synthetic fixture.</p><a class="shot-link" href="assets/student-go-opened-desktop-full.png">Open source image</a></div></article>
+              <article class="shot"><img src="assets/student-go-opened-desktop-bottom.png" alt="Current desktop opened private lesson state bottom screenshot" /><div class="caption"><h3>Desktop bottom</h3><p>Bottom of opened state.</p><a class="shot-link" href="assets/student-go-opened-desktop-bottom.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-opened-mobile-full.png" alt="Current mobile opened private lesson state full-page screenshot" /><div class="caption"><h3>Mobile full</h3><p>Mobile opened link state.</p><a class="shot-link" href="assets/student-go-opened-mobile-full.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-opened-mobile-bottom.png" alt="Current mobile opened private lesson state bottom screenshot" /><div class="caption"><h3>Mobile bottom</h3><p>Mobile opened bottom state.</p><a class="shot-link" href="assets/student-go-opened-mobile-bottom.png">Open source image</a></div></article>
+            </div>
+          </details>
+
+          <details>
+            <summary>Student claim confirmation <span>Desktop and mobile · full and bottom</span></summary>
+            <div class="details-body shot-grid">
+              <article class="shot"><img src="assets/student-go-claimed-desktop-full.png" alt="Current desktop private lesson claimed state full-page screenshot" /><div class="caption"><h3>Desktop full</h3><p>Claimed state after signed-in learner claim.</p><a class="shot-link" href="assets/student-go-claimed-desktop-full.png">Open source image</a></div></article>
+              <article class="shot"><img src="assets/student-go-claimed-desktop-bottom.png" alt="Current desktop private lesson claimed state bottom screenshot" /><div class="caption"><h3>Desktop bottom</h3><p>Bottom of claimed flow.</p><a class="shot-link" href="assets/student-go-claimed-desktop-bottom.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-claimed-mobile-full.png" alt="Current mobile private lesson claimed state full-page screenshot" /><div class="caption"><h3>Mobile full</h3><p>Mobile claimed state.</p><a class="shot-link" href="assets/student-go-claimed-mobile-full.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/student-go-claimed-mobile-bottom.png" alt="Current mobile private lesson claimed state bottom screenshot" /><div class="caption"><h3>Mobile bottom</h3><p>Mobile claimed bottom state.</p><a class="shot-link" href="assets/student-go-claimed-mobile-bottom.png">Open source image</a></div></article>
+            </div>
+          </details>
+
+          <details>
+            <summary>Profile after claim <span>Desktop and mobile · full and bottom</span></summary>
+            <div class="details-body shot-grid">
+              <article class="shot"><img src="assets/profile-after-claim-desktop-full.png" alt="Current desktop learner profile after private lesson claim full-page screenshot" /><div class="caption"><h3>Desktop full</h3><p>Profile context after claim; compact controls noted separately.</p><a class="shot-link" href="assets/profile-after-claim-desktop-full.png">Open source image</a></div></article>
+              <article class="shot"><img src="assets/profile-after-claim-desktop-bottom.png" alt="Current desktop learner profile after private lesson claim bottom screenshot" /><div class="caption"><h3>Desktop bottom</h3><p>Profile bottom and later sections.</p><a class="shot-link" href="assets/profile-after-claim-desktop-bottom.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/profile-after-claim-mobile-full.png" alt="Current mobile learner profile after private lesson claim full-page screenshot" /><div class="caption"><h3>Mobile full</h3><p>Long mobile profile context after claim.</p><a class="shot-link" href="assets/profile-after-claim-mobile-full.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/profile-after-claim-mobile-bottom.png" alt="Current mobile learner profile after private lesson claim bottom screenshot" /><div class="caption"><h3>Mobile bottom</h3><p>Mobile profile bottom state.</p><a class="shot-link" href="assets/profile-after-claim-mobile-bottom.png">Open source image</a></div></article>
+            </div>
+          </details>
+
+          <details>
+            <summary>Owner school child access panel <span>Desktop and mobile · full and bottom</span></summary>
+            <div class="details-body shot-grid">
+              <article class="shot"><img src="assets/owner-school-child-access-desktop-full.png" alt="Current desktop owner school child access panel full-page screenshot" /><div class="caption"><h3>Desktop full</h3><p>Owner child-access panel with synthetic private link fixture.</p><a class="shot-link" href="assets/owner-school-child-access-desktop-full.png">Open source image</a></div></article>
+              <article class="shot"><img src="assets/owner-school-child-access-desktop-bottom.png" alt="Current desktop owner school child access panel bottom screenshot" /><div class="caption"><h3>Desktop bottom</h3><p>Owner page bottom context.</p><a class="shot-link" href="assets/owner-school-child-access-desktop-bottom.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/owner-school-child-access-mobile-full.png" alt="Current mobile owner school child access panel full-page screenshot" /><div class="caption"><h3>Mobile full</h3><p>Mobile owner child access panel.</p><a class="shot-link" href="assets/owner-school-child-access-mobile-full.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/owner-school-child-access-mobile-bottom.png" alt="Current mobile owner school child access panel bottom screenshot" /><div class="caption"><h3>Mobile bottom</h3><p>Mobile owner bottom context.</p><a class="shot-link" href="assets/owner-school-child-access-mobile-bottom.png">Open source image</a></div></article>
+            </div>
+          </details>
+
+          <details>
+            <summary>Owner fresh link and one-time PIN state <span>Desktop and mobile · full and bottom</span></summary>
+            <div class="details-body shot-grid">
+              <article class="shot"><img src="assets/owner-school-fresh-link-desktop-full.png" alt="Current desktop owner fresh private link and one-time PIN full-page screenshot" /><div class="caption"><h3>Desktop full</h3><p>Fresh synthetic link and one-time PIN state.</p><a class="shot-link" href="assets/owner-school-fresh-link-desktop-full.png">Open source image</a></div></article>
+              <article class="shot"><img src="assets/owner-school-fresh-link-desktop-bottom.png" alt="Current desktop owner fresh private link and one-time PIN bottom screenshot" /><div class="caption"><h3>Desktop bottom</h3><p>Fresh-link bottom state.</p><a class="shot-link" href="assets/owner-school-fresh-link-desktop-bottom.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/owner-school-fresh-link-mobile-full.png" alt="Current mobile owner fresh private link and one-time PIN full-page screenshot" /><div class="caption"><h3>Mobile full</h3><p>Mobile fresh synthetic link and PIN state.</p><a class="shot-link" href="assets/owner-school-fresh-link-mobile-full.png">Open source image</a></div></article>
+              <article class="shot tall"><img src="assets/owner-school-fresh-link-mobile-bottom.png" alt="Current mobile owner fresh private link and one-time PIN bottom screenshot" /><div class="caption"><h3>Mobile bottom</h3><p>Mobile fresh-link bottom state.</p><a class="shot-link" href="assets/owner-school-fresh-link-mobile-bottom.png">Open source image</a></div></article>
+            </div>
+          </details>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Focused context</p>
+              <h2>Panels that matter for the decision</h2>
+            </div>
+            <p>These tighter crops show the exact states the redesign should clarify: open/claim messaging, profile landing context, and owner link/PIN controls.</p>
+          </div>
+          <div class="focus-grid">
+            <article class="shot"><img src="assets/student-go-opened-desktop-state.png" alt="Focused desktop opened private lesson state screenshot" /><div class="caption"><h3>Opened message</h3><p>Learner sees the private lesson state after a successful synthetic open.</p></div></article>
+            <article class="shot"><img src="assets/student-go-claimed-desktop-message.png" alt="Focused desktop private lesson claimed message screenshot" /><div class="caption"><h3>Claimed message</h3><p>Signed-in claim proof is visible, but policy badges are still missing.</p></div></article>
+            <article class="shot"><img src="assets/profile-after-claim-desktop-assigned-study.png" alt="Focused desktop learner assigned study panel after private lesson claim screenshot" /><div class="caption"><h3>Assigned study</h3><p>Profile context confirms the learner lands back in normal study surfaces.</p></div></article>
+            <article class="shot"><img src="assets/owner-school-child-access-desktop-panel.png" alt="Focused desktop owner existing private link panel screenshot" /><div class="caption"><h3>Owner panel</h3><p>Owner can manage the current synthetic link.</p></div></article>
+            <article class="shot"><img src="assets/owner-school-fresh-link-desktop-panel.png" alt="Focused desktop owner fresh link and one-time PIN panel screenshot" /><div class="caption"><h3>Fresh PIN</h3><p>One-time PIN visibility and copy affordance need clearer policy framing.</p></div></article>
+            <article class="shot tall"><img src="assets/owner-school-fresh-link-mobile-panel.png" alt="Focused mobile owner fresh link and one-time PIN panel screenshot" /><div class="caption"><h3>Mobile owner</h3><p>Mobile has the same decision risk in a tighter layout.</p></div></article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Proof gate</p>
+              <h2>What passes and what still blocks</h2>
+            </div>
+            <p>The packet is useful precisely because it separates completed hardening from the protected evidence pass that still needs human review.</p>
+          </div>
+          <div class="proof-grid">
+            <article class="panel pad">
+              <span class="status good">Already proven</span>
+              <h3>Keep these parts</h3>
+              <ul class="proof-list">
+                <li><span class="dot">✓</span><span>Random access-code generation and generated PIN path are in place.</span></li>
+                <li><span class="dot">✓</span><span>PIN hash/verify, expiry, revoke, and no-store APIs are covered by tests.</span></li>
+                <li><span class="dot">✓</span><span>Signed-in claim required; claim hijack is blocked by token binding and audience checks.</span></li>
+                <li><span class="dot">✓</span><span>`/student/go/` now has noindex/no-referrer proof, student-link attempt throttling, session-only PIN memory, and no remembered-PIN auto-open.</span></li>
+                <li><span class="dot">✓</span><span>Reports, observation proof, analytics, public safe-share, offline, and prefetch paths avoid raw private codes.</span></li>
+                <li><span class="dot">✓</span><span>Current synthetic capture pass found zero horizontal overflow, zero broken images, and zero real private marker leaks.</span></li>
+              </ul>
+            </article>
+            <article class="panel pad">
+              <span class="status stop">Blocks promotion</span>
+              <h3>Resolve before wider use</h3>
+              <ul class="proof-list">
+                <li><span class="dot stop">!</span><span>Copy the protected template to a dated evidence file and complete all five owner/learner proof rows.</span></li>
+                <li><span class="dot stop">!</span><span>Capture at least four protected, masked screenshots before broader workflow use.</span></li>
+                <li><span class="dot stop">!</span><span>Review the durable masked report and rerun the packet so evidence rows move above zero.</span></li>
+                <li><span class="dot warn">!</span><span>Keep raw private URLs transient and keep durable reports/screenshots masked.</span></li>
+                <li><span class="dot warn">!</span><span>Do not reuse public safe-share for private classroom, student, owner, PIN, token, or API links.</span></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Caveats</p>
+              <h2>Boundaries for this preview</h2>
+            </div>
+            <p>This is a local decision surface, not a production route. It should help us decide what to redesign next.</p>
+          </div>
+          <div class="caveat-grid">
+            <article class="caveat-card">
+              <h3>Synthetic data only</h3>
+              <p>All private codes and PINs shown in screenshots are test fixtures. No real student private link, account secret, or production PIN was used.</p>
+            </article>
+            <article class="caveat-card">
+              <h3>Protected evidence gap</h3>
+              <p>The current packet has zero real owner/learner evidence rows and zero protected screenshots. Those are the live gate blockers, not the earlier route-metadata work.</p>
+            </article>
+            <article class="caveat-card">
+              <h3>Profile caveat</h3>
+              <p>The profile-after-claim capture includes compact controls outside the private-link gate. They are logged as context, not as blockers for this lane.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-inner">
+          <div class="section-head">
+            <div>
+              <p class="label">Owner decision</p>
+              <h2>Preview-only Keep / Wait / No</h2>
+            </div>
+            <p>This browser-local choice is just for review. It does not write to the app, publish a route, or change the private-link workflow.</p>
+          </div>
+          <div class="decision-grid">
+            <article class="decision-card primary">
+              <span class="status">Recommended: Wait</span>
+              <h3>Use the board to review the protected pass</h3>
+              <p>Keep the packet and core controls, then run the protected owner/learner pass before broader rollout. The design council should only evaluate visible workflow changes after the masked evidence rows and screenshots exist.</p>
+              <div class="decision-actions" role="group" aria-label="Preview decision">
+                <button type="button" data-decision="keep">Keep</button>
+                <button type="button" data-decision="wait">Wait</button>
+                <button type="button" data-decision="no">No</button>
+              </div>
+              <p data-decision-status>No decision selected.</p>
+            </article>
+            <article class="decision-card">
+              <h3>Decision notes</h3>
+              <p>Choosing Keep would mean accepting the visual direction for implementation planning after protected evidence exists. Wait means the direction is useful, but the owner/learner pass must be completed first. No means retire this lane and leave private-link policy as a report-only packet.</p>
+              <button class="clear-button" type="button" data-clear-decision>Clear preview choice</button>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <p>Generated locally for Ovi Design Council preview mode on 2026-06-19 and refreshed against the 91-point private-link evidence-capture packet on 2026-06-20. Source packet: <code>logs/ovi-autoresearch/private-link-policy-review/latest.json</code>. No live route or production private-link behavior changed by this preview.</p>
+    </footer>
+
+    <script>
+      const status = document.querySelector("[data-decision-status]");
+      const buttons = Array.from(document.querySelectorAll("[data-decision]"));
+      const labels = {
+        keep: "Keep selected. Treat this direction as ready for implementation planning.",
+        wait: "Wait selected. Keep the preview and complete the protected owner/learner pass before implementation.",
+        no: "No selected. Retire this direction and keep the policy packet report-only.",
+      };
+
+      function setDecision(nextDecision) {
+        buttons.forEach((button) => {
+          button.dataset.selected = String(button.dataset.decision === nextDecision);
+        });
+        status.textContent = nextDecision ? labels[nextDecision] : "No decision selected.";
+      }
+
+      buttons.forEach((button) => {
+        button.addEventListener("click", () => setDecision(button.dataset.decision));
+      });
+
+      document.querySelector("[data-clear-decision]").addEventListener("click", () => setDecision(null));
+    </script>
+  </body>
+</html>

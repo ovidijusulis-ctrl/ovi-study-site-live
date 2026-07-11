@@ -1,0 +1,544 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+    <title>Offline Event Queue Preview | Ovi Review</title>
+    <style>
+      :root {
+        --ink: #1d2d2f;
+        --muted: #5a686b;
+        --line: #d6dfdc;
+        --paper: #fbfaf5;
+        --panel: #ffffff;
+        --green: #24745a;
+        --green-soft: #e8f5ee;
+        --blue: #27698d;
+        --blue-soft: #e8f1f6;
+        --gold: #846018;
+        --gold-soft: #fff3d2;
+        --red: #913c32;
+        --red-soft: #fff0ed;
+        --shadow: 0 18px 44px rgba(35, 45, 47, 0.12);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        letter-spacing: 0;
+      }
+
+      a {
+        color: var(--blue);
+        font-weight: 800;
+      }
+
+      .page {
+        width: min(1160px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 28px 0 54px;
+      }
+
+      .topbar,
+      .hero,
+      .section,
+      .decision {
+        border-bottom: 1px solid var(--line);
+      }
+
+      .topbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 16px;
+        padding-bottom: 18px;
+      }
+
+      .brand {
+        display: grid;
+        gap: 4px;
+      }
+
+      .brand strong {
+        font-size: 1.42rem;
+        line-height: 1.08;
+      }
+
+      .brand span,
+      p,
+      li {
+        color: var(--muted);
+        line-height: 1.55;
+      }
+
+      .pill-row {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .pill {
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--panel);
+        color: var(--ink);
+        font-size: 0.84rem;
+        font-weight: 800;
+        padding: 8px 12px;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1.05fr) minmax(320px, 0.95fr);
+        gap: 30px;
+        padding: 34px 0;
+        align-items: start;
+      }
+
+      .kicker {
+        margin: 0 0 10px;
+        color: var(--green);
+        font-size: 0.82rem;
+        font-weight: 900;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        max-width: 760px;
+        font-size: clamp(2.2rem, 4vw, 4rem);
+        line-height: 1.02;
+      }
+
+      h2 {
+        margin: 0;
+        font-size: 1.35rem;
+      }
+
+      h3 {
+        margin: 0;
+        font-size: 1rem;
+      }
+
+      .lede {
+        max-width: 720px;
+        margin: 16px 0 0;
+        font-size: 1.05rem;
+      }
+
+      .metrics,
+      .proof-grid,
+      .flow,
+      .decision-grid {
+        display: grid;
+        gap: 14px;
+      }
+
+      .metrics {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+
+      .metric,
+      .proof,
+      .step,
+      .decision-panel,
+      .note {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        box-shadow: var(--shadow);
+      }
+
+      .metric {
+        padding: 16px;
+      }
+
+      .metric strong {
+        display: block;
+        font-size: 1.75rem;
+        line-height: 1;
+      }
+
+      .metric span {
+        color: var(--muted);
+        font-size: 0.86rem;
+      }
+
+      .section,
+      .decision {
+        padding: 28px 0;
+      }
+
+      .section-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+        gap: 18px;
+        margin-bottom: 18px;
+      }
+
+      .section-head p {
+        max-width: 680px;
+        margin: 0;
+      }
+
+      .proof-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+
+      .proof {
+        padding: 16px;
+      }
+
+      .proof.good {
+        background: var(--green-soft);
+      }
+
+      .proof.wait {
+        background: var(--gold-soft);
+      }
+
+      .proof.hold {
+        background: var(--red-soft);
+      }
+
+      .proof strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .proof p,
+      .step p,
+      .decision-panel p,
+      .note p {
+        margin: 0;
+        font-size: 0.92rem;
+      }
+
+      .flow {
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+      }
+
+      .step {
+        position: relative;
+        min-height: 168px;
+        padding: 16px;
+        overflow: hidden;
+      }
+
+      .step::before {
+        content: "";
+        position: absolute;
+        inset: auto 16px 16px auto;
+        width: 72px;
+        height: 72px;
+        border: 1px solid rgba(39, 105, 141, 0.2);
+        border-radius: 8px;
+        background:
+          linear-gradient(90deg, rgba(39, 105, 141, 0.16) 2px, transparent 2px) 0 0 / 18px 18px,
+          linear-gradient(rgba(36, 116, 90, 0.14) 2px, transparent 2px) 0 0 / 18px 18px;
+      }
+
+      .step small {
+        display: inline-block;
+        margin-bottom: 10px;
+        color: var(--blue);
+        font-size: 0.78rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+
+      .queue-visual {
+        display: grid;
+        gap: 10px;
+        padding: 18px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background:
+          linear-gradient(135deg, rgba(39, 105, 141, 0.08), transparent 46%),
+          linear-gradient(315deg, rgba(36, 116, 90, 0.12), transparent 52%),
+          var(--panel);
+        box-shadow: var(--shadow);
+      }
+
+      .lane {
+        display: grid;
+        grid-template-columns: 96px 1fr 92px;
+        gap: 10px;
+        align-items: center;
+      }
+
+      .lane span {
+        color: var(--muted);
+        font-size: 0.82rem;
+        font-weight: 800;
+      }
+
+      .track {
+        min-height: 28px;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        background: var(--paper);
+        overflow: hidden;
+      }
+
+      .fill {
+        height: 100%;
+        border-radius: 999px;
+        background: var(--green);
+      }
+
+      .fill.blue {
+        background: var(--blue);
+      }
+
+      .fill.gold {
+        background: var(--gold);
+      }
+
+      .fill.red {
+        width: 0;
+        background: var(--red);
+      }
+
+      .decision-grid {
+        grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+        align-items: start;
+      }
+
+      .decision-panel,
+      .note {
+        padding: 18px;
+      }
+
+      .buttons {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 10px;
+        margin-top: 16px;
+      }
+
+      button {
+        min-height: 44px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        color: var(--ink);
+        cursor: pointer;
+        font: inherit;
+        font-weight: 850;
+      }
+
+      button[data-decision="keep"] {
+        background: var(--green);
+        color: #fff;
+      }
+
+      button[data-decision="wait"] {
+        background: var(--gold);
+        color: #fff;
+      }
+
+      button[data-decision="no"] {
+        background: var(--red);
+        color: #fff;
+      }
+
+      .saved {
+        margin-top: 12px;
+        color: var(--muted);
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+
+      @media (max-width: 880px) {
+        .topbar,
+        .hero,
+        .section-head,
+        .decision-grid {
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        .proof-grid,
+        .flow,
+        .metrics,
+        .buttons {
+          grid-template-columns: 1fr;
+        }
+
+        .lane {
+          grid-template-columns: 82px 1fr;
+        }
+
+        .lane span:last-child {
+          grid-column: 2;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <div class="brand">
+          <strong>Ovi Offline Event Queue</strong>
+          <span>Owner review preview, local only</span>
+        </div>
+        <div class="pill-row" aria-label="Review status">
+          <span class="pill">Score 84/100</span>
+          <span class="pill">0 provider calls</span>
+          <span class="pill">No production route change</span>
+        </div>
+      </header>
+
+      <section class="hero" aria-labelledby="page-title">
+        <div>
+          <p class="kicker">Hidden route proof ready</p>
+          <h1 id="page-title">Keep the offline learner-event queue held until one first integration target is accepted.</h1>
+          <p class="lede">
+            The paired hidden route proof can queue, retain, replay, and dedupe a sanitized lesson-learning-check event. Production lessons still do not import the queue utility, and learner/mastery writes stay disabled.
+          </p>
+        </div>
+        <div class="metrics" aria-label="Current proof metrics">
+          <div class="metric"><strong>3</strong><span>production learning-check dispatchers found</span></div>
+          <div class="metric"><strong>2</strong><span>production learning-check listeners found</span></div>
+          <div class="metric"><strong>1</strong><span>accepted replay in hidden proof</span></div>
+          <div class="metric"><strong>0</strong><span>private payload risks in queued row</span></div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="proof-title">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Proof state</p>
+            <h2 id="proof-title">What is already true</h2>
+          </div>
+          <p>
+            Source packet: <a href="../../../ovi-autoresearch/offline-event-queue-proof/latest.md">offline-event-queue-proof/latest.md</a>
+          </p>
+        </div>
+        <div class="proof-grid">
+          <div class="proof good">
+            <strong>Hidden route browser proof</strong>
+            <p>Ready on the convenience-store lesson route, with noindex activity-lab framing and no production route integration.</p>
+          </div>
+          <div class="proof good">
+            <strong>Queue safety</strong>
+            <p>Duplicate event IDs are rejected, failed sends stay queued, replay is accepted once, and duplicate replay is prevented.</p>
+          </div>
+          <div class="proof wait">
+            <strong>Production hold</strong>
+            <p>The study-site feature registry still holds idb-event-queue, and production lessons do not import the utility.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="flow-title">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Queue shape</p>
+            <h2 id="flow-title">The proposed first slice is analytics-only protection</h2>
+          </div>
+          <p>
+            This is not a mastery system yet. It is a safer path for preserving practice events when a send fails or the learner is temporarily offline.
+          </p>
+        </div>
+        <div class="flow">
+          <div class="step">
+            <small>1. Observe</small>
+            <h3>Lesson check event</h3>
+            <p>Capture stable route, target, card, status, and created-at fields from a public lesson check.</p>
+          </div>
+          <div class="step">
+            <small>2. Strip</small>
+            <h3>Private fields</h3>
+            <p>Remove raw answer text, teacher notes, access tokens, email-like values, and private-route payloads.</p>
+          </div>
+          <div class="step">
+            <small>3. Queue</small>
+            <h3>IndexedDB row</h3>
+            <p>Store by eventId, route-target, replay state, and created-at indexes using the existing first-party idb utility.</p>
+          </div>
+          <div class="step">
+            <small>4. Replay</small>
+            <h3>Once only</h3>
+            <p>Replay analytics-only practice events once, without learner evidence writes or mastery writes.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-labelledby="visual-title">
+        <div class="section-head">
+          <div>
+            <p class="kicker">Guardrail visual</p>
+            <h2 id="visual-title">Ready, missing, and held lanes</h2>
+          </div>
+          <p>The useful part is ready locally; the riskier public integration part is still held.</p>
+        </div>
+        <div class="queue-visual" aria-label="Queue proof lanes">
+          <div class="lane"><span>Sanitized</span><div class="track"><div class="fill" style="width: 100%"></div></div><span>private risk 0</span></div>
+          <div class="lane"><span>Replay</span><div class="track"><div class="fill blue" style="width: 100%"></div></div><span>once only</span></div>
+          <div class="lane"><span>Integration</span><div class="track"><div class="fill gold" style="width: 34%"></div></div><span>owner gate</span></div>
+          <div class="lane"><span>Mastery</span><div class="track"><div class="fill red"></div></div><span>disabled</span></div>
+        </div>
+      </section>
+
+      <section class="decision" aria-labelledby="decision-title">
+        <div class="decision-grid">
+          <div class="decision-panel">
+            <p class="kicker">Owner decision</p>
+            <h2 id="decision-title">Recommended stance: keep-wait</h2>
+            <p>
+              Keep the hidden proof and queue utility. Wait on production import until one exact public lesson target is chosen and reviewed with rollback behavior.
+            </p>
+            <div class="buttons" data-decision-group>
+              <button type="button" data-decision="keep">Keep proof</button>
+              <button type="button" data-decision="wait">Wait / choose target</button>
+              <button type="button" data-decision="no">No / revise</button>
+              <button type="button" data-decision="clear">Clear</button>
+            </div>
+            <div class="saved" data-saved-state>Decision not saved in this browser.</div>
+          </div>
+          <div class="note">
+            <h3>Next proof before promotion</h3>
+            <ul>
+              <li>Owner/test review of the paired hidden route browser proof.</li>
+              <li>Choose one first production integration target.</li>
+              <li>Keep feature registry hold until rollback and duplicate replay behavior are accepted.</li>
+              <li>Keep learner evidence and mastery writes disabled.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script>
+      const key = "ovi.offlineEventQueuePreviewDecision";
+      const state = document.querySelector("[data-saved-state]");
+      const update = () => {
+        const value = window.localStorage.getItem(key);
+        state.textContent = value ? `Saved decision: ${value}` : "Decision not saved in this browser.";
+      };
+      document.querySelectorAll("[data-decision]").forEach((button) => {
+        button.addEventListener("click", () => {
+          const decision = button.dataset.decision;
+          if (decision === "clear") {
+            window.localStorage.removeItem(key);
+          } else {
+            window.localStorage.setItem(key, decision);
+          }
+          update();
+        });
+      });
+      update();
+    </script>
+  </body>
+</html>
