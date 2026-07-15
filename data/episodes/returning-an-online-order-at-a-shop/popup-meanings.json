@@ -1,0 +1,1262 @@
+{
+  "what are my options?": {
+    "simpleMeaning": "A polite question to hear all your choices.",
+    "contextMeaning": "You ask what you can do next, like refund or exchange.",
+    "translationJa": "自分の選択肢を丁寧に尋ねる表現です。",
+    "reading": "オプション",
+    "translationEs": "Una pregunta educada para conocer todas tus opciones.",
+    "example": "You are not sure whether to ask for a refund or an exchange.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "return": {
+    "simpleMeaning": "Give back an item to the shop.",
+    "contextMeaning": "You want to return the jacket to the store.",
+    "translationJa": "お店に商品を返すこと。",
+    "reading": "リターン",
+    "translationEs": "Devolver un artículo a la tienda.",
+    "example": "I need to return this jacket.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "refund": {
+    "simpleMeaning": "Money given back after you return something.",
+    "contextMeaning": "You ask if you can get your money after returning.",
+    "translationJa": "返品後にお金が戻ること。",
+    "reading": "リファンド",
+    "translationEs": "Dinero que te devuelven después de devolver algo.",
+    "example": "Is it possible to get a refund?",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "is it possible to get a refund?": {
+    "simpleMeaning": "A polite way to ask if you can get your money back.",
+    "contextMeaning": "You ask if it is possible to receive a refund.",
+    "translationJa": "お金が戻るかどうか丁寧に尋ねる表現。",
+    "reading": "リファンド",
+    "translationEs": "Una pregunta amable para saber si puedes obtener un reembolso.",
+    "example": "You want your money back after returning a damaged item.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "will the refund go back to my original payment method?": {
+    "simpleMeaning": "Ask where and how your refund money will be sent.",
+    "contextMeaning": "You want to know if money goes back to your card.",
+    "translationJa": "返金のお金がどこに戻るかを尋ねる。",
+    "reading": "",
+    "translationEs": "Preguntar a dónde y cómo se envía el dinero del reembolso.",
+    "example": "After the assistant confirms your return, you want to know about the money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "exchange": {
+    "simpleMeaning": "To change one item for another item.",
+    "contextMeaning": "You want to swap your item for a different size.",
+    "translationJa": "商品を別のものと交換すること。",
+    "reading": "",
+    "translationEs": "Cambiar un artículo por otro.",
+    "example": "Can I exchange this for a medium?",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "how do you explain a product problem in one sentence?": {
+    "simpleMeaning": "Say in one sentence what is wrong and how long you've had it.",
+    "contextMeaning": "You explain the problem quickly at the returns desk.",
+    "translationJa": "問題と使用期間を一文で説明する。",
+    "reading": "",
+    "translationEs": "Explica en una oración qué está mal y cuánto tiempo lo has tenido.",
+    "example": "You are at the returns desk and the assistant asks what the problem is.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "return policy": {
+    "simpleMeaning": "Rules of a shop about returning items.",
+    "contextMeaning": "Shops have different rules for returns online or in person.",
+    "translationJa": "返品についての店のルール。",
+    "reading": "",
+    "translationEs": "Reglas de la tienda sobre devoluciones.",
+    "example": "Different shops have different return rules for online orders.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "order confirmation": {
+    "simpleMeaning": "An email or message that shows what you ordered.",
+    "contextMeaning": "You look at the message that has your order info.",
+    "translationJa": "注文内容のメールやメッセージ。",
+    "reading": "",
+    "translationEs": "Un correo o mensaje que muestra tu pedido.",
+    "example": "I have my order confirmation on my phone.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "original payment method": {
+    "simpleMeaning": "The card or account you used to pay.",
+    "contextMeaning": "The refund goes back to the original payment you made.",
+    "translationJa": "支払いに使ったカードや口座。",
+    "reading": "",
+    "translationEs": "La tarjeta o cuenta con que pagaste.",
+    "example": "Will the refund go back to my original payment method?",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "damaged": {
+    "simpleMeaning": "Something broken or harmed, not perfect.",
+    "contextMeaning": "The item came in bad condition.",
+    "translationJa": "壊れたり傷ついた状態。",
+    "reading": "ダメージド",
+    "translationEs": "Algo roto o dañado, no perfecto.",
+    "example": "The item arrived damaged.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "in stock": {
+    "simpleMeaning": "Available to buy or take now.",
+    "contextMeaning": "You ask if medium size is ready to sell.",
+    "translationJa": "今買える、または受け取れる。",
+    "reading": "",
+    "translationEs": "Disponible para comprar o recoger ahora.",
+    "example": "Do you have the medium size in stock?",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "ask": {
+    "simpleMeaning": "To ask a question.",
+    "contextMeaning": "You ask about refund, exchange, or money.",
+    "translationJa": "質問すること。",
+    "reading": "",
+    "translationEs": "Hacer una pregunta.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "order": {
+    "simpleMeaning": "A request to buy something from a shop or website.",
+    "contextMeaning": "You need your order details for the return.",
+    "translationJa": "何かを注文すること。",
+    "reading": "",
+    "translationEs": "Pedido o compra hecha.",
+    "example": "You need the order confirmation email or a printed order number.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "assistant": {
+    "simpleMeaning": "The person helping you in a shop.",
+    "contextMeaning": "She showed the helper her order on phone.",
+    "translationJa": "店で手伝ってくれる人。",
+    "reading": "アシスタント",
+    "translationEs": "La persona que te ayuda en la tienda.",
+    "example": "She took her phone to the shop and showed the assistant her order confirmation email.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "shop": {
+    "simpleMeaning": "A place where you buy things.",
+    "contextMeaning": "You return items by going to the store.",
+    "translationJa": "物を買う場所。",
+    "reading": "",
+    "translationEs": "Un lugar donde compras cosas.",
+    "example": "Now you need to go to the shop and return it.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "always": {
+    "simpleMeaning": "Every time without fail.",
+    "contextMeaning": "Asking always helps, even if no quick answer.",
+    "translationJa": "いつも、必ず。",
+    "reading": "",
+    "translationEs": "Siempre, en todo momento.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "need": {
+    "simpleMeaning": "To need or must do something.",
+    "contextMeaning": "You must go to the store to return it.",
+    "translationJa": "〜しなければならない。",
+    "reading": "",
+    "translationEs": "Necesitar hacer algo.",
+    "example": "Now you need to go to the shop and return it.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "number": {
+    "simpleMeaning": "A number showing your order.",
+    "contextMeaning": "You need order number or email to return.",
+    "translationJa": "注文番号。",
+    "reading": "",
+    "translationEs": "Número de pedido.",
+    "example": "You need the order confirmation email or a printed order number.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "one": {
+    "simpleMeaning": "One single time or thing.",
+    "contextMeaning": "Used one time means used one occasion.",
+    "translationJa": "１回、１つ。",
+    "reading": "ワン",
+    "translationEs": "Una sola vez o cosa.",
+    "example": ", or \"It stopped working after one use.\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "wrong": {
+    "simpleMeaning": "Not correct or right.",
+    "contextMeaning": "You got wrong or broken item in your order.",
+    "translationJa": "間違っていること。",
+    "reading": "",
+    "translationEs": "Incorrecto o erróneo.",
+    "example": "You ordered something online, but it arrived wrong or broken.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "confirmation": {
+    "simpleMeaning": "Proof that your order was made.",
+    "contextMeaning": "You need order confirmation email or paper.",
+    "translationJa": "注文が確認できるもの。",
+    "reading": "",
+    "translationEs": "Prueba de que hiciste la compra.",
+    "example": "You need the order confirmation email or a printed order number.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "email": {
+    "simpleMeaning": "An electronic message you get on your computer or phone.",
+    "contextMeaning": "You show order email at the store.",
+    "translationJa": "コンピューターで受け取る手紙。",
+    "reading": "イーメール",
+    "translationEs": "Mensaje electrónico que recibes.",
+    "example": "You need the order confirmation email or a printed order number.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "item": {
+    "simpleMeaning": "The product you bought.",
+    "contextMeaning": "Bring the item you want to return.",
+    "translationJa": "買った商品。",
+    "reading": "アイテム",
+    "translationEs": "El artículo que compraste.",
+    "example": "You also need the original packaging if you still have it, and the item itself.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "long": {
+    "simpleMeaning": "Not long in time or words.",
+    "contextMeaning": "Say your problem in short sentences.",
+    "translationJa": "長くないこと。",
+    "reading": "",
+    "translationEs": "No largo en tiempo o palabras.",
+    "example": "Avoid long stories; one or two sentences are enough.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "money": {
+    "simpleMeaning": "Money used to buy things or returned to you.",
+    "contextMeaning": "You want to check how your money is returned.",
+    "translationJa": "買い物に使うお金。",
+    "reading": "",
+    "translationEs": "Dinero para comprar o que te devuelven.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "options": {
+    "simpleMeaning": "Choices you have to solve a problem.",
+    "contextMeaning": "Ask what choices the shop offers you.",
+    "translationJa": "選べること。",
+    "reading": "",
+    "translationEs": "Opciones disponibles que tienes.",
+    "example": "Once you have explained the problem, ask what options are available.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "original": {
+    "simpleMeaning": "Original means first or true, not changed.",
+    "contextMeaning": "Bring original box if you have it.",
+    "translationJa": "最初の、本物の。",
+    "reading": "",
+    "translationEs": "Original, no cambiado.",
+    "example": "You also need the original packaging if you still have it, and the item itself.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "problem": {
+    "simpleMeaning": "A thing that is wrong with the item or situation.",
+    "contextMeaning": "Say what is wrong about the product.",
+    "translationJa": "問題。",
+    "reading": "",
+    "translationEs": "Problema que tienes.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "shops": {
+    "simpleMeaning": "More than one store place.",
+    "contextMeaning": "Phrases work in many shops.",
+    "translationJa": "たくさんの店。",
+    "reading": "",
+    "translationEs": "Varias tiendas o comercios.",
+    "example": "These phrases work in most shops.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "size": {
+    "simpleMeaning": "The size of clothes or shoes.",
+    "contextMeaning": "You got the jacket in wrong size.",
+    "translationJa": "サイズ、大きさ。",
+    "reading": "",
+    "translationEs": "Tamaño o medida.",
+    "example": "For example, Yuki received a jacket in the wrong size.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "two": {
+    "simpleMeaning": "Number two.",
+    "contextMeaning": "Use two sentences, not long stories.",
+    "translationJa": "数字の２。",
+    "reading": "ツー",
+    "translationEs": "Número dos.",
+    "example": "Avoid long stories; one or two sentences are enough.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "use": {
+    "simpleMeaning": "To use something for a purpose.",
+    "contextMeaning": "Used once means worn or tried one time.",
+    "translationJa": "使うこと。",
+    "reading": "",
+    "translationEs": "Utilizar algo.",
+    "example": ", or \"It stopped working after one use.\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "bring": {
+    "simpleMeaning": "To bring a thing with you.",
+    "contextMeaning": "Bring right evidence to the store.",
+    "translationJa": "持って来る。",
+    "reading": "",
+    "translationEs": "Llevar algo contigo.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "clear": {
+    "simpleMeaning": "Easy to understand, not confusing.",
+    "contextMeaning": "One clear sentence helped start the return.",
+    "translationJa": "わかりやすい。",
+    "reading": "",
+    "translationEs": "Claro, fácil de entender.",
+    "example": "That one clear sentence gave the assistant everything needed to start the return.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "evidence": {
+    "simpleMeaning": "Proof or something that shows truth.",
+    "contextMeaning": "Bring proof like receipt or photos.",
+    "translationJa": "証拠。",
+    "reading": "",
+    "translationEs": "Prueba que muestra la verdad.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "example": {
+    "simpleMeaning": "A sample to show how to say something.",
+    "contextMeaning": "Example of a wrong size jacket.",
+    "translationJa": "例。",
+    "reading": "",
+    "translationEs": "Ejemplo o muestra.",
+    "example": "For example, Yuki received a jacket in the wrong size.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "explain": {
+    "simpleMeaning": "To say why or how something is.",
+    "contextMeaning": "Explain your problem to the assistant.",
+    "translationJa": "説明すること。",
+    "reading": "エクスプレイン",
+    "translationEs": "Decir por qué o cómo.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "get": {
+    "simpleMeaning": "To get or receive something.",
+    "contextMeaning": "Ask if you can get a refund.",
+    "translationJa": "もらうこと。",
+    "reading": "",
+    "translationEs": "Recibir o conseguir.",
+    "example": "Two simple questions cover most situations: \"Is it possible to get a refund?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "left": {
+    "simpleMeaning": "The left side of something.",
+    "contextMeaning": "Left side of headphones has no sound.",
+    "translationJa": "左の方。",
+    "reading": "ヒダリ",
+    "translationEs": "Lado izquierdo.",
+    "example": "For example, Carlos opened his headphones and found the left side had no sound.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "online": {
+    "simpleMeaning": "From the internet, not a store.",
+    "contextMeaning": "You ordered the item online.",
+    "translationJa": "インターネットで注文した。",
+    "reading": "オンライン",
+    "translationEs": "Comprado por internet.",
+    "example": "You ordered something online, but it arrived wrong or broken.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "packaging": {
+    "simpleMeaning": "The box or wrap the item comes in.",
+    "contextMeaning": "Bring the original packaging too.",
+    "translationJa": "商品の箱や包み。",
+    "reading": "",
+    "translationEs": "Embalaje original.",
+    "example": "You also need the original packaging if you still have it, and the item itself.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "policy": {
+    "simpleMeaning": "Rules or plans made by a shop or company.",
+    "contextMeaning": "Check the shop's rules for returns.",
+    "translationJa": "ルールや方針。",
+    "reading": "",
+    "translationEs": "Reglas dadas por la tienda.",
+    "example": "Always check the shop's own return policy for the exact documents they need.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "possible": {
+    "simpleMeaning": "Able to happen or do.",
+    "contextMeaning": "Ask if it is possible to get your money back.",
+    "translationJa": "できるかどうか。",
+    "reading": "ポッシブル",
+    "translationEs": "Que algo se pueda hacer.",
+    "example": "Two simple questions cover most situations: \"Is it possible to get a refund?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "received": {
+    "simpleMeaning": "Got or received something.",
+    "contextMeaning": "Yuki got a jacket of the wrong size.",
+    "translationJa": "受け取った。",
+    "reading": "レシーブド",
+    "translationEs": "Recibido.",
+    "example": "For example, Yuki received a jacket in the wrong size.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "returned": {
+    "simpleMeaning": "Given or sent back to you.",
+    "contextMeaning": "Ask how money is returned after refund.",
+    "translationJa": "返された。",
+    "reading": "",
+    "translationEs": "Devuelto.",
+    "example": "Always ask how the money is returned.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sentences": {
+    "simpleMeaning": "Group of words with a subject and verb.",
+    "contextMeaning": "Use one or two sentences to explain.",
+    "translationJa": "文。",
+    "reading": "センテンス",
+    "translationEs": "Oraciones o frases.",
+    "example": "Avoid long stories; one or two sentences are enough.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "side": {
+    "simpleMeaning": "A side or part of an object.",
+    "contextMeaning": "Left side of headphones didn't work.",
+    "translationJa": "側面。",
+    "reading": "サイド",
+    "translationEs": "Lado o parte.",
+    "example": "For example, Carlos opened his headphones and found the left side had no sound.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "used": {
+    "simpleMeaning": "Used before, not new.",
+    "contextMeaning": "Card or account you already used to pay.",
+    "translationJa": "使ったことがある。",
+    "reading": "",
+    "translationEs": "Usado.",
+    "example": "Many shops also ask for the card or account you used to pay.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "will": {
+    "simpleMeaning": "Will means something is sure to happen.",
+    "contextMeaning": "You will learn about returns and refunds.",
+    "translationJa": "〜するだろう。",
+    "reading": "",
+    "translationEs": "Algo que pasará.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "work": {
+    "simpleMeaning": "To work or function well.",
+    "contextMeaning": "These phrases work in shops.",
+    "translationJa": "うまく動く。",
+    "reading": "",
+    "translationEs": "Funcionar.",
+    "example": "These phrases work in most shops.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "account": {
+    "simpleMeaning": "A bank or money account.",
+    "contextMeaning": "Shop may ask for your payment account.",
+    "translationJa": "口座。",
+    "reading": "アカウント",
+    "translationEs": "Cuenta bancaria o de pago.",
+    "example": "Many shops also ask for the card or account you used to pay.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "arrived": {
+    "simpleMeaning": "Came to you.",
+    "contextMeaning": "Your order arrived at your home.",
+    "translationJa": "届いた。",
+    "reading": "",
+    "translationEs": "Llegó.",
+    "example": "You ordered something online, but it arrived wrong or broken.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "asking": {
+    "simpleMeaning": "To ask a question.",
+    "contextMeaning": "Asking helps get information even if slow.",
+    "translationJa": "質問すること。",
+    "reading": "",
+    "translationEs": "Preguntar.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "available": {
+    "simpleMeaning": "Able to get or use now.",
+    "contextMeaning": "Ask which options are ready for you.",
+    "translationJa": "利用できる。",
+    "reading": "",
+    "translationEs": "Disponible.",
+    "example": "Once you have explained the problem, ask what options are available.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "back": {
+    "simpleMeaning": "To the place you came from.",
+    "contextMeaning": "Refund goes back to your payment card.",
+    "translationJa": "もとに戻る。",
+    "reading": "バック",
+    "translationEs": "De regreso.",
+    "example": "Say: \"Will the refund go back to my original payment method?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "bought": {
+    "simpleMeaning": "Bought something before now.",
+    "contextMeaning": "He said he bought online.",
+    "translationJa": "買った。",
+    "reading": "",
+    "translationEs": "Comprado.",
+    "example": "He said to the assistant, \"I bought these online and the left side doesn't work.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "broken": {
+    "simpleMeaning": "Not working or broken.",
+    "contextMeaning": "Your item did not work right when it arrived.",
+    "translationJa": "壊れている。",
+    "reading": "",
+    "translationEs": "Roto.",
+    "example": "You ordered something online, but it arrived wrong or broken.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "cannot": {
+    "simpleMeaning": "Not able to do something.",
+    "contextMeaning": "Assistant cannot say answer fast.",
+    "translationJa": "できない。",
+    "reading": "",
+    "translationEs": "No puede.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "clearly": {
+    "simpleMeaning": "In a way easy to understand.",
+    "contextMeaning": "Explain your problem clearly.",
+    "translationJa": "はっきりと。",
+    "reading": "",
+    "translationEs": "Claramente.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "collect": {
+    "simpleMeaning": "To get or take something to you.",
+    "contextMeaning": "Collect your receipts and proofs before going.",
+    "translationJa": "集める。",
+    "reading": "",
+    "translationEs": "Recolectar.",
+    "example": "Before you go to the shop, collect your evidence.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "colour": {
+    "simpleMeaning": "A color or shade of something.",
+    "contextMeaning": "The color does not match the website.",
+    "translationJa": "色。",
+    "reading": "カラー",
+    "translationEs": "Color.",
+    "example": ", \"The colour is different from the website.\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "correct": {
+    "simpleMeaning": "Right or true, not wrong.",
+    "contextMeaning": "Ask to exchange for the correct size.",
+    "translationJa": "正しい。",
+    "reading": "コレクト",
+    "translationEs": "Correcto.",
+    "example": "and \"Can I exchange this for the correct size?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "cover": {
+    "simpleMeaning": "Include or cover about a topic.",
+    "contextMeaning": "Two questions cover most return cases.",
+    "translationJa": "含む。",
+    "reading": "",
+    "translationEs": "Cubrir.",
+    "example": "Two simple questions cover most situations: \"Is it possible to get a refund?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "details": {
+    "simpleMeaning": "Information about return rules.",
+    "contextMeaning": "Check details before going to return.",
+    "translationJa": "詳細。",
+    "reading": "",
+    "translationEs": "Detalles.",
+    "example": "Every shop has its own return policy, so check the details before you go.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "different": {
+    "simpleMeaning": "Not the same as another thing.",
+    "contextMeaning": "Color is different from website.",
+    "translationJa": "違う。",
+    "reading": "",
+    "translationEs": "Diferente.",
+    "example": ", \"The colour is different from the website.\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "differently": {
+    "simpleMeaning": "Done in a different way.",
+    "contextMeaning": "Shops handle returns differently.",
+    "translationJa": "違う方法。",
+    "reading": "",
+    "translationEs": "De forma diferente.",
+    "example": "Shops handle this differently, so it is important to ask.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "documents": {
+    "simpleMeaning": "Papers needed for return.",
+    "contextMeaning": "Bring all needed return documents.",
+    "translationJa": "書類。",
+    "reading": "",
+    "translationEs": "Documentos.",
+    "example": "Always check the shop's own return policy for the exact documents they need.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "doesn't": {
+    "simpleMeaning": "Does not do something.",
+    "contextMeaning": "Left side of headphones doesn't work.",
+    "translationJa": "〜しない。",
+    "reading": "",
+    "translationEs": "No hace eso.",
+    "example": "He said to the assistant, \"I bought these online and the left side doesn't work.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "enough": {
+    "simpleMeaning": "Enough means sufficient, not less.",
+    "contextMeaning": "One or two sentences are enough.",
+    "translationJa": "十分な。",
+    "reading": "",
+    "translationEs": "Suficiente.",
+    "example": "Avoid long stories; one or two sentences are enough.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "everything": {
+    "simpleMeaning": "All things needed for a purpose.",
+    "contextMeaning": "Your sentence gave all needed info.",
+    "translationJa": "すべて。",
+    "reading": "",
+    "translationEs": "Todo.",
+    "example": "That one clear sentence gave the assistant everything needed to start the return.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "exact": {
+    "simpleMeaning": "Exactly the same, not different.",
+    "contextMeaning": "Shop needs exact documents for return.",
+    "translationJa": "正確な。",
+    "reading": "",
+    "translationEs": "Exacto.",
+    "example": "Always check the shop's own return policy for the exact documents they need.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "explained": {
+    "simpleMeaning": "Make known your problem.",
+    "contextMeaning": "Say what is wrong before asking options.",
+    "translationJa": "説明した。",
+    "reading": "",
+    "translationEs": "Explicado.",
+    "example": "Once you have explained the problem, ask what options are available.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "explanation": {
+    "simpleMeaning": "A short reason or cause.",
+    "contextMeaning": "Keep your explanation short and clear.",
+    "translationJa": "説明。",
+    "reading": "エクスプレネーション",
+    "translationEs": "Explicación.",
+    "example": "Keep your explanation short and specific.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "found": {
+    "simpleMeaning": "To find something.",
+    "contextMeaning": "Carlos found that left headphone had no sound.",
+    "translationJa": "見つけた。",
+    "reading": "",
+    "translationEs": "Encontró.",
+    "example": "For example, Carlos opened his headphones and found the left side had no sound.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "front": {
+    "simpleMeaning": "In front or before something.",
+    "contextMeaning": "Asking puts info in front of you.",
+    "translationJa": "前に。",
+    "reading": "フロント",
+    "translationEs": "Delante.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "gave": {
+    "simpleMeaning": "Gave something to someone.",
+    "contextMeaning": "Your sentence gave assistant needed info.",
+    "translationJa": "与えた。",
+    "reading": "",
+    "translationEs": "Dio.",
+    "example": "That one clear sentence gave the assistant everything needed to start the return.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "give": {
+    "simpleMeaning": "To give something.",
+    "contextMeaning": "Asking gives info to the assistant.",
+    "translationJa": "与える。",
+    "reading": "",
+    "translationEs": "Dar.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "handle": {
+    "simpleMeaning": "To do or manage something.",
+    "contextMeaning": "Shops handle returns in different ways.",
+    "translationJa": "扱う。",
+    "reading": "",
+    "translationEs": "Manejar.",
+    "example": "Shops handle this differently, so it is important to ask.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "happens": {
+    "simpleMeaning": "What happens means what takes place.",
+    "contextMeaning": "You check what happens with your money.",
+    "translationJa": "起こること。",
+    "reading": "",
+    "translationEs": "Sucede.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "headphones": {
+    "simpleMeaning": "Device to listen to sound near your ears.",
+    "contextMeaning": "Carlos opened headphones and found problem.",
+    "translationJa": "ヘッドフォン。",
+    "reading": "ヘッドホン",
+    "translationEs": "Auriculares.",
+    "example": "For example, Carlos opened his headphones and found the left side had no sound.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "immediately": {
+    "simpleMeaning": "Right away, without delay.",
+    "contextMeaning": "The assistant scanned the order number immediately.",
+    "translationJa": "すぐに。",
+    "reading": "",
+    "translationEs": "Inmediatamente.",
+    "example": "The assistant scanned the order number immediately.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "important": {
+    "simpleMeaning": "Very needed or important.",
+    "contextMeaning": "Asking is important because shops differ.",
+    "translationJa": "重要な。",
+    "reading": "",
+    "translationEs": "Importante.",
+    "example": "Shops handle this differently, so it is important to ask.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "information": {
+    "simpleMeaning": "Facts or knowledge about something.",
+    "contextMeaning": "Asking puts information where you see it.",
+    "translationJa": "情報。",
+    "reading": "",
+    "translationEs": "Información.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "instant": {
+    "simpleMeaning": "Happening right now, fast answer.",
+    "contextMeaning": "Assistant can't always give instant answer.",
+    "translationJa": "即時の。",
+    "reading": "",
+    "translationEs": "Instantáneo.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "itself": {
+    "simpleMeaning": "The product or thing itself, not other parts.",
+    "contextMeaning": "Bring the item itself, not only box.",
+    "translationJa": "それ自身。",
+    "reading": "",
+    "translationEs": "El mismo objeto.",
+    "example": "You also need the original packaging if you still have it, and the item itself.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "jacket": {
+    "simpleMeaning": "A short coat you wear.",
+    "contextMeaning": "Yuki got a jacket in wrong size.",
+    "translationJa": "ジャケット。",
+    "reading": "",
+    "translationEs": "Chaqueta.",
+    "example": "For example, Yuki received a jacket in the wrong size.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "learn": {
+    "simpleMeaning": "To get information or skill.",
+    "contextMeaning": "You learn how to handle returns.",
+    "translationJa": "学ぶ。",
+    "reading": "",
+    "translationEs": "Aprender.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "longer": {
+    "simpleMeaning": "More time than before.",
+    "contextMeaning": "Without number, return took much longer.",
+    "translationJa": "もっと長く。",
+    "reading": "",
+    "translationEs": "Más tiempo.",
+    "example": "Without that number, the return would have taken much longer.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "method": {
+    "simpleMeaning": "A way to do something.",
+    "contextMeaning": "Refund goes to your original payment method.",
+    "translationJa": "方法。",
+    "reading": "",
+    "translationEs": "Método.",
+    "example": "Say: \"Will the refund go back to my original payment method?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "much": {
+    "simpleMeaning": "A large amount.",
+    "contextMeaning": "Return took much longer time.",
+    "translationJa": "たくさん。",
+    "reading": "",
+    "translationEs": "Mucho.",
+    "example": "Without that number, the return would have taken much longer.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "needed": {
+    "simpleMeaning": "Needed for a purpose.",
+    "contextMeaning": "Sentence gave all needed info for return.",
+    "translationJa": "必要な。",
+    "reading": "",
+    "translationEs": "Necesario.",
+    "example": "That one clear sentence gave the assistant everything needed to start the return.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "opened": {
+    "simpleMeaning": "To open something like a box or bag.",
+    "contextMeaning": "Carlos opened headphones to check problem.",
+    "translationJa": "開けた。",
+    "reading": "",
+    "translationEs": "Abrió.",
+    "example": "For example, Carlos opened his headphones and found the left side had no sound.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "ordered": {
+    "simpleMeaning": "To ask for something to be sent to you.",
+    "contextMeaning": "You ordered the item online.",
+    "translationJa": "注文した。",
+    "reading": "",
+    "translationEs": "Pedido.",
+    "example": "You ordered something online, but it arrived wrong or broken.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "pay": {
+    "simpleMeaning": "Give money to pay for something.",
+    "contextMeaning": "Used card or account to pay.",
+    "translationJa": "支払う。",
+    "reading": "",
+    "translationEs": "Pagar.",
+    "example": "Many shops also ask for the card or account you used to pay.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "payment": {
+    "simpleMeaning": "The act of paying money.",
+    "contextMeaning": "Refund goes back to your payment method.",
+    "translationJa": "支払い。",
+    "reading": "",
+    "translationEs": "Pago.",
+    "example": "Say: \"Will the refund go back to my original payment method?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "phone": {
+    "simpleMeaning": "A phone you carry to make calls or online.",
+    "contextMeaning": "She showed order email on her phone.",
+    "translationJa": "携帯電話。",
+    "reading": "フォン",
+    "translationEs": "Teléfono móvil.",
+    "example": "She took her phone to the shop and showed the assistant her order confirmation email.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "phrases": {
+    "simpleMeaning": "Groups of words to use.",
+    "contextMeaning": "Phrases work in many shops.",
+    "translationJa": "フレーズ。",
+    "reading": "フレーズ",
+    "translationEs": "Frases usadas.",
+    "example": "These phrases work in most shops.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "prefer": {
+    "simpleMeaning": "Want one thing more than another.",
+    "contextMeaning": "If unsure, ask your options.",
+    "translationJa": "好む。",
+    "reading": "",
+    "translationEs": "Preferir.",
+    "example": "If you are not sure which you prefer, ask: \"What are my options?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "printed": {
+    "simpleMeaning": "Printed on paper from a computer.",
+    "contextMeaning": "Bring a printed order number if you want.",
+    "translationJa": "印刷された。",
+    "reading": "",
+    "translationEs": "Impreso.",
+    "example": "You need the order confirmation email or a printed order number.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "puts": {
+    "simpleMeaning": "To put something somewhere.",
+    "contextMeaning": "Asking puts info in front of you.",
+    "translationJa": "置く。",
+    "reading": "",
+    "translationEs": "Poner.",
+    "example": "The assistant cannot always give you an instant answer, but asking puts the information in front of you.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "right": {
+    "simpleMeaning": "Right or correct things.",
+    "contextMeaning": "Bring right proof and explain problem.",
+    "translationJa": "正しい。",
+    "reading": "",
+    "translationEs": "Correcto.",
+    "example": "You will learn how to bring the right evidence, explain the problem clearly, ask about a refund or exchange, and check what happens to your money.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "said": {
+    "simpleMeaning": "To say something in the past.",
+    "contextMeaning": "He said he bought online and had problem.",
+    "translationJa": "言った。",
+    "reading": "",
+    "translationEs": "Dijo.",
+    "example": "He said to the assistant, \"I bought these online and the left side doesn't work.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "scanned": {
+    "simpleMeaning": "To scan a barcode or number to read it.",
+    "contextMeaning": "Assistant scanned order number fast.",
+    "translationJa": "スキャンした。",
+    "reading": "",
+    "translationEs": "Escanear.",
+    "example": "The assistant scanned the order number immediately.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sentence": {
+    "simpleMeaning": "A group of words with meaning.",
+    "contextMeaning": "One sentence helped start your return.",
+    "translationJa": "文。",
+    "reading": "センテンス",
+    "translationEs": "Oración.",
+    "example": "That one clear sentence gave the assistant everything needed to start the return.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "short": {
+    "simpleMeaning": "Not long or large in size or time.",
+    "contextMeaning": "Keep explanation short and clear.",
+    "translationJa": "短い。",
+    "reading": "",
+    "translationEs": "Corto.",
+    "example": "Keep your explanation short and specific.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "showed": {
+    "simpleMeaning": "To show something to another person.",
+    "contextMeaning": "She showed her phone screen to assistant.",
+    "translationJa": "見せた。",
+    "reading": "",
+    "translationEs": "Mostró.",
+    "example": "She took her phone to the shop and showed the assistant her order confirmation email.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "simple": {
+    "simpleMeaning": "Easy to understand or not hard.",
+    "contextMeaning": "Two simple questions cover most cases.",
+    "translationJa": "簡単な。",
+    "reading": "",
+    "translationEs": "Simple.",
+    "example": "Two simple questions cover most situations: \"Is it possible to get a refund?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "situations": {
+    "simpleMeaning": "Events or things happening.",
+    "contextMeaning": "Two questions cover most situations.",
+    "translationJa": "状況。",
+    "reading": "",
+    "translationEs": "Situaciones.",
+    "example": "Two simple questions cover most situations: \"Is it possible to get a refund?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "something": {
+    "simpleMeaning": "A thing or object.",
+    "contextMeaning": "Online order arrived wrong or broken.",
+    "translationJa": "何か。",
+    "reading": "",
+    "translationEs": "Algo.",
+    "example": "You ordered something online, but it arrived wrong or broken.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sound": {
+    "simpleMeaning": "The noise you hear.",
+    "contextMeaning": "Left headphone side had no sound.",
+    "translationJa": "音。",
+    "reading": "サウンド",
+    "translationEs": "Sonido.",
+    "example": "For example, Carlos opened his headphones and found the left side had no sound.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "specific": {
+    "simpleMeaning": "Clear and exact, not general.",
+    "contextMeaning": "Keep your explanation specific.",
+    "translationJa": "具体的な。",
+    "reading": "",
+    "translationEs": "Específico.",
+    "example": "Keep your explanation short and specific.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "start": {
+    "simpleMeaning": "To begin something.",
+    "contextMeaning": "Clear sentence started return process.",
+    "translationJa": "始める。",
+    "reading": "",
+    "translationEs": "Empezar.",
+    "example": "That one clear sentence gave the assistant everything needed to start the return.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "still": {
+    "simpleMeaning": "Still means before now and continuing.",
+    "contextMeaning": "You have the original box if still kept.",
+    "translationJa": "まだ。",
+    "reading": "",
+    "translationEs": "Todavía.",
+    "example": "You also need the original packaging if you still have it, and the item itself.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "stopped": {
+    "simpleMeaning": "To stop doing something.",
+    "contextMeaning": "Item stopped working after one use.",
+    "translationJa": "止まった。",
+    "reading": "",
+    "translationEs": "Paró.",
+    "example": ", or \"It stopped working after one use.\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "stories": {
+    "simpleMeaning": "Stories are long talks or texts.",
+    "contextMeaning": "Use short sentences, not long stories.",
+    "translationJa": "物語。",
+    "reading": "",
+    "translationEs": "Historias.",
+    "example": "Avoid long stories; one or two sentences are enough.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sure": {
+    "simpleMeaning": "To be sure, certain or confident.",
+    "contextMeaning": "If not sure, ask about your options.",
+    "translationJa": "確信している。",
+    "reading": "",
+    "translationEs": "Seguro.",
+    "example": "If you are not sure which you prefer, ask: \"What are my options?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "take": {
+    "simpleMeaning": "To need time to finish something.",
+    "contextMeaning": "Ask how long money takes to return.",
+    "translationJa": "時間がかかる。",
+    "reading": "",
+    "translationEs": "Tomar tiempo.",
+    "example": "or \"How long does the refund usually take?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "taken": {
+    "simpleMeaning": "Something finished in past.",
+    "contextMeaning": "Return would have taken longer without number.",
+    "translationJa": "かかった。",
+    "reading": "",
+    "translationEs": "Tomó.",
+    "example": "Without that number, the return would have taken much longer.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "takes": {
+    "simpleMeaning": "How long something lasts or happens.",
+    "contextMeaning": "Ask how long refund takes.",
+    "translationJa": "かかる時間。",
+    "reading": "",
+    "translationEs": "Tardar.",
+    "example": "Always ask how your money is returned and how long it takes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "took": {
+    "simpleMeaning": "Took means carried or brought something.",
+    "contextMeaning": "She took her phone to the shop.",
+    "translationJa": "持って行った。",
+    "reading": "",
+    "translationEs": "Llevó.",
+    "example": "She took her phone to the shop and showed the assistant her order confirmation email.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "unhappy": {
+    "simpleMeaning": "Feeling not happy.",
+    "contextMeaning": "Say what is wrong, not just unhappy.",
+    "translationJa": "不満。",
+    "reading": "",
+    "translationEs": "Infeliz.",
+    "example": "Say what is wrong, not just that you are unhappy.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "unsure": {
+    "simpleMeaning": "Not sure or certain about something.",
+    "contextMeaning": "Ask what options if unsure.",
+    "translationJa": "不確か。",
+    "reading": "",
+    "translationEs": "Inseguro.",
+    "example": "if you are unsure.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "usually": {
+    "simpleMeaning": "Usually means normal or often.",
+    "contextMeaning": "Ask how long refund usually takes.",
+    "translationJa": "普通は。",
+    "reading": "",
+    "translationEs": "Normalmente.",
+    "example": "or \"How long does the refund usually take?\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "website": {
+    "simpleMeaning": "A website is a page on the internet.",
+    "contextMeaning": "Colour is different from the website photo.",
+    "translationJa": "ウェブサイト。",
+    "reading": "ウェブサイト",
+    "translationEs": "Sitio web.",
+    "example": ", \"The colour is different from the website.\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "working": {
+    "simpleMeaning": "Working means operating or doing its job.",
+    "contextMeaning": "Item stopped working after one use.",
+    "translationJa": "動作する。",
+    "reading": "",
+    "translationEs": "Funcionando.",
+    "example": ", or \"It stopped working after one use.\"",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  }
+}
