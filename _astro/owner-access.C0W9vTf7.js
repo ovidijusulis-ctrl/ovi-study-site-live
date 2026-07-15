@@ -1,0 +1,1 @@
+var e=Object.freeze([`ovidijusulis@gmail.com`]);function t(e=``){return String(e||``).replace(/\s+/gu,` `).trim().toLowerCase()}function n(n=``){return e.includes(t(n))}export{n as t};
