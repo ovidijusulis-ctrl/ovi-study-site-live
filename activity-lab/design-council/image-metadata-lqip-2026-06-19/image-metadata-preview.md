@@ -20,7 +20,7 @@ The design council synthesis is:
 - Review packet: `logs/ovi-autoresearch/image-metadata-lqip-review/latest.md`
 - Status: `repeat_import_path_freshness_proof_ready_owner_gate`
 - Score: `89/100`
-- Source fixture: `2026-06-10-choosing-something-fun-to-do-with-friends-a1`
+- Source fixture: `2026-06-10-playing-video-games`
 - Fixture images: `4`
 - Hidden image metadata lab ready: yes
 - First-party manifest ready: yes
