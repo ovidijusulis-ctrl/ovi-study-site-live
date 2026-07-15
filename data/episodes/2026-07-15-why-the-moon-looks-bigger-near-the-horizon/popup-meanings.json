@@ -1,0 +1,842 @@
+{
+  "angular size": {
+    "simpleMeaning": "How big an object looks as an angle from your eye, like the Moon’s size in the sky.",
+    "contextMeaning": "The angle size shows how large something appears from where you stand, regardless of its real size or distance.",
+    "translationJa": "目で見た時の物の見かけの大きさの角度。例えば月の角度のおよそ半度。",
+    "reading": "かくど",
+    "translationEs": "El tamaño aparente de un objeto medido como ángulo desde el ojo, como el tamaño de la Luna.",
+    "example": "Used in astronomy and perception research to describe apparent size independently of physical size or distance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "what is the moon illusion?": {
+    "simpleMeaning": "The Moon looks bigger near the horizon than high in the sky, though its real size doesn’t change.",
+    "contextMeaning": "This is a visual trick; photos show the Moon stays the same size all night.",
+    "translationJa": "月が地平線近くで大きく見える錯覚。実際の大きさは変わらない。",
+    "reading": "げっしょうかくかく",
+    "translationEs": "La Luna parece más grande en el horizonte que en lo alto, aunque su tamaño real no cambia.",
+    "example": "The effect is entirely perceptual; photographs show the Moon's disc is the same size throughout the night.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "perceived distance": {
+    "simpleMeaning": "How far away the brain thinks something is, which can be different from the true distance.",
+    "contextMeaning": "Believing the Moon is farther causes the brain to see it as larger.",
+    "translationJa": "脳が感じる物の距離。実際の距離と違うことがある。",
+    "reading": "にんしききょり",
+    "translationEs": "La distancia que percibe el cerebro, que puede diferir de la distancia real.",
+    "example": "Kaufman and Kaufman showed that when observers believed the Moon was farther away, they judged it as larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "what did kaufman and kaufman conclude in their 2000 study?": {
+    "simpleMeaning": "The brain decides size by how far it thinks an object is, not just by image size on the eye.",
+    "contextMeaning": "A landscape at the horizon seems farther, so the brain makes the Moon look bigger there.",
+    "translationJa": "脳は見かけの大きさを距離を基に計算する。地平線の景色が遠く感じられ月を大きく見せる。",
+    "reading": "",
+    "translationEs": "El cerebro calcula el tamaño aparente usando la distancia percibida, haciendo que la Luna en el horizonte parezca más grande.",
+    "example": "Published in the Proceedings of the National Academy of Sciences, 2000.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "telephoto lens": {
+    "simpleMeaning": "A long camera lens that makes far things look bigger and closer together.",
+    "contextMeaning": "It lets photographers copy the Moon illusion by showing Moon and landmarks at similar sizes.",
+    "translationJa": "遠くの物を大きく写す長いレンズ。月の錯覚を写真で再現できる。",
+    "reading": "テレフォトレンズ",
+    "translationEs": "Un lente largo que amplía objetos distantes y comprime la profundidad, recreando la ilusión de la Luna.",
+    "example": "A telephoto lens placed far from a landmark brings the Moon and the landmark to a similar apparent scale in the frame.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "why do trees and buildings strengthen the moon illusion?": {
+    "simpleMeaning": "Trees and buildings help the brain judge size, making the Moon look bigger near them.",
+    "contextMeaning": "They give size clues that don’t exist when the Moon is high in the sky, so the brain scales the Moon up near the horizon.",
+    "translationJa": "木や建物が大きさの基準となり、月をあたかも大きく見せる。",
+    "reading": "",
+    "translationEs": "Los árboles y edificios son referencias que hacen que la Luna parezca más grande cerca de ellos.",
+    "example": "Overhead, there are no reference objects, so the brain does not scale the Moon up.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "what is the flattened-sky theory of the moon illusion?": {
+    "simpleMeaning": "People see the sky as a flat dome, so the horizon feels farther and objects there look bigger.",
+    "contextMeaning": "This idea explains the Moon illusion alongside the brain’s distance scaling.",
+    "translationJa": "空を平らに感じ、地平線が遠く見え、物が大きく見える理論。",
+    "reading": "うちゅうへいかんせい",
+    "translationEs": "Las personas perciben el cielo como un domo plano; el horizonte parece más lejano y los objetos allí se ven más grandes.",
+    "example": "This theory works alongside the apparent-distance theory to explain why the horizon moon looks larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "why doesn't a wide-angle camera show the moon illusion?": {
+    "simpleMeaning": "Wide-angle cameras show the real size of the Moon, without the brain’s size tricks.",
+    "contextMeaning": "Only a telephoto lens with a distant object can copy the Moon illusion in photos.",
+    "translationJa": "広角レンズは実際の月の大きさを写し、錯覚は映らない。",
+    "reading": "こうかくレンズ",
+    "translationEs": "Una cámara gran angular muestra el tamaño real de la Luna sin la escala perceptual del cerebro.",
+    "example": "Photographers need a telephoto lens and a distant landmark to recreate the illusion in a photograph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "illusion": {
+    "simpleMeaning": "An illusion is when something looks different from what it really is.",
+    "contextMeaning": "Here, 'Moon illusion' means the Moon appears bigger near the horizon even though it isn't.",
+    "translationJa": "この文脈で「illusion」とは、月が地平線の近くで大きく見える現象のことです。",
+    "reading": "",
+    "translationEs": "Aquí, \"illusion\" se refiere a que la Luna parece más grande cerca del horizonte, aunque no lo sea.",
+    "example": "Scientists call this the Moon illusion, and its true cause has been debated for centuries.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sky": {
+    "simpleMeaning": "The sky is the space above the Earth where we see clouds and the Moon.",
+    "contextMeaning": "It means the Moon moves across the area above the Earth.",
+    "translationJa": "この文脈の「sky」は、月が移動する地球の上の空間を指します。",
+    "reading": "",
+    "translationEs": "Aquí, \"sky\" es el espacio sobre la Tierra donde vemos la Luna moverse.",
+    "example": "The Moon does not change size as it crosses the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "larger": {
+    "simpleMeaning": "Larger means bigger in size.",
+    "contextMeaning": "Near the horizon, the Moon looks much bigger than when it is above your head.",
+    "translationJa": "「larger」とは、もっと大きいことを意味し、ここでは地平線の近くの月が頭上より大きく見えることです。",
+    "reading": "",
+    "translationEs": "\"Larger\" significa más grande; aquí, la Luna parece más grande cerca del horizonte que cuando está arriba.",
+    "example": "Yet near the horizon it looks dramatically larger than it does overhead.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "overhead": {
+    "simpleMeaning": "Overhead means directly above your head.",
+    "contextMeaning": "It refers to the position of the Moon high above in the sky.",
+    "translationJa": "「overhead」は頭の真上のこと、この文脈では空の高い位置の月を指します。",
+    "reading": "オーバーヘッド",
+    "translationEs": "\"Overhead\" significa justo sobre tu cabeza; aquí refiere a la Luna en lo alto del cielo.",
+    "example": "Yet near the horizon it looks dramatically larger than it does overhead.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "theory": {
+    "simpleMeaning": "A theory is an idea that explains how or why something happens.",
+    "contextMeaning": "The sentence talks about two scientific ideas explaining the Moon illusion.",
+    "translationJa": "「theory」とは、物事の原因や仕組みを説明する考えのことです。",
+    "reading": "セオリー",
+    "translationEs": "Una \"theory\" es una idea que explica cómo o por qué ocurre algo.",
+    "example": "Researchers have proposed many explanations over the centuries, but modern science points to two complementary mechanisms: the flattened-sky theory and the apparent-distance theory.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "apparent": {
+    "simpleMeaning": "Apparent means how something seems or looks.",
+    "contextMeaning": "Means the 'distance' that looks like it is there, even if not exact.",
+    "translationJa": "「apparent」は見た目や感じられる様子、ここでは見かけの距離の意味です。",
+    "reading": "アパレント",
+    "translationEs": "\"Apparent\" significa cómo algo parece o se ve.",
+    "example": "Researchers have proposed many explanations over the centuries, but modern science points to two complementary mechanisms: the flattened-sky theory and the apparent-distance theory.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "distant": {
+    "simpleMeaning": "Distant means far away.",
+    "contextMeaning": "It means the object is far from the observer's point of view.",
+    "translationJa": "「distant」は遠く離れていることを意味します。",
+    "reading": "ディスタント",
+    "translationEs": "\"Distant\" significa que está lejos.",
+    "example": "When the brain judges an object as being far away but occupying the same angle in the eye as a closer object, it automatically scales that object up — it concludes the distant object must be physically larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "flattened": {
+    "simpleMeaning": "Flattened means made flat or less curved.",
+    "contextMeaning": "Here it describes the sky as seen less curved than a dome.",
+    "translationJa": "「flattened」は平らにされた、または丸みが少ないことを意味します。",
+    "reading": "フラットンド",
+    "translationEs": "\"Flattened\" significa algo menos curvado o más plano.",
+    "example": "Researchers have proposed many explanations over the centuries, but modern science points to two complementary mechanisms: the flattened-sky theory and the apparent-distance theory.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "frame": {
+    "simpleMeaning": "Frame means to make a border or shape around something to focus on it.",
+    "contextMeaning": "Forming a circle with fingers to look at the Moon inside it.",
+    "translationJa": "「frame」は何かの周りを囲んで注目すること、この場合は指で丸を作ることです。",
+    "reading": "",
+    "translationEs": "\"Frame\" significa crear un borde para enfocar algo, aquí usando los dedos para enmarcar la Luna.",
+    "example": "One simple test: form a small circle with your finger and thumb, hold it at arm's length, and use it to frame the Moon near the horizon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "landmark": {
+    "simpleMeaning": "A landmark is a well-known place or important study.",
+    "contextMeaning": "Here, it refers to an important scientific study.",
+    "translationJa": "この文脈の「landmark」は重要な研究や場所を意味します。",
+    "reading": "",
+    "translationEs": "Un \"landmark\" es un lugar o estudio importante o conocido.",
+    "example": "In a landmark study published in the Proceedings of the National Academy of Sciences in 2000, Lloyd Kaufman and James Kaufman tested observers using adjustable artificial moons.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "lens": {
+    "simpleMeaning": "A lens is a part of a camera that focuses light to make a clear picture.",
+    "contextMeaning": "Here, the camera lens takes photos showing the real size of the Moon.",
+    "translationJa": "「lens」はカメラの部品で光を集めて写真を撮るものです。",
+    "reading": "レンズ",
+    "translationEs": "Una \"lens\" es la parte de una cámara que enfoca la luz para hacer una foto.",
+    "example": "Because a camera lens measures light physically rather than through a human perceptual system, a standard wide-angle photo of the Moon near the horizon captures it at its true angular size — small, often disappointingly so.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "angle": {
+    "simpleMeaning": "Angle means the space between two lines or directions.",
+    "contextMeaning": "The size the Moon takes in your eye is an angle measurement.",
+    "translationJa": "「angle」は線や方向の間の角度のことです。",
+    "reading": "アングル",
+    "translationEs": "Un \"angle\" es el espacio entre dos líneas o direcciones.",
+    "example": "When the brain judges an object as being far away but occupying the same angle in the eye as a closer object, it automatically scales that object up — it concludes the distant object must be physically larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "angular": {
+    "simpleMeaning": "Angular relates to an angle or measurement of size seen from a point.",
+    "contextMeaning": "Describes the Moon's size as measured by angle from the eye.",
+    "translationJa": "「angular」は角度に関することで、ここでは目から見た月の大きさを表します。",
+    "reading": "",
+    "translationEs": "\"Angular\" se refiere a algo relacionado con el ángulo o tamaño visto desde un punto.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "arm": {
+    "simpleMeaning": "Arm is the part of the body from shoulder to hand.",
+    "contextMeaning": "Move your arm to hold fingers in front of your eye to measure Moon size.",
+    "translationJa": "「arm」は肩から手までの腕の部分です。",
+    "reading": "アーム",
+    "translationEs": "\"Arm\" es la parte del cuerpo desde el hombro hasta la mano.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "eye": {
+    "simpleMeaning": "Eye is the organ used to see.",
+    "contextMeaning": "The Moon's size is measured by the angle it takes up in your eye.",
+    "translationJa": "「eye」は見るための器官のことです。",
+    "reading": "アイ",
+    "translationEs": "\"Eye\" es el órgano que usamos para ver.",
+    "example": "When the brain judges an object as being far away but occupying the same angle in the eye as a closer object, it automatically scales that object up — it concludes the distant object must be physically larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "farther": {
+    "simpleMeaning": "Farther means more far away in distance.",
+    "contextMeaning": "Here, the horizon seems farther away than the point above your head.",
+    "translationJa": "「farther」はより遠い距離を意味します。地平線が頭上より遠く感じられることです。",
+    "reading": "ファーザー",
+    "translationEs": "\"Farther\" significa más lejos en distancia.",
+    "example": "The horizon feels farther away than the overhead point.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "length": {
+    "simpleMeaning": "Length is how long something is.",
+    "contextMeaning": "Describes the size of a thumbnail held out at arm's length.",
+    "translationJa": "「length」は長さのことです。",
+    "reading": "レングス",
+    "translationEs": "\"Length\" es la medida de cuánto mide algo.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "moonrise": {
+    "simpleMeaning": "Moonrise is the time when the Moon appears above the horizon.",
+    "contextMeaning": "The Moon rising in the sky early in the evening.",
+    "translationJa": "「moonrise」は月が地平線に現れることを指します。",
+    "reading": "ムーンライズ",
+    "translationEs": "\"Moonrise\" es el momento en que la Luna aparece sobre el horizonte.",
+    "example": "Its distance from Earth stays nearly the same from moonrise to midnight.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "night": {
+    "simpleMeaning": "Night is the time when it is dark outside.",
+    "contextMeaning": "Here, a single night refers to the time from moonrise until midnight.",
+    "translationJa": "「night」は外が暗い時間のことです。",
+    "reading": "ナイト",
+    "translationEs": "\"Night\" es el tiempo cuando está oscuro afuera.",
+    "example": "NASA confirms that the Moon's actual distance from Earth changes only slightly over a single night — far too little to explain the dramatic size difference people report seeing.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "observer": {
+    "simpleMeaning": "An observer is a person who watches or notices something.",
+    "contextMeaning": "The Moon illusion happens inside the observer's mind.",
+    "translationJa": "「observer」は物を見ている人のことです。",
+    "reading": "オブザーバー",
+    "translationEs": "Un \"observer\" es alguien que mira o nota algo.",
+    "example": "The effect is entirely inside the observer's mind, not in the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "perceptual": {
+    "simpleMeaning": "Perceptual relates to how we see and understand things.",
+    "contextMeaning": "The camera sees light differently than human perception.",
+    "translationJa": "「perceptual」は見る・理解することに関係します。",
+    "reading": "パーセプチュアル",
+    "translationEs": "\"Perceptual\" se refiere a cómo vemos y entendemos las cosas.",
+    "example": "Because a camera lens measures light physically rather than through a human perceptual system, a standard wide-angle photo of the Moon near the horizon captures it at its true angular size — small, often disappointingly so.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "photograph": {
+    "simpleMeaning": "Photograph means to take a picture with a camera.",
+    "contextMeaning": "Taking photos of the Moon at different times.",
+    "translationJa": "「photograph」はカメラで写真を撮ることです。",
+    "reading": "フォトグラフ",
+    "translationEs": "\"Photograph\" significa tomar una foto con una cámara.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "reference": {
+    "simpleMeaning": "Reference means something used to compare or measure against.",
+    "contextMeaning": "Here, objects near the horizon help judge size and distance.",
+    "translationJa": "「reference」は比較や測定のための基準のことです。",
+    "reading": "",
+    "translationEs": "\"Reference\" es algo usado para comparar o medir.",
+    "example": "Overhead, there are no such reference objects.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "upward": {
+    "simpleMeaning": "Upward means moving or directed towards above.",
+    "contextMeaning": "The Moon near the horizon causes the brain to see it as bigger.",
+    "translationJa": "「upward」は上方向への動きを意味します。",
+    "reading": "アップワード",
+    "translationEs": "\"Upward\" significa hacia arriba.",
+    "example": "The Moon near the horizon triggers this upward scaling.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "actual": {
+    "simpleMeaning": "Actual means real or true, not imagined.",
+    "contextMeaning": "The Moon's real distance changes only a little during the night.",
+    "translationJa": "「actual」は実際の、本当のという意味です。",
+    "reading": "アクチュアル",
+    "translationEs": "\"Actual\" significa real o verdadero.",
+    "example": "NASA confirms that the Moon's actual distance from Earth changes only slightly over a single night — far too little to explain the dramatic size difference people report seeing.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "adjustable": {
+    "simpleMeaning": "Adjustable means able to be changed or moved to fit need.",
+    "contextMeaning": "They used fake moons that can change size for tests.",
+    "translationJa": "「adjustable」は調整できることを意味します。",
+    "reading": "アジャスタブル",
+    "translationEs": "\"Adjustable\" significa que puede cambiarse o ajustarse.",
+    "example": "In a landmark study published in the Proceedings of the National Academy of Sciences in 2000, Lloyd Kaufman and James Kaufman tested observers using adjustable artificial moons.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "approach": {
+    "simpleMeaning": "Approach means a way to do or think about something.",
+    "contextMeaning": "Photographers use a special method to copy how the eye sees the illusion.",
+    "translationJa": "「approach」は方法や考え方のことです。",
+    "reading": "アプローチ",
+    "translationEs": "\"Approach\" es una forma de hacer o pensar en algo.",
+    "example": "Photographers who want to recreate the illusion as the eye perceives it use a different approach.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "artificial": {
+    "simpleMeaning": "Artificial means made by humans, not natural.",
+    "contextMeaning": "Fake moons made for scientific tests.",
+    "translationJa": "「artificial」は人工的で自然でないことを意味します。",
+    "reading": "アーティフィシャル",
+    "translationEs": "\"Artificial\" significa hecho por humanos, no natural.",
+    "example": "In a landmark study published in the Proceedings of the National Academy of Sciences in 2000, Lloyd Kaufman and James Kaufman tested observers using adjustable artificial moons.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "believe": {
+    "simpleMeaning": "Believe means to accept something as true.",
+    "contextMeaning": "People find the Moon illusion very real and hard to doubt.",
+    "translationJa": "「believe」は何かを本当だと信じることです。",
+    "reading": "ビリーブ",
+    "translationEs": "\"Believe\" significa aceptar algo como verdad.",
+    "example": "The illusion is strong enough that most people find it hard to believe.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "believed": {
+    "simpleMeaning": "Believed means thought something was true before.",
+    "contextMeaning": "People thought the Moon was farther when setting size.",
+    "translationJa": "「believed」は前にそう思ったことです。",
+    "reading": "ビリーブド",
+    "translationEs": "\"Believed\" significa que algo se consideraba verdad antes.",
+    "example": "Participants consistently set the horizon moon larger when they believed it was farther away.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "camera": {
+    "simpleMeaning": "Camera is a device used to take photos.",
+    "contextMeaning": "The camera lens takes real-size pictures of the Moon.",
+    "translationJa": "「camera」は写真を撮る機械のことです。",
+    "reading": "カメラ",
+    "translationEs": "Una \"camera\" es un dispositivo para tomar fotos.",
+    "example": "Because a camera lens measures light physically rather than through a human perceptual system, a standard wide-angle photo of the Moon near the horizon captures it at its true angular size — small, often disappointingly so.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "captures": {
+    "simpleMeaning": "Captures means takes or records something clearly.",
+    "contextMeaning": "The camera records the Moon's true size in the picture.",
+    "translationJa": "「captures」は何かをはっきり記録することです。",
+    "reading": "キャプチャーズ",
+    "translationEs": "\"Captures\" significa tomar o registrar algo claramente.",
+    "example": "Because a camera lens measures light physically rather than through a human perceptual system, a standard wide-angle photo of the Moon near the horizon captures it at its true angular size — small, often disappointingly so.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "change": {
+    "simpleMeaning": "Change means to become different.",
+    "contextMeaning": "The Moon's size does not get bigger or smaller as it moves.",
+    "translationJa": "「change」は変わることを意味します。この文では月の大きさが変わらないこと。",
+    "reading": "チェンジ",
+    "translationEs": "\"Change\" significa hacerse diferente.",
+    "example": "The Moon does not change size as it crosses the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "closer": {
+    "simpleMeaning": "Closer means nearer in distance.",
+    "contextMeaning": "An object near you compared to farther away.",
+    "translationJa": "「closer」は近いことを意味します。",
+    "reading": "クローサー",
+    "translationEs": "\"Closer\" significa más cerca.",
+    "example": "When the brain judges an object as being far away but occupying the same angle in the eye as a closer object, it automatically scales that object up — it concludes the distant object must be physically larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "comparable": {
+    "simpleMeaning": "Comparable means similar enough to be compared.",
+    "contextMeaning": "The Moon and landmark look similar in size in photos.",
+    "translationJa": "「comparable」は比べられるほど似ていることです。",
+    "reading": "コンパラブル",
+    "translationEs": "\"Comparable\" significa suficientemente similar para comparar.",
+    "example": "When a photographer positions themselves far from a recognisable landmark — a skyline, a mountain ridge, or a famous monument — and shoots with a long lens, the Moon and the landmark appear side by side at comparable scales.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "complementary": {
+    "simpleMeaning": "Complementary means that two things work well together.",
+    "contextMeaning": "Two ideas explain the Moon illusion together.",
+    "translationJa": "「complementary」は二つのものがお互いをうまく補う意味です。",
+    "reading": "コンプリメンタリー",
+    "translationEs": "\"Complementary\" significa que dos cosas funcionan bien juntas.",
+    "example": "Researchers have proposed many explanations over the centuries, but modern science points to two complementary mechanisms: the flattened-sky theory and the apparent-distance theory.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "compresses": {
+    "simpleMeaning": "Compresses means presses or squeezes together.",
+    "contextMeaning": "The telephoto lens makes the Moon and landscape look bigger together.",
+    "translationJa": "「compresses」は押し縮めることを意味します。",
+    "reading": "コンプレッシズ",
+    "translationEs": "\"Compresses\" significa presionar o juntar cosas.",
+    "example": "NASA's guidance on photographing the Moon illusion explains that a telephoto lens compresses the scene: it makes both the Moon and the distant landscape appear larger relative to the frame.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "compute": {
+    "simpleMeaning": "Compute means to calculate or decide by thinking.",
+    "contextMeaning": "The brain calculates size based on how far something seems.",
+    "translationJa": "「compute」は計算したり判断したりすることです。",
+    "reading": "",
+    "translationEs": "\"Compute\" significa calcular o decidir pensando.",
+    "example": "Kaufman and Kaufman concluded that the brain uses perceived distance — not retinal image size — to compute apparent size, and that the filled landscape between the observer and the horizon makes the horizon feel more distant than the empty sky above.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "concluded": {
+    "simpleMeaning": "Concluded means decided after thinking or studying.",
+    "contextMeaning": "Scientists decided distance affects how big the Moon looks.",
+    "translationJa": "「concluded」は考えた後に結論を出すことです。",
+    "reading": "",
+    "translationEs": "\"Concluded\" significa decidir después de pensar o estudiar.",
+    "example": "Kaufman and Kaufman concluded that the brain uses perceived distance — not retinal image size — to compute apparent size, and that the filled landscape between the observer and the horizon makes the horizon feel more distant than the empty sky above.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "concludes": {
+    "simpleMeaning": "Concludes means decides or believes something after thinking.",
+    "contextMeaning": "The brain decides the distant object must be bigger.",
+    "translationJa": "「concludes」は考えて結論づけることです。",
+    "reading": "",
+    "translationEs": "\"Concludes\" significa decidir o creer algo después de pensar.",
+    "example": "When the brain judges an object as being far away but occupying the same angle in the eye as a closer object, it automatically scales that object up — it concludes the distant object must be physically larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "consistently": {
+    "simpleMeaning": "Consistently means always or regularly the same.",
+    "contextMeaning": "People always set the horizon Moon bigger when thinking it is farther.",
+    "translationJa": "「consistently」はいつも同じように、規則的にという意味です。",
+    "reading": "",
+    "translationEs": "\"Consistently\" significa siempre o regularmente igual.",
+    "example": "Participants consistently set the horizon moon larger when they believed it was farther away.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "constructs": {
+    "simpleMeaning": "Constructs means builds or forms a mental image.",
+    "contextMeaning": "The brain creates an image of the Moon as it looks near the horizon.",
+    "translationJa": "「constructs」は心の中で作り上げることを意味します。",
+    "reading": "コンストラクツ",
+    "translationEs": "\"Constructs\" significa formar o construir mentalmente.",
+    "example": "The resulting image matches what the brain constructs when standing at the horizon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "crosses": {
+    "simpleMeaning": "Crosses means moves across from one side to another.",
+    "contextMeaning": "The Moon moves from one side of the sky to the other.",
+    "translationJa": "「crosses」は横切る、行き渡ることです。",
+    "reading": "",
+    "translationEs": "\"Crosses\" significa moverse de un lado a otro.",
+    "example": "The Moon does not change size as it crosses the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "cues": {
+    "simpleMeaning": "Cues means signs or hints that help understanding.",
+    "contextMeaning": "Trees and buildings help the brain judge size and distance.",
+    "translationJa": "「cues」は理解を助ける合図や手がかりです。",
+    "reading": "",
+    "translationEs": "\"Cues\" son señales que ayudan a entender algo.",
+    "example": "Trees, buildings, and hills at the horizon give the brain real-world scale cues.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "debated": {
+    "simpleMeaning": "Debated means discussed with different opinions over time.",
+    "contextMeaning": "Scientists have talked about the cause of Moon illusion for many years.",
+    "translationJa": "「debated」は議論された、意見が分かれたという意味です。",
+    "reading": "ディベイティッド",
+    "translationEs": "\"Debated\" significa discutido con diferentes opiniones por tiempo.",
+    "example": "Scientists call this the Moon illusion, and its true cause has been debated for centuries.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "degree": {
+    "simpleMeaning": "Degree is a unit to measure angles or temperature.",
+    "contextMeaning": "Used here to describe the size of the Moon viewed from Earth.",
+    "translationJa": "「degree」は角度を測る単位のことです。",
+    "reading": "ディグリー",
+    "translationEs": "\"Degree\" es una unidad para medir ángulos o temperatura.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "disappointingly": {
+    "simpleMeaning": "Disappointingly means in a way that causes sadness or dissatisfaction.",
+    "contextMeaning": "Photos show the Moon as small, which may let people down.",
+    "translationJa": "「disappointingly」は期待外れに、がっかりさせる様子です。",
+    "reading": "",
+    "translationEs": "\"Disappointingly\" significa de una manera que causa decepción.",
+    "example": "Because a camera lens measures light physically rather than through a human perceptual system, a standard wide-angle photo of the Moon near the horizon captures it at its true angular size — small, often disappointingly so.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "disc": {
+    "simpleMeaning": "Disc is a flat, round shape like a circle.",
+    "contextMeaning": "The Moon looks like a circle when seen from Earth.",
+    "translationJa": "「disc」は丸くて平らな形のことです。",
+    "reading": "ディスク",
+    "translationEs": "\"Disc\" es una forma plana y redonda como un círculo.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "dramatically": {
+    "simpleMeaning": "Dramatically means in a very noticeable or extreme way.",
+    "contextMeaning": "The Moon looks much bigger near the horizon than it does overhead.",
+    "translationJa": "「dramatically」は非常に目立つ様子で、ここでは大きさの違いを指します。",
+    "reading": "",
+    "translationEs": "\"Dramatically\" significa de manera muy notable o extrema.",
+    "example": "Yet near the horizon it looks dramatically larger than it does overhead.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "enlarge": {
+    "simpleMeaning": "Enlarge means to make bigger.",
+    "contextMeaning": "The method does not make the Moon bigger in reality.",
+    "translationJa": "「enlarge」は大きくすることです。",
+    "reading": "エンラージ",
+    "translationEs": "\"Enlarge\" significa hacer algo más grande.",
+    "example": "This technique does not enlarge the Moon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "entirely": {
+    "simpleMeaning": "Entirely means completely or fully.",
+    "contextMeaning": "The Moon illusion happens only in the mind, not outside.",
+    "translationJa": "「entirely」は完全に、まったくという意味です。",
+    "reading": "エンタイアリー",
+    "translationEs": "\"Entirely\" significa completamente.",
+    "example": "The effect is entirely inside the observer's mind, not in the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "factor": {
+    "simpleMeaning": "Factor is a reason or cause that affects a result.",
+    "contextMeaning": "Nearby objects are an extra reason for the illusion.",
+    "translationJa": "「factor」は結果に影響を与える要因のことです。",
+    "reading": "",
+    "translationEs": "\"Factor\" es una razón o causa que afecta un resultado.",
+    "example": "A third factor can reinforce the illusion: nearby objects.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "finger": {
+    "simpleMeaning": "Finger is a part of the hand used to touch things.",
+    "contextMeaning": "Use your finger with thumb to make a circle to look at the Moon.",
+    "translationJa": "「finger」は手の指のことです。",
+    "reading": "フィンガー",
+    "translationEs": "\"Finger\" es la parte de la mano usada para tocar.",
+    "example": "One simple test: form a small circle with your finger and thumb, hold it at arm's length, and use it to frame the Moon near the horizon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "form": {
+    "simpleMeaning": "Form means to make or create a shape.",
+    "contextMeaning": "Make a small circle with your fingers.",
+    "translationJa": "「form」は形を作ることです。",
+    "reading": "",
+    "translationEs": "\"Form\" significa hacer o crear una forma.",
+    "example": "One simple test: form a small circle with your finger and thumb, hold it at arm's length, and use it to frame the Moon near the horizon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "framed": {
+    "simpleMeaning": "Framed means enclosed or surrounded by a shape or border.",
+    "contextMeaning": "The Moon fits inside the circle formed by fingers.",
+    "translationJa": "「framed」は囲まれた、枠にはまったことを意味します。",
+    "reading": "",
+    "translationEs": "\"Framed\" significa que algo está rodeado o encerrado en un marco.",
+    "example": "The framed Moon fits the circle both times.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "guidance": {
+    "simpleMeaning": "Guidance is advice or instructions on how to do something.",
+    "contextMeaning": "NASA gives advice on how to photograph the Moon illusion.",
+    "translationJa": "「guidance」は方法や助言を示すことです。",
+    "reading": "",
+    "translationEs": "\"Guidance\" es consejo o instrucciones.",
+    "example": "NASA's guidance on photographing the Moon illusion explains that a telephoto lens compresses the scene: it makes both the Moon and the distant landscape appear larger relative to the frame.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "half": {
+    "simpleMeaning": "Half means one of two equal parts.",
+    "contextMeaning": "The angular size of the Moon is about 0.5 degrees.",
+    "translationJa": "「half」は半分の意味です。",
+    "reading": "",
+    "translationEs": "\"Half\" significa una de dos partes iguales.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "held": {
+    "simpleMeaning": "Held means kept or kept in a position.",
+    "contextMeaning": "Thumb held at arm's length to measure size.",
+    "translationJa": "「held」は持っている、保持する意味です。",
+    "reading": "ヘルド",
+    "translationEs": "\"Held\" significa mantener o sostener en una posición.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "hemisphere": {
+    "simpleMeaning": "Hemisphere is half of a sphere or globe.",
+    "contextMeaning": "Sky seen as a dome half above Earth called a hemisphere.",
+    "translationJa": "「hemisphere」とは球の半分のことです。",
+    "reading": "ヘミスフィア",
+    "translationEs": "\"Hemisphere\" es la mitad de una esfera o globo.",
+    "example": "**The flattened-sky theory** holds that people unconsciously perceive the sky as a flattened dome rather than a perfect hemisphere.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "highest": {
+    "simpleMeaning": "Highest means the top or most high point.",
+    "contextMeaning": "The Moon's position at its highest point in the sky.",
+    "translationJa": "「highest」は最も高い点の意味です。",
+    "reading": "ハイエスト",
+    "translationEs": "\"Highest\" significa el punto más alto.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "hold": {
+    "simpleMeaning": "Hold means to carry or keep something in a position.",
+    "contextMeaning": "Hold your hand at arm's length to frame the Moon.",
+    "translationJa": "「hold」は持つ、保持することです。",
+    "reading": "ホールド",
+    "translationEs": "\"Hold\" significa sostener o mantener algo.",
+    "example": "One simple test: form a small circle with your finger and thumb, hold it at arm's length, and use it to frame the Moon near the horizon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "identical": {
+    "simpleMeaning": "Identical means exactly the same.",
+    "contextMeaning": "The two Moon pictures have the same angular size.",
+    "translationJa": "「identical」は全く同じという意味です。",
+    "reading": "",
+    "translationEs": "\"Identical\" significa exactamente igual.",
+    "example": "If you photograph the Moon at moonrise and again at its highest point, both images show a disc of identical angular size: roughly half a degree across, or about the width of your thumbnail held at arm's length.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "judge": {
+    "simpleMeaning": "Judge means to decide or form an opinion about something.",
+    "contextMeaning": "People think the Moon is bigger near the horizon.",
+    "translationJa": "「judge」は判断することを意味します。",
+    "reading": "",
+    "translationEs": "\"Judge\" significa decidir o formarse una opinión.",
+    "example": "When the Moon sits low on the horizon, most people judge it to be noticeably larger than when it sits high overhead.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "judges": {
+    "simpleMeaning": "Judges means decides or assesses something.",
+    "contextMeaning": "The brain decides the distance and size of objects.",
+    "translationJa": "「judges」は判断することを意味します。",
+    "reading": "",
+    "translationEs": "\"Judges\" significa decidir o evaluar algo.",
+    "example": "When the brain judges an object as being far away but occupying the same angle in the eye as a closer object, it automatically scales that object up — it concludes the distant object must be physically larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "low": {
+    "simpleMeaning": "Low means near to the ground or horizon.",
+    "contextMeaning": "The Moon sits near the horizon, not high in the sky.",
+    "translationJa": "「low」は低い、地面や地平線に近いことです。",
+    "reading": "ロー",
+    "translationEs": "\"Low\" significa cercano al suelo o al horizonte.",
+    "example": "When the Moon sits low on the horizon, most people judge it to be noticeably larger than when it sits high overhead.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "mechanisms": {
+    "simpleMeaning": "Mechanisms means processes or methods that cause something.",
+    "contextMeaning": "Two scientific explanations for the Moon illusion.",
+    "translationJa": "「mechanisms」は仕組みや方法を意味します。",
+    "reading": "メカニズムズ",
+    "translationEs": "\"Mechanisms\" son procesos o métodos que causan algo.",
+    "example": "Researchers have proposed many explanations over the centuries, but modern science points to two complementary mechanisms: the flattened-sky theory and the apparent-distance theory.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "midnight": {
+    "simpleMeaning": "Midnight is 12 o'clock at night, the middle of the night.",
+    "contextMeaning": "The Moon's distance stays similar from moonrise to midnight.",
+    "translationJa": "「midnight」は真夜中の12時のことです。",
+    "reading": "ミッドナイト",
+    "translationEs": "\"Midnight\" es las 12 de la noche, la mitad de la noche.",
+    "example": "Its distance from Earth stays nearly the same from moonrise to midnight.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "moons": {
+    "simpleMeaning": "Moons is the plural of moon, meaning more than one moon.",
+    "contextMeaning": "Artificial moons made for experiments.",
+    "translationJa": "「moons」は「moon」の複数形で、多数の月を意味します。",
+    "reading": "ムーンズ",
+    "translationEs": "\"Moons\" es el plural de luna, significa más de una luna.",
+    "example": "In a landmark study published in the Proceedings of the National Academy of Sciences in 2000, Lloyd Kaufman and James Kaufman tested observers using adjustable artificial moons.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "nearly": {
+    "simpleMeaning": "Nearly means almost but not completely.",
+    "contextMeaning": "The distance changes just a little during the night.",
+    "translationJa": "「nearly」はほとんど、ほぼという意味です。",
+    "reading": "",
+    "translationEs": "\"Nearly\" significa casi, pero no completamente.",
+    "example": "Its distance from Earth stays nearly the same from moonrise to midnight.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "noticeably": {
+    "simpleMeaning": "Noticeably means clearly or easy to see.",
+    "contextMeaning": "People see the Moon as clearly bigger near the horizon.",
+    "translationJa": "「noticeably」ははっきりと、目立ってという意味です。",
+    "reading": "",
+    "translationEs": "\"Noticeably\" significa claramente o fácil de ver.",
+    "example": "When the Moon sits low on the horizon, most people judge it to be noticeably larger than when it sits high overhead.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "observers": {
+    "simpleMeaning": "Observers are people who watch or look at something.",
+    "contextMeaning": "People who took part in the Moon study.",
+    "translationJa": "「observers」は観察者や見ている人々のことです。",
+    "reading": "オブザーバーズ",
+    "translationEs": "\"Observers\" son personas que miran o estudian algo.",
+    "example": "In a landmark study published in the Proceedings of the National Academy of Sciences in 2000, Lloyd Kaufman and James Kaufman tested observers using adjustable artificial moons.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "occupying": {
+    "simpleMeaning": "Occupying means taking up space or area.",
+    "contextMeaning": "The object fills the same space (angle) in the eye as another.",
+    "translationJa": "「occupying」は場所や空間を占めることを意味します。",
+    "reading": "",
+    "translationEs": "\"Occupying\" significa ocupar espacio o área.",
+    "example": "When the brain judges an object as being far away but occupying the same angle in the eye as a closer object, it automatically scales that object up — it concludes the distant object must be physically larger.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "perceive": {
+    "simpleMeaning": "Perceive means to see or understand something.",
+    "contextMeaning": "We see the sky as flattened, not fully round.",
+    "translationJa": "「perceive」は見る、理解することです。",
+    "reading": "パーシーブ",
+    "translationEs": "\"Perceive\" significa ver o entender algo.",
+    "example": "**The flattened-sky theory** holds that people unconsciously perceive the sky as a flattened dome rather than a perfect hemisphere.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "perceived": {
+    "simpleMeaning": "Perceived means thought or seen in a certain way.",
+    "contextMeaning": "The brain thinks the horizon is farther away due to landscape.",
+    "translationJa": "「perceived」は感じられた、そう見えたという意味です。",
+    "reading": "パーシーブド",
+    "translationEs": "\"Perceived\" significa pensado o visto de cierta forma.",
+    "example": "Kaufman and Kaufman concluded that the brain uses perceived distance — not retinal image size — to compute apparent size, and that the filled landscape between the observer and the horizon makes the horizon feel more distant than the empty sky above.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "perceives": {
+    "simpleMeaning": "Perceives means sees or understands in a certain way.",
+    "contextMeaning": "Photographers copy how people see the illusion with their eyes.",
+    "translationJa": "「perceives」は認識する、感じ取ることです。",
+    "reading": "パーシーブズ",
+    "translationEs": "\"Perceives\" significa ver o entender de cierta manera.",
+    "example": "Photographers who want to recreate the illusion as the eye perceives it use a different approach.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "photographer": {
+    "simpleMeaning": "Photographer is a person who takes photos.",
+    "contextMeaning": "A person who takes pictures with a camera.",
+    "translationJa": "「photographer」は写真を撮る人のことです。",
+    "reading": "フォトグラファー",
+    "translationEs": "\"Photographer\" es una persona que toma fotografías.",
+    "example": "When a photographer positions themselves far from a recognisable landmark — a skyline, a mountain ridge, or a famous monument — and shoots with a long lens, the Moon and the landmark appear side by side at comparable scales.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  }
+}
