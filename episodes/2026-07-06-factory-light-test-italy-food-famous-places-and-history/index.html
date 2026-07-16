@@ -66,7 +66,7 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
     const recordedModeCompletions = new Set();
     const mainAudio = root.querySelector("[data-v2-main-audio]");
     const mainClipButtons = [...root.querySelectorAll("[data-v2-play-anchor]")];
-    const audioBlocks = [...root.querySelectorAll("[data-v2-mode-panel=\"listening\"] [data-audio-start][data-audio-end]")];
+    const audioBlocks = [...root.querySelectorAll("[data-v2-mode-panel=\"listening\"] .v2-block-read-along[data-audio-start][data-audio-end]")];
     const audioCues = [...root.querySelectorAll("[data-v2-mode-panel=\"listening\"] [data-v2-audio-cue]")];
     const audioWords = [...root.querySelectorAll("[data-v2-mode-panel=\"listening\"] [data-v2-audio-word]")];
     const listenDock = root.querySelector("[data-v2-listen-dock]");
@@ -93,6 +93,11 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
     let lastAutoFollowCueIndex = -1;
     let autoScrollLockUntil = 0;
     let userScrollIntentUntil = 0;
+    let activeAudioBlock = null;
+    let activeAudioCue = null;
+    let activeAudioWord = null;
+    let listenTrackingFrame = 0;
+    let lastListenDockUiSignature = "";
 
     try {
       followAudio = localStorage.getItem(LISTEN_FOLLOW_KEY) !== "false";
@@ -109,11 +114,53 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
         // Listening preferences are optional.
       }
     };
-    const cueIndexAtTime = (time) => audioCues.findIndex((cue) => {
-      const start = Number(cue.dataset.audioStart);
-      const end = Number(cue.dataset.audioEnd);
-      return Number.isFinite(start) && Number.isFinite(end) && time >= start && time < end;
+    const buildTimeline = (nodes) => nodes
+      .map((node) => ({
+        node,
+        start: Number(node.dataset.audioStart),
+        end: Number(node.dataset.audioEnd),
+        displayEnd: Number(node.dataset.audioEnd),
+      }))
+      .filter((entry) => Number.isFinite(entry.start) && Number.isFinite(entry.end) && entry.end > entry.start)
+      .sort((left, right) => left.start - right.start || left.end - right.end);
+    const audioBlockTimeline = buildTimeline(audioBlocks);
+    const audioCueTimeline = buildTimeline(audioCues);
+    const audioWordTimeline = buildTimeline(audioWords);
+    audioCueTimeline.forEach((entry, index) => {
+      const next = audioCueTimeline[index + 1];
+      if (next && next.start > entry.end) {
+        entry.displayEnd = Math.min(next.start, entry.end + 1.5);
+      }
+      entry.node.dataset.audioDisplayEnd = String(entry.displayEnd);
     });
+    audioWordTimeline.forEach((entry, index) => {
+      const cue = entry.node.closest("[data-v2-audio-cue]");
+      const next = audioWordTimeline[index + 1];
+      const sameCue = next?.node.closest("[data-v2-audio-cue]") === cue;
+      const cueEnd = Number(cue?.dataset.audioEnd);
+      const nextBoundary = sameCue && next
+        ? next.start
+        : Number.isFinite(cueEnd) ? cueEnd : entry.end;
+      entry.displayEnd = Math.max(entry.end, nextBoundary);
+      entry.node.dataset.audioDisplayEnd = String(entry.displayEnd);
+    });
+    const timelineIndexAtTime = (timeline, time) => {
+      let low = 0;
+      let high = timeline.length - 1;
+      let candidate = -1;
+      while (low <= high) {
+        const middle = Math.floor((low + high) / 2);
+        if (timeline[middle].start <= time) {
+          candidate = middle;
+          low = middle + 1;
+        } else {
+          high = middle - 1;
+        }
+      }
+      if (candidate < 0) return -1;
+      return time < timeline[candidate].displayEnd ? candidate : -1;
+    };
+    const cueIndexAtTime = (time) => timelineIndexAtTime(audioCueTimeline, time);
     const restoreListenPosition = () => {
       if (playbackPositionRestored || !(mainAudio instanceof HTMLAudioElement)) return;
       const apply = () => {
@@ -136,7 +183,17 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
     const syncListenDockUi = () => {
       if (!(mainAudio instanceof HTMLAudioElement)) return;
       const activeCueIndex = cueIndexAtTime(mainAudio.currentTime);
-      const activeCue = activeCueIndex >= 0 ? audioCues[activeCueIndex] : null;
+      const activeCue = activeCueIndex >= 0 ? audioCueTimeline[activeCueIndex]?.node : null;
+      const signature = [
+        mainAudio.paused ? "paused" : "playing",
+        activeCueIndex,
+        followAudio ? "follow" : "free",
+        listenSpeed,
+        listenSpeedPanelOpen ? "speed-open" : "speed-closed",
+        listenMoreOpen ? "more-open" : "more-closed",
+      ].join(":");
+      if (signature === lastListenDockUiSignature) return;
+      lastListenDockUiSignature = signature;
       const activeText = activeCue?.textContent?.replace(/\s+/gu, " ").trim() || "";
       if (listenPlayPause instanceof HTMLButtonElement) {
         listenPlayPause.textContent = mainAudio.paused
@@ -902,54 +959,67 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
         }
       });
     });
+    const setActiveTimelineNode = (current, next, className, ariaCurrent = false) => {
+      if (current === next) return current;
+      if (current instanceof HTMLElement) {
+        current.classList.remove(className);
+        if (ariaCurrent) current.removeAttribute("aria-current");
+      }
+      if (next instanceof HTMLElement) {
+        next.classList.add(className);
+        if (ariaCurrent) next.setAttribute("aria-current", "true");
+      }
+      return next;
+    };
     const syncReadAlong = () => {
       if (!(mainAudio instanceof HTMLAudioElement)) return;
-      const currentTime = mainAudio.currentTime;
+      let currentTime = mainAudio.currentTime;
       if (Number.isFinite(activeClipEnd) && currentTime >= activeClipEnd - 0.025) {
         const clipEnd = activeClipEnd;
         activeClipEnd = null;
         pendingClipEnd = null;
         mainAudio.pause();
         mainAudio.currentTime = clipEnd;
+        currentTime = clipEnd;
       }
-      audioBlocks.forEach((block) => {
-        const start = Number(block.dataset.audioStart);
-        const end = Number(block.dataset.audioEnd);
-        const active = Number.isFinite(start) && Number.isFinite(end) && currentTime >= start && currentTime < end;
-        block.classList.toggle("is-current-audio-block", active);
-        if (active) block.setAttribute("aria-current", "true");
-        else block.removeAttribute("aria-current");
-      });
-      audioCues.forEach((cue) => {
-        const start = Number(cue.dataset.audioStart);
-        const end = Number(cue.dataset.audioEnd);
-        const active = Number.isFinite(start) && Number.isFinite(end) && currentTime >= start && currentTime < end;
-        cue.classList.toggle("is-current-audio-cue", active);
-        if (active) cue.setAttribute("aria-current", "true");
-        else cue.removeAttribute("aria-current");
-      });
-      audioWords.forEach((word) => {
-        const start = Number(word.dataset.audioStart);
-        const end = Number(word.dataset.audioEnd);
-        const active = Number.isFinite(start) && Number.isFinite(end) && currentTime >= start && currentTime < end;
-        word.classList.toggle("is-current-audio-word", active);
-      });
       const activeCueIndex = cueIndexAtTime(currentTime);
-      const activeCue = activeCueIndex >= 0 ? audioCues[activeCueIndex] : null;
+      const nextAudioCue = activeCueIndex >= 0 ? audioCueTimeline[activeCueIndex]?.node : null;
+      const activeWordIndex = timelineIndexAtTime(audioWordTimeline, currentTime);
+      const nextAudioWord = activeWordIndex >= 0 ? audioWordTimeline[activeWordIndex]?.node : null;
+      const activeBlockIndex = timelineIndexAtTime(audioBlockTimeline, currentTime);
+      const nextAudioBlock = nextAudioCue?.closest(".v2-block-read-along")
+        || (activeBlockIndex >= 0 ? audioBlockTimeline[activeBlockIndex]?.node : null);
+      activeAudioBlock = setActiveTimelineNode(
+        activeAudioBlock,
+        nextAudioBlock,
+        "is-current-audio-block",
+        true,
+      );
+      activeAudioCue = setActiveTimelineNode(
+        activeAudioCue,
+        nextAudioCue,
+        "is-current-audio-cue",
+        true,
+      );
+      activeAudioWord = setActiveTimelineNode(
+        activeAudioWord,
+        nextAudioWord,
+        "is-current-audio-word",
+      );
       if (
         root.dataset.v2Mode === "listening"
         && followAudio
-        && activeCue instanceof HTMLElement
+        && nextAudioCue instanceof HTMLElement
         && activeCueIndex !== lastAutoFollowCueIndex
         && Date.now() >= userScrollIntentUntil
       ) {
         lastAutoFollowCueIndex = activeCueIndex;
-        const bounds = activeCue.getBoundingClientRect();
+        const bounds = nextAudioCue.getBoundingClientRect();
         const topLimit = window.innerHeight * 0.2;
         const bottomLimit = window.innerHeight * 0.67;
         if (bounds.top < topLimit || bounds.bottom > bottomLimit) {
           autoScrollLockUntil = Date.now() + 1_200;
-          activeCue.scrollIntoView({
+          nextAudioCue.scrollIntoView({
             behavior: window.matchMedia?.("(prefers-reduced-motion: reduce)")?.matches ? "auto" : "smooth",
             block: "center",
           });
@@ -962,6 +1032,27 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
         persistListenPreference(LISTEN_POSITION_KEY, currentTime.toFixed(3));
       }
       syncListenDockUi();
+    };
+    const stopListenTracking = () => {
+      if (!listenTrackingFrame) return;
+      cancelAnimationFrame(listenTrackingFrame);
+      listenTrackingFrame = 0;
+    };
+    const runListenTrackingFrame = () => {
+      listenTrackingFrame = 0;
+      syncReadAlong();
+      if (mainAudio instanceof HTMLAudioElement && !mainAudio.paused && !mainAudio.ended) {
+        listenTrackingFrame = requestAnimationFrame(runListenTrackingFrame);
+      }
+    };
+    const startListenTracking = () => {
+      if (
+        listenTrackingFrame
+        || !(mainAudio instanceof HTMLAudioElement)
+        || mainAudio.paused
+        || mainAudio.ended
+      ) return;
+      listenTrackingFrame = requestAnimationFrame(runListenTrackingFrame);
     };
     mainAudio?.addEventListener("timeupdate", syncReadAlong);
     mainAudio?.addEventListener("seeking", () => {
@@ -980,11 +1071,13 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
     mainAudio?.addEventListener("play", () => {
       stopRoleplayAudio();
       if (activeClipEnd === null) resetMainClipButtons();
-      syncListenDockUi();
+      syncReadAlong();
+      startListenTracking();
     });
     mainAudio?.addEventListener("pause", () => {
+      stopListenTracking();
       resetMainClipButtons();
-      syncListenDockUi();
+      syncReadAlong();
     });
     mainAudio?.addEventListener("ratechange", () => {
       if ([0.8, 0.9, 1, 1.15, 1.25].includes(mainAudio.playbackRate)) {
@@ -994,6 +1087,7 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
       syncListenDockUi();
     });
     mainAudio?.addEventListener("ended", () => {
+      stopListenTracking();
       activeClipEnd = null;
       pendingClipEnd = null;
       lastSavedPlaybackSecond = -1;
@@ -1001,6 +1095,14 @@ const v2PublicEpisodeUrl = "https://ovienglish.com/episodes/2026-07-06-factory-l
       resetMainClipButtons();
       syncListenDockUi();
     });
+    document.addEventListener("visibilitychange", () => {
+      if (document.hidden) stopListenTracking();
+      else {
+        syncReadAlong();
+        startListenTracking();
+      }
+    });
+    window.addEventListener("pagehide", stopListenTracking);
 
     const roleplayButtons = [...root.querySelectorAll("[data-v2-roleplay-audio]")];
     const roleplayAudioCache = new Map();
