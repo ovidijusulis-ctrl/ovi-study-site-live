@@ -1,0 +1,1222 @@
+{
+  "topspin": {
+    "simpleMeaning": "Spin that makes the ball fall down faster and go forward after it bounces.",
+    "contextMeaning": "Topspin is a type of spin that makes the ball dip and move quickly forward after bouncing.",
+    "translationJa": "トップスピンはボールがバウンド後に速く落ちて前に動く回転です。",
+    "reading": "トップスピン",
+    "translationEs": "El topspin es un giro que hace que la bola baje rápido y avance tras botar.",
+    "example": "Topspin can make the next shot fast.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "what is spin?": {
+    "simpleMeaning": "Spin is when the ball turns around while moving.",
+    "contextMeaning": "Spin means the ball turns as it moves.",
+    "translationJa": "スピンはボールが動きながら回ることです。",
+    "reading": "スピン",
+    "translationEs": "El giro es cuando la bola gira mientras se mueve.",
+    "example": "Players brush the ball with the racket to make spin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "backspin": {
+    "simpleMeaning": "Spin that makes the ball stay low and move slowly.",
+    "contextMeaning": "Backspin is a spin that keeps the ball low and slow.",
+    "translationJa": "バックスピンはボールが低くゆっくり動く回転です。",
+    "reading": "バックスピン",
+    "translationEs": "El backspin es un giro que hace que la bola se quede baja y lenta.",
+    "example": "A short serve can use backspin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sidespin": {
+    "simpleMeaning": "Spin that makes the ball curve to the left or right.",
+    "contextMeaning": "Sidespin makes the ball curve left or right.",
+    "translationJa": "サイドスピンはボールを左か右に曲げる回転です。",
+    "reading": "サイドスピン",
+    "translationEs": "El sidespin es un giro que hace que la bola se curve a la izquierda o derecha.",
+    "example": "Watch the bounce to see the effect of sidespin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "how does an official serve begin?": {
+    "simpleMeaning": "The ball starts on an open hand and is thrown up at least 16 cm.",
+    "contextMeaning": "In an official serve, the ball starts in the open palm and is tossed nearly straight up at least 16 centimetres.",
+    "translationJa": "正式なサーブは手のひらにボールをのせ、少なくとも16センチ上にほうることから始まります。",
+    "reading": "サーブ",
+    "translationEs": "Un saque oficial comienza con la bola en la palma abierta y se lanza casi recto al menos 16 cm.",
+    "example": "The server hits the ball as it falls.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "where and when did table tennis begin?": {
+    "simpleMeaning": "Table tennis started in England indoors in the 1880s.",
+    "contextMeaning": "Table tennis began in England in the 1880s as an indoor form of lawn tennis.",
+    "translationJa": "卓球は1880年代にイギリスで屋内のテニスとして始まりました。",
+    "reading": "卓球",
+    "translationEs": "El tenis de mesa comenzó en Inglaterra en los 1880s como tenis de césped en interiores.",
+    "example": "People used a dining table and simple equipment.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "what olympic firsts are connected to ma long and mima ito?": {
+    "simpleMeaning": "Ma Long was the first man to win Olympic men’s singles twice; Mima Ito got Japan’s first Olympic gold and first mixed doubles title.",
+    "contextMeaning": "Ma Long won Olympic men’s singles twice, a first; Mima Ito won first Olympic mixed doubles and Japan’s first table tennis gold.",
+    "translationJa": "馬龍は男子シングルで五輪２回目の優勝、第１人。伊藤美誠は最初の混合ダブルスと日本初の金メダルを獲得。",
+    "reading": "馬龍（マー・ロン）、伊藤美誠（いとう みま）",
+    "translationEs": "Ma Long fue el primer hombre en ganar dos oros olímpicos individuales; Mima Ito ganó el primer oro olímpico de Japón y el primero en dobles mixtos.",
+    "example": "Both results include important Olympic firsts.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "spin": {
+    "simpleMeaning": "Spin is the ball turning around.",
+    "contextMeaning": "Spin means the ball turns after it bounces.",
+    "translationJa": "スピンはボールがバウンド後に回転することです。",
+    "reading": "スピン",
+    "translationEs": "El giro es el movimiento de la bola girando.",
+    "example": "Spin changes the ball after it bounces.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "brush": {
+    "simpleMeaning": "To touch and move lightly on something.",
+    "contextMeaning": "Players touch and move softly the ball with the racket.",
+    "translationJa": "選手はラケットでボールに軽く触れて動かします。",
+    "reading": "ブラッシュ",
+    "translationEs": "Los jugadores rozan suavemente la bola con la raqueta.",
+    "example": "Players brush the ball with the racket.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "serve": {
+    "simpleMeaning": "The first hit in a point.",
+    "contextMeaning": "Serve is the first shot to start a point.",
+    "translationJa": "サーブはポイントの最初の打球です。",
+    "reading": "",
+    "translationEs": "El saque es el primer golpe en un punto.",
+    "example": "Every point starts with a serve.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "toss": {
+    "simpleMeaning": "To throw something lightly up into the air.",
+    "contextMeaning": "To toss means to throw the ball lightly upward.",
+    "translationJa": "トスはボールを軽く上に投げることです。",
+    "reading": "",
+    "translationEs": "Lanzar hacia arriba suavemente.",
+    "example": "Toss the ball nearly straight up.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "bounce": {
+    "simpleMeaning": "To hit a surface and bounce back.",
+    "contextMeaning": "Bounce means the ball hits and leaves the table surface.",
+    "translationJa": "バウンドはボールが台に当たって跳ね返ることです。",
+    "reading": "",
+    "translationEs": "Rebotar después de golpear una superficie.",
+    "example": "The ball bounces on both sides of the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "table": {
+    "simpleMeaning": "A flat surface players hit the ball on.",
+    "contextMeaning": "Table here means the flat surface where the ball bounces in table tennis.",
+    "translationJa": "ここでのテーブルはボールが跳ねる平らな面のことです。",
+    "reading": "テーブル",
+    "translationEs": "Mesa: la superficie plana donde la bola rebota en tenis de mesa.",
+    "example": "Its effect is easier to see after the ball hits the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "ball": {
+    "simpleMeaning": "A small round object used in table tennis.",
+    "contextMeaning": "Ball means the small round object hit and bounced in table tennis.",
+    "translationJa": "ボールは卓球で打ち合う小さな球体です。",
+    "reading": "ボール",
+    "translationEs": "Pelota: objeto redondo y pequeño usado en tenis de mesa.",
+    "example": "Table tennis is fast, but small actions can change the ball.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "tennis": {
+    "simpleMeaning": "Tennis is a sport with rackets and ball.",
+    "contextMeaning": "Tennis here means the sport similar to table tennis but played outside on a big field.",
+    "translationJa": "テニスはラケットとボールを使うスポーツです。",
+    "reading": "テニス",
+    "translationEs": "Tenis: un deporte con raquetas y pelota.",
+    "example": "Table tennis is fast, but small actions can change the ball.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "first": {
+    "simpleMeaning": "The very first time something happens.",
+    "contextMeaning": "First means the first time the ball touches the server's side of the table.",
+    "translationJa": "最初はボールがサーバー側に最初に触れることです。",
+    "reading": "さいしょ",
+    "translationEs": "Primero: la primera vez que la bola toca el lado del servidor.",
+    "example": "The ball first bounces on the server’s side of the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "make": {
+    "simpleMeaning": "To cause or help to happen.",
+    "contextMeaning": "Make means to produce spin by brushing the ball with racket.",
+    "translationJa": "作るはラケットでボールをこすってスピンを起こすこと。",
+    "reading": "メイク",
+    "translationEs": "Hacer: crear el giro al rozar la bola con la raqueta.",
+    "example": "Players brush the ball with the racket to make spin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "server": {
+    "simpleMeaning": "The person who serves the ball first.",
+    "contextMeaning": "Server is the player who throws and hits the ball to start a point.",
+    "translationJa": "サーバーはポイント開始でボールを出す人。",
+    "reading": "サーバー",
+    "translationEs": "Servidor: persona que inicia el punto lanzando la bola.",
+    "example": "The server tosses it nearly straight up at least 16 centimetres.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "two": {
+    "simpleMeaning": "The number 2.",
+    "contextMeaning": "Two means the number 2, like two Olympic stars here.",
+    "translationJa": "２は数字の「に」。ここはオリンピックのスター２人。",
+    "reading": "に",
+    "translationEs": "Dos: el número 2, como las dos estrellas olímpicas.",
+    "example": "Explore spin, a legal serve, the sport’s early days, and two Olympic stars.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sport": {
+    "simpleMeaning": "A game or physical activity with rules.",
+    "contextMeaning": "Sport here means game or activity people play for fun or competition.",
+    "translationJa": "スポーツはルールがある遊びや運動。",
+    "reading": "スポーツ",
+    "translationEs": "Deporte: actividad con reglas para jugar o competir.",
+    "example": "Explore spin, a legal serve, the sport’s early days, and two Olympic stars.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "title": {
+    "simpleMeaning": "A prize or name for winning a competition.",
+    "contextMeaning": "Title means the award or name for winning a sports competition.",
+    "translationJa": "タイトルは競技で勝ったときの賞や名前。",
+    "reading": "タイトル",
+    "translationEs": "Título: premio o nombre de quien gana una competencia.",
+    "example": "He won the Olympic men’s singles title in 2016 and again at Tokyo 2020.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "around": {
+    "simpleMeaning": "Near or around a place or object.",
+    "contextMeaning": "Around means near or close by the players’ equipment or place.",
+    "translationJa": "周りは近くやそばのこと。",
+    "reading": "アラウンド",
+    "translationEs": "Alrededor: cerca o próximo a algo.",
+    "example": "They used a dining table and simple equipment they had around them.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "became": {
+    "simpleMeaning": "To change into a new state or form.",
+    "contextMeaning": "Became means changed to be more organized later.",
+    "translationJa": "ビカムは後でより組織的になること。",
+    "reading": "ビカム",
+    "translationEs": "Convertirse: cambiar a un estado nuevo.",
+    "example": "The sport later became more organised.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "began": {
+    "simpleMeaning": "To start or begin something.",
+    "contextMeaning": "Began means the time when table tennis started in England.",
+    "translationJa": "ビガンは卓球が始まった時の意味。",
+    "reading": "ビガン",
+    "translationEs": "Empezó: el momento cuando comenzó el tenis de mesa.",
+    "example": "Table tennis began in England in the 1880s.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "bounces": {
+    "simpleMeaning": "The ball hits the table and goes up.",
+    "contextMeaning": "Bounces means the ball hits a surface and moves away.",
+    "translationJa": "バウンスはボールが当たって跳ね返る。",
+    "reading": "バウンス",
+    "translationEs": "Botar: la bola golpea y se separa de una superficie.",
+    "example": "The ball first bounces on the server’s side of the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "change": {
+    "simpleMeaning": "To make something different or new.",
+    "contextMeaning": "Change means to make the ball move differently.",
+    "translationJa": "チェンジはボールを違う動きにさせる。",
+    "reading": "チェンジ",
+    "translationEs": "Cambiar: hacer que algo sea diferente.",
+    "example": "Table tennis is fast, but small actions can change the ball.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "changes": {
+    "simpleMeaning": "To cause difference or movement.",
+    "contextMeaning": "Changes means a player makes the next shot different.",
+    "translationJa": "チェンジズは選手が次のショットを変えること。",
+    "reading": "チェンジズ",
+    "translationEs": "Cambios: hacer el siguiente golpe diferente.",
+    "example": "A player watches the bounce and changes the next shot.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "fast": {
+    "simpleMeaning": "It happens or moves quickly.",
+    "contextMeaning": "Fast means moving or happening very quickly in table tennis.",
+    "translationJa": "速いはとても速く動くこと。",
+    "reading": "はやい",
+    "translationEs": "Rápido: que ocurre o se mueve muy rápido.",
+    "example": "Table tennis is fast, but small actions can change the ball.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "hits": {
+    "simpleMeaning": "To hit or touch something.",
+    "contextMeaning": "Hits means the ball touches or strikes the table surface.",
+    "translationJa": "ヒットはボールが台に当たること。",
+    "reading": "ヒット",
+    "translationEs": "Golpear: cuando la bola toca algo.",
+    "example": "Its effect is easier to see after the ball hits the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "indoor": {
+    "simpleMeaning": "Inside a building.",
+    "contextMeaning": "Indoor means something happens inside a building, not outside.",
+    "translationJa": "屋内は建物の中のこと。",
+    "reading": "おくない",
+    "translationEs": "Interior: dentro de un edificio.",
+    "example": "People played it as an indoor form of lawn tennis.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "international": {
+    "simpleMeaning": "Between countries or all over the world.",
+    "contextMeaning": "International means between different countries.",
+    "translationJa": "国際は国と国の間。",
+    "reading": "こくさい",
+    "translationEs": "Internacional: entre países.",
+    "example": "A game for indoor tables had become an international sport.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "next": {
+    "simpleMeaning": "After this, or coming soon.",
+    "contextMeaning": "Next means the shot or thing that comes after now.",
+    "translationJa": "次は今の後に来ること。",
+    "reading": "つぎ",
+    "translationEs": "Siguiente: lo que viene después.",
+    "example": "A player watches the bounce and changes the next shot.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "place": {
+    "simpleMeaning": "A spot or location where something is done.",
+    "contextMeaning": "Place means the position where the ball is sent or hit.",
+    "translationJa": "場所はボールを送る位置のこと。",
+    "reading": "ばしょ",
+    "translationEs": "Lugar: sitio donde se hace algo.",
+    "example": "A server can change the speed, place, and spin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "players": {
+    "simpleMeaning": "People who play the game.",
+    "contextMeaning": "Players are the people who play table tennis.",
+    "translationJa": "プレイヤーは卓球をする人。",
+    "reading": "プレイヤー",
+    "translationEs": "Jugadores: personas que juegan.",
+    "example": "Today, the table is still small, but players compete around the world.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "represents": {
+    "simpleMeaning": "To stand for or be a symbol of a country or team.",
+    "contextMeaning": "Represents means Ma Long stands for China in sports.",
+    "translationJa": "代表は馬龍が中国を表すこと。",
+    "reading": "だいひょう",
+    "translationEs": "Representa: ser símbolo de un país o grupo.",
+    "example": "Ma Long represents China.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "result": {
+    "simpleMeaning": "The result is what happens after trying or playing.",
+    "contextMeaning": "Result means what shows success after competing.",
+    "translationJa": "結果は競技の後に出る成功。",
+    "reading": "けっか",
+    "translationEs": "Resultado: lo que pasa después de un esfuerzo.",
+    "example": "Ma Long’s result shows success across two Olympic Games.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "see": {
+    "simpleMeaning": "To see with eyes or watch carefully.",
+    "contextMeaning": "See means to look and notice something.",
+    "translationJa": "見るは目で見たり気づくこと。",
+    "reading": "みる",
+    "translationEs": "Ver: mirar y notar algo.",
+    "example": "Spin is often hard to see before the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "shot": {
+    "simpleMeaning": "A hit of the ball using racket.",
+    "contextMeaning": "Shot means a hit or strike with the racket.",
+    "translationJa": "ショットはラケットでボールを打つこと。",
+    "reading": "ショット",
+    "translationEs": "Golpe: acción de golpear la bola.",
+    "example": "A player watches the bounce and changes the next shot.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "side": {
+    "simpleMeaning": "One part or side of something.",
+    "contextMeaning": "Side means one half or section of the table.",
+    "translationJa": "サイドは台の一つの側面。",
+    "reading": "サイド",
+    "translationEs": "Lado: una parte de algo.",
+    "example": "The ball first bounces on the server’s side of the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "simple": {
+    "simpleMeaning": "Easy to do or understand.",
+    "contextMeaning": "Simple means not difficult and easy to understand or do.",
+    "translationJa": "シンプルは簡単でわかりやすいこと。",
+    "reading": "シンプル",
+    "translationEs": "Simple: fácil de hacer o entender.",
+    "example": "Watch how simple movements create exciting play.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "singles": {
+    "simpleMeaning": "One player alone, not doubles or teams.",
+    "contextMeaning": "Singles means games with only one player on each side.",
+    "translationJa": "シングルスは一人ずつで行う試合。",
+    "reading": "シングルス",
+    "translationEs": "Individual: juego con un jugador por lado.",
+    "example": "He won the Olympic men’s singles title in 2016 and again at Tokyo 2020.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "small": {
+    "simpleMeaning": "Not big in size or amount.",
+    "contextMeaning": "Small means little in size or number.",
+    "translationJa": "小さいは大きくないこと。",
+    "reading": "ちいさい",
+    "translationEs": "Pequeño: no grande en tamaño.",
+    "example": "Table tennis is fast, but small actions can change the ball.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "won": {
+    "simpleMeaning": "To get first place or victory in a game.",
+    "contextMeaning": "Won means to get victory or first place.",
+    "translationJa": "勝つは試合に勝ったこと。",
+    "reading": "かった",
+    "translationEs": "Ganar: tener éxito en un juego.",
+    "example": "He won the Olympic men’s singles title in 2016 and again at Tokyo 2020.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "world": {
+    "simpleMeaning": "The whole Earth and all countries.",
+    "contextMeaning": "World means all places and people on Earth.",
+    "translationJa": "世界は地球と全ての国や人。",
+    "reading": "せかい",
+    "translationEs": "Mundo: todo el planeta y sus personas.",
+    "example": "Today, the table is still small, but players compete around the world.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "across": {
+    "simpleMeaning": "From one side to the other side of something.",
+    "contextMeaning": "Across means from one part to the other side.",
+    "translationJa": "～を越えては向こう側まで。",
+    "reading": "",
+    "translationEs": "A través de: de un lado a otro.",
+    "example": "Ma Long’s result shows success across two Olympic Games.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "actions": {
+    "simpleMeaning": "Actions are things people do.",
+    "contextMeaning": "Actions means moves or things done by players.",
+    "translationJa": "アクションは人がする動きや行動。",
+    "reading": "アクション",
+    "translationEs": "Acciones: cosas que las personas hacen.",
+    "example": "Table tennis is fast, but small actions can change the ball.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "basic": {
+    "simpleMeaning": "Basic means simple and important parts.",
+    "contextMeaning": "Basic means the three main kinds of spin are simple and main.",
+    "translationJa": "基本は大切で簡単な部分。",
+    "reading": "きほん",
+    "translationEs": "Básico: partes simples e importantes.",
+    "example": "The three basic kinds are topspin, backspin, and sidespin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "become": {
+    "simpleMeaning": "To become or change into something new.",
+    "contextMeaning": "Become means change into a new form or state.",
+    "translationJa": "なるは新しい形や状態へ変わること。",
+    "reading": "なる",
+    "translationEs": "Convertirse: cambiar a algo nuevo.",
+    "example": "A game for indoor tables had become an international sport.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "begins": {
+    "simpleMeaning": "To start or happen from a beginning point.",
+    "contextMeaning": "Begins means to start, like the ball starting on open palm.",
+    "translationJa": "始まるは何かが始まること。",
+    "reading": "はじまる",
+    "translationEs": "Empezar: comenzar algo.",
+    "example": "In an official serve, the ball begins on an open palm.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "centimetres": {
+    "simpleMeaning": "Centimetres are units to measure length or height.",
+    "contextMeaning": "Centimetres are metric units used to measure height or distances.",
+    "translationJa": "センチメートルは長さや高さの単位。",
+    "reading": "センチメートル",
+    "translationEs": "Centímetros: unidades de medida de longitud.",
+    "example": "The server tosses it nearly straight up at least 16 centimetres.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "compete": {
+    "simpleMeaning": "To try to win against others in a game.",
+    "contextMeaning": "Compete means to play against others to win.",
+    "translationJa": "競うは勝つために他と戦うこと。",
+    "reading": "きそう",
+    "translationEs": "Competir: jugar para ganar contra otros.",
+    "example": "Today, the table is still small, but players compete around the world.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "create": {
+    "simpleMeaning": "To make or cause something to happen.",
+    "contextMeaning": "Create means to make something new, like movements making play fun.",
+    "translationJa": "作るは新しいものを生み出す。",
+    "reading": "つくる",
+    "translationEs": "Crear: hacer algo nuevo.",
+    "example": "Watch how simple movements create exciting play.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "curve": {
+    "simpleMeaning": "To bend in a curve shape.",
+    "contextMeaning": "Curve means to move in a rounded or bent line.",
+    "translationJa": "曲がるは丸く曲がること。",
+    "reading": "まがる",
+    "translationEs": "Curva: línea que dobla.",
+    "example": "Sidespin can make it curve left or right.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "days": {
+    "simpleMeaning": "Days are periods of 24 hours.",
+    "contextMeaning": "Days means times or periods in the past early times.",
+    "translationJa": "日々は過去のある時期の意味。",
+    "reading": "ひび",
+    "translationEs": "Días: periodos de 24 horas.",
+    "example": "Explore spin, a legal serve, the sport’s early days, and two Olympic stars.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "different": {
+    "simpleMeaning": "Different means not the same or changed.",
+    "contextMeaning": "Different means changed or not alike.",
+    "translationJa": "違うは同じでないこと。",
+    "reading": "ちがう",
+    "translationEs": "Diferente: no igual.",
+    "example": "A short backspin serve and a fast topspin serve can start two very different points.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "difficult": {
+    "simpleMeaning": "Difficult means hard or not easy.",
+    "contextMeaning": "Difficult means something is hard to do or understand.",
+    "translationJa": "難しいは簡単でないこと。",
+    "reading": "むずかしい",
+    "translationEs": "Difícil: no fácil.",
+    "example": "These changes can make the next shot difficult.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "dining": {
+    "simpleMeaning": "Dining means used for eating meals.",
+    "contextMeaning": "Dining means for eating food, like dining table.",
+    "translationJa": "ダイニングは食事をするための。",
+    "reading": "ダイニング",
+    "translationEs": "Comedor: para comer.",
+    "example": "They used a dining table and simple equipment they had around them.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "dip": {
+    "simpleMeaning": "To go down or sink a little.",
+    "contextMeaning": "Dip means the ball moves down after a bounce.",
+    "translationJa": "沈むは少し下に動くこと。",
+    "reading": "ディップ",
+    "translationEs": "Caer: bajar un poco.",
+    "example": "Topspin makes the ball dip and move forward quickly after the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "doubles": {
+    "simpleMeaning": "Doubles means two players on a side in a game.",
+    "contextMeaning": "Doubles means teams of two players playing together.",
+    "translationJa": "ダブルスは2人組の試合。",
+    "reading": "ダブルス",
+    "translationEs": "Dobles: juego con dos jugadores por lado.",
+    "example": "At Tokyo 2020, she and Jun Mizutani won the first Olympic mixed doubles table tennis title.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "early": {
+    "simpleMeaning": "Early means near the beginning of time or event.",
+    "contextMeaning": "Early means at the start or beginning time.",
+    "translationJa": "早いは時間の初めの意味。",
+    "reading": "はやい",
+    "translationEs": "Temprano: cerca del inicio.",
+    "example": "Explore spin, a legal serve, the sport’s early days, and two Olympic stars.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "easier": {
+    "simpleMeaning": "Easier means not hard to do or see.",
+    "contextMeaning": "Easier means simple to do or understand.",
+    "translationJa": "簡単はやりやすいこと。",
+    "reading": "かんたん",
+    "translationEs": "Más fácil: no difícil.",
+    "example": "Its effect is easier to see after the ball hits the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "effect": {
+    "simpleMeaning": "Effect means what happens because of something.",
+    "contextMeaning": "Effect is the change or result after something.",
+    "translationJa": "効果は何かの結果や変化。",
+    "reading": "こうか",
+    "translationEs": "Efecto: resultado de una acción.",
+    "example": "Its effect is easier to see after the ball hits the table.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "equipment": {
+    "simpleMeaning": "Equipment means tools or things used for a purpose.",
+    "contextMeaning": "Equipment means the things needed to play table tennis.",
+    "translationJa": "道具は卓球をするための必要なもの。",
+    "reading": "どうぐ",
+    "translationEs": "Equipamiento: cosas para jugar.",
+    "example": "They used a dining table and simple equipment they had around them.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "event": {
+    "simpleMeaning": "Event means an important occasion or competition.",
+    "contextMeaning": "Event here means a sports competition or occasion.",
+    "translationJa": "イベントは重要な大会や時。",
+    "reading": "イベント",
+    "translationEs": "Evento: ocasión importante o competencia.",
+    "example": "Mima Ito’s result marks two important firsts in one event.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "exciting": {
+    "simpleMeaning": "Exciting means making you feel happy or interested.",
+    "contextMeaning": "Exciting means fun and making you feel happy or interested.",
+    "translationJa": "わくわくするは楽しく興味を持つこと。",
+    "reading": "わくわく",
+    "translationEs": "Emocionante: que te hace feliz o interesado.",
+    "example": "Watch how simple movements create exciting play.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "falls": {
+    "simpleMeaning": "Falls means goes down from a height or position.",
+    "contextMeaning": "Falls means the ball moves down in the air.",
+    "translationJa": "落ちるは上から下へ動くこと。",
+    "reading": "おちる",
+    "translationEs": "Caer: moverse hacia abajo.",
+    "example": "The server hits the ball as it falls.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "firsts": {
+    "simpleMeaning": "Firsts means the very first times something happens.",
+    "contextMeaning": "Firsts means important first time events.",
+    "translationJa": "初めてのことや記録。",
+    "reading": "はじめて",
+    "translationEs": "Primeros: primeras veces importantes.",
+    "example": "Mima Ito’s result marks two important firsts in one event.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "form": {
+    "simpleMeaning": "Form means a type or way of doing something.",
+    "contextMeaning": "Form means a style or type, like indoor tennis form.",
+    "translationJa": "形はやり方や種類の意味。",
+    "reading": "かたち",
+    "translationEs": "Forma: tipo o manera de hacer algo.",
+    "example": "People played it as an indoor form of lawn tennis.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "forward": {
+    "simpleMeaning": "Forward means moving ahead or in front.",
+    "contextMeaning": "Forward means to go in the front direction.",
+    "translationJa": "前はまえへ進むこと。",
+    "reading": "まえ",
+    "translationEs": "Adelante: ir hacia adelante.",
+    "example": "Topspin makes the ball dip and move forward quickly after the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "game": {
+    "simpleMeaning": "Game means a play or match with rules.",
+    "contextMeaning": "Game means a competition or activity with rules.",
+    "translationJa": "ゲームはルールのある遊び。",
+    "reading": "ゲーム",
+    "translationEs": "Juego: actividad con reglas.",
+    "example": "A game for indoor tables had become an international sport.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "gold": {
+    "simpleMeaning": "Gold means the first prize or medal color for winners.",
+    "contextMeaning": "Gold means first place medal, a shiny yellow metal.",
+    "translationJa": "金は一番のメダルや金色の金属。",
+    "reading": "きん",
+    "translationEs": "Oro: medalla del primer lugar.",
+    "example": "It was also Japan’s first Olympic gold medal in table tennis.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "hard": {
+    "simpleMeaning": "Hard means difficult or not easy.",
+    "contextMeaning": "Hard means something that is not simple or easy.",
+    "translationJa": "難しいは簡単でないこと。",
+    "reading": "むずかしい",
+    "translationEs": "Difícil: no fácil.",
+    "example": "Spin is often hard to see before the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "important": {
+    "simpleMeaning": "Important means very needed or special.",
+    "contextMeaning": "Important means something very needed or good to know.",
+    "translationJa": "重要はとても必要で特別なこと。",
+    "reading": "じゅうよう",
+    "translationEs": "Importante: necesario o especial.",
+    "example": "Mima Ito’s result marks two important firsts in one event.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "kinds": {
+    "simpleMeaning": "Kinds means types or groups of things.",
+    "contextMeaning": "Kinds means different types or varieties.",
+    "translationJa": "種類は違うタイプのこと。",
+    "reading": "しゅるい",
+    "translationEs": "Tipos: clases o categorías.",
+    "example": "The three basic kinds are topspin, backspin, and sidespin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "later": {
+    "simpleMeaning": "Later means after some time has passed.",
+    "contextMeaning": "Later means after now, in the future or after time.",
+    "translationJa": "後でとは今より後のこと。",
+    "reading": "あとで",
+    "translationEs": "Luego: después de un tiempo.",
+    "example": "The sport later became more organised.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "lawn": {
+    "simpleMeaning": "Lawn is a grass field used for playing sports.",
+    "contextMeaning": "Lawn means grass field outside used for tennis.",
+    "translationJa": "芝生はスポーツで使う草の場所。",
+    "reading": "しばふ",
+    "translationEs": "Césped: lugar de hierba para jugar.",
+    "example": "People played it as an indoor form of lawn tennis.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "least": {
+    "simpleMeaning": "Least means the smallest or minimum amount.",
+    "contextMeaning": "Least means the smallest amount allowed, like 16 cm toss up.",
+    "translationJa": "最小は一番少ない量の意味。",
+    "reading": "さいしょう",
+    "translationEs": "Mínimo: la cantidad más pequeña.",
+    "example": "The server tosses it nearly straight up at least 16 centimetres.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "left": {
+    "simpleMeaning": "Left means the side on the left when facing forward.",
+    "contextMeaning": "Left means to the left side of a person or object.",
+    "translationJa": "左は向いている時の左側。",
+    "reading": "ひだり",
+    "translationEs": "Izquierda: lado al lado izquierdo.",
+    "example": "Sidespin can make it curve left or right.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "legal": {
+    "simpleMeaning": "Legal means allowed by rules or law.",
+    "contextMeaning": "Legal means something that follows the rules.",
+    "translationJa": "合法はルールに従っていること。",
+    "reading": "ごうほう",
+    "translationEs": "Legal: permitido por reglas.",
+    "example": "Explore spin, a legal serve, the sport’s early days, and two Olympic stars.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "low": {
+    "simpleMeaning": "Low means near the bottom or not high.",
+    "contextMeaning": "Low means not high off the surface, near the bottom.",
+    "translationJa": "低いは低い所にあること。",
+    "reading": "ひくい",
+    "translationEs": "Bajo: cerca del fondo.",
+    "example": "Backspin can make it stay low and slow.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "makes": {
+    "simpleMeaning": "Makes means causes something to happen.",
+    "contextMeaning": "Makes means causes the ball to move or dip.",
+    "translationJa": "作るは何かが起こるようにすること。",
+    "reading": "つくる",
+    "translationEs": "Hacer: causar que algo pase.",
+    "example": "Topspin makes the ball dip and move forward quickly after the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "man": {
+    "simpleMeaning": "Man means an adult male person.",
+    "contextMeaning": "Man is an adult male person.",
+    "translationJa": "男は大人の男性。",
+    "reading": "おとこ",
+    "translationEs": "Hombre: persona adulta masculina.",
+    "example": "He became the first man to win this Olympic singles title twice.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "marks": {
+    "simpleMeaning": "Marks means shows or is a sign of something.",
+    "contextMeaning": "Marks means shows important or special things.",
+    "translationJa": "示すは大切なことを表す。",
+    "reading": "しめす",
+    "translationEs": "Marcar: ser señal de algo.",
+    "example": "Mima Ito’s result marks two important firsts in one event.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "medal": {
+    "simpleMeaning": "Medal is a small round prize for winners.",
+    "contextMeaning": "Medal is an award for sports winners.",
+    "translationJa": "メダルは勝った人へ渡す賞。",
+    "reading": "メダル",
+    "translationEs": "Medalla: premio para ganadores.",
+    "example": "It was also Japan’s first Olympic gold medal in table tennis.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "men": {
+    "simpleMeaning": "Men means adult male players or people.",
+    "contextMeaning": "Men means male persons or athletes.",
+    "translationJa": "男性は男の人たち。",
+    "reading": "だんせい",
+    "translationEs": "Hombres: personas masculinas.",
+    "example": "He won the Olympic men’s singles title in 2016 and again at Tokyo 2020.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "mixed": {
+    "simpleMeaning": "Mixed means made of different types together.",
+    "contextMeaning": "Mixed means players from different genders playing as a team.",
+    "translationJa": "ミックスは男女が混ざること。",
+    "reading": "ミックス",
+    "translationEs": "Mixto: combinación de diferentes tipos.",
+    "example": "At Tokyo 2020, she and Jun Mizutani won the first Olympic mixed doubles table tennis title.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "move": {
+    "simpleMeaning": "Move means to change position or go somewhere.",
+    "contextMeaning": "Move means the ball changes place or direction.",
+    "translationJa": "動くは場所や方向を変える。",
+    "reading": "うごく",
+    "translationEs": "Mover: cambiar de lugar.",
+    "example": "Topspin makes the ball dip and move forward quickly after the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "movements": {
+    "simpleMeaning": "Movements are actions of the body or parts.",
+    "contextMeaning": "Movements means body actions that create play.",
+    "translationJa": "動きは体の行動や動作。",
+    "reading": "うごき",
+    "translationEs": "Movimientos: acciones del cuerpo.",
+    "example": "Watch how simple movements create exciting play.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "nearly": {
+    "simpleMeaning": "Nearly means almost or very close.",
+    "contextMeaning": "Nearly means almost straight up when tossing the ball.",
+    "translationJa": "ほとんどはほぼ全部の意味。",
+    "reading": "ほとんど",
+    "translationEs": "Casi: casi completo.",
+    "example": "The server tosses it nearly straight up at least 16 centimetres.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "official": {
+    "simpleMeaning": "Official means authorized or accepted by rules.",
+    "contextMeaning": "Official means following the rules and accepted.",
+    "translationJa": "公式はルールに従う正式なもの。",
+    "reading": "こうしき",
+    "translationEs": "Oficial: aceptado por reglas.",
+    "example": "In an official serve, the ball begins on an open palm.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "often": {
+    "simpleMeaning": "Often means many times or frequently.",
+    "contextMeaning": "Often means many times or regularly.",
+    "translationJa": "よくは何度もあること。",
+    "reading": "よく",
+    "translationEs": "A menudo: muchas veces.",
+    "example": "Spin is often hard to see before the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "one": {
+    "simpleMeaning": "One means the number 1 or a single thing.",
+    "contextMeaning": "One means a single, not two or more things.",
+    "translationJa": "一は数字の１。単数の意味。",
+    "reading": "いち",
+    "translationEs": "Uno: número uno.",
+    "example": "Mima Ito’s result marks two important firsts in one event.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "organised": {
+    "simpleMeaning": "Organised means arranged and planned well.",
+    "contextMeaning": "Organised means planned and structured carefully.",
+    "translationJa": "整理されているは計画的に整っている。",
+    "reading": "せいりされている",
+    "translationEs": "Organizado: bien planeado.",
+    "example": "The sport later became more organised.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "other": {
+    "simpleMeaning": "Other means different or another one.",
+    "contextMeaning": "Other means the side not first, the second side.",
+    "translationJa": "他のは最初でない別のもの。",
+    "reading": "ほかの",
+    "translationEs": "Otro: diferente o adicional.",
+    "example": "Then it bounces on the other side.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "palm": {
+    "simpleMeaning": "Palm is the inside part of the hand.",
+    "contextMeaning": "Palm means the flat inside part of your hand.",
+    "translationJa": "手のひらは手の中の平らな部分。",
+    "reading": "てのひら",
+    "translationEs": "Palma: parte plana de la mano.",
+    "example": "In an official serve, the ball begins on an open palm.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "play": {
+    "simpleMeaning": "Play means to do a game or have fun.",
+    "contextMeaning": "Play means to enjoy or do the game.",
+    "translationJa": "遊ぶはゲームや楽しみをすること。",
+    "reading": "あそぶ",
+    "translationEs": "Jugar: hacer un juego o divertirse.",
+    "example": "Watch how simple movements create exciting play.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "played": {
+    "simpleMeaning": "Played means did or took part in a game or sport.",
+    "contextMeaning": "Played means people did a game or sport.",
+    "translationJa": "したは試合やスポーツをやる。",
+    "reading": "した",
+    "translationEs": "Jugado: haber participado en un juego.",
+    "example": "People played it as an indoor form of lawn tennis.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "player": {
+    "simpleMeaning": "Player is a person who plays a game.",
+    "contextMeaning": "Player means the person playing table tennis.",
+    "translationJa": "プレイヤーはゲームをする人。",
+    "reading": "プレイヤー",
+    "translationEs": "Jugador: persona que juega.",
+    "example": "A player watches the bounce and changes the next shot.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "point": {
+    "simpleMeaning": "Point means a unit of scoring in a game.",
+    "contextMeaning": "Point means a score unit in table tennis or sport.",
+    "translationJa": "ポイントはゲームの得点の単位。",
+    "reading": "ポイント",
+    "translationEs": "Punto: unidad de puntuación.",
+    "example": "Every point starts with a serve.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "points": {
+    "simpleMeaning": "Points means counts of scores for players.",
+    "contextMeaning": "Points means many scoring units in games.",
+    "translationJa": "ポイントは複数の得点のこと。",
+    "reading": "ポイント",
+    "translationEs": "Puntos: varias unidades de puntuación.",
+    "example": "A short backspin serve and a fast topspin serve can start two very different points.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "quickly": {
+    "simpleMeaning": "Quickly means doing something very fast.",
+    "contextMeaning": "Quickly means fast in a short time.",
+    "translationJa": "速くは短時間に速くすること。",
+    "reading": "はやく",
+    "translationEs": "Rápidamente: hacer algo con velocidad.",
+    "example": "Topspin makes the ball dip and move forward quickly after the bounce.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "racket": {
+    "simpleMeaning": "Racket is the wooden tool with strings to hit the ball.",
+    "contextMeaning": "Racket means the tool players use to hit the ball.",
+    "translationJa": "ラケットはボールを打つ道具。",
+    "reading": "ラケット",
+    "translationEs": "Raqueta: herramienta para golpear la bola.",
+    "example": "Players brush the ball with the racket to make spin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "right": {
+    "simpleMeaning": "Right means the side on the right when facing forward.",
+    "contextMeaning": "Right means on the right side of a person or object.",
+    "translationJa": "右は向いている時の右側。",
+    "reading": "みぎ",
+    "translationEs": "Derecha: lado derecho de algo.",
+    "example": "Sidespin can make it curve left or right.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "short": {
+    "simpleMeaning": "Short means not long or small in length.",
+    "contextMeaning": "Short means little in length or time.",
+    "translationJa": "短いは長さや時間が小さい。",
+    "reading": "みじかい",
+    "translationEs": "Corto: de poca longitud.",
+    "example": "A short backspin serve and a fast topspin serve can start two very different points.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "shows": {
+    "simpleMeaning": "Shows means makes clear or easy to see.",
+    "contextMeaning": "Shows means to make information or feelings visible.",
+    "translationJa": "示すはわかりやすくすること。",
+    "reading": "しめす",
+    "translationEs": "Mostrar: hacer visible o claro.",
+    "example": "Ma Long’s result shows success across two Olympic Games.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "slow": {
+    "simpleMeaning": "Slow means moving with little speed.",
+    "contextMeaning": "Slow means not fast, moving gently.",
+    "translationJa": "遅いはゆっくり動くこと。",
+    "reading": "おそい",
+    "translationEs": "Lento: que no es rápido.",
+    "example": "Backspin can make it stay low and slow.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "speed": {
+    "simpleMeaning": "Speed means how fast something moves.",
+    "contextMeaning": "Speed is how quickly the ball moves.",
+    "translationJa": "速度は物が速く動く速さ。",
+    "reading": "そくど",
+    "translationEs": "Velocidad: qué rápido se mueve algo.",
+    "example": "A server can change the speed, place, and spin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "stars": {
+    "simpleMeaning": "Stars means famous or top players or people.",
+    "contextMeaning": "Stars means very good and well-known players.",
+    "translationJa": "スターはとても上手で有名な人。",
+    "reading": "スター",
+    "translationEs": "Estrellas: personas muy buenas o famosas.",
+    "example": "Explore spin, a legal serve, the sport’s early days, and two Olympic stars.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "start": {
+    "simpleMeaning": "Start means to begin something.",
+    "contextMeaning": "Start means to begin, like a serve starting a point.",
+    "translationJa": "始めるは何かが始まること。",
+    "reading": "はじめる",
+    "translationEs": "Empezar: iniciar algo.",
+    "example": "A short backspin serve and a fast topspin serve can start two very different points.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "starts": {
+    "simpleMeaning": "Starts means begins something first.",
+    "contextMeaning": "Starts means to begin, like a game or point.",
+    "translationJa": "スタートは最初に始めること。",
+    "reading": "スタート",
+    "translationEs": "Comenzar: iniciar algo.",
+    "example": "Every point starts with a serve.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "stay": {
+    "simpleMeaning": "Stay means to remain in the same place or state.",
+    "contextMeaning": "Stay means the ball remains low and slow without rising.",
+    "translationJa": "とどまるは同じ場所や状態にいる。",
+    "reading": "とどまる",
+    "translationEs": "Quedarse: no cambiar de lugar o estado.",
+    "example": "Backspin can make it stay low and slow.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "still": {
+    "simpleMeaning": "Still means continuing unchanged now.",
+    "contextMeaning": "Still means something continues as before now.",
+    "translationJa": "まだは今もそのままである。",
+    "reading": "まだ",
+    "translationEs": "Todavía: seguir sin cambio.",
+    "example": "Today, the table is still small, but players compete around the world.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "straight": {
+    "simpleMeaning": "Straight means in a direct line, not curved.",
+    "contextMeaning": "Straight means the ball goes straight up when tossed.",
+    "translationJa": "まっすぐは曲がらずに真っ直ぐの意味。",
+    "reading": "まっすぐ",
+    "translationEs": "Recto: sin curvear.",
+    "example": "The server tosses it nearly straight up at least 16 centimetres.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "success": {
+    "simpleMeaning": "Success means doing something well or winning.",
+    "contextMeaning": "Success means good results or achievements.",
+    "translationJa": "成功はうまくいくこと。",
+    "reading": "せいこう",
+    "translationEs": "Éxito: hacer algo bien.",
+    "example": "Ma Long’s result shows success across two Olympic Games.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "tables": {
+    "simpleMeaning": "Tables means more than one table.",
+    "contextMeaning": "Tables means more than one flat surface for playing.",
+    "translationJa": "テーブルは複数の机や台のこと。",
+    "reading": "テーブルズ",
+    "translationEs": "Mesas: más de una mesa.",
+    "example": "A game for indoor tables had become an international sport.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "three": {
+    "simpleMeaning": "Three means the number 3.",
+    "contextMeaning": "Three means the number 3.",
+    "translationJa": "３は数字の「さん」。",
+    "reading": "さん",
+    "translationEs": "Tres: número 3.",
+    "example": "The three basic kinds are topspin, backspin, and sidespin.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "took": {
+    "simpleMeaning": "Took means to get or have something in the past.",
+    "contextMeaning": "Took means to have an event happen in the past.",
+    "translationJa": "取ったは過去に起こった意味。",
+    "reading": "とった",
+    "translationEs": "Tomó: ocurrió en el pasado.",
+    "example": "The first World Championships also took place in 1926, in London.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "tosses": {
+    "simpleMeaning": "Tosses means throws lightly up into the air.",
+    "contextMeaning": "Tosses means the server throws the ball up gently.",
+    "translationJa": "トスはボールを軽く上に投げること。",
+    "reading": "トス",
+    "translationEs": "Lanza suavemente hacia arriba.",
+    "example": "The server tosses it nearly straight up at least 16 centimetres.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "twice": {
+    "simpleMeaning": "Twice means two times.",
+    "contextMeaning": "Twice means something happened two times.",
+    "translationJa": "２度は何かが２回あること。",
+    "reading": "にど",
+    "translationEs": "Dos veces: algo sucede dos veces.",
+    "example": "He became the first man to win this Olympic singles title twice.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "used": {
+    "simpleMeaning": "Used means employed or made use of something.",
+    "contextMeaning": "Used means to have used a table or equipment.",
+    "translationJa": "使ったは何かを使ったこと。",
+    "reading": "つかった",
+    "translationEs": "Usado: haber usado algo.",
+    "example": "They used a dining table and simple equipment they had around them.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "watches": {
+    "simpleMeaning": "Watches means looks carefully at something.",
+    "contextMeaning": "Watches means to look closely, like watching the bounce.",
+    "translationJa": "見るは注意して見ること。",
+    "reading": "みる",
+    "translationEs": "Mirar: observar atentamente.",
+    "example": "A player watches the bounce and changes the next shot.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "win": {
+    "simpleMeaning": "Win means to be better or first in a game.",
+    "contextMeaning": "Win means to succeed and be first or champion.",
+    "translationJa": "勝つは試合で一番になる。",
+    "reading": "かつ",
+    "translationEs": "Ganar: ser el mejor o primero.",
+    "example": "He became the first man to win this Olympic singles title twice.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  }
+}
