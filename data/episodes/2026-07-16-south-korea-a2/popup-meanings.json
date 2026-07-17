@@ -10,13 +10,14 @@
     "status": "reviewed_release"
   },
   "mayak gimbap": {
-    "simpleMeaning": "Small rice rolls",
-    "contextMeaning": "Small rice rolls",
-    "translationJa": "小さなご飯の巻物",
+    "simpleMeaning": "small Korean rice rolls wrapped in seaweed",
+    "contextMeaning": "small Korean rice rolls wrapped in seaweed",
+    "translationJa": "韓国の小さな海苔巻き",
     "reading": "",
-    "translationEs": "pequeños rollos de arroz",
-    "example": "A food to try at the historic Seoul market.",
-    "source": "v2_batched_support",
+    "translationEs": "pequeños rollos coreanos de arroz envueltos en alga",
+    "example": "Two foods to try are mayak gimbap and nokdujeon.",
+    "entryType": "compound_noun",
+    "source": "owner_reviewed_lexical_migration",
     "status": "reviewed_release"
   },
   "nokdujeon": {
@@ -40,13 +41,14 @@
     "status": "reviewed_release"
   },
   "gyeongbokgung palace": {
-    "simpleMeaning": "Main royal palace",
-    "contextMeaning": "Main royal palace",
-    "translationJa": "主な王宮",
+    "simpleMeaning": "the main royal palace of the Joseon dynasty in Seoul",
+    "contextMeaning": "the main royal palace of the Joseon dynasty in Seoul",
+    "translationJa": "ソウルにある朝鮮王朝の主要な王宮、景福宮",
     "reading": "",
-    "translationEs": "palacio real principal",
-    "example": "The palace was destroyed in 1592 and restored in 1867.",
-    "source": "v2_batched_support",
+    "translationEs": "el principal palacio real de la dinastía Joseon en Seúl",
+    "example": "You have a paper map but you are not sure which line to take to Gyeongbokgung Palace.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
     "status": "reviewed_release"
   },
   "what size is this?": {
@@ -1417,6 +1419,204 @@
     "translationEs": "trabajador",
     "example": "A station worker is standing near the information board.",
     "source": "v2_local_support_patch",
+    "status": "reviewed_release"
+  },
+  "seoul": {
+    "simpleMeaning": "the capital city of South Korea",
+    "contextMeaning": "the capital city of South Korea",
+    "translationJa": "韓国の首都、ソウル",
+    "reading": "",
+    "translationEs": "Seúl, la capital de Corea del Sur",
+    "example": "Seoul is the capital of South Korea, a country in East Asia.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "south korea": {
+    "simpleMeaning": "a country in East Asia",
+    "contextMeaning": "a country in East Asia",
+    "translationJa": "東アジアにある国、韓国",
+    "reading": "",
+    "translationEs": "un país de Asia Oriental, Corea del Sur",
+    "example": "Seoul is the capital of South Korea, a country in East Asia.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "east asia": {
+    "simpleMeaning": "the eastern region of Asia, including Korea, Japan, and China",
+    "contextMeaning": "the eastern region of Asia, including Korea, Japan, and China",
+    "translationJa": "韓国・日本・中国などを含むアジア東部の地域",
+    "reading": "",
+    "translationEs": "la región oriental de Asia, que incluye Corea, Japón y China",
+    "example": "Seoul is the capital of South Korea, a country in East Asia.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "gwangjang market": {
+    "simpleMeaning": "a historic market in Seoul known for food and fabric",
+    "contextMeaning": "a historic market in Seoul known for food and fabric",
+    "translationJa": "食べ物や布で知られるソウルの歴史ある市場、広蔵市場",
+    "reading": "",
+    "translationEs": "un mercado histórico de Seúl conocido por la comida y las telas",
+    "example": "Gwangjang Market is a historic market in Seoul.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "mung beans": {
+    "simpleMeaning": "small green beans used to make foods such as pancakes",
+    "contextMeaning": "small green beans used to make foods such as pancakes",
+    "translationJa": "料理に使う小さな緑色の豆、緑豆",
+    "reading": "",
+    "translationEs": "frijoles mungo, pequeños frijoles verdes usados para cocinar",
+    "example": "Nokdujeon are savoury pancakes made from mung beans.",
+    "entryType": "compound_noun",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "korean": {
+    "simpleMeaning": "from or connected with Korea",
+    "contextMeaning": "from or connected with Korea",
+    "translationJa": "韓国の、または韓国に関係する",
+    "reading": "",
+    "translationEs": "de Corea o relacionado con Corea",
+    "example": "Another important Korean food is kimchi.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "unesco": {
+    "simpleMeaning": "the United Nations organization for education, science, and culture",
+    "contextMeaning": "the United Nations organization for education, science, and culture",
+    "translationJa": "教育・科学・文化を支援する国連機関、ユネスコ",
+    "reading": "",
+    "translationEs": "la organización de la ONU para la educación, la ciencia y la cultura",
+    "example": "UNESCO added kimjang to its Intangible Cultural Heritage list in 2013.",
+    "entryType": "acronym",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "intangible cultural heritage": {
+    "simpleMeaning": "traditions and skills that communities pass to future generations",
+    "contextMeaning": "traditions and skills that communities pass to future generations",
+    "translationJa": "地域社会が次の世代へ受け継ぐ伝統や技術、無形文化遺産",
+    "reading": "",
+    "translationEs": "tradiciones y conocimientos que las comunidades transmiten a futuras generaciones",
+    "example": "UNESCO added kimjang to its Intangible Cultural Heritage list in 2013.",
+    "entryType": "technical_term",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "gyeongbokgung": {
+    "simpleMeaning": "the main royal palace of the Joseon dynasty in Seoul",
+    "contextMeaning": "the main royal palace of the Joseon dynasty in Seoul",
+    "translationJa": "ソウルにある朝鮮王朝の主要な王宮、景福宮",
+    "reading": "",
+    "translationEs": "Gyeongbokgung, el principal palacio real de la dinastía Joseon en Seúl",
+    "example": "Gyeongbokgung was the main royal palace of the Joseon dynasty.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "joseon dynasty": {
+    "simpleMeaning": "the Korean royal dynasty that ruled from 1392 to 1910",
+    "contextMeaning": "the Korean royal dynasty that ruled from 1392 to 1910",
+    "translationJa": "1392年から1910年まで朝鮮を治めた王朝、朝鮮王朝",
+    "reading": "",
+    "translationEs": "la dinastía real que gobernó Corea de 1392 a 1910",
+    "example": "Gyeongbokgung was the main royal palace of the Joseon dynasty.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "hunminjeongeum": {
+    "simpleMeaning": "the original name of the Korean alphabet and the document that introduced it",
+    "contextMeaning": "the original name of the Korean alphabet and the document that introduced it",
+    "translationJa": "韓国語の文字を初めて紹介した文書とその当時の名称、訓民正音",
+    "reading": "",
+    "translationEs": "el nombre original del alfabeto coreano y el documento que lo presentó",
+    "example": "Important cultural work took place there, including work connected to Hunminjeongeum, the original name of the Korean alphabet.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "korean alphabet": {
+    "simpleMeaning": "the writing system used for the Korean language, now called Hangul",
+    "contextMeaning": "the writing system used for the Korean language, now called Hangul",
+    "translationJa": "現在ハングルと呼ばれる韓国語の文字体系",
+    "reading": "",
+    "translationEs": "el sistema de escritura del coreano, hoy llamado hangul",
+    "example": "Hunminjeongeum was the original name of the Korean alphabet.",
+    "entryType": "compound_noun",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "myeong-dong": {
+    "simpleMeaning": "a busy shopping area in central Seoul",
+    "contextMeaning": "a busy shopping area in central Seoul",
+    "translationJa": "ソウル中心部のにぎやかなショッピング街、明洞",
+    "reading": "",
+    "translationEs": "una concurrida zona comercial del centro de Seúl",
+    "example": "Myeong-dong is a shopping area in central Seoul.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "myeong-dong cathedral": {
+    "simpleMeaning": "a historic Catholic cathedral in central Seoul",
+    "contextMeaning": "a historic Catholic cathedral in central Seoul",
+    "translationJa": "ソウル中心部にある歴史的なカトリック大聖堂、明洞聖堂",
+    "reading": "",
+    "translationEs": "una catedral católica histórica del centro de Seúl",
+    "example": "The area also has Myeong-dong Cathedral and two major department stores.",
+    "entryType": "proper_name",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "department stores": {
+    "simpleMeaning": "large shops divided into sections that sell many kinds of goods",
+    "contextMeaning": "large shops divided into sections that sell many kinds of goods",
+    "translationJa": "多くの種類の商品を売る売り場に分かれた大きな店、百貨店",
+    "reading": "",
+    "translationEs": "tiendas grandes divididas en secciones que venden muchos tipos de productos",
+    "example": "The area also has Myeong-dong Cathedral and two major department stores.",
+    "entryType": "compound_noun",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "information board": {
+    "simpleMeaning": "a board that shows useful information",
+    "contextMeaning": "a board that shows useful information",
+    "translationJa": "役立つ情報を表示する案内板",
+    "reading": "",
+    "translationEs": "un panel que muestra información útil",
+    "example": "A station worker is standing near the information board.",
+    "entryType": "compound_noun",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "shop assistant": {
+    "simpleMeaning": "a person who helps customers in a shop",
+    "contextMeaning": "a person who helps customers in a shop",
+    "translationJa": "店で客を手伝う店員",
+    "reading": "",
+    "translationEs": "una persona que ayuda a los clientes en una tienda",
+    "example": "A shop assistant is nearby and ready to help.",
+    "entryType": "compound_noun",
+    "source": "owner_reviewed_lexical_migration",
+    "status": "reviewed_release"
+  },
+  "check": {
+    "simpleMeaning": "look at something carefully to make sure it is correct",
+    "contextMeaning": "look at something carefully to make sure it is correct",
+    "translationJa": "正しいかどうか注意して確認する",
+    "reading": "",
+    "translationEs": "mirar algo con atención para comprobar que es correcto",
+    "example": "When you buy clothes, check the label because size systems can be different.",
+    "entryType": "technical_term",
+    "source": "owner_reviewed_lexical_migration",
     "status": "reviewed_release"
   }
 }
