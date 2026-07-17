@@ -1,1 +1,0 @@
-function e(e){return e===`again`?.35:e===`hard`?.8:e===`easy`?1.8:1.25}function t(t,n){let r=Math.round(Math.max(t||8,1)*e(n));return Math.min(Math.max(r,1),1080)}function n(e,n,r){let i=new Date(e||Date.now()),a=t(n,r);return new Date(i.getTime()+a*60*60*1e3).toISOString()}export{t as n,n as t};
