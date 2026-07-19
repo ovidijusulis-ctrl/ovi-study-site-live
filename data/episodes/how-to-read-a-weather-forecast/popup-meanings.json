@@ -1,0 +1,1406 @@
+{
+  "cloudy": {
+    "simpleMeaning": "sky with many clouds",
+    "contextMeaning": "sky with many clouds",
+    "translationJa": "空が多くの雲で覆われている",
+    "reading": "",
+    "translationEs": "cielo con muchas nubes",
+    "example": "Cloudy describes the sky, but it does not give the rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "high temperature": {
+    "simpleMeaning": "warmest temperature expected",
+    "contextMeaning": "warmest temperature expected",
+    "translationJa": "予想される最高気温",
+    "reading": "",
+    "translationEs": "temperatura más alta esperada",
+    "example": "The forecast high is 22°C.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "wind speed": {
+    "simpleMeaning": "how fast air moves",
+    "contextMeaning": "how fast air moves",
+    "translationJa": "空気の速さ",
+    "reading": "",
+    "translationEs": "velocidad del viento",
+    "example": "A wind speed of 18 mph is breezy in the NWS terms.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "probability of precipitation (pop)": {
+    "simpleMeaning": "chance of rain or snow",
+    "contextMeaning": "chance of rain or snow",
+    "translationJa": "雨や雪の可能性",
+    "reading": "",
+    "translationEs": "probabilidad de lluvia o nieve",
+    "example": "A 60% chance means precipitation is likely during that period.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "breezy": {
+    "simpleMeaning": "wind speed 15-25 mph",
+    "contextMeaning": "wind speed 15-25 mph",
+    "translationJa": "風速15～25マイル毎時",
+    "reading": "",
+    "translationEs": "brisa con viento de 15-25 mph",
+    "example": "A forecast may say breezy at 18 mph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "partly cloudy": {
+    "simpleMeaning": "some clouds and some sky",
+    "contextMeaning": "some clouds and some sky",
+    "translationJa": "雲と空が半分ずつ",
+    "reading": "",
+    "translationEs": "parcialmente nublado",
+    "example": "Partly cloudy describes cloud cover, not rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "how do you read a full weather forecast?": {
+    "simpleMeaning": "use weather info to plan",
+    "contextMeaning": "use weather info to plan",
+    "translationJa": "天気情報で計画する",
+    "reading": "",
+    "translationEs": "usar info del tiempo para planear",
+    "example": "A cool, breezy, rainy afternoon may call for a jacket, an umbrella, and an indoor backup.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "20% chance of rain / 70% chance of rain": {
+    "simpleMeaning": "percent shows rain chance",
+    "contextMeaning": "percent shows rain chance",
+    "translationJa": "％が雨の可能性を示す",
+    "reading": "",
+    "translationEs": "porcentaje muestra posibilidad de lluvia",
+    "example": "A 20% chance is slight. A 60% chance is likely.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "forecast": {
+    "simpleMeaning": "weather prediction",
+    "contextMeaning": "weather prediction",
+    "translationJa": "天気予報",
+    "reading": "",
+    "translationEs": "pronóstico del tiempo",
+    "example": "",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "low temperature": {
+    "simpleMeaning": "coolest temperature expected",
+    "contextMeaning": "coolest temperature expected",
+    "translationJa": "予想される最低気温",
+    "reading": "",
+    "translationEs": "temperatura más baja esperada",
+    "example": "",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "probability of precipitation": {
+    "simpleMeaning": "chance of rain or snow",
+    "contextMeaning": "chance of rain or snow",
+    "translationJa": "雨や雪の可能性",
+    "reading": "",
+    "translationEs": "probabilidad de precipitación",
+    "example": "",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "fahrenheit": {
+    "simpleMeaning": "temperature scale with degrees F",
+    "contextMeaning": "temperature scale with degrees F",
+    "translationJa": "華氏温度の単位",
+    "reading": "",
+    "translationEs": "escala de temperatura Fahrenheit",
+    "example": "First check whether the numbers use Celsius or Fahrenheit.",
+    "entryType": "proper_name",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "celsius": {
+    "simpleMeaning": "temperature scale with degrees C",
+    "contextMeaning": "temperature scale with degrees C",
+    "translationJa": "摂氏温度の単位",
+    "reading": "",
+    "translationEs": "escala de temperatura Celsius",
+    "example": "First check whether the numbers use Celsius or Fahrenheit.",
+    "entryType": "proper_name",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "pop": {
+    "simpleMeaning": "probability of precipitation",
+    "contextMeaning": "probability of precipitation",
+    "translationJa": "降水確率のこと",
+    "reading": "",
+    "translationEs": "probabilidad de precipitación",
+    "example": "A rain percent is the probability of precipitation, or POP.",
+    "entryType": "acronym",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "forecast period": {
+    "simpleMeaning": "time for weather prediction",
+    "contextMeaning": "time for weather prediction",
+    "translationJa": "予報の期間",
+    "reading": "",
+    "translationEs": "período de pronóstico",
+    "example": "It is the chance of measurable rain at your location during the forecast period.",
+    "entryType": "fixed_phrase",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "the": {
+    "simpleMeaning": "specific article",
+    "contextMeaning": "specific article",
+    "translationJa": "特定の冠詞",
+    "reading": "",
+    "translationEs": "artículo específico",
+    "example": "The high is the warmest temperature expected.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "a": {
+    "simpleMeaning": "one or any",
+    "contextMeaning": "one or any",
+    "translationJa": "一つまたは任意の",
+    "reading": "",
+    "translationEs": "uno o cualquiera",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "and": {
+    "simpleMeaning": "connects words",
+    "contextMeaning": "connects words",
+    "translationJa": "言葉をつなぐ",
+    "reading": "",
+    "translationEs": "y",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "rain": {
+    "simpleMeaning": "water from clouds",
+    "contextMeaning": "water from clouds",
+    "translationJa": "雲からの水",
+    "reading": "",
+    "translationEs": "lluvia",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "is": {
+    "simpleMeaning": "equals or exists",
+    "contextMeaning": "equals or exists",
+    "translationJa": "～である、～です",
+    "reading": "",
+    "translationEs": "es, está",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "of": {
+    "simpleMeaning": "showing belonging",
+    "contextMeaning": "showing belonging",
+    "translationJa": "所属を示す",
+    "reading": "",
+    "translationEs": "de",
+    "example": "Imagine a high of 22°C and a low of 12°C.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "clouds": {
+    "simpleMeaning": "water in the sky",
+    "contextMeaning": "water in the sky",
+    "translationJa": "空の水蒸気",
+    "reading": "",
+    "translationEs": "nubes",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "chance": {
+    "simpleMeaning": "possibility",
+    "contextMeaning": "possibility",
+    "translationJa": "可能性",
+    "reading": "",
+    "translationEs": "posibilidad",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "mph": {
+    "simpleMeaning": "miles per hour speed",
+    "contextMeaning": "miles per hour speed",
+    "translationJa": "時速マイル単位",
+    "reading": "",
+    "translationEs": "millas por hora",
+    "example": "The speed may be in miles per hour, or mph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "you": {
+    "simpleMeaning": "second person",
+    "contextMeaning": "second person",
+    "translationJa": "あなた",
+    "reading": "",
+    "translationEs": "tú",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "can": {
+    "simpleMeaning": "able to",
+    "contextMeaning": "able to",
+    "translationJa": "できる",
+    "reading": "",
+    "translationEs": "poder",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "or": {
+    "simpleMeaning": "connects options",
+    "contextMeaning": "connects options",
+    "translationJa": "選択肢をつなぐ",
+    "reading": "",
+    "translationEs": "o",
+    "example": "First check whether the numbers use Celsius or Fahrenheit.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "high": {
+    "simpleMeaning": "maximum",
+    "contextMeaning": "maximum",
+    "translationJa": "最高の",
+    "reading": "",
+    "translationEs": "alto",
+    "example": "A forecast often shows a high temperature and a low temperature.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "low": {
+    "simpleMeaning": "minimum",
+    "contextMeaning": "minimum",
+    "translationJa": "最低の",
+    "reading": "",
+    "translationEs": "bajo",
+    "example": "A forecast often shows a high temperature and a low temperature.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "percent": {
+    "simpleMeaning": "part of 100",
+    "contextMeaning": "part of 100",
+    "translationJa": "100分の割合",
+    "reading": "",
+    "translationEs": "por ciento",
+    "example": "Clouds alone do not tell you the rain chance, so check the rain percent too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "wind": {
+    "simpleMeaning": "air moving",
+    "contextMeaning": "air moving",
+    "translationJa": "動く空気",
+    "reading": "",
+    "translationEs": "viento",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "weather": {
+    "simpleMeaning": "sky conditions",
+    "contextMeaning": "sky conditions",
+    "translationJa": "空の状況",
+    "reading": "",
+    "translationEs": "tiempo",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sky": {
+    "simpleMeaning": "space above",
+    "contextMeaning": "space above",
+    "translationJa": "上空",
+    "reading": "",
+    "translationEs": "cielo",
+    "example": "Sky words describe how much of the sky has clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "temperature": {
+    "simpleMeaning": "how hot or cold",
+    "contextMeaning": "how hot or cold",
+    "translationJa": "暑さや寒さの度合い",
+    "reading": "",
+    "translationEs": "temperatura",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "to": {
+    "simpleMeaning": "show direction",
+    "contextMeaning": "show direction",
+    "translationJa": "方向を示す",
+    "reading": "",
+    "translationEs": "a",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "it": {
+    "simpleMeaning": "thing talked about",
+    "contextMeaning": "thing talked about",
+    "translationJa": "話されていること",
+    "reading": "",
+    "translationEs": "eso",
+    "example": "It is not the percent of the day that it will rain.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "in": {
+    "simpleMeaning": "inside",
+    "contextMeaning": "inside",
+    "translationJa": "中に",
+    "reading": "",
+    "translationEs": "en",
+    "example": "The speed may be in miles per hour, or mph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "for": {
+    "simpleMeaning": "meaning intended",
+    "contextMeaning": "meaning intended",
+    "translationJa": "目的のために",
+    "reading": "",
+    "translationEs": "para",
+    "example": "The National Weather Service uses sunny or clear for very few clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "at": {
+    "simpleMeaning": "specific time or place",
+    "contextMeaning": "specific time or place",
+    "translationJa": "特定の時間や場所で",
+    "reading": "",
+    "translationEs": "en",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "day": {
+    "simpleMeaning": "24 hours",
+    "contextMeaning": "24 hours",
+    "translationJa": "24時間",
+    "reading": "",
+    "translationEs": "día",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "may": {
+    "simpleMeaning": "possible",
+    "contextMeaning": "possible",
+    "translationJa": "可能性がある",
+    "reading": "",
+    "translationEs": "puede",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "check": {
+    "simpleMeaning": "look and find",
+    "contextMeaning": "look and find",
+    "translationJa": "見て確かめる",
+    "reading": "",
+    "translationEs": "revisar",
+    "example": "First check whether the numbers use Celsius or Fahrenheit.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "light": {
+    "simpleMeaning": "not heavy",
+    "contextMeaning": "not heavy",
+    "translationJa": "軽い",
+    "reading": "",
+    "translationEs": "ligero",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "choose": {
+    "simpleMeaning": "pick one",
+    "contextMeaning": "pick one",
+    "translationJa": "選ぶ",
+    "reading": "",
+    "translationEs": "elegir",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "jacket": {
+    "simpleMeaning": "outer warm clothes",
+    "contextMeaning": "outer warm clothes",
+    "translationJa": "上着",
+    "reading": "",
+    "translationEs": "chaqueta",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "that": {
+    "simpleMeaning": "specific one",
+    "contextMeaning": "specific one",
+    "translationJa": "特定のもの",
+    "reading": "",
+    "translationEs": "ese",
+    "example": "On a breezy day, hold loose things and choose a jacket that closes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "not": {
+    "simpleMeaning": "negation",
+    "contextMeaning": "negation",
+    "translationJa": "否定",
+    "reading": "",
+    "translationEs": "no",
+    "example": "Clouds alone do not tell you the rain chance, so check the rain percent too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "so": {
+    "simpleMeaning": "therefore",
+    "contextMeaning": "therefore",
+    "translationJa": "だから",
+    "reading": "",
+    "translationEs": "por eso",
+    "example": "Clouds alone do not tell you the rain chance, so check the rain percent too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "your": {
+    "simpleMeaning": "belonging to you",
+    "contextMeaning": "belonging to you",
+    "translationJa": "あなたの",
+    "reading": "",
+    "translationEs": "tu",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "make": {
+    "simpleMeaning": "create or do",
+    "contextMeaning": "create or do",
+    "translationJa": "作る",
+    "reading": "",
+    "translationEs": "hacer",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "time": {
+    "simpleMeaning": "when",
+    "contextMeaning": "when",
+    "translationJa": "時間",
+    "reading": "",
+    "translationEs": "tiempo",
+    "example": "Always check which time period the percent describes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "some": {
+    "simpleMeaning": "a few",
+    "contextMeaning": "a few",
+    "translationJa": "少しの",
+    "reading": "",
+    "translationEs": "algunos",
+    "example": "Partly cloudy means some clouds and some open sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "use": {
+    "simpleMeaning": "employ",
+    "contextMeaning": "employ",
+    "translationJa": "使う",
+    "reading": "",
+    "translationEs": "usar",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "calls": {
+    "simpleMeaning": "names things",
+    "contextMeaning": "names things",
+    "translationJa": "呼ぶ",
+    "reading": "",
+    "translationEs": "llama",
+    "example": "The National Weather Service calls 0–5 mph light wind, 15–25 mph breezy, and 20–30 mph windy.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "too": {
+    "simpleMeaning": "also",
+    "contextMeaning": "also",
+    "translationJa": "～もまた",
+    "reading": "",
+    "translationEs": "también",
+    "example": "Clouds alone do not tell you the rain chance, so check the rain percent too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "bring": {
+    "simpleMeaning": "carry something",
+    "contextMeaning": "carry something",
+    "translationJa": "持ってくる",
+    "reading": "",
+    "translationEs": "traer",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "plan": {
+    "simpleMeaning": "make a decision",
+    "contextMeaning": "make a decision",
+    "translationJa": "計画する",
+    "reading": "",
+    "translationEs": "planear",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "period": {
+    "simpleMeaning": "length of time",
+    "contextMeaning": "length of time",
+    "translationJa": "期間",
+    "reading": "",
+    "translationEs": "período",
+    "example": "It is the chance of measurable rain at your location during the forecast period.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "imagine": {
+    "simpleMeaning": "think about",
+    "contextMeaning": "think about",
+    "translationJa": "想像する",
+    "reading": "",
+    "translationEs": "imagina",
+    "example": "Now imagine this forecast: high 22°C, low 12°C, partly cloudy, breezy at 18 mph, and 60% rain in the afternoon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "speed": {
+    "simpleMeaning": "how fast",
+    "contextMeaning": "how fast",
+    "translationJa": "速さ",
+    "reading": "",
+    "translationEs": "velocidad",
+    "example": "A wind forecast gives a direction and a speed.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "useful": {
+    "simpleMeaning": "helpful",
+    "contextMeaning": "helpful",
+    "translationJa": "役に立つ",
+    "reading": "",
+    "translationEs": "útil",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "afternoon": {
+    "simpleMeaning": "part after noon",
+    "contextMeaning": "part after noon",
+    "translationJa": "午後の時間",
+    "reading": "",
+    "translationEs": "tarde",
+    "example": "Now imagine this forecast: high 22°C, low 12°C, partly cloudy, breezy at 18 mph, and 60% rain in the afternoon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "means": {
+    "simpleMeaning": "gives meaning",
+    "contextMeaning": "gives meaning",
+    "translationJa": "意味する",
+    "reading": "",
+    "translationEs": "significa",
+    "example": "Partly cloudy means some clouds and some open sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "backup": {
+    "simpleMeaning": "extra plan",
+    "contextMeaning": "extra plan",
+    "translationJa": "予備の計画",
+    "reading": "",
+    "translationEs": "plan de respaldo",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "partly": {
+    "simpleMeaning": "some but not all",
+    "contextMeaning": "some but not all",
+    "translationJa": "一部の",
+    "reading": "",
+    "translationEs": "parcialmente",
+    "example": "Now imagine this forecast: high 22°C, low 12°C, partly cloudy, breezy at 18 mph, and 60% rain in the afternoon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "an": {
+    "simpleMeaning": "one (before vowel sound)",
+    "contextMeaning": "one (before vowel sound)",
+    "translationJa": "母音の前の単数冠詞",
+    "reading": "",
+    "translationEs": "un (antes de vocal)",
+    "example": "Take an umbrella and choose an indoor backup for the afternoon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "be": {
+    "simpleMeaning": "to exist",
+    "contextMeaning": "to exist",
+    "translationJa": "存在する",
+    "reading": "",
+    "translationEs": "ser o estar",
+    "example": "The speed may be in miles per hour, or mph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "this": {
+    "simpleMeaning": "the near one",
+    "contextMeaning": "the near one",
+    "translationJa": "これ",
+    "reading": "",
+    "translationEs": "esto",
+    "example": "Now imagine this forecast: high 22°C, low 12°C, partly cloudy, breezy at 18 mph, and 60% rain in the afternoon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "do": {
+    "simpleMeaning": "perform action",
+    "contextMeaning": "perform action",
+    "translationJa": "行う",
+    "reading": "",
+    "translationEs": "hacer",
+    "example": "Clouds alone do not tell you the rain chance, so check the rain percent too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "but": {
+    "simpleMeaning": "however",
+    "contextMeaning": "however",
+    "translationJa": "しかし",
+    "reading": "",
+    "translationEs": "pero",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "will": {
+    "simpleMeaning": "future action",
+    "contextMeaning": "future action",
+    "translationJa": "未来のこと",
+    "reading": "",
+    "translationEs": "hará",
+    "example": "It is not the percent of the day that it will rain.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "all": {
+    "simpleMeaning": "every one",
+    "contextMeaning": "every one",
+    "translationJa": "すべて",
+    "reading": "",
+    "translationEs": "todo",
+    "example": "Cloudy means clouds cover nearly all the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "what": {
+    "simpleMeaning": "which thing",
+    "contextMeaning": "which thing",
+    "translationJa": "何",
+    "reading": "",
+    "translationEs": "qué",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "want": {
+    "simpleMeaning": "wish for",
+    "contextMeaning": "wish for",
+    "translationJa": "欲しい",
+    "reading": "",
+    "translationEs": "querer",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "how": {
+    "simpleMeaning": "in what way",
+    "contextMeaning": "in what way",
+    "translationJa": "どのように",
+    "reading": "",
+    "translationEs": "cómo",
+    "example": "Sky words describe how much of the sky has clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "which": {
+    "simpleMeaning": "what one",
+    "contextMeaning": "what one",
+    "translationJa": "どちら",
+    "reading": "",
+    "translationEs": "cuál",
+    "example": "Always check which time period the percent describes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "things": {
+    "simpleMeaning": "objects",
+    "contextMeaning": "objects",
+    "translationJa": "物",
+    "reading": "",
+    "translationEs": "cosas",
+    "example": "On a breezy day, hold loose things and choose a jacket that closes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "uses": {
+    "simpleMeaning": "makes use",
+    "contextMeaning": "makes use",
+    "translationJa": "使う",
+    "reading": "",
+    "translationEs": "usa",
+    "example": "The National Weather Service uses sunny or clear for very few clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "very": {
+    "simpleMeaning": "extreme degree",
+    "contextMeaning": "extreme degree",
+    "translationJa": "非常に",
+    "reading": "",
+    "translationEs": "muy",
+    "example": "The National Weather Service uses sunny or clear for very few clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "work": {
+    "simpleMeaning": "function well",
+    "contextMeaning": "function well",
+    "translationJa": "働く",
+    "reading": "",
+    "translationEs": "funcionar",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "much": {
+    "simpleMeaning": "a large amount",
+    "contextMeaning": "a large amount",
+    "translationJa": "多い",
+    "reading": "",
+    "translationEs": "mucho",
+    "example": "Sky words describe how much of the sky has clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "show": {
+    "simpleMeaning": "make visible",
+    "contextMeaning": "make visible",
+    "translationJa": "見せる",
+    "reading": "",
+    "translationEs": "mostrar",
+    "example": "A forecast can show temperature, clouds, wind, and rain chance.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "shows": {
+    "simpleMeaning": "makes visible",
+    "contextMeaning": "makes visible",
+    "translationJa": "示す",
+    "reading": "",
+    "translationEs": "muestra",
+    "example": "A forecast often shows a high temperature and a low temperature.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "help": {
+    "simpleMeaning": "give assistance",
+    "contextMeaning": "give assistance",
+    "translationJa": "助ける",
+    "reading": "",
+    "translationEs": "ayudar",
+    "example": "One short forecast can help you make several useful choices.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "tell": {
+    "simpleMeaning": "give information",
+    "contextMeaning": "give information",
+    "translationJa": "教える",
+    "reading": "",
+    "translationEs": "decir",
+    "example": "Clouds alone do not tell you the rain chance, so check the rain percent too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "number": {
+    "simpleMeaning": "count or value",
+    "contextMeaning": "count or value",
+    "translationJa": "数",
+    "reading": "",
+    "translationEs": "número",
+    "example": "The ranges can overlap, so read the number too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "numbers": {
+    "simpleMeaning": "figures",
+    "contextMeaning": "figures",
+    "translationJa": "数字",
+    "reading": "",
+    "translationEs": "números",
+    "example": "First check whether the numbers use Celsius or Fahrenheit.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "open": {
+    "simpleMeaning": "not closed",
+    "contextMeaning": "not closed",
+    "translationJa": "開いている",
+    "reading": "",
+    "translationEs": "abierto",
+    "example": "Partly cloudy means some clouds and some open sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "few": {
+    "simpleMeaning": "small number",
+    "contextMeaning": "small number",
+    "translationJa": "少数の",
+    "reading": "",
+    "translationEs": "pocos",
+    "example": "The National Weather Service uses sunny or clear for very few clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "four": {
+    "simpleMeaning": "number 4",
+    "contextMeaning": "number 4",
+    "translationJa": "数字の4",
+    "reading": "",
+    "translationEs": "cuatro",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "closes": {
+    "simpleMeaning": "shuts",
+    "contextMeaning": "shuts",
+    "translationJa": "閉じる",
+    "reading": "",
+    "translationEs": "cierra",
+    "example": "On a breezy day, hold loose things and choose a jacket that closes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "words": {
+    "simpleMeaning": "units of language",
+    "contextMeaning": "units of language",
+    "translationJa": "単語",
+    "reading": "",
+    "translationEs": "palabras",
+    "example": "Sky words describe how much of the sky has clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "hold": {
+    "simpleMeaning": "keep in hand",
+    "contextMeaning": "keep in hand",
+    "translationJa": "持つ",
+    "reading": "",
+    "translationEs": "sujetar",
+    "example": "On a breezy day, hold loose things and choose a jacket that closes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "hour": {
+    "simpleMeaning": "sixty minutes",
+    "contextMeaning": "sixty minutes",
+    "translationJa": "60分",
+    "reading": "",
+    "translationEs": "hora",
+    "example": "The speed may be in miles per hour, or mph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "read": {
+    "simpleMeaning": "understand text",
+    "contextMeaning": "understand text",
+    "translationJa": "読む",
+    "reading": "",
+    "translationEs": "leer",
+    "example": "The ranges can overlap, so read the number too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "during": {
+    "simpleMeaning": "while in time",
+    "contextMeaning": "while in time",
+    "translationJa": "～の間に",
+    "reading": "",
+    "translationEs": "durante",
+    "example": "It is the chance of measurable rain at your location during the forecast period.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "whether": {
+    "simpleMeaning": "if or not",
+    "contextMeaning": "if or not",
+    "translationJa": "～かどうか",
+    "reading": "",
+    "translationEs": "si",
+    "example": "First check whether the numbers use Celsius or Fahrenheit.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "cooler": {
+    "simpleMeaning": "more cold",
+    "contextMeaning": "more cold",
+    "translationJa": "より涼しい",
+    "reading": "",
+    "translationEs": "más fresco",
+    "example": "Bring a light jacket for the cooler time.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "coolest": {
+    "simpleMeaning": "most cold",
+    "contextMeaning": "most cold",
+    "translationJa": "一番涼しい",
+    "reading": "",
+    "translationEs": "el más fresco",
+    "example": "The low is the coolest.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "often": {
+    "simpleMeaning": "many times",
+    "contextMeaning": "many times",
+    "translationJa": "しばしば",
+    "reading": "",
+    "translationEs": "a menudo",
+    "example": "A forecast often shows a high temperature and a low temperature.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "cover": {
+    "simpleMeaning": "to lie on top",
+    "contextMeaning": "to lie on top",
+    "translationJa": "覆う",
+    "reading": "",
+    "translationEs": "cubrir",
+    "example": "Cloudy means clouds cover nearly all the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "decide": {
+    "simpleMeaning": "make choice",
+    "contextMeaning": "make choice",
+    "translationJa": "決める",
+    "reading": "",
+    "translationEs": "decidir",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "clear": {
+    "simpleMeaning": "no clouds",
+    "contextMeaning": "no clouds",
+    "translationJa": "晴れた",
+    "reading": "",
+    "translationEs": "despejado",
+    "example": "The National Weather Service uses sunny or clear for very few clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "short": {
+    "simpleMeaning": "not long",
+    "contextMeaning": "not long",
+    "translationJa": "短い",
+    "reading": "",
+    "translationEs": "corto",
+    "example": "One short forecast can help you make several useful choices.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "expected": {
+    "simpleMeaning": "predicted",
+    "contextMeaning": "predicted",
+    "translationJa": "予想された",
+    "reading": "",
+    "translationEs": "esperado",
+    "example": "The high is the warmest temperature expected.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "per": {
+    "simpleMeaning": "for each",
+    "contextMeaning": "for each",
+    "translationJa": "それぞれに",
+    "reading": "",
+    "translationEs": "por",
+    "example": "The speed may be in miles per hour, or mph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "skill": {
+    "simpleMeaning": "ability",
+    "contextMeaning": "ability",
+    "translationJa": "技能",
+    "reading": "",
+    "translationEs": "habilidad",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "several": {
+    "simpleMeaning": "more than two",
+    "contextMeaning": "more than two",
+    "translationJa": "いくつかの",
+    "reading": "",
+    "translationEs": "varios",
+    "example": "One short forecast can help you make several useful choices.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "choices": {
+    "simpleMeaning": "options",
+    "contextMeaning": "options",
+    "translationJa": "選択肢",
+    "reading": "",
+    "translationEs": "opciones",
+    "example": "One short forecast can help you make several useful choices.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "direction": {
+    "simpleMeaning": "way to go",
+    "contextMeaning": "way to go",
+    "translationJa": "方向",
+    "reading": "",
+    "translationEs": "dirección",
+    "example": "A wind forecast gives a direction and a speed.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "likely": {
+    "simpleMeaning": "probably",
+    "contextMeaning": "probably",
+    "translationJa": "ありそうな",
+    "reading": "",
+    "translationEs": "probable",
+    "example": "The National Weather Service calls 20% a slight chance, 30–50% a chance, and 60–70% likely.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "alone": {
+    "simpleMeaning": "by itself",
+    "contextMeaning": "by itself",
+    "translationJa": "単独で",
+    "reading": "",
+    "translationEs": "solo",
+    "example": "Clouds alone do not tell you the rain chance, so check the rain percent too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "location": {
+    "simpleMeaning": "place",
+    "contextMeaning": "place",
+    "translationJa": "場所",
+    "reading": "",
+    "translationEs": "lugar",
+    "example": "It is the chance of measurable rain at your location during the forecast period.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "describe": {
+    "simpleMeaning": "say details",
+    "contextMeaning": "say details",
+    "translationJa": "説明する",
+    "reading": "",
+    "translationEs": "describir",
+    "example": "Sky words describe how much of the sky has clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "describes": {
+    "simpleMeaning": "gives detail",
+    "contextMeaning": "gives detail",
+    "translationJa": "説明する",
+    "reading": "",
+    "translationEs": "describe",
+    "example": "Always check which time period the percent describes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "warmest": {
+    "simpleMeaning": "most warm",
+    "contextMeaning": "most warm",
+    "translationJa": "最も暖かい",
+    "reading": "",
+    "translationEs": "más cálido",
+    "example": "The high is the warmest temperature expected.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "daily": {
+    "simpleMeaning": "every day",
+    "contextMeaning": "every day",
+    "translationJa": "毎日の",
+    "reading": "",
+    "translationEs": "diario",
+    "example": "Reading a weather forecast to plan your day is a useful daily skill.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "secure": {
+    "simpleMeaning": "keep safe",
+    "contextMeaning": "keep safe",
+    "translationJa": "安全に保つ",
+    "reading": "",
+    "translationEs": "asegurar",
+    "example": "Keep a hat secure in the wind.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "nearly": {
+    "simpleMeaning": "almost",
+    "contextMeaning": "almost",
+    "translationJa": "ほとんど",
+    "reading": "",
+    "translationEs": "casi",
+    "example": "Cloudy means clouds cover nearly all the sky.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "shirt": {
+    "simpleMeaning": "upper body clothes",
+    "contextMeaning": "upper body clothes",
+    "translationJa": "シャツ",
+    "reading": "",
+    "translationEs": "camisa",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "hat": {
+    "simpleMeaning": "headwear",
+    "contextMeaning": "headwear",
+    "translationJa": "帽子",
+    "reading": "",
+    "translationEs": "sombrero",
+    "example": "Keep a hat secure in the wind.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "clothes": {
+    "simpleMeaning": "things worn",
+    "contextMeaning": "things worn",
+    "translationJa": "服",
+    "reading": "",
+    "translationEs": "ropa",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "loose": {
+    "simpleMeaning": "not tight",
+    "contextMeaning": "not tight",
+    "translationJa": "緩い",
+    "reading": "",
+    "translationEs": "suelto",
+    "example": "On a breezy day, hold loose things and choose a jacket that closes.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "clues": {
+    "simpleMeaning": "helpful signs",
+    "contextMeaning": "helpful signs",
+    "translationJa": "手がかり",
+    "reading": "",
+    "translationEs": "pistas",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "slight": {
+    "simpleMeaning": "small amount",
+    "contextMeaning": "small amount",
+    "translationJa": "わずかな",
+    "reading": "",
+    "translationEs": "leve",
+    "example": "The National Weather Service calls 20% a slight chance, 30–50% a chance, and 60–70% likely.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "overlap": {
+    "simpleMeaning": "cover same area",
+    "contextMeaning": "cover same area",
+    "translationJa": "重なる",
+    "reading": "",
+    "translationEs": "superposición",
+    "example": "The ranges can overlap, so read the number too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "sunny": {
+    "simpleMeaning": "with sun",
+    "contextMeaning": "with sun",
+    "translationJa": "晴れの",
+    "reading": "",
+    "translationEs": "soleado",
+    "example": "The National Weather Service uses sunny or clear for very few clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "probability": {
+    "simpleMeaning": "chance",
+    "contextMeaning": "chance",
+    "translationJa": "可能性",
+    "reading": "",
+    "translationEs": "probabilidad",
+    "example": "A rain percent is the probability of precipitation, or POP.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "umbrella": {
+    "simpleMeaning": "rain cover",
+    "contextMeaning": "rain cover",
+    "translationJa": "傘",
+    "reading": "",
+    "translationEs": "paraguas",
+    "example": "Take an umbrella and choose an indoor backup for the afternoon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "indoor": {
+    "simpleMeaning": "inside building",
+    "contextMeaning": "inside building",
+    "translationJa": "室内の",
+    "reading": "",
+    "translationEs": "interior",
+    "example": "Take an umbrella and choose an indoor backup for the afternoon.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "windy": {
+    "simpleMeaning": "strong wind",
+    "contextMeaning": "strong wind",
+    "translationJa": "風の強い",
+    "reading": "",
+    "translationEs": "ventoso",
+    "example": "The National Weather Service calls 0–5 mph light wind, 15–25 mph breezy, and 20–30 mph windy.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "precipitation": {
+    "simpleMeaning": "rain or snow",
+    "contextMeaning": "rain or snow",
+    "translationJa": "降水",
+    "reading": "",
+    "translationEs": "precipitación",
+    "example": "A rain percent is the probability of precipitation, or POP.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "miles": {
+    "simpleMeaning": "distance unit",
+    "contextMeaning": "distance unit",
+    "translationJa": "マイル",
+    "reading": "",
+    "translationEs": "millas",
+    "example": "The speed may be in miles per hour, or mph.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "measurable": {
+    "simpleMeaning": "can be measured",
+    "contextMeaning": "can be measured",
+    "translationJa": "測定可能な",
+    "reading": "",
+    "translationEs": "medible",
+    "example": "It is the chance of measurable rain at your location during the forecast period.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "ranges": {
+    "simpleMeaning": "values between limits",
+    "contextMeaning": "values between limits",
+    "translationJa": "範囲",
+    "reading": "",
+    "translationEs": "rangos",
+    "example": "The ranges can overlap, so read the number too.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "gives": {
+    "simpleMeaning": "provides",
+    "contextMeaning": "provides",
+    "translationJa": "与える",
+    "reading": "",
+    "translationEs": "da",
+    "example": "A wind forecast gives a direction and a speed.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "midday": {
+    "simpleMeaning": "middle of day",
+    "contextMeaning": "middle of day",
+    "translationJa": "正午頃",
+    "reading": "",
+    "translationEs": "mediodía",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "later": {
+    "simpleMeaning": "after now",
+    "contextMeaning": "after now",
+    "translationJa": "後で",
+    "reading": "",
+    "translationEs": "más tarde",
+    "example": "A light shirt may work at midday, but you may want a jacket later.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "has": {
+    "simpleMeaning": "contains",
+    "contextMeaning": "contains",
+    "translationJa": "持っている",
+    "reading": "",
+    "translationEs": "tiene",
+    "example": "Sky words describe how much of the sky has clouds.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  },
+  "those": {
+    "simpleMeaning": "plural of that",
+    "contextMeaning": "plural of that",
+    "translationJa": "それら",
+    "reading": "",
+    "translationEs": "esos",
+    "example": "You can use those four clues to choose clothes, decide what to bring, and make a backup plan.",
+    "source": "v2_batched_support",
+    "status": "reviewed_release"
+  }
+}
