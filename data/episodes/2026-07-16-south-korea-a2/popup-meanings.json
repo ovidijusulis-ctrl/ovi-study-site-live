@@ -1618,5 +1618,148 @@
     "entryType": "technical_term",
     "source": "owner_reviewed_lexical_migration",
     "status": "reviewed_release"
+  },
+  "a": {
+    "simpleMeaning": "one person or thing, but not a specific one",
+    "contextMeaning": "one person or thing, but not a specific one",
+    "translationJa": "一つの・ある",
+    "reading": "",
+    "translationEs": "un / una",
+    "example": "Seoul is a city in South Korea.",
+    "entryType": "determiner",
+    "source": "owner_reviewed_occurrence_coverage_repair",
+    "status": "reviewed_release",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "lexicalIntelligence": {
+      "policyVersion": "ovi_lexical_value_v1",
+      "kind": "word",
+      "tier": 1,
+      "tierKey": "tier_1",
+      "tierLabel": "Tier 1",
+      "evidenceStatus": "owner_reviewed",
+      "learnerDisplayEligible": false,
+      "reasonCodes": [
+        "owner_review",
+        "function_word_coverage"
+      ]
+    }
+  },
+  "and": {
+    "simpleMeaning": "connects words or ideas",
+    "contextMeaning": "connects words or ideas",
+    "translationJa": "そして・〜と",
+    "reading": "",
+    "translationEs": "y",
+    "example": "The market has food and clothing stalls.",
+    "entryType": "conjunction",
+    "source": "owner_reviewed_occurrence_coverage_repair",
+    "status": "reviewed_release",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "lexicalIntelligence": {
+      "policyVersion": "ovi_lexical_value_v1",
+      "kind": "word",
+      "tier": 1,
+      "tierKey": "tier_1",
+      "tierLabel": "Tier 1",
+      "evidenceStatus": "owner_reviewed",
+      "learnerDisplayEligible": false,
+      "reasonCodes": [
+        "owner_review",
+        "function_word_coverage"
+      ]
+    }
+  },
+  "the": {
+    "simpleMeaning": "points to a specific or already known person or thing",
+    "contextMeaning": "points to a specific or already known person or thing",
+    "translationJa": "その・特定の",
+    "reading": "",
+    "translationEs": "el / la / los / las",
+    "example": "The vendor waits for your order.",
+    "entryType": "determiner",
+    "source": "owner_reviewed_occurrence_coverage_repair",
+    "status": "reviewed_release",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "lexicalIntelligence": {
+      "policyVersion": "ovi_lexical_value_v1",
+      "kind": "word",
+      "tier": 1,
+      "tierKey": "tier_1",
+      "tierLabel": "Tier 1",
+      "evidenceStatus": "owner_reviewed",
+      "learnerDisplayEligible": false,
+      "reasonCodes": [
+        "owner_review",
+        "function_word_coverage"
+      ]
+    }
+  },
+  "you": {
+    "simpleMeaning": "the person or people being spoken to",
+    "contextMeaning": "the person or people being spoken to",
+    "translationJa": "あなた・あなたたち",
+    "reading": "",
+    "translationEs": "tú / usted / ustedes",
+    "example": "You can ask for help.",
+    "entryType": "pronoun",
+    "source": "owner_reviewed_occurrence_coverage_repair",
+    "status": "reviewed_release",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "lexicalIntelligence": {
+      "policyVersion": "ovi_lexical_value_v1",
+      "kind": "word",
+      "tier": 1,
+      "tierKey": "tier_1",
+      "tierLabel": "Tier 1",
+      "evidenceStatus": "owner_reviewed",
+      "learnerDisplayEligible": false,
+      "reasonCodes": [
+        "owner_review",
+        "function_word_coverage"
+      ]
+    }
+  },
+  "in": {
+    "simpleMeaning": "inside a place, area, or period of time",
+    "contextMeaning": "inside a place, area, or period of time",
+    "translationJa": "〜の中に・〜で",
+    "reading": "",
+    "translationEs": "en / dentro de",
+    "example": "The shop is in Myeong-dong.",
+    "entryType": "preposition",
+    "source": "owner_reviewed_occurrence_coverage_repair",
+    "status": "reviewed_release",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup",
+    "lexicalIntelligence": {
+      "policyVersion": "ovi_lexical_value_v1",
+      "kind": "word",
+      "tier": 1,
+      "tierKey": "tier_1",
+      "tierLabel": "Tier 1",
+      "evidenceStatus": "owner_reviewed",
+      "learnerDisplayEligible": false,
+      "reasonCodes": [
+        "owner_review",
+        "function_word_coverage"
+      ]
+    }
+  },
+  "dish": {
+    "simpleMeaning": "food prepared in a particular way",
+    "contextMeaning": "food prepared in a particular way",
+    "translationJa": "料理・一品",
+    "reading": "",
+    "translationEs": "plato / comida preparada",
+    "example": "Your goal is to order one dish.",
+    "entryType": "noun",
+    "source": "owner_reviewed_occurrence_coverage_repair",
+    "status": "reviewed_release",
+    "popupMode": "prebuilt_safe",
+    "supportAction": "popup"
   }
 }
