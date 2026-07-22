@@ -1,112 +1,18 @@
 {
-  "cue": {
-    "simpleMeaning": "A small signal that tells you to start a habit.",
-    "contextMeaning": "A signal after breakfast that prompts you to eat fruit.",
-    "translationJa": "習慣を始める小さな合図。",
-    "reading": "キュー",
-    "translationEs": "Una señal pequeña que te dice que empieces un hábito.",
-    "example": "After breakfast is a clear cue for eating a piece of fruit.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "repetition": {
-    "simpleMeaning": "Doing the same action many times.",
-    "contextMeaning": "Doing the action every day after the signal.",
-    "translationJa": "同じことを何度もすること。",
-    "reading": "レペティション",
-    "translationEs": "Hacer la misma acción muchas veces.",
-    "example": "Repetition made the action feel automatic after about 66 days.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "automatic": {
-    "simpleMeaning": "Doing something without thinking.",
-    "contextMeaning": "The action was done without thinking after many days.",
-    "translationJa": "考えずに行うこと。",
-    "reading": "オートマティック",
-    "translationEs": "Hacer algo sin pensar.",
-    "example": "On average, the action felt automatic after about 66 days.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "tiny action": {
-    "simpleMeaning": "A very small step easy to do often.",
-    "contextMeaning": "Reading one page after coffee as a small step.",
-    "translationJa": "簡単にできるとても小さな行動。",
-    "reading": "",
-    "translationEs": "Un paso muy pequeño fácil de hacer a menudo.",
-    "example": "Maria's tiny action was reading one page after coffee.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "habit": {
-    "simpleMeaning": "Something you do often without thinking.",
-    "contextMeaning": "A habit starts when a signal and small step come together.",
-    "translationJa": "よく無意識に行うこと。",
-    "reading": "ハビット",
-    "translationEs": "Algo que haces a menudo sin pensar.",
-    "example": "A habit grows when a clear cue meets one tiny action.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "breakfast": {
-    "simpleMeaning": "The first meal of the day eaten in the morning.",
-    "contextMeaning": "The meal eaten in the morning before other activities.",
-    "translationJa": "朝食（あさごはん）、朝の最初の食事。",
-    "reading": "あさごはん",
-    "translationEs": "Desayuno, la primera comida del día por la mañana.",
-    "example": "Each person chose a clear cue, like \"after breakfast,\" and then did one small action, like eating a piece of fruit.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "hour": {
-    "simpleMeaning": "A period of 60 minutes.",
-    "contextMeaning": "A time of 60 minutes to study or read.",
-    "translationJa": "1時間（いちじかん）、60分の時間。",
-    "reading": "いちじかん",
-    "translationEs": "Una hora, un periodo de 60 minutos.",
-    "example": "Tom tells himself he will read for one hour every day.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "maria": {
-    "simpleMeaning": "A person's name.",
-    "contextMeaning": "Name of a woman in the sentence.",
-    "translationJa": "マリア（人の名前）。",
-    "reading": "マリア",
-    "translationEs": "María, un nombre de persona.",
-    "example": "Maria puts one book next to her coffee cup every night.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "tom": {
-    "simpleMeaning": "A person's name.",
-    "contextMeaning": "Name of a man in the sentence.",
-    "translationJa": "トム（人の名前）。",
-    "reading": "トム",
-    "translationEs": "Tom, un nombre de persona.",
-    "example": "Tom tells himself he will read for one hour every day.",
-    "source": "v2_batched_support",
-    "status": "reviewed_release"
-  },
-  "average": {
-    "simpleMeaning": "The usual result found from a group of numbers or examples.",
-    "contextMeaning": "Here, on average means 66 days was the usual result for the group.",
-    "translationJa": "平均（へいきん）。",
-    "reading": "へいきん",
-    "translationEs": "El resultado habitual de un grupo de números o ejemplos.",
-    "example": "On average, people needed about 66 days before the action felt truly automatic.",
-    "source": "codex_reviewed_v2_cutover_2026_07_16",
-    "status": "reviewed_release"
-  },
-  "chart": {
-    "simpleMeaning": "A picture that shows information with lines, bars, or numbers.",
-    "contextMeaning": "Here, the chart showed how the habit became easier over time.",
-    "translationJa": "情報を線・棒・数字で示す図表。",
-    "reading": "ずひょう",
-    "translationEs": "Un gráfico que muestra información con líneas, barras o números.",
-    "example": "At first, the line on their chart went up quickly.",
-    "source": "codex_reviewed_v2_cutover_2026_07_16",
-    "status": "reviewed_release"
+  "schemaVersion":"ovi_popup_support_sidecar_v2",
+  "materialSlug":"2026-07-15-how-small-habits-become-easier",
+  "source":{"generator":"ovi_lexical_catalogue_migration_v1","migratedFrom":"ovi_popup_term_map_v2","lexicalUnitSchemaVersion":"ovi_lexical_unit_ref_v1","lexicalSenseSchemaVersion":"ovi_lexical_sense_v1","entryCount":11},
+  "entries":{
+    "cue":{"simpleMeaning":"A small signal that tells you to start a habit.","reading":"キュー","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":3,"tierKey":"useful","tierLabel":"Useful","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":4445,"dispersionRank":3942,"utilityRank":4445,"zipf":3.72},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_5c294b6199caf989","language":"en","canonicalTerm":"cue","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_0a4319a2a973e1bf","unitId":"lxu_5c294b6199caf989","contextualMeaning":"A signal after breakfast that prompts you to eat fruit.","sourceSentence":"A cue is a small signal that tells your brain, \"Time to do this now.\"","support":{"ja":"習慣を始める小さな合図。","es":"Una señal pequeña que te dice que empieces un hábito."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_what_is_a_cue","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_what_is_a_cue"}}},
+    "repetition":{"simpleMeaning":"Doing the same action many times.","reading":"レペティション","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":4,"tierKey":"expanding","tierLabel":"Expanding","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":6282,"dispersionRank":5863,"utilityRank":6282,"zipf":3.477},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_e35c03ce0818ba01","language":"en","canonicalTerm":"repetition","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_7ed938847877b13d","unitId":"lxu_e35c03ce0818ba01","contextualMeaning":"Doing the action every day after the signal.","sourceSentence":"Doing the same small action after the same cue, day after day, is called repetition.","support":{"ja":"同じことを何度もすること。","es":"Hacer la misma acción muchas veces."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"verified","level":"B1","evidenceSource":"trusted_general_bank"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_repetition_makes_it_easy","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_repetition_makes_it_easy"}}},
+    "automatic":{"simpleMeaning":"Doing something without thinking.","reading":"オートマティック","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":3,"tierKey":"useful","tierLabel":"Useful","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":3407,"dispersionRank":2806,"utilityRank":3407,"zipf":3.896},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_923a8f47cc3cfc22","language":"en","canonicalTerm":"automatic","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_c83073ea1530397e","unitId":"lxu_923a8f47cc3cfc22","contextualMeaning":"The action was done without thinking after many days.","sourceSentence":"In the same study, the action felt more automatic each time people did it.","support":{"ja":"考えずに行うこと。","es":"Hacer algo sin pensar."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"verified","level":"B1","evidenceSource":"trusted_general_bank"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_repetition_makes_it_easy","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_repetition_makes_it_easy"}}},
+    "tiny action":{"simpleMeaning":"A very small step easy to do often.","reading":"","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"phrase","entryType":"unreviewed_multiword_unit","tier":2,"tierKey":"high_value","tierLabel":"High value","evidenceStatus":"component_fallback","learnerDisplayEligible":false,"reasonCodes":["component_evidence_only","phrase_review_required"]},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_4857e3e2bc18f345","language":"en","canonicalTerm":"tiny action","unitKind":"multiword"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_b0a7a2b6852f4574","unitId":"lxu_4857e3e2bc18f345","contextualMeaning":"Reading one page after coffee as a small step.","sourceSentence":"A tiny action is easier to repeat than a big one.","support":{"ja":"簡単にできるとても小さな行動。","es":"Un paso muy pequeño fácil de hacer a menudo."},"classification":{"lexicalType":"unclassified","partsOfSpeech":[],"status":"inferred","evidenceSource":"deterministic_inference"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_one_tiny_action","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_one_tiny_action"}}},
+    "habit":{"simpleMeaning":"Something you do often without thinking.","reading":"ハビット","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":2,"tierKey":"high_value","tierLabel":"High value","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":2389,"dispersionRank":2170,"utilityRank":2389,"zipf":4.133},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_5a254a9a66c72a58","language":"en","canonicalTerm":"habit","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_6fc56f5306806b74","unitId":"lxu_5a254a9a66c72a58","contextualMeaning":"A habit starts when a signal and small step come together.","sourceSentence":"Small habits become easier when a clear cue meets one tiny action, and both are repeated in the same order every day.","support":{"ja":"よく無意識に行うこと。","es":"Algo que haces a menudo sin pensar."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"verified","level":"B1","evidenceSource":"trusted_general_bank"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_final_reflection","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_final_reflection"}}},
+    "breakfast":{"simpleMeaning":"The first meal of the day eaten in the morning.","reading":"あさごはん","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":2,"tierKey":"high_value","tierLabel":"High value","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":2349,"dispersionRank":2162,"utilityRank":2349,"zipf":4.141},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_2be657daa4b87e94","language":"en","canonicalTerm":"breakfast","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_21d8ca23b4e598af","unitId":"lxu_2be657daa4b87e94","contextualMeaning":"The meal eaten in the morning before other activities.","sourceSentence":"Each person chose a clear cue, like \"after breakfast,\" and then did one small action, like eating a piece of fruit.","support":{"ja":"朝食（あさごはん）、朝の最初の食事。","es":"Desayuno, la primera comida del día por la mañana."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_what_is_a_cue","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_what_is_a_cue"}}},
+    "hour":{"simpleMeaning":"A period of 60 minutes.","reading":"いちじかん","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":1,"tierKey":"essential","tierLabel":"Essential","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":323,"dispersionRank":302,"utilityRank":323,"zipf":5.156},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_6c5e326d31ee64c5","language":"en","canonicalTerm":"hour","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_4864cd88be86e885","unitId":"lxu_6c5e326d31ee64c5","contextualMeaning":"A time of 60 minutes to study or read.","sourceSentence":"Tom tells himself he will read for one hour every day.","support":{"ja":"1時間（いちじかん）、60分の時間。","es":"Una hora, un periodo de 60 minutos."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_one_tiny_action","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_one_tiny_action"}}},
+    "maria":{"simpleMeaning":"A person's name.","reading":"マリア","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":4,"tierKey":"expanding","tierLabel":"Expanding","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":3976,"dispersionRank":5017,"utilityRank":5017,"zipf":3.795},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_a66d74436664f0b7","language":"en","canonicalTerm":"maria","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_081cbe5150d7f590","unitId":"lxu_a66d74436664f0b7","contextualMeaning":"Name of a woman in the sentence.","sourceSentence":"Maria puts one book next to her coffee cup every night.","support":{"ja":"マリア（人の名前）。","es":"María, un nombre de persona."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_one_tiny_action","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_one_tiny_action"}}},
+    "tom":{"simpleMeaning":"A person's name.","reading":"トム","source":"v2_batched_support","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":2,"tierKey":"high_value","tierLabel":"High value","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":1716,"dispersionRank":2555,"utilityRank":2555,"zipf":4.322},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_2304158db110e5fe","language":"en","canonicalTerm":"tom","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_3c7223339af4287c","unitId":"lxu_2304158db110e5fe","contextualMeaning":"Name of a man in the sentence.","sourceSentence":"Tom tells himself he will read for one hour every day.","support":{"ja":"トム（人の名前）。","es":"Tom, un nombre de persona."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_one_tiny_action","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_one_tiny_action"}}},
+    "average":{"simpleMeaning":"The usual result found from a group of numbers or examples.","reading":"へいきん","source":"codex_reviewed_v2_cutover_2026_07_16","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":2,"tierKey":"high_value","tierLabel":"High value","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":1017,"dispersionRank":1050,"utilityRank":1050,"zipf":4.606},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_6afe8f350433575e","language":"en","canonicalTerm":"average","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_d500cd12824ef06e","unitId":"lxu_6afe8f350433575e","contextualMeaning":"Here, on average means 66 days was the usual result for the group.","sourceSentence":"On average, people needed about 66 days before the action felt truly automatic.","support":{"ja":"平均（へいきん）。","es":"El resultado habitual de un grupo de números o ejemplos."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_repetition_makes_it_easy","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_repetition_makes_it_easy"}}},
+    "chart":{"simpleMeaning":"A picture that shows information with lines, bars, or numbers.","reading":"ずひょう","source":"codex_reviewed_v2_cutover_2026_07_16","status":"reviewed_release","lexicalIntelligence":{"policyVersion":"ovi_lexical_value_v1","kind":"word","tier":2,"tierKey":"high_value","tierLabel":"High value","evidenceStatus":"corpus","learnerDisplayEligible":true,"reasonCodes":["subtitle_frequency","channel_dispersion"],"frequencyRank":1578,"dispersionRank":2025,"utilityRank":2025,"zipf":4.365},"lexicalUnit":{"schemaVersion":"ovi_lexical_unit_ref_v1","id":"lxu_c09f83499d92ed09","language":"en","canonicalTerm":"chart","unitKind":"word"},"lexicalReviewStatus":"ready","lexicalSense":{"schemaVersion":"ovi_lexical_sense_v1","id":"lxs_4ae87e9e7e07882b","unitId":"lxu_c09f83499d92ed09","contextualMeaning":"Here, the chart showed how the habit became easier over time.","sourceSentence":"At first, the line on their chart went up quickly: the second and third days felt much easier than the first.","support":{"ja":"情報を線・棒・数字で示す図表。","es":"Un gráfico que muestra información con líneas, barras o números."},"classification":{"lexicalType":"general_word","partsOfSpeech":[],"status":"verified","evidenceSource":"validated_producer_declaration"},"cefr":{"status":"unrated"},"source":{"kind":"material","key":"2026-07-15-how-small-habits-become-easier#blk_repetition_makes_it_easy","materialSlug":"2026-07-15-how-small-habits-become-easier","blockId":"blk_repetition_makes_it_easy"}}}
   }
 }
