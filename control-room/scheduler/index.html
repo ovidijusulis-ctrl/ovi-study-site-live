@@ -1,0 +1,938 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Ovi Control Room Scheduler booking and student-management prototype"
+    />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="canonical" href="https://ovienglish.com/control-room/scheduler/" />
+    <title>Scheduler — Ovi Control Room</title>
+    <link rel="icon" href="data:," />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <aside class="prototype-notice" aria-label="Prototype notice">
+      <strong>Interactive design prototype</strong>
+      <span>Fictional data · actions do not affect live records</span>
+    </aside>
+
+    <header class="owner-header" data-owner-shell>
+      <div class="header-inner">
+        <button class="brand-link" type="button" data-go="today" aria-label="Open Today">
+          <span class="brand-mark" aria-hidden="true">O</span>
+          <span>
+            <strong>Scheduler</strong>
+            <small>Ovi Control Room</small>
+          </span>
+        </button>
+
+        <div class="owner-header-actions">
+          <nav class="desktop-nav" aria-label="Scheduler navigation">
+            <button type="button" data-go="today">Today</button>
+            <button type="button" data-go="people">People</button>
+            <button type="button" data-go="calendar">Calendar</button>
+            <button type="button" data-go="more">More</button>
+          </nav>
+          <a class="room-back-link" href="/control-room/">Control Room</a>
+        </div>
+      </div>
+    </header>
+
+    <header class="student-header" data-student-shell hidden>
+      <div class="header-inner">
+        <div class="brand-link static">
+          <span class="brand-mark" aria-hidden="true">O</span>
+          <span>
+            <strong>Ovi English School</strong>
+            <small>Student home</small>
+          </span>
+        </div>
+      </div>
+    </header>
+
+    <main id="main" tabindex="-1">
+      <section class="screen" data-screen="today" aria-labelledby="today-title">
+        <div class="page-heading split-heading">
+          <div>
+            <p class="eyebrow">Today</p>
+            <h1 id="today-title">Good morning, Ovi.</h1>
+            <p class="lede">Friday 24 July · three things need attention</p>
+          </div>
+        </div>
+
+        <section class="hero-panel next-lesson" aria-labelledby="next-lesson-title">
+          <div>
+            <p class="eyebrow inverse">Next lesson</p>
+            <h2 id="next-lesson-title">18:00–18:50 · Hana Sato</h2>
+            <p>Online · Japanese Standard Time</p>
+          </div>
+          <div class="hero-actions">
+            <button class="button button-light" type="button" data-go="session">
+              Open session
+            </button>
+            <button class="text-button inverse-link" type="button" data-go="person">
+              View Hana
+            </button>
+          </div>
+        </section>
+
+        <section class="panel" aria-labelledby="attention-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow amber">Needs attention</p>
+              <h2 id="attention-title">Work through these next</h2>
+            </div>
+          </div>
+
+          <ol class="queue-list">
+            <li class="queue-row">
+              <span class="status-dot amber-dot" aria-hidden="true"></span>
+              <div class="row-copy">
+                <strong>Akira Tanaka</strong>
+                <span>New request · Sat 10:00, online conversation practice</span>
+              </div>
+              <time datetime="2026-07-22">2d ago</time>
+              <button
+                class="button button-primary button-row"
+                type="button"
+                data-go="request"
+                aria-label="Review request from Akira Tanaka"
+              >
+                Review request
+              </button>
+            </li>
+            <li class="queue-row">
+              <span class="status-dot amber-dot" aria-hidden="true"></span>
+              <div class="row-copy">
+                <strong>Emi Kobayashi</strong>
+                <span>Homework submitted · Travel questions</span>
+              </div>
+              <time datetime="2026-07-24T08:14">Today</time>
+              <button
+                class="button button-secondary button-row"
+                type="button"
+                aria-label="Review homework from Emi Kobayashi"
+              >
+                Review homework
+              </button>
+            </li>
+            <li class="queue-row">
+              <span class="status-dot amber-dot" aria-hidden="true"></span>
+              <div class="row-copy">
+                <strong>Kenji Watanabe</strong>
+                <span>Lesson completed · private note missing</span>
+              </div>
+              <time datetime="2026-07-23">Yesterday</time>
+              <button
+                class="button button-secondary button-row"
+                type="button"
+                aria-label="Add private note for Kenji Watanabe"
+              >
+                Add note
+              </button>
+            </li>
+          </ol>
+        </section>
+
+        <section class="panel quiet-panel" aria-labelledby="coming-up-title">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Coming up</p>
+              <h2 id="coming-up-title">Next scheduled lessons</h2>
+            </div>
+            <button class="text-button" type="button" data-go="calendar">View calendar</button>
+          </div>
+          <ul class="compact-list">
+            <li>
+              <time datetime="2026-07-25T10:00">Sat 10:00</time>
+              <strong>Mia &amp; Yuki Sato</strong>
+              <span>Kofu · 50 min</span>
+            </li>
+            <li>
+              <time datetime="2026-07-27T17:30">Mon 17:30</time>
+              <strong>Kenji Watanabe</strong>
+              <span>Online · 50 min</span>
+            </li>
+            <li>
+              <time datetime="2026-07-29T18:00">Wed 18:00</time>
+              <strong>Hana Sato</strong>
+              <span>Online · 50 min</span>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="screen" data-screen="request" aria-labelledby="request-title" hidden>
+        <button class="back-link" type="button" data-go="today">← Today</button>
+
+        <div class="page-heading">
+          <div class="heading-with-chip">
+            <div>
+              <p class="eyebrow amber">Lesson request</p>
+              <h1 id="request-title">Akira Tanaka</h1>
+            </div>
+            <span class="chip chip-requested">Requested — not confirmed</span>
+          </div>
+          <p class="lede">Review the person and schedule before making a commitment.</p>
+        </div>
+
+        <div class="two-column-layout request-layout">
+          <div class="main-column">
+            <section class="panel request-details-panel" aria-labelledby="request-details-title">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">Request details</p>
+                  <h2 id="request-details-title">Adult conversation lesson</h2>
+                </div>
+              </div>
+              <dl class="detail-list">
+                <div>
+                  <dt>Requested time</dt>
+                  <dd>
+                    <strong>Saturday 1 August, 10:00–10:50</strong>
+                    <span class="inline-warning">Not confirmed · JST</span>
+                  </dd>
+                </div>
+                <div>
+                  <dt>Goal</dt>
+                  <dd>Speak more naturally in travel and work conversations.</dd>
+                </div>
+                <div>
+                  <dt>Level</dt>
+                  <dd>Elementary to intermediate</dd>
+                </div>
+                <div>
+                  <dt>Contact</dt>
+                  <dd>akira.t@example.com · Email preferred</dd>
+                </div>
+              </dl>
+            </section>
+
+            <section class="panel decision-panel" aria-labelledby="decision-title">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow amber">Decision</p>
+                  <h2 id="decision-title">What should happen next?</h2>
+                </div>
+              </div>
+
+              <div class="decision-actions" data-decision-actions>
+                <button class="button button-primary" type="button" data-confirm-open>
+                  Confirm requested time
+                </button>
+                <button class="button button-secondary" type="button" data-proposal-open>
+                  Propose a different time
+                </button>
+                <button class="text-button danger-link" type="button" data-decline-open>
+                  Decline request
+                </button>
+              </div>
+
+              <div class="consequence-box" data-confirm-box hidden>
+                <p class="eyebrow">Before you confirm</p>
+                <h3>This will create three connected records</h3>
+                <ul class="check-list">
+                  <li>Link this request to Akira Tanaka</li>
+                  <li>Schedule Sat 1 Aug, 10:00–10:50, online (JST)</li>
+                  <li>Prepare an email to akira.t@example.com for review</li>
+                </ul>
+                <div class="button-row-group">
+                  <button class="button button-primary" type="button" data-confirm-commit>
+                    Confirm and prepare email
+                  </button>
+                  <button class="button button-secondary" type="button" data-decision-cancel>
+                    Back
+                  </button>
+                </div>
+              </div>
+
+              <form class="proposal-form" data-proposal-box hidden>
+                <div class="field-row">
+                  <label>
+                    Proposed date
+                    <input type="date" value="2026-08-01" />
+                  </label>
+                  <label>
+                    Time (JST)
+                    <input type="time" value="11:00" />
+                  </label>
+                </div>
+                <label>
+                  Message to Akira
+                  <textarea rows="3">Could we do Saturday 1 August at 11:00 instead?</textarea>
+                  <small>Visible to Akira in the email you review before sending.</small>
+                </label>
+                <div class="button-row-group">
+                  <button class="button button-primary" type="button">Prepare proposal</button>
+                  <button class="button button-secondary" type="button" data-decision-cancel>
+                    Back
+                  </button>
+                </div>
+              </form>
+            </section>
+          </div>
+
+          <aside class="context-column" aria-label="Request context">
+            <section class="panel compact-panel request-match-panel">
+              <p class="eyebrow">Possible person</p>
+              <h2>Akira Tanaka</h2>
+              <p class="muted">This email matches a prospect who requested a lesson in June.</p>
+              <button class="button button-secondary button-full" type="button">
+                Link this person
+              </button>
+              <button class="text-button centered" type="button">Create a new person</button>
+            </section>
+
+            <section class="panel compact-panel request-schedule-panel">
+              <p class="eyebrow">Schedule check</p>
+              <h2>Saturday 1 August</h2>
+              <div class="schedule-line">
+                <time datetime="2026-08-01T09:00">09:00</time>
+                <span>Preparation buffer</span>
+              </div>
+              <div class="schedule-line requested-slot">
+                <time datetime="2026-08-01T10:00">10:00</time>
+                <span>Requested · Akira</span>
+              </div>
+              <p class="success-note">No lesson conflict. A 10-minute buffer remains.</p>
+            </section>
+          </aside>
+        </div>
+
+        <div class="mobile-decision-dock" data-mobile-decision-dock hidden>
+          <button class="button button-primary button-full" type="button" data-confirm-open>
+            Confirm requested time
+          </button>
+          <div>
+            <button class="text-button" type="button" data-proposal-open>Propose time</button>
+            <button class="text-button danger-link" type="button" data-decline-open>
+              Decline
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="people" aria-labelledby="people-title" hidden>
+        <div class="page-heading split-heading">
+          <div>
+            <p class="eyebrow">People</p>
+            <h1 id="people-title">People</h1>
+            <p class="lede">Students, prospects, and family contacts in one place.</p>
+          </div>
+          <button class="button button-secondary" type="button">Add person</button>
+        </div>
+
+        <section class="panel search-panel" aria-label="Find a person">
+          <label class="search-field">
+            <span class="sr-only">Search people</span>
+            <span aria-hidden="true">⌕</span>
+            <input type="search" placeholder="Search by name, email, or phone" />
+          </label>
+          <div class="role-filter" role="radiogroup" aria-label="Filter by role">
+            <button class="filter-chip active" type="button" role="radio" aria-checked="true">
+              All
+            </button>
+            <button class="filter-chip" type="button" role="radio" aria-checked="false">
+              Students
+            </button>
+            <button class="filter-chip" type="button" role="radio" aria-checked="false">
+              Prospects
+            </button>
+            <button class="filter-chip" type="button" role="radio" aria-checked="false">
+              Parents
+            </button>
+          </div>
+        </section>
+
+        <section class="panel people-panel">
+          <ul class="people-list">
+            <li>
+              <button type="button" class="person-row" data-go="person">
+                <span class="avatar">HS</span>
+                <span class="person-copy">
+                  <span class="person-name-line">
+                    <strong>Hana Sato</strong>
+                    <span class="chip chip-confirmed">Student · A2</span>
+                  </span>
+                  <span>Next lesson today at 18:00 · Online</span>
+                </span>
+                <span aria-hidden="true">›</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="person-row">
+                <span class="avatar">AT</span>
+                <span class="person-copy">
+                  <span class="person-name-line">
+                    <strong>Akira Tanaka</strong>
+                    <span class="chip chip-requested">Prospect</span>
+                  </span>
+                  <span>Request awaiting review</span>
+                </span>
+                <span aria-hidden="true">›</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="person-row">
+                <span class="avatar">EK</span>
+                <span class="person-copy">
+                  <span class="person-name-line">
+                    <strong>Emi Kobayashi</strong>
+                    <span class="chip chip-neutral">Student · B1</span>
+                  </span>
+                  <span>Homework submitted · Review due</span>
+                </span>
+                <span aria-hidden="true">›</span>
+              </button>
+            </li>
+            <li>
+              <button type="button" class="person-row">
+                <span class="avatar">YS</span>
+                <span class="person-copy">
+                  <span class="person-name-line">
+                    <strong>Yuki Sato</strong>
+                    <span class="chip chip-neutral">Parent</span>
+                  </span>
+                  <span>Guardian for Hana and Mia</span>
+                </span>
+                <span aria-hidden="true">›</span>
+              </button>
+            </li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="screen" data-screen="person" aria-labelledby="person-title" hidden>
+        <button class="back-link" type="button" data-go="people">← People</button>
+        <div class="person-header-block">
+          <span class="avatar avatar-large">HS</span>
+          <div>
+            <div class="heading-with-chip">
+              <h1 id="person-title">Hana Sato</h1>
+              <span class="chip chip-confirmed">Student · A2</span>
+            </div>
+            <p class="lede">hana.s@example.com · Added June 2026</p>
+          </div>
+        </div>
+
+        <div class="two-column-layout person-layout">
+          <div class="main-column">
+            <section class="hero-panel person-next">
+              <div>
+                <p class="eyebrow inverse">Next lesson</p>
+                <h2>Today, 18:00–18:50</h2>
+                <p>Online · Japanese Standard Time</p>
+              </div>
+              <button class="button button-light" type="button" data-go="session">
+                Open session
+              </button>
+            </section>
+
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">Current homework</p>
+                  <h2>Travel questions</h2>
+                </div>
+                <span class="chip chip-requested">Assigned</span>
+              </div>
+              <p class="muted">Write five questions you can use at a hotel. Due 1 August.</p>
+            </section>
+
+            <section class="panel">
+              <div class="panel-heading">
+                <div>
+                  <p class="eyebrow">Goals &amp; level</p>
+                  <h2>Build confidence in everyday conversation</h2>
+                </div>
+                <button class="text-button" type="button">Edit</button>
+              </div>
+              <p class="muted">
+                Hana wants to speak more freely at work and while travelling. Current working
+                level: A2.
+              </p>
+            </section>
+
+            <section class="panel private-notes-panel">
+              <div class="visibility-heading private-heading">
+                <span aria-hidden="true">🔒</span>
+                <div>
+                  <p class="eyebrow private-eyebrow">Private — only you see this</p>
+                  <h2>Teaching notes</h2>
+                </div>
+              </div>
+              <div class="private-note-body">
+                <ul class="note-list">
+                  <li>
+                    <p>Past tense still slips when she tells a longer story. Revisit with travel.</p>
+                    <time datetime="2026-07-16">16 Jul</time>
+                  </li>
+                  <li>
+                    <p>More confident when questions are visible before speaking.</p>
+                    <time datetime="2026-07-09">9 Jul</time>
+                  </li>
+                </ul>
+                <button class="text-button" type="button">Add a private note</button>
+              </div>
+            </section>
+
+            <section class="panel">
+              <div class="visibility-heading visible-heading">
+                <span aria-hidden="true">✓</span>
+                <div>
+                  <p class="eyebrow">Visible to Hana</p>
+                  <h2>Messages</h2>
+                </div>
+              </div>
+              <p>“Great work today. Try using the hotel questions once before next lesson.”</p>
+              <time class="muted" datetime="2026-07-16">Sent 16 Jul</time>
+            </section>
+          </div>
+
+          <aside class="context-column">
+            <section class="panel compact-panel">
+              <p class="eyebrow">Family</p>
+              <h2>Yuki Sato</h2>
+              <p class="muted">Parent / guardian · yuki.s@example.com</p>
+              <button class="text-button" type="button">View Yuki</button>
+            </section>
+
+            <section class="panel compact-panel">
+              <p class="eyebrow">Activity</p>
+              <ol class="timeline">
+                <li>
+                  <span aria-hidden="true"></span>
+                  <p>Homework assigned</p>
+                  <time datetime="2026-07-16">16 Jul</time>
+                </li>
+                <li>
+                  <span aria-hidden="true"></span>
+                  <p>Lesson completed</p>
+                  <time datetime="2026-07-16">16 Jul</time>
+                </li>
+                <li>
+                  <span aria-hidden="true"></span>
+                  <p>Lesson rescheduled</p>
+                  <time datetime="2026-07-13">13 Jul</time>
+                </li>
+              </ol>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section class="screen calendar-screen" data-screen="calendar" aria-labelledby="calendar-title" hidden>
+        <div class="page-heading split-heading">
+          <div>
+            <p class="eyebrow">Calendar</p>
+            <h1 id="calendar-title" data-calendar-title>27 July – 2 August</h1>
+            <p class="lede calendar-summary" data-calendar-summary>5 lessons this week</p>
+          </div>
+          <div class="calendar-controls" aria-label="Calendar controls">
+            <div class="calendar-view-toggle" role="group" aria-label="Calendar view">
+              <button type="button" aria-pressed="true" data-calendar-view="week">Week</button>
+              <button type="button" aria-pressed="false" data-calendar-view="month">Month</button>
+            </div>
+            <button class="icon-button" type="button" aria-label="Previous week" data-calendar-previous>
+              ←
+            </button>
+            <button
+              class="button button-secondary button-small"
+              type="button"
+              data-calendar-today
+            >
+              Today
+            </button>
+            <button class="icon-button" type="button" aria-label="Next week" data-calendar-next>
+              →
+            </button>
+            <span class="timezone-tag">All times JST</span>
+          </div>
+        </div>
+
+        <div class="mobile-day-picker" role="tablist" aria-label="Choose day" data-week-view>
+          <button type="button" role="tab" aria-selected="false"><span>Mon</span>27</button>
+          <button type="button" role="tab" aria-selected="false"><span>Tue</span>28</button>
+          <button type="button" role="tab" aria-selected="false"><span>Wed</span>29</button>
+          <button type="button" role="tab" aria-selected="false"><span>Thu</span>30</button>
+          <button type="button" role="tab" aria-selected="false"><span>Fri</span>31</button>
+          <button type="button" role="tab" aria-selected="true"><span>Sat</span>1</button>
+          <button type="button" role="tab" aria-selected="false"><span>Sun</span>2</button>
+        </div>
+
+        <div class="calendar-layout" data-week-view>
+          <section class="panel week-grid" aria-label="Weekly teaching schedule">
+            <div class="week-header" aria-hidden="true">
+              <span></span>
+              <strong>Mon <em>27</em></strong>
+              <strong>Tue <em>28</em></strong>
+              <strong>Wed <em>29</em></strong>
+              <strong>Thu <em>30</em></strong>
+              <strong>Fri <em>31</em></strong>
+              <strong>Sat <em>1</em></strong>
+              <strong>Sun <em>2</em></strong>
+            </div>
+            <div class="week-body">
+              <div class="time-axis">
+                <time>08:00</time>
+                <time>10:00</time>
+                <time>12:00</time>
+                <time>14:00</time>
+                <time>16:00</time>
+                <time>18:00</time>
+                <time>20:00</time>
+              </div>
+              <div class="day-column">
+                <button class="session-block confirmed" type="button" style="--row: 5.75">
+                  <strong>Kenji</strong>
+                  <span>17:30 · Online</span>
+                  <small>Scheduled</small>
+                </button>
+              </div>
+              <div class="day-column">
+                <button class="session-block completed" type="button" style="--row: 2.5">
+                  <strong>Emi</strong>
+                  <span>11:00 · Kofu</span>
+                  <small>Completed</small>
+                </button>
+              </div>
+              <div class="day-column">
+                <button class="session-block confirmed selected" type="button" style="--row: 6">
+                  <strong>Hana</strong>
+                  <span>18:00 · Online</span>
+                  <small>Scheduled</small>
+                </button>
+              </div>
+              <div class="day-column"></div>
+              <div class="day-column"></div>
+              <div class="day-column">
+                <button class="session-block requested" type="button" style="--row: 2">
+                  <strong>Akira</strong>
+                  <span>10:00 · Online</span>
+                  <small>Requested<br />Not confirmed</small>
+                </button>
+                <button class="session-block confirmed" type="button" style="--row: 2.75">
+                  <strong>Mia &amp; Yuki</strong>
+                  <span>11:30 · Kofu</span>
+                  <small>Scheduled</small>
+                </button>
+              </div>
+              <div class="day-column"></div>
+            </div>
+          </section>
+
+          <aside class="panel calendar-detail" aria-label="Selected session">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Selected lesson</p>
+                <h2>Hana Sato</h2>
+              </div>
+              <span class="chip chip-confirmed">Scheduled</span>
+            </div>
+            <dl class="mini-details">
+              <div><dt>When</dt><dd>Wed 29 Jul · 18:00–18:50</dd></div>
+              <div><dt>Where</dt><dd>Online · 18:00 JST</dd></div>
+            </dl>
+            <button class="button button-primary button-full" type="button" data-go="session">
+              Open session
+            </button>
+            <div class="secondary-stack">
+              <button class="button button-secondary button-full" type="button">Reschedule</button>
+              <button class="text-button danger-link centered" type="button" data-cancel-open>
+                Cancel lesson
+              </button>
+              <button class="text-button danger-link centered" type="button" data-no-show-open>
+                Mark no-show
+              </button>
+            </div>
+          </aside>
+        </div>
+
+        <section
+          class="mobile-day-list panel"
+          aria-label="Saturday lessons and requests"
+          data-week-view
+        >
+          <p class="eyebrow">Saturday 1 August</p>
+          <button class="day-list-row requested-day-row" type="button" data-go="request">
+            <time>10:00</time>
+            <span>
+              <strong>Akira Tanaka</strong>
+              <small>Online · 50 min</small>
+            </span>
+            <span class="chip chip-requested">Requested</span>
+            <span class="day-row-chevron" aria-hidden="true">›</span>
+          </button>
+          <button class="day-list-row" type="button" data-go="session">
+            <time>11:30</time>
+            <span>
+              <strong>Mia &amp; Yuki Sato</strong>
+              <small>Kofu · 50 min</small>
+            </span>
+            <span class="chip chip-confirmed">Scheduled</span>
+            <span class="day-row-chevron" aria-hidden="true">›</span>
+          </button>
+        </section>
+
+        <div class="month-calendar-layout" data-month-calendar hidden>
+          <section class="panel month-grid" aria-label="Monthly teaching schedule">
+            <div class="month-weekdays" aria-hidden="true">
+              <strong>Mon</strong>
+              <strong>Tue</strong>
+              <strong>Wed</strong>
+              <strong>Thu</strong>
+              <strong>Fri</strong>
+              <strong>Sat</strong>
+              <strong>Sun</strong>
+            </div>
+            <div class="month-days" data-month-days></div>
+          </section>
+
+          <aside class="panel month-day-summary" aria-live="polite">
+            <div class="panel-heading month-agenda-heading">
+              <div>
+                <p class="eyebrow">Selected day</p>
+                <h2 data-month-agenda-title>Saturday 1 August</h2>
+              </div>
+              <span class="month-agenda-count" data-month-agenda-count>2 lessons</span>
+            </div>
+            <div class="month-agenda-list" data-month-agenda-list>
+              <p class="month-agenda-empty">Choose a day to see its lessons.</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="screen" data-screen="session" aria-labelledby="session-title" hidden>
+        <button class="back-link" type="button" data-go="today">← Today</button>
+        <div class="page-heading split-heading">
+          <div>
+            <p class="eyebrow">Lesson closeout</p>
+            <h1 id="session-title">Hana Sato</h1>
+            <p class="lede">Today, 18:00–18:50 · Online · JST</p>
+          </div>
+          <span class="chip chip-confirmed">Lesson ended</span>
+        </div>
+
+        <div class="session-layout">
+          <section class="panel closeout-panel" aria-labelledby="closeout-title">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">After the lesson</p>
+                <h2 id="closeout-title">Wrap up the lesson</h2>
+              </div>
+            </div>
+
+            <fieldset class="attendance-fieldset">
+              <legend>Attendance</legend>
+              <div class="segmented-control">
+                <label>
+                  <input type="radio" name="attendance" value="attended" checked />
+                  <span>Attended</span>
+                </label>
+                <label>
+                  <input type="radio" name="attendance" value="cancelled" />
+                  <span>Cancelled</span>
+                </label>
+                <label>
+                  <input type="radio" name="attendance" value="no-show" />
+                  <span>No-show</span>
+                </label>
+              </div>
+            </fieldset>
+
+            <label class="visibility-field private-field">
+              <span class="visibility-label">🔒 Private — only you see this</span>
+              <span class="field-label">Private note</span>
+              <textarea rows="3" placeholder="What happened? What should we do next time?">Past tense improved when Hana used the travel picture prompts.</textarea>
+            </label>
+
+            <div data-attended-fields>
+              <label class="visibility-field visible-field">
+                <span class="visibility-label">✓ This message is visible to Hana</span>
+                <span class="field-label">Message to Hana <small>Optional</small></span>
+                <textarea rows="3" placeholder="A short encouragement or next step">Great work today. Try the hotel questions once before next lesson.</textarea>
+              </label>
+
+              <details class="homework-details">
+                <summary>+ Add homework</summary>
+                <div class="field-row">
+                  <label>
+                    Homework
+                    <input type="text" value="Travel questions" />
+                  </label>
+                  <label>
+                    Due
+                    <input type="date" value="2026-08-01" />
+                  </label>
+                </div>
+              </details>
+            </div>
+
+            <button class="button button-primary button-full closeout-submit" type="button" data-finish>
+              Finish lesson
+            </button>
+            <p class="save-note">Saves attendance, notes, message, homework, and activity together.</p>
+          </section>
+
+          <aside class="session-context">
+            <section class="panel compact-panel">
+              <p class="eyebrow">Goal</p>
+              <h2>Everyday conversation</h2>
+              <p class="muted">Build confidence speaking at work and while travelling.</p>
+            </section>
+            <section class="panel compact-panel private-summary">
+              <p class="eyebrow private-eyebrow">Last private note</p>
+              <p>Past tense slips in longer stories. Revisit with travel examples.</p>
+              <time class="muted" datetime="2026-07-16">16 July</time>
+            </section>
+          </aside>
+        </div>
+      </section>
+
+      <section class="screen student-screen" data-screen="student" aria-labelledby="student-title" hidden>
+        <div class="student-heading">
+          <p class="eyebrow">Your learning</p>
+          <h1 id="student-title">Hi Hana.</h1>
+          <p class="lede">Here is what comes next.</p>
+        </div>
+
+        <section class="student-hero">
+          <div>
+            <p class="eyebrow inverse">Next lesson</p>
+            <h2>Wednesday 29 July</h2>
+            <p>18:00–18:50 · Online · Your time: JST</p>
+          </div>
+          <div>
+            <button class="button button-light" type="button">Open lesson</button>
+            <a class="inverse-link" href="mailto:hello@example.com">Need a different time?</a>
+          </div>
+        </section>
+
+        <section class="panel student-homework">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow amber">Homework</p>
+              <h2>Travel questions</h2>
+            </div>
+            <span class="chip chip-requested">Due 1 Aug</span>
+          </div>
+          <p>Write five questions you can use at a hotel.</p>
+          <button class="button button-primary" type="button">Start homework</button>
+        </section>
+
+        <section class="panel">
+          <p class="eyebrow">Message from Ovi</p>
+          <blockquote>
+            “Great work today. Try using the hotel questions once before next lesson.”
+          </blockquote>
+          <time class="muted" datetime="2026-07-24">Today</time>
+        </section>
+
+        <section class="panel quiet-panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Recent lessons</p>
+              <h2>Your last three lessons</h2>
+            </div>
+          </div>
+          <ul class="recent-lessons">
+            <li><time>16 Jul</time><span>Travel conversation</span></li>
+            <li><time>9 Jul</time><span>Questions at work</span></li>
+            <li><time>2 Jul</time><span>Weekend stories</span></li>
+          </ul>
+        </section>
+      </section>
+
+      <section class="screen" data-screen="more" aria-labelledby="more-title" hidden>
+        <div class="page-heading">
+          <p class="eyebrow">More</p>
+          <h1 id="more-title">More</h1>
+          <p class="lede">Secondary tools stay out of the daily teaching flow.</p>
+        </div>
+        <section class="panel">
+          <ul class="settings-list">
+            <li>
+              <button type="button" data-go="student">
+                <span><strong>Preview student home</strong><small>See what Hana sees</small></span>
+                <span aria-hidden="true">›</span>
+              </button>
+            </li>
+            <li>
+              <button type="button">
+                <span><strong>School settings</strong><small>Timezone and lesson defaults</small></span>
+                <span aria-hidden="true">›</span>
+              </button>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </main>
+
+    <nav class="mobile-nav" aria-label="Owner mobile navigation" data-owner-shell>
+      <button type="button" data-go="today"><span aria-hidden="true">◷</span>Today</button>
+      <button type="button" data-go="people"><span aria-hidden="true">◎</span>People</button>
+      <button type="button" data-go="calendar"><span aria-hidden="true">□</span>Calendar</button>
+      <button type="button" data-go="more"><span aria-hidden="true">···</span>More</button>
+    </nav>
+
+    <dialog class="danger-dialog" data-danger-dialog>
+      <form method="dialog">
+        <p class="eyebrow danger-eyebrow" data-danger-eyebrow>Decline request</p>
+        <h2 data-danger-title>Decline Akira’s request?</h2>
+        <p data-danger-description>
+          The request will close without creating a lesson. No message will be sent until you
+          prepare and approve one.
+        </p>
+        <label>
+          Private reason <small>Optional</small>
+          <textarea rows="3" placeholder="For your records only"></textarea>
+        </label>
+        <div class="dialog-actions">
+          <button class="button button-secondary" value="cancel" data-danger-cancel>
+            Keep request
+          </button>
+          <button class="button button-danger" value="confirm" data-danger-confirm>
+            Decline request
+          </button>
+        </div>
+      </form>
+    </dialog>
+
+    <dialog class="confirm-dialog" data-mobile-confirm-dialog>
+      <form method="dialog">
+        <p class="eyebrow">Before you confirm</p>
+        <h2>Schedule Akira’s lesson?</h2>
+        <p>Check every consequence before creating the session.</p>
+        <ul class="check-list">
+          <li>Link this request to Akira Tanaka</li>
+          <li>Schedule Sat 1 Aug, 10:00–10:50, online (JST)</li>
+          <li>Prepare an email to akira.t@example.com for review</li>
+        </ul>
+        <div class="dialog-actions stacked-dialog-actions">
+          <button class="button button-primary button-full" type="button" data-confirm-commit>
+            Confirm and prepare email
+          </button>
+          <button class="button button-secondary button-full" value="cancel">Back</button>
+        </div>
+      </form>
+    </dialog>
+
+    <div class="toast" role="status" aria-live="polite" data-toast hidden>
+      Lesson with Hana marked complete.
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

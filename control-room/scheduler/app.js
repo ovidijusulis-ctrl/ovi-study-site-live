@@ -326,7 +326,7 @@ function showScreen(nextScreen, options = {}) {
   document.title =
     screen === "student"
       ? "Student Home — Ovi English School"
-      : `${screen[0].toUpperCase()}${screen.slice(1)} — School Desk`;
+      : `${screen[0].toUpperCase()}${screen.slice(1)} — Scheduler`;
 }
 
 document.addEventListener("click", (event) => {
