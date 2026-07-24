@@ -5,10 +5,10 @@
     "generator": "ovi_v2_producer",
     "lexicalUnitSchemaVersion": "ovi_lexical_unit_ref_v1",
     "lexicalSenseSchemaVersion": "ovi_lexical_sense_v1",
-    "unitCount": 106,
-    "senseCount": 231,
+    "unitCount": 107,
+    "senseCount": 232,
     "contextCount": 35,
-    "occurrenceCount": 210,
+    "occurrenceCount": 207,
     "popupRowBindingCount": 113,
     "vocabRowBindingCount": 8,
     "learningItemBindingCount": 9
@@ -3007,6 +3007,18 @@
           "phrase_review_required"
         ]
       }
+    },
+    "lxu_258faf167983b71f": {
+      "lexicalUnit": {
+        "schemaVersion": "ovi_lexical_unit_ref_v1",
+        "id": "lxu_258faf167983b71f",
+        "language": "en",
+        "canonicalTerm": "move on",
+        "unitKind": "multiword"
+      },
+      "approvedSurfaceForms": [
+        "move on"
+      ]
     }
   },
   "senses": {
@@ -9708,6 +9720,36 @@
         }
       },
       "status": "reviewed_release"
+    },
+    "lxs_dd5d1ec881f2e624": {
+      "lexicalSense": {
+        "schemaVersion": "ovi_lexical_sense_v1",
+        "id": "lxs_dd5d1ec881f2e624",
+        "unitId": "lxu_258faf167983b71f",
+        "contextualMeaning": "to continue with life after a change or difficult event",
+        "sourceSentence": "His old friends move on.",
+        "support": {
+          "ja": "気持ちを切り替えて前に進む",
+          "es": "seguir adelante"
+        },
+        "classification": {
+          "lexicalType": "phrasal_verb",
+          "partsOfSpeech": [
+            "verb"
+          ],
+          "grammarStructure": "verb_phrase",
+          "status": "verified",
+          "evidenceSource": "owner_reviewed_material_phrase"
+        },
+        "cefr": {
+          "status": "unrated"
+        },
+        "source": {
+          "kind": "reviewed_registry",
+          "key": "material_popup_v3#spider-man-brand-new-day-movie-and-history#move on#continue with life after a change or difficult event#phrasal_verb"
+        }
+      },
+      "status": "reviewed_release"
     }
   },
   "contexts": {
@@ -10099,24 +10141,14 @@
       "role": "core"
     },
     {
-      "id": "lxo_44445bd77ca4463e",
+      "id": "lxo_6c3bb6b3d7cbcbf7",
       "blockId": "blk_brand_new_day_situation_explainer",
       "start": 133,
-      "end": 137,
-      "surface": "move",
-      "contextId": "lxc_5f55fbf6d7add98a",
-      "senseId": "lxs_7dc52a2c76c811b3",
-      "role": "core"
-    },
-    {
-      "id": "lxo_bef2ad1bc49d7298",
-      "blockId": "blk_brand_new_day_situation_explainer",
-      "start": 138,
       "end": 140,
-      "surface": "on",
+      "surface": "move on",
       "contextId": "lxc_5f55fbf6d7add98a",
-      "senseId": "lxs_265a8795245a9aa4",
-      "role": "density"
+      "senseId": "lxs_dd5d1ec881f2e624",
+      "role": "core"
     },
     {
       "id": "lxo_694cb78a447c03ab",
@@ -10369,24 +10401,14 @@
       "role": "core"
     },
     {
-      "id": "lxo_d7a5c431a3e10da7",
+      "id": "lxo_cd52f7a6b6ee1d6c",
       "blockId": "blk_inner_change_explainer",
       "start": 23,
-      "end": 27,
-      "surface": "move",
-      "contextId": "lxc_f89e879b0694808c",
-      "senseId": "lxs_88c3b95d60f58623",
-      "role": "core"
-    },
-    {
-      "id": "lxo_2e7d2cdbcec87715",
-      "blockId": "blk_inner_change_explainer",
-      "start": 28,
       "end": 30,
-      "surface": "on",
+      "surface": "move on",
       "contextId": "lxc_f89e879b0694808c",
-      "senseId": "lxs_ea1c5be771ad168b",
-      "role": "density"
+      "senseId": "lxs_dd5d1ec881f2e624",
+      "role": "core"
     },
     {
       "id": "lxo_7ac82d4c0453f265",
@@ -10719,24 +10741,14 @@
       "role": "core"
     },
     {
-      "id": "lxo_a0441304f238a98a",
+      "id": "lxo_8a8654eac30e2ef5",
       "blockId": "blk_introduction",
       "start": 48,
-      "end": 52,
-      "surface": "move",
-      "contextId": "lxc_d062aa860599a70e",
-      "senseId": "lxs_d18b97b417b70379",
-      "role": "core"
-    },
-    {
-      "id": "lxo_04b5919fc3b1b407",
-      "blockId": "blk_introduction",
-      "start": 53,
       "end": 55,
-      "surface": "on",
+      "surface": "move on",
       "contextId": "lxc_d062aa860599a70e",
-      "senseId": "lxs_0f48c026b86a63c6",
-      "role": "density"
+      "senseId": "lxs_dd5d1ec881f2e624",
+      "role": "core"
     },
     {
       "id": "lxo_29a94065e0e47f5b",
