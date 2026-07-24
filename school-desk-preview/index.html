@@ -531,17 +531,32 @@
         <div class="page-heading split-heading">
           <div>
             <p class="eyebrow">Calendar</p>
-            <h1 id="calendar-title">27 July – 2 August</h1>
+            <h1 id="calendar-title" data-calendar-title>27 July – 2 August</h1>
+            <p class="lede calendar-summary" data-calendar-summary>5 lessons this week</p>
           </div>
           <div class="calendar-controls" aria-label="Calendar controls">
-            <button class="icon-button" type="button" aria-label="Previous week">←</button>
-            <button class="button button-secondary button-small" type="button">Today</button>
-            <button class="icon-button" type="button" aria-label="Next week">→</button>
+            <div class="calendar-view-toggle" role="group" aria-label="Calendar view">
+              <button type="button" aria-pressed="true" data-calendar-view="week">Week</button>
+              <button type="button" aria-pressed="false" data-calendar-view="month">Month</button>
+            </div>
+            <button class="icon-button" type="button" aria-label="Previous week" data-calendar-previous>
+              ←
+            </button>
+            <button
+              class="button button-secondary button-small"
+              type="button"
+              data-calendar-today
+            >
+              Today
+            </button>
+            <button class="icon-button" type="button" aria-label="Next week" data-calendar-next>
+              →
+            </button>
             <span class="timezone-tag">All times JST</span>
           </div>
         </div>
 
-        <div class="mobile-day-picker" role="tablist" aria-label="Choose day">
+        <div class="mobile-day-picker" role="tablist" aria-label="Choose day" data-week-view>
           <button type="button" role="tab" aria-selected="false"><span>Mon</span>27</button>
           <button type="button" role="tab" aria-selected="false"><span>Tue</span>28</button>
           <button type="button" role="tab" aria-selected="false"><span>Wed</span>29</button>
@@ -551,7 +566,7 @@
           <button type="button" role="tab" aria-selected="false"><span>Sun</span>2</button>
         </div>
 
-        <div class="calendar-layout">
+        <div class="calendar-layout" data-week-view>
           <section class="panel week-grid" aria-label="Weekly teaching schedule">
             <div class="week-header" aria-hidden="true">
               <span></span>
@@ -639,7 +654,11 @@
           </aside>
         </div>
 
-        <section class="mobile-day-list panel" aria-label="Saturday lessons and requests">
+        <section
+          class="mobile-day-list panel"
+          aria-label="Saturday lessons and requests"
+          data-week-view
+        >
           <p class="eyebrow">Saturday 1 August</p>
           <button class="day-list-row requested-day-row" type="button" data-go="request">
             <time>10:00</time>
@@ -660,6 +679,34 @@
             <span class="day-row-chevron" aria-hidden="true">›</span>
           </button>
         </section>
+
+        <div class="month-calendar-layout" data-month-calendar hidden>
+          <section class="panel month-grid" aria-label="Monthly teaching schedule">
+            <div class="month-weekdays" aria-hidden="true">
+              <strong>Mon</strong>
+              <strong>Tue</strong>
+              <strong>Wed</strong>
+              <strong>Thu</strong>
+              <strong>Fri</strong>
+              <strong>Sat</strong>
+              <strong>Sun</strong>
+            </div>
+            <div class="month-days" data-month-days></div>
+          </section>
+
+          <aside class="panel month-day-summary" aria-live="polite">
+            <div class="panel-heading month-agenda-heading">
+              <div>
+                <p class="eyebrow">Selected day</p>
+                <h2 data-month-agenda-title>Saturday 1 August</h2>
+              </div>
+              <span class="month-agenda-count" data-month-agenda-count>2 lessons</span>
+            </div>
+            <div class="month-agenda-list" data-month-agenda-list>
+              <p class="month-agenda-empty">Choose a day to see its lessons.</p>
+            </div>
+          </aside>
+        </div>
       </section>
 
       <section class="screen" data-screen="session" aria-labelledby="session-title" hidden>
