@@ -69,7 +69,8 @@ body {
 
 button,
 input,
-textarea {
+textarea,
+select {
   font: inherit;
 }
 
@@ -77,6 +78,7 @@ button,
 a,
 input,
 textarea,
+select,
 summary {
   outline: none;
 }
@@ -85,12 +87,57 @@ button:focus-visible,
 a:focus-visible,
 input:focus-visible,
 textarea:focus-visible,
+select:focus-visible,
 summary:focus-visible {
   box-shadow: var(--focus);
 }
 
 button {
   color: inherit;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.64;
+}
+
+.scheduler-access-gate {
+  min-height: 100vh;
+  padding: 48px 24px;
+  display: grid;
+  place-items: center;
+}
+
+.scheduler-access-card {
+  width: min(560px, 100%);
+  padding: 48px;
+  border: 1px solid var(--border);
+  border-radius: var(--shell-radius);
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: var(--shadow);
+  text-align: center;
+}
+
+.scheduler-access-card .brand-mark {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto 24px;
+}
+
+.scheduler-access-card h1 {
+  margin-bottom: 12px;
+  font-size: clamp(32px, 5vw, 48px);
+  line-height: 1.02;
+  letter-spacing: -0.035em;
+}
+
+.scheduler-access-card > p:not(.eyebrow) {
+  max-width: 440px;
+  margin-right: auto;
+  margin-bottom: 26px;
+  margin-left: auto;
+  color: var(--ink-soft);
+  font-size: 18px;
 }
 
 .skip-link {
@@ -838,6 +885,26 @@ label > small {
   padding-bottom: 8px;
 }
 
+.student-list-state {
+  min-height: 190px;
+  padding: 32px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 12px;
+  color: var(--ink-soft);
+  text-align: center;
+}
+
+.student-list-state p {
+  max-width: 420px;
+  margin-bottom: 0;
+}
+
+.student-list-state .button {
+  margin-top: 6px;
+}
+
 .people-list li + li {
   border-top: 1px solid var(--border);
 }
@@ -854,6 +921,17 @@ label > small {
   gap: 14px;
   cursor: pointer;
   text-align: left;
+}
+
+.person-row:hover {
+  color: var(--mint-text);
+}
+
+.person-row-status {
+  color: var(--ink-soft);
+  font-size: 13px;
+  font-weight: 650;
+  text-transform: capitalize;
 }
 
 .avatar {
@@ -928,6 +1006,16 @@ label > small {
   color: var(--ink-soft);
 }
 
+.private-heading > .privacy-mark {
+  width: auto;
+  height: 30px;
+  padding: 4px 9px;
+  border-radius: 999px;
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .visible-heading > span {
   background: var(--mint-soft);
   color: var(--mint-text);
@@ -942,6 +1030,17 @@ label > small {
   border: 1px solid var(--border);
   border-radius: 10px;
   background: var(--page);
+}
+
+.student-notes-copy {
+  min-height: 48px;
+  margin: 10px 0 4px;
+  color: var(--ink-soft);
+  white-space: pre-wrap;
+}
+
+.student-summary-hero {
+  min-height: 154px;
 }
 
 .note-list li {
@@ -1595,7 +1694,8 @@ blockquote {
 }
 
 .danger-dialog,
-.confirm-dialog {
+.confirm-dialog,
+.student-editor-dialog {
   width: min(520px, calc(100% - 32px));
   padding: 0;
   border: 0;
@@ -1605,15 +1705,119 @@ blockquote {
   box-shadow: 0 28px 80px rgba(7, 30, 40, 0.28);
 }
 
+.student-editor-dialog {
+  width: min(720px, calc(100% - 32px));
+  max-height: min(880px, calc(100vh - 32px));
+  overflow: hidden;
+}
+
 .danger-dialog::backdrop,
-.confirm-dialog::backdrop {
+.confirm-dialog::backdrop,
+.student-editor-dialog::backdrop {
   background: rgba(7, 30, 40, 0.55);
   backdrop-filter: blur(3px);
 }
 
 .danger-dialog form,
-.confirm-dialog form {
+.confirm-dialog form,
+.student-editor-dialog form {
   padding: 28px;
+  max-height: min(880px, calc(100vh - 32px));
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto auto;
+}
+
+.dialog-heading {
+  margin-bottom: 24px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.dialog-heading h2 {
+  margin-bottom: 0;
+  font-size: 30px;
+  line-height: 1.05;
+  letter-spacing: -0.025em;
+}
+
+.dialog-close {
+  min-height: 40px;
+  padding: 8px 12px;
+  border: 0;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-weight: 650;
+}
+
+.student-form-grid {
+  min-height: 0;
+  padding-right: 4px;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.form-field {
+  min-width: 0;
+  display: grid;
+  gap: 7px;
+  color: var(--ink);
+  font-weight: 650;
+}
+
+.form-field-wide {
+  grid-column: 1 / -1;
+}
+
+.form-field > span {
+  font-size: 14px;
+}
+
+.form-field > span strong {
+  color: var(--danger);
+}
+
+.form-field small {
+  margin-top: -4px;
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.form-field input,
+.form-field select,
+.form-field textarea {
+  width: 100%;
+  min-height: 46px;
+  margin: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--control-radius);
+  background: white;
+  color: var(--ink);
+}
+
+.form-field textarea {
+  min-height: 92px;
+  resize: vertical;
+}
+
+.form-field input::placeholder,
+.form-field textarea::placeholder {
+  color: rgba(82, 97, 111, 0.66);
+}
+
+.form-error {
+  margin: 18px 0 -6px;
+  padding: 11px 13px;
+  border-radius: 9px;
+  background: var(--danger-soft);
+  color: var(--danger);
+  font-weight: 650;
 }
 
 .stacked-dialog-actions {
@@ -1626,6 +1830,12 @@ blockquote {
   display: flex;
   justify-content: flex-end;
   gap: 10px;
+}
+
+.student-editor-dialog .dialog-actions {
+  margin-top: 18px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
 }
 
 .toast {
@@ -2135,6 +2345,50 @@ blockquote {
 
   .toast {
     bottom: 78px;
+  }
+}
+
+@media (max-width: 720px) {
+  .scheduler-access-gate {
+    padding: 24px 16px;
+  }
+
+  .scheduler-access-card {
+    padding: 34px 24px;
+  }
+
+  .student-editor-dialog {
+    width: calc(100% - 16px);
+    max-height: calc(100dvh - 16px);
+  }
+
+  .student-editor-dialog form {
+    padding: 22px 18px;
+  }
+
+  .dialog-heading {
+    gap: 12px;
+  }
+
+  .dialog-heading h2 {
+    font-size: 26px;
+  }
+
+  .student-form-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .form-field-wide {
+    grid-column: auto;
+  }
+
+  .student-editor-dialog .dialog-actions {
+    align-items: stretch;
+    flex-direction: column-reverse;
+  }
+
+  .student-editor-dialog .dialog-actions .button {
+    width: 100%;
   }
 }
 

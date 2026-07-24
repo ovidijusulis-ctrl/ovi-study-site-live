@@ -323,13 +323,27 @@ function showScreen(nextScreen, options = {}) {
     history.replaceState(null, "", `#${screen}`);
   }
   window.scrollTo({ top: 0, behavior: options.instant ? "auto" : "smooth" });
+  const studentName = document.querySelector("[data-student-name]")?.textContent?.trim();
   document.title =
     screen === "student"
       ? "Student Home — Ovi English School"
-      : `${screen[0].toUpperCase()}${screen.slice(1)} — Scheduler`;
+      : screen === "people"
+        ? "Students — Scheduler"
+        : screen === "person" && studentName && studentName !== "Choose a student"
+          ? `${studentName} — Scheduler`
+          : `${screen[0].toUpperCase()}${screen.slice(1)} — Scheduler`;
 }
 
 document.addEventListener("click", (event) => {
+  const unavailable = event.target.closest("[data-not-ready]");
+  if (unavailable) {
+    showToast(
+      unavailable.dataset.notReady
+        || "This part will be connected in the next Scheduler release.",
+    );
+    return;
+  }
+
   const destination = event.target.closest("[data-go]");
   if (destination) {
     showScreen(destination.dataset.go);
@@ -544,5 +558,9 @@ document.querySelector("[data-danger-dialog]").addEventListener("close", (event)
 });
 
 window.addEventListener("hashchange", () => showScreen(location.hash, { fromHash: true }));
+window.schedulerUi = Object.freeze({
+  showScreen,
+  showToast,
+});
 setCalendarView("week");
-showScreen(location.hash || "today", { fromHash: true, instant: true });
+showScreen(location.hash || "people", { fromHash: true, instant: true });
