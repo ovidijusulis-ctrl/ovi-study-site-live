@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp2.C4-tDlot.js";export{e as default};
