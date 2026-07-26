@@ -836,7 +836,23 @@ label > small {
 }
 
 .search-panel {
+  position: sticky;
+  z-index: 8;
+  top: 80px;
   box-shadow: none;
+}
+
+.search-panel-heading {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.search-panel-heading span {
+  color: var(--ink-soft);
+  font-size: 14px;
 }
 
 .search-field {
@@ -911,8 +927,8 @@ label > small {
 
 .person-row {
   width: 100%;
-  min-height: 78px;
-  padding: 13px 0;
+  min-height: 64px;
+  padding: 9px 0;
   border: 0;
   background: transparent;
   display: grid;
@@ -935,8 +951,8 @@ label > small {
 }
 
 .avatar {
-  width: 44px;
-  height: 44px;
+  width: 40px;
+  height: 40px;
   border-radius: 50%;
   background: var(--mint-soft);
   display: grid;
@@ -1489,6 +1505,17 @@ label > small {
   white-space: nowrap;
 }
 
+.month-day-actions {
+  margin: 14px 0 8px;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.month-day-actions .button {
+  width: 100%;
+}
+
 .month-agenda-list {
   border-top: 1px solid var(--border);
 }
@@ -1774,6 +1801,206 @@ blockquote {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 18px;
+}
+
+.optional-details {
+  min-width: 0;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: var(--page);
+}
+
+.optional-details > summary {
+  min-height: 52px;
+  padding: 12px 14px;
+  display: grid;
+  align-content: center;
+  gap: 1px;
+  cursor: pointer;
+  list-style-position: inside;
+  font-weight: 700;
+}
+
+.optional-details > summary small {
+  padding-left: 20px;
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.optional-details-grid {
+  padding: 4px 14px 16px;
+  overflow: visible;
+}
+
+.quick-lesson-body {
+  min-height: 0;
+  padding-right: 4px;
+  overflow-y: auto;
+  display: grid;
+  gap: 16px;
+}
+
+.quick-lesson-time {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 0.72fr) auto;
+  align-items: end;
+  gap: 12px;
+}
+
+.lesson-duration-note {
+  min-height: 46px;
+  margin: 0;
+  padding: 11px 12px;
+  border-radius: var(--control-radius);
+  background: var(--mint-soft);
+  color: var(--mint-text);
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.student-picker {
+  display: grid;
+  gap: 10px;
+}
+
+.student-picker-heading {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.student-picker-heading > div {
+  display: grid;
+  gap: 1px;
+}
+
+.student-picker-heading > div > span {
+  font-weight: 700;
+}
+
+.student-picker-heading small,
+.student-picker-hint,
+.selected-students small,
+.student-picker-results small {
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.student-picker-heading > strong {
+  color: var(--mint-text);
+  font-size: 13px;
+}
+
+.selected-students {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+}
+
+.selected-students li {
+  min-height: 48px;
+  padding: 7px 8px 7px 12px;
+  border: 1px solid rgba(42, 169, 154, 0.28);
+  border-radius: 12px;
+  background: var(--mint-soft);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.selected-students li > span {
+  display: grid;
+}
+
+.selected-students button {
+  min-height: 40px;
+  padding: 7px 9px;
+  border: 0;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.student-picker-search {
+  display: block;
+}
+
+.student-picker-search input {
+  width: 100%;
+  min-height: 50px;
+  margin: 0;
+  padding: 11px 13px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--control-radius);
+  background: white;
+}
+
+.student-picker-results {
+  max-height: 260px;
+  padding: 4px;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  background: white;
+  overflow-y: auto;
+}
+
+.student-picker-results > button {
+  width: 100%;
+  min-height: 58px;
+  padding: 8px;
+  border: 0;
+  border-radius: 9px;
+  background: white;
+  display: grid;
+  grid-template-columns: 40px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+.student-picker-results > button:hover,
+.student-picker-results > button:focus-visible {
+  background: var(--mint-soft);
+}
+
+.student-picker-results > button + button {
+  margin-top: 2px;
+}
+
+.student-picker-results > button > span:nth-child(2) {
+  min-width: 0;
+  display: grid;
+}
+
+.student-picker-results > button > span:last-child {
+  color: var(--mint-text);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.student-picker-results .create-student-result {
+  border-top: 1px solid var(--border);
+  border-radius: 0 0 9px 9px;
+}
+
+.student-picker-hint {
+  margin: -2px 0 0;
+}
+
+.lesson-optional-details {
+  background: white;
 }
 
 .form-field {
@@ -2368,6 +2595,10 @@ blockquote {
     padding: 24px 16px;
   }
 
+  .search-panel {
+    position: static;
+  }
+
   .scheduler-access-card {
     padding: 34px 24px;
   }
@@ -2391,6 +2622,14 @@ blockquote {
 
   .student-form-grid {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .quick-lesson-time {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 0.72fr);
+  }
+
+  .lesson-duration-note {
+    grid-column: 1 / -1;
   }
 
   .form-field-wide {
@@ -3312,6 +3551,31 @@ blockquote {
   overflow-y: auto;
 }
 
+.day-copy-source {
+  min-height: 70px;
+  margin-bottom: 12px;
+  padding: 13px 16px;
+  border: 1px solid rgba(42, 169, 154, 0.24);
+  border-radius: 12px;
+  background: var(--mint-soft);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.day-copy-source > div {
+  display: grid;
+  gap: 2px;
+}
+
+.day-copy-source > div > span,
+.day-copy-source > span {
+  color: var(--mint-text);
+  font-size: 13px;
+  font-weight: 700;
+}
+
 .month-copy-setup {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto;
@@ -3321,6 +3585,10 @@ blockquote {
   border: 1px solid var(--border);
   border-radius: 12px;
   background: var(--page);
+}
+
+.day-copy-setup {
+  grid-template-columns: minmax(0, 1fr) auto;
 }
 
 .month-copy-setup .button {
@@ -3557,11 +3825,34 @@ blockquote {
   .calendar-heading-actions {
     width: 100%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .day-copy-source {
+    min-height: 58px;
+    padding: 10px 12px;
+    align-items: center;
+    flex-direction: row;
+    gap: 12px;
   }
 
   .month-copy-setup {
     grid-template-columns: 1fr;
+  }
+
+  .day-copy-setup {
+    padding: 12px;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+  }
+
+  .day-copy-setup .form-field small {
+    display: none;
+  }
+
+  .day-copy-setup .button {
+    padding-right: 12px;
+    padding-left: 12px;
   }
 
   .month-copy-summary {
@@ -3614,6 +3905,14 @@ blockquote {
 
   .roster-member-list {
     grid-template-columns: 1fr;
+  }
+
+  .selected-students {
+    display: grid;
+  }
+
+  .selected-students li {
+    justify-content: space-between;
   }
 
   .group-attendance-row .segmented-control {
