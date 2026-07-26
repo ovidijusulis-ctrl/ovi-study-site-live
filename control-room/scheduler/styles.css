@@ -3439,9 +3439,18 @@ blockquote {
   background: var(--mint-soft);
 }
 
+.copy-status.extra {
+  color: #735d2d;
+  background: #f4efe2;
+}
+
 .copy-status.conflict {
   color: var(--danger);
   background: var(--danger-soft);
+}
+
+.month-copy-row.is-extra {
+  background: #fffdf7;
 }
 
 .month-copy-row.is-duplicate,
