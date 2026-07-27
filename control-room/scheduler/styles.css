@@ -1778,6 +1778,222 @@ label > small {
   grid-template-columns: minmax(0, 1fr) 300px;
 }
 
+.session-context {
+  position: sticky;
+  top: 88px;
+  min-width: 0;
+}
+
+.lesson-student-context-panel {
+  padding: 22px;
+  box-shadow: none;
+}
+
+.lesson-context-heading,
+.lesson-context-profile,
+.lesson-context-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.lesson-context-heading {
+  justify-content: space-between;
+}
+
+.lesson-context-heading h2 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.session-context-tabs {
+  margin-top: 16px;
+  display: grid;
+  gap: 7px;
+}
+
+.session-context-tabs button {
+  width: 100%;
+  min-height: 48px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+
+.session-context-tabs button[aria-pressed="true"] {
+  border-color: rgba(42, 169, 154, 0.48);
+  background: var(--mint-soft);
+  box-shadow: inset 3px 0 0 var(--mint);
+}
+
+.session-context-tabs strong,
+.session-context-tabs small {
+  display: block;
+}
+
+.session-context-tabs small {
+  margin-top: 2px;
+  overflow: hidden;
+  color: var(--ink-soft);
+  font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lesson-context-loading,
+.lesson-context-empty {
+  margin: 18px 0 0;
+  color: var(--ink-soft);
+}
+
+.lesson-context-loading {
+  min-height: 160px;
+  display: grid;
+  place-items: center;
+}
+
+.lesson-context-profile {
+  margin-top: 18px;
+}
+
+.lesson-context-profile .avatar {
+  flex: 0 0 auto;
+}
+
+.lesson-context-profile h3,
+.lesson-context-section-heading h3 {
+  margin: 0;
+  font-size: 17px;
+}
+
+.lesson-context-profile p {
+  margin: 2px 0 0;
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+.lesson-context-facts {
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--border);
+}
+
+.lesson-context-facts > div {
+  min-width: 0;
+  padding: 10px;
+  background: var(--surface);
+}
+
+.lesson-context-facts > .is-wide {
+  grid-column: 1 / -1;
+}
+
+.lesson-context-facts dt {
+  margin-bottom: 3px;
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lesson-context-facts dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+  font-size: 13px;
+  font-weight: 650;
+}
+
+.lesson-context-section-heading {
+  margin-top: 20px;
+  padding-top: 17px;
+  border-top: 1px solid var(--border);
+}
+
+.lesson-context-section-heading .eyebrow {
+  margin-bottom: 4px;
+}
+
+.lesson-context-history {
+  margin: 10px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.lesson-context-history li {
+  min-width: 0;
+  padding: 10px 0;
+  border-top: 1px solid var(--border);
+  display: grid;
+  grid-template-columns: 70px minmax(0, 1fr);
+  gap: 9px;
+}
+
+.lesson-context-history li:first-child {
+  border-top: 0;
+}
+
+.lesson-context-history time {
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.lesson-context-history strong,
+.lesson-context-history small {
+  display: block;
+}
+
+.lesson-context-history strong {
+  overflow: hidden;
+  font-size: 13px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.lesson-context-history small {
+  margin-top: 2px;
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
+.lesson-context-note {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.lesson-context-note span {
+  color: var(--ink-soft);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.lesson-context-note p {
+  margin: 5px 0 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.lesson-context-actions {
+  margin-top: 16px;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.lesson-context-actions .text-button {
+  min-height: 40px;
+}
+
 .closeout-panel {
   padding: 30px;
 }
@@ -2349,6 +2565,15 @@ blockquote {
     position: static;
   }
 
+  .session-context {
+    position: static;
+    grid-row: 1;
+  }
+
+  .closeout-panel {
+    grid-row: 2;
+  }
+
   .calendar-layout {
     grid-template-columns: 1fr;
   }
@@ -2715,12 +2940,12 @@ blockquote {
     font-size: 24px;
   }
 
-  .session-context {
-    display: none;
-  }
-
   .closeout-panel {
     padding: 22px 22px calc(90px + env(safe-area-inset-bottom));
+  }
+
+  .session-context-tabs {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .segmented-control span {
