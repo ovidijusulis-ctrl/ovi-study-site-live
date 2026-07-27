@@ -2907,13 +2907,13 @@ blockquote {
 @media (min-width: 901px) {
   main.calendar-main.is-month-view {
     width: min(1440px, calc(100% - 48px));
-    height: calc(100dvh - 64px);
+    height: calc(100dvh - 65px);
     min-height: 540px;
     padding: 18px 0 20px;
   }
 
   body:has(.prototype-notice) main.calendar-main.is-month-view {
-    height: calc(100dvh - 100px);
+    height: calc(100dvh - 101px);
   }
 
   .calendar-main .calendar-screen {
