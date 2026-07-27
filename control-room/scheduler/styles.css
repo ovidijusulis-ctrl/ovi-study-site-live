@@ -1304,9 +1304,9 @@ label > small {
 
 .month-calendar-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 280px;
+  grid-template-columns: minmax(0, 1fr) 252px;
   align-items: start;
-  gap: 24px;
+  gap: 16px;
 }
 
 .month-calendar-stage {
@@ -1315,6 +1315,199 @@ label > small {
 
 .month-side-arrow {
   display: none;
+}
+
+.week-calendar-panel {
+  min-width: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.week-calendar-board {
+  height: 100%;
+  min-height: 520px;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+
+.week-day-column {
+  min-width: 0;
+  min-height: 0;
+  border-left: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.64);
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  transition: background-color 150ms ease;
+}
+
+.week-day-column:first-child {
+  border-left: 0;
+}
+
+.week-day-column.is-selected {
+  background: rgba(42, 169, 154, 0.075);
+  box-shadow: inset 0 0 0 2px rgba(42, 169, 154, 0.22);
+}
+
+.week-day-heading {
+  width: 100%;
+  min-height: 48px;
+  padding: 6px 8px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: rgba(246, 247, 241, 0.72);
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 28px auto;
+  align-items: center;
+  gap: 6px;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+
+.week-day-heading:hover {
+  background: var(--mint-soft);
+}
+
+.week-day-heading:focus-visible,
+.week-lesson-card:focus-visible,
+.week-open-day:focus-visible {
+  position: relative;
+  z-index: 2;
+  outline: 3px solid rgba(42, 169, 154, 0.38);
+  outline-offset: -3px;
+}
+
+.week-day-heading > span {
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.week-day-heading > strong {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  font-size: 13px;
+}
+
+.week-day-heading > strong.is-today {
+  background: var(--hero-dark);
+  color: white;
+}
+
+.week-day-heading > small {
+  min-width: 24px;
+  padding: 3px 6px;
+  border-radius: 999px;
+  background: rgba(42, 169, 154, 0.1);
+  color: var(--mint-text);
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+}
+
+.week-day-lessons {
+  min-height: 0;
+  padding: 6px;
+  display: grid;
+  align-content: start;
+  gap: 4px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+}
+
+.week-lesson-card {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: 6px 8px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--mint);
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 7px rgba(18, 35, 61, 0.035);
+  display: grid;
+  align-content: center;
+  gap: 3px;
+  color: var(--ink);
+  cursor: pointer;
+  text-align: left;
+}
+
+.week-lesson-card:hover {
+  border-color: var(--mint);
+  background: rgba(42, 169, 154, 0.045);
+}
+
+.week-lesson-card.requested {
+  border-left-color: var(--amber);
+}
+
+.week-lesson-card.completed,
+.week-lesson-card.cancelled,
+.week-lesson-card.no_show {
+  border-left-color: var(--muted);
+  background: rgba(82, 97, 111, 0.055);
+}
+
+.week-lesson-card.cancelled {
+  opacity: 0.62;
+}
+
+.week-lesson-time {
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.week-lesson-time time {
+  color: var(--mint-text);
+  font-size: 11px;
+  font-variant-numeric: tabular-nums;
+  font-weight: 750;
+}
+
+.week-lesson-time small {
+  min-width: 0;
+  overflow: hidden;
+  color: var(--ink-soft);
+  font-size: 9px;
+  font-weight: 650;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.week-lesson-card > strong {
+  min-width: 0;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.2;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.week-open-day {
+  min-height: 44px;
+  padding: 8px;
+  border: 1px dashed var(--border-strong);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--ink-soft);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 650;
+}
+
+.week-open-day:hover {
+  border-color: var(--mint);
+  background: var(--mint-soft);
+  color: var(--mint-text);
 }
 
 .month-grid {
@@ -1354,6 +1547,9 @@ label > small {
   cursor: pointer;
   overflow: hidden;
   text-align: left;
+  transition:
+    background-color 150ms ease,
+    box-shadow 150ms ease;
 }
 
 .month-day:nth-child(7n) {
@@ -1366,6 +1562,12 @@ label > small {
 
 .month-day:hover {
   background: rgba(42, 169, 154, 0.045);
+}
+
+.month-day:focus-visible {
+  z-index: 2;
+  outline: 3px solid rgba(42, 169, 154, 0.38);
+  outline-offset: -3px;
 }
 
 .month-day[aria-pressed="true"] {
@@ -1435,9 +1637,10 @@ label > small {
 
 .month-event {
   min-width: 0;
-  display: flex;
+  display: grid;
+  grid-template-columns: 7px 31px minmax(0, 1fr);
   align-items: center;
-  gap: 5px;
+  gap: 4px;
   color: var(--ink-soft);
   font-size: 11px;
   line-height: 1.25;
@@ -1453,6 +1656,13 @@ label > small {
   content: "";
 }
 
+.month-event time {
+  color: var(--ink);
+  font-variant-numeric: tabular-nums;
+  font-weight: 650;
+  white-space: nowrap;
+}
+
 .month-event.requested::before,
 .month-agenda-status.requested {
   background: var(--amber);
@@ -1463,7 +1673,7 @@ label > small {
   background: var(--muted);
 }
 
-.month-event span {
+.month-event-name {
   min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -2150,6 +2360,14 @@ blockquote {
 
   .month-calendar-layout {
     grid-template-columns: 1fr;
+  }
+
+  .week-calendar-panel {
+    overflow-x: auto;
+  }
+
+  .week-calendar-board {
+    min-width: 700px;
   }
 }
 
@@ -2905,14 +3123,14 @@ blockquote {
 }
 
 @media (min-width: 901px) {
-  main.calendar-main.is-month-view {
+  main.calendar-main.is-calendar-view {
     width: min(1440px, calc(100% - 48px));
     height: calc(100dvh - 65px);
     min-height: 540px;
     padding: 18px 0 20px;
   }
 
-  body:has(.prototype-notice) main.calendar-main.is-month-view {
+  body:has(.prototype-notice) main.calendar-main.is-calendar-view {
     height: calc(100dvh - 101px);
   }
 
@@ -2946,7 +3164,7 @@ blockquote {
     min-height: 40px;
   }
 
-  .calendar-inline-period.is-month {
+  .calendar-inline-period.is-wide-calendar {
     display: none;
   }
 
@@ -2954,7 +3172,7 @@ blockquote {
     position: relative;
     height: 100%;
     min-height: 0;
-    padding: 0 52px;
+    padding: 0;
   }
 
   .month-side-arrow {
@@ -2979,11 +3197,11 @@ blockquote {
   }
 
   .month-side-arrow.is-previous {
-    left: 0;
+    left: -30px;
   }
 
   .month-side-arrow.is-next {
-    right: 0;
+    right: -30px;
   }
 
   .month-side-arrow img {
@@ -2994,9 +3212,9 @@ blockquote {
   .calendar-main .month-calendar-layout {
     height: 100%;
     min-height: 0;
-    grid-template-columns: minmax(0, 1fr) minmax(240px, 280px);
+    grid-template-columns: minmax(0, 1fr) minmax(228px, 244px);
     align-items: stretch;
-    gap: 16px;
+    gap: 14px;
   }
 
   .calendar-main .month-calendar-panel {
@@ -3005,6 +3223,12 @@ blockquote {
     margin-bottom: 0;
     display: grid;
     grid-template-rows: 36px minmax(0, 1fr);
+  }
+
+  .calendar-main .week-calendar-panel,
+  .calendar-main .week-calendar-board {
+    height: 100%;
+    min-height: 0;
   }
 
   .calendar-main .month-weekday-row {
@@ -3046,13 +3270,30 @@ blockquote {
     position: static;
     height: 100%;
     min-height: 0;
-    padding: 18px;
+    padding: 16px;
     overflow-y: auto;
     overscroll-behavior: contain;
   }
 
+  .calendar-main .month-day-summary .panel-heading {
+    margin-bottom: 12px;
+    gap: 10px;
+  }
+
   .calendar-main .month-day-summary h2 {
-    font-size: 20px;
+    font-size: 19px;
+    line-height: 1.08;
+  }
+
+  .calendar-main .month-day-actions {
+    margin-top: 10px;
+    gap: 6px;
+  }
+
+  .calendar-main .month-day-actions .button {
+    min-height: 42px;
+    padding: 9px 10px;
+    font-size: 14px;
   }
 }
 
