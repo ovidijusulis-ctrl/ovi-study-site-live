@@ -359,6 +359,13 @@ h3 {
   font-size: 18px;
 }
 
+.student-profile-schedule {
+  margin: 7px 0 0;
+  color: var(--ink-soft);
+  font-size: 14px;
+  font-weight: 650;
+}
+
 .page-heading {
   margin-bottom: 32px;
 }
@@ -2295,6 +2302,63 @@ blockquote {
   white-space: nowrap;
 }
 
+.lesson-mode-choice {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: grid;
+  gap: 7px;
+}
+
+.lesson-mode-choice legend {
+  margin-bottom: 7px;
+  font-weight: 700;
+}
+
+.lesson-mode-choice > div {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.lesson-mode-choice label {
+  position: relative;
+  min-height: 44px;
+  padding: 9px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--control-radius);
+  background: white;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  font-weight: 700;
+  transition: border-color 120ms ease, background-color 120ms ease, color 120ms ease;
+}
+
+.lesson-mode-choice label.is-selected {
+  border-color: var(--hero-dark);
+  background: var(--hero-dark);
+  color: white;
+}
+
+.lesson-mode-choice label:focus-within {
+  outline: 3px solid rgba(42, 169, 154, 0.3);
+  outline-offset: 2px;
+}
+
+.lesson-mode-choice input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.lesson-mode-choice > small {
+  color: var(--ink-soft);
+  font-size: 12px;
+}
+
 .student-picker {
   display: grid;
   gap: 10px;
@@ -3422,11 +3486,11 @@ blockquote {
   }
 
   .month-side-arrow.is-previous {
-    left: -30px;
+    left: -24px;
   }
 
   .month-side-arrow.is-next {
-    right: -30px;
+    right: -24px;
   }
 
   .month-side-arrow img {
