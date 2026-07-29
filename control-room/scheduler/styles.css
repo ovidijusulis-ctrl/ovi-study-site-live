@@ -1063,7 +1063,19 @@ label > small {
 }
 
 .student-summary-hero {
-  min-height: 154px;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.student-summary-hero > div {
+  min-width: 0;
+}
+
+.student-summary-hero .button {
+  flex: 0 0 auto;
 }
 
 .note-list li {
@@ -3199,12 +3211,39 @@ blockquote {
   font-weight: 700;
 }
 
+.student-profile-toolbar {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.student-profile-toolbar .person-header-block {
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.student-profile-toolbar h1 {
+  font-size: clamp(34px, 4vw, 46px);
+}
+
+.student-profile-toolbar .lede {
+  margin-top: 7px;
+  font-size: 16px;
+}
+
 .student-workspace-actions {
   margin: 0 0 24px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
+}
+
+.student-profile-toolbar .student-workspace-actions {
+  margin-bottom: 0;
+  justify-content: flex-end;
 }
 
 .student-workspace-tabs {
@@ -3240,20 +3279,27 @@ blockquote {
   color: white;
 }
 
-.student-mini-stats {
+.student-mini-stats,
+.student-before-class {
   margin: 12px 0 0;
 }
 
-.student-mini-stats > div {
+.student-mini-stats > div,
+.student-before-class > div {
   padding: 10px 0;
   border-top: 1px solid var(--border);
+}
+
+.student-mini-stats > div {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 .student-mini-stats dt,
-.student-mini-stats dd {
+.student-mini-stats dd,
+.student-before-class dt,
+.student-before-class dd {
   margin: 0;
 }
 
@@ -3264,6 +3310,22 @@ blockquote {
 .student-mini-stats dd {
   font-size: 20px;
   font-weight: 700;
+}
+
+.student-before-class dt {
+  margin-bottom: 4px;
+  color: var(--ink-soft);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.student-before-class dd {
+  color: var(--ink);
+  font-weight: 650;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
 }
 
 .form-note {
@@ -4335,6 +4397,49 @@ blockquote {
 
   .student-workspace-actions .text-button {
     grid-column: 1 / -1;
+  }
+
+  .student-profile-toolbar {
+    margin-bottom: 18px;
+    align-items: stretch;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .student-profile-toolbar .person-header-block {
+    align-items: center;
+    flex-direction: row;
+    gap: 14px;
+  }
+
+  .student-profile-toolbar .avatar-large {
+    width: 52px;
+    height: 52px;
+    flex: 0 0 52px;
+  }
+
+  .student-profile-toolbar h1 {
+    font-size: 34px;
+  }
+
+  .student-profile-toolbar .student-workspace-actions {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
+
+  .student-profile-toolbar .student-workspace-actions .text-button {
+    grid-column: auto;
+  }
+
+  .student-summary-hero {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .student-summary-hero .button {
+    width: 100%;
   }
 
   .student-tab-panel {
