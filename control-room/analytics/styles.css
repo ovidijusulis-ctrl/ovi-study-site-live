@@ -798,6 +798,75 @@ summary:focus-visible {
   font-size: 12px;
 }
 
+.analytics-typing {
+  margin-top: 18px;
+  padding: 20px;
+  border: 1px solid var(--analytics-border);
+  border-radius: var(--analytics-radius-small);
+  background:
+    linear-gradient(135deg, rgba(42, 169, 154, 0.08), transparent 62%),
+    rgba(246, 247, 241, 0.45);
+}
+
+.analytics-typing-heading {
+  margin-bottom: 14px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.analytics-typing-heading h3 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: -0.02em;
+}
+
+.analytics-typing-heading > span {
+  color: var(--analytics-ink-soft);
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.analytics-typing-metrics {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.analytics-typing .analytics-small-metric {
+  min-height: 90px;
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.analytics-typing-empty {
+  min-height: 108px;
+  padding: 19px;
+  border: 1px solid var(--analytics-border);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.82);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.analytics-typing-empty > strong {
+  font-size: 18px;
+}
+
+.analytics-typing-empty > p {
+  margin: 5px 0 0;
+  color: var(--analytics-ink-soft);
+  line-height: 1.45;
+}
+
+.analytics-typing-privacy {
+  margin: 13px 1px 0;
+  color: var(--analytics-ink-soft);
+  font-size: 12px;
+  line-height: 1.45;
+}
+
 .analytics-studio-empty {
   padding: 34px;
   display: flex;
@@ -990,6 +1059,10 @@ summary:focus-visible {
     grid-template-columns: 1fr;
   }
 
+  .analytics-typing-metrics {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .analytics-chart-panel + .analytics-chart-panel {
     padding-top: 22px;
     padding-left: 0;
@@ -1152,8 +1225,19 @@ summary:focus-visible {
   }
 
   .analytics-domain-metrics,
-  .analytics-platform-summary {
+  .analytics-platform-summary,
+  .analytics-typing-metrics {
     grid-template-columns: 1fr;
+  }
+
+  .analytics-typing {
+    padding: 17px;
+  }
+
+  .analytics-typing-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
   }
 
   .analytics-domain-copy,
