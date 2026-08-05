@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.CorRAtna.js";export{e as default};
