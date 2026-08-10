@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.CAl_H1RU.js";export{e as default};
