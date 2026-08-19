@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.BCTolD_I.js";export{e as default};
