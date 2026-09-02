@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.CZfammBs.js";export{e as default};
