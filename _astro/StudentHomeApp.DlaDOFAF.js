@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.DjpSCP_A.js";export{e as default};
