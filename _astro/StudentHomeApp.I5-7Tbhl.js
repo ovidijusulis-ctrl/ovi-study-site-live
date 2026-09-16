@@ -1,1 +1,0 @@
-import{t as e}from"./StudentHomeApp.D7-7fpFS.js";export{e as default};
