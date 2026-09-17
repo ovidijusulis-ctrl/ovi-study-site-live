@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.C-IQiz4P.js";export{e as default};
