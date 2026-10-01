@@ -9,7 +9,7 @@
     "senseCount": 258,
     "contextCount": 6,
     "occurrenceCount": 251,
-    "exclusionCount": 18,
+    "exclusionCount": 17,
     "popupRowBindingCount": 143,
     "vocabRowBindingCount": 0,
     "learningItemBindingCount": 5
@@ -25,13 +25,13 @@
     "eligibilityPolicy": "a1_a2_content_words_and_phrases_v1",
     "status": "complete_with_exclusions",
     "eligibleVisibleTargetCount": 435,
-    "popupVisibleTargetCount": 417,
-    "excludedNoPopupCount": 18,
-    "eligibleVisibleCoverageRate": 0.9586206896551724,
+    "popupVisibleTargetCount": 418,
+    "excludedNoPopupCount": 17,
+    "eligibleVisibleCoverageRate": 0.960919540229885,
     "minimumCoverageRate": 0.8,
     "pass": true,
     "exclusionStatus": "excluded_no_popup",
-    "exclusionsSha256": "e9fd2367d43b04b041570ed7dea92cf9d032812b8c62b24126466a9667b84b50",
+    "exclusionsSha256": "6dff5f80b8dfd7c5ad4a1f91a7e726076e65a8cc144608511656be57a61cbbff",
     "receiptRef": "support-boundary-receipt.json"
   },
   "exclusions": [
@@ -324,23 +324,6 @@
       ],
       "attemptCount": 2,
       "detail": "surgical complete-unit pin excluded uncovered token Soft"
-    },
-    {
-      "id": "lxe_1da20b22c10097a3",
-      "status": "excluded_no_popup",
-      "identity": "77d39f9e607ed5b5",
-      "targetHash": "a2e838bdb32af3a0fd502039018a29f26f9923539610b1196e1de047470f5e44",
-      "itemId": "li_77d39f9e607ed5b5",
-      "blockId": "blk_part_04_part_4_the_famous_four_player_classic",
-      "start": 56,
-      "end": 61,
-      "surface": "Super",
-      "sourceSentence": "It was a game for the Super Nintendo Entertainment System, or SNES.",
-      "reasonCodes": [
-        "surgical_complete_unit_uncovered"
-      ],
-      "attemptCount": 2,
-      "detail": "surgical complete-unit pin excluded uncovered token Super"
     }
   ],
   "units": {
@@ -4037,7 +4020,8 @@
         "unitKind": "multiword"
       },
       "approvedSurfaceForms": [
-        "SNES"
+        "SNES",
+        "Super Nintendo Entertainment System"
       ],
       "lexicalIntelligence": {
         "policyVersion": "ovi_lexical_value_v1",
@@ -11830,7 +11814,7 @@
         },
         "source": {
           "kind": "material",
-          "key": "material_popup_v3#a2-explainer-about-bomberman-what-the-game-is-maze-action-place-bombs-soft-blocks-power-up#blk_part_04_part_4_the_famous_four_player_classic#lxu_e3b9ac785481a68c#It was a game for the Super Nintendo Entertainment System, or SNES.#proper_name",
+          "key": "material_popup_v3#a2-explainer-about-bomberman-what-the-game-is-maze-action-place-bombs-soft-blocks-power-up#blk_part_04_part_4_the_famous_four_player_classic#lxu_e3b9ac785481a68c#Super Nintendo Entertainment System#proper_name",
           "materialSlug": "a2-explainer-about-bomberman-what-the-game-is-maze-action-place-bombs-soft-blocks-power-up",
           "blockId": "blk_part_04_part_4_the_famous_four_player_classic"
         }
@@ -13619,12 +13603,12 @@
       "role": "core"
     },
     {
-      "id": "lxo_a32639fa338bfa1b",
+      "id": "lxo_2af7d77aa44218e8",
       "blockId": "blk_part_04_part_4_the_famous_four_player_classic",
-      "start": 62,
+      "start": 56,
       "end": 91,
-      "surface": "Nintendo Entertainment System",
-      "senseId": "lxs_78cd1a1bda9d126a",
+      "surface": "Super Nintendo Entertainment System",
+      "senseId": "lxs_c8f0f9c313565c50",
       "contextId": "lxc_4f79f05d0fec929c",
       "role": "core"
     },
