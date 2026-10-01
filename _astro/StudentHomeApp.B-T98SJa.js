@@ -1,1 +1,0 @@
-import{t as e}from"./StudentHomeApp.Bruqk067.js";export{e as default};
