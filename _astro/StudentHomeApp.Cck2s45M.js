@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.1UBLHAQT.js";export{e as default};
