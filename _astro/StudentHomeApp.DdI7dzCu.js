@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.BNDO_VH4.js";export{e as default};
