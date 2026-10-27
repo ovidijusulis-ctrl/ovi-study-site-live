@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.BKRXOW-s.js";export{e as default};
