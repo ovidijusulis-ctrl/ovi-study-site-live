@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.BJLTbfr6.js";export{e as default};
