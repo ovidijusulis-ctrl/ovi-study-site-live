@@ -1,0 +1,1 @@
+import{t as e}from"./StudentHomeApp.B4ONPuUi.js";export{e as default};
