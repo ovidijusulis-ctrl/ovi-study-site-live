@@ -1,0 +1,543 @@
+{
+  "format": "ovi_lesson_v1",
+  "slug": "a2-grammar-plans-and-decisions",
+  "version": 1,
+  "title": "Plans and Decisions with Going To and Will",
+  "level": "A2",
+  "date": "2026-11-06",
+  "access": "public",
+  "help": [
+    "ja",
+    "es"
+  ],
+  "type": "grammar",
+  "summary": "We use be going to for a plan we made before we speak, will for a decision we make now, an offer or a promise, and we write the short forms I'll, we'll and won't with an apostrophe.",
+  "sources": [
+    {
+      "label": "Future forms: will, be going to and present continuous (LearnEnglish, British Council)",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/future-forms-will-be-going-present-continuous",
+      "note": "going to for a plan made before speaking; will for a decision at the moment of speaking; more than one form is often possible"
+    },
+    {
+      "label": "Talking about the future (LearnEnglish, British Council)",
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/talking-about-the-future",
+      "note": "will for offers, promises and beliefs about the future; going to for predictions from evidence we can see"
+    },
+    {
+      "label": "Short/contracted forms and long forms in the will-future (Englisch-hilfen)",
+      "url": "https://www.englisch-hilfen.de/en/grammar/will_future_short_forms.htm",
+      "note": "I'll, we'll and won't; will is not shortened in short answers"
+    }
+  ],
+  "cover": null,
+  "blocks": [
+    {
+      "kind": "text",
+      "id": "blk_introduction",
+      "title": "Introduction",
+      "role": "intro",
+      "paragraphs": [
+        "Today we will learn two ways to talk about the future. We will see when English uses be going to and when it uses will. Then we will practise writing three short forms."
+      ],
+      "images": [],
+      "audio": false
+    },
+    {
+      "kind": "questions",
+      "id": "blk_warmup_questions",
+      "title": "Warm-up",
+      "role": "warmup",
+      "intro": "",
+      "checks": null,
+      "items": [
+        {
+          "id": "blk_warmup_questions_q_01",
+          "prompt": "What are you going to do this weekend?"
+        },
+        {
+          "id": "blk_warmup_questions_q_02",
+          "prompt": "What do you say when a friend has a very heavy bag?"
+        },
+        {
+          "id": "blk_warmup_questions_q_03",
+          "prompt": "Do you make plans early, or do you decide at the last minute?"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_01_be_going_to_for_plans",
+      "title": "Part 1: Be Going To for Plans",
+      "role": "part",
+      "paragraphs": [
+        "It is Friday. Last week, Ken decided to play volleyball with his team on Saturday. At school, Mia asks him about tomorrow. Ken says: I'm going to play volleyball. The plan was in his head before Mia asked.",
+        "We use be going to for a plan. A plan is something we want to do and have already decided. The important idea is time: we made the plan before we speak. Ken did not decide when Mia asked. He decided last week.",
+        "The form has three pieces. First comes am, is or are. Then come going to and a base verb. A base verb is the simple verb, like play, watch or buy. It has no -s, -ed or -ing.",
+        "For a question, put am, is or are before the person. For a negative, put not after am, is or are. In speaking we usually say the short forms I'm, he's, we're, isn't and aren't.",
+        "Here are five examples:",
+        "I'm going to play volleyball on Saturday. Ken made this plan last week.",
+        "My sister is going to visit our grandmother tomorrow. She called her yesterday.",
+        "We're going to watch a film tonight. We already have the tickets.",
+        "Are you going to come to the game? Mia wants to know Ken's plan.",
+        "Ken isn't going to study this weekend. He is going to play games at home.",
+        "A common mistake is to forget am, is or are. I going to play is wrong. I am going to play is right. Another mistake is to change the verb after going to. He is going to plays is wrong, because a base verb never takes -s."
+      ],
+      "images": [],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_01_be_going_to_for_plans_practice",
+      "title": "Practice: Be Going To for Plans",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_01_be_going_to_for_plans",
+      "items": [
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "Ken ___ going to buy new shoes on Sunday.",
+          "choices": [
+            "is",
+            "are",
+            "am"
+          ],
+          "answer": "is",
+          "explanation": "Use is going to with he, she or one person's name.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_02",
+          "type": "multiple_choice",
+          "prompt": "___ Mia going to join the team?",
+          "choices": [
+            "Is",
+            "Does",
+            "Do"
+          ],
+          "answer": "Is",
+          "explanation": "A going to question starts with am, is or are, not do or does.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_03",
+          "type": "match_pairs",
+          "instruction": "Match each person with the right form.",
+          "pairs": [
+            [
+              "I",
+              "am going to cook"
+            ],
+            [
+              "My brother",
+              "is going to swim"
+            ],
+            [
+              "We",
+              "are going to walk"
+            ]
+          ],
+          "explanation": "Use am with I, is with one other person, and are with we, you and they.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_04",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "私たちは土曜日に体育館を掃除するつもりです。",
+          "answer": "We are going to clean the gym on Saturday",
+          "distractors": [
+            "will",
+            "cleans"
+          ],
+          "explanation": "A plan made before: are going to and a base verb.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_05",
+          "type": "error_spot",
+          "sentence": "My friends is going to watch the game.",
+          "wrong": "is",
+          "correction": "are",
+          "explanation": "My friends means they, so use are going to.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_06",
+          "type": "error_spot",
+          "sentence": "She is going to buys a new ball.",
+          "wrong": "buys",
+          "correction": "buy",
+          "explanation": "After going to, use the base verb with no -s.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_07",
+          "type": "type_answer",
+          "prompt": "I ___ going to eat lunch at school today. I'm going to eat at home.",
+          "accepted": [
+            "am not",
+            "'m not"
+          ],
+          "hint": "The second sentence says this plan is not happening. Think of the negative of be.",
+          "explanation": "The negative is am, is or are with not before going to.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_be_going_to_for_plans_practice_q_08",
+          "type": "transform",
+          "instruction": "Make a question.",
+          "source": "Mia is going to wear her new shoes.",
+          "accepted": [
+            "Is Mia going to wear her new shoes?"
+          ],
+          "explanation": "For a question, put is before the person.",
+          "targetId": "jhs2.u1.going_to",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:plans-decisions:practice:jhs2.u1.going_to",
+      "activityVersion": "8d399e9b6c5b25ec"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_02_will_for_decisions_offers_and_promises",
+      "title": "Part 2: Will for Decisions, Offers and Promises",
+      "role": "part",
+      "paragraphs": [
+        "On Saturday, Ken arrives at the game and says: Oh no, I forgot my water! Mia answers: I'll give you some of mine. Mia did not plan this. She decided at that moment, when she heard the problem.",
+        "We use will in three common situations. First, a decision we make now, while we speak. Second, an offer, when we say we can do something for another person. Third, a promise, when we tell someone we will really do something.",
+        "The form is will and a base verb. It is the same for every person: I will, she will, they will. Never add -s or to after will. She will help is right. She will helps and she will to help are wrong. The negative is will not, usually said won't. For a question, put will before the person. The short answers are Yes, I will and No, I won't.",
+        "Here are five examples:",
+        "The phone is ringing. I'll answer it. This is a decision now.",
+        "Your bag looks heavy. I'll carry it for you. This is an offer.",
+        "I'll call you after the game. This is a promise.",
+        "Will you help me with my homework? This is a question.",
+        "Don't worry. I won't tell anyone. This is a promise with the negative.",
+        "Notice and compare these two short talks. In both, Mia says: We need more balls for practice.",
+        "Ken: I know. I'm going to bring two from home.",
+        "Ken: Oh, OK. I'll bring two from home.",
+        "Both sentences are correct. In the first, Ken already had the plan. In the second, he decides when Mia speaks. Which words show the difference?",
+        "Predictions are different. A prediction is what we think will happen. Here both forms are often correct. Our team will win and our team is going to win can both be right. But we may see a sign now, like dark clouds. Then people often choose going to: Look at those clouds. It's going to rain."
+      ],
+      "images": [],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_02_will_for_decisions_offers_and_promises_practice",
+      "title": "Practice: Will for Decisions, Offers and Promises",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_02_will_for_decisions_offers_and_promises",
+      "items": [
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "I'll ___ you with the box.",
+          "choices": [
+            "help",
+            "helps",
+            "helping"
+          ],
+          "answer": "help",
+          "explanation": "After will, use the base verb with no -s and no -ing.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_02",
+          "type": "multiple_choice",
+          "prompt": "A: The bin is full. B: Oh! I'll take it out. B uses will because B decided ___.",
+          "choices": [
+            "while speaking",
+            "last week",
+            "before school"
+          ],
+          "answer": "while speaking",
+          "explanation": "Will is for a decision we make at the moment we speak.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_03",
+          "type": "match_pairs",
+          "instruction": "Match each problem with a good offer.",
+          "pairs": [
+            [
+              "I'm thirsty.",
+              "I'll get you some water."
+            ],
+            [
+              "I can't find my pen.",
+              "I'll lend you mine."
+            ],
+            [
+              "This door is locked.",
+              "I'll get the key."
+            ],
+            [
+              "I don't understand this word.",
+              "I'll explain it."
+            ]
+          ],
+          "explanation": "We make an offer with I'll and a base verb.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_04",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "約束するよ、放課後に電話するね。",
+          "answer": "I promise I will call you after school",
+          "distractors": [
+            "calls",
+            "going",
+            "to"
+          ],
+          "explanation": "A promise uses will and a base verb.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_05",
+          "type": "error_spot",
+          "sentence": "Mia will brings the drinks.",
+          "wrong": "brings",
+          "correction": "bring",
+          "explanation": "After will, the verb never takes -s.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_06",
+          "type": "error_spot",
+          "sentence": "She wills carry the bag.",
+          "wrong": "wills",
+          "correction": "will",
+          "explanation": "Will is the same for every person. It never takes -s.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_07",
+          "type": "type_answer",
+          "prompt": "A: Can you keep my secret? B: Yes. I promise I ___ tell anyone.",
+          "accepted": [
+            "won't",
+            "will not"
+          ],
+          "hint": "This is a promise not to do something. Use the negative of will.",
+          "explanation": "The negative of will is will not, or won't.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_08",
+          "type": "transform",
+          "instruction": "Make a question.",
+          "source": "You will feed my cat on Sunday.",
+          "accepted": [
+            "Will you feed my cat on Sunday?"
+          ],
+          "explanation": "For a question, put will before the person.",
+          "targetId": "jhs2.u1.will",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:plans-decisions:practice:jhs2.u1.will",
+      "activityVersion": "fbd2d38e769ac03f"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and_",
+      "title": "Part 3: Spelling the Short Forms I'll, We'll and Won't",
+      "role": "part",
+      "paragraphs": [
+        "In speaking and in messages to friends, we usually use short forms. When we write a short form, an apostrophe shows where letters are missing. An apostrophe is a small mark at the top of the letters. It looks like a comma.",
+        "I will becomes I'll. The apostrophe takes the place of the letters wi.",
+        "We will becomes we'll. You'll, he'll, she'll and they'll work in the same way.",
+        "Will not becomes won't. This one is special. We do not write willn't. Will changes to wo, and not changes to n't. The apostrophe takes the place of the o in not.",
+        "Here are four examples:",
+        "I'll see you on Saturday.",
+        "We'll bring the ball.",
+        "I won't be late.",
+        "They'll wait for us at the door.",
+        "The apostrophe matters. Without it, we'll becomes well, and I'll becomes ill. These are different words. You feel well when you are OK. You feel ill when you are sick. Also, a short answer with yes uses the long form. Say Yes, I will, not Yes, I'll."
+      ],
+      "images": [],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice",
+      "title": "Practice: Spelling the Short Forms I'll, We'll and Won't",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and_",
+      "items": [
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "Tomorrow ___ meet at the park.",
+          "choices": [
+            "we'll",
+            "well",
+            "wel'l"
+          ],
+          "answer": "we'll",
+          "explanation": "We will becomes we'll. The apostrophe takes the place of wi.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_02",
+          "type": "multiple_choice",
+          "prompt": "I ___ forget your birthday. I promise.",
+          "choices": [
+            "won't",
+            "willn't",
+            "wont"
+          ],
+          "answer": "won't",
+          "explanation": "Will not becomes won't, with an apostrophe between n and t.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_03",
+          "type": "match_pairs",
+          "instruction": "Match the long form with its short form.",
+          "pairs": [
+            [
+              "I will",
+              "I'll"
+            ],
+            [
+              "we will",
+              "we'll"
+            ],
+            [
+              "will not",
+              "won't"
+            ],
+            [
+              "they will",
+              "they'll"
+            ]
+          ],
+          "explanation": "In short forms, an apostrophe shows where letters are missing.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_04",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "私たちはバスに遅れません。",
+          "answer": "We won't be late for the bus",
+          "distractors": [
+            "wont",
+            "willn't"
+          ],
+          "explanation": "The short form of will not is won't, with an apostrophe.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_05",
+          "type": "error_spot",
+          "sentence": "Ill bring the snacks on Saturday.",
+          "wrong": "Ill",
+          "correction": "I'll",
+          "explanation": "Without the apostrophe, ill means sick. I will is I'll.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_06",
+          "type": "type_answer",
+          "prompt": "(we will) ___ see you at the gym.",
+          "accepted": [
+            "We'll"
+          ],
+          "hint": "Keep the first word, and put an apostrophe where the letters wi go.",
+          "explanation": "We will becomes we'll.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_07",
+          "type": "type_answer",
+          "prompt": "Don't worry, I ___ tell your secret. (will not)",
+          "accepted": [
+            "won't"
+          ],
+          "hint": "This short form is special: the first word changes, and the o of not goes.",
+          "explanation": "Will not becomes won't.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_08",
+          "type": "transform",
+          "instruction": "Write the sentence with short forms.",
+          "source": "I will text you, and we will not be late.",
+          "accepted": [
+            "I'll text you, and we won't be late.",
+            "I'll text you, and we'll not be late."
+          ],
+          "explanation": "I will becomes I'll, and will not becomes won't.",
+          "targetId": "spl.contractions",
+          "checking": "spelling"
+        }
+      ],
+      "activityId": "grammar-spelling:plans-decisions:practice:spl.contractions",
+      "activityVersion": "cd379a6be84f611d"
+    },
+    {
+      "kind": "text",
+      "id": "blk_speaking_task",
+      "title": "Speaking",
+      "role": "part",
+      "paragraphs": [
+        "Work with a partner. First, tell your partner three plans for next weekend with be going to. Then your partner tells you a small problem, like I'm hungry. Answer with an offer or a decision using I'll. Finish with one promise using won't. Then change roles."
+      ],
+      "images": [],
+      "audio": false
+    },
+    {
+      "kind": "questions",
+      "id": "blk_final_reflection",
+      "title": "Final Reflection",
+      "role": "reflection",
+      "intro": "Today we learned when to use be going to and when to use will.",
+      "checks": null,
+      "items": [
+        {
+          "id": "blk_final_reflection_q_01",
+          "prompt": "What is one plan you made before today?"
+        },
+        {
+          "id": "blk_final_reflection_q_02",
+          "prompt": "What is one thing you'll do for a friend this week?"
+        },
+        {
+          "id": "blk_final_reflection_q_03",
+          "prompt": "Which short form is the hardest for you to spell?"
+        }
+      ]
+    }
+  ]
+}
