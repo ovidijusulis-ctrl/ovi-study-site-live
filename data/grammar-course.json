@@ -1232,6 +1232,20 @@
       "title": "Rules and choices",
       "level": "A2",
       "lessonSlug": "a2-grammar-rules-and-choices",
+      "partTargets": {
+        "Have To and Has To": [
+          "jhs2.u4.have_to"
+        ],
+        "Must and Must Not": [
+          "jhs2.u4.must"
+        ],
+        "Must Not or Do Not Have To": [
+          "core.negative_obligation"
+        ],
+        "The Base Verb after a Modal": [
+          "spl.modal_base"
+        ]
+      },
       "targets": [
         {
           "id": "jhs2.u4.have_to",
@@ -1253,9 +1267,799 @@
           "label": "The base verb after a modal"
         }
       ],
-      "available": false,
-      "activities": [],
-      "practiceActivities": []
+      "available": true,
+      "activities": [
+        {
+          "mode": "check",
+          "definition": {
+            "id": "grammar-spelling:rules-choices:check-a",
+            "version": "65540b56e3118ed6",
+            "title": "Check your understanding",
+            "items": [
+              {
+                "id": "u13-ca-01",
+                "targetId": "jhs2.u4.have_to",
+                "checking": "grammar",
+                "type": "type_answer",
+                "prompt": "The baker is a woman. Her early start is necessary. Does the baker have to start before sunrise? Give a positive short answer using he or she: ___",
+                "accepted": [
+                  "Yes, she does.",
+                  "Yes she does.",
+                  "Yes, she does",
+                  "Yes she does"
+                ],
+                "explanation": "Use she for the baker and does in the short answer."
+              },
+              {
+                "id": "u13-ca-02",
+                "targetId": "jhs2.u4.have_to",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "Make a yes/no question using have to. Keep every other word.",
+                "source": "The players have to book the court.",
+                "accepted": [
+                  "Do the players have to book the court?"
+                ],
+                "explanation": "Use Do before a plural subject in a have to question."
+              },
+              {
+                "id": "u13-ca-03",
+                "targetId": "jhs2.u4.must",
+                "checking": "grammar",
+                "type": "multiple_choice",
+                "prompt": "A visitor asks a guard: Must I leave the emergency exit clear? Complete the guard's positive short answer: ___",
+                "choices": [
+                  "Yes, you must.",
+                  "Yes, I must.",
+                  "Yes, you do."
+                ],
+                "answer": "Yes, you must.",
+                "explanation": "The guard answers with you for the visitor and keeps must."
+              },
+              {
+                "id": "u13-ca-04",
+                "targetId": "jhs2.u4.must",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "Use Visitors and must not or mustn't. Keep the action lean out of this window.",
+                "source": "The safety rule forbids leaning out of this window.",
+                "accepted": [
+                  "Visitors must not lean out of this window.",
+                  "Visitors mustn't lean out of this window."
+                ],
+                "explanation": "Put not after must to express a rule against an action."
+              },
+              {
+                "id": "u13-ca-05",
+                "targetId": "core.negative_obligation",
+                "checking": "grammar",
+                "type": "multiple_choice",
+                "prompt": "At this concert, recording is forbidden. You ___ record the music.",
+                "choices": [
+                  "mustn't",
+                  "don't have to",
+                  "doesn't have to"
+                ],
+                "answer": "mustn't",
+                "explanation": "Mustn't means recording is forbidden."
+              },
+              {
+                "id": "u13-ca-06",
+                "targetId": "core.negative_obligation",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "Use You and a form of must or have to. Keep the action ask for a printed receipt.",
+                "source": "Asking for a printed receipt is optional.",
+                "accepted": [
+                  "You don't have to ask for a printed receipt.",
+                  "You do not have to ask for a printed receipt."
+                ],
+                "explanation": "Don't have to means asking is optional."
+              },
+              {
+                "id": "u13-ca-07",
+                "targetId": "spl.modal_base",
+                "checking": "spelling",
+                "type": "type_answer",
+                "prompt": "Type the verb for 洗う: Cooks must ___ their hands.",
+                "accepted": [
+                  "wash"
+                ],
+                "explanation": "Spell the base verb wash after must."
+              },
+              {
+                "id": "u13-ca-08",
+                "targetId": "spl.modal_base",
+                "checking": "spelling",
+                "type": "transform",
+                "instruction": "Correct the spelling of the action word. Keep every other word.",
+                "source": "She must driv carefully.",
+                "accepted": [
+                  "She must drive carefully."
+                ],
+                "explanation": "The base verb drive ends in e."
+              }
+            ]
+          }
+        },
+        {
+          "mode": "check",
+          "definition": {
+            "id": "grammar-spelling:rules-choices:check-b",
+            "version": "9447bb45dc746e46",
+            "title": "Check your understanding",
+            "items": [
+              {
+                "id": "u13-cb-01",
+                "targetId": "jhs2.u4.have_to",
+                "checking": "grammar",
+                "type": "type_answer",
+                "prompt": "Your manager asks: Do you have to count the money after work? For you, it is not necessary. Give your own negative short answer: ___",
+                "accepted": [
+                  "No, I don't.",
+                  "No I don't.",
+                  "No, I do not.",
+                  "No I do not.",
+                  "No, I don't",
+                  "No I don't",
+                  "No, I do not",
+                  "No I do not"
+                ],
+                "explanation": "You changes to I, and the negative short answer uses don't or do not."
+              },
+              {
+                "id": "u13-cb-02",
+                "targetId": "jhs2.u4.have_to",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "Make this action not necessary using a negative form of have to. Keep every other word.",
+                "source": "We have to print the tickets.",
+                "accepted": [
+                  "We don't have to print the tickets.",
+                  "We do not have to print the tickets."
+                ],
+                "explanation": "Use don't have to or do not have to with we."
+              },
+              {
+                "id": "u13-cb-03",
+                "targetId": "jhs2.u4.must",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "A lifeguard says this to the swimmers. Make the swimmers' yes/no question using we. Keep must and shower before entering.",
+                "source": "You must shower before entering.",
+                "accepted": [
+                  "Must we shower before entering?"
+                ],
+                "explanation": "Change you to we and put must before we."
+              },
+              {
+                "id": "u13-cb-04",
+                "targetId": "jhs2.u4.must",
+                "checking": "grammar",
+                "type": "multiple_choice",
+                "prompt": "Everyone must turn off their phone during the recording. She ___ turn off her phone too.",
+                "choices": [
+                  "must",
+                  "musts",
+                  "does must"
+                ],
+                "answer": "must",
+                "explanation": "Must stays the same with she."
+              },
+              {
+                "id": "u13-cb-05",
+                "targetId": "core.negative_obligation",
+                "checking": "grammar",
+                "type": "type_answer",
+                "prompt": "Complete with a form of must or have to: The quiz rules forbid help from other teams. You ___ look at another team's answers.",
+                "accepted": [
+                  "must not",
+                  "mustn't"
+                ],
+                "explanation": "Must not and mustn't both express a forbidden action."
+              },
+              {
+                "id": "u13-cb-06",
+                "targetId": "core.negative_obligation",
+                "checking": "grammar",
+                "type": "multiple_choice",
+                "prompt": "At the art club, aprons are optional. Members ___ wear aprons.",
+                "choices": [
+                  "don't have to",
+                  "mustn't",
+                  "doesn't have to"
+                ],
+                "answer": "don't have to",
+                "explanation": "Don't have to leaves members a choice."
+              },
+              {
+                "id": "u13-cb-07",
+                "targetId": "spl.modal_base",
+                "checking": "spelling",
+                "type": "type_answer",
+                "prompt": "Type the verb for 選ぶ: Each diner must ___ one main dish.",
+                "accepted": [
+                  "choose"
+                ],
+                "explanation": "The base verb choose has oo and ends in e."
+              },
+              {
+                "id": "u13-cb-08",
+                "targetId": "spl.modal_base",
+                "checking": "spelling",
+                "type": "transform",
+                "instruction": "Correct the spelling of the action word. Keep every other word.",
+                "source": "We must fead the rabbits.",
+                "accepted": [
+                  "We must feed the rabbits."
+                ],
+                "explanation": "Spell the base verb feed with ee."
+              }
+            ]
+          }
+        },
+        {
+          "mode": "review",
+          "definition": {
+            "id": "grammar-spelling:rules-choices:review-a",
+            "version": "46da1ef2b84ba3c5",
+            "title": "Review what you remember",
+            "items": [
+              {
+                "id": "u13-ra-01",
+                "targetId": "jhs2.u4.have_to",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "Replace I with The accountant. Make any necessary grammar change and keep the other words.",
+                "source": "I have to send the invoice today.",
+                "accepted": [
+                  "The accountant has to send the invoice today."
+                ],
+                "explanation": "Have to changes to has to with the accountant."
+              },
+              {
+                "id": "u13-ra-02",
+                "targetId": "jhs2.u4.have_to",
+                "checking": "grammar",
+                "type": "type_answer",
+                "prompt": "The library assistant is a man. Returning the key tonight is optional. Does the library assistant have to return it tonight? Give a negative short answer using he or she: ___",
+                "accepted": [
+                  "No, he doesn't.",
+                  "No he doesn't.",
+                  "No, he does not.",
+                  "No he does not.",
+                  "No, he doesn't",
+                  "No he doesn't",
+                  "No, he does not",
+                  "No he does not"
+                ],
+                "explanation": "Use he for the assistant and doesn't or does not in the short answer."
+              },
+              {
+                "id": "u13-ra-03",
+                "targetId": "jhs2.u4.must",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "Make a yes/no question. Keep must and every other word.",
+                "source": "The photographer must move the lights.",
+                "accepted": [
+                  "Must the photographer move the lights?"
+                ],
+                "explanation": "Put must before the subject without do or does."
+              },
+              {
+                "id": "u13-ra-04",
+                "targetId": "jhs2.u4.must",
+                "checking": "grammar",
+                "type": "multiple_choice",
+                "prompt": "The workshop leader says: You ___ use a broken ladder.",
+                "choices": [
+                  "must not",
+                  "don't must",
+                  "must no"
+                ],
+                "answer": "must not",
+                "explanation": "Form the negative with must not."
+              },
+              {
+                "id": "u13-ra-05",
+                "targetId": "core.negative_obligation",
+                "checking": "grammar",
+                "type": "type_answer",
+                "prompt": "Complete with a form of must or have to: Staying for dessert is optional. Guests ___ stay for dessert.",
+                "accepted": [
+                  "don't have to",
+                  "do not have to"
+                ],
+                "explanation": "Don't have to means guests can choose."
+              },
+              {
+                "id": "u13-ra-06",
+                "targetId": "core.negative_obligation",
+                "checking": "grammar",
+                "type": "transform",
+                "instruction": "Use You and a form of must or have to. Keep the action move another player's piece.",
+                "source": "The game rules forbid moving another player's piece.",
+                "accepted": [
+                  "You must not move another player's piece.",
+                  "You mustn't move another player's piece."
+                ],
+                "explanation": "Must not and mustn't both mean the action is forbidden."
+              },
+              {
+                "id": "u13-ra-07",
+                "targetId": "spl.modal_base",
+                "checking": "spelling",
+                "type": "type_answer",
+                "prompt": "Type the verb for 着用する: Workers must ___ gloves in this room.",
+                "accepted": [
+                  "wear"
+                ],
+                "explanation": "Spell the base verb wear with ea."
+              },
+              {
+                "id": "u13-ra-08",
+                "targetId": "spl.modal_base",
+                "checking": "spelling",
+                "type": "transform",
+                "instruction": "Correct the spelling of the action word. Keep every other word.",
+                "source": "You must chech the oil before using this machine.",
+                "accepted": [
+                  "You must check the oil before using this machine."
+                ],
+                "explanation": "The base verb check ends in ck."
+              }
+            ]
+          }
+        }
+      ],
+      "practiceActivities": [
+        {
+          "id": "grammar-spelling:rules-choices:practice:jhs2.u4.have_to",
+          "title": "Practice: Have To and Has To",
+          "items": [
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "She ___ carry the class bag.",
+              "choices": [
+                "has to",
+                "have to",
+                "having to"
+              ],
+              "answer": "has to",
+              "explanation": "Use has to with she.",
+              "targetId": "jhs2.u4.have_to",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_02",
+              "type": "multiple_choice",
+              "prompt": "___ he have to buy a ticket?",
+              "choices": [
+                "Does",
+                "Do",
+                "Has"
+              ],
+              "answer": "Does",
+              "explanation": "Use Does with he in a have to question.",
+              "targetId": "jhs2.u4.have_to",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_03",
+              "type": "match_pairs",
+              "instruction": "Match each question with its short answer.",
+              "pairs": [
+                [
+                  "Do you have to bring lunch?",
+                  "Yes, I do."
+                ],
+                [
+                  "Does Mia have to carry the bag?",
+                  "Yes, she does."
+                ],
+                [
+                  "Does he have to buy a ticket?",
+                  "No, he doesn't."
+                ],
+                [
+                  "Do we have to bring a camera?",
+                  "No, we don't."
+                ]
+              ],
+              "explanation": "Use do or does in a short answer to a have to question.",
+              "targetId": "jhs2.u4.have_to",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_04",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "彼は切符を買う必要はありません。",
+              "answer": "He doesn't have to buy a ticket.",
+              "distractors": [
+                "has",
+                "must"
+              ],
+              "explanation": "Doesn't have to means an action is not necessary.",
+              "targetId": "jhs2.u4.have_to",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_05",
+              "type": "error_spot",
+              "sentence": "Does she has to carry the class bag?",
+              "wrong": "has",
+              "correction": "have",
+              "explanation": "Use have after does.",
+              "targetId": "jhs2.u4.have_to",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_06",
+              "type": "type_answer",
+              "prompt": "Use a negative form of have to: I ___ bring a camera.",
+              "accepted": [
+                "don't have to",
+                "do not have to"
+              ],
+              "hint": "The subject is I, and the action is not necessary.",
+              "explanation": "Use don't have to or do not have to with I.",
+              "targetId": "jhs2.u4.have_to",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_07",
+              "type": "transform",
+              "instruction": "Make a yes/no question using have to. Keep every other word.",
+              "source": "We have to bring lunch.",
+              "accepted": [
+                "Do we have to bring lunch?"
+              ],
+              "explanation": "Put Do before we to make a have to question.",
+              "targetId": "jhs2.u4.have_to",
+              "checking": "grammar"
+            }
+          ],
+          "rule": "Your class is getting ready for a trip.\n\nAn action is necessary when you must do it. Use have to for necessary actions. Use have to with I, you, we and they. Use has to with he, she, it or one person's name. Add a base verb: the simple form, like bring.\n\nStart a question with Do or Does. Then put the person before have to + base verb. Use Do with I, you, we and they. Use Does with he, she, it or one name. In a short answer, use do or does without repeating the action.\n\nI have to bring lunch.\n\nDo you have to bring lunch? Yes, I do. / No, I do not.\n\nMia has to carry the class bag.\n\nDoes she have to carry the class bag? Yes, she does. / No, she does not.\n\nMia does not have to bring a camera.\n\nWhen someone asks you about yourself, answer with I. For Mia, use she; for a boy's name, use he. For a full negative, use do not have to or does not have to. The action is not necessary. Do not becomes don't; does not becomes doesn't.\n\nAfter does or doesn't, have stays have, never has. Do not add am, is or are before have to.",
+          "version": "74362a684fa13ec2"
+        },
+        {
+          "id": "grammar-spelling:rules-choices:practice:jhs2.u4.must",
+          "title": "Practice: Must and Must Not",
+          "items": [
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "She ___ listen to the teacher.",
+              "choices": [
+                "must",
+                "musts",
+                "has"
+              ],
+              "answer": "must",
+              "explanation": "Must stays the same with she.",
+              "targetId": "jhs2.u4.must",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_02",
+              "type": "multiple_choice",
+              "prompt": "___ we wait here?",
+              "choices": [
+                "Must",
+                "Musts"
+              ],
+              "answer": "Must",
+              "explanation": "Put must before the person without do or does.",
+              "targetId": "jhs2.u4.must",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_03",
+              "type": "match_pairs",
+              "instruction": "Match each sentence or question with its meaning or answer.",
+              "pairs": [
+                [
+                  "She must listen.",
+                  "Listening is necessary."
+                ],
+                [
+                  "He mustn't open the door.",
+                  "Opening it is forbidden."
+                ],
+                [
+                  "Must we stay together?",
+                  "Yes, you must."
+                ]
+              ],
+              "explanation": "Must means necessary, and must not means forbidden.",
+              "targetId": "jhs2.u4.must",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_04",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "彼はバスのドアを開けてはいけません。",
+              "answer": "He must not open the bus door.",
+              "distractors": [
+                "does",
+                "to"
+              ],
+              "explanation": "Put not after must to say an action is forbidden.",
+              "targetId": "jhs2.u4.must",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_05",
+              "type": "error_spot",
+              "sentence": "He musts stay together with the class.",
+              "wrong": "musts",
+              "correction": "must",
+              "explanation": "Must has the same form with he.",
+              "targetId": "jhs2.u4.must",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_06",
+              "type": "type_answer",
+              "prompt": "Use a negative form of must: You ___ run near the road.",
+              "accepted": [
+                "must not",
+                "mustn't"
+              ],
+              "hint": "The action is forbidden.",
+              "explanation": "Must not and mustn't mean the same thing.",
+              "targetId": "jhs2.u4.must",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_07",
+              "type": "transform",
+              "instruction": "Change She to He and make a yes/no question. Keep must and every other word.",
+              "source": "She must listen to the teacher.",
+              "accepted": [
+                "Must he listen to the teacher?"
+              ],
+              "explanation": "Put must before he without changing must.",
+              "targetId": "jhs2.u4.must",
+              "checking": "grammar"
+            }
+          ],
+          "rule": "Before the class leaves, the teacher gives the rules.\n\nMust is also for necessary actions. Use it when you tell someone what they must do. You also see it in written rules. Use person + must + base verb. Must stays the same with I, you, he, she, it, we and they.\n\nFor questions, put must before the person. For an answer with yes, use the person + must. For negatives, use must not or mustn't: do not do the action.\n\nWe must stay together.\n\nMust we stay together? Yes, you must.\n\nShe must listen to the teacher.\n\nShe must not open the bus door.\n\nHe mustn't open the bus door.\n\nThe class asks the teacher, so we becomes you in the answer. When she changes to he, must and must not stay the same.\n\nDo not add do or does to a must question. Use Must we wait here?, never Do we must wait here? Questions with have to are more common in everyday conversation.",
+          "version": "03907dffcd4c91f9"
+        },
+        {
+          "id": "grammar-spelling:rules-choices:practice:core.negative_obligation",
+          "title": "Practice: Must Not or Do Not Have To",
+          "items": [
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "Touching the museum objects is forbidden. You ___ touch them.",
+              "choices": [
+                "mustn't",
+                "don't have to",
+                "doesn't have to"
+              ],
+              "answer": "mustn't",
+              "explanation": "Mustn't means an action is forbidden.",
+              "targetId": "core.negative_obligation",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_02",
+              "type": "multiple_choice",
+              "prompt": "The drawing activity is optional. She ___ join it.",
+              "choices": [
+                "doesn't have to",
+                "mustn't",
+                "don't have to"
+              ],
+              "answer": "doesn't have to",
+              "explanation": "Doesn't have to means she can choose.",
+              "targetId": "core.negative_obligation",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_03",
+              "type": "match_pairs",
+              "instruction": "Match each sentence with its meaning.",
+              "pairs": [
+                [
+                  "We must join.",
+                  "Joining is necessary."
+                ],
+                [
+                  "We mustn't join.",
+                  "Joining is forbidden."
+                ],
+                [
+                  "We don't have to join.",
+                  "Joining is optional."
+                ]
+              ],
+              "explanation": "Must, mustn't and don't have to express different meanings.",
+              "targetId": "core.negative_obligation",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_04",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "その絵を描く活動に参加する必要はありません。",
+              "answer": "You don't have to join the drawing activity.",
+              "distractors": [
+                "mustn't",
+                "has"
+              ],
+              "explanation": "Don't have to means the activity is optional.",
+              "targetId": "core.negative_obligation",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_05",
+              "type": "error_spot",
+              "sentence": "She don't have to join the drawing activity.",
+              "wrong": "don't",
+              "correction": "doesn't",
+              "explanation": "Use doesn't have to with she for an optional action.",
+              "targetId": "core.negative_obligation",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_06",
+              "type": "type_answer",
+              "prompt": "The drawing activity is optional. Use a negative form of have to: We ___ join.",
+              "accepted": [
+                "don't have to",
+                "do not have to"
+              ],
+              "hint": "An optional action leaves you a choice.",
+              "explanation": "Don't have to and do not have to both leave a choice.",
+              "targetId": "core.negative_obligation",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_07",
+              "type": "transform",
+              "instruction": "Use You and must not or mustn't. Keep the action touch the old objects.",
+              "source": "Touching the old objects is forbidden.",
+              "accepted": [
+                "You must not touch the old objects.",
+                "You mustn't touch the old objects."
+              ],
+              "explanation": "Use must not or mustn't when an action is forbidden.",
+              "targetId": "core.negative_obligation",
+              "checking": "grammar"
+            }
+          ],
+          "rule": "The class visits a museum. Its rules forbid touching the old things. To forbid something is to say it is not allowed. The museum also offers a drawing activity. Joining is optional: you can choose.\n\nUse must not for a forbidden action. Use do not have to when an action is not necessary. Use doesn't have to with he, she or it.\n\nYou must not touch the old things.\n\nShe mustn't touch the old things.\n\nYou don't have to join the drawing activity.\n\nShe doesn't have to join the drawing activity.\n\nMust I join the drawing activity? No, you do not have to.\n\nThe last answer gives you a choice: you can join. An answer with must not says joining is forbidden. It cannot mean that joining is optional. In everyday conversation, Do I have to join? is more common than Must I join?\n\nDo not use don't have to for the museum's rule about touching. It says touching is not necessary. It does not say touching is forbidden.",
+          "version": "c9d116a1a6cd5a8e"
+        },
+        {
+          "id": "grammar-spelling:rules-choices:practice:spl.modal_base",
+          "title": "Practice: The Base Verb after a Modal",
+          "items": [
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "He must ___ the bag.",
+              "choices": [
+                "carry",
+                "carries",
+                "carrying"
+              ],
+              "answer": "carry",
+              "explanation": "Use the base verb carry after must.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_02",
+              "type": "match_pairs",
+              "instruction": "Match each verb with its correct spelling after must.",
+              "pairs": [
+                [
+                  "carries",
+                  "carry"
+                ],
+                [
+                  "writes",
+                  "write"
+                ],
+                [
+                  "leaves",
+                  "leave"
+                ],
+                [
+                  "closes",
+                  "close"
+                ]
+              ],
+              "explanation": "Use the base verb without an s ending after must.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_03",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "彼女はそのドアを閉めなければなりません。",
+              "answer": "She must close the door.",
+              "distractors": [
+                "closes",
+                "to"
+              ],
+              "explanation": "Must is followed by the base verb without to.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_04",
+              "type": "error_spot",
+              "sentence": "He must writes his name.",
+              "wrong": "writes",
+              "correction": "write",
+              "explanation": "Use the base verb write after must.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_05",
+              "type": "type_answer",
+              "prompt": "Type the action word for 聞く: We must ___ carefully.",
+              "accepted": [
+                "listen"
+              ],
+              "hint": "Think about the letters you do not hear.",
+              "explanation": "The base verb listen keeps its silent t.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_06",
+              "type": "type_answer",
+              "prompt": "Type the action word for 書く: She must ___ her name.",
+              "accepted": [
+                "write"
+              ],
+              "hint": "Think about the letter at the end of the base verb.",
+              "explanation": "The base verb write keeps its final e.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_07",
+              "type": "type_answer",
+              "prompt": "Type the action word for 運ぶ: They must ___ the class bag.",
+              "accepted": [
+                "carry"
+              ],
+              "hint": "Keep the ending of the base verb.",
+              "explanation": "The base verb carry keeps its y.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_08",
+              "type": "transform",
+              "instruction": "Replace has to with must. Keep every other word.",
+              "source": "She has to leave with the class.",
+              "accepted": [
+                "She must leave with the class."
+              ],
+              "explanation": "Must takes a base verb without to.",
+              "targetId": "spl.modal_base",
+              "checking": "spelling"
+            }
+          ],
+          "rule": "The teacher checks the class before the journey home. Now look at the action words.\n\nMust is a modal: a helping verb with its own form rules. After must, use the base verb. Do not add to or an ending for he or she.\n\nShe must carry the bag.\n\nHe must write his name.\n\nWe must leave together.\n\nYou must listen carefully.\n\nShe must close the door.\n\nThe spelling stays carry, write, leave, listen and close after must. Keep the y in carry. Keep the final e in write, leave and close. Listen has a t, although you do not hear it.\n\nCompare She has to carry the bag and She doesn't have to carry the bag. Have changes to has in the first sentence. After doesn't, use have. In both sentences, carry stays in its base form. A common mistake is adding s to carry after must.",
+          "version": "bd8101fcb32f3b97"
+        }
+      ]
     },
     {
       "id": "compare",
