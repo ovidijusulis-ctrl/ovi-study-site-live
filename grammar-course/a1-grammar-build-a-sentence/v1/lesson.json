@@ -1,0 +1,696 @@
+{
+  "format": "ovi_lesson_v1",
+  "slug": "a1-grammar-build-a-sentence",
+  "version": 1,
+  "title": "Build a Sentence in English",
+  "level": "A1",
+  "date": "2026-11-08",
+  "access": "public",
+  "help": [
+    "ja",
+    "es"
+  ],
+  "type": "grammar",
+  "summary": "Build short English sentences with questions and answers.",
+  "sources": [
+    {
+      "label": "British Council Present simple — verb to be",
+      "url": "https://learnenglishkids.britishcouncil.org/grammar-vocabulary/grammar-practice/present-simple-verb-be",
+      "note": "Be forms, negatives, questions and short answers."
+    },
+    {
+      "label": "British Council Present simple",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+      "note": "Present action verbs and statements."
+    },
+    {
+      "label": "British Council Question forms",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+      "note": "Be question order and question words."
+    },
+    {
+      "label": "British Council Capital letters and apostrophes",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/capital-letters-apostrophes",
+      "note": "Sentence capitals, capital I and names."
+    }
+  ],
+  "cover": {
+    "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-build-a-sentence/images/cover-7a80d1de5c75.webp",
+    "alt": "Warm, clear illustration of a bright classroom where a teacher welcomes two learners; schoolbags, chairs and picture-only books create a friendly learning scene; no letters, numbers, signs or text"
+  },
+  "blocks": [
+    {
+      "kind": "text",
+      "id": "blk_introduction",
+      "title": "Introduction",
+      "role": "intro",
+      "paragraphs": [
+        "Today we learn to build short English sentences. We also learn to ask questions and write them."
+      ],
+      "images": [],
+      "audio": false
+    },
+    {
+      "kind": "questions",
+      "id": "blk_warmup_questions",
+      "title": "Warm-up",
+      "role": "warmup",
+      "intro": "",
+      "checks": null,
+      "items": [
+        {
+          "id": "blk_warmup_questions_q_01",
+          "prompt": "What is your name?"
+        },
+        {
+          "id": "blk_warmup_questions_q_02",
+          "prompt": "Are you ready?"
+        },
+        {
+          "id": "blk_warmup_questions_q_03",
+          "prompt": "Where is your bag?"
+        }
+      ]
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_01_am_is_and_are",
+      "title": "Part 1: Am, Is and Are",
+      "role": "part",
+      "paragraphs": [
+        "You meet someone at school.",
+        "Be tells us who or where someone is.",
+        "It also tells us how someone feels.",
+        "Use am with I.",
+        "Use is with he, she and it.",
+        "Use are with you, we and they.",
+        "I am a student.",
+        "Emma is a teacher. She is a teacher.",
+        "Ben is here. He is here.",
+        "We are at school.",
+        "It is sunny.",
+        "Use it for the weather.",
+        "For questions, put am, is or are first.",
+        "You are ready.",
+        "Are you ready?",
+        "Yes, I am.",
+        "No, I am not.",
+        "Answer with I when someone asks about you.",
+        "To say no, add not after be.",
+        "I am not ready.",
+        "Where is Emma?",
+        "She is at school.",
+        "Short forms:",
+        "I'm = I am.",
+        "Isn't = is not.",
+        "Aren't = are not.",
+        "Keep am in Yes, I am.",
+        "Wrong: Do you are ready?",
+        "Write Are you ready? Put be first.",
+        "Study: Read these two sentences.",
+        "You are ready.",
+        "Are you ready?",
+        "Which words change places?"
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-build-a-sentence/images/picture-1-b06937966572.webp",
+          "alt": "A teacher greeting a boy and a girl beside a classroom window, with sunshine outside; clear faces and gestures show who is speaking and listening; no speech bubbles, letters, numbers or text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_01_am_is_and_are_practice",
+      "title": "Practice: Am, Is and Are",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_01_am_is_and_are",
+      "items": [
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "We ___ in class.",
+          "choices": [
+            "am",
+            "is",
+            "are"
+          ],
+          "answer": "are",
+          "explanation": "Use are with we.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each person to be.",
+          "pairs": [
+            [
+              "I",
+              "am"
+            ],
+            [
+              "he",
+              "is"
+            ],
+            [
+              "you",
+              "are"
+            ]
+          ],
+          "explanation": "The person tells us which be word to use.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "彼女は先生です。",
+          "answer": "She is a teacher.",
+          "distractors": [
+            "am",
+            "are"
+          ],
+          "explanation": "Use is with she.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_04",
+          "type": "error_spot",
+          "sentence": "Ben are here.",
+          "wrong": "are",
+          "correction": "is",
+          "explanation": "Use is for Ben, like he.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_05",
+          "type": "type_answer",
+          "prompt": "I ___ not ready.",
+          "accepted": [
+            "am"
+          ],
+          "hint": "Look at the person before the space.",
+          "explanation": "Use am with I, then add not.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_06",
+          "type": "transform",
+          "instruction": "Make a yes/no question.",
+          "source": "They are in class.",
+          "accepted": [
+            "Are they in class?"
+          ],
+          "explanation": "Put are before they in a question.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_07",
+          "type": "transform",
+          "instruction": "Answer no about yourself. Use a short answer.",
+          "source": "Are you ready?",
+          "accepted": [
+            "No, I am not.",
+            "No I am not.",
+            "No, I'm not.",
+            "No I'm not."
+          ],
+          "explanation": "Answer about yourself with I am not.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_am_is_and_are_practice_q_08",
+          "type": "transform",
+          "instruction": "Use she instead of Emma.",
+          "source": "Emma is a teacher.",
+          "accepted": [
+            "She is a teacher.",
+            "She's a teacher."
+          ],
+          "explanation": "Use she with is.",
+          "targetId": "present_simple_to_be",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:sentences:practice:present_simple_to_be",
+      "activityVersion": "cbfc5ef4056108dc"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_02_english_sentence_order",
+      "title": "Part 2: English Sentence Order",
+      "role": "part",
+      "paragraphs": [
+        "A statement tells us something.",
+        "Start with who or what.",
+        "Then put its verb.",
+        "Add other words if you need them.",
+        "Read and be are verbs.",
+        "We read.",
+        "They play football.",
+        "He is happy.",
+        "The bag is here.",
+        "We can stop after read.",
+        "The bag is here.",
+        "Is the bag here?",
+        "Where is the bag?",
+        "Where asks about a place.",
+        "Put this question word before is.",
+        "Wrong: Is here the bag.",
+        "Write The bag is here.",
+        "Study: Read the statement and its two questions.",
+        "Find the bag in each."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-build-a-sentence/images/picture-2-ed526c656d3d.webp",
+          "alt": "A child reading an open picture-only book at a desk, shown clearly from left to right as the child, the reading action and the book; uncluttered classroom background; no letters, numbers, arrows or text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_02_english_sentence_order_practice",
+      "title": "Practice: English Sentence Order",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_02_english_sentence_order",
+      "items": [
+        {
+          "id": "blk_part_02_english_sentence_order_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "___ is here.",
+          "choices": [
+            "My bag",
+            "Bag my",
+            "They"
+          ],
+          "answer": "My bag",
+          "explanation": "Start a statement with who or what.",
+          "targetId": "core.sentence_order",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_english_sentence_order_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match the starts and endings.",
+          "pairs": [
+            [
+              "We",
+              "read."
+            ],
+            [
+              "The bag",
+              "is here."
+            ],
+            [
+              "Are",
+              "they ready?"
+            ]
+          ],
+          "explanation": "Start a statement with who, but a be question with be.",
+          "targetId": "core.sentence_order",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_english_sentence_order_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "彼らはサッカーをします。",
+          "answer": "They play football.",
+          "distractors": [
+            "are",
+            "is"
+          ],
+          "explanation": "Put they first, then play, then football.",
+          "targetId": "core.sentence_order",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_english_sentence_order_practice_q_04",
+          "type": "type_answer",
+          "prompt": "Where ___ my bag?",
+          "accepted": [
+            "is"
+          ],
+          "hint": "Ask about one thing.",
+          "explanation": "Put is after where and before my bag.",
+          "targetId": "core.sentence_order",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_english_sentence_order_practice_q_05",
+          "type": "transform",
+          "instruction": "Change the question to a statement.",
+          "source": "Are they happy?",
+          "accepted": [
+            "They are happy.",
+            "They're happy."
+          ],
+          "explanation": "Put they before are in a statement.",
+          "targetId": "core.sentence_order",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_english_sentence_order_practice_q_06",
+          "type": "transform",
+          "instruction": "Ask where the bag is. Keep the bag.",
+          "source": "The bag is here.",
+          "accepted": [
+            "Where is the bag?",
+            "Where's the bag?"
+          ],
+          "explanation": "Put where first, then is, then the bag.",
+          "targetId": "core.sentence_order",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:sentences:practice:core.sentence_order",
+      "activityVersion": "022426912771a097"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_03_be_or_an_action_verb",
+      "title": "Part 3: Be or an Action Verb",
+      "role": "part",
+      "paragraphs": [
+        "Be tells who, where or how.",
+        "An action verb tells what someone does.",
+        "I am ready.",
+        "I walk to school.",
+        "We are happy.",
+        "We play football.",
+        "I read books at home.",
+        "Walk, play and read show actions.",
+        "Use be or an action verb in these sentences.",
+        "Wrong: I am go to school.",
+        "Write I go to school.",
+        "Go is the verb here.",
+        "Do not add am before go.",
+        "Study: Read I am ready and I walk.",
+        "Which sentence has an action?"
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-build-a-sentence/images/picture-3-e07b646dec5e.webp",
+          "alt": "One illustration divided into two clear scenes: a child sitting ready beside a schoolbag, and another child walking along a path toward a school building; no signs, letters, numbers or text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_03_be_or_an_action_verb_practice",
+      "title": "Practice: Be or an Action Verb",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_03_be_or_an_action_verb",
+      "items": [
+        {
+          "id": "blk_part_03_be_or_an_action_verb_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "I ___ to class.",
+          "choices": [
+            "walk",
+            "am",
+            "is"
+          ],
+          "answer": "walk",
+          "explanation": "Walk shows the action.",
+          "targetId": "core.be_or_verb",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_be_or_an_action_verb_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each word to its sentence.",
+          "pairs": [
+            [
+              "am",
+              "I ___ ready."
+            ],
+            [
+              "read",
+              "We ___ books."
+            ],
+            [
+              "is",
+              "She ___ happy."
+            ]
+          ],
+          "explanation": "Be tells how someone feels, and read shows an action.",
+          "targetId": "core.be_or_verb",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_be_or_an_action_verb_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "私は家で本を読みます。",
+          "answer": "I read books at home.",
+          "distractors": [
+            "am",
+            "are"
+          ],
+          "explanation": "Read is the action verb, so do not add am.",
+          "targetId": "core.be_or_verb",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_be_or_an_action_verb_practice_q_04",
+          "type": "error_spot",
+          "sentence": "We are football.",
+          "wrong": "are",
+          "correction": "play",
+          "explanation": "Use play for the action.",
+          "targetId": "core.be_or_verb",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_be_or_an_action_verb_practice_q_05",
+          "type": "type_answer",
+          "prompt": "Choose am or walk: I ___ ready.",
+          "accepted": [
+            "am"
+          ],
+          "hint": "This sentence tells how I feel.",
+          "explanation": "Use am to tell how I feel.",
+          "targetId": "core.be_or_verb",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_be_or_an_action_verb_practice_q_06",
+          "type": "transform",
+          "instruction": "Remove the extra word.",
+          "source": "We are play football.",
+          "accepted": [
+            "We play football."
+          ],
+          "explanation": "Play is the action verb, so remove are.",
+          "targetId": "core.be_or_verb",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_be_or_an_action_verb_practice_q_07",
+          "type": "transform",
+          "instruction": "Choose are or play. Write the complete sentence.",
+          "source": "They ___ football.",
+          "accepted": [
+            "They play football."
+          ],
+          "explanation": "Play shows what they do.",
+          "targetId": "core.be_or_verb",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:sentences:practice:core.be_or_verb",
+      "activityVersion": "ca7fdc15fce83f60"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_04_capital_letters_and_sentence_endings",
+      "title": "Part 4: Capital Letters and Sentence Endings",
+      "role": "part",
+      "paragraphs": [
+        "A capital letter is a big letter, like A.",
+        "Use a big letter to start each sentence.",
+        "Always write a big I.",
+        "Names start with big letters too.",
+        "I am Ben.",
+        "Emma is here.",
+        "We read books.",
+        "Are you ready?",
+        "End a statement with a full stop.",
+        "End a question with a question mark.",
+        "Wrong: i am ben",
+        "Write I am Ben.",
+        "Study: Read these two sentences.",
+        "Emma is here.",
+        "Is Emma here?",
+        "Find each big letter, full stop and question mark."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-build-a-sentence/images/picture-4-240351ecf553.webp",
+          "alt": "Overhead view of a learner's hand holding a pencil above a clean, unmarked notebook, with an eraser and coloured pencils beside it; no letters, numbers, punctuation or text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_04_capital_letters_and_sentence_endings_practice",
+      "title": "Practice: Capital Letters and Sentence Endings",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_04_capital_letters_and_sentence_endings",
+      "items": [
+        {
+          "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "___ am here.",
+          "choices": [
+            "I",
+            "me",
+            "my"
+          ],
+          "answer": "I",
+          "explanation": "Always write I with a capital.",
+          "targetId": "spl.capitals",
+          "checking": "capitalisation"
+        },
+        {
+          "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each word to its capital form.",
+          "pairs": [
+            [
+              "i",
+              "I"
+            ],
+            [
+              "emma",
+              "Emma"
+            ],
+            [
+              "ben",
+              "Ben"
+            ]
+          ],
+          "explanation": "Use capitals for I and names.",
+          "targetId": "spl.capitals",
+          "checking": "capitalisation"
+        },
+        {
+          "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence with a capital and full stop.",
+          "sourceJa": "私は本を読みます。",
+          "answer": "I read books.",
+          "distractors": [
+            "are",
+            "am"
+          ],
+          "explanation": "Use capital I and end the statement with a full stop.",
+          "targetId": "spl.capitals",
+          "checking": "exact"
+        },
+        {
+          "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_04",
+          "type": "error_spot",
+          "sentence": "i am happy.",
+          "wrong": "i",
+          "correction": "I",
+          "explanation": "Always write I with a capital.",
+          "targetId": "spl.capitals",
+          "checking": "capitalisation"
+        },
+        {
+          "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_05",
+          "type": "type_answer",
+          "prompt": "Fix the capitals: i am ben. Write: ___",
+          "accepted": [
+            "I am Ben."
+          ],
+          "hint": "Look at the first word and the name.",
+          "explanation": "Use capitals for I and names.",
+          "targetId": "spl.capitals",
+          "checking": "capitalisation"
+        },
+        {
+          "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_06",
+          "type": "transform",
+          "instruction": "Put the words in order. Add capitals and a full stop.",
+          "source": "here ben is",
+          "accepted": [
+            "Ben is here."
+          ],
+          "explanation": "Start Ben with a capital and add a full stop.",
+          "targetId": "spl.capitals",
+          "checking": "exact"
+        },
+        {
+          "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_07",
+          "type": "transform",
+          "instruction": "Make a yes/no question. Add a capital and a question mark.",
+          "source": "you are ready",
+          "accepted": [
+            "Are you ready?"
+          ],
+          "explanation": "Put Are first and end with a question mark.",
+          "targetId": "spl.capitals",
+          "checking": "exact"
+        }
+      ],
+      "activityId": "grammar-spelling:sentences:practice:spl.capitals",
+      "activityVersion": "9789d547f73b7e58"
+    },
+    {
+      "kind": "text",
+      "id": "blk_speaking_task",
+      "title": "Speaking",
+      "role": "part",
+      "paragraphs": [
+        "Tell a partner who and where you are. Ask a question with be. Give short answers. Then change places."
+      ],
+      "images": [],
+      "audio": false
+    },
+    {
+      "kind": "questions",
+      "id": "blk_final_reflection",
+      "title": "Final Reflection",
+      "role": "reflection",
+      "intro": "You can build, ask and answer.",
+      "checks": null,
+      "items": [
+        {
+          "id": "blk_final_reflection_q_01",
+          "prompt": "Which sentence can you write from memory?"
+        },
+        {
+          "id": "blk_final_reflection_q_02",
+          "prompt": "Can you change it into a question?"
+        }
+      ]
+    }
+  ]
+}
