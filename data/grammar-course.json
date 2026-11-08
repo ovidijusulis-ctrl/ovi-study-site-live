@@ -1132,6 +1132,17 @@
       "title": "Everyday actions and questions",
       "level": "A1",
       "lessonSlug": "a1-grammar-everyday-actions",
+      "partTargets": {
+        "Everyday Actions": [
+          "present_simple_habits"
+        ],
+        "Questions and Negatives with Do": [
+          "question_forms"
+        ],
+        "Don't and Do Not": [
+          "spl.do_contractions"
+        ]
+      },
       "targets": [
         {
           "id": "present_simple_habits",
@@ -1146,9 +1157,667 @@
           "label": "don't and do not"
         }
       ],
-      "available": false,
-      "activities": [],
-      "practiceActivities": []
+      "available": true,
+      "activities": [
+        {
+          "mode": "check",
+          "definition": {
+            "id": "grammar-spelling:everyday-actions:check-a",
+            "version": "52dbec6faf9933f6",
+            "title": "Check your understanding",
+            "items": [
+              {
+                "id": "ca-01",
+                "targetId": "present_simple_habits",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Change I to they.",
+                "source": "I drink water with lunch.",
+                "accepted": [
+                  "They drink water with lunch."
+                ],
+                "explanation": "The verb stays the same after they."
+              },
+              {
+                "id": "ca-02",
+                "targetId": "present_simple_habits",
+                "type": "multiple_choice",
+                "checking": "grammar",
+                "prompt": "We ___ pictures after lunch.",
+                "choices": [
+                  "draw",
+                  "am draw",
+                  "are draw"
+                ],
+                "answer": "draw",
+                "explanation": "Use the simple verb after we."
+              },
+              {
+                "id": "ca-03",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Make a yes/no question. Keep you.",
+                "source": "You listen to music.",
+                "accepted": [
+                  "Do you listen to music?"
+                ],
+                "explanation": "Put do before you in this question."
+              },
+              {
+                "id": "ca-04",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Give a short yes answer about yourself.",
+                "source": "Do you like cats?",
+                "accepted": [
+                  "Yes, I do.",
+                  "Yes I do."
+                ],
+                "explanation": "You becomes I when you answer about yourself."
+              },
+              {
+                "id": "ca-05",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Make this negative. Keep we.",
+                "source": "We visit friends after lunch.",
+                "accepted": [
+                  "We do not visit friends after lunch.",
+                  "We don't visit friends after lunch.",
+                  "We don’t visit friends after lunch."
+                ],
+                "explanation": "Put do not or don't before visit."
+              },
+              {
+                "id": "ca-06",
+                "targetId": "question_forms",
+                "type": "multiple_choice",
+                "checking": "grammar",
+                "prompt": "___ do they swim? In summer.",
+                "choices": [
+                  "When",
+                  "Where",
+                  "What"
+                ],
+                "answer": "When",
+                "explanation": "When asks about time."
+              },
+              {
+                "id": "ca-07",
+                "targetId": "question_forms",
+                "type": "type_answer",
+                "checking": "grammar",
+                "prompt": "Ask about a place. ___ do you sleep?",
+                "accepted": [
+                  "Where"
+                ],
+                "explanation": "Where asks about a place."
+              },
+              {
+                "id": "ca-08",
+                "targetId": "spl.do_contractions",
+                "type": "type_answer",
+                "checking": "spelling",
+                "prompt": "Use the short form. I ___ watch television.",
+                "accepted": [
+                  "don't",
+                  "don’t"
+                ],
+                "explanation": "Don't needs an apostrophe before t."
+              }
+            ]
+          }
+        },
+        {
+          "mode": "check",
+          "definition": {
+            "id": "grammar-spelling:everyday-actions:check-b",
+            "version": "66ab6b8493662ca7",
+            "title": "Check your understanding",
+            "items": [
+              {
+                "id": "cb-01",
+                "targetId": "present_simple_habits",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Change we to I.",
+                "source": "We make lunch.",
+                "accepted": [
+                  "I make lunch."
+                ],
+                "explanation": "The verb stays the same after I."
+              },
+              {
+                "id": "cb-02",
+                "targetId": "present_simple_habits",
+                "type": "multiple_choice",
+                "checking": "grammar",
+                "prompt": "They ___ the dishes after dinner.",
+                "choices": [
+                  "are wash",
+                  "wash",
+                  "am wash"
+                ],
+                "answer": "wash",
+                "explanation": "Use the simple verb after they."
+              },
+              {
+                "id": "cb-03",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Ask about the food. Start with what.",
+                "source": "They cook rice.",
+                "accepted": [
+                  "What do they cook?"
+                ],
+                "explanation": "Put what before do, then they and cook."
+              },
+              {
+                "id": "cb-04",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Give a short no answer about yourself.",
+                "source": "Do you ride a bike?",
+                "accepted": [
+                  "No, I do not.",
+                  "No I do not.",
+                  "No, I don't.",
+                  "No I don't.",
+                  "No, I don’t.",
+                  "No I don’t."
+                ],
+                "explanation": "You becomes I when you answer about yourself."
+              },
+              {
+                "id": "cb-05",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Make this negative. Keep I.",
+                "source": "I use a computer.",
+                "accepted": [
+                  "I do not use a computer.",
+                  "I don't use a computer.",
+                  "I don’t use a computer."
+                ],
+                "explanation": "Put do not or don't before use."
+              },
+              {
+                "id": "cb-06",
+                "targetId": "question_forms",
+                "type": "multiple_choice",
+                "checking": "grammar",
+                "prompt": "___ do we meet? At the station.",
+                "choices": [
+                  "When",
+                  "What",
+                  "Where"
+                ],
+                "answer": "Where",
+                "explanation": "Where asks about a place."
+              },
+              {
+                "id": "cb-07",
+                "targetId": "question_forms",
+                "type": "type_answer",
+                "checking": "grammar",
+                "prompt": "Ask about time. ___ do you get up?",
+                "accepted": [
+                  "When"
+                ],
+                "explanation": "When asks about time."
+              },
+              {
+                "id": "cb-08",
+                "targetId": "spl.do_contractions",
+                "type": "type_answer",
+                "checking": "spelling",
+                "prompt": "Use the full form. We ___ buy eggs.",
+                "accepted": [
+                  "do not"
+                ],
+                "explanation": "Write do not as two words."
+              }
+            ]
+          }
+        },
+        {
+          "mode": "review",
+          "definition": {
+            "id": "grammar-spelling:everyday-actions:review-a",
+            "version": "6982258c726c4de4",
+            "title": "Review what you remember",
+            "items": [
+              {
+                "id": "ra-01",
+                "targetId": "present_simple_habits",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Change you to we.",
+                "source": "You open the windows every morning.",
+                "accepted": [
+                  "We open the windows every morning."
+                ],
+                "explanation": "The verb stays the same after we."
+              },
+              {
+                "id": "ra-02",
+                "targetId": "present_simple_habits",
+                "type": "multiple_choice",
+                "checking": "grammar",
+                "prompt": "I ___ my teeth after breakfast.",
+                "choices": [
+                  "am brush",
+                  "brush",
+                  "are brush"
+                ],
+                "answer": "brush",
+                "explanation": "Use the simple verb after I."
+              },
+              {
+                "id": "ra-03",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Make a yes/no question. Keep we.",
+                "source": "We need pencils.",
+                "accepted": [
+                  "Do we need pencils?"
+                ],
+                "explanation": "Put do before we in this question."
+              },
+              {
+                "id": "ra-04",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Give a short yes answer. Use they.",
+                "source": "Do the children share a room?",
+                "accepted": [
+                  "Yes, they do.",
+                  "Yes they do."
+                ],
+                "explanation": "Use they when answering about the children."
+              },
+              {
+                "id": "ra-05",
+                "targetId": "question_forms",
+                "type": "transform",
+                "checking": "grammar",
+                "instruction": "Make this negative. Keep they.",
+                "source": "They keep toys under the bed.",
+                "accepted": [
+                  "They do not keep toys under the bed.",
+                  "They don't keep toys under the bed.",
+                  "They don’t keep toys under the bed."
+                ],
+                "explanation": "Put do not or don't before keep."
+              },
+              {
+                "id": "ra-06",
+                "targetId": "question_forms",
+                "type": "multiple_choice",
+                "checking": "grammar",
+                "prompt": "___ do you carry? My school bag.",
+                "choices": [
+                  "Where",
+                  "What",
+                  "When"
+                ],
+                "answer": "What",
+                "explanation": "What asks about a thing."
+              },
+              {
+                "id": "ra-07",
+                "targetId": "question_forms",
+                "type": "type_answer",
+                "checking": "grammar",
+                "prompt": "Ask about a place. ___ do we buy bread?",
+                "accepted": [
+                  "Where"
+                ],
+                "explanation": "Where asks about a place."
+              },
+              {
+                "id": "ra-08",
+                "targetId": "spl.do_contractions",
+                "type": "type_answer",
+                "checking": "spelling",
+                "prompt": "Use the short form. They ___ wear hats.",
+                "accepted": [
+                  "don't",
+                  "don’t"
+                ],
+                "explanation": "Don't needs an apostrophe before t."
+              }
+            ]
+          }
+        }
+      ],
+      "practiceActivities": [
+        {
+          "id": "grammar-spelling:everyday-actions:practice:present_simple_habits",
+          "title": "Practice: Everyday Actions",
+          "items": [
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "They ___ at home after school.",
+              "choices": [
+                "plays",
+                "play",
+                "playing"
+              ],
+              "answer": "play",
+              "explanation": "Use the simple verb after they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_02",
+              "type": "match_pairs",
+              "instruction": "Match the sentences.",
+              "pairs": [
+                [
+                  "I read.",
+                  "私は読みます。"
+                ],
+                [
+                  "You eat breakfast.",
+                  "あなたは朝食を食べます。"
+                ],
+                [
+                  "We walk to school.",
+                  "私たちは学校へ歩いて行きます。"
+                ],
+                [
+                  "They play at home.",
+                  "彼らは家で遊びます。"
+                ]
+              ],
+              "explanation": "I, you, we, and they use the simple verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_03",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "私たちは月曜日に学校へ歩いて行きます。",
+              "answer": "We walk to school on Mondays.",
+              "distractors": [
+                "am",
+                "are"
+              ],
+              "explanation": "Use the simple verb after we.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_04",
+              "type": "error_spot",
+              "sentence": "They plays at home after school.",
+              "wrong": "plays",
+              "correction": "play",
+              "explanation": "Use play after they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_05",
+              "type": "type_answer",
+              "prompt": "Use eat. You ___ breakfast every day.",
+              "accepted": [
+                "eat"
+              ],
+              "hint": "Keep the action word the same.",
+              "explanation": "Use the simple verb after you.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_06",
+              "type": "transform",
+              "instruction": "Change I to we.",
+              "source": "I read every day.",
+              "accepted": [
+                "We read every day."
+              ],
+              "explanation": "The verb stays the same after we.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_07",
+              "type": "transform",
+              "instruction": "Change we to they.",
+              "source": "We walk to school on Mondays.",
+              "accepted": [
+                "They walk to school on Mondays."
+              ],
+              "explanation": "The verb stays the same after they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "rule": "Use the present simple for things you do often.\n\nPut I, you, we, or they before read or play.\n\nRead stays the same with these four words.\n\nI read every day.\n\nYou eat breakfast every day.\n\nWe walk to school on Mondays.\n\nThey play at home after school.\n\nRead is an ordinary verb: it tells us an action.\n\nReady tells us how someone is.\n\nI read. I am ready.\n\nUse am with ready.\n\nSay I read, not I am read.\n\nSay one true sentence about your day.",
+          "version": "a2763cd4c7989d84"
+        },
+        {
+          "id": "grammar-spelling:everyday-actions:practice:question_forms",
+          "title": "Practice: Questions and Negatives with Do",
+          "items": [
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "___ you read at home?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Use do for questions with read.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_02",
+              "type": "match_pairs",
+              "instruction": "Match each question with its answer.",
+              "pairs": [
+                [
+                  "What do you read?",
+                  "Books."
+                ],
+                [
+                  "Where do you read?",
+                  "At home."
+                ],
+                [
+                  "When do you read?",
+                  "After school."
+                ]
+              ],
+              "explanation": "What asks things; where asks places; when asks time.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_03",
+              "type": "word_bank",
+              "instruction": "Make a question.",
+              "sourceJa": "彼らは学校へ歩いて行きますか。",
+              "answer": "Do they walk to school?",
+              "distractors": [
+                "are",
+                "am"
+              ],
+              "explanation": "Put do before they in this question.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_04",
+              "type": "error_spot",
+              "sentence": "Are you read at home?",
+              "wrong": "Are",
+              "correction": "Do",
+              "explanation": "Use do for questions with read.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_05",
+              "type": "type_answer",
+              "prompt": "Answer yes about yourself. Do you read at home? Yes, ___.",
+              "accepted": [
+                "I do"
+              ],
+              "hint": "Use the word for yourself and the question helper.",
+              "explanation": "You becomes I when you answer about yourself.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_06",
+              "type": "type_answer",
+              "prompt": "Answer no about yourself. Do you read at home? No, ___.",
+              "accepted": [
+                "I do not",
+                "I don't"
+              ],
+              "hint": "Use the word for yourself and give a no answer.",
+              "explanation": "Use I do not for a short no answer.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_07",
+              "type": "transform",
+              "instruction": "Make a yes/no question. Keep you.",
+              "source": "You read at home.",
+              "accepted": [
+                "Do you read at home?"
+              ],
+              "explanation": "Put do before you in this question.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            }
+          ],
+          "rule": "For questions, put do before I, you, we, or they.\n\nThen add read, eat, walk, or play.\n\nFor no, put do not before read or play.\n\nYou read at home.\n\nDo you read at home?\n\nYes, I do. / No, I do not.\n\nI do not read at home.\n\nYou changes to I when you give your answer.\n\nDo they walk to school?\n\nYes, they do. / No, they do not.\n\nShort answers use do.\n\nDo not add read or walk after do.\n\nPut what, where, or when before do.\n\nWhat do you read? Books.\n\nWhere do you read? At home.\n\nWhen do you read? After school.\n\nWhat asks about things; where asks about places.\n\nWhen asks about time.\n\nAre you ready? uses be, so leave out do.",
+          "version": "fe0bf9aec3ccb732"
+        },
+        {
+          "id": "grammar-spelling:everyday-actions:practice:spl.do_contractions",
+          "title": "Practice: Don't and Do Not",
+          "items": [
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "I ___ play after school.",
+              "choices": [
+                "dont",
+                "do'nt",
+                "don't"
+              ],
+              "answer": "don't",
+              "explanation": "The apostrophe replaces the o in not.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_02",
+              "type": "match_pairs",
+              "instruction": "Match sentences with the same meaning.",
+              "pairs": [
+                [
+                  "I do not play.",
+                  "I don't play."
+                ],
+                [
+                  "We do not walk.",
+                  "We don't walk."
+                ],
+                [
+                  "They do not eat.",
+                  "They don't eat."
+                ]
+              ],
+              "explanation": "Don't and do not mean the same thing.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_03",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "私たちは学校へ歩いて行きません。",
+              "answer": "We do not walk to school.",
+              "distractors": [
+                "am",
+                "are"
+              ],
+              "explanation": "Put do not before the simple verb.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_04",
+              "type": "error_spot",
+              "sentence": "They dont eat breakfast at home.",
+              "wrong": "dont",
+              "correction": "don't",
+              "explanation": "Don't needs an apostrophe before t.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_05",
+              "type": "type_answer",
+              "prompt": "Use the short form. You ___ read at home.",
+              "accepted": [
+                "don't"
+              ],
+              "hint": "One small mark shows a missing letter.",
+              "explanation": "Don't needs an apostrophe before t.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_06",
+              "type": "type_answer",
+              "prompt": "Use two words. They ___ eat breakfast at home.",
+              "accepted": [
+                "do not"
+              ],
+              "hint": "Make the short form longer.",
+              "explanation": "The full form is do not.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_07",
+              "type": "transform",
+              "instruction": "Use the full form.",
+              "source": "I don't play after school.",
+              "accepted": [
+                "I do not play after school."
+              ],
+              "explanation": "Don't and do not mean the same thing.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            }
+          ],
+          "rule": "Don't and do not mean the same thing.\n\nPut either before read, eat, walk, or play.\n\nI do not play after school.\n\nI don't play after school.\n\nYou don't read at home.\n\nWe don't walk to school.\n\nThey don't eat breakfast at home.\n\nIn don't, the letter o from not is not there.\n\nAn apostrophe shows this.\n\nPut the apostrophe before t.\n\nWrite don't as one word.\n\nDont is wrong: there is no apostrophe.",
+          "version": "bbad39db515a1aa2"
+        }
+      ]
     },
     {
       "id": "habits",
@@ -1156,6 +1825,17 @@
       "title": "Habits and routines",
       "level": "A1",
       "lessonSlug": "a1-grammar-habits-and-routines",
+      "partTargets": {
+        "He and She with Does": [
+          "jhs1.u6.third_person_singular"
+        ],
+        "How Often": [
+          "adverbs_frequency"
+        ],
+        "Adding S, ES and IES": [
+          "spl.s_es_ies"
+        ]
+      },
       "targets": [
         {
           "id": "jhs1.u6.third_person_singular",
