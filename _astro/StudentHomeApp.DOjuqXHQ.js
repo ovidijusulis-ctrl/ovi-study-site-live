@@ -1,1 +1,0 @@
-import{t as e}from"./StudentHomeApp.COrq8Qn4.js";export{e as default};
