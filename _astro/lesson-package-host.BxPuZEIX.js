@@ -1,0 +1,1 @@
+var e=`https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/lesson-packages`;function t(e=``){let t=String(e).match(/^\/episodes\/([a-z0-9]+(?:-[a-z0-9]+)*)\/?$/u);return t?t[1]:``}export{t as n,e as t};
