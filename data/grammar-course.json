@@ -471,8 +471,8 @@
               "checking": "grammar"
             }
           ],
-          "rule": "Am, is and are are the verb be. Be tells who, how old, how or where someone is.\n\n| Person | Be | Short form |\n|---|---|---|\n| I | **am** | **I'm** |\n| he, she, it | **is** | **he's, she's, it's** |\n| you, we, they | **are** | **you're, we're, they're** |\n\nHere are four ways to use be:\n\n| Sentence | Example |\n|---|---|\n| telling | She **is** ready. I **am** ready. |\n| with not | She **isn't** ready. I **am not** ready. |\n| question | **Is** she ready? **Are** you ready? |\n| short answer | Yes, I **am**. / No, **I'm not**. |\n\n**Rule:** Match am, is or are to the person.\n\n- I **am** Ben. **I'm** at school.\n- **Is** Emma ready? Yes, **she is**. / No, **she isn't**. (Emma = she)\n- **Are** you happy? Yes, **I am**. / No, **I'm not**.\n- Ben **is not** tired. **He isn't** tired. (Ben = he)\n- We **are** at school. They **are** at home.\n\n**Watch out:**\n- Wrong: *She are ready.* Right: **She is ready.** Use is with he, she and it.\n- **Are you happy?** Wrong: *Yes, you are.* Right: **Yes, I am.** Answer about yourself with I. Answer about your group with we: **Yes, we are.**",
-          "version": "b327c68892985649"
+          "rule": "Am, is and are are the verb be. Be tells who, how old, how or where someone is.\n\n| Person | Be | Short form |\n|---|---|---|\n| I | **am** | **I'm** |\n| he, she, it | **is** | **he's, she's, it's** |\n| you, we, they | **are** | **you're, we're, they're** |\n\nHere are four ways to use be:\n\n| Sentence | Example |\n|---|---|\n| telling | She **is** ready. I **am** ready. |\n| with not | She **isn't** ready. I **am not** ready. |\n| question | **Is** she ready? **Are** you ready? |\n| short answer | Yes, I **am**. / No, **I'm not**. |\n\n**Rule:** Match am, is or are to the person.\n\n- I **am** Ben. **I'm** at school.\n- **Is** Emma ready? Yes, **she is**. / No, **she isn't**. (Emma = she)\n- **Are** you happy? Yes, **I am**. / No, **I'm not**.\n- Ben **is not** tired. **He isn't** tired. (Ben = he)\n- We **are** at school. They **are** at home.\n\n**Watch out:**\n- Wrong: *She are ready.* Right: **She is ready.** Use is with he, she and it.\n- **Are you happy?** About yourself: Wrong: *Yes, you are.* Right: **Yes, I am.** About your group: **Yes, we are.**",
+          "version": "101d17296d88cfad"
         },
         {
           "id": "grammar-spelling:start-here:practice:core.sentence_order",
@@ -488,8 +488,8 @@
                 "Are"
               ],
               "answer": "Ben",
-              "explanation": "The person comes first, then the verb.",
-              "hint": "The person comes first. Which word is a person?",
+              "explanation": "The person comes before the verb.",
+              "hint": "The person comes before the verb. Which word is a person?",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
@@ -524,15 +524,16 @@
               "id": "blk_part_02_english_sentence_order_practice_q_03",
               "type": "word_bank",
               "instruction": "Put the words in order.",
-              "sourceJa": "私たちは放課後に本を読みます。",
-              "answer": "We read books after school.",
-              "acceptedOrders": [],
-              "distractors": [
-                "are",
-                "reads"
+              "sourceJa": "エマとベンは友だちです。",
+              "answer": "Emma and Ben are friends.",
+              "acceptedOrders": [
+                "Ben and Emma are friends."
               ],
-              "explanation": "The person comes first, then the verb, then more words.",
-              "hint": "Start with the person, then the doing word.",
+              "distractors": [
+                "is"
+              ],
+              "explanation": "The people come first, then are, then more words.",
+              "hint": "Start with the people. Then the verb.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
@@ -605,8 +606,8 @@
               "checking": "grammar"
             }
           ],
-          "rule": "English words go in order. The person or thing comes before the verb. The verb is a word like is, read or have.\n\n| Who | Verb | More words |\n|---|---|---|\n| Ben | **is** | happy. |\n| We | **read** | books. |\n\nIn a question, be comes before the person:\n\n| Be | Who | More words |\n|---|---|---|\n| **Is** | Ben | happy? |\n| **Are** | they | at school? |\n\nA question word, like where, comes before be:\n\n| Question word | Be | Who |\n|---|---|---|\n| **Where** | **is** | Emma? |\n| **Where** | **are** | they? |\n\n**Rule:** The person or thing comes before the verb. In a yes or no question with be, be comes first. A question word, like where, comes before be.\n\n- **Ben is** happy.\n- **We read.** This short sentence is OK.\n- **They play** games after school.\n- **Is Ben** happy? Yes, **he is**. / No, **he isn't**.\n- **They are not** at school.\n- **Where is** Emma? She is in the park.\n\n**Watch out:**\n- Wrong: *Happy is Ben.* Right: **Ben is happy.** The person comes before the verb.\n- Wrong: *Where Emma is?* Right: **Where is Emma?** Is comes right after where.",
-          "version": "84137eb3689c6b4f"
+          "rule": "English words go in order. In a telling sentence, the person or thing comes before the verb. The verb is a word like is, read or have.\n\n| Who | Verb | More words |\n|---|---|---|\n| Ben | **is** | happy. |\n| We | **read** | books. |\n\nIn a question, be comes before the person:\n\n| Be | Who | More words |\n|---|---|---|\n| **Is** | Ben | happy? |\n| **Are** | they | at school? |\n\nA question word, like where, comes before be:\n\n| Question word | Be | Who |\n|---|---|---|\n| **Where** | **is** | Emma? |\n| **Where** | **are** | they? |\n\n**Rule:** The person or thing comes before the verb. In a yes or no question with be, be comes first. A question word, like where, comes before be.\n\n- **Ben is** happy.\n- **We read.** This short sentence is OK.\n- **They play** games after school.\n- **Is Ben** happy? Yes, **he is**. / No, **he isn't**.\n- **They are not** at school.\n- **Where is** Emma? She is in the park.\n\n**Watch out:**\n- Wrong: *Happy is Ben.* Right: **Ben is happy.** The person comes before the verb.\n- Wrong: *Where Emma is?* Right: **Where is Emma?** Is comes right after where.",
+          "version": "1ff58636ca7e3702"
         },
         {
           "id": "grammar-spelling:start-here:practice:question_forms",
@@ -733,8 +734,8 @@
               "checking": "grammar"
             }
           ],
-          "rule": "Use do to ask with I, you, we and they. Doing words with he, she and it come in Unit 3.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nDo not goes before the verb:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** Use do with ordinary verbs. In a yes/no question, put do first. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Use do with read, play and eat. Use be with happy, ready and here.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
-          "version": "23f429ed3e1fa932"
+          "rule": "Use do to ask with I, you, we and they. Doing words with he, she and it come in Unit 3.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nPut do not before the verb:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** With I, you, we and they, use do with ordinary verbs. In a yes/no question, put do first. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Use do with read, play and eat. Use be with happy, ready and here.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
+          "version": "bb8b746e902ae524"
         },
         {
           "id": "grammar-spelling:start-here:practice:spl.capitals",
@@ -784,7 +785,9 @@
               "instruction": "Make the sentence. Look at the capital letters.",
               "sourceJa": "ベンとわたしは友だちです。",
               "answer": "Ben and I are friends.",
-              "acceptedOrders": [],
+              "acceptedOrders": [
+                "I and Ben are friends."
+              ],
               "distractors": [],
               "explanation": "Names and the word I always start with a capital letter.",
               "hint": "Names and the word I start with a capital letter.",
@@ -855,7 +858,7 @@
             }
           ],
           "rule": "A sentence starts with a capital letter. A capital letter is a big letter, like A or B. A telling sentence ends with a full stop. A question ends with a question mark.\n\n| Sentence | Ends with | Example |\n|---|---|---|\n| telling | full stop . | **Emma** is here**.** |\n| asking | question mark ? | **Is** Emma here**?** |\n\n**Rule:** Start with a capital letter. End a telling sentence with a full stop. End a question with a question mark.\n\n- **I** am here**.**\n- **Emma** and **I** are friends**.**\n- **Is** Ben ready**?** Yes, he is**.**\n- **They** are not late**.**\n\n**Watch out:**\n- Wrong: *are you ready.* Right: **Are you ready?** A question ends with a question mark.\n- Wrong: *ben and i play.* Right: **Ben and I play.** Names and I need a capital letter.\n- Wrong: *Weareready.* Right: **We are ready.** Put one space between words.\n\n**Spelling:**\n- Always write **I** as a capital letter.\n- Names start with a capital letter: **Emma**, **Ben**.",
-          "version": "bd6107e0a3267ee5"
+          "version": "ebbe726e2a0204ed"
         }
       ],
       "activities": [
@@ -1355,7 +1358,7 @@
           "mode": "check",
           "definition": {
             "id": "grammar-spelling:sentences:check-b",
-            "version": "f92cac59bd4791da",
+            "version": "9ec6b3de0a77fcd5",
             "title": "Check your understanding",
             "items": [
               {
@@ -1418,7 +1421,8 @@
                 "instruction": "Ask where the children are. Start with Where.",
                 "source": "The children are in the garden.",
                 "accepted": [
-                  "Where are the children?"
+                  "Where are the children?",
+                  "Where're the children?"
                 ],
                 "checking": "grammar",
                 "explanation": "Where comes first, then are, then the children."
@@ -1714,8 +1718,8 @@
               "checking": "grammar"
             }
           ],
-          "rule": "Am, is and are are the verb be. Be tells who, how old, how or where someone is.\n\n| Person | Be | Short form |\n|---|---|---|\n| I | **am** | **I'm** |\n| he, she, it | **is** | **he's, she's, it's** |\n| you, we, they | **are** | **you're, we're, they're** |\n\nHere are four ways to use be:\n\n| Sentence | Example |\n|---|---|\n| telling | She **is** ready. I **am** ready. |\n| with not | She **isn't** ready. I **am not** ready. |\n| question | **Is** she ready? **Are** you ready? |\n| short answer | Yes, I **am**. / No, **I'm not**. |\n\n**Rule:** Match am, is or are to the person.\n\n- I **am** Ben. **I'm** at school.\n- **Is** Emma ready? Yes, **she is**. / No, **she isn't**. (Emma = she)\n- **Are** you happy? Yes, **I am**. / No, **I'm not**.\n- Ben **is not** tired. **He isn't** tired. (Ben = he)\n- We **are** at school. They **are** at home.\n\n**Watch out:**\n- Wrong: *She are ready.* Right: **She is ready.** Use is with he, she and it.\n- **Are you happy?** Wrong: *Yes, you are.* Right: **Yes, I am.** Answer about yourself with I. Answer about your group with we: **Yes, we are.**",
-          "version": "8da1faab24da3535"
+          "rule": "Am, is and are are the verb be. Be tells who, how old, how or where someone is.\n\n| Person | Be | Short form |\n|---|---|---|\n| I | **am** | **I'm** |\n| he, she, it | **is** | **he's, she's, it's** |\n| you, we, they | **are** | **you're, we're, they're** |\n\nHere are four ways to use be:\n\n| Sentence | Example |\n|---|---|\n| telling | She **is** ready. I **am** ready. |\n| with not | She **isn't** ready. I **am not** ready. |\n| question | **Is** she ready? **Are** you ready? |\n| short answer | Yes, I **am**. / No, **I'm not**. |\n\n**Rule:** Match am, is or are to the person.\n\n- I **am** Ben. **I'm** at school.\n- **Is** Emma ready? Yes, **she is**. / No, **she isn't**. (Emma = she)\n- **Are** you happy? Yes, **I am**. / No, **I'm not**.\n- Ben **is not** tired. **He isn't** tired. (Ben = he)\n- We **are** at school. They **are** at home.\n\n**Watch out:**\n- Wrong: *She are ready.* Right: **She is ready.** Use is with he, she and it.\n- **Are you happy?** About yourself: Wrong: *Yes, you are.* Right: **Yes, I am.** About your group: **Yes, we are.**",
+          "version": "af6e89ef478e0ccc"
         },
         {
           "id": "grammar-spelling:sentences:practice:core.sentence_order",
@@ -1731,8 +1735,8 @@
                 "Are"
               ],
               "answer": "Ben",
-              "explanation": "The person comes first, then the verb.",
-              "hint": "The person comes first. Which word is a person?",
+              "explanation": "The person comes before the verb.",
+              "hint": "The person comes before the verb. Which word is a person?",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
@@ -1767,15 +1771,16 @@
               "id": "blk_part_02_english_sentence_order_practice_q_03",
               "type": "word_bank",
               "instruction": "Put the words in order.",
-              "sourceJa": "私たちは放課後に本を読みます。",
-              "answer": "We read books after school.",
-              "acceptedOrders": [],
-              "distractors": [
-                "are",
-                "reads"
+              "sourceJa": "エマとベンは友だちです。",
+              "answer": "Emma and Ben are friends.",
+              "acceptedOrders": [
+                "Ben and Emma are friends."
               ],
-              "explanation": "The person comes first, then the verb, then more words.",
-              "hint": "Start with the person, then the doing word.",
+              "distractors": [
+                "is"
+              ],
+              "explanation": "The people come first, then are, then more words.",
+              "hint": "Start with the people. Then the verb.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
@@ -1848,8 +1853,8 @@
               "checking": "grammar"
             }
           ],
-          "rule": "English words go in order. The person or thing comes before the verb. The verb is a word like is, read or have.\n\n| Who | Verb | More words |\n|---|---|---|\n| Ben | **is** | happy. |\n| We | **read** | books. |\n\nIn a question, be comes before the person:\n\n| Be | Who | More words |\n|---|---|---|\n| **Is** | Ben | happy? |\n| **Are** | they | at school? |\n\nA question word, like where, comes before be:\n\n| Question word | Be | Who |\n|---|---|---|\n| **Where** | **is** | Emma? |\n| **Where** | **are** | they? |\n\n**Rule:** The person or thing comes before the verb. In a yes or no question with be, be comes first. A question word, like where, comes before be.\n\n- **Ben is** happy.\n- **We read.** This short sentence is OK.\n- **They play** games after school.\n- **Is Ben** happy? Yes, **he is**. / No, **he isn't**.\n- **They are not** at school.\n- **Where is** Emma? She is in the park.\n\n**Watch out:**\n- Wrong: *Happy is Ben.* Right: **Ben is happy.** The person comes before the verb.\n- Wrong: *Where Emma is?* Right: **Where is Emma?** Is comes right after where.",
-          "version": "3366032b4710ac04"
+          "rule": "English words go in order. In a telling sentence, the person or thing comes before the verb. The verb is a word like is, read or have.\n\n| Who | Verb | More words |\n|---|---|---|\n| Ben | **is** | happy. |\n| We | **read** | books. |\n\nIn a question, be comes before the person:\n\n| Be | Who | More words |\n|---|---|---|\n| **Is** | Ben | happy? |\n| **Are** | they | at school? |\n\nA question word, like where, comes before be:\n\n| Question word | Be | Who |\n|---|---|---|\n| **Where** | **is** | Emma? |\n| **Where** | **are** | they? |\n\n**Rule:** The person or thing comes before the verb. In a yes or no question with be, be comes first. A question word, like where, comes before be.\n\n- **Ben is** happy.\n- **We read.** This short sentence is OK.\n- **They play** games after school.\n- **Is Ben** happy? Yes, **he is**. / No, **he isn't**.\n- **They are not** at school.\n- **Where is** Emma? She is in the park.\n\n**Watch out:**\n- Wrong: *Happy is Ben.* Right: **Ben is happy.** The person comes before the verb.\n- Wrong: *Where Emma is?* Right: **Where is Emma?** Is comes right after where.",
+          "version": "2608f58986eedbb0"
         },
         {
           "id": "grammar-spelling:sentences:practice:core.be_or_verb",
@@ -1916,11 +1921,11 @@
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_04",
               "type": "error_spot",
-              "sentence": "I play tired today.",
+              "sentence": "Our names play Emma and Ben.",
               "wrong": "play",
-              "correction": "am",
-              "explanation": "Tired is a feeling, so use am: I am tired today.",
-              "hint": "Meaning: 私は今日疲れています。 Tired is a feeling, not a game.",
+              "correction": "are",
+              "explanation": "Use be to say who someone is: Our names are Emma and Ben. Play is a doing word.",
+              "hint": "This tells who we are. It is not about what we do.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             },
@@ -1976,7 +1981,7 @@
             }
           ],
           "rule": "Be is a verb. It tells who, how or where someone is. Some other verbs tell what someone does. Walk, eat and play are action verbs, or doing words. Have and know are verbs too.\n\n| Be | Doing word |\n|---|---|\n| I **am** tired. | I **eat** lunch. |\n| We **are** at school. | We **walk** to school. |\n| They **are** happy. | They **play** games. |\n\n**Rule:** Here, use be or the action verb, not both: I play. I am happy.\n\n- I **am** tired. I **go to bed**.\n- **Is** Ben at the door? Yes, **he is**. / No, **he isn't**.\n- Emma and Ben **aren't** tired. They **play** games.\n- They **read** books after school.\n- You **walk** to school.\n\nYou learn other verbs with he, she and it later.\n\n**Watch out:**\n- Wrong: *I am go to school.* Right: **I go to school.** Go is the doing word. Am is extra.\n- Wrong: *She happy.* Right: **She is happy.** Happy is not a verb.",
-          "version": "5244fc2103d299b0"
+          "version": "baeb8b0530009ca1"
         },
         {
           "id": "grammar-spelling:sentences:practice:spl.capitals",
@@ -2026,7 +2031,9 @@
               "instruction": "Make the sentence. Look at the capital letters.",
               "sourceJa": "ベンとわたしは友だちです。",
               "answer": "Ben and I are friends.",
-              "acceptedOrders": [],
+              "acceptedOrders": [
+                "I and Ben are friends."
+              ],
               "distractors": [],
               "explanation": "Names and the word I always start with a capital letter.",
               "hint": "Names and the word I start with a capital letter.",
@@ -2097,7 +2104,7 @@
             }
           ],
           "rule": "A sentence starts with a capital letter. A capital letter is a big letter, like A or B. A telling sentence ends with a full stop. A question ends with a question mark.\n\n| Sentence | Ends with | Example |\n|---|---|---|\n| telling | full stop . | **Emma** is here**.** |\n| asking | question mark ? | **Is** Emma here**?** |\n\n**Rule:** Start with a capital letter. End a telling sentence with a full stop. End a question with a question mark.\n\n- **I** am here**.**\n- **Emma** and **I** are friends**.**\n- **Is** Ben ready**?** Yes, he is**.**\n- **They** are not late**.**\n\n**Watch out:**\n- Wrong: *are you ready.* Right: **Are you ready?** A question ends with a question mark.\n- Wrong: *ben and i play.* Right: **Ben and I play.** Names and I need a capital letter.\n- Wrong: *Weareready.* Right: **We are ready.** Put one space between words.\n\n**Spelling:**\n- Always write **I** as a capital letter.\n- Names start with a capital letter: **Emma**, **Ben**.",
-          "version": "0970a51dce7beaf3"
+          "version": "0e26fb7ef1ca2cae"
         }
       ]
     },
@@ -2721,8 +2728,8 @@
               "checking": "grammar"
             }
           ],
-          "rule": "Use do to ask with I, you, we and they. Doing words with he, she and it come in Unit 3.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nDo not goes before the verb:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** Use do with ordinary verbs. In a yes/no question, put do first. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Use do with read, play and eat. Use be with happy, ready and here.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
-          "version": "69eeff52f5546f5e"
+          "rule": "Use do to ask with I, you, we and they. Doing words with he, she and it come in Unit 3.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nPut do not before the verb:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** With I, you, we and they, use do with ordinary verbs. In a yes/no question, put do first. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Use do with read, play and eat. Use be with happy, ready and here.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
+          "version": "55e2dce2c23fcf47"
         },
         {
           "id": "grammar-spelling:everyday-actions:practice:spl.do_contractions",
@@ -5088,7 +5095,8 @@
               "source": "He is busy.",
               "accepted": [
                 "He is not busy.",
-                "He isn't busy."
+                "He isn't busy.",
+                "He's not busy."
               ],
               "explanation": "Not comes after am, is or are.",
               "hint": "Put not after am, is or are.",
@@ -5125,7 +5133,7 @@
               "checking": "grammar"
             }
           ],
-          "version": "42b6f267c6ac47ca"
+          "version": "c6f590b77e7d7e90"
         },
         {
           "id": "grammar-spelling:verbs:be:r3",
@@ -5202,7 +5210,8 @@
               "source": "We are at school.",
               "accepted": [
                 "We are not at school.",
-                "We aren't at school."
+                "We aren't at school.",
+                "We're not at school."
               ],
               "explanation": "Not comes after am, is or are.",
               "hint": "Put not after am, is or are.",
@@ -5239,7 +5248,7 @@
               "checking": "grammar"
             }
           ],
-          "version": "b92838e27ea67ddd"
+          "version": "ae2a5a6ceb6c50ae"
         }
       ]
     },
@@ -5352,25 +5361,25 @@
             {
               "id": "have-r1-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
-              "source": "Do we have a lunch box?",
+              "instruction": "Answer no about yourself. Use a short answer.",
+              "source": "Do you have a lunch box?",
               "accepted": [
-                "No, you don't.",
-                "No you don't.",
-                "No, you do not.",
-                "No you do not.",
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
                 "No, we don't.",
                 "No we don't.",
                 "No, we do not.",
                 "No we do not."
               ],
-              "explanation": "Answer with you and don't.",
-              "hint": "Answer with you.",
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             }
           ],
-          "version": "61531a79c96755bb"
+          "version": "dd4fa5a4967eb40c"
         },
         {
           "id": "grammar-spelling:verbs:have:r2",
@@ -5588,7 +5597,7 @@
             {
               "id": "have-r3-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
+              "instruction": "Answer no about yourself. Use a short answer.",
               "source": "Do you have a red pen?",
               "accepted": [
                 "No, I don't.",
@@ -5606,7 +5615,7 @@
               "checking": "grammar"
             }
           ],
-          "version": "c7239e7d8db58ea5"
+          "version": "c3ff2b7f8e4f782c"
         }
       ]
     },
@@ -5719,25 +5728,25 @@
             {
               "id": "like-r1-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
-              "source": "Do we like games?",
+              "instruction": "Answer no about yourself. Use a short answer.",
+              "source": "Do you like games?",
               "accepted": [
-                "No, you don't.",
-                "No you don't.",
-                "No, you do not.",
-                "No you do not.",
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
                 "No, we don't.",
                 "No we don't.",
                 "No, we do not.",
                 "No we do not."
               ],
-              "explanation": "Answer with you and don't.",
-              "hint": "Answer with you.",
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             }
           ],
-          "version": "03aec9b3f5969d15"
+          "version": "da530702f85f3cb7"
         },
         {
           "id": "grammar-spelling:verbs:like:r2",
@@ -5955,7 +5964,7 @@
             {
               "id": "like-r3-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
+              "instruction": "Answer no about yourself. Use a short answer.",
               "source": "Do you like football?",
               "accepted": [
                 "No, I don't.",
@@ -5973,7 +5982,7 @@
               "checking": "grammar"
             }
           ],
-          "version": "11ad44477a24432c"
+          "version": "0bcf1daca46b8a83"
         }
       ]
     },
@@ -6086,25 +6095,25 @@
             {
               "id": "need-r1-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
-              "source": "Do we need a map?",
+              "instruction": "Answer no about yourself. Use a short answer.",
+              "source": "Do you need a map?",
               "accepted": [
-                "No, you don't.",
-                "No you don't.",
-                "No, you do not.",
-                "No you do not.",
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
                 "No, we don't.",
                 "No we don't.",
                 "No, we do not.",
                 "No we do not."
               ],
-              "explanation": "Answer with you and don't.",
-              "hint": "Answer with you.",
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             }
           ],
-          "version": "2d897956903785a1"
+          "version": "9d85004c7b25db53"
         },
         {
           "id": "grammar-spelling:verbs:need:r2",
@@ -6322,7 +6331,7 @@
             {
               "id": "need-r3-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
+              "instruction": "Answer no about yourself. Use a short answer.",
               "source": "Do you need a coat?",
               "accepted": [
                 "No, I don't.",
@@ -6340,7 +6349,7 @@
               "checking": "grammar"
             }
           ],
-          "version": "df8a964eab3f1bcb"
+          "version": "f4651ab18a46e61a"
         }
       ]
     },
@@ -6453,25 +6462,25 @@
             {
               "id": "go-r1-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
-              "source": "Do we go out?",
+              "instruction": "Answer no about yourself. Use a short answer.",
+              "source": "Do you go out?",
               "accepted": [
-                "No, you don't.",
-                "No you don't.",
-                "No, you do not.",
-                "No you do not.",
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
                 "No, we don't.",
                 "No we don't.",
                 "No, we do not.",
                 "No we do not."
               ],
-              "explanation": "Answer with you and don't.",
-              "hint": "Answer with you.",
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             }
           ],
-          "version": "e88fbd4ebc9b3622"
+          "version": "2c7119d29e3eb347"
         },
         {
           "id": "grammar-spelling:verbs:go:r2",
@@ -6689,7 +6698,7 @@
             {
               "id": "go-r3-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
+              "instruction": "Answer no about yourself. Use a short answer.",
               "source": "Do you go to the shop?",
               "accepted": [
                 "No, I don't.",
@@ -6707,7 +6716,7 @@
               "checking": "grammar"
             }
           ],
-          "version": "718791a2e19b3e12"
+          "version": "a1b07b9cbe04a8b9"
         }
       ]
     },
@@ -6820,25 +6829,25 @@
             {
               "id": "play-r1-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
-              "source": "Do we play basketball?",
+              "instruction": "Answer no about yourself. Use a short answer.",
+              "source": "Do you play basketball?",
               "accepted": [
-                "No, you don't.",
-                "No you don't.",
-                "No, you do not.",
-                "No you do not.",
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
                 "No, we don't.",
                 "No we don't.",
                 "No, we do not.",
                 "No we do not."
               ],
-              "explanation": "Answer with you and don't.",
-              "hint": "Answer with you.",
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             }
           ],
-          "version": "7766f41af1754603"
+          "version": "788b7941f82b7831"
         },
         {
           "id": "grammar-spelling:verbs:play:r2",
@@ -7056,7 +7065,7 @@
             {
               "id": "play-r3-08",
               "type": "transform",
-              "instruction": "Answer no. Use a short answer.",
+              "instruction": "Answer no about yourself. Use a short answer.",
               "source": "Do you play cards?",
               "accepted": [
                 "No, I don't.",
@@ -7074,7 +7083,7 @@
               "checking": "grammar"
             }
           ],
-          "version": "9fab915d3dddaf58"
+          "version": "1be34245f1e4a918"
         }
       ]
     }
