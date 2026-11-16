@@ -1,0 +1,510 @@
+{
+  "format": "ovi_lesson_v1",
+  "slug": "a1-grammar-everyday-actions",
+  "episodeId": "a1-grammar-everyday-actions",
+  "version": 2,
+  "title": "Everyday Actions and Questions",
+  "level": "A1",
+  "date": "2026-11-09",
+  "access": "public",
+  "help": [
+    "ja",
+    "es"
+  ],
+  "type": "grammar",
+  "summary": "Ordinary verbs with I, you, we and they make questions and negatives with do.",
+  "sources": [
+    {
+      "label": "British Council: Present simple",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+      "note": "Everyday actions; do questions and negatives."
+    },
+    {
+      "label": "British Council: Question forms",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/a1-a2/question-forms",
+      "note": "Question words and order."
+    },
+    {
+      "label": "British Council: Capital letters and apostrophes",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/capital-letters-apostrophes",
+      "note": "The apostrophe in don't."
+    }
+  ],
+  "cover": {
+    "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-everyday-actions/images/cover-4509284c4510.webp",
+    "alt": "Warm illustration of children reading, eating breakfast and walking to school"
+  },
+  "cards": {
+    "deckId": "deck_14a089bd6ee4a318",
+    "title": "Practice your saved words",
+    "contractVersion": "ovi_learning_cards_block_v2",
+    "views": [
+      "learn",
+      "test",
+      "words"
+    ],
+    "defaultView": "learn",
+    "collection": {
+      "browse": true,
+      "search": true,
+      "filters": [
+        "all",
+        "phrases",
+        "due",
+        "learning",
+        "new"
+      ],
+      "removePolicy": "detach_membership_preserve_item_and_review_history",
+      "undoRemoval": true
+    }
+  },
+  "blocks": [
+    {
+      "kind": "text",
+      "id": "blk_part_01_everyday_actions",
+      "title": "Part 1: Everyday Actions",
+      "role": "part",
+      "paragraphs": [
+        "Use the present simple for things you do often. Read and like are ordinary verbs. Read is an action. Like is not. This unit is about I, you, we and they. He, she and it come in Unit 3.",
+        "| Person | Verb |\n|---|---|\n| I | **read** |\n| you | **read** |\n| we | **read** |\n| they | **read** |",
+        "**Rule:** After I, you, we and they, the verb stays the same.",
+        "- I **read** books every day.\n- You **eat** breakfast at home.\n- We **walk** to school on Mondays.\n- I **like** cats. We **need** water.",
+        "**Watch out:**\n- Wrong: *I am read*. Right: **I read**. Am is extra.\n- Wrong: *We walks to school*. Right: **We walk to school**. After we, the verb stays the same."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-everyday-actions/images/picture-1-34881ea96840.webp",
+          "alt": "Warm illustration of two children walking toward a school building",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_01_everyday_actions_practice",
+      "title": "Practice: Everyday Actions",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_01_everyday_actions",
+      "items": [
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "They ___ games after school.",
+          "choices": [
+            "play",
+            "are",
+            "am"
+          ],
+          "answer": "play",
+          "explanation": "Play is the verb. Do not put am or are before it.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each verb with its meaning.",
+          "pairs": [
+            [
+              "read",
+              "読む"
+            ],
+            [
+              "eat",
+              "食べる"
+            ],
+            [
+              "walk",
+              "歩く"
+            ],
+            [
+              "like",
+              "好きだ"
+            ],
+            [
+              "need",
+              "必要だ"
+            ]
+          ],
+          "explanation": "These are ordinary verbs. They stay the same after I, you, we and they.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "私たちは新しい靴が必要です。",
+          "answer": "We need new shoes.",
+          "acceptedOrders": [],
+          "distractors": [
+            "are",
+            "am"
+          ],
+          "explanation": "Need is an ordinary verb. After we, use the simple verb with no be.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_04",
+          "type": "error_spot",
+          "sentence": "I reading a book every night.",
+          "wrong": "reading",
+          "correction": "read",
+          "explanation": "After I, use the simple verb read for things you do often.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_05",
+          "type": "type_answer",
+          "prompt": "We ___ rice for dinner. (食べる)",
+          "accepted": [
+            "eat",
+            "have"
+          ],
+          "hint": "Think of the verb for food. It stays the same after we.",
+          "explanation": "After we, use the simple verb.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_06",
+          "type": "type_answer",
+          "prompt": "They ___ music. (好きだ)",
+          "accepted": [
+            "like"
+          ],
+          "hint": "This verb tells how you feel. It is not an action.",
+          "explanation": "Like is an ordinary verb. It stays the same after they.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_07",
+          "type": "transform",
+          "instruction": "Change I to we.",
+          "source": "I walk to the park after school.",
+          "accepted": [
+            "We walk to the park after school."
+          ],
+          "explanation": "The verb stays the same after we.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_everyday_actions_practice_q_08",
+          "type": "transform",
+          "instruction": "Change you to they.",
+          "source": "You need a towel for swimming.",
+          "accepted": [
+            "They need a towel for swimming."
+          ],
+          "explanation": "The verb stays the same after they.",
+          "targetId": "present_simple_habits",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:everyday-actions:practice:present_simple_habits",
+      "activityVersion": "23a0154c7ecf619d"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_02_questions_and_negatives_with_do",
+      "title": "Part 2: Questions and Negatives with Do",
+      "role": "part",
+      "paragraphs": [
+        "Use do to ask and do not to say no.",
+        "| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |",
+        "Use do not to say no:",
+        "| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |",
+        "A question word comes first, then do:",
+        "| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |",
+        "**Rule:** To ask, put do before the person. To say no, put do not before the verb.",
+        "- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?",
+        "**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Read is an ordinary verb.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-everyday-actions/images/picture-2-9684aefe7752.webp",
+          "alt": "Warm illustration of two children talking beside an open picture book, one asking and one answering",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_02_questions_and_negatives_with_do_practice",
+      "title": "Practice: Questions and Negatives with Do",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_02_questions_and_negatives_with_do",
+      "items": [
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "___ you read at home?",
+          "choices": [
+            "Do",
+            "Are",
+            "Am"
+          ],
+          "answer": "Do",
+          "explanation": "Read is an ordinary verb, so the question uses do.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each question with its answer.",
+          "pairs": [
+            [
+              "What do you eat for lunch?",
+              "Rice and fish."
+            ],
+            [
+              "Where do you play?",
+              "In the park."
+            ],
+            [
+              "When do you play?",
+              "After dinner."
+            ]
+          ],
+          "explanation": "What asks about things. Where asks about places. When asks about times.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a question.",
+          "sourceJa": "私たちはいつ夕食を食べますか。",
+          "answer": "When do we eat dinner?",
+          "acceptedOrders": [],
+          "distractors": [
+            "are",
+            "is"
+          ],
+          "explanation": "The question word comes first, then do, the person and the verb.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_04",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "私たちは公園で遊びません。",
+          "answer": "We do not play in the park.",
+          "acceptedOrders": [],
+          "distractors": [
+            "are",
+            "am"
+          ],
+          "explanation": "Put do not before the ordinary verb.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_05",
+          "type": "error_spot",
+          "sentence": "Are you need a pencil?",
+          "wrong": "Are",
+          "correction": "Do",
+          "explanation": "Need is an ordinary verb, so the question uses do.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_06",
+          "type": "type_answer",
+          "prompt": "Your friend asks only you: Do you walk to school? Yes, ___.",
+          "accepted": [
+            "I do"
+          ],
+          "hint": "Talk about yourself. Then use the first word of the question again.",
+          "explanation": "When you means only you, answer with I.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_07",
+          "type": "type_answer",
+          "prompt": "A teacher asks you and your sister: Do you play tennis? No, ___.",
+          "accepted": [
+            "we don't",
+            "we do not"
+          ],
+          "hint": "You and your sister are two people. Give a no answer.",
+          "explanation": "When you means a group, answer with we.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_questions_and_negatives_with_do_practice_q_08",
+          "type": "transform",
+          "instruction": "Ask about the place. Start with where.",
+          "source": "They eat lunch in the garden.",
+          "accepted": [
+            "Where do they eat lunch?"
+          ],
+          "explanation": "Where comes first, then do, they and the verb.",
+          "targetId": "question_forms",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:everyday-actions:practice:question_forms",
+      "activityVersion": "501871119f944313"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_03_don_t_and_do_not",
+      "title": "Part 3: Don't and Do Not",
+      "role": "part",
+      "paragraphs": [
+        "Don't is the short form of do not.",
+        "| Full form | Short form |\n|---|---|\n| I **do not** play. | I **don't** play. |\n| They **do not** eat. | They **don't** eat. |",
+        "**Rule:** Don't and do not mean the same thing.",
+        "- We **do not** walk to school.\n- We **don't** walk to school.\n- I **don't** like cats.\n- **Do** you play? No, I **don't**.",
+        "**Watch out:**\n- Wrong: *dont* Right: **don't** Write the apostrophe.\n- Wrong: *do'nt* Right: **don't** The apostrophe goes where the o was.",
+        "**Spelling:**\n- In **don't**, the o from not is gone.\n- The apostrophe **'** is in its place."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-everyday-actions/images/picture-3-f1b1fcade0ae.webp",
+          "alt": "Warm illustration, one single scene: two children in sweaters and socks sit on a wooden bench in a home entryway beside a closed front door, their school shoes still on the floor next to the bench, a rug and a window in the background",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_03_don_t_and_do_not_practice",
+      "title": "Practice: Don't and Do Not",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_03_don_t_and_do_not",
+      "items": [
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "I ___ play after school.",
+          "choices": [
+            "dont",
+            "do'nt",
+            "don't"
+          ],
+          "answer": "don't",
+          "explanation": "The apostrophe takes the place of the o in not.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match sentences with the same meaning.",
+          "pairs": [
+            [
+              "I do not swim.",
+              "I don't swim."
+            ],
+            [
+              "We do not sing.",
+              "We don't sing."
+            ],
+            [
+              "They do not run.",
+              "They don't run."
+            ]
+          ],
+          "explanation": "Don't and do not mean the same thing.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "私はケーキを食べません。",
+          "answer": "I don't eat cake.",
+          "acceptedOrders": [],
+          "distractors": [
+            "dont",
+            "am"
+          ],
+          "explanation": "Put don't before the ordinary verb, and keep the apostrophe.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_04",
+          "type": "error_spot",
+          "sentence": "We do'nt like rainy days.",
+          "wrong": "do'nt",
+          "correction": "don't",
+          "explanation": "The apostrophe goes between n and t.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_05",
+          "type": "type_answer",
+          "prompt": "Use the short form of do not. You ___ need a coat today.",
+          "accepted": [
+            "don't"
+          ],
+          "hint": "One small mark takes the place of a letter.",
+          "explanation": "Don't has an apostrophe between n and t.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_06",
+          "type": "type_answer",
+          "prompt": "Use the full form. They ___ drink coffee.",
+          "accepted": [
+            "do not"
+          ],
+          "hint": "Two words, with no mark.",
+          "explanation": "The full form is do not, two words.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_07",
+          "type": "transform",
+          "instruction": "Use the short form.",
+          "source": "We do not eat meat.",
+          "accepted": [
+            "We don't eat meat."
+          ],
+          "explanation": "Do not becomes don't, one word with an apostrophe.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_don_t_and_do_not_practice_q_08",
+          "type": "transform",
+          "instruction": "Make this negative. Use don't.",
+          "source": "They play games after dinner.",
+          "accepted": [
+            "They don't play games after dinner."
+          ],
+          "explanation": "Put don't before the ordinary verb.",
+          "targetId": "spl.do_contractions",
+          "checking": "spelling"
+        }
+      ],
+      "activityId": "grammar-spelling:everyday-actions:practice:spl.do_contractions",
+      "activityVersion": "a1f933ad276513b3"
+    }
+  ]
+}

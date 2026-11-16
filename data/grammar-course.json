@@ -3,7 +3,7 @@
   "id": "grammar-spelling",
   "version": 1,
   "title": "Grammar and spelling",
-  "startUnit": "plans-decisions",
+  "startUnit": "start-here",
   "baseline": {
     "id": "grammar-spelling:baseline",
     "version": "d7828ed69bd5d273",
@@ -325,12 +325,12 @@
       "available": true,
       "targets": [
         {
-          "id": "core.sentence_order",
-          "label": "English Sentence Order"
-        },
-        {
           "id": "present_simple_to_be",
           "label": "Am, Is and Are"
+        },
+        {
+          "id": "core.sentence_order",
+          "label": "English Sentence Order"
         },
         {
           "id": "question_forms",
@@ -342,104 +342,6 @@
         }
       ],
       "practiceActivities": [
-        {
-          "id": "grammar-spelling:start-here:practice:core.sentence_order",
-          "title": "Practice: English Sentence Order",
-          "items": [
-            {
-              "id": "blk_part_02_english_sentence_order_practice_q_01",
-              "type": "multiple_choice",
-              "prompt": "___ is on the desk.",
-              "choices": [
-                "My pen",
-                "Pen my",
-                "Are"
-              ],
-              "answer": "My pen",
-              "explanation": "Start a statement with the person or thing.",
-              "targetId": "core.sentence_order",
-              "checking": "grammar"
-            },
-            {
-              "id": "blk_part_02_english_sentence_order_practice_q_02",
-              "type": "match_pairs",
-              "instruction": "Match each question to its answer.",
-              "pairs": [
-                [
-                  "Where is Ben?",
-                  "He is at school."
-                ],
-                [
-                  "What is your name?",
-                  "My name is Emma."
-                ],
-                [
-                  "Is it sunny?",
-                  "Yes, it is."
-                ]
-              ],
-              "explanation": "Where asks about a place, and what asks about a thing or a name.",
-              "targetId": "core.sentence_order",
-              "checking": "grammar"
-            },
-            {
-              "id": "blk_part_02_english_sentence_order_practice_q_03",
-              "type": "word_bank",
-              "instruction": "Make a sentence.",
-              "sourceJa": "ベンとエマは公園で本を読みます。",
-              "answer": "Ben and Emma read books in the park.",
-              "acceptedOrders": [
-                "Emma and Ben read books in the park."
-              ],
-              "distractors": [
-                "are",
-                "reads"
-              ],
-              "explanation": "Put the people first, then the verb, then the other words.",
-              "targetId": "core.sentence_order",
-              "checking": "grammar"
-            },
-            {
-              "id": "blk_part_02_english_sentence_order_practice_q_04",
-              "type": "type_answer",
-              "prompt": "___ is your teacher? She is at school.",
-              "accepted": [
-                "Where"
-              ],
-              "hint": "The answer tells a place.",
-              "explanation": "Where asks about a place.",
-              "targetId": "core.sentence_order",
-              "checking": "grammar"
-            },
-            {
-              "id": "blk_part_02_english_sentence_order_practice_q_06",
-              "type": "transform",
-              "instruction": "Change the question to a statement.",
-              "source": "Are they at school?",
-              "accepted": [
-                "They are at school.",
-                "They're at school."
-              ],
-              "explanation": "In a statement, they comes before are.",
-              "targetId": "core.sentence_order",
-              "checking": "grammar"
-            },
-            {
-              "id": "blk_part_02_english_sentence_order_practice_q_05",
-              "type": "type_answer",
-              "prompt": "___ is in your bag? My lunch is in my bag.",
-              "accepted": [
-                "What"
-              ],
-              "hint": "The answer is a thing, not a place.",
-              "explanation": "What asks about a thing.",
-              "targetId": "core.sentence_order",
-              "checking": "grammar"
-            }
-          ],
-          "rule": "Ben and Emma talk in class.\n\n| Person or thing | Verb | Other words |\n|---|---|---|\n| We | read | – |\n| We | read | books at home |\n| He | is | happy |\n\n**Rule:** In a statement, the person or thing comes before the verb.\n\nA question word comes first, before be. Where asks about a place. What asks about a thing.\n\n- **We read.** We = subject. Read = verb. It is a complete sentence.\n- **They play** football. They = subject. Play = verb.\n- He is **happy**. This sentence needs happy. We read **books at home**. You can add these words.\n- **Where is** the bag? It's on the chair. / **What is** your name? My name is Ben.\n\n**Watch out:** Not *Where the bag is?* Say **Where is the bag?**\n\nStudy: Compare Emma is at school. and Is Emma at school? What changes?",
-          "version": "d0da7140a871501f"
-        },
         {
           "id": "grammar-spelling:start-here:practice:present_simple_to_be",
           "title": "Practice: Am, Is and Are",
@@ -461,7 +363,7 @@
             {
               "id": "blk_part_01_am_is_and_are_practice_q_02",
               "type": "match_pairs",
-              "instruction": "Match each pair to its short form.",
+              "instruction": "Match the two words to the short form.",
               "pairs": [
                 [
                   "I am",
@@ -472,12 +374,12 @@
                   "she's"
                 ],
                 [
-                  "they are",
-                  "they're"
+                  "we are",
+                  "we're"
                 ],
                 [
-                  "it is",
-                  "it's"
+                  "he is",
+                  "he's"
                 ]
               ],
               "explanation": "A short form puts two words into one.",
@@ -487,55 +389,212 @@
             {
               "id": "blk_part_01_am_is_and_are_practice_q_03",
               "type": "word_bank",
-              "instruction": "Make a sentence.",
-              "sourceJa": "彼らは家にいません。",
-              "answer": "They are not at home.",
+              "instruction": "Put the words in order.",
+              "sourceJa": "エマは家にいません。",
+              "answer": "Emma is not at home.",
               "acceptedOrders": [],
               "distractors": [
-                "is",
+                "are",
                 "do"
               ],
-              "explanation": "Use are with they, then add not.",
+              "explanation": "Emma is one girl, so use is. Not comes after is.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_04",
               "type": "error_spot",
-              "sentence": "My mum are a doctor.",
+              "sentence": "My cat are tired.",
               "wrong": "are",
               "correction": "is",
-              "explanation": "My mum is one person, like she, so use is.",
+              "explanation": "My cat is one animal, so use is.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_05",
               "type": "type_answer",
-              "prompt": "___ is cold today.",
+              "prompt": "Write am, is or are: Ben and Emma ___ friends.",
               "accepted": [
-                "It"
+                "are"
               ],
-              "hint": "This sentence is about the weather.",
-              "explanation": "Say it for the weather.",
+              "hint": "Ben and Emma = they.",
+              "explanation": "Two people are they, so use are.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_06",
               "type": "transform",
-              "instruction": "Make a yes/no question.",
+              "instruction": "Make a question.",
               "source": "Your sister is at home.",
               "accepted": [
                 "Is your sister at home?"
               ],
-              "explanation": "Put is first in a question.",
+              "explanation": "In a question, is comes first.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_07",
+              "type": "transform",
+              "instruction": "Answer yes. Use a short answer.",
+              "source": "Are you ready for the test?",
+              "accepted": [
+                "Yes, I am.",
+                "Yes I am.",
+                "Yes, we are.",
+                "Yes we are."
+              ],
+              "explanation": "You can be one person: Yes, I am. You can be a group: Yes, we are.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer with he and isn't.",
+              "source": "Is your brother tired?",
+              "accepted": [
+                "No, he isn't.",
+                "No he isn't."
+              ],
+              "explanation": "Your brother is he. Say No, he isn't.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             }
           ],
-          "rule": "You meet Emma and Ben. Be tells a name, job, place or feeling.\n\n| Person | Be | Short form |\n|---|---|---|\n| I | **am** | **I'm** |\n| he, she, it | **is** | **he's, she's, it's** |\n| you, we, they | **are** | **you're, we're, they're** |\n\n**Rule:** Match am, is or are to the person.\n\nFor a yes/no question, put be first. For a negative, add not after be. The word you can mean one person or a group.\n\nUse it for weather and time: **It's** sunny. **It's** three o'clock.\n\n- Statement: Ben **is** at school.\n- Question: **Is** Ben at school? Yes, **he is**. / No, **he isn't**.\n- Negative: Ben **is not** at school.\n- Emma **is** a teacher. **Is** she a teacher? Yes, **she is**. / No, **she isn't**.\n- They **are** at home. **Are** they at home? Yes, **they are**. / No, **they aren't**.\n- Ben, **are you** ready? Yes, **I am**. / No, **I'm not**.\n- Class, are you ready? Yes, **we are**.\n\n**Watch out:** Not *Do you are ready?* Say **Are you ready?**",
-          "version": "b5cc76322e87f62c"
+          "rule": "Am, is and are are the verb be. Be tells who, how old, how or where someone is.\n\n| Person | Be | Short form |\n|---|---|---|\n| I | **am** | **I'm** |\n| he, she, it | **is** | **he's, she's, it's** |\n| you, we, they | **are** | **you're, we're, they're** |\n\nHere are four ways to use be:\n\n| Sentence | Example |\n|---|---|\n| telling | She **is** ready. |\n| with not | She **is not** ready. She **isn't** ready. |\n| question | **Is** she ready? |\n| short answer | Yes, she **is**. / No, she **isn't**. |\n\n**Rule:** Match am, is or are to the person.\n\n- I **am** Ben. **I'm** at school.\n- **Is** Emma ready? Yes, **she is**. / No, **she isn't**. (Emma = she)\n- **Are** you happy? Yes, **I am**. / No, **I'm not**.\n- Ben **is not** tired. **He isn't** tired. (Ben = he)\n- We **are** at school. They **are** at home.\n\n**Watch out:**\n- Wrong: *She are ready.* Right: **She is ready.** Use is with he, she and it.\n- **Are you happy?** Wrong: *Yes, you are.* Right: **Yes, I am.** Answer about yourself with I. Answer about your group with we: **Yes, we are.**",
+          "version": "2ab117abdae4837c"
+        },
+        {
+          "id": "grammar-spelling:start-here:practice:core.sentence_order",
+          "title": "Practice: English Sentence Order",
+          "items": [
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_01",
+              "type": "multiple_choice",
+              "prompt": "___ is in the park.",
+              "choices": [
+                "Ben",
+                "Is",
+                "Are"
+              ],
+              "answer": "Ben",
+              "explanation": "The person comes first, then the verb.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_02",
+              "type": "match_pairs",
+              "instruction": "Match the question and the answer.",
+              "pairs": [
+                [
+                  "Is Ben at school?",
+                  "Yes, he is."
+                ],
+                [
+                  "Are you tired?",
+                  "No, I'm not."
+                ],
+                [
+                  "Is Emma tired?",
+                  "No, she isn't."
+                ],
+                [
+                  "Are they ready?",
+                  "Yes, they are."
+                ]
+              ],
+              "explanation": "Answer with the right person: Ben is he, Emma is she.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_03",
+              "type": "word_bank",
+              "instruction": "Put the words in order.",
+              "sourceJa": "私たちは放課後に本を読みます。",
+              "answer": "We read books after school.",
+              "acceptedOrders": [],
+              "distractors": [
+                "are",
+                "reads"
+              ],
+              "explanation": "The person comes first, then the verb, then more words.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_04",
+              "type": "word_bank",
+              "instruction": "Make a question.",
+              "sourceJa": "エマは教室にいますか？",
+              "answer": "Is Emma in the classroom?",
+              "acceptedOrders": [],
+              "distractors": [
+                "Does",
+                "Are"
+              ],
+              "explanation": "In a question, is comes first.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_05",
+              "type": "type_answer",
+              "prompt": "Write the first word: ___ they at home? Yes, they are.",
+              "accepted": [
+                "Are"
+              ],
+              "hint": "In a question, be comes first. Which be goes with they?",
+              "explanation": "Use are with they. Are comes first in the question.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_06",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "Ben is in the park.",
+              "accepted": [
+                "Is Ben in the park?"
+              ],
+              "explanation": "Put is first, then Ben.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_07",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We are at home.",
+              "accepted": [
+                "We are not at home.",
+                "We aren't at home.",
+                "We're not at home."
+              ],
+              "explanation": "Not comes after are.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_08",
+              "type": "transform",
+              "instruction": "Ask where Emma is. Start with Where.",
+              "source": "Emma is in the garden.",
+              "accepted": [
+                "Where is Emma?",
+                "Where's Emma?"
+              ],
+              "explanation": "Where comes first, then is, then Emma.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            }
+          ],
+          "rule": "English words go in order. The person comes first, then the verb. The verb is a word like is, read or have.\n\n| Person | Verb | More words |\n|---|---|---|\n| Ben | **is** | happy. |\n| We | **read** | books. |\n\nIn a question, be comes before the person:\n\n| Be | Person | More words |\n|---|---|---|\n| **Is** | Ben | happy? |\n| **Are** | they | at school? |\n\nA question word, like where, comes before be:\n\n| Question word | Be | Person |\n|---|---|---|\n| **Where** | **is** | Emma? |\n| **Where** | **are** | they? |\n\n**Rule:** The person comes before the verb. In a question, be comes before the person. A question word, like where, comes first.\n\n- **Ben is** happy.\n- **We read.** This short sentence is OK.\n- **They play** games after school.\n- **Is Ben** happy? Yes, **he is**. / No, **he isn't**.\n- **They are not** at school.\n- **Where is** Emma? She is in the park.\n\n**Watch out:**\n- Wrong: *Happy is Ben.* Right: **Ben is happy.** The person comes first.\n- Wrong: *Where Emma is?* Right: **Where is Emma?** Is comes right after where.",
+          "version": "48f86b39ee8c4038"
         },
         {
           "id": "grammar-spelling:start-here:practice:question_forms",
@@ -593,6 +652,21 @@
               "checking": "grammar"
             },
             {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_04",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "私たちは公園で遊びません。",
+              "answer": "We do not play in the park.",
+              "acceptedOrders": [],
+              "distractors": [
+                "are",
+                "am"
+              ],
+              "explanation": "Put do not before the ordinary verb.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
               "id": "blk_part_02_questions_and_negatives_with_do_practice_q_05",
               "type": "error_spot",
               "sentence": "Are you need a pencil?",
@@ -609,8 +683,21 @@
               "accepted": [
                 "I do"
               ],
-              "hint": "Talk about yourself. Stop after the helper word.",
+              "hint": "Talk about yourself. Then use the first word of the question again.",
               "explanation": "When you means only you, answer with I.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_07",
+              "type": "type_answer",
+              "prompt": "A teacher asks you and your sister: Do you play tennis? No, ___.",
+              "accepted": [
+                "we don't",
+                "we do not"
+              ],
+              "hint": "You and your sister are two people. Give a no answer.",
+              "explanation": "When you means a group, answer with we.",
               "targetId": "question_forms",
               "checking": "grammar"
             },
@@ -627,8 +714,8 @@
               "checking": "grammar"
             }
           ],
-          "rule": "Two friends talk about home.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\n**Rule:** To ask, put do first. To say no, put do not before the verb.\n\n- You **read** at home.\n- **Do** you **read** at home?\n- I **do not** read at home.\n- They **don't** walk to school.\n\nYou means only you? Answer with I. A group? Answer with we.\n\nA question word comes first, then do.\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\nBe is different: **Are** you ready?\n\n**Watch out:** Not *Are you read?* Say **Do you read?**",
-          "version": "6a8e679d10c94237"
+          "rule": "Use do to ask and do not to say no.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nUse do not to say no:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** To ask, put do before the person. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Read is an ordinary verb.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
+          "version": "02b4e699d941fe42"
         },
         {
           "id": "grammar-spelling:start-here:practice:spl.capitals",
@@ -637,21 +724,21 @@
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_01",
               "type": "multiple_choice",
-              "prompt": "In English, the word ___ always has a capital letter.",
+              "prompt": "The word ___ always has a capital letter.",
               "choices": [
                 "I",
                 "you",
                 "we"
               ],
               "answer": "I",
-              "explanation": "Always write I as a capital letter. You and we have one only at the start.",
+              "explanation": "Always write I as a capital letter. You and we need one only at the start.",
               "targetId": "spl.capitals",
               "checking": "capitalisation"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_02",
               "type": "match_pairs",
-              "instruction": "Match each word to its capital form.",
+              "instruction": "Match the word to the right way to write it.",
               "pairs": [
                 [
                   "i",
@@ -662,20 +749,20 @@
                   "Emma"
                 ],
                 [
-                  "sam",
-                  "Sam"
+                  "ben",
+                  "Ben"
                 ]
               ],
-              "explanation": "Use capital letters for I and names.",
+              "explanation": "I and names need a capital letter.",
               "targetId": "spl.capitals",
               "checking": "capitalisation"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_03",
               "type": "word_bank",
-              "instruction": "Make a question with a capital letter and a question mark.",
-              "sourceJa": "あなたはお腹がすいていますか？",
-              "answer": "Are you hungry?",
+              "instruction": "Make a question.",
+              "sourceJa": "あなたはつかれていますか？",
+              "answer": "Are you tired?",
               "acceptedOrders": [],
               "distractors": [
                 "Do",
@@ -688,9 +775,9 @@
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_04",
               "type": "error_spot",
-              "sentence": "We are in london.",
-              "wrong": "london",
-              "correction": "London",
+              "sentence": "My friend is emma.",
+              "wrong": "emma",
+              "correction": "Emma",
               "explanation": "A name starts with a capital letter.",
               "targetId": "spl.capitals",
               "checking": "capitalisation"
@@ -698,12 +785,12 @@
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_05",
               "type": "type_answer",
-              "prompt": "Fix the capitals and the ending: my dog is max Write: ___",
+              "prompt": "Write it with capital letters and a full stop. my dog is max → ___",
               "accepted": [
                 "My dog is Max."
               ],
               "hint": "Look at the first word, the name and the end.",
-              "explanation": "Use a capital letter at the start and for names, and end with a full stop.",
+              "explanation": "Start with a capital letter. Names need one too. End with a full stop.",
               "targetId": "spl.capitals",
               "checking": "exact"
             },
@@ -715,13 +802,38 @@
               "accepted": [
                 "We are late."
               ],
-              "explanation": "Put one space between words and end a statement with a full stop.",
+              "explanation": "Put one space between words. A telling sentence ends with a full stop.",
+              "targetId": "spl.capitals",
+              "checking": "exact"
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_07",
+              "type": "transform",
+              "instruction": "Make a question. Add capital letters and a question mark.",
+              "source": "ben is tired",
+              "accepted": [
+                "Is Ben tired?"
+              ],
+              "explanation": "Is comes first. Ben needs a capital letter. A question ends with a question mark.",
+              "targetId": "spl.capitals",
+              "checking": "exact"
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_08",
+              "type": "transform",
+              "instruction": "Say it with not. Add capital letters and a full stop.",
+              "source": "emma and i are late",
+              "accepted": [
+                "Emma and I are not late.",
+                "Emma and I aren't late."
+              ],
+              "explanation": "Emma and I need capital letters. Not comes after are. End with a full stop.",
               "targetId": "spl.capitals",
               "checking": "exact"
             }
           ],
-          "rule": "Emma writes on the board. A capital letter is a big letter, like A.\n\n| Sentence | Example |\n|---|---|\n| statement | **We** are here**.** |\n| question | **Are** we here**?** |\n\n**Rule:** Start with a capital letter. End with a full stop or question mark.\n\nI and names always have a capital letter. Put one space between words: **I am here.**\n\n- **I** am ready**.**\n- **Ben** and **I** read**.**\n- **Where** is **Ben?**\n- **Are** you happy**?**\n\n**Watch out:** Not *are you ready.* Say **Are you ready?**",
-          "version": "4ecd1fd497d5e118"
+          "rule": "A sentence starts with a capital letter. A capital letter is a big letter, like A or B. A sentence ends with a full stop or a question mark.\n\n| Sentence | Ends with | Example |\n|---|---|---|\n| telling | full stop . | **Emma** is here**.** |\n| asking | question mark ? | **Is** Emma here**?** |\n\n**Rule:** Start with a capital letter. End with a full stop or a question mark.\n\n- **I** am here**.**\n- **Emma** and **I** are friends**.**\n- **Is** Ben ready**?** Yes, he is**.**\n- **They** are not late**.**\n\n**Watch out:**\n- Wrong: *are you ready.* Right: **Are you ready?** A question ends with a question mark.\n- Wrong: *ben and i play.* Right: **Ben and I play.** Names and I need a capital letter.\n- Wrong: *Weareready.* Right: **We are ready.** Put one space between words.\n\n**Spelling:**\n- Always write **I** as a capital letter.\n- Names start with a capital letter: **Emma**, **Ben**.",
+          "version": "89d949dbe0176aa8"
         }
       ],
       "activities": [
@@ -729,344 +841,337 @@
           "mode": "check",
           "definition": {
             "id": "grammar-spelling:start-here:check-a",
-            "title": "Starter mixed check",
+            "version": "d6a6f76638ae13f4",
+            "title": "Check your understanding",
             "items": [
               {
-                "id": "a1-grammar-build-a-sentence:ca-09",
+                "id": "starter-ca-order-01",
                 "targetId": "core.sentence_order",
-                "type": "transform",
-                "instruction": "Ask what. The answer is her name.",
-                "source": "Her name is Mia.",
-                "accepted": [
-                  "What is her name?",
-                  "What's her name?"
+                "type": "multiple_choice",
+                "prompt": "Choose the right sentence: ___",
+                "choices": [
+                  "We keep toys.",
+                  "Keep we toys.",
+                  "We toys keep."
                 ],
+                "answer": "We keep toys.",
                 "checking": "grammar",
-                "explanation": "Put what first, then is, then her name."
+                "explanation": "Put We before the action word keep."
               },
               {
-                "id": "a1-grammar-build-a-sentence:ca-01",
+                "id": "starter-ca-be-01",
                 "targetId": "present_simple_to_be",
-                "type": "transform",
-                "instruction": "Make a yes/no question.",
-                "source": "The doors are open.",
-                "accepted": [
-                  "Are the doors open?"
+                "type": "multiple_choice",
+                "prompt": "The clock ___ on the wall.",
+                "choices": [
+                  "am",
+                  "is",
+                  "are"
                 ],
+                "answer": "is",
                 "checking": "grammar",
-                "explanation": "Put are before the doors."
+                "explanation": "One clock is it, so use is."
               },
               {
-                "id": "a1-grammar-build-a-sentence:ca-02",
-                "targetId": "present_simple_to_be",
-                "type": "transform",
-                "instruction": "Answer yes about yourself. Use a short answer.",
-                "source": "Are you cold?",
-                "accepted": [
-                  "Yes, I am.",
-                  "Yes I am."
-                ],
-                "checking": "grammar",
-                "explanation": "When you means only you, answer with I."
-              },
-              {
-                "id": "a1-grammar-everyday-actions:ca-03",
+                "id": "starter-ca-do-01",
                 "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Make a yes/no question. Keep you.",
-                "source": "You listen to music.",
-                "accepted": [
-                  "Do you listen to music?"
+                "type": "multiple_choice",
+                "prompt": "___ you pack your bag every day?",
+                "choices": [
+                  "Do",
+                  "Are",
+                  "Is"
                 ],
-                "explanation": "Put do before you in this question."
+                "answer": "Do",
+                "checking": "grammar",
+                "explanation": "Use do to ask about the action pack."
               },
               {
-                "id": "a1-grammar-everyday-actions:ca-04",
-                "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Give a short yes answer about yourself.",
-                "source": "Do you like carrots?",
-                "accepted": [
-                  "Yes, I do.",
-                  "Yes I do."
-                ],
-                "explanation": "When you means only you, answer with I."
-              },
-              {
-                "id": "a1-grammar-everyday-actions:ca-05",
-                "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Make this negative. Keep we.",
-                "source": "We visit friends after lunch.",
-                "accepted": [
-                  "We do not visit friends after lunch.",
-                  "We don't visit friends after lunch.",
-                  "We don’t visit friends after lunch."
-                ],
-                "explanation": "Put do not or don't before visit."
-              },
-              {
-                "id": "a1-grammar-build-a-sentence:ca-07",
+                "id": "starter-ca-capitals-01",
                 "targetId": "spl.capitals",
                 "type": "transform",
-                "instruction": "Add capitals and a full stop.",
-                "source": "your coat is wet",
+                "instruction": "Add capitals and a question mark. Keep the words.",
+                "source": "is it cold",
                 "accepted": [
-                  "Your coat is wet."
+                  "Is it cold?"
                 ],
                 "checking": "exact",
-                "explanation": "Start with a capital and end with a full stop."
+                "explanation": "Start with a capital letter and end this question with ?."
               },
               {
-                "id": "a1-grammar-build-a-sentence:ca-08",
-                "targetId": "spl.capitals",
-                "type": "transform",
-                "instruction": "Fix only the capital letters.",
-                "source": "at night i am tired.",
+                "id": "starter-ca-order-02",
+                "targetId": "core.sentence_order",
+                "type": "type_answer",
+                "prompt": "Make a statement from these words: ___ (desks / They / clean)",
                 "accepted": [
-                  "At night I am tired."
+                  "They clean desks."
                 ],
-                "checking": "capitalisation",
-                "explanation": "Use a capital at the start and for I."
+                "checking": "grammar",
+                "explanation": "Put They before clean, then say what they clean."
+              },
+              {
+                "id": "starter-ca-be-02",
+                "targetId": "present_simple_to_be",
+                "type": "transform",
+                "instruction": "Make a yes/no question. Change I to we.",
+                "source": "I am early.",
+                "accepted": [
+                  "Are we early?"
+                ],
+                "checking": "grammar",
+                "explanation": "Use are with we, and put are before we."
+              },
+              {
+                "id": "starter-ca-do-02",
+                "targetId": "question_forms",
+                "type": "transform",
+                "instruction": "Make this statement negative.",
+                "source": "We watch films.",
+                "accepted": [
+                  "We don't watch films.",
+                  "We do not watch films."
+                ],
+                "checking": "grammar",
+                "explanation": "Put don't or do not before watch."
+              },
+              {
+                "id": "starter-ca-capitals-02",
+                "targetId": "spl.capitals",
+                "type": "type_answer",
+                "prompt": "Add the end mark for a statement: The pencil is blue___",
+                "accepted": [
+                  "."
+                ],
+                "checking": "exact",
+                "explanation": "End this statement with a full stop."
               }
-            ],
-            "version": "82ab8459b54577b3"
+            ]
           }
         },
         {
           "mode": "check",
           "definition": {
             "id": "grammar-spelling:start-here:check-b",
-            "title": "Starter fresh check",
+            "version": "61c031f94478cebd",
+            "title": "Check your understanding",
             "items": [
               {
-                "id": "a1-grammar-build-a-sentence:cb-03",
+                "id": "starter-cb-do-01",
+                "targetId": "question_forms",
+                "type": "multiple_choice",
+                "prompt": "We ___ drink tea.",
+                "choices": [
+                  "don't",
+                  "aren't",
+                  "isn't"
+                ],
+                "answer": "don't",
+                "checking": "grammar",
+                "explanation": "Use don't before the action word drink."
+              },
+              {
+                "id": "starter-cb-order-01",
                 "targetId": "core.sentence_order",
-                "type": "transform",
-                "instruction": "Make a yes/no question.",
-                "source": "You are busy.",
-                "accepted": [
-                  "Are you busy?"
+                "type": "multiple_choice",
+                "prompt": "Which sentence has the right order? ___",
+                "choices": [
+                  "Share they a desk.",
+                  "They share a desk.",
+                  "They a desk share."
                 ],
+                "answer": "They share a desk.",
                 "checking": "grammar",
-                "explanation": "Put are before you in a question."
+                "explanation": "Put They before the action word share."
               },
               {
-                "id": "a1-grammar-build-a-sentence:cb-01",
-                "targetId": "present_simple_to_be",
-                "type": "transform",
-                "instruction": "Use it instead of the water.",
-                "source": "The water is hot.",
-                "accepted": [
-                  "It is hot.",
-                  "It's hot."
-                ],
-                "checking": "grammar",
-                "explanation": "Use it with is for the water."
-              },
-              {
-                "id": "a1-grammar-build-a-sentence:cb-02",
-                "targetId": "present_simple_to_be",
-                "type": "transform",
-                "instruction": "Answer no about yourself. Use a short answer.",
-                "source": "Are you at the station?",
-                "accepted": [
-                  "No, I am not.",
-                  "No I am not.",
-                  "No, I'm not.",
-                  "No I'm not."
-                ],
-                "checking": "grammar",
-                "explanation": "Answer about yourself with I am not."
-              },
-              {
-                "id": "a1-grammar-everyday-actions:cb-03",
-                "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Ask about the food. Start with what.",
-                "source": "They cook rice.",
-                "accepted": [
-                  "What do they cook?"
-                ],
-                "explanation": "Put what before do, then they and cook."
-              },
-              {
-                "id": "a1-grammar-everyday-actions:cb-04",
-                "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Give a short no answer about yourself.",
-                "source": "Do you ride a bike?",
-                "accepted": [
-                  "No, I do not.",
-                  "No I do not.",
-                  "No, I don't.",
-                  "No I don't.",
-                  "No, I don’t.",
-                  "No I don’t."
-                ],
-                "explanation": "When you means only you, answer with I."
-              },
-              {
-                "id": "a1-grammar-everyday-actions:cb-05",
-                "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Make this negative. Keep I.",
-                "source": "I use a computer.",
-                "accepted": [
-                  "I do not use a computer.",
-                  "I don't use a computer.",
-                  "I don’t use a computer."
-                ],
-                "explanation": "Put do not or don't before use."
-              },
-              {
-                "id": "a1-grammar-build-a-sentence:cb-07",
+                "id": "starter-cb-capitals-01",
                 "targetId": "spl.capitals",
                 "type": "transform",
-                "instruction": "Add capitals and a question mark.",
-                "source": "is the cup clean",
+                "instruction": "Add capitals, the missing apostrophe, and a full stop.",
+                "source": "we dont run",
                 "accepted": [
-                  "Is the cup clean?"
+                  "We don't run.",
+                  "We don’t run."
                 ],
                 "checking": "exact",
-                "explanation": "Start with a capital and end with a question mark."
+                "explanation": "Start with W, write don't together, and add a full stop."
               },
               {
-                "id": "a1-grammar-build-a-sentence:cb-08",
-                "targetId": "spl.capitals",
-                "type": "transform",
-                "instruction": "Fix only the capital letters.",
-                "source": "my sister and i cook.",
-                "accepted": [
-                  "My sister and I cook."
+                "id": "starter-cb-be-01",
+                "targetId": "present_simple_to_be",
+                "type": "multiple_choice",
+                "prompt": "The socks ___ dry.",
+                "choices": [
+                  "am",
+                  "is",
+                  "are"
                 ],
-                "checking": "capitalisation",
-                "explanation": "Use a capital at the start and for I."
+                "answer": "are",
+                "checking": "grammar",
+                "explanation": "The socks are they, so use are."
+              },
+              {
+                "id": "starter-cb-order-02",
+                "targetId": "core.sentence_order",
+                "type": "type_answer",
+                "prompt": "Make a statement from these words: ___ (cats / feed / I)",
+                "accepted": [
+                  "I feed cats."
+                ],
+                "checking": "grammar",
+                "explanation": "Put I before feed, then say what you feed."
+              },
+              {
+                "id": "starter-cb-be-02",
+                "targetId": "present_simple_to_be",
+                "type": "transform",
+                "instruction": "Change you to they. Make a yes/no question.",
+                "source": "You are busy.",
+                "accepted": [
+                  "Are they busy?"
+                ],
+                "checking": "grammar",
+                "explanation": "Use are with they, and put are before they."
+              },
+              {
+                "id": "starter-cb-do-02",
+                "targetId": "question_forms",
+                "type": "transform",
+                "instruction": "Ask with where. Remove at school.",
+                "source": "They eat lunch at school.",
+                "accepted": [
+                  "Where do they eat lunch?"
+                ],
+                "checking": "grammar",
+                "explanation": "Put Where before do, then they and the action."
+              },
+              {
+                "id": "starter-cb-capitals-02",
+                "targetId": "spl.capitals",
+                "type": "type_answer",
+                "prompt": "Add the end mark for this direct question: Can I help___",
+                "accepted": [
+                  "?"
+                ],
+                "checking": "exact",
+                "explanation": "End this direct question with a question mark."
               }
-            ],
-            "version": "a1d34e09d905fade"
+            ]
           }
         },
         {
           "mode": "review",
           "definition": {
             "id": "grammar-spelling:start-here:review-a",
-            "title": "Starter later review",
+            "version": "f0ab14952a7bc8f1",
+            "title": "Review what you remember",
             "items": [
               {
-                "id": "a1-grammar-build-a-sentence:ra-03",
+                "id": "starter-ra-be-01",
+                "targetId": "present_simple_to_be",
+                "type": "multiple_choice",
+                "prompt": "___ your hands clean?",
+                "choices": [
+                  "Do",
+                  "Are",
+                  "Is"
+                ],
+                "answer": "Are",
+                "checking": "grammar",
+                "explanation": "Clean tells how your hands are, so use be."
+              },
+              {
+                "id": "starter-ra-order-01",
                 "targetId": "core.sentence_order",
-                "type": "transform",
-                "instruction": "Ask where. Keep your phone.",
-                "source": "Your phone is in the car.",
-                "accepted": [
-                  "Where is your phone?",
-                  "Where's your phone?"
+                "type": "multiple_choice",
+                "prompt": "Choose the sentence with the right word order: ___",
+                "choices": [
+                  "Need we chairs.",
+                  "We chairs need.",
+                  "We need chairs."
                 ],
+                "answer": "We need chairs.",
                 "checking": "grammar",
-                "explanation": "Put where first, then is, then your phone."
+                "explanation": "Put We before the action word need."
               },
               {
-                "id": "a1-grammar-build-a-sentence:ra-01",
-                "targetId": "present_simple_to_be",
-                "type": "transform",
-                "instruction": "Use they instead of our parents.",
-                "source": "Our parents are at work.",
-                "accepted": [
-                  "They are at work.",
-                  "They're at work."
-                ],
-                "checking": "grammar",
-                "explanation": "Use they with are."
-              },
-              {
-                "id": "a1-grammar-build-a-sentence:ra-02",
-                "targetId": "present_simple_to_be",
-                "type": "transform",
-                "instruction": "Answer no. Use a short answer with it.",
-                "source": "Is the light on?",
-                "accepted": [
-                  "No, it is not.",
-                  "No it is not.",
-                  "No, it's not.",
-                  "No it's not.",
-                  "No, it isn't.",
-                  "No it isn't."
-                ],
-                "checking": "grammar",
-                "explanation": "Use it is not in this negative short answer."
-              },
-              {
-                "id": "a1-grammar-everyday-actions:ra-03",
+                "id": "starter-ra-do-01",
                 "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Make a yes/no question. Keep we.",
-                "source": "We need boots in winter.",
-                "accepted": [
-                  "Do we need boots in winter?"
+                "type": "multiple_choice",
+                "prompt": "___ you use a ruler?",
+                "choices": [
+                  "Are",
+                  "Do",
+                  "Am"
                 ],
-                "explanation": "Put do before we in this question."
+                "answer": "Do",
+                "checking": "grammar",
+                "explanation": "Use do to ask about using a ruler."
               },
               {
-                "id": "a1-grammar-everyday-actions:ra-04",
-                "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Give a short yes answer. Use they.",
-                "source": "Do the children share a room?",
-                "accepted": [
-                  "Yes, they do.",
-                  "Yes they do."
-                ],
-                "explanation": "Use they when answering about the children."
-              },
-              {
-                "id": "a1-grammar-everyday-actions:ra-05",
-                "targetId": "question_forms",
-                "type": "transform",
-                "checking": "grammar",
-                "instruction": "Make this negative. Keep they.",
-                "source": "They keep toys under the bed.",
-                "accepted": [
-                  "They do not keep toys under the bed.",
-                  "They don't keep toys under the bed.",
-                  "They don’t keep toys under the bed."
-                ],
-                "explanation": "Put do not or don't before keep."
-              },
-              {
-                "id": "a1-grammar-build-a-sentence:ra-07",
+                "id": "starter-ra-capitals-01",
                 "targetId": "spl.capitals",
                 "type": "transform",
-                "instruction": "Add capitals and a full stop.",
-                "source": "we are on the train",
+                "instruction": "Add capitals and a full stop. Keep the words.",
+                "source": "my sister and i cook",
                 "accepted": [
-                  "We are on the train."
+                  "My sister and I cook."
                 ],
                 "checking": "exact",
-                "explanation": "Start with a capital and end with a full stop."
+                "explanation": "Use a capital first letter, capital I and a full stop."
               },
               {
-                "id": "a1-grammar-build-a-sentence:ra-08",
-                "targetId": "spl.capitals",
+                "id": "starter-ra-order-02",
+                "targetId": "core.sentence_order",
                 "type": "transform",
-                "instruction": "Fix only the capital letters.",
-                "source": "am i early?",
+                "instruction": "Change They to I. Keep the other words.",
+                "source": "They close doors.",
                 "accepted": [
-                  "Am I early?"
+                  "I close doors."
                 ],
-                "checking": "capitalisation",
-                "explanation": "Use a capital at the start and for I."
+                "checking": "grammar",
+                "explanation": "I stays before the action word close."
+              },
+              {
+                "id": "starter-ra-be-02",
+                "targetId": "present_simple_to_be",
+                "type": "type_answer",
+                "prompt": "Complete the no short answer: Is the light on? ___",
+                "accepted": [
+                  "No, it isn't.",
+                  "No it isn't.",
+                  "No, it's not.",
+                  "No it's not.",
+                  "No, it is not.",
+                  "No it is not."
+                ],
+                "checking": "grammar",
+                "explanation": "Use it for the light and a negative form of is."
+              },
+              {
+                "id": "starter-ra-do-02",
+                "targetId": "question_forms",
+                "type": "transform",
+                "instruction": "Make a yes/no question.",
+                "source": "You help at home.",
+                "accepted": [
+                  "Do you help at home?"
+                ],
+                "checking": "grammar",
+                "explanation": "Put Do before you to ask about helping."
+              },
+              {
+                "id": "starter-ra-capitals-02",
+                "targetId": "spl.capitals",
+                "type": "type_answer",
+                "prompt": "Add the end mark for this direct question: What is this___",
+                "accepted": [
+                  "?"
+                ],
+                "checking": "exact",
+                "explanation": "End this direct question with a question mark."
               }
-            ],
-            "version": "1a25a2abf4d9f99b"
+            ]
           }
         }
       ]
@@ -1115,66 +1220,66 @@
           "mode": "check",
           "definition": {
             "id": "grammar-spelling:sentences:check-a",
-            "version": "50a9a11ffe9f0d7a",
+            "version": "87ec726bd73d0c60",
             "title": "Check your understanding",
             "items": [
               {
                 "id": "ca-01",
                 "targetId": "present_simple_to_be",
                 "type": "transform",
-                "instruction": "Make a yes/no question.",
-                "source": "The doors are open.",
+                "instruction": "Make a question.",
+                "source": "The cats are tired.",
                 "accepted": [
-                  "Are the doors open?"
+                  "Are the cats tired?"
                 ],
                 "checking": "grammar",
-                "explanation": "Put are before the doors."
+                "explanation": "In a question, are comes first."
               },
               {
                 "id": "ca-02",
                 "targetId": "present_simple_to_be",
                 "type": "transform",
-                "instruction": "Answer yes about yourself. Use a short answer.",
+                "instruction": "Answer yes. You are one person. Use a short answer.",
                 "source": "Are you cold?",
                 "accepted": [
                   "Yes, I am.",
                   "Yes I am."
                 ],
                 "checking": "grammar",
-                "explanation": "You becomes I when you answer about yourself."
+                "explanation": "The question is about one person, so answer with I."
               },
               {
                 "id": "ca-03",
                 "targetId": "present_simple_to_be",
                 "type": "transform",
-                "instruction": "Use he instead of my brother. Keep the negative.",
-                "source": "My brother is not hungry.",
+                "instruction": "Use he for my brother. Keep not.",
+                "source": "My brother is not sad.",
                 "accepted": [
-                  "He is not hungry.",
-                  "He's not hungry.",
-                  "He isn't hungry."
+                  "He is not sad.",
+                  "He's not sad.",
+                  "He isn't sad."
                 ],
                 "checking": "grammar",
-                "explanation": "Use he with is and keep not."
+                "explanation": "My brother is he. Use is not."
               },
               {
-                "id": "ca-04",
+                "id": "ca-09",
                 "targetId": "core.sentence_order",
                 "type": "transform",
-                "instruction": "Change the question to a statement.",
-                "source": "Is it heavy?",
+                "instruction": "Ask where her ball is. Start with Where.",
+                "source": "Her ball is under the bed.",
                 "accepted": [
-                  "It is heavy.",
-                  "It's heavy."
+                  "Where is her ball?",
+                  "Where's her ball?"
                 ],
                 "checking": "grammar",
-                "explanation": "Put it before is in a statement."
+                "explanation": "Where comes first, then is, then her ball."
               },
               {
                 "id": "ca-05",
                 "targetId": "core.be_or_verb",
                 "type": "multiple_choice",
-                "prompt": "We ___ lunch at school.",
+                "prompt": "We ___ rice at home.",
                 "choices": [
                   "eat",
                   "are",
@@ -1182,43 +1287,43 @@
                 ],
                 "answer": "eat",
                 "checking": "grammar",
-                "explanation": "Eat is the action verb."
+                "explanation": "Eat is the doing word."
               },
               {
                 "id": "ca-06",
                 "targetId": "core.be_or_verb",
                 "type": "transform",
-                "instruction": "Remove the extra word.",
-                "source": "I am listen to music.",
+                "instruction": "Take away the extra word.",
+                "source": "I am draw pictures.",
                 "accepted": [
-                  "I listen to music."
+                  "I draw pictures."
                 ],
                 "checking": "grammar",
-                "explanation": "Listen is the action verb, so remove am."
+                "explanation": "Draw is the doing word, so take away am."
               },
               {
                 "id": "ca-07",
                 "targetId": "spl.capitals",
                 "type": "transform",
-                "instruction": "Add capitals and a full stop.",
-                "source": "your coat is wet",
+                "instruction": "Add a capital letter and a full stop.",
+                "source": "your shoes are wet",
                 "accepted": [
-                  "Your coat is wet."
+                  "Your shoes are wet."
                 ],
                 "checking": "exact",
-                "explanation": "Start with a capital and end with a full stop."
+                "explanation": "Start with a capital letter. End with a full stop."
               },
               {
                 "id": "ca-08",
                 "targetId": "spl.capitals",
                 "type": "transform",
                 "instruction": "Fix only the capital letters.",
-                "source": "at night i am tired.",
+                "source": "today i am at home.",
                 "accepted": [
-                  "At night I am tired."
+                  "Today I am at home."
                 ],
                 "checking": "capitalisation",
-                "explanation": "Use a capital at the start and for I."
+                "explanation": "Use a capital letter at the start and for I."
               }
             ]
           }
@@ -1227,28 +1332,28 @@
           "mode": "check",
           "definition": {
             "id": "grammar-spelling:sentences:check-b",
-            "version": "88cc0f9f400ce2a3",
+            "version": "f92cac59bd4791da",
             "title": "Check your understanding",
             "items": [
               {
                 "id": "cb-01",
                 "targetId": "present_simple_to_be",
                 "type": "transform",
-                "instruction": "Use it instead of the water.",
-                "source": "The water is hot.",
+                "instruction": "Use she for my mum.",
+                "source": "My mum is at work.",
                 "accepted": [
-                  "It is hot.",
-                  "It's hot."
+                  "She is at work.",
+                  "She's at work."
                 ],
                 "checking": "grammar",
-                "explanation": "Use it with is for the water."
+                "explanation": "My mum is she. Use is."
               },
               {
                 "id": "cb-02",
                 "targetId": "present_simple_to_be",
                 "type": "transform",
-                "instruction": "Answer no about yourself. Use a short answer.",
-                "source": "Are you at the station?",
+                "instruction": "Answer no. You are one person. Use a short answer.",
+                "source": "Are you at the pool?",
                 "accepted": [
                   "No, I am not.",
                   "No I am not.",
@@ -1256,82 +1361,80 @@
                   "No I'm not."
                 ],
                 "checking": "grammar",
-                "explanation": "Answer about yourself with I am not."
+                "explanation": "The question is about one person, so say No, I'm not."
               },
               {
                 "id": "cb-03",
                 "targetId": "core.sentence_order",
                 "type": "transform",
-                "instruction": "Make a yes/no question.",
+                "instruction": "Make a question.",
                 "source": "You are busy.",
                 "accepted": [
                   "Are you busy?"
                 ],
                 "checking": "grammar",
-                "explanation": "Put are before you in a question."
+                "explanation": "In a question, are comes first."
               },
               {
                 "id": "cb-04",
                 "targetId": "core.sentence_order",
                 "type": "transform",
-                "instruction": "Make this statement negative. Keep the keys.",
-                "source": "The keys are on the bed.",
+                "instruction": "Say it with not.",
+                "source": "The pens are in my bag.",
                 "accepted": [
-                  "The keys are not on the bed.",
-                  "The keys aren't on the bed."
+                  "The pens are not in my bag.",
+                  "The pens aren't in my bag."
                 ],
                 "checking": "grammar",
-                "explanation": "Keep the keys first and put not after are."
+                "explanation": "The pens stay first. Not comes after are."
               },
               {
-                "id": "cb-05",
-                "targetId": "core.be_or_verb",
-                "type": "multiple_choice",
-                "prompt": "They ___ in the pool every week.",
-                "choices": [
-                  "swim",
-                  "are swim",
-                  "is"
+                "id": "cb-09",
+                "targetId": "core.sentence_order",
+                "type": "transform",
+                "instruction": "Ask where the children are. Start with Where.",
+                "source": "The children are in the garden.",
+                "accepted": [
+                  "Where are the children?"
                 ],
-                "answer": "swim",
                 "checking": "grammar",
-                "explanation": "Swim is the action verb, so do not add are."
+                "explanation": "Where comes first, then are, then the children."
               },
               {
                 "id": "cb-06",
                 "targetId": "core.be_or_verb",
                 "type": "transform",
-                "instruction": "Remove the extra word.",
+                "instruction": "Take away the extra word.",
                 "source": "We are help our dad.",
                 "accepted": [
                   "We help our dad."
                 ],
                 "checking": "grammar",
-                "explanation": "Help is the action verb, so remove are."
+                "explanation": "Help is the doing word, so take away are."
               },
               {
                 "id": "cb-07",
                 "targetId": "spl.capitals",
                 "type": "transform",
-                "instruction": "Add capitals and a question mark.",
-                "source": "is the cup clean",
+                "instruction": "Add a capital letter and a question mark.",
+                "source": "is the soup hot",
                 "accepted": [
-                  "Is the cup clean?"
+                  "Is the soup hot?"
                 ],
                 "checking": "exact",
-                "explanation": "Start with a capital and end with a question mark."
+                "explanation": "Start with a capital letter. A question ends with a question mark."
               },
               {
                 "id": "cb-08",
                 "targetId": "spl.capitals",
                 "type": "transform",
                 "instruction": "Fix only the capital letters.",
-                "source": "my sister and i cook.",
+                "source": "my sister and i swim.",
                 "accepted": [
-                  "My sister and I cook."
+                  "My sister and I swim."
                 ],
                 "checking": "capitalisation",
-                "explanation": "Use a capital at the start and for I."
+                "explanation": "Use a capital letter at the start and for I."
               }
             ]
           }
@@ -1340,115 +1443,119 @@
           "mode": "review",
           "definition": {
             "id": "grammar-spelling:sentences:review-a",
-            "version": "022c2bace464a8e0",
+            "version": "899f1d69b7d15a97",
             "title": "Review what you remember",
             "items": [
               {
                 "id": "ra-01",
                 "targetId": "present_simple_to_be",
                 "type": "transform",
-                "instruction": "Use they instead of our parents.",
-                "source": "Our parents are at work.",
+                "instruction": "Use they for my friends.",
+                "source": "My friends are at the zoo.",
                 "accepted": [
-                  "They are at work.",
-                  "They're at work."
+                  "They are at the zoo.",
+                  "They're at the zoo."
                 ],
                 "checking": "grammar",
-                "explanation": "Use they with are."
+                "explanation": "My friends are they. Use are."
               },
               {
                 "id": "ra-02",
                 "targetId": "present_simple_to_be",
                 "type": "transform",
-                "instruction": "Answer no. Use a short answer with it.",
-                "source": "Is the light on?",
+                "instruction": "Answer no. Use it.",
+                "source": "Is the TV on?",
                 "accepted": [
                   "No, it is not.",
                   "No it is not.",
                   "No, it's not.",
                   "No it's not.",
                   "No, it isn't.",
-                  "No it isn't."
+                  "No it isn't.",
+                  "No, it is not on.",
+                  "No it is not on.",
+                  "No, it's not on.",
+                  "No it's not on.",
+                  "No, it isn't on.",
+                  "No it isn't on."
                 ],
                 "checking": "grammar",
-                "explanation": "Use it is not in this negative short answer."
+                "explanation": "The TV is it. Say No, it isn't."
+              },
+              {
+                "id": "ra-09",
+                "targetId": "present_simple_to_be",
+                "type": "transform",
+                "instruction": "Make a question.",
+                "source": "Your teacher is kind.",
+                "accepted": [
+                  "Is your teacher kind?"
+                ],
+                "checking": "grammar",
+                "explanation": "In a question, is comes first."
               },
               {
                 "id": "ra-03",
                 "targetId": "core.sentence_order",
                 "type": "transform",
-                "instruction": "Ask where. Keep your phone.",
-                "source": "Your phone is in the car.",
+                "instruction": "Ask where your pencil is. Start with Where.",
+                "source": "Your pencil is on the desk.",
                 "accepted": [
-                  "Where is your phone?",
-                  "Where's your phone?"
+                  "Where is your pencil?",
+                  "Where's your pencil?"
                 ],
                 "checking": "grammar",
-                "explanation": "Put where first, then is, then your phone."
+                "explanation": "Where comes first, then is, then your pencil."
               },
               {
                 "id": "ra-04",
                 "targetId": "core.sentence_order",
                 "type": "transform",
-                "instruction": "Make this statement negative.",
-                "source": "They are angry.",
+                "instruction": "Say it with not.",
+                "source": "They are sad.",
                 "accepted": [
-                  "They are not angry.",
-                  "They're not angry.",
-                  "They aren't angry."
+                  "They are not sad.",
+                  "They're not sad.",
+                  "They aren't sad."
                 ],
                 "checking": "grammar",
-                "explanation": "Keep they first and put not after are."
-              },
-              {
-                "id": "ra-05",
-                "targetId": "core.be_or_verb",
-                "type": "multiple_choice",
-                "prompt": "I ___ my teeth at night.",
-                "choices": [
-                  "brush",
-                  "am",
-                  "is"
-                ],
-                "answer": "brush",
-                "checking": "grammar",
-                "explanation": "Brush is the action verb."
+                "explanation": "They stays first. Not comes after are."
               },
               {
                 "id": "ra-06",
                 "targetId": "core.be_or_verb",
                 "type": "transform",
-                "instruction": "Remove the extra word.",
-                "source": "You are speak to your friend.",
+                "instruction": "Take away the extra word.",
+                "source": "You are sing a song.",
                 "accepted": [
-                  "You speak to your friend."
+                  "You sing a song."
                 ],
                 "checking": "grammar",
-                "explanation": "Speak is the action verb, so remove are."
+                "explanation": "Sing is the doing word, so take away are."
               },
               {
                 "id": "ra-07",
                 "targetId": "spl.capitals",
                 "type": "transform",
-                "instruction": "Add capitals and a full stop.",
-                "source": "we are on the train",
+                "instruction": "Add a capital letter and a full stop.",
+                "source": "we are on the bus",
                 "accepted": [
-                  "We are on the train."
+                  "We are on the bus."
                 ],
                 "checking": "exact",
-                "explanation": "Start with a capital and end with a full stop."
+                "explanation": "Start with a capital letter. End with a full stop."
               },
               {
                 "id": "ra-08",
                 "targetId": "spl.capitals",
                 "type": "transform",
                 "instruction": "Fix only the capital letters.",
-                "source": "am i early?",
+                "source": "am i next?",
                 "accepted": [
-                  "Am I early?"
+                  "Am I next?"
                 ],
                 "checking": "capitalisation",
-                "explanation": "Use a capital at the start and for I."
+                "explanation": "Use a capital letter at the start and for I."
               }
             ]
           }
@@ -1462,7 +1569,7 @@
             {
               "id": "blk_part_01_am_is_and_are_practice_q_01",
               "type": "multiple_choice",
-              "prompt": "We ___ in class.",
+              "prompt": "We ___ at school.",
               "choices": [
                 "am",
                 "is",
@@ -1476,104 +1583,109 @@
             {
               "id": "blk_part_01_am_is_and_are_practice_q_02",
               "type": "match_pairs",
-              "instruction": "Match each person to be.",
+              "instruction": "Match the two words to the short form.",
               "pairs": [
                 [
-                  "I",
-                  "am"
+                  "I am",
+                  "I'm"
                 ],
                 [
-                  "he",
-                  "is"
+                  "she is",
+                  "she's"
                 ],
                 [
-                  "you",
-                  "are"
+                  "we are",
+                  "we're"
+                ],
+                [
+                  "he is",
+                  "he's"
                 ]
               ],
-              "explanation": "The person tells us which be word to use.",
+              "explanation": "A short form puts two words into one.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_03",
               "type": "word_bank",
-              "instruction": "Make a sentence.",
-              "sourceJa": "彼女は先生です。",
-              "answer": "She is a teacher.",
+              "instruction": "Put the words in order.",
+              "sourceJa": "エマは家にいません。",
+              "answer": "Emma is not at home.",
+              "acceptedOrders": [],
               "distractors": [
-                "am",
-                "are"
+                "are",
+                "do"
               ],
-              "explanation": "Use is with she.",
+              "explanation": "Emma is one girl, so use is. Not comes after is.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_04",
               "type": "error_spot",
-              "sentence": "Ben are here.",
+              "sentence": "My cat are tired.",
               "wrong": "are",
               "correction": "is",
-              "explanation": "Use is for Ben, like he.",
+              "explanation": "My cat is one animal, so use is.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_05",
               "type": "type_answer",
-              "prompt": "I ___ not ready.",
+              "prompt": "Write am, is or are: Ben and Emma ___ friends.",
               "accepted": [
-                "am"
+                "are"
               ],
-              "hint": "Look at the person before the space.",
-              "explanation": "Use am with I, then add not.",
+              "hint": "Ben and Emma = they.",
+              "explanation": "Two people are they, so use are.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_06",
               "type": "transform",
-              "instruction": "Make a yes/no question.",
-              "source": "They are in class.",
+              "instruction": "Make a question.",
+              "source": "Your sister is at home.",
               "accepted": [
-                "Are they in class?"
+                "Is your sister at home?"
               ],
-              "explanation": "Put are before they in a question.",
+              "explanation": "In a question, is comes first.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_07",
               "type": "transform",
-              "instruction": "Answer no about yourself. Use a short answer.",
-              "source": "Are you ready?",
+              "instruction": "Answer yes. Use a short answer.",
+              "source": "Are you ready for the test?",
               "accepted": [
-                "No, I am not.",
-                "No I am not.",
-                "No, I'm not.",
-                "No I'm not."
+                "Yes, I am.",
+                "Yes I am.",
+                "Yes, we are.",
+                "Yes we are."
               ],
-              "explanation": "Answer about yourself with I am not.",
+              "explanation": "You can be one person: Yes, I am. You can be a group: Yes, we are.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_am_is_and_are_practice_q_08",
               "type": "transform",
-              "instruction": "Use she instead of Emma.",
-              "source": "Emma is a teacher.",
+              "instruction": "Answer no. Use a short answer with he and isn't.",
+              "source": "Is your brother tired?",
               "accepted": [
-                "She is a teacher.",
-                "She's a teacher."
+                "No, he isn't.",
+                "No he isn't."
               ],
-              "explanation": "Use she with is.",
+              "explanation": "Your brother is he. Say No, he isn't.",
               "targetId": "present_simple_to_be",
               "checking": "grammar"
             }
           ],
-          "rule": "You meet someone at school.\n\nBe tells us who or where someone is.\n\nIt also tells us how someone feels.\n\nUse am with I.\n\nUse is with he, she and it.\n\nUse are with you, we and they.\n\nI am a student.\n\nEmma is a teacher. She is a teacher.\n\nBen is here. He is here.\n\nWe are at school.\n\nIt is sunny.\n\nUse it for the weather.\n\nFor questions, put am, is or are first.\n\nYou are ready.\n\nAre you ready?\n\nYes, I am.\n\nNo, I am not.\n\nAnswer with I when someone asks about you.\n\nTo say no, add not after be.\n\nI am not ready.\n\nWhere is Emma?\n\nShe is at school.\n\nShort forms:\n\nI'm = I am.\n\nIsn't = is not.\n\nAren't = are not.\n\nKeep am in Yes, I am.\n\nWrong: Do you are ready?\n\nWrite Are you ready? Put be first.\n\nStudy: Read these two sentences.\n\nYou are ready.\n\nAre you ready?\n\nWhich words change places?",
-          "version": "cbfc5ef4056108dc"
+          "rule": "Am, is and are are the verb be. Be tells who, how old, how or where someone is.\n\n| Person | Be | Short form |\n|---|---|---|\n| I | **am** | **I'm** |\n| he, she, it | **is** | **he's, she's, it's** |\n| you, we, they | **are** | **you're, we're, they're** |\n\nHere are four ways to use be:\n\n| Sentence | Example |\n|---|---|\n| telling | She **is** ready. |\n| with not | She **is not** ready. She **isn't** ready. |\n| question | **Is** she ready? |\n| short answer | Yes, she **is**. / No, she **isn't**. |\n\n**Rule:** Match am, is or are to the person.\n\n- I **am** Ben. **I'm** at school.\n- **Is** Emma ready? Yes, **she is**. / No, **she isn't**. (Emma = she)\n- **Are** you happy? Yes, **I am**. / No, **I'm not**.\n- Ben **is not** tired. **He isn't** tired. (Ben = he)\n- We **are** at school. They **are** at home.\n\n**Watch out:**\n- Wrong: *She are ready.* Right: **She is ready.** Use is with he, she and it.\n- **Are you happy?** Wrong: *Yes, you are.* Right: **Yes, I am.** Answer about yourself with I. Answer about your group with we: **Yes, we are.**",
+          "version": "0e35d411fe4adba0"
         },
         {
           "id": "grammar-spelling:sentences:practice:core.sentence_order",
@@ -1582,94 +1694,127 @@
             {
               "id": "blk_part_02_english_sentence_order_practice_q_01",
               "type": "multiple_choice",
-              "prompt": "___ is here.",
+              "prompt": "___ is in the park.",
               "choices": [
-                "My bag",
-                "Bag my",
-                "They"
+                "Ben",
+                "Is",
+                "Are"
               ],
-              "answer": "My bag",
-              "explanation": "Start a statement with who or what.",
+              "answer": "Ben",
+              "explanation": "The person comes first, then the verb.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_english_sentence_order_practice_q_02",
               "type": "match_pairs",
-              "instruction": "Match the starts and endings.",
+              "instruction": "Match the question and the answer.",
               "pairs": [
                 [
-                  "We",
-                  "read."
+                  "Is Ben at school?",
+                  "Yes, he is."
                 ],
                 [
-                  "The bag",
-                  "is here."
+                  "Are you tired?",
+                  "No, I'm not."
                 ],
                 [
-                  "Are",
-                  "they ready?"
+                  "Is Emma tired?",
+                  "No, she isn't."
+                ],
+                [
+                  "Are they ready?",
+                  "Yes, they are."
                 ]
               ],
-              "explanation": "Start a statement with who, but a be question with be.",
+              "explanation": "Answer with the right person: Ben is he, Emma is she.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_english_sentence_order_practice_q_03",
               "type": "word_bank",
-              "instruction": "Make a sentence.",
-              "sourceJa": "彼らはサッカーをします。",
-              "answer": "They play football.",
+              "instruction": "Put the words in order.",
+              "sourceJa": "私たちは放課後に本を読みます。",
+              "answer": "We read books after school.",
+              "acceptedOrders": [],
               "distractors": [
                 "are",
-                "is"
+                "reads"
               ],
-              "explanation": "Put they first, then play, then football.",
+              "explanation": "The person comes first, then the verb, then more words.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_english_sentence_order_practice_q_04",
-              "type": "type_answer",
-              "prompt": "Where ___ my bag?",
-              "accepted": [
-                "is"
+              "type": "word_bank",
+              "instruction": "Make a question.",
+              "sourceJa": "エマは教室にいますか？",
+              "answer": "Is Emma in the classroom?",
+              "acceptedOrders": [],
+              "distractors": [
+                "Does",
+                "Are"
               ],
-              "hint": "Ask about one thing.",
-              "explanation": "Put is after where and before my bag.",
+              "explanation": "In a question, is comes first.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_english_sentence_order_practice_q_05",
-              "type": "transform",
-              "instruction": "Change the question to a statement.",
-              "source": "Are they happy?",
+              "type": "type_answer",
+              "prompt": "Write the first word: ___ they at home? Yes, they are.",
               "accepted": [
-                "They are happy.",
-                "They're happy."
+                "Are"
               ],
-              "explanation": "Put they before are in a statement.",
+              "hint": "In a question, be comes first. Which be goes with they?",
+              "explanation": "Use are with they. Are comes first in the question.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_english_sentence_order_practice_q_06",
               "type": "transform",
-              "instruction": "Ask where the bag is. Keep the bag.",
-              "source": "The bag is here.",
+              "instruction": "Make a question.",
+              "source": "Ben is in the park.",
               "accepted": [
-                "Where is the bag?",
-                "Where's the bag?"
+                "Is Ben in the park?"
               ],
-              "explanation": "Put where first, then is, then the bag.",
+              "explanation": "Put is first, then Ben.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_07",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We are at home.",
+              "accepted": [
+                "We are not at home.",
+                "We aren't at home.",
+                "We're not at home."
+              ],
+              "explanation": "Not comes after are.",
+              "targetId": "core.sentence_order",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_08",
+              "type": "transform",
+              "instruction": "Ask where Emma is. Start with Where.",
+              "source": "Emma is in the garden.",
+              "accepted": [
+                "Where is Emma?",
+                "Where's Emma?"
+              ],
+              "explanation": "Where comes first, then is, then Emma.",
               "targetId": "core.sentence_order",
               "checking": "grammar"
             }
           ],
-          "rule": "A statement tells us something.\n\nStart with who or what.\n\nThen put its verb.\n\nAdd other words if you need them.\n\nRead and be are verbs.\n\nWe read.\n\nThey play football.\n\nHe is happy.\n\nThe bag is here.\n\nWe can stop after read.\n\nThe bag is here.\n\nIs the bag here?\n\nWhere is the bag?\n\nWhere asks about a place.\n\nPut this question word before is.\n\nWrong: Is here the bag.\n\nWrite The bag is here.\n\nStudy: Read the statement and its two questions.\n\nFind the bag in each.",
-          "version": "022426912771a097"
+          "rule": "English words go in order. The person comes first, then the verb. The verb is a word like is, read or have.\n\n| Person | Verb | More words |\n|---|---|---|\n| Ben | **is** | happy. |\n| We | **read** | books. |\n\nIn a question, be comes before the person:\n\n| Be | Person | More words |\n|---|---|---|\n| **Is** | Ben | happy? |\n| **Are** | they | at school? |\n\nA question word, like where, comes before be:\n\n| Question word | Be | Person |\n|---|---|---|\n| **Where** | **is** | Emma? |\n| **Where** | **are** | they? |\n\n**Rule:** The person comes before the verb. In a question, be comes before the person. A question word, like where, comes first.\n\n- **Ben is** happy.\n- **We read.** This short sentence is OK.\n- **They play** games after school.\n- **Is Ben** happy? Yes, **he is**. / No, **he isn't**.\n- **They are not** at school.\n- **Where is** Emma? She is in the park.\n\n**Watch out:**\n- Wrong: *Happy is Ben.* Right: **Ben is happy.** The person comes first.\n- Wrong: *Where Emma is?* Right: **Where is Emma?** Is comes right after where.",
+          "version": "d01a004c818e7472"
         },
         {
           "id": "grammar-spelling:sentences:practice:core.be_or_verb",
@@ -1678,102 +1823,119 @@
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_01",
               "type": "multiple_choice",
-              "prompt": "I ___ to class.",
+              "prompt": "We ___ to school.",
               "choices": [
                 "walk",
-                "am",
-                "is"
+                "are",
+                "am"
               ],
               "answer": "walk",
-              "explanation": "Walk shows the action.",
+              "explanation": "Walk is a doing word. Do not add are.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             },
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_02",
               "type": "match_pairs",
-              "instruction": "Match each word to its sentence.",
+              "instruction": "Match the start and the end.",
               "pairs": [
                 [
-                  "am",
-                  "I ___ ready."
+                  "I am",
+                  "tired."
                 ],
                 [
-                  "read",
-                  "We ___ books."
+                  "I eat",
+                  "rice."
                 ],
                 [
-                  "is",
-                  "She ___ happy."
+                  "I play",
+                  "games."
+                ],
+                [
+                  "I drink",
+                  "milk."
                 ]
               ],
-              "explanation": "Be tells how someone feels, and read shows an action.",
+              "explanation": "Am tells a feeling. Eat, play and drink are doing words.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             },
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_03",
               "type": "word_bank",
-              "instruction": "Make a sentence.",
-              "sourceJa": "私は家で本を読みます。",
-              "answer": "I read books at home.",
+              "instruction": "Put the words in order.",
+              "sourceJa": "私たちは家で朝ごはんを食べます。",
+              "answer": "We eat breakfast at home.",
+              "acceptedOrders": [],
               "distractors": [
-                "am",
-                "are"
+                "are",
+                "is"
               ],
-              "explanation": "Read is the action verb, so do not add am.",
+              "explanation": "Eat is the doing word, so do not add are.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             },
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_04",
               "type": "error_spot",
-              "sentence": "We are football.",
-              "wrong": "are",
-              "correction": "play",
-              "explanation": "Use play for the action.",
+              "sentence": "I eat happy today.",
+              "wrong": "eat",
+              "correction": "am",
+              "explanation": "Happy is a feeling, so use am.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             },
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_05",
               "type": "type_answer",
-              "prompt": "Choose am or walk: I ___ ready.",
+              "prompt": "Write am or walk: I ___ tired.",
               "accepted": [
                 "am"
               ],
-              "hint": "This sentence tells how I feel.",
-              "explanation": "Use am to tell how I feel.",
+              "hint": "Is tired a doing word?",
+              "explanation": "Tired is a feeling, so use am.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             },
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_06",
-              "type": "transform",
-              "instruction": "Remove the extra word.",
-              "source": "We are play football.",
+              "type": "type_answer",
+              "prompt": "Write is or play: ___ Ben tired?",
               "accepted": [
-                "We play football."
+                "Is"
               ],
-              "explanation": "Play is the action verb, so remove are.",
+              "hint": "Tired is a feeling.",
+              "explanation": "Tired is a feeling, so use is. Is comes first in a question.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             },
             {
               "id": "blk_part_03_be_or_an_action_verb_practice_q_07",
               "type": "transform",
-              "instruction": "Choose are or play. Write the complete sentence.",
-              "source": "They ___ football.",
+              "instruction": "Take away the extra word.",
+              "source": "They are run in the park.",
               "accepted": [
-                "They play football."
+                "They run in the park."
               ],
-              "explanation": "Play shows what they do.",
+              "explanation": "Run is the doing word, so take away are.",
+              "targetId": "core.be_or_verb",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_03_be_or_an_action_verb_practice_q_08",
+              "type": "transform",
+              "instruction": "Write the full sentence. Choose are or cook. Meaning: 彼らは夕ごはんを作ります。",
+              "source": "They ___ dinner.",
+              "accepted": [
+                "They cook dinner."
+              ],
+              "explanation": "Cook is the doing word. They are dinner is wrong.",
               "targetId": "core.be_or_verb",
               "checking": "grammar"
             }
           ],
-          "rule": "Be tells who, where or how.\n\nAn action verb tells what someone does.\n\nI am ready.\n\nI walk to school.\n\nWe are happy.\n\nWe play football.\n\nI read books at home.\n\nWalk, play and read show actions.\n\nUse be or an action verb in these sentences.\n\nWrong: I am go to school.\n\nWrite I go to school.\n\nGo is the verb here.\n\nDo not add am before go.\n\nStudy: Read I am ready and I walk.\n\nWhich sentence has an action?",
-          "version": "ca7fdc15fce83f60"
+          "rule": "Be is a verb. It tells who, how or where someone is. Some other verbs tell what someone does. Walk, eat and play are action verbs, or doing words. Have and know are verbs too.\n\n| Be | Doing word |\n|---|---|\n| I **am** tired. | I **eat** lunch. |\n| We **are** at school. | We **walk** to school. |\n| They **are** happy. | They **play** games. |\n\n**Rule:** Use be or another verb, not both.\n\n- I **am** tired. I **go to bed**.\n- **Is** Ben at the door? Yes, **he is**. / No, **he isn't**.\n- Emma and Ben **aren't** tired. They **play** games.\n- They **read** books after school.\n- You **walk** to school.\n\nYou learn other verbs with he, she and it later.\n\n**Watch out:**\n- Wrong: *I am go to school.* Right: **I go to school.** Go is the doing word. Am is extra.\n- Wrong: *She happy.* Right: **She is happy.** Happy is not a verb.",
+          "version": "baec421f3ec1ad1d"
         },
         {
           "id": "grammar-spelling:sentences:practice:spl.capitals",
@@ -1782,21 +1944,21 @@
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_01",
               "type": "multiple_choice",
-              "prompt": "___ am here.",
+              "prompt": "The word ___ always has a capital letter.",
               "choices": [
                 "I",
-                "me",
-                "my"
+                "you",
+                "we"
               ],
               "answer": "I",
-              "explanation": "Always write I with a capital.",
+              "explanation": "Always write I as a capital letter. You and we need one only at the start.",
               "targetId": "spl.capitals",
               "checking": "capitalisation"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_02",
               "type": "match_pairs",
-              "instruction": "Match each word to its capital form.",
+              "instruction": "Match the word to the right way to write it.",
               "pairs": [
                 [
                   "i",
@@ -1811,73 +1973,87 @@
                   "Ben"
                 ]
               ],
-              "explanation": "Use capitals for I and names.",
+              "explanation": "I and names need a capital letter.",
               "targetId": "spl.capitals",
               "checking": "capitalisation"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_03",
               "type": "word_bank",
-              "instruction": "Make a sentence with a capital and full stop.",
-              "sourceJa": "私は本を読みます。",
-              "answer": "I read books.",
+              "instruction": "Make a question.",
+              "sourceJa": "あなたはつかれていますか？",
+              "answer": "Are you tired?",
+              "acceptedOrders": [],
               "distractors": [
-                "are",
-                "am"
+                "Do",
+                "Is"
               ],
-              "explanation": "Use capital I and end the statement with a full stop.",
+              "explanation": "A question starts with a capital letter and ends with a question mark.",
               "targetId": "spl.capitals",
               "checking": "exact"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_04",
               "type": "error_spot",
-              "sentence": "i am happy.",
-              "wrong": "i",
-              "correction": "I",
-              "explanation": "Always write I with a capital.",
+              "sentence": "My friend is emma.",
+              "wrong": "emma",
+              "correction": "Emma",
+              "explanation": "A name starts with a capital letter.",
               "targetId": "spl.capitals",
               "checking": "capitalisation"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_05",
               "type": "type_answer",
-              "prompt": "Fix the capitals: i am ben. Write: ___",
+              "prompt": "Write it with capital letters and a full stop. my dog is max → ___",
               "accepted": [
-                "I am Ben."
+                "My dog is Max."
               ],
-              "hint": "Look at the first word and the name.",
-              "explanation": "Use capitals for I and names.",
+              "hint": "Look at the first word, the name and the end.",
+              "explanation": "Start with a capital letter. Names need one too. End with a full stop.",
               "targetId": "spl.capitals",
-              "checking": "capitalisation"
+              "checking": "exact"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_06",
               "type": "transform",
-              "instruction": "Put the words in order. Add capitals and a full stop.",
-              "source": "here ben is",
+              "instruction": "Put one space between words. Add a capital letter and a full stop.",
+              "source": "wearelate",
               "accepted": [
-                "Ben is here."
+                "We are late."
               ],
-              "explanation": "Start Ben with a capital and add a full stop.",
+              "explanation": "Put one space between words. A telling sentence ends with a full stop.",
               "targetId": "spl.capitals",
               "checking": "exact"
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_07",
               "type": "transform",
-              "instruction": "Make a yes/no question. Add a capital and a question mark.",
-              "source": "you are ready",
+              "instruction": "Make a question. Add capital letters and a question mark.",
+              "source": "ben is tired",
               "accepted": [
-                "Are you ready?"
+                "Is Ben tired?"
               ],
-              "explanation": "Put Are first and end with a question mark.",
+              "explanation": "Is comes first. Ben needs a capital letter. A question ends with a question mark.",
+              "targetId": "spl.capitals",
+              "checking": "exact"
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_08",
+              "type": "transform",
+              "instruction": "Say it with not. Add capital letters and a full stop.",
+              "source": "emma and i are late",
+              "accepted": [
+                "Emma and I are not late.",
+                "Emma and I aren't late."
+              ],
+              "explanation": "Emma and I need capital letters. Not comes after are. End with a full stop.",
               "targetId": "spl.capitals",
               "checking": "exact"
             }
           ],
-          "rule": "A capital letter is a big letter, like A.\n\nUse a big letter to start each sentence.\n\nAlways write a big I.\n\nNames start with big letters too.\n\nI am Ben.\n\nEmma is here.\n\nWe read books.\n\nAre you ready?\n\nEnd a statement with a full stop.\n\nEnd a question with a question mark.\n\nWrong: i am ben\n\nWrite I am Ben.\n\nStudy: Read these two sentences.\n\nEmma is here.\n\nIs Emma here?\n\nFind each big letter, full stop and question mark.",
-          "version": "9789d547f73b7e58"
+          "rule": "A sentence starts with a capital letter. A capital letter is a big letter, like A or B. A sentence ends with a full stop or a question mark.\n\n| Sentence | Ends with | Example |\n|---|---|---|\n| telling | full stop . | **Emma** is here**.** |\n| asking | question mark ? | **Is** Emma here**?** |\n\n**Rule:** Start with a capital letter. End with a full stop or a question mark.\n\n- **I** am here**.**\n- **Emma** and **I** are friends**.**\n- **Is** Ben ready**?** Yes, he is**.**\n- **They** are not late**.**\n\n**Watch out:**\n- Wrong: *are you ready.* Right: **Are you ready?** A question ends with a question mark.\n- Wrong: *ben and i play.* Right: **Ben and I play.** Names and I need a capital letter.\n- Wrong: *Weareready.* Right: **We are ready.** Put one space between words.\n\n**Spelling:**\n- Always write **I** as a capital letter.\n- Names start with a capital letter: **Emma**, **Ben**.",
+          "version": "b60c6ed0fd6be5bd"
         }
       ]
     },
@@ -1918,7 +2094,7 @@
           "mode": "check",
           "definition": {
             "id": "grammar-spelling:everyday-actions:check-a",
-            "version": "52dbec6faf9933f6",
+            "version": "695c9f719ac5a69b",
             "title": "Check your understanding",
             "items": [
               {
@@ -1936,16 +2112,13 @@
               {
                 "id": "ca-02",
                 "targetId": "present_simple_habits",
-                "type": "multiple_choice",
-                "checking": "grammar",
-                "prompt": "We ___ pictures after lunch.",
-                "choices": [
-                  "draw",
-                  "am draw",
-                  "are draw"
+                "type": "type_answer",
+                "checking": "spelling",
+                "prompt": "We ___ our names on the paper. (書く)",
+                "accepted": [
+                  "write"
                 ],
-                "answer": "draw",
-                "explanation": "Use the simple verb after we."
+                "explanation": "Write starts with a silent w. After we, use the simple verb."
               },
               {
                 "id": "ca-03",
@@ -1965,12 +2138,12 @@
                 "type": "transform",
                 "checking": "grammar",
                 "instruction": "Give a short yes answer about yourself.",
-                "source": "Do you like cats?",
+                "source": "Do you like carrots?",
                 "accepted": [
                   "Yes, I do.",
                   "Yes I do."
                 ],
-                "explanation": "You becomes I when you answer about yourself."
+                "explanation": "When you means only you, answer with I."
               },
               {
                 "id": "ca-05",
@@ -2030,7 +2203,7 @@
           "mode": "check",
           "definition": {
             "id": "grammar-spelling:everyday-actions:check-b",
-            "version": "66ab6b8493662ca7",
+            "version": "f09473793192d034",
             "title": "Check your understanding",
             "items": [
               {
@@ -2048,16 +2221,13 @@
               {
                 "id": "cb-02",
                 "targetId": "present_simple_habits",
-                "type": "multiple_choice",
-                "checking": "grammar",
-                "prompt": "They ___ the dishes after dinner.",
-                "choices": [
-                  "are wash",
-                  "wash",
-                  "am wash"
+                "type": "type_answer",
+                "checking": "spelling",
+                "prompt": "They ___ the dishes after dinner. (洗う)",
+                "accepted": [
+                  "wash"
                 ],
-                "answer": "wash",
-                "explanation": "Use the simple verb after they."
+                "explanation": "Wash ends in sh. After they, use the simple verb."
               },
               {
                 "id": "cb-03",
@@ -2086,7 +2256,7 @@
                   "No, I don’t.",
                   "No I don’t."
                 ],
-                "explanation": "You becomes I when you answer about yourself."
+                "explanation": "When you means only you, answer with I."
               },
               {
                 "id": "cb-05",
@@ -2145,7 +2315,7 @@
           "mode": "review",
           "definition": {
             "id": "grammar-spelling:everyday-actions:review-a",
-            "version": "6982258c726c4de4",
+            "version": "2af53f269df54c2d",
             "title": "Review what you remember",
             "items": [
               {
@@ -2163,16 +2333,14 @@
               {
                 "id": "ra-02",
                 "targetId": "present_simple_habits",
-                "type": "multiple_choice",
-                "checking": "grammar",
-                "prompt": "I ___ my teeth after breakfast.",
-                "choices": [
-                  "am brush",
+                "type": "type_answer",
+                "checking": "spelling",
+                "prompt": "I ___ my teeth after breakfast. (歯をみがく)",
+                "accepted": [
                   "brush",
-                  "are brush"
+                  "clean"
                 ],
-                "answer": "brush",
-                "explanation": "Use the simple verb after I."
+                "explanation": "Brush ends in sh. After I, use the simple verb."
               },
               {
                 "id": "ra-03",
@@ -2180,9 +2348,9 @@
                 "type": "transform",
                 "checking": "grammar",
                 "instruction": "Make a yes/no question. Keep we.",
-                "source": "We need pencils.",
+                "source": "We need boots in winter.",
                 "accepted": [
-                  "Do we need pencils?"
+                  "Do we need boots in winter?"
                 ],
                 "explanation": "Put do before we in this question."
               },
@@ -2262,40 +2430,44 @@
             {
               "id": "blk_part_01_everyday_actions_practice_q_01",
               "type": "multiple_choice",
-              "prompt": "They ___ at home after school.",
+              "prompt": "They ___ games after school.",
               "choices": [
-                "plays",
                 "play",
-                "playing"
+                "are",
+                "am"
               ],
               "answer": "play",
-              "explanation": "Use the simple verb after they.",
+              "explanation": "Play is the verb. Do not put am or are before it.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_everyday_actions_practice_q_02",
               "type": "match_pairs",
-              "instruction": "Match the sentences.",
+              "instruction": "Match each verb with its meaning.",
               "pairs": [
                 [
-                  "I read.",
-                  "私は読みます。"
+                  "read",
+                  "読む"
                 ],
                 [
-                  "You eat breakfast.",
-                  "あなたは朝食を食べます。"
+                  "eat",
+                  "食べる"
                 ],
                 [
-                  "We walk to school.",
-                  "私たちは学校へ歩いて行きます。"
+                  "walk",
+                  "歩く"
                 ],
                 [
-                  "They play at home.",
-                  "彼らは家で遊びます。"
+                  "like",
+                  "好きだ"
+                ],
+                [
+                  "need",
+                  "必要だ"
                 ]
               ],
-              "explanation": "I, you, we, and they use the simple verb.",
+              "explanation": "These are ordinary verbs. They stay the same after I, you, we and they.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             },
@@ -2303,65 +2475,79 @@
               "id": "blk_part_01_everyday_actions_practice_q_03",
               "type": "word_bank",
               "instruction": "Make a sentence.",
-              "sourceJa": "私たちは月曜日に学校へ歩いて行きます。",
-              "answer": "We walk to school on Mondays.",
+              "sourceJa": "私たちは新しい靴が必要です。",
+              "answer": "We need new shoes.",
+              "acceptedOrders": [],
               "distractors": [
-                "am",
-                "are"
+                "are",
+                "am"
               ],
-              "explanation": "Use the simple verb after we.",
+              "explanation": "Need is an ordinary verb. After we, use the simple verb with no be.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_everyday_actions_practice_q_04",
               "type": "error_spot",
-              "sentence": "They plays at home after school.",
-              "wrong": "plays",
-              "correction": "play",
-              "explanation": "Use play after they.",
+              "sentence": "I reading a book every night.",
+              "wrong": "reading",
+              "correction": "read",
+              "explanation": "After I, use the simple verb read for things you do often.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_everyday_actions_practice_q_05",
               "type": "type_answer",
-              "prompt": "Use eat. You ___ breakfast every day.",
+              "prompt": "We ___ rice for dinner. (食べる)",
               "accepted": [
-                "eat"
+                "eat",
+                "have"
               ],
-              "hint": "Keep the action word the same.",
-              "explanation": "Use the simple verb after you.",
+              "hint": "Think of the verb for food. It stays the same after we.",
+              "explanation": "After we, use the simple verb.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_everyday_actions_practice_q_06",
-              "type": "transform",
-              "instruction": "Change I to we.",
-              "source": "I read every day.",
+              "type": "type_answer",
+              "prompt": "They ___ music. (好きだ)",
               "accepted": [
-                "We read every day."
+                "like"
               ],
-              "explanation": "The verb stays the same after we.",
+              "hint": "This verb tells how you feel. It is not an action.",
+              "explanation": "Like is an ordinary verb. It stays the same after they.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             },
             {
               "id": "blk_part_01_everyday_actions_practice_q_07",
               "type": "transform",
-              "instruction": "Change we to they.",
-              "source": "We walk to school on Mondays.",
+              "instruction": "Change I to we.",
+              "source": "I walk to the park after school.",
               "accepted": [
-                "They walk to school on Mondays."
+                "We walk to the park after school."
+              ],
+              "explanation": "The verb stays the same after we.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_08",
+              "type": "transform",
+              "instruction": "Change you to they.",
+              "source": "You need a towel for swimming.",
+              "accepted": [
+                "They need a towel for swimming."
               ],
               "explanation": "The verb stays the same after they.",
               "targetId": "present_simple_habits",
               "checking": "grammar"
             }
           ],
-          "rule": "Use the present simple for things you do often.\n\nPut I, you, we, or they before read or play.\n\nRead stays the same with these four words.\n\nI read every day.\n\nYou eat breakfast every day.\n\nWe walk to school on Mondays.\n\nThey play at home after school.\n\nRead is an ordinary verb: it tells us an action.\n\nReady tells us how someone is.\n\nI read. I am ready.\n\nUse am with ready.\n\nSay I read, not I am read.\n\nSay one true sentence about your day.",
-          "version": "a2763cd4c7989d84"
+          "rule": "Use the present simple for things you do often. Read and like are ordinary verbs. Read is an action. Like is not. This unit is about I, you, we and they. He, she and it come in Unit 3.\n\n| Person | Verb |\n|---|---|\n| I | **read** |\n| you | **read** |\n| we | **read** |\n| they | **read** |\n\n**Rule:** After I, you, we and they, the verb stays the same.\n\n- I **read** books every day.\n- You **eat** breakfast at home.\n- We **walk** to school on Mondays.\n- I **like** cats. We **need** water.\n\n**Watch out:**\n- Wrong: *I am read*. Right: **I read**. Am is extra.\n- Wrong: *We walks to school*. Right: **We walk to school**. After we, the verb stays the same.",
+          "version": "23a0154c7ecf619d"
         },
         {
           "id": "grammar-spelling:everyday-actions:practice:question_forms",
@@ -2377,7 +2563,7 @@
                 "Am"
               ],
               "answer": "Do",
-              "explanation": "Use do for questions with read.",
+              "explanation": "Read is an ordinary verb, so the question uses do.",
               "targetId": "question_forms",
               "checking": "grammar"
             },
@@ -2387,19 +2573,19 @@
               "instruction": "Match each question with its answer.",
               "pairs": [
                 [
-                  "What do you read?",
-                  "Books."
+                  "What do you eat for lunch?",
+                  "Rice and fish."
                 ],
                 [
-                  "Where do you read?",
-                  "At home."
+                  "Where do you play?",
+                  "In the park."
                 ],
                 [
-                  "When do you read?",
-                  "After school."
+                  "When do you play?",
+                  "After dinner."
                 ]
               ],
-              "explanation": "What asks things; where asks places; when asks time.",
+              "explanation": "What asks about things. Where asks about places. When asks about times.",
               "targetId": "question_forms",
               "checking": "grammar"
             },
@@ -2407,66 +2593,82 @@
               "id": "blk_part_02_questions_and_negatives_with_do_practice_q_03",
               "type": "word_bank",
               "instruction": "Make a question.",
-              "sourceJa": "彼らは学校へ歩いて行きますか。",
-              "answer": "Do they walk to school?",
+              "sourceJa": "私たちはいつ夕食を食べますか。",
+              "answer": "When do we eat dinner?",
+              "acceptedOrders": [],
               "distractors": [
                 "are",
-                "am"
+                "is"
               ],
-              "explanation": "Put do before they in this question.",
+              "explanation": "The question word comes first, then do, the person and the verb.",
               "targetId": "question_forms",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_questions_and_negatives_with_do_practice_q_04",
-              "type": "error_spot",
-              "sentence": "Are you read at home?",
-              "wrong": "Are",
-              "correction": "Do",
-              "explanation": "Use do for questions with read.",
+              "type": "word_bank",
+              "instruction": "Make a sentence.",
+              "sourceJa": "私たちは公園で遊びません。",
+              "answer": "We do not play in the park.",
+              "acceptedOrders": [],
+              "distractors": [
+                "are",
+                "am"
+              ],
+              "explanation": "Put do not before the ordinary verb.",
               "targetId": "question_forms",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_questions_and_negatives_with_do_practice_q_05",
-              "type": "type_answer",
-              "prompt": "Answer yes about yourself. Do you read at home? Yes, ___.",
-              "accepted": [
-                "I do"
-              ],
-              "hint": "Use the word for yourself and the question helper.",
-              "explanation": "You becomes I when you answer about yourself.",
+              "type": "error_spot",
+              "sentence": "Are you need a pencil?",
+              "wrong": "Are",
+              "correction": "Do",
+              "explanation": "Need is an ordinary verb, so the question uses do.",
               "targetId": "question_forms",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_questions_and_negatives_with_do_practice_q_06",
               "type": "type_answer",
-              "prompt": "Answer no about yourself. Do you read at home? No, ___.",
+              "prompt": "Your friend asks only you: Do you walk to school? Yes, ___.",
               "accepted": [
-                "I do not",
-                "I don't"
+                "I do"
               ],
-              "hint": "Use the word for yourself and give a no answer.",
-              "explanation": "Use I do not for a short no answer.",
+              "hint": "Talk about yourself. Then use the first word of the question again.",
+              "explanation": "When you means only you, answer with I.",
               "targetId": "question_forms",
               "checking": "grammar"
             },
             {
               "id": "blk_part_02_questions_and_negatives_with_do_practice_q_07",
-              "type": "transform",
-              "instruction": "Make a yes/no question. Keep you.",
-              "source": "You read at home.",
+              "type": "type_answer",
+              "prompt": "A teacher asks you and your sister: Do you play tennis? No, ___.",
               "accepted": [
-                "Do you read at home?"
+                "we don't",
+                "we do not"
               ],
-              "explanation": "Put do before you in this question.",
+              "hint": "You and your sister are two people. Give a no answer.",
+              "explanation": "When you means a group, answer with we.",
+              "targetId": "question_forms",
+              "checking": "grammar"
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_08",
+              "type": "transform",
+              "instruction": "Ask about the place. Start with where.",
+              "source": "They eat lunch in the garden.",
+              "accepted": [
+                "Where do they eat lunch?"
+              ],
+              "explanation": "Where comes first, then do, they and the verb.",
               "targetId": "question_forms",
               "checking": "grammar"
             }
           ],
-          "rule": "For questions, put do before I, you, we, or they.\n\nThen add read, eat, walk, or play.\n\nFor no, put do not before read or play.\n\nYou read at home.\n\nDo you read at home?\n\nYes, I do. / No, I do not.\n\nI do not read at home.\n\nYou changes to I when you give your answer.\n\nDo they walk to school?\n\nYes, they do. / No, they do not.\n\nShort answers use do.\n\nDo not add read or walk after do.\n\nPut what, where, or when before do.\n\nWhat do you read? Books.\n\nWhere do you read? At home.\n\nWhen do you read? After school.\n\nWhat asks about things; where asks about places.\n\nWhen asks about time.\n\nAre you ready? uses be, so leave out do.",
-          "version": "fe0bf9aec3ccb732"
+          "rule": "Use do to ask and do not to say no.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nUse do not to say no:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** To ask, put do before the person. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Read is an ordinary verb.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
+          "version": "501871119f944313"
         },
         {
           "id": "grammar-spelling:everyday-actions:practice:spl.do_contractions",
@@ -2482,7 +2684,7 @@
                 "don't"
               ],
               "answer": "don't",
-              "explanation": "The apostrophe replaces the o in not.",
+              "explanation": "The apostrophe takes the place of the o in not.",
               "targetId": "spl.do_contractions",
               "checking": "spelling"
             },
@@ -2492,16 +2694,16 @@
               "instruction": "Match sentences with the same meaning.",
               "pairs": [
                 [
-                  "I do not play.",
-                  "I don't play."
+                  "I do not swim.",
+                  "I don't swim."
                 ],
                 [
-                  "We do not walk.",
-                  "We don't walk."
+                  "We do not sing.",
+                  "We don't sing."
                 ],
                 [
-                  "They do not eat.",
-                  "They don't eat."
+                  "They do not run.",
+                  "They don't run."
                 ]
               ],
               "explanation": "Don't and do not mean the same thing.",
@@ -2512,65 +2714,78 @@
               "id": "blk_part_03_don_t_and_do_not_practice_q_03",
               "type": "word_bank",
               "instruction": "Make a sentence.",
-              "sourceJa": "私たちは学校へ歩いて行きません。",
-              "answer": "We do not walk to school.",
+              "sourceJa": "私はケーキを食べません。",
+              "answer": "I don't eat cake.",
+              "acceptedOrders": [],
               "distractors": [
-                "am",
-                "are"
+                "dont",
+                "am"
               ],
-              "explanation": "Put do not before the simple verb.",
+              "explanation": "Put don't before the ordinary verb, and keep the apostrophe.",
               "targetId": "spl.do_contractions",
               "checking": "spelling"
             },
             {
               "id": "blk_part_03_don_t_and_do_not_practice_q_04",
               "type": "error_spot",
-              "sentence": "They dont eat breakfast at home.",
-              "wrong": "dont",
+              "sentence": "We do'nt like rainy days.",
+              "wrong": "do'nt",
               "correction": "don't",
-              "explanation": "Don't needs an apostrophe before t.",
+              "explanation": "The apostrophe goes between n and t.",
               "targetId": "spl.do_contractions",
               "checking": "spelling"
             },
             {
               "id": "blk_part_03_don_t_and_do_not_practice_q_05",
               "type": "type_answer",
-              "prompt": "Use the short form. You ___ read at home.",
+              "prompt": "Use the short form of do not. You ___ need a coat today.",
               "accepted": [
                 "don't"
               ],
-              "hint": "One small mark shows a missing letter.",
-              "explanation": "Don't needs an apostrophe before t.",
+              "hint": "One small mark takes the place of a letter.",
+              "explanation": "Don't has an apostrophe between n and t.",
               "targetId": "spl.do_contractions",
               "checking": "spelling"
             },
             {
               "id": "blk_part_03_don_t_and_do_not_practice_q_06",
               "type": "type_answer",
-              "prompt": "Use two words. They ___ eat breakfast at home.",
+              "prompt": "Use the full form. They ___ drink coffee.",
               "accepted": [
                 "do not"
               ],
-              "hint": "Make the short form longer.",
-              "explanation": "The full form is do not.",
+              "hint": "Two words, with no mark.",
+              "explanation": "The full form is do not, two words.",
               "targetId": "spl.do_contractions",
               "checking": "spelling"
             },
             {
               "id": "blk_part_03_don_t_and_do_not_practice_q_07",
               "type": "transform",
-              "instruction": "Use the full form.",
-              "source": "I don't play after school.",
+              "instruction": "Use the short form.",
+              "source": "We do not eat meat.",
               "accepted": [
-                "I do not play after school."
+                "We don't eat meat."
               ],
-              "explanation": "Don't and do not mean the same thing.",
+              "explanation": "Do not becomes don't, one word with an apostrophe.",
+              "targetId": "spl.do_contractions",
+              "checking": "spelling"
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_08",
+              "type": "transform",
+              "instruction": "Make this negative. Use don't.",
+              "source": "They play games after dinner.",
+              "accepted": [
+                "They don't play games after dinner."
+              ],
+              "explanation": "Put don't before the ordinary verb.",
               "targetId": "spl.do_contractions",
               "checking": "spelling"
             }
           ],
-          "rule": "Don't and do not mean the same thing.\n\nPut either before read, eat, walk, or play.\n\nI do not play after school.\n\nI don't play after school.\n\nYou don't read at home.\n\nWe don't walk to school.\n\nThey don't eat breakfast at home.\n\nIn don't, the letter o from not is not there.\n\nAn apostrophe shows this.\n\nPut the apostrophe before t.\n\nWrite don't as one word.\n\nDont is wrong: there is no apostrophe.",
-          "version": "bbad39db515a1aa2"
+          "rule": "Don't is the short form of do not.\n\n| Full form | Short form |\n|---|---|\n| I **do not** play. | I **don't** play. |\n| They **do not** eat. | They **don't** eat. |\n\n**Rule:** Don't and do not mean the same thing.\n\n- We **do not** walk to school.\n- We **don't** walk to school.\n- I **don't** like cats.\n- **Do** you play? No, I **don't**.\n\n**Watch out:**\n- Wrong: *dont* Right: **don't** Write the apostrophe.\n- Wrong: *do'nt* Right: **don't** The apostrophe goes where the o was.\n\n**Spelling:**\n- In **don't**, the o from not is gone.\n- The apostrophe **'** is in its place.",
+          "version": "a1f933ad276513b3"
         }
       ]
     },
@@ -2615,6 +2830,20 @@
       "title": "People and belongings",
       "level": "A1",
       "lessonSlug": "a1-grammar-people-and-belongings",
+      "partTargets": {
+        "I or Me, She or Her": [
+          "object_pronouns"
+        ],
+        "My Book, This Book": [
+          "possessive_adjectives"
+        ],
+        "Whose Is It": [
+          "jhs1.u7.whose_possessive"
+        ],
+        "Apostrophes for Belonging": [
+          "spl.possessive_apostrophe"
+        ]
+      },
       "targets": [
         {
           "id": "object_pronouns",
