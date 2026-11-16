@@ -4886,5 +4886,2193 @@
       "activities": [],
       "practiceActivities": []
     }
+  ],
+  "keyVerbs": [
+    {
+      "verb": "be",
+      "ja": "〜です、〜にいる",
+      "tip": [
+        "I am happy. / You are ready. / She is at home.",
+        "I am not tired. / He isn't late.",
+        "Are you ready? Yes, I am. / No, I'm not."
+      ],
+      "rounds": [
+        {
+          "id": "grammar-spelling:verbs:be:r1",
+          "title": "Be: round 1",
+          "items": [
+            {
+              "id": "be-r1-01",
+              "type": "multiple_choice",
+              "prompt": "I ___ happy.",
+              "choices": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answer": "am",
+              "explanation": "I goes with am.",
+              "hint": "Which word goes with I: am, is or are?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r1-02",
+              "type": "multiple_choice",
+              "prompt": "You ___ at home.",
+              "choices": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answer": "are",
+              "explanation": "You goes with are.",
+              "hint": "Which word goes with you: am, is or are?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r1-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Is he at school?",
+              "distractors": [],
+              "explanation": "In a question, am, is or are comes first.",
+              "hint": "Start with am, is or are.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r1-04",
+              "type": "error_spot",
+              "sentence": "She are tired.",
+              "wrong": "are",
+              "correction": "is",
+              "explanation": "She goes with is.",
+              "hint": "Which word goes with she?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r1-05",
+              "type": "type_answer",
+              "prompt": "Write am, is or are: We ___ ready.",
+              "accepted": [
+                "are"
+              ],
+              "explanation": "We goes with are.",
+              "hint": "Which word goes with we?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r1-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "I am in the park.",
+              "accepted": [
+                "I am not in the park.",
+                "I'm not in the park."
+              ],
+              "explanation": "Not comes after am, is or are.",
+              "hint": "Put not after am, is or are.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r1-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "You are hungry.",
+              "accepted": [
+                "Are you hungry?"
+              ],
+              "explanation": "In a question, am, is or are comes first.",
+              "hint": "Move am, is or are to the start. End with ?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r1-08",
+              "type": "transform",
+              "instruction": "Answer yes. Use a short answer.",
+              "source": "Is he late?",
+              "accepted": [
+                "Yes, he is.",
+                "Yes he is."
+              ],
+              "explanation": "Answer with he and is.",
+              "hint": "Answer with he.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            }
+          ],
+          "version": "41d90547c6281c8d"
+        },
+        {
+          "id": "grammar-spelling:verbs:be:r2",
+          "title": "Be: round 2",
+          "items": [
+            {
+              "id": "be-r2-01",
+              "type": "multiple_choice",
+              "prompt": "He ___ tired.",
+              "choices": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answer": "is",
+              "explanation": "He goes with is.",
+              "hint": "Which word goes with he: am, is or are?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r2-02",
+              "type": "multiple_choice",
+              "prompt": "She ___ ready.",
+              "choices": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answer": "is",
+              "explanation": "She goes with is.",
+              "hint": "Which word goes with she: am, is or are?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r2-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Are we in the park?",
+              "distractors": [],
+              "explanation": "In a question, am, is or are comes first.",
+              "hint": "Start with am, is or are.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r2-04",
+              "type": "error_spot",
+              "sentence": "They is hungry.",
+              "wrong": "is",
+              "correction": "are",
+              "explanation": "They goes with are.",
+              "hint": "Which word goes with they?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r2-05",
+              "type": "type_answer",
+              "prompt": "Write am, is or are: I ___ late.",
+              "accepted": [
+                "am"
+              ],
+              "explanation": "I goes with am.",
+              "hint": "Which word goes with I?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r2-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "He is busy.",
+              "accepted": [
+                "He is not busy.",
+                "He isn't busy."
+              ],
+              "explanation": "Not comes after am, is or are.",
+              "hint": "Put not after am, is or are.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r2-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "She is happy.",
+              "accepted": [
+                "Is she happy?"
+              ],
+              "explanation": "In a question, am, is or are comes first.",
+              "hint": "Move am, is or are to the start. End with ?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r2-08",
+              "type": "transform",
+              "instruction": "Answer yes. Use a short answer.",
+              "source": "Are we at home?",
+              "accepted": [
+                "Yes, we are.",
+                "Yes we are.",
+                "Yes, you are.",
+                "Yes you are."
+              ],
+              "explanation": "Answer with we and are.",
+              "hint": "Answer with we.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            }
+          ],
+          "version": "42b6f267c6ac47ca"
+        },
+        {
+          "id": "grammar-spelling:verbs:be:r3",
+          "title": "Be: round 3",
+          "items": [
+            {
+              "id": "be-r3-01",
+              "type": "multiple_choice",
+              "prompt": "We ___ hungry.",
+              "choices": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answer": "are",
+              "explanation": "We goes with are.",
+              "hint": "Which word goes with we: am, is or are?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r3-02",
+              "type": "multiple_choice",
+              "prompt": "They ___ late.",
+              "choices": [
+                "am",
+                "is",
+                "are"
+              ],
+              "answer": "are",
+              "explanation": "They goes with are.",
+              "hint": "Which word goes with they: am, is or are?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r3-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Am I busy?",
+              "distractors": [],
+              "explanation": "In a question, am, is or are comes first.",
+              "hint": "Start with am, is or are.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r3-04",
+              "type": "error_spot",
+              "sentence": "You is happy.",
+              "wrong": "is",
+              "correction": "are",
+              "explanation": "You goes with are.",
+              "hint": "Which word goes with you?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r3-05",
+              "type": "type_answer",
+              "prompt": "Write am, is or are: He ___ at home.",
+              "accepted": [
+                "is"
+              ],
+              "explanation": "He goes with is.",
+              "hint": "Which word goes with he?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r3-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We are at school.",
+              "accepted": [
+                "We are not at school.",
+                "We aren't at school."
+              ],
+              "explanation": "Not comes after am, is or are.",
+              "hint": "Put not after am, is or are.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r3-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "They are tired.",
+              "accepted": [
+                "Are they tired?"
+              ],
+              "explanation": "In a question, am, is or are comes first.",
+              "hint": "Move am, is or are to the start. End with ?",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            },
+            {
+              "id": "be-r3-08",
+              "type": "transform",
+              "instruction": "Answer yes. Use a short answer.",
+              "source": "Are you ready?",
+              "accepted": [
+                "Yes, I am.",
+                "Yes I am.",
+                "Yes, we are.",
+                "Yes we are."
+              ],
+              "explanation": "Answer with I and am.",
+              "hint": "Answer about yourself with I.",
+              "targetId": "present_simple_to_be",
+              "checking": "grammar"
+            }
+          ],
+          "version": "b92838e27ea67ddd"
+        }
+      ]
+    },
+    {
+      "verb": "have",
+      "ja": "持っている、飼っている",
+      "tip": [
+        "I have a dog. / We have a dog.",
+        "I don't have a dog.",
+        "Do you have a dog? Yes, I do. / No, I don't."
+      ],
+      "rounds": [
+        {
+          "id": "grammar-spelling:verbs:have:r1",
+          "title": "Have: round 1",
+          "items": [
+            {
+              "id": "have-r1-01",
+              "type": "multiple_choice",
+              "prompt": "I ___ a dog.",
+              "choices": [
+                "have",
+                "has",
+                "am have"
+              ],
+              "answer": "have",
+              "explanation": "After I, the verb stays the same: have.",
+              "hint": "After I, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r1-02",
+              "type": "multiple_choice",
+              "prompt": "___ they have a bike?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Have is a doing word, so the question starts with do.",
+              "hint": "Have is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r1-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do you have a big bag?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r1-04",
+              "type": "error_spot",
+              "sentence": "They has two cats.",
+              "wrong": "has",
+              "correction": "have",
+              "explanation": "After they, the verb stays the same: have.",
+              "hint": "After they, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r1-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: I ___ a red pen. (持っている)",
+              "accepted": [
+                "have"
+              ],
+              "explanation": "After I, use have.",
+              "hint": "After I, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r1-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "You have a new phone.",
+              "accepted": [
+                "You do not have a new phone.",
+                "You don't have a new phone."
+              ],
+              "explanation": "Put do not or don't before have.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r1-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "You have a sister.",
+              "accepted": [
+                "Do you have a sister?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r1-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do we have lunch at school?",
+              "accepted": [
+                "No, you don't.",
+                "No you don't.",
+                "No, you do not.",
+                "No you do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with you and don't.",
+              "hint": "Answer with you.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "754e4687c7235d4e"
+        },
+        {
+          "id": "grammar-spelling:verbs:have:r2",
+          "title": "Have: round 2",
+          "items": [
+            {
+              "id": "have-r2-01",
+              "type": "multiple_choice",
+              "prompt": "You ___ two cats.",
+              "choices": [
+                "have",
+                "has",
+                "am have"
+              ],
+              "answer": "have",
+              "explanation": "After you, the verb stays the same: have.",
+              "hint": "After you, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r2-02",
+              "type": "multiple_choice",
+              "prompt": "___ you have a red pen?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Have is a doing word, so the question starts with do.",
+              "hint": "Have is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r2-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do we have a new phone?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r2-04",
+              "type": "error_spot",
+              "sentence": "I has a sister.",
+              "wrong": "has",
+              "correction": "have",
+              "explanation": "After I, the verb stays the same: have.",
+              "hint": "After I, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r2-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: You ___ lunch at school. (持っている)",
+              "accepted": [
+                "have"
+              ],
+              "explanation": "After you, use have.",
+              "hint": "After you, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r2-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We have a garden.",
+              "accepted": [
+                "We do not have a garden.",
+                "We don't have a garden."
+              ],
+              "explanation": "Put do not or don't before have.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r2-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "We have a dog.",
+              "accepted": [
+                "Do we have a dog?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r2-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do they have a bike?",
+              "accepted": [
+                "No, they don't.",
+                "No they don't.",
+                "No, they do not.",
+                "No they do not."
+              ],
+              "explanation": "Answer with they and don't.",
+              "hint": "Answer with they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "04607a77e12c8837"
+        },
+        {
+          "id": "grammar-spelling:verbs:have:r3",
+          "title": "Have: round 3",
+          "items": [
+            {
+              "id": "have-r3-01",
+              "type": "multiple_choice",
+              "prompt": "We ___ a sister.",
+              "choices": [
+                "have",
+                "has",
+                "am have"
+              ],
+              "answer": "have",
+              "explanation": "After we, the verb stays the same: have.",
+              "hint": "After we, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r3-02",
+              "type": "multiple_choice",
+              "prompt": "___ we have lunch at school?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Have is a doing word, so the question starts with do.",
+              "hint": "Have is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r3-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do they have a garden?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r3-04",
+              "type": "error_spot",
+              "sentence": "You has a dog.",
+              "wrong": "has",
+              "correction": "have",
+              "explanation": "After you, the verb stays the same: have.",
+              "hint": "After you, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r3-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: We ___ a bike. (持っている)",
+              "accepted": [
+                "have"
+              ],
+              "explanation": "After we, use have.",
+              "hint": "After we, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r3-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "They have a big bag.",
+              "accepted": [
+                "They do not have a big bag.",
+                "They don't have a big bag."
+              ],
+              "explanation": "Put do not or don't before have.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r3-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "They have two cats.",
+              "accepted": [
+                "Do they have two cats?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "have-r3-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do you have a red pen?",
+              "accepted": [
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "8c3efcd0c4f959a8"
+        }
+      ]
+    },
+    {
+      "verb": "like",
+      "ja": "好きだ",
+      "tip": [
+        "I like music. / We like music.",
+        "I don't like music.",
+        "Do you like music? Yes, I do. / No, I don't."
+      ],
+      "rounds": [
+        {
+          "id": "grammar-spelling:verbs:like:r1",
+          "title": "Like: round 1",
+          "items": [
+            {
+              "id": "like-r1-01",
+              "type": "multiple_choice",
+              "prompt": "I ___ music.",
+              "choices": [
+                "like",
+                "likes",
+                "am like"
+              ],
+              "answer": "like",
+              "explanation": "After I, the verb stays the same: like.",
+              "hint": "After I, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r1-02",
+              "type": "multiple_choice",
+              "prompt": "___ they like cats?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Like is a doing word, so the question starts with do.",
+              "hint": "Like is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r1-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do you like pizza?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r1-04",
+              "type": "error_spot",
+              "sentence": "They likes English.",
+              "wrong": "likes",
+              "correction": "like",
+              "explanation": "After they, the verb stays the same: like.",
+              "hint": "After they, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r1-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: I ___ football. (好きだ)",
+              "accepted": [
+                "like"
+              ],
+              "explanation": "After I, use like.",
+              "hint": "After I, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r1-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "You like rice.",
+              "accepted": [
+                "You do not like rice.",
+                "You don't like rice."
+              ],
+              "explanation": "Put do not or don't before like.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r1-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "You like apples.",
+              "accepted": [
+                "Do you like apples?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r1-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do we like games?",
+              "accepted": [
+                "No, you don't.",
+                "No you don't.",
+                "No, you do not.",
+                "No you do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with you and don't.",
+              "hint": "Answer with you.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "03aec9b3f5969d15"
+        },
+        {
+          "id": "grammar-spelling:verbs:like:r2",
+          "title": "Like: round 2",
+          "items": [
+            {
+              "id": "like-r2-01",
+              "type": "multiple_choice",
+              "prompt": "You ___ English.",
+              "choices": [
+                "like",
+                "likes",
+                "am like"
+              ],
+              "answer": "like",
+              "explanation": "After you, the verb stays the same: like.",
+              "hint": "After you, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r2-02",
+              "type": "multiple_choice",
+              "prompt": "___ you like football?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Like is a doing word, so the question starts with do.",
+              "hint": "Like is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r2-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do we like rice?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r2-04",
+              "type": "error_spot",
+              "sentence": "I likes apples.",
+              "wrong": "likes",
+              "correction": "like",
+              "explanation": "After I, the verb stays the same: like.",
+              "hint": "After I, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r2-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: You ___ games. (好きだ)",
+              "accepted": [
+                "like"
+              ],
+              "explanation": "After you, use like.",
+              "hint": "After you, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r2-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We like the park.",
+              "accepted": [
+                "We do not like the park.",
+                "We don't like the park."
+              ],
+              "explanation": "Put do not or don't before like.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r2-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "We like music.",
+              "accepted": [
+                "Do we like music?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r2-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do they like cats?",
+              "accepted": [
+                "No, they don't.",
+                "No they don't.",
+                "No, they do not.",
+                "No they do not."
+              ],
+              "explanation": "Answer with they and don't.",
+              "hint": "Answer with they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "941abb75386df878"
+        },
+        {
+          "id": "grammar-spelling:verbs:like:r3",
+          "title": "Like: round 3",
+          "items": [
+            {
+              "id": "like-r3-01",
+              "type": "multiple_choice",
+              "prompt": "We ___ apples.",
+              "choices": [
+                "like",
+                "likes",
+                "am like"
+              ],
+              "answer": "like",
+              "explanation": "After we, the verb stays the same: like.",
+              "hint": "After we, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r3-02",
+              "type": "multiple_choice",
+              "prompt": "___ we like games?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Like is a doing word, so the question starts with do.",
+              "hint": "Like is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r3-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do they like the park?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r3-04",
+              "type": "error_spot",
+              "sentence": "You likes music.",
+              "wrong": "likes",
+              "correction": "like",
+              "explanation": "After you, the verb stays the same: like.",
+              "hint": "After you, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r3-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: We ___ cats. (好きだ)",
+              "accepted": [
+                "like"
+              ],
+              "explanation": "After we, use like.",
+              "hint": "After we, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r3-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "They like pizza.",
+              "accepted": [
+                "They do not like pizza.",
+                "They don't like pizza."
+              ],
+              "explanation": "Put do not or don't before like.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r3-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "They like English.",
+              "accepted": [
+                "Do they like English?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "like-r3-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do you like football?",
+              "accepted": [
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "11ad44477a24432c"
+        }
+      ]
+    },
+    {
+      "verb": "need",
+      "ja": "必要だ",
+      "tip": [
+        "I need a pen. / We need a pen.",
+        "I don't need a pen.",
+        "Do you need a pen? Yes, I do. / No, I don't."
+      ],
+      "rounds": [
+        {
+          "id": "grammar-spelling:verbs:need:r1",
+          "title": "Need: round 1",
+          "items": [
+            {
+              "id": "need-r1-01",
+              "type": "multiple_choice",
+              "prompt": "I ___ a pen.",
+              "choices": [
+                "need",
+                "needs",
+                "am need"
+              ],
+              "answer": "need",
+              "explanation": "After I, the verb stays the same: need.",
+              "hint": "After I, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r1-02",
+              "type": "multiple_choice",
+              "prompt": "___ they need water?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Need is a doing word, so the question starts with do.",
+              "hint": "Need is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r1-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do you need a new bag?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r1-04",
+              "type": "error_spot",
+              "sentence": "They needs help.",
+              "wrong": "needs",
+              "correction": "need",
+              "explanation": "After they, the verb stays the same: need.",
+              "hint": "After they, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r1-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: I ___ a coat. (必要だ)",
+              "accepted": [
+                "need"
+              ],
+              "explanation": "After I, use need.",
+              "hint": "After I, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r1-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "You need a towel.",
+              "accepted": [
+                "You do not need a towel.",
+                "You don't need a towel."
+              ],
+              "explanation": "Put do not or don't before need.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r1-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "You need some paper.",
+              "accepted": [
+                "Do you need some paper?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r1-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do we need a map?",
+              "accepted": [
+                "No, you don't.",
+                "No you don't.",
+                "No, you do not.",
+                "No you do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with you and don't.",
+              "hint": "Answer with you.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "d95bf395d32990e8"
+        },
+        {
+          "id": "grammar-spelling:verbs:need:r2",
+          "title": "Need: round 2",
+          "items": [
+            {
+              "id": "need-r2-01",
+              "type": "multiple_choice",
+              "prompt": "You ___ help.",
+              "choices": [
+                "need",
+                "needs",
+                "am need"
+              ],
+              "answer": "need",
+              "explanation": "After you, the verb stays the same: need.",
+              "hint": "After you, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r2-02",
+              "type": "multiple_choice",
+              "prompt": "___ you need a coat?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Need is a doing word, so the question starts with do.",
+              "hint": "Need is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r2-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do we need a towel?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r2-04",
+              "type": "error_spot",
+              "sentence": "I needs some paper.",
+              "wrong": "needs",
+              "correction": "need",
+              "explanation": "After I, the verb stays the same: need.",
+              "hint": "After I, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r2-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: You ___ a map. (必要だ)",
+              "accepted": [
+                "need"
+              ],
+              "explanation": "After you, use need.",
+              "hint": "After you, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r2-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We need more time.",
+              "accepted": [
+                "We do not need more time.",
+                "We don't need more time."
+              ],
+              "explanation": "Put do not or don't before need.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r2-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "We need a pen.",
+              "accepted": [
+                "Do we need a pen?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r2-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do they need water?",
+              "accepted": [
+                "No, they don't.",
+                "No they don't.",
+                "No, they do not.",
+                "No they do not."
+              ],
+              "explanation": "Answer with they and don't.",
+              "hint": "Answer with they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "6c373494ef88270b"
+        },
+        {
+          "id": "grammar-spelling:verbs:need:r3",
+          "title": "Need: round 3",
+          "items": [
+            {
+              "id": "need-r3-01",
+              "type": "multiple_choice",
+              "prompt": "We ___ some paper.",
+              "choices": [
+                "need",
+                "needs",
+                "am need"
+              ],
+              "answer": "need",
+              "explanation": "After we, the verb stays the same: need.",
+              "hint": "After we, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r3-02",
+              "type": "multiple_choice",
+              "prompt": "___ we need a map?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Need is a doing word, so the question starts with do.",
+              "hint": "Need is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r3-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do they need more time?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r3-04",
+              "type": "error_spot",
+              "sentence": "You needs a pen.",
+              "wrong": "needs",
+              "correction": "need",
+              "explanation": "After you, the verb stays the same: need.",
+              "hint": "After you, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r3-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: We ___ water. (必要だ)",
+              "accepted": [
+                "need"
+              ],
+              "explanation": "After we, use need.",
+              "hint": "After we, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r3-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "They need a new bag.",
+              "accepted": [
+                "They do not need a new bag.",
+                "They don't need a new bag."
+              ],
+              "explanation": "Put do not or don't before need.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r3-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "They need help.",
+              "accepted": [
+                "Do they need help?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "need-r3-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do you need a coat?",
+              "accepted": [
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "d6eb1485596eae10"
+        }
+      ]
+    },
+    {
+      "verb": "go",
+      "ja": "行く",
+      "tip": [
+        "I go to school. / We go to school.",
+        "I don't go to school.",
+        "Do you go to school? Yes, I do. / No, I don't."
+      ],
+      "rounds": [
+        {
+          "id": "grammar-spelling:verbs:go:r1",
+          "title": "Go: round 1",
+          "items": [
+            {
+              "id": "go-r1-01",
+              "type": "multiple_choice",
+              "prompt": "I ___ to school.",
+              "choices": [
+                "go",
+                "goes",
+                "am go"
+              ],
+              "answer": "go",
+              "explanation": "After I, the verb stays the same: go.",
+              "hint": "After I, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r1-02",
+              "type": "multiple_choice",
+              "prompt": "___ they go to the park?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Go is a doing word, so the question starts with do.",
+              "hint": "Go is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r1-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do you go home?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r1-04",
+              "type": "error_spot",
+              "sentence": "They goes to bed early.",
+              "wrong": "goes",
+              "correction": "go",
+              "explanation": "After they, the verb stays the same: go.",
+              "hint": "After they, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r1-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: I ___ to the shop. (行く)",
+              "accepted": [
+                "go"
+              ],
+              "explanation": "After I, use go.",
+              "hint": "After I, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r1-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "You go to the beach.",
+              "accepted": [
+                "You do not go to the beach.",
+                "You don't go to the beach."
+              ],
+              "explanation": "Put do not or don't before go.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r1-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "You go to the zoo.",
+              "accepted": [
+                "Do you go to the zoo?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r1-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do we go out?",
+              "accepted": [
+                "No, you don't.",
+                "No you don't.",
+                "No, you do not.",
+                "No you do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with you and don't.",
+              "hint": "Answer with you.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "e88fbd4ebc9b3622"
+        },
+        {
+          "id": "grammar-spelling:verbs:go:r2",
+          "title": "Go: round 2",
+          "items": [
+            {
+              "id": "go-r2-01",
+              "type": "multiple_choice",
+              "prompt": "You ___ to bed early.",
+              "choices": [
+                "go",
+                "goes",
+                "am go"
+              ],
+              "answer": "go",
+              "explanation": "After you, the verb stays the same: go.",
+              "hint": "After you, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r2-02",
+              "type": "multiple_choice",
+              "prompt": "___ you go to the shop?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Go is a doing word, so the question starts with do.",
+              "hint": "Go is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r2-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do we go to the beach?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r2-04",
+              "type": "error_spot",
+              "sentence": "I goes to the zoo.",
+              "wrong": "goes",
+              "correction": "go",
+              "explanation": "After I, the verb stays the same: go.",
+              "hint": "After I, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r2-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: You ___ out. (行く)",
+              "accepted": [
+                "go"
+              ],
+              "explanation": "After you, use go.",
+              "hint": "After you, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r2-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We go to the library.",
+              "accepted": [
+                "We do not go to the library.",
+                "We don't go to the library."
+              ],
+              "explanation": "Put do not or don't before go.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r2-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "We go to school.",
+              "accepted": [
+                "Do we go to school?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r2-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do they go to the park?",
+              "accepted": [
+                "No, they don't.",
+                "No they don't.",
+                "No, they do not.",
+                "No they do not."
+              ],
+              "explanation": "Answer with they and don't.",
+              "hint": "Answer with they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "2ee9b687100595e5"
+        },
+        {
+          "id": "grammar-spelling:verbs:go:r3",
+          "title": "Go: round 3",
+          "items": [
+            {
+              "id": "go-r3-01",
+              "type": "multiple_choice",
+              "prompt": "We ___ to the zoo.",
+              "choices": [
+                "go",
+                "goes",
+                "am go"
+              ],
+              "answer": "go",
+              "explanation": "After we, the verb stays the same: go.",
+              "hint": "After we, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r3-02",
+              "type": "multiple_choice",
+              "prompt": "___ we go out?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Go is a doing word, so the question starts with do.",
+              "hint": "Go is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r3-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do they go to the library?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r3-04",
+              "type": "error_spot",
+              "sentence": "You goes to school.",
+              "wrong": "goes",
+              "correction": "go",
+              "explanation": "After you, the verb stays the same: go.",
+              "hint": "After you, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r3-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: We ___ to the park. (行く)",
+              "accepted": [
+                "go"
+              ],
+              "explanation": "After we, use go.",
+              "hint": "After we, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r3-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "They go home.",
+              "accepted": [
+                "They do not go home.",
+                "They don't go home."
+              ],
+              "explanation": "Put do not or don't before go.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r3-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "They go to bed early.",
+              "accepted": [
+                "Do they go to bed early?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "go-r3-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do you go to the shop?",
+              "accepted": [
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "718791a2e19b3e12"
+        }
+      ]
+    },
+    {
+      "verb": "play",
+      "ja": "(スポーツ・ゲームを)する、遊ぶ",
+      "tip": [
+        "I play tennis. / We play tennis.",
+        "I don't play tennis.",
+        "Do you play tennis? Yes, I do. / No, I don't."
+      ],
+      "rounds": [
+        {
+          "id": "grammar-spelling:verbs:play:r1",
+          "title": "Play: round 1",
+          "items": [
+            {
+              "id": "play-r1-01",
+              "type": "multiple_choice",
+              "prompt": "I ___ tennis.",
+              "choices": [
+                "play",
+                "plays",
+                "am play"
+              ],
+              "answer": "play",
+              "explanation": "After I, the verb stays the same: play.",
+              "hint": "After I, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r1-02",
+              "type": "multiple_choice",
+              "prompt": "___ they play games?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Play is a doing word, so the question starts with do.",
+              "hint": "Play is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r1-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do you play football?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r1-04",
+              "type": "error_spot",
+              "sentence": "They plays the piano.",
+              "wrong": "plays",
+              "correction": "play",
+              "explanation": "After they, the verb stays the same: play.",
+              "hint": "After they, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r1-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: I ___ cards. ((スポーツ・ゲームを)する)",
+              "accepted": [
+                "play"
+              ],
+              "explanation": "After I, use play.",
+              "hint": "After I, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r1-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "You play outside.",
+              "accepted": [
+                "You do not play outside.",
+                "You don't play outside."
+              ],
+              "explanation": "Put do not or don't before play.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r1-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "You play in the park.",
+              "accepted": [
+                "Do you play in the park?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r1-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do we play basketball?",
+              "accepted": [
+                "No, you don't.",
+                "No you don't.",
+                "No, you do not.",
+                "No you do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with you and don't.",
+              "hint": "Answer with you.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "7766f41af1754603"
+        },
+        {
+          "id": "grammar-spelling:verbs:play:r2",
+          "title": "Play: round 2",
+          "items": [
+            {
+              "id": "play-r2-01",
+              "type": "multiple_choice",
+              "prompt": "You ___ the piano.",
+              "choices": [
+                "play",
+                "plays",
+                "am play"
+              ],
+              "answer": "play",
+              "explanation": "After you, the verb stays the same: play.",
+              "hint": "After you, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r2-02",
+              "type": "multiple_choice",
+              "prompt": "___ you play cards?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Play is a doing word, so the question starts with do.",
+              "hint": "Play is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r2-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do we play outside?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r2-04",
+              "type": "error_spot",
+              "sentence": "I plays in the park.",
+              "wrong": "plays",
+              "correction": "play",
+              "explanation": "After I, the verb stays the same: play.",
+              "hint": "After I, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r2-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: You ___ basketball. ((スポーツ・ゲームを)する)",
+              "accepted": [
+                "play"
+              ],
+              "explanation": "After you, use play.",
+              "hint": "After you, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r2-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "We play after school.",
+              "accepted": [
+                "We do not play after school.",
+                "We don't play after school."
+              ],
+              "explanation": "Put do not or don't before play.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r2-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "We play tennis.",
+              "accepted": [
+                "Do we play tennis?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r2-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do they play games?",
+              "accepted": [
+                "No, they don't.",
+                "No they don't.",
+                "No, they do not.",
+                "No they do not."
+              ],
+              "explanation": "Answer with they and don't.",
+              "hint": "Answer with they.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "a6279353ec1ec1dd"
+        },
+        {
+          "id": "grammar-spelling:verbs:play:r3",
+          "title": "Play: round 3",
+          "items": [
+            {
+              "id": "play-r3-01",
+              "type": "multiple_choice",
+              "prompt": "We ___ in the park.",
+              "choices": [
+                "play",
+                "plays",
+                "am play"
+              ],
+              "answer": "play",
+              "explanation": "After we, the verb stays the same: play.",
+              "hint": "After we, the verb stays the same. No am, no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r3-02",
+              "type": "multiple_choice",
+              "prompt": "___ we play basketball?",
+              "choices": [
+                "Do",
+                "Are",
+                "Am"
+              ],
+              "answer": "Do",
+              "explanation": "Play is a doing word, so the question starts with do.",
+              "hint": "Play is a doing word. Which word starts the question?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r3-03",
+              "type": "word_bank",
+              "instruction": "Put the words in order to make a question.",
+              "answer": "Do they play after school?",
+              "distractors": [
+                "are"
+              ],
+              "explanation": "Do comes first, then the person, then the verb.",
+              "hint": "Start with do. Then the person.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r3-04",
+              "type": "error_spot",
+              "sentence": "You plays tennis.",
+              "wrong": "plays",
+              "correction": "play",
+              "explanation": "After you, the verb stays the same: play.",
+              "hint": "After you, the verb has no s.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r3-05",
+              "type": "type_answer",
+              "prompt": "Write the verb: We ___ games. ((スポーツ・ゲームを)する)",
+              "accepted": [
+                "play"
+              ],
+              "explanation": "After we, use play.",
+              "hint": "After we, the verb stays the same.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r3-06",
+              "type": "transform",
+              "instruction": "Say it with not.",
+              "source": "They play football.",
+              "accepted": [
+                "They do not play football.",
+                "They don't play football."
+              ],
+              "explanation": "Put do not or don't before play.",
+              "hint": "Do not goes before the verb.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r3-07",
+              "type": "transform",
+              "instruction": "Make a question.",
+              "source": "They play the piano.",
+              "accepted": [
+                "Do they play the piano?"
+              ],
+              "explanation": "Do comes first, then the person and the verb.",
+              "hint": "Start with do. End with ?",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            },
+            {
+              "id": "play-r3-08",
+              "type": "transform",
+              "instruction": "Answer no. Use a short answer.",
+              "source": "Do you play cards?",
+              "accepted": [
+                "No, I don't.",
+                "No I don't.",
+                "No, I do not.",
+                "No I do not.",
+                "No, we don't.",
+                "No we don't.",
+                "No, we do not.",
+                "No we do not."
+              ],
+              "explanation": "Answer with I and don't.",
+              "hint": "Answer about yourself with I.",
+              "targetId": "present_simple_habits",
+              "checking": "grammar"
+            }
+          ],
+          "version": "9fab915d3dddaf58"
+        }
+      ]
+    }
   ]
 }
