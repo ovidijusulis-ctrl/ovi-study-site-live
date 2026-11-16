@@ -724,7 +724,8 @@
               "instruction": "Ask about the place. Start with where.",
               "source": "They eat lunch in the garden.",
               "accepted": [
-                "Where do they eat lunch?"
+                "Where do they eat lunch?",
+                "Where do they have lunch?"
               ],
               "explanation": "Where comes first, then do, they and the verb.",
               "hint": "Where comes first, then do, then the person and the verb.",
@@ -733,7 +734,7 @@
             }
           ],
           "rule": "Use do to ask and do not to say no.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nUse do not to say no:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** To ask, put do before the person. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Read is an ordinary verb.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
-          "version": "1a08e8e7713693aa"
+          "version": "f65e8e31e833c6ee"
         },
         {
           "id": "grammar-spelling:start-here:practice:spl.capitals",
@@ -828,14 +829,13 @@
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_07",
-              "type": "transform",
-              "instruction": "Make a question. Add capital letters and a question mark.",
-              "source": "ben is tired",
+              "type": "type_answer",
+              "prompt": "Write it with capital letters and a question mark. is ben tired → ___",
               "accepted": [
                 "Is Ben tired?"
               ],
-              "explanation": "Is comes first. Ben needs a capital letter. A question ends with a question mark.",
-              "hint": "Move is to the start. Ben is a name.",
+              "hint": "Two words need a capital letter. End with ?",
+              "explanation": "A question starts with a capital letter. Ben is a name. A question ends with a question mark.",
               "targetId": "spl.capitals",
               "checking": "exact"
             },
@@ -854,7 +854,7 @@
             }
           ],
           "rule": "A sentence starts with a capital letter. A capital letter is a big letter, like A or B. A sentence ends with a full stop or a question mark.\n\n| Sentence | Ends with | Example |\n|---|---|---|\n| telling | full stop . | **Emma** is here**.** |\n| asking | question mark ? | **Is** Emma here**?** |\n\n**Rule:** Start with a capital letter. End with a full stop or a question mark.\n\n- **I** am here**.**\n- **Emma** and **I** are friends**.**\n- **Is** Ben ready**?** Yes, he is**.**\n- **They** are not late**.**\n\n**Watch out:**\n- Wrong: *are you ready.* Right: **Are you ready?** A question ends with a question mark.\n- Wrong: *ben and i play.* Right: **Ben and I play.** Names and I need a capital letter.\n- Wrong: *Weareready.* Right: **We are ready.** Put one space between words.\n\n**Spelling:**\n- Always write **I** as a capital letter.\n- Names start with a capital letter: **Emma**, **Ben**.",
-          "version": "ee0d161a54e66c9c"
+          "version": "162f165008508175"
         }
       ],
       "activities": [
@@ -2069,14 +2069,13 @@
             },
             {
               "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_07",
-              "type": "transform",
-              "instruction": "Make a question. Add capital letters and a question mark.",
-              "source": "ben is tired",
+              "type": "type_answer",
+              "prompt": "Write it with capital letters and a question mark. is ben tired → ___",
               "accepted": [
                 "Is Ben tired?"
               ],
-              "explanation": "Is comes first. Ben needs a capital letter. A question ends with a question mark.",
-              "hint": "Move is to the start. Ben is a name.",
+              "hint": "Two words need a capital letter. End with ?",
+              "explanation": "A question starts with a capital letter. Ben is a name. A question ends with a question mark.",
               "targetId": "spl.capitals",
               "checking": "exact"
             },
@@ -2095,7 +2094,7 @@
             }
           ],
           "rule": "A sentence starts with a capital letter. A capital letter is a big letter, like A or B. A sentence ends with a full stop or a question mark.\n\n| Sentence | Ends with | Example |\n|---|---|---|\n| telling | full stop . | **Emma** is here**.** |\n| asking | question mark ? | **Is** Emma here**?** |\n\n**Rule:** Start with a capital letter. End with a full stop or a question mark.\n\n- **I** am here**.**\n- **Emma** and **I** are friends**.**\n- **Is** Ben ready**?** Yes, he is**.**\n- **They** are not late**.**\n\n**Watch out:**\n- Wrong: *are you ready.* Right: **Are you ready?** A question ends with a question mark.\n- Wrong: *ben and i play.* Right: **Ben and I play.** Names and I need a capital letter.\n- Wrong: *Weareready.* Right: **We are ready.** Put one space between words.\n\n**Spelling:**\n- Always write **I** as a capital letter.\n- Names start with a capital letter: **Emma**, **Ben**.",
-          "version": "2940aac360d97b92"
+          "version": "06907057d1aba31b"
         }
       ]
     },
@@ -2709,7 +2708,8 @@
               "instruction": "Ask about the place. Start with where.",
               "source": "They eat lunch in the garden.",
               "accepted": [
-                "Where do they eat lunch?"
+                "Where do they eat lunch?",
+                "Where do they have lunch?"
               ],
               "explanation": "Where comes first, then do, they and the verb.",
               "hint": "Where comes first, then do, then the person and the verb.",
@@ -2718,7 +2718,7 @@
             }
           ],
           "rule": "Use do to ask and do not to say no.\n\n| Person | Do question | Short answers |\n|---|---|---|\n| I | **Do** I need a book? | Yes, you **do**. / No, you **don't**. |\n| you (only you) | **Do** you read at home? | Yes, I **do**. / No, I **don't**. |\n| you (a group) | **Do** you read at home? | Yes, we **do**. / No, we **don't**. |\n| we | **Do** we need a pen? | Yes, we **do**. / No, we **don't**. |\n| they | **Do** they walk to school? | Yes, they **do**. / No, they **don't**. |\n\nUse do not to say no:\n\n| Sentence | With do not |\n|---|---|\n| I **read**. | I **do not** read. |\n| They **walk**. | They **don't** walk. |\n\nA question word comes first, then do:\n\n| Question word | Asks about | Example |\n|---|---|---|\n| **What** | a thing | **What do** you read? |\n| **Where** | a place | **Where do** you eat lunch? |\n| **When** | a time | **When do** you read? |\n\n**Rule:** To ask, put do before the person. To say no, put do not before the verb.\n\n- **Do** they **play** games? Yes, they **do**.\n- I **don't** eat lunch at home.\n- **What do** you eat for lunch?\n- **Where do** they play?\n\n**Watch out:**\n- Wrong: *Are you read*? Right: **Do you read**? Read is an ordinary verb.\n- Wrong: *Do you are ready*? Right: **Are you ready**? Never use do with am, is or are.\n- Wrong: *I not read*. Right: **I do not read**. Put do before not.",
-          "version": "44202bb8e8fb994d"
+          "version": "c6632f829f873ac4"
         },
         {
           "id": "grammar-spelling:everyday-actions:practice:spl.do_contractions",
