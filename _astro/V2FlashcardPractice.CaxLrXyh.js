@@ -1,0 +1,1 @@
+import{t as e}from"./V2FlashcardPractice.Ctya1-2l.js";export{e as default};
