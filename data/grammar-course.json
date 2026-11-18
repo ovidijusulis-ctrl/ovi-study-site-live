@@ -1200,7 +1200,387 @@
           }
         }
       ],
-      "hidden": true
+      "hidden": true,
+      "typingActivities": [
+        {
+          "id": "a1-grammar-start-here:typing:blk_part_01_am_is_and_are",
+          "version": "f8ca1007",
+          "title": "Typing: Am, Is and Are",
+          "items": [
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We are at school.",
+              "copyText": "We are at school.",
+              "accepted": [
+                "We are at school."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "Use are with we.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Emma is not at home.",
+              "copyText": "Emma is not at home.",
+              "accepted": [
+                "Emma is not at home."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "Emma is one girl, so use is. Not comes after is.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "My cat is tired.",
+              "copyText": "My cat is tired.",
+              "accepted": [
+                "My cat is tired."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "My cat is one animal, so use is.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is your sister at home?",
+              "copyText": "Is your sister at home?",
+              "accepted": [
+                "Is your sister at home?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "In a question, is comes first.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Yes, I am.",
+              "copyText": "Yes, I am.",
+              "accepted": [
+                "Yes, I am."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "You can be one person: Yes, I am. You can be a group: Yes, we are.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "No, he isn't.",
+              "copyText": "No, he isn't.",
+              "accepted": [
+                "No, he isn't."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "Your brother is he. Say No, he isn't.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-start-here:typing:blk_part_02_english_sentence_order",
+          "version": "389bffed",
+          "title": "Typing: English Sentence Order",
+          "items": [
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Ben is in the park.",
+              "copyText": "Ben is in the park.",
+              "accepted": [
+                "Ben is in the park."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "The person comes before the verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Emma and Ben are friends.",
+              "copyText": "Emma and Ben are friends.",
+              "accepted": [
+                "Emma and Ben are friends."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "The people come first, then are, then more words.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Emma in the classroom?",
+              "copyText": "Is Emma in the classroom?",
+              "accepted": [
+                "Is Emma in the classroom?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "In a question, is comes first.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Are they at home?",
+              "copyText": "Are they at home?",
+              "accepted": [
+                "Are they at home?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "In a question, are comes first, then they.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Ben in the park?",
+              "copyText": "Is Ben in the park?",
+              "accepted": [
+                "Is Ben in the park?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "Put is first, then Ben.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We are not at home.",
+              "copyText": "We are not at home.",
+              "accepted": [
+                "We are not at home."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "The person comes first, then are, then not.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Where is Emma?",
+              "copyText": "Where is Emma?",
+              "accepted": [
+                "Where is Emma?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "Where comes first, then is, then Emma.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-start-here:typing:blk_part_02_questions_and_negatives_with_do",
+          "version": "74bbe37a",
+          "title": "Typing: Questions and Negatives with Do",
+          "items": [
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Do you read at home?",
+              "copyText": "Do you read at home?",
+              "accepted": [
+                "Do you read at home?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Read is an ordinary verb, so the question uses do.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "When do we eat dinner?",
+              "copyText": "When do we eat dinner?",
+              "accepted": [
+                "When do we eat dinner?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "The question word comes first, then do, the person and the verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We do not play in the park.",
+              "copyText": "We do not play in the park.",
+              "accepted": [
+                "We do not play in the park."
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Put do not before the ordinary verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Do you need a pencil?",
+              "copyText": "Do you need a pencil?",
+              "accepted": [
+                "Do you need a pencil?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Need is an ordinary verb, so the question uses do.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Where do they eat lunch?",
+              "copyText": "Where do they eat lunch?",
+              "accepted": [
+                "Where do they eat lunch?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Where comes first, then do, they and the verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-start-here:typing:blk_part_04_capital_letters_and_sentence_endings",
+          "version": "4cac8025",
+          "title": "Typing: Capital Letters and Sentence Endings",
+          "items": [
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "The word I always has a capital letter.",
+              "copyText": "The word I always has a capital letter.",
+              "accepted": [
+                "The word I always has a capital letter."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Always write I as a capital letter. You and we need one only at the start.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Ben and I are friends.",
+              "copyText": "Ben and I are friends.",
+              "accepted": [
+                "Ben and I are friends."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Names and the word I always start with a capital letter.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "My friend is Emma.",
+              "copyText": "My friend is Emma.",
+              "accepted": [
+                "My friend is Emma."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "A name starts with a capital letter.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "My dog is Max.",
+              "copyText": "My dog is Max.",
+              "accepted": [
+                "My dog is Max."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Start with a capital letter. Names need one too. End with a full stop.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We are late.",
+              "copyText": "We are late.",
+              "accepted": [
+                "We are late."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Put one space between words. A telling sentence ends with a full stop.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Ben tired?",
+              "copyText": "Is Ben tired?",
+              "accepted": [
+                "Is Ben tired?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "A question starts with a capital letter. Ben is a name. A question ends with a question mark.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Emma and I are late.",
+              "copyText": "Emma and I are late.",
+              "accepted": [
+                "Emma and I are late."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Emma and I need capital letters. A telling sentence ends with a full stop.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "sentences",
@@ -2106,6 +2486,386 @@
           "rule": "A sentence starts with a capital letter. A capital letter is a big letter, like A or B. A telling sentence ends with a full stop. A question ends with a question mark.\n\n| Sentence | Ends with | Example |\n|---|---|---|\n| telling | full stop . | **Emma** is here**.** |\n| asking | question mark ? | **Is** Emma here**?** |\n\n**Rule:** Start with a capital letter. End a telling sentence with a full stop. End a question with a question mark.\n\n- **I** am here**.**\n- **Emma** and **I** are friends**.**\n- **Is** Ben ready**?** Yes, he is**.**\n- **They** are not late**.**\n\n**Watch out:**\n- Wrong: *are you ready.* Right: **Are you ready?** A question ends with a question mark.\n- Wrong: *ben and i play.* Right: **Ben and I play.** Names and I need a capital letter.\n- Wrong: *Weareready.* Right: **We are ready.** Put one space between words.\n\n**Spelling:**\n- Always write **I** as a capital letter.\n- Names start with a capital letter: **Emma**, **Ben**.",
           "version": "0e26fb7ef1ca2cae"
         }
+      ],
+      "typingActivities": [
+        {
+          "id": "a1-grammar-build-a-sentence:typing:blk_part_01_am_is_and_are",
+          "version": "f8ca1007",
+          "title": "Typing: Am, Is and Are",
+          "items": [
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We are at school.",
+              "copyText": "We are at school.",
+              "accepted": [
+                "We are at school."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "Use are with we.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Emma is not at home.",
+              "copyText": "Emma is not at home.",
+              "accepted": [
+                "Emma is not at home."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "Emma is one girl, so use is. Not comes after is.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "My cat is tired.",
+              "copyText": "My cat is tired.",
+              "accepted": [
+                "My cat is tired."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "My cat is one animal, so use is.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is your sister at home?",
+              "copyText": "Is your sister at home?",
+              "accepted": [
+                "Is your sister at home?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "In a question, is comes first.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Yes, I am.",
+              "copyText": "Yes, I am.",
+              "accepted": [
+                "Yes, I am."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "You can be one person: Yes, I am. You can be a group: Yes, we are.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_am_is_and_are_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "No, he isn't.",
+              "copyText": "No, he isn't.",
+              "accepted": [
+                "No, he isn't."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_to_be",
+              "explanation": "Your brother is he. Say No, he isn't.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-build-a-sentence:typing:blk_part_02_english_sentence_order",
+          "version": "389bffed",
+          "title": "Typing: English Sentence Order",
+          "items": [
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Ben is in the park.",
+              "copyText": "Ben is in the park.",
+              "accepted": [
+                "Ben is in the park."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "The person comes before the verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Emma and Ben are friends.",
+              "copyText": "Emma and Ben are friends.",
+              "accepted": [
+                "Emma and Ben are friends."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "The people come first, then are, then more words.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Emma in the classroom?",
+              "copyText": "Is Emma in the classroom?",
+              "accepted": [
+                "Is Emma in the classroom?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "In a question, is comes first.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Are they at home?",
+              "copyText": "Are they at home?",
+              "accepted": [
+                "Are they at home?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "In a question, are comes first, then they.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Ben in the park?",
+              "copyText": "Is Ben in the park?",
+              "accepted": [
+                "Is Ben in the park?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "Put is first, then Ben.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We are not at home.",
+              "copyText": "We are not at home.",
+              "accepted": [
+                "We are not at home."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "The person comes first, then are, then not.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_english_sentence_order_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Where is Emma?",
+              "copyText": "Where is Emma?",
+              "accepted": [
+                "Where is Emma?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.sentence_order",
+              "explanation": "Where comes first, then is, then Emma.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-build-a-sentence:typing:blk_part_03_be_or_an_action_verb",
+          "version": "3ed1bde3",
+          "title": "Typing: Be or an Action Verb",
+          "items": [
+            {
+              "id": "blk_part_03_be_or_an_action_verb_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We walk to school.",
+              "copyText": "We walk to school.",
+              "accepted": [
+                "We walk to school."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.be_or_verb",
+              "explanation": "Walk is a doing word. Do not add are.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_be_or_an_action_verb_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We eat breakfast at home.",
+              "copyText": "We eat breakfast at home.",
+              "accepted": [
+                "We eat breakfast at home."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.be_or_verb",
+              "explanation": "Eat is the doing word, so do not add are.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_be_or_an_action_verb_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Our names are Emma and Ben.",
+              "copyText": "Our names are Emma and Ben.",
+              "accepted": [
+                "Our names are Emma and Ben."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.be_or_verb",
+              "explanation": "Use be to say who someone is: Our names are Emma and Ben. Play is a doing word.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_be_or_an_action_verb_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "They run in the park.",
+              "copyText": "They run in the park.",
+              "accepted": [
+                "They run in the park."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.be_or_verb",
+              "explanation": "Run is the doing word, so take away are.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_be_or_an_action_verb_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "They play games.",
+              "copyText": "They play games.",
+              "accepted": [
+                "They play games."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.be_or_verb",
+              "explanation": "Play is the doing word. Are is extra.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-build-a-sentence:typing:blk_part_04_capital_letters_and_sentence_endings",
+          "version": "4cac8025",
+          "title": "Typing: Capital Letters and Sentence Endings",
+          "items": [
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "The word I always has a capital letter.",
+              "copyText": "The word I always has a capital letter.",
+              "accepted": [
+                "The word I always has a capital letter."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Always write I as a capital letter. You and we need one only at the start.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Ben and I are friends.",
+              "copyText": "Ben and I are friends.",
+              "accepted": [
+                "Ben and I are friends."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Names and the word I always start with a capital letter.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "My friend is Emma.",
+              "copyText": "My friend is Emma.",
+              "accepted": [
+                "My friend is Emma."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "A name starts with a capital letter.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "My dog is Max.",
+              "copyText": "My dog is Max.",
+              "accepted": [
+                "My dog is Max."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Start with a capital letter. Names need one too. End with a full stop.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We are late.",
+              "copyText": "We are late.",
+              "accepted": [
+                "We are late."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Put one space between words. A telling sentence ends with a full stop.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Ben tired?",
+              "copyText": "Is Ben tired?",
+              "accepted": [
+                "Is Ben tired?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "A question starts with a capital letter. Ben is a name. A question ends with a question mark.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_capital_letters_and_sentence_endings_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Emma and I are late.",
+              "copyText": "Emma and I are late.",
+              "accepted": [
+                "Emma and I are late."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.capitals",
+              "explanation": "Emma and I need capital letters. A telling sentence ends with a full stop.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        }
       ]
     },
     {
@@ -2853,6 +3613,239 @@
           ],
           "rule": "Don't is the short form of do not.\n\n| Full form | Short form |\n|---|---|\n| I **do not** play. | I **don't** play. |\n| They **do not** eat. | They **don't** eat. |\n\n**Rule:** Don't and do not mean the same thing.\n\n- We **do not** walk to school.\n- We **don't** walk to school.\n- I **don't** like cats.\n- **Do** you play? No, I **don't**.\n\n**Watch out:**\n- Wrong: *dont* Right: **don't** Write the apostrophe.\n- Wrong: *do'nt* Right: **don't** The apostrophe goes where the o was.\n\n**Spelling:**\n- In **don't**, the o from not is gone.\n- The apostrophe **'** takes its place.",
           "version": "5ca1ed6beab81a00"
+        }
+      ],
+      "typingActivities": [
+        {
+          "id": "a1-grammar-everyday-actions:typing:blk_part_01_everyday_actions",
+          "version": "05f8bc3f",
+          "title": "Typing: Everyday Actions",
+          "items": [
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "They play games after school.",
+              "copyText": "They play games after school.",
+              "accepted": [
+                "They play games after school."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_habits",
+              "explanation": "Play is the verb. Do not put am or are before it.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We need new shoes.",
+              "copyText": "We need new shoes.",
+              "accepted": [
+                "We need new shoes."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_habits",
+              "explanation": "Need is an ordinary verb. After we, use the simple verb with no be.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We walk to school every day.",
+              "copyText": "We walk to school every day.",
+              "accepted": [
+                "We walk to school every day."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_habits",
+              "explanation": "After we, the verb stays the same: walk.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We walk to the park after school.",
+              "copyText": "We walk to the park after school.",
+              "accepted": [
+                "We walk to the park after school."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_habits",
+              "explanation": "The verb stays the same after we.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_everyday_actions_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "They need water.",
+              "copyText": "They need water.",
+              "accepted": [
+                "They need water."
+              ],
+              "checking": "exact",
+              "targetId": "typing:present_simple_habits",
+              "explanation": "The verb stays the same after they.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-everyday-actions:typing:blk_part_02_questions_and_negatives_with_do",
+          "version": "74bbe37a",
+          "title": "Typing: Questions and Negatives with Do",
+          "items": [
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Do you read at home?",
+              "copyText": "Do you read at home?",
+              "accepted": [
+                "Do you read at home?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Read is an ordinary verb, so the question uses do.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "When do we eat dinner?",
+              "copyText": "When do we eat dinner?",
+              "accepted": [
+                "When do we eat dinner?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "The question word comes first, then do, the person and the verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We do not play in the park.",
+              "copyText": "We do not play in the park.",
+              "accepted": [
+                "We do not play in the park."
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Put do not before the ordinary verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Do you need a pencil?",
+              "copyText": "Do you need a pencil?",
+              "accepted": [
+                "Do you need a pencil?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Need is an ordinary verb, so the question uses do.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_questions_and_negatives_with_do_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Where do they eat lunch?",
+              "copyText": "Where do they eat lunch?",
+              "accepted": [
+                "Where do they eat lunch?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:question_forms",
+              "explanation": "Where comes first, then do, they and the verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a1-grammar-everyday-actions:typing:blk_part_03_don_t_and_do_not",
+          "version": "a8303388",
+          "title": "Typing: Don't and Do Not",
+          "items": [
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "I don't play after school.",
+              "copyText": "I don't play after school.",
+              "accepted": [
+                "I don't play after school."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.do_contractions",
+              "explanation": "The apostrophe takes the place of the o in not.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "I don't eat cake.",
+              "copyText": "I don't eat cake.",
+              "accepted": [
+                "I don't eat cake."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.do_contractions",
+              "explanation": "Put don't before the ordinary verb, and keep the apostrophe.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We don't like rainy days.",
+              "copyText": "We don't like rainy days.",
+              "accepted": [
+                "We don't like rainy days."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.do_contractions",
+              "explanation": "The apostrophe goes between n and t.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We don't eat meat.",
+              "copyText": "We don't eat meat.",
+              "accepted": [
+                "We don't eat meat."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.do_contractions",
+              "explanation": "Do not becomes don't, one word with an apostrophe.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_don_t_and_do_not_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "They don't play games after dinner.",
+              "copyText": "They don't play games after dinner.",
+              "accepted": [
+                "They don't play games after dinner."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.do_contractions",
+              "explanation": "Put don't before the ordinary verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
         }
       ]
     },
@@ -3864,6 +4857,225 @@
           "rule": "In speaking and messages to friends, we often use short forms. An apostrophe shows where letters are missing. It is a small mark at the top of the letters.\n\nI will becomes I'll, and we will becomes we'll. Each apostrophe takes the place of wi.\n\nWill not becomes won't. This spelling is special: will changes to wo, and not becomes n't. The apostrophe takes the place of the o in not. Do not write willn't.\n\nI'll see you on Saturday.\n\nWe'll bring the ball.\n\nI won't be late.\n\nThey'll wait for us at the door.\n\nKeep the apostrophe: well and ill are different words. Ill means sick.\n\nUse the long form after yes: Yes, I will, not Yes, I'll. After no, won't is correct: No, I won't.",
           "version": "99f84d2ab9398585"
         }
+      ],
+      "typingActivities": [
+        {
+          "id": "a2-grammar-plans-and-decisions:typing:blk_part_01_be_going_to_for_plans",
+          "version": "ef583067",
+          "title": "Typing: Be Going To for Plans",
+          "items": [
+            {
+              "id": "blk_part_01_be_going_to_for_plans_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Ken going to buy new shoes on Sunday?",
+              "copyText": "Is Ken going to buy new shoes on Sunday?",
+              "accepted": [
+                "Is Ken going to buy new shoes on Sunday?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.going_to",
+              "explanation": "Put is before Ken to ask about his plan.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_be_going_to_for_plans_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "They are going to play on Sunday.",
+              "copyText": "They are going to play on Sunday.",
+              "accepted": [
+                "They are going to play on Sunday."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.going_to",
+              "explanation": "Use are going to with they.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_be_going_to_for_plans_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "We are not going to watch a film tonight.",
+              "copyText": "We are not going to watch a film tonight.",
+              "accepted": [
+                "We are not going to watch a film tonight."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.going_to",
+              "explanation": "Put not after are, or use aren't.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_be_going_to_for_plans_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She is going to bring her ball.",
+              "copyText": "She is going to bring her ball.",
+              "accepted": [
+                "She is going to bring her ball."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.going_to",
+              "explanation": "I am becomes she is, and my becomes her.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_be_going_to_for_plans_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Is Mia going to wear her new shoes?",
+              "copyText": "Is Mia going to wear her new shoes?",
+              "accepted": [
+                "Is Mia going to wear her new shoes?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.going_to",
+              "explanation": "Put is before Mia to make the question.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-plans-and-decisions:typing:blk_part_02_will_for_decisions_offers_and_promises",
+          "version": "5595bdfc",
+          "title": "Typing: Will for Decisions, Offers and Promises",
+          "items": [
+            {
+              "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "I'll help you with the box.",
+              "copyText": "I'll help you with the box.",
+              "accepted": [
+                "I'll help you with the box."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.will",
+              "explanation": "After will, use the base verb.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She will carry the bag.",
+              "copyText": "She will carry the bag.",
+              "accepted": [
+                "She will carry the bag."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.will",
+              "explanation": "Will stays the same with every person.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_06:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Will you help me with my homework?",
+              "copyText": "Will you help me with my homework?",
+              "accepted": [
+                "Will you help me with my homework?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.will",
+              "explanation": "Put will before you to make the question.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "They will carry their bag.",
+              "copyText": "They will carry their bag.",
+              "accepted": [
+                "They will carry their bag."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.will",
+              "explanation": "I becomes they and my becomes their, but will carry stays the same.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_will_for_decisions_offers_and_promises_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She will not bring the ball.",
+              "copyText": "She will not bring the ball.",
+              "accepted": [
+                "She will not bring the ball."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u1.will",
+              "explanation": "Put not after will, or use won't.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-plans-and-decisions:typing:blk_part_03_spelling_the_short_forms_i_ll_we_ll_and_",
+          "version": "cff24a2b",
+          "title": "Typing: Spelling the Short Forms I'll, We'll and Won't",
+          "items": [
+            {
+              "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Tomorrow we'll meet at the park.",
+              "copyText": "Tomorrow we'll meet at the park.",
+              "accepted": [
+                "Tomorrow we'll meet at the park."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.contractions",
+              "explanation": "We will becomes we'll, with an apostrophe in place of wi.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_02:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "I won't forget your birthday. I promise.",
+              "copyText": "I won't forget your birthday. I promise.",
+              "accepted": [
+                "I won't forget your birthday. I promise."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.contractions",
+              "explanation": "Will not becomes won't, with an apostrophe between n and t.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "I'll bring the snacks on Saturday.",
+              "copyText": "I'll bring the snacks on Saturday.",
+              "accepted": [
+                "I'll bring the snacks on Saturday."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.contractions",
+              "explanation": "I will becomes I'll, but ill means sick.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_spelling_the_short_forms_i_ll_we_ll_and__practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "I'll text you, and we won't be late.",
+              "copyText": "I'll text you, and we won't be late.",
+              "accepted": [
+                "I'll text you, and we won't be late."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.contractions",
+              "explanation": "Use I'll, then won't or we'll not for the negative.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        }
       ]
     },
     {
@@ -4698,6 +5910,302 @@
           ],
           "rule": "The teacher checks the class before the journey home. Now look at the action words.\n\nMust is a modal: a helping verb with its own form rules. After must, use the base verb. Do not add to or an ending for he or she.\n\nShe must carry the bag.\n\nHe must write his name.\n\nWe must leave together.\n\nYou must listen carefully.\n\nShe must close the door.\n\nThe spelling stays carry, write, leave, listen and close after must. Keep the y in carry. Keep the final e in write, leave and close. Listen has a t, although you do not hear it.\n\nCompare She has to carry the bag and She doesn't have to carry the bag. Have changes to has in the first sentence. After doesn't, use have. In both sentences, carry stays in its base form. A common mistake is adding s to carry after must.",
           "version": "bd8101fcb32f3b97"
+        }
+      ],
+      "typingActivities": [
+        {
+          "id": "a2-grammar-rules-and-choices:typing:blk_part_01_have_to_and_has_to",
+          "version": "5a3ccfe3",
+          "title": "Typing: Have To and Has To",
+          "items": [
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She has to carry the class bag.",
+              "copyText": "She has to carry the class bag.",
+              "accepted": [
+                "She has to carry the class bag."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.have_to",
+              "explanation": "Use has to with she.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_02:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Does he have to buy a ticket?",
+              "copyText": "Does he have to buy a ticket?",
+              "accepted": [
+                "Does he have to buy a ticket?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.have_to",
+              "explanation": "Use Does with he in a have to question.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "He doesn't have to buy a ticket.",
+              "copyText": "He doesn't have to buy a ticket.",
+              "accepted": [
+                "He doesn't have to buy a ticket."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.have_to",
+              "explanation": "Doesn't have to means an action is not necessary.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Does she have to carry the class bag?",
+              "copyText": "Does she have to carry the class bag?",
+              "accepted": [
+                "Does she have to carry the class bag?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.have_to",
+              "explanation": "Use have after does.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_01_have_to_and_has_to_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Do we have to bring lunch?",
+              "copyText": "Do we have to bring lunch?",
+              "accepted": [
+                "Do we have to bring lunch?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.have_to",
+              "explanation": "Put Do before we to make a have to question.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-rules-and-choices:typing:blk_part_02_must_and_must_not",
+          "version": "d128eb45",
+          "title": "Typing: Must and Must Not",
+          "items": [
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She must listen to the teacher.",
+              "copyText": "She must listen to the teacher.",
+              "accepted": [
+                "She must listen to the teacher."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.must",
+              "explanation": "Must stays the same with she.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_02:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Must we wait here?",
+              "copyText": "Must we wait here?",
+              "accepted": [
+                "Must we wait here?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.must",
+              "explanation": "Put must before the person without do or does.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "He must not open the bus door.",
+              "copyText": "He must not open the bus door.",
+              "accepted": [
+                "He must not open the bus door."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.must",
+              "explanation": "Put not after must to say an action is forbidden.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "He must stay together with the class.",
+              "copyText": "He must stay together with the class.",
+              "accepted": [
+                "He must stay together with the class."
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.must",
+              "explanation": "Must has the same form with he.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_02_must_and_must_not_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Must he listen to the teacher?",
+              "copyText": "Must he listen to the teacher?",
+              "accepted": [
+                "Must he listen to the teacher?"
+              ],
+              "checking": "exact",
+              "targetId": "typing:jhs2.u4.must",
+              "explanation": "Put must before he without changing must.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-rules-and-choices:typing:blk_part_03_must_not_or_do_not_have_to",
+          "version": "6fdcf473",
+          "title": "Typing: Must Not or Do Not Have To",
+          "items": [
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "Touching the museum objects is forbidden. You mustn't touch them.",
+              "copyText": "Touching the museum objects is forbidden. You mustn't touch them.",
+              "accepted": [
+                "Touching the museum objects is forbidden. You mustn't touch them."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.negative_obligation",
+              "explanation": "Mustn't means an action is forbidden.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_02:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "The drawing activity is optional. She doesn't have to join it.",
+              "copyText": "The drawing activity is optional. She doesn't have to join it.",
+              "accepted": [
+                "The drawing activity is optional. She doesn't have to join it."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.negative_obligation",
+              "explanation": "Doesn't have to means she can choose.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "You don't have to join the drawing activity.",
+              "copyText": "You don't have to join the drawing activity.",
+              "accepted": [
+                "You don't have to join the drawing activity."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.negative_obligation",
+              "explanation": "Don't have to means the activity is optional.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_05:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She doesn't have to join the drawing activity.",
+              "copyText": "She doesn't have to join the drawing activity.",
+              "accepted": [
+                "She doesn't have to join the drawing activity."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.negative_obligation",
+              "explanation": "Use doesn't have to with she for an optional action.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_03_must_not_or_do_not_have_to_practice_q_07:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "You must not touch the old objects.",
+              "copyText": "You must not touch the old objects.",
+              "accepted": [
+                "You must not touch the old objects."
+              ],
+              "checking": "exact",
+              "targetId": "typing:core.negative_obligation",
+              "explanation": "Use must not or mustn't when an action is forbidden.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
+        },
+        {
+          "id": "a2-grammar-rules-and-choices:typing:blk_part_04_the_base_verb_after_a_modal",
+          "version": "6ee034e5",
+          "title": "Typing: The Base Verb after a Modal",
+          "items": [
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_01:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "He must carry the bag.",
+              "copyText": "He must carry the bag.",
+              "accepted": [
+                "He must carry the bag."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.modal_base",
+              "explanation": "Use the base verb carry after must.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_03:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She must close the door.",
+              "copyText": "She must close the door.",
+              "accepted": [
+                "She must close the door."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.modal_base",
+              "explanation": "Must is followed by the base verb without to.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_04:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "He must write his name.",
+              "copyText": "He must write his name.",
+              "accepted": [
+                "He must write his name."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.modal_base",
+              "explanation": "Use the base verb write after must.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            },
+            {
+              "id": "blk_part_04_the_base_verb_after_a_modal_practice_q_08:copy",
+              "type": "type_answer",
+              "prompt": "Type the sentence.",
+              "source": "She must leave with the class.",
+              "copyText": "She must leave with the class.",
+              "accepted": [
+                "She must leave with the class."
+              ],
+              "checking": "exact",
+              "targetId": "typing:spl.modal_base",
+              "explanation": "Must takes a base verb without to.",
+              "hint": "Read the model one word at a time. Check its capital letter, spaces and end mark."
+            }
+          ]
         }
       ]
     },
@@ -7415,6 +8923,735 @@
         }
       ],
       "version": "4b913d9f3387f663"
+    }
+  ],
+  "spellingRules": [
+    {
+      "id": "short-vowels",
+      "title": "Short vowel sounds",
+      "topic": 1,
+      "rule": "In many short words, a vowel followed by a consonant has its short sound. Learn the sound with a familiar word.",
+      "sound": "ă as in cat · ĕ as in pen · ĭ as in sit · ŏ as in not · ŭ as in cup",
+      "examples": [
+        {
+          "word": "cat",
+          "parts": [
+            {
+              "text": "cat"
+            }
+          ],
+          "guide": "căt"
+        },
+        {
+          "word": "pen",
+          "parts": [
+            {
+              "text": "pen"
+            }
+          ],
+          "guide": "pĕn"
+        }
+      ],
+      "sentence": "My cat is tired.",
+      "connection": "Use is with one animal, just as you do with he or she.",
+      "questions": [
+        {
+          "prompt": "Write the missing word. My c___ is tired. It says meow.",
+          "answer": "cat",
+          "explanation": "Cat has the short ă sound."
+        },
+        {
+          "prompt": "Write the missing word. I write with a p___.",
+          "answer": "pen",
+          "explanation": "Pen has the short ĕ sound."
+        },
+        {
+          "prompt": "Complete the negative sentence. Emma is n___ at home.",
+          "answer": "not",
+          "explanation": "Not has the short ŏ sound. Is not makes the sentence negative."
+        }
+      ],
+      "activity": {
+        "id": "grammar:spelling:short-vowels",
+        "title": "Short vowel sounds",
+        "rule": "In many short words, a vowel followed by a consonant has its short sound. Learn the sound with a familiar word.",
+        "items": [
+          {
+            "id": "short-vowels:1",
+            "type": "type_answer",
+            "prompt": "Write the missing word. My c___ is tired. It says meow.",
+            "accepted": [
+              "cat"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.short-vowels",
+            "hint": "In many short words, a vowel followed by a consonant has its short sound. Learn the sound with a familiar word.",
+            "explanation": "Cat has the short ă sound."
+          },
+          {
+            "id": "short-vowels:2",
+            "type": "type_answer",
+            "prompt": "Write the missing word. I write with a p___.",
+            "accepted": [
+              "pen"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.short-vowels",
+            "hint": "In many short words, a vowel followed by a consonant has its short sound. Learn the sound with a familiar word.",
+            "explanation": "Pen has the short ĕ sound."
+          },
+          {
+            "id": "short-vowels:3",
+            "type": "type_answer",
+            "prompt": "Complete the negative sentence. Emma is n___ at home.",
+            "accepted": [
+              "not"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.short-vowels",
+            "hint": "In many short words, a vowel followed by a consonant has its short sound. Learn the sound with a familiar word.",
+            "explanation": "Not has the short ŏ sound. Is not makes the sentence negative."
+          }
+        ],
+        "version": "aebd1428"
+      }
+    },
+    {
+      "id": "silent-e",
+      "title": "Silent e and long vowels",
+      "topic": 1,
+      "rule": "A final silent e often helps the earlier vowel say its long sound. It has other jobs too. Have and give keep a short vowel; their e lets the word end in ve.",
+      "sound": "ā as in name · ī as in like · ō as in home",
+      "examples": [
+        {
+          "word": "home",
+          "parts": [
+            {
+              "text": "h"
+            },
+            {
+              "text": "o",
+              "display": "ō"
+            },
+            {
+              "text": "m"
+            },
+            {
+              "text": "e",
+              "mark": "silent"
+            }
+          ]
+        },
+        {
+          "word": "like",
+          "parts": [
+            {
+              "text": "l"
+            },
+            {
+              "text": "i",
+              "display": "ī"
+            },
+            {
+              "text": "k"
+            },
+            {
+              "text": "e",
+              "mark": "silent"
+            }
+          ]
+        },
+        {
+          "word": "have",
+          "parts": [
+            {
+              "text": "hav"
+            },
+            {
+              "text": "e",
+              "mark": "silent"
+            }
+          ],
+          "guide": "hăv"
+        }
+      ],
+      "sentence": "We are at home.",
+      "connection": "Are goes with we. Home tells us where we are.",
+      "questions": [
+        {
+          "prompt": "Write the place where you live. We are at h___.",
+          "answer": "home",
+          "explanation": "Home keeps its silent e. Its o says ō."
+        },
+        {
+          "prompt": "Complete the sentence with the verb meaning enjoy. I l___ music.",
+          "answer": "like",
+          "explanation": "Like keeps its silent e. Its i says ī."
+        },
+        {
+          "prompt": "Complete the sentence with have. I h___ a pen.",
+          "answer": "have",
+          "explanation": "Have has a short ă sound. Its silent e allows the word to end in ve."
+        }
+      ],
+      "activity": {
+        "id": "grammar:spelling:silent-e",
+        "title": "Silent e and long vowels",
+        "rule": "A final silent e often helps the earlier vowel say its long sound. It has other jobs too. Have and give keep a short vowel; their e lets the word end in ve.",
+        "items": [
+          {
+            "id": "silent-e:1",
+            "type": "type_answer",
+            "prompt": "Write the place where you live. We are at h___.",
+            "accepted": [
+              "home"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.silent-e",
+            "hint": "A final silent e often helps the earlier vowel say its long sound. It has other jobs too. Have and give keep a short vowel; their e lets the word end in ve.",
+            "explanation": "Home keeps its silent e. Its o says ō."
+          },
+          {
+            "id": "silent-e:2",
+            "type": "type_answer",
+            "prompt": "Complete the sentence with the verb meaning enjoy. I l___ music.",
+            "accepted": [
+              "like"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.silent-e",
+            "hint": "A final silent e often helps the earlier vowel say its long sound. It has other jobs too. Have and give keep a short vowel; their e lets the word end in ve.",
+            "explanation": "Like keeps its silent e. Its i says ī."
+          },
+          {
+            "id": "silent-e:3",
+            "type": "type_answer",
+            "prompt": "Complete the sentence with have. I h___ a pen.",
+            "accepted": [
+              "have"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.silent-e",
+            "hint": "A final silent e often helps the earlier vowel say its long sound. It has other jobs too. Have and give keep a short vowel; their e lets the word end in ve.",
+            "explanation": "Have has a short ă sound. Its silent e allows the word to end in ve."
+          }
+        ],
+        "version": "3c400c86"
+      }
+    },
+    {
+      "id": "letter-teams",
+      "title": "Letters that make one sound",
+      "topic": 3,
+      "rule": "Two or more letters can work together for one sound. Read the group together. A group can have another sound in a different word, so learn it in a sentence.",
+      "sound": "sh in she · ee in need · ea in eat",
+      "examples": [
+        {
+          "word": "she",
+          "parts": [
+            {
+              "text": "sh",
+              "mark": "team"
+            },
+            {
+              "text": "e",
+              "display": "ē"
+            }
+          ]
+        },
+        {
+          "word": "need",
+          "parts": [
+            {
+              "text": "n"
+            },
+            {
+              "text": "ee",
+              "mark": "team"
+            },
+            {
+              "text": "d"
+            }
+          ]
+        },
+        {
+          "word": "eat",
+          "parts": [
+            {
+              "text": "ea",
+              "mark": "team"
+            },
+            {
+              "text": "t"
+            }
+          ]
+        }
+      ],
+      "sentence": "I need a pen.",
+      "connection": "Need is the verb. A pen tells us what I need.",
+      "questions": [
+        {
+          "prompt": "Replace Emma with one word. Emma is ready. → ___ is ready.",
+          "answer": "She",
+          "explanation": "The sh in she works together for one sound."
+        },
+        {
+          "prompt": "Use need to finish the sentence. I n___ a pen.",
+          "answer": "need",
+          "explanation": "The two e letters in need work together for the long ē sound."
+        },
+        {
+          "prompt": "Use eat to finish the sentence. I e___ lunch.",
+          "answer": "eat",
+          "explanation": "The ea in eat works together for the long ē sound."
+        }
+      ],
+      "activity": {
+        "id": "grammar:spelling:letter-teams",
+        "title": "Letters that make one sound",
+        "rule": "Two or more letters can work together for one sound. Read the group together. A group can have another sound in a different word, so learn it in a sentence.",
+        "items": [
+          {
+            "id": "letter-teams:1",
+            "type": "type_answer",
+            "prompt": "Replace Emma with one word. Emma is ready. → ___ is ready.",
+            "accepted": [
+              "She"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.letter-teams",
+            "hint": "Two or more letters can work together for one sound. Read the group together. A group can have another sound in a different word, so learn it in a sentence.",
+            "explanation": "The sh in she works together for one sound."
+          },
+          {
+            "id": "letter-teams:2",
+            "type": "type_answer",
+            "prompt": "Use need to finish the sentence. I n___ a pen.",
+            "accepted": [
+              "need"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.letter-teams",
+            "hint": "Two or more letters can work together for one sound. Read the group together. A group can have another sound in a different word, so learn it in a sentence.",
+            "explanation": "The two e letters in need work together for the long ē sound."
+          },
+          {
+            "id": "letter-teams:3",
+            "type": "type_answer",
+            "prompt": "Use eat to finish the sentence. I e___ lunch.",
+            "accepted": [
+              "eat"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.letter-teams",
+            "hint": "Two or more letters can work together for one sound. Read the group together. A group can have another sound in a different word, so learn it in a sentence.",
+            "explanation": "The ea in eat works together for the long ē sound."
+          }
+        ],
+        "version": "fa4c042c"
+      }
+    },
+    {
+      "id": "s-endings",
+      "title": "One ending, different sounds",
+      "topic": 1,
+      "rule": "The letter s can say /s/ or /z/. Keep the spelling when the sound changes. Add s for most plurals and he/she/it verbs. After sounds like s, z, sh, ch or j, add es and say an extra syllable.",
+      "sound": "cats ends in /s/ · pens ends in /z/ · boxes has an extra syllable",
+      "examples": [
+        {
+          "word": "is",
+          "parts": [
+            {
+              "text": "i"
+            },
+            {
+              "text": "s",
+              "number": 2
+            }
+          ],
+          "guide": "ĭz"
+        },
+        {
+          "word": "pens",
+          "parts": [
+            {
+              "text": "pen"
+            },
+            {
+              "text": "s",
+              "number": 2
+            }
+          ]
+        },
+        {
+          "word": "cats",
+          "parts": [
+            {
+              "text": "cats"
+            }
+          ]
+        }
+      ],
+      "sentence": "She is ready.",
+      "connection": "The s in is says /z/. The same letter can sound different in another word.",
+      "questions": [
+        {
+          "prompt": "Write is to finish the sentence. She ___ ready.",
+          "answer": "is",
+          "explanation": "Is ends in the /z/ sound, written with s."
+        },
+        {
+          "prompt": "Make pen mean more than one. I have two ___.",
+          "answer": "pens",
+          "explanation": "Add s to pen. The s says /z/."
+        },
+        {
+          "prompt": "Make box mean more than one. I have two ___.",
+          "answer": "boxes",
+          "explanation": "Box ends in an /s/ sound after /k/. Add es and say an extra syllable."
+        }
+      ],
+      "activity": {
+        "id": "grammar:spelling:s-endings",
+        "title": "One ending, different sounds",
+        "rule": "The letter s can say /s/ or /z/. Keep the spelling when the sound changes. Add s for most plurals and he/she/it verbs. After sounds like s, z, sh, ch or j, add es and say an extra syllable.",
+        "items": [
+          {
+            "id": "s-endings:1",
+            "type": "type_answer",
+            "prompt": "Write is to finish the sentence. She ___ ready.",
+            "accepted": [
+              "is"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.s-endings",
+            "hint": "The letter s can say /s/ or /z/. Keep the spelling when the sound changes. Add s for most plurals and he/she/it verbs. After sounds like s, z, sh, ch or j, add es and say an extra syllable.",
+            "explanation": "Is ends in the /z/ sound, written with s."
+          },
+          {
+            "id": "s-endings:2",
+            "type": "type_answer",
+            "prompt": "Make pen mean more than one. I have two ___.",
+            "accepted": [
+              "pens"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.s-endings",
+            "hint": "The letter s can say /s/ or /z/. Keep the spelling when the sound changes. Add s for most plurals and he/she/it verbs. After sounds like s, z, sh, ch or j, add es and say an extra syllable.",
+            "explanation": "Add s to pen. The s says /z/."
+          },
+          {
+            "id": "s-endings:3",
+            "type": "type_answer",
+            "prompt": "Make box mean more than one. I have two ___.",
+            "accepted": [
+              "boxes"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.s-endings",
+            "hint": "The letter s can say /s/ or /z/. Keep the spelling when the sound changes. Add s for most plurals and he/she/it verbs. After sounds like s, z, sh, ch or j, add es and say an extra syllable.",
+            "explanation": "Box ends in an /s/ sound after /k/. Add es and say an extra syllable."
+          }
+        ],
+        "version": "af356e51"
+      }
+    },
+    {
+      "id": "y-endings",
+      "title": "Keep y or change it to i",
+      "topic": 3,
+      "rule": "After a consonant, final y usually changes to i before an ending such as es or ed. Keep y before ing. After a vowel, keep y, as in play → plays.",
+      "sound": "study → studies · study → studying · play → plays",
+      "examples": [
+        {
+          "word": "study",
+          "parts": [
+            {
+              "text": "study"
+            }
+          ]
+        },
+        {
+          "word": "studies",
+          "parts": [
+            {
+              "text": "stud"
+            },
+            {
+              "text": "i",
+              "mark": "change"
+            },
+            {
+              "text": "es"
+            }
+          ]
+        }
+      ],
+      "sentence": "I study English.",
+      "connection": "Study is the verb. The ending changes when I becomes she.",
+      "questions": [
+        {
+          "prompt": "Change I to she. I study English. → She ___ English.",
+          "answer": "studies",
+          "explanation": "Study ends in a consonant + y. Change y to i and add es."
+        },
+        {
+          "prompt": "Add ing to study. Write only the new word.",
+          "answer": "studying",
+          "explanation": "Keep y before ing. Writing two i letters together would hide the base word."
+        },
+        {
+          "prompt": "Change I to she. I play after school. → She ___ after school.",
+          "answer": "plays",
+          "explanation": "Play has a vowel before y. Keep y and add s."
+        }
+      ],
+      "activity": {
+        "id": "grammar:spelling:y-endings",
+        "title": "Keep y or change it to i",
+        "rule": "After a consonant, final y usually changes to i before an ending such as es or ed. Keep y before ing. After a vowel, keep y, as in play → plays.",
+        "items": [
+          {
+            "id": "y-endings:1",
+            "type": "type_answer",
+            "prompt": "Change I to she. I study English. → She ___ English.",
+            "accepted": [
+              "studies"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.y-endings",
+            "hint": "After a consonant, final y usually changes to i before an ending such as es or ed. Keep y before ing. After a vowel, keep y, as in play → plays.",
+            "explanation": "Study ends in a consonant + y. Change y to i and add es."
+          },
+          {
+            "id": "y-endings:2",
+            "type": "type_answer",
+            "prompt": "Add ing to study. Write only the new word.",
+            "accepted": [
+              "studying"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.y-endings",
+            "hint": "After a consonant, final y usually changes to i before an ending such as es or ed. Keep y before ing. After a vowel, keep y, as in play → plays.",
+            "explanation": "Keep y before ing. Writing two i letters together would hide the base word."
+          },
+          {
+            "id": "y-endings:3",
+            "type": "type_answer",
+            "prompt": "Change I to she. I play after school. → She ___ after school.",
+            "accepted": [
+              "plays"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.y-endings",
+            "hint": "After a consonant, final y usually changes to i before an ending such as es or ed. Keep y before ing. After a vowel, keep y, as in play → plays.",
+            "explanation": "Play has a vowel before y. Keep y and add s."
+          }
+        ],
+        "version": "25521161"
+      }
+    },
+    {
+      "id": "drop-e",
+      "title": "Drop e before ing",
+      "topic": 3,
+      "rule": "When a verb ends in a single silent e, usually drop that e before ing. Keep the base word clear. Keep e in see → seeing and agree → agreeing, which end in ee.",
+      "sound": "make → making · write → writing · like → liking",
+      "examples": [
+        {
+          "word": "make",
+          "parts": [
+            {
+              "text": "m"
+            },
+            {
+              "text": "a",
+              "display": "ā"
+            },
+            {
+              "text": "k"
+            },
+            {
+              "text": "e",
+              "mark": "silent"
+            }
+          ]
+        },
+        {
+          "word": "making",
+          "parts": [
+            {
+              "text": "m"
+            },
+            {
+              "text": "a",
+              "display": "ā"
+            },
+            {
+              "text": "king"
+            }
+          ]
+        }
+      ],
+      "sentence": "I like music.",
+      "connection": "Like is a familiar verb. Its silent e disappears in liking.",
+      "questions": [
+        {
+          "prompt": "Add ing to make. Write only the new word.",
+          "answer": "making",
+          "explanation": "Drop the silent e from make, then add ing."
+        },
+        {
+          "prompt": "Add ing to write. Write only the new word.",
+          "answer": "writing",
+          "explanation": "Drop the silent e from write, then add ing."
+        },
+        {
+          "prompt": "Add ing to like. Write only the new word.",
+          "answer": "liking",
+          "explanation": "Drop the silent e from like, then add ing."
+        }
+      ],
+      "activity": {
+        "id": "grammar:spelling:drop-e",
+        "title": "Drop e before ing",
+        "rule": "When a verb ends in a single silent e, usually drop that e before ing. Keep the base word clear. Keep e in see → seeing and agree → agreeing, which end in ee.",
+        "items": [
+          {
+            "id": "drop-e:1",
+            "type": "type_answer",
+            "prompt": "Add ing to make. Write only the new word.",
+            "accepted": [
+              "making"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.drop-e",
+            "hint": "When a verb ends in a single silent e, usually drop that e before ing. Keep the base word clear. Keep e in see → seeing and agree → agreeing, which end in ee.",
+            "explanation": "Drop the silent e from make, then add ing."
+          },
+          {
+            "id": "drop-e:2",
+            "type": "type_answer",
+            "prompt": "Add ing to write. Write only the new word.",
+            "accepted": [
+              "writing"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.drop-e",
+            "hint": "When a verb ends in a single silent e, usually drop that e before ing. Keep the base word clear. Keep e in see → seeing and agree → agreeing, which end in ee.",
+            "explanation": "Drop the silent e from write, then add ing."
+          },
+          {
+            "id": "drop-e:3",
+            "type": "type_answer",
+            "prompt": "Add ing to like. Write only the new word.",
+            "accepted": [
+              "liking"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.drop-e",
+            "hint": "When a verb ends in a single silent e, usually drop that e before ing. Keep the base word clear. Keep e in see → seeing and agree → agreeing, which end in ee.",
+            "explanation": "Drop the silent e from like, then add ing."
+          }
+        ],
+        "version": "b6a457c7"
+      }
+    },
+    {
+      "id": "double-consonant",
+      "title": "Double the final consonant",
+      "topic": 3,
+      "rule": "For a one-syllable verb ending in one vowel letter + one consonant letter, double the last consonant before ing or ed. Keep w, x and y single. Two vowel letters or two final consonants keep their spelling.",
+      "sound": "sit → sitting · run → running · stop → stopped",
+      "examples": [
+        {
+          "word": "sit",
+          "parts": [
+            {
+              "text": "sit"
+            }
+          ],
+          "guide": "sĭt"
+        },
+        {
+          "word": "sitting",
+          "parts": [
+            {
+              "text": "si"
+            },
+            {
+              "text": "tt",
+              "mark": "change"
+            },
+            {
+              "text": "ing"
+            }
+          ]
+        }
+      ],
+      "sentence": "I sit at home.",
+      "connection": "Sit tells us what I do. Doubling keeps the short vowel clear in sitting.",
+      "questions": [
+        {
+          "prompt": "Add ing to sit. Write only the new word.",
+          "answer": "sitting",
+          "explanation": "Sit is one syllable ending in one vowel + one consonant. Double t before ing."
+        },
+        {
+          "prompt": "Add ing to run. Write only the new word.",
+          "answer": "running",
+          "explanation": "Run is one syllable ending in one vowel + one consonant. Double n before ing."
+        },
+        {
+          "prompt": "Add ing to need. Write only the new word.",
+          "answer": "needing",
+          "explanation": "Need has two vowel letters. Keep need and add ing."
+        }
+      ],
+      "activity": {
+        "id": "grammar:spelling:double-consonant",
+        "title": "Double the final consonant",
+        "rule": "For a one-syllable verb ending in one vowel letter + one consonant letter, double the last consonant before ing or ed. Keep w, x and y single. Two vowel letters or two final consonants keep their spelling.",
+        "items": [
+          {
+            "id": "double-consonant:1",
+            "type": "type_answer",
+            "prompt": "Add ing to sit. Write only the new word.",
+            "accepted": [
+              "sitting"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.double-consonant",
+            "hint": "For a one-syllable verb ending in one vowel letter + one consonant letter, double the last consonant before ing or ed. Keep w, x and y single. Two vowel letters or two final consonants keep their spelling.",
+            "explanation": "Sit is one syllable ending in one vowel + one consonant. Double t before ing."
+          },
+          {
+            "id": "double-consonant:2",
+            "type": "type_answer",
+            "prompt": "Add ing to run. Write only the new word.",
+            "accepted": [
+              "running"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.double-consonant",
+            "hint": "For a one-syllable verb ending in one vowel letter + one consonant letter, double the last consonant before ing or ed. Keep w, x and y single. Two vowel letters or two final consonants keep their spelling.",
+            "explanation": "Run is one syllable ending in one vowel + one consonant. Double n before ing."
+          },
+          {
+            "id": "double-consonant:3",
+            "type": "type_answer",
+            "prompt": "Add ing to need. Write only the new word.",
+            "accepted": [
+              "needing"
+            ],
+            "checking": "spelling",
+            "targetId": "spelling.double-consonant",
+            "hint": "For a one-syllable verb ending in one vowel letter + one consonant letter, double the last consonant before ing or ed. Keep w, x and y single. Two vowel letters or two final consonants keep their spelling.",
+            "explanation": "Need has two vowel letters. Keep need and add ing."
+          }
+        ],
+        "version": "d930aec0"
+      }
     }
   ]
 }
