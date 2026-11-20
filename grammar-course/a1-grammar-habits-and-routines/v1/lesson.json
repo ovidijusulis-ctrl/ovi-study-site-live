@@ -1,0 +1,675 @@
+{
+  "format": "ovi_lesson_v1",
+  "slug": "a1-grammar-habits-and-routines",
+  "episodeId": "a1-grammar-habits-and-routines",
+  "version": 1,
+  "title": "Habits and Routines",
+  "level": "A1",
+  "date": "2026-11-20",
+  "access": "public",
+  "help": [
+    "ja",
+    "es"
+  ],
+  "type": "grammar",
+  "summary": "Talk about what he, she and it do every day, say how often, and spell s, es and ies.",
+  "sources": [
+    {
+      "label": "Cambridge: Present simple",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/simple-present",
+      "note": "Verb forms and spelling."
+    },
+    {
+      "label": "British Council: Present simple",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/present-simple",
+      "note": "Routines, questions, short answers and negatives."
+    },
+    {
+      "label": "British Council: How often",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/how-often",
+      "note": "Frequency words, their positions and questions."
+    }
+  ],
+  "cover": {
+    "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-habits-and-routines/images/cover-4df296511c4c.webp",
+    "alt": "Warm, clear illustration of a child reading at home, with a schoolbag, a tidy bed and a handwashing sink nearby; no text, letters, numbers or speech bubbles"
+  },
+  "cards": {
+    "deckId": "deck_2531fd10386f6f62",
+    "title": "Practice your saved words",
+    "contractVersion": "ovi_learning_cards_block_v2",
+    "views": [
+      "learn",
+      "test",
+      "words"
+    ],
+    "defaultView": "learn",
+    "collection": {
+      "browse": true,
+      "search": true,
+      "filters": [
+        "all",
+        "phrases",
+        "due",
+        "learning",
+        "new"
+      ],
+      "removePolicy": "detach_membership_preserve_item_and_review_history",
+      "undoRemoval": true
+    }
+  },
+  "blocks": [
+    {
+      "kind": "text",
+      "id": "blk_part_01_he_and_she_with_does",
+      "title": "Part 1: He and She with Does",
+      "role": "part",
+      "paragraphs": [
+        "Talk about one other person or thing: **he**, **she** or **it**. Add **s** to a doing word like read or play.",
+        "| Person | Verb | Question | Short answer |\n|---|---|---|---|\n| I, you, we, they | **read** | **Do** you **read**? | Yes, I **do**. |\n| he, she, it | **reads** | **Does** he **read**? | Yes, he **does**. |",
+        "Put **does not** or **doesn't** before the plain verb to say no.",
+        "| Sentence | With not | Short form |\n|---|---|---|\n| He **reads**. | He **does not read**. | He **doesn't read**. |\n| She **plays**. | She **does not play**. | She **doesn't play**. |",
+        "**Rule:** Use **reads** with he, she and it. After **does** and **doesn't**, use **read** with no **s**.",
+        "- Ben **reads** at home every day.\n- **He reads** after dinner too.\n- **She plays** music after school.\n- The cat **sleeps** in the room.\n- **It sleeps** on the bed.\n- **Does Emma read** at school? Yes, **she does**.\n- **Ben doesn't eat** fish for lunch.",
+        "**Watch out:**\n- Wrong: *He is reads at home.* Right: **He reads at home.** Use **reads** alone. Do not put is before it.\n- Wrong: *Does Ben reads?* Right: **Does Ben read?** **Does** shows he, so drop the **s**.\n- Wrong: *She don't like milk.* Right: **She doesn't like milk.** Use **doesn't** with he, she and it."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-habits-and-routines/images/picture-1-3a4fb3ea4bdf.webp",
+          "alt": "A boy reads a picture book at a home table while a girl asks him a question; a cat sleeps nearby; friendly, simple details; no text, letters, numbers or speech bubbles",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_01_he_and_she_with_does_practice",
+      "title": "Practice: He and She with Does",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_01_he_and_she_with_does",
+      "items": [
+        {
+          "id": "blk_part_01_he_and_she_with_does_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "He ___ at home.",
+          "choices": [
+            "reads",
+            "read",
+            "reading"
+          ],
+          "answer": "reads",
+          "explanation": "Use reads with he.",
+          "hint": "Look at the person: he takes an s ending.",
+          "targetId": "jhs1.u6.third_person_singular",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_he_and_she_with_does_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each start with its ending.",
+          "pairs": [
+            [
+              "I",
+              "read."
+            ],
+            [
+              "He",
+              "reads."
+            ],
+            [
+              "Does he read?",
+              "Yes, he does."
+            ],
+            [
+              "Does he sleep?",
+              "No, he doesn't."
+            ]
+          ],
+          "explanation": "Use reads with he, and read (plain verb) after does or doesn't.",
+          "hint": "Plain verb after does/doesn't; +s after he in telling sentences.",
+          "targetId": "jhs1.u6.third_person_singular",
+          "checking": "grammar"
+        },
+        {
+          "type": "sort_buckets",
+          "instruction": "Sort each sentence into Needs -s or Keep Plain Verb (no -s).",
+          "buckets": [
+            {
+              "id": "adds",
+              "label": "Needs -s (he/she tells)"
+            },
+            {
+              "id": "plain",
+              "label": "Keep plain verb"
+            }
+          ],
+          "cards": [
+            {
+              "id": "h1",
+              "text": "Ben ___ (read) at home.",
+              "bucket": "adds",
+              "doneText": "Ben reads at home."
+            },
+            {
+              "id": "h2",
+              "text": "Does Ben ___ (read)?",
+              "bucket": "plain",
+              "doneText": "Does Ben read?"
+            },
+            {
+              "id": "h3",
+              "text": "She doesn't ___ (eat) fish.",
+              "bucket": "plain",
+              "doneText": "She doesn't eat fish."
+            },
+            {
+              "id": "h4",
+              "text": "The cat ___ (sleep) here.",
+              "bucket": "adds",
+              "doneText": "The cat sleeps here."
+            }
+          ],
+          "checking": "grammar",
+          "explanation": "Add -s in he/she/it telling sentences; after does or doesn't, keep the plain verb.",
+          "hint": "Check if does or doesn't is already in the sentence.",
+          "id": "blk_part_01_he_and_she_with_does_practice_q3",
+          "answer": "h1:adds; h2:plain; h3:plain; h4:adds",
+          "targetId": "jhs1.u6.third_person_singular"
+        },
+        {
+          "id": "blk_part_01_he_and_she_with_does_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "彼は本を読みます。",
+          "answer": "He reads a book.",
+          "distractors": [
+            "read",
+            "reading",
+            "am"
+          ],
+          "explanation": "Use reads with he.",
+          "hint": "Start with He, then the +s verb.",
+          "targetId": "jhs1.u6.third_person_singular",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_he_and_she_with_does_practice_q_04",
+          "type": "error_spot",
+          "sentence": "Does he reads at home?",
+          "wrong": "reads",
+          "correction": "read",
+          "explanation": "After does, use the plain verb read.",
+          "hint": "Does already shows he — check the main verb.",
+          "targetId": "jhs1.u6.third_person_singular",
+          "checking": "grammar"
+        },
+        {
+          "type": "dialogue_reply",
+          "instruction": "Choose the right short answer for Emma.",
+          "inputMode": "choice",
+          "turns": [
+            {
+              "speaker": "Ben",
+              "text": "Does Emma play music after school?"
+            },
+            {
+              "speaker": "You",
+              "replyGap": true,
+              "cueJa": "（はい、します）"
+            }
+          ],
+          "choices": [
+            "Yes, she does.",
+            "Yes, she do.",
+            "Yes, he does."
+          ],
+          "answer": "Yes, she does.",
+          "checking": "grammar",
+          "explanation": "Emma is she, and Does questions answer with does.",
+          "hint": "Emma = she; reuse does in the short answer.",
+          "id": "blk_part_01_he_and_she_with_does_practice_q6",
+          "targetId": "jhs1.u6.third_person_singular"
+        },
+        {
+          "id": "blk_part_01_he_and_she_with_does_practice_q_05",
+          "type": "type_answer",
+          "prompt": "He ___ read at school. Make a no sentence.",
+          "accepted": [
+            "doesn't",
+            "does not"
+          ],
+          "hint": "Think about a no sentence for he.",
+          "explanation": "Use doesn't or does not before the plain verb.",
+          "targetId": "jhs1.u6.third_person_singular",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_he_and_she_with_does_practice_q_06",
+          "type": "transform",
+          "instruction": "Make a yes/no question.",
+          "source": "He reads at home.",
+          "accepted": [
+            "Does he read at home?"
+          ],
+          "explanation": "Use does before he and the plain verb read after he.",
+          "hint": "Start with Does, then change reads back to read.",
+          "targetId": "jhs1.u6.third_person_singular",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:habits:practice:jhs1.u6.third_person_singular",
+      "activityVersion": "f54efe731baeb471"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_02_how_often",
+      "title": "Part 2: How Often",
+      "role": "part",
+      "paragraphs": [
+        "These four words tell how often someone does a routine.",
+        "| Word | How often | Example |\n|---|---|---|\n| **always** | every time | She **always** reads at night. |\n| **usually** | on most days | He **usually** walks to school. |\n| **sometimes** | on some days, not every day | We **sometimes** play together. |\n| **never** | not at any time | They **never** eat late. |",
+        "Put these words before a doing word. Put them after **am**, **is** and **are**.",
+        "| Verb | Place | Example |\n|---|---|---|\n| doing word | **before** the verb | Ben **usually** walks home. |\n| **be** | **after** am, is, are | Emma is **always** ready. |",
+        "**Rule:** Put these words before a doing word. Put them after **am**, **is** and **are**. **Sometimes** can also start a sentence. Ask with **How often does**.",
+        "- She **always** reads before bed.\n- Ben **usually** helps at home.\n- I am **usually** ready early.\n- We are **never** late for school.\n- **Sometimes** we walk in the park.\n- **How often does** he read? He reads every day.",
+        "**Watch out:**\n- Wrong: *He reads always at home.* Right: **He always reads at home.** Put **always** before the doing word.\n- Wrong: *She always is ready.* Right: **She is always ready.** Put **always** after is."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-habits-and-routines/images/picture-2-9ea3af1bfea3.webp",
+          "alt": "A child stands ready by the front door with a schoolbag, while another child reads at a table; morning light fills the home; no text, letters, numbers or speech bubbles",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_02_how_often_practice",
+      "title": "Practice: How Often",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_02_how_often",
+      "items": [
+        {
+          "id": "blk_part_02_how_often_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "She ___ reads at home: every time.",
+          "choices": [
+            "always",
+            "sometimes",
+            "never"
+          ],
+          "answer": "always",
+          "explanation": "Always means every time.",
+          "hint": "Which word means 100% — every time?",
+          "targetId": "adverbs_frequency",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_how_often_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each meaning with its word.",
+          "pairs": [
+            [
+              "every time",
+              "always"
+            ],
+            [
+              "on most days",
+              "usually"
+            ],
+            [
+              "on some days, not every day",
+              "sometimes"
+            ],
+            [
+              "not at any time",
+              "never"
+            ]
+          ],
+          "explanation": "These words tell us how often we do things.",
+          "hint": "Match 100%, 80%, 40%, 0% meanings.",
+          "targetId": "adverbs_frequency",
+          "checking": "grammar"
+        },
+        {
+          "type": "sort_buckets",
+          "instruction": "Sort each sentence into Right Word Order or Wrong Word Order.",
+          "buckets": [
+            {
+              "id": "right",
+              "label": "Right place"
+            },
+            {
+              "id": "wrong",
+              "label": "Wrong place"
+            }
+          ],
+          "cards": [
+            {
+              "id": "f1",
+              "text": "She always reads at night.",
+              "bucket": "right"
+            },
+            {
+              "id": "f2",
+              "text": "He reads always at night.",
+              "bucket": "wrong",
+              "doneText": "He always reads at night."
+            },
+            {
+              "id": "f3",
+              "text": "We are never late.",
+              "bucket": "right"
+            },
+            {
+              "id": "f4",
+              "text": "She always is ready.",
+              "bucket": "wrong",
+              "doneText": "She is always ready."
+            }
+          ],
+          "checking": "grammar",
+          "explanation": "Frequency words go before ordinary verbs (always reads) and after am/is/are (is always).",
+          "hint": "Remember: BEFORE ordinary verb, AFTER be.",
+          "id": "blk_part_02_how_often_practice_q3",
+          "answer": "f1:right; f2:wrong; f3:right; f4:wrong",
+          "targetId": "adverbs_frequency"
+        },
+        {
+          "id": "blk_part_02_how_often_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence. Put usually after am.",
+          "sourceJa": "私はたいてい準備ができています。",
+          "answer": "I am usually ready.",
+          "distractors": [
+            "is",
+            "are"
+          ],
+          "explanation": "Put usually after am.",
+          "hint": "Start with I am, then usually.",
+          "targetId": "adverbs_frequency",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_how_often_practice_q_04",
+          "type": "word_bank",
+          "instruction": "Make a sentence. Put always after is.",
+          "sourceJa": "彼女はいつも準備ができています。",
+          "answer": "She is always ready.",
+          "distractors": [
+            "am",
+            "are"
+          ],
+          "explanation": "Put always after is.",
+          "hint": "Start with She is, then always.",
+          "targetId": "adverbs_frequency",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_how_often_practice_q_05",
+          "type": "error_spot",
+          "sentence": "How often do he read at home?",
+          "wrong": "do",
+          "correction": "does",
+          "explanation": "Use does (not do) when asking How often about he, she or it.",
+          "hint": "Look at he — which helper verb goes with he?",
+          "targetId": "adverbs_frequency",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_how_often_practice_q_06",
+          "type": "type_answer",
+          "prompt": "How often ___ he read?",
+          "accepted": [
+            "does"
+          ],
+          "hint": "This question is about he.",
+          "explanation": "Use How often does with he.",
+          "targetId": "adverbs_frequency",
+          "checking": "grammar"
+        },
+        {
+          "type": "dialogue_reply",
+          "instruction": "Write the sentence putting always in the right spot.",
+          "inputMode": "type",
+          "turns": [
+            {
+              "speaker": "Ben",
+              "text": "Emma never misses class. Is she ready early?"
+            },
+            {
+              "speaker": "You",
+              "replyGap": true,
+              "cueJa": "（彼女はいつも準備ができています：Yes, she is always ready.）"
+            }
+          ],
+          "accepted": [
+            "Yes, she is always ready.",
+            "She is always ready."
+          ],
+          "checking": "grammar",
+          "explanation": "Put always right after is: She is always ready.",
+          "hint": "Order: She is + always + ready.",
+          "id": "blk_part_02_how_often_practice_q8",
+          "targetId": "adverbs_frequency"
+        }
+      ],
+      "activityId": "grammar-spelling:habits:practice:adverbs_frequency",
+      "activityVersion": "0731166f15f095d8"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_03_adding_s_es_and_ies",
+      "title": "Part 3: Adding S, ES and IES",
+      "role": "part",
+      "paragraphs": [
+        "Look at the back of a verb. Choose the ending for **he**, **she** or **it**.",
+        "| Rule | Example |\n|---|---|\n| Most words: add **s** | read → **reads** |\n| Ends in **ch, sh, ss, x, zz**: add **es** | watch → **watches** |\n| **a, e, i, o, u** + **y**: add **s** | play → **plays** |\n| Other letter + **y**: **y** → **ies** | study → **studies** |\n| Special words | have → **has** |\n| Special words | go → **goes** |\n| Special words | do → **does** |",
+        "Look at **reads**. Write **r-e-a-d**, then add **s**. Look at **studies**. Before **y** is **d**, not a vowel. So **y** changes to **ies**.",
+        "**Rule:** Add **s** to most verbs. Add **es** after **ch, sh, ss, x** and **zz**. Keep **y** after **a, e, i, o, u**. Change **y** to **ies** after other letters.",
+        "- He **watches** TV after dinner.\n- Emma **washes** cups in the kitchen.\n- My brother **plays** games on Friday.\n- She **studies** English in the evening.\n- He **has** a new pen. She **goes** home at four.",
+        "**Watch out:**\n- Wrong: *He studys English.* Right: **He studies English.** Before y is d, so change y to ies.\n- Wrong: *She watchs TV.* Right: **She watches TV.** After ch, add es.\n- Wrong: *It haves four legs.* Right: **It has four legs.** Have changes to has."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-habits-and-routines/images/picture-3-f0cf235e82c5.webp",
+          "alt": "A child checks handwriting in a notebook with a pencil and eraser at a school desk; view the pages from behind so no writing is visible; no text, letters or numbers",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_03_adding_s_es_and_ies_practice",
+      "title": "Practice: Adding S, ES and IES",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_03_adding_s_es_and_ies",
+      "items": [
+        {
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "She ___ at home.",
+          "choices": [
+            "studies",
+            "studys",
+            "study"
+          ],
+          "answer": "studies",
+          "explanation": "Before y is d, so change y to ies.",
+          "hint": "Look at the letter before y in study.",
+          "targetId": "spl.s_es_ies",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each verb with its he/she form.",
+          "pairs": [
+            [
+              "read",
+              "reads"
+            ],
+            [
+              "wash",
+              "washes"
+            ],
+            [
+              "study",
+              "studies"
+            ],
+            [
+              "play",
+              "plays"
+            ]
+          ],
+          "explanation": "Check the last letters before choosing -s, -es or -ies.",
+          "hint": "sh takes -es; consonant + y becomes -ies; vowel + y keeps y + s.",
+          "targetId": "spl.s_es_ies",
+          "checking": "spelling"
+        },
+        {
+          "type": "sort_buckets",
+          "instruction": "Sort each verb into +s, +es, or change y → ies for he/she.",
+          "buckets": [
+            {
+              "id": "s",
+              "label": "Add -s"
+            },
+            {
+              "id": "es",
+              "label": "Add -es"
+            },
+            {
+              "id": "ies",
+              "label": "y → ies"
+            }
+          ],
+          "cards": [
+            {
+              "id": "s1",
+              "text": "read",
+              "bucket": "s",
+              "doneText": "reads"
+            },
+            {
+              "id": "s2",
+              "text": "play",
+              "bucket": "s",
+              "doneText": "plays"
+            },
+            {
+              "id": "s3",
+              "text": "watch",
+              "bucket": "es",
+              "doneText": "watches"
+            },
+            {
+              "id": "s4",
+              "text": "wash",
+              "bucket": "es",
+              "doneText": "washes"
+            },
+            {
+              "id": "s5",
+              "text": "study",
+              "bucket": "ies",
+              "doneText": "studies"
+            }
+          ],
+          "checking": "spelling",
+          "explanation": "Use +es after ch/sh; change consonant + y to ies; add +s to read and vowel+y play.",
+          "hint": "Look at the ending letters before adding the ending.",
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q3",
+          "answer": "s1:s; s2:s; s3:es; s4:es; s5:ies",
+          "targetId": "spl.s_es_ies"
+        },
+        {
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Make a sentence.",
+          "sourceJa": "彼女は学校に行きます。",
+          "answer": "She goes to school.",
+          "distractors": [
+            "go",
+            "gos"
+          ],
+          "explanation": "Go changes to goes with she.",
+          "hint": "Use the special form goes after she.",
+          "targetId": "spl.s_es_ies",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q_04",
+          "type": "error_spot",
+          "sentence": "He haves a book.",
+          "wrong": "haves",
+          "correction": "has",
+          "explanation": "Have changes to has with he.",
+          "hint": "Have is a special word for he/she.",
+          "targetId": "spl.s_es_ies",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q_05",
+          "type": "type_answer",
+          "prompt": "He wash___. Type only the added letters.",
+          "accepted": [
+            "es"
+          ],
+          "hint": "Look at the last two letters.",
+          "explanation": "Add es after sh.",
+          "targetId": "spl.s_es_ies",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q_06",
+          "type": "type_answer",
+          "prompt": "He ___ at home. Change study for he.",
+          "accepted": [
+            "studies"
+          ],
+          "hint": "Look at the letter before y.",
+          "explanation": "Before y is d, so change y to ies.",
+          "targetId": "spl.s_es_ies",
+          "checking": "spelling"
+        },
+        {
+          "type": "dialogue_reply",
+          "instruction": "Write one sentence changing I to Ben.",
+          "inputMode": "type",
+          "turns": [
+            {
+              "speaker": "Emma",
+              "text": "I watch TV after dinner. What about Ben?"
+            },
+            {
+              "speaker": "You",
+              "replyGap": true,
+              "cueJa": "（ベンも夕食後にテレビを見ます：Ben watches TV after dinner.）"
+            }
+          ],
+          "accepted": [
+            "Ben watches TV after dinner.",
+            "He watches TV after dinner."
+          ],
+          "checking": "spelling",
+          "explanation": "Watch ends in ch, so write watches after Ben.",
+          "hint": "Spell watch for Ben: watch + es.",
+          "id": "blk_part_03_adding_s_es_and_ies_practice_q8",
+          "targetId": "spl.s_es_ies"
+        }
+      ],
+      "activityId": "grammar-spelling:habits:practice:spl.s_es_ies",
+      "activityVersion": "5e6c3e980ceef9fe"
+    }
+  ]
+}
