@@ -2022,6 +2022,12 @@
         "Be or an Action Verb": "be動詞は様子や場所を言います。walk, eat, play などの動作の動詞は「すること」を言います。 ここでは be動詞か動作の動詞のどちらか一つだけを使います：I play. / I am happy.（I am play. は×）",
         "Capital Letters and Sentence Endings": "文は大文字で始めます。ふつうの文はピリオド（.）、質問はクエスチョンマーク（?）で終わります。 最初の文字は大文字。ふつうの文の最後は「.」、質問の最後は「?」。I と名前はいつも大文字です。"
       },
+      "rulesEs": {
+        "Am, Is and Are": "am, is y are son formas del verbo be (ser / estar). Dicen quién es alguien, cuántos años tiene, cómo está o dónde está. Elige am, is o are según la persona: I usa am; he, she e it usan is; you, we y they usan are.",
+        "English Sentence Order": "Las palabras en inglés siguen un orden fijo: primero va la persona o cosa y después el verbo. En una oración normal: persona → verbo. En preguntas de sí/no con be, be va al principio. Las palabras como where van antes de be.",
+        "Be or an Action Verb": "be expresa cómo o dónde está alguien. Los verbos de acción como walk, eat y play dicen lo que alguien hace. Aquí usa be o el verbo de acción, nunca los dos juntos: I play. / I am happy. (no «I am play»).",
+        "Capital Letters and Sentence Endings": "Toda oración empieza con mayúscula. Las afirmaciones terminan con punto (.) y las preguntas con signo de interrogación (?). Empieza con mayúscula, termina con punto (.) o con signo (?) en preguntas. I y los nombres siempre llevan mayúscula."
+      },
       "activities": [
         {
           "mode": "check",
@@ -4368,6 +4374,11 @@
         "Questions and Negatives with Do": "動作の動詞で質問するときは do を使います。I / you / we / they の場合です。 動作の動詞には do を使います。質問は Do を先頭に。否定は動詞の前に do not（don't）を置きます。",
         "Don't and Do Not": "don't は do not を短くした形です。 don't と do not は同じ意味です。' は消えた o の場所に入ります。"
       },
+      "rulesEs": {
+        "Everyday Actions": "Usa el presente simple para acciones de todos los días. En esta unidad usamos I, you, we y they (he, she e it van en la Unidad 3). Después de I, you, we y they, el verbo queda en su forma base, sin -s ni am/is/are.",
+        "Questions and Negatives with Do": "Usa do para preguntar o negar con verbos comunes cuando el sujeto es I, you, we o they. Pon Do al inicio para preguntar y do not (don't) antes del verbo para negar.",
+        "Don't and Do Not": "don't es la forma corta de do not. don't y do not significan lo mismo. El apóstrofo (') ocupa el lugar de la o."
+      },
       "activities": [
         {
           "mode": "check",
@@ -6059,8 +6070,8 @@
         "accent": "plum",
         "tagline": "Talk about what he, she and it do every day, place how-often words in the right spot, and spell s, es and ies cleanly.",
         "yourTurn": {
-          "prompt": "Write one habit about a friend or family member using always, usually, sometimes, or never.",
-          "promptJa": "家族や友だちの習慣を、always / usually / sometimes / never を使って1文書いてみよう。",
+          "prompt": "Write one true sentence or question about a classmate's habit using always, usually, sometimes, or never. Next class, try a new verb!",
+          "promptJa": "クラスメートの習慣について、always / usually / sometimes / never を使って1文か質問を書いてみよう。次のレッスンでは別の動詞でも試してみよう！",
           "example": "My sister usually reads before bed.",
           "requiredTokens": [
             "always",
@@ -6475,7 +6486,7 @@
                     "action": "She always reads at night.",
                     "be": "Emma is always ready."
                   },
-                  "note": "100% — every time! Always comes before reads, after is.",
+                  "note": "100% — every time! In normal sentences, always comes before reads and after is.",
                   "noteJa": "always = いつも（100%）。一般動詞の前、is のあと。"
                 }
               ]
@@ -6628,6 +6639,11 @@
         "He and She with Does": "三単現（3単現）：主語が he / she / it（1人の人や1つの物）のとき、一般動詞に s / es / ies をつけます。質問は Does、否定は doesn't を使います。 he / she / it では動詞に s。質問の Does や否定の doesn't を使うと、後ろの動詞は元の形（read）にもどります。",
         "How Often": "頻度を表す副詞：always（いつも）、usually（たいてい）、sometimes（ときどき）、never（一度も〜ない）で回数を言います。 位置は「一般動詞の前、be動詞（am / is / are）のあと」です。sometimes は文頭にも置けます。",
         "Adding S, ES and IES": "he / she / it の動詞のつづりのルールです。語尾の文字を見て s / es / ies を選びます。 ふつうは +s、ch / sh / ss / x / zz は +es、子音 + y は y を i に変えて +es（study → studies）。have → has、go → goes、do → does。"
+      },
+      "rulesEs": {
+        "He and She with Does": "Para hablar de otra persona o cosa (he, she o it), el verbo lleva -s. Usa Does para preguntar y doesn't para negar. Con he, she e it el verbo lleva s/es/ies. Después de does o doesn't, el verbo vuelve a su forma base (read, sin s).",
+        "How Often": "always (siempre), usually (casi siempre), sometimes (a veces) y never (nunca) dicen con qué frecuencia ocurre algo. En oraciones normales van antes del verbo de acción y después de am, is o are. Sometimes también puede ir al principio.",
+        "Adding S, ES and IES": "La terminación del verbo con he, she o it depende de sus últimas letras. La mayoría agrega -s; después de ch, sh, ss, x o zz agrega -es; consonante + y cambia y por -ies (study → studies). Especiales: has, goes, does."
       },
       "activities": [
         {
