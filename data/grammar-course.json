@@ -1300,6 +1300,98 @@
             "like"
           ]
         },
+        "crossLayer": [
+          {
+            "id": "cl-u1-1",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Fix BOTH the capital letter, be verb, and end mark: emma be happy",
+            "accepted": [
+              "Emma is happy."
+            ],
+            "spellingRuleId": "capital-endings",
+            "targetId": "jhs1.u2.be_is",
+            "explanation": "Start names with a capital letter (Emma), use is for one person, and end with a full stop (.)."
+          },
+          {
+            "id": "cl-u1-2",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Write a question with capital letter and ?: ben / tired",
+            "accepted": [
+              "Is Ben tired?"
+            ],
+            "spellingRuleId": "capital-endings",
+            "targetId": "jhs1.u2.be_is_questions",
+            "explanation": "Move Is to the front, capitalize Ben, and finish with ?."
+          },
+          {
+            "id": "cl-u1-3",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Error hunt — fix the extra verb and capital I: i am walk to school.",
+            "accepted": [
+              "I walk to school."
+            ],
+            "spellingRuleId": "capital-endings",
+            "targetId": "jhs1.u1.ordinary_positive",
+            "explanation": "Always capitalize I, and remove am before an action verb like walk."
+          },
+          {
+            "id": "cl-u1-4",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Complete with the short form (apostrophe + capital): ___ ready. (I am)",
+            "accepted": [
+              "I'm",
+              "I'm ready."
+            ],
+            "spellingRuleId": "short-vowels",
+            "targetId": "jhs1.u1.be_am",
+            "explanation": "I am shortens to I'm with capital I and an apostrophe for the missing a."
+          }
+        ],
+        "classmateQuiz": [
+          {
+            "id": "cq-u1-1",
+            "prompt": "Ask your partner how they feel right now using Are you...? Then answer with I'm.",
+            "promptJa": "パートナーに Are you...? で今の気分を聞いて、I'm で答えてみよう。",
+            "verbs": [
+              "ready",
+              "happy",
+              "tired",
+              "early"
+            ],
+            "modelQuestion": "Are you tired today?",
+            "modelAnswer": "No, I'm not! I'm ready for class."
+          },
+          {
+            "id": "cq-u1-2",
+            "prompt": "Talk about someone else in the room with is or isn't.",
+            "promptJa": "クラスの人や友だちのことを is / isn't を使って言ってみよう。",
+            "verbs": [
+              "is",
+              "isn't",
+              "at school",
+              "here"
+            ],
+            "modelQuestion": "Is Ken at school today?",
+            "modelAnswer": "Yes, he is. He is right here."
+          },
+          {
+            "id": "cq-u1-3",
+            "prompt": "Pick an action verb and say one true sentence about you and your partner (no am/are!).",
+            "promptJa": "動作の動詞を1つ選んで、am / are を入れずに本当の文を言ってみよう。",
+            "verbs": [
+              "play",
+              "eat",
+              "walk",
+              "read"
+            ],
+            "modelQuestion": "Do we play after school?",
+            "modelAnswer": "We walk to the park and play!"
+          }
+        ],
         "topics": [
           {
             "part": "Am, Is and Are",
@@ -1309,6 +1401,14 @@
               "jhs1.u1.be_are",
               "jhs1.u2.be_is"
             ],
+            "layers": {
+              "spellingRuleId": "short-vowels",
+              "spellingLabel": "Short vowels (am, is)",
+              "words": [
+                "be"
+              ],
+              "sentenceLabel": "I am / She is / They are"
+            },
             "lab": {
               "widget": "syntax_morph",
               "cue": "Tap a person and sentence type to watch be snap into place.",
@@ -1828,6 +1928,14 @@
               "jhs1.u2.be_is_questions",
               "jhs1.u3.where"
             ],
+            "layers": {
+              "spellingRuleId": "short-vowels",
+              "spellingLabel": "Question & sound check",
+              "words": [
+                "be"
+              ],
+              "sentenceLabel": "Ben is happy. → Is Ben happy?"
+            },
             "lab": {
               "widget": "syntax_morph",
               "cue": "Switch the pattern to see how English words move places.",
@@ -1921,6 +2029,17 @@
               "jhs1.u1.be_am",
               "jhs1.u1.ordinary_positive"
             ],
+            "layers": {
+              "spellingRuleId": "double-consonant",
+              "spellingLabel": "Action verb spelling",
+              "words": [
+                "be",
+                "eat",
+                "play",
+                "walk"
+              ],
+              "sentenceLabel": "I am tired. vs I eat lunch."
+            },
             "lab": {
               "widget": "contrast_toggle",
               "cue": "Compare be vs action verbs, then tap the extra word in Trap Zapper.",
@@ -1971,6 +2090,15 @@
             "shortTitle": "Capitals & . ?",
             "role": "spelling",
             "pointIds": [],
+            "layers": {
+              "spellingRuleId": "capital-endings",
+              "spellingLabel": "Capitals, . and ?",
+              "words": [
+                "be",
+                "have"
+              ],
+              "sentenceLabel": "Emma is here. / Is Emma here?"
+            },
             "lab": {
               "widget": "ending_machine",
               "cue": "Inspect how capitals, spaces, and end marks turn messy drafts into clean English.",
@@ -4036,6 +4164,98 @@
             "like"
           ]
         },
+        "crossLayer": [
+          {
+            "id": "cl-u2-1",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Error hunt — fix the apostrophe and verb ending: They do'nt plays here.",
+            "accepted": [
+              "They don't play here."
+            ],
+            "spellingRuleId": "do-contractions",
+            "targetId": "jhs1.u1.ordinary_questions_negatives",
+            "explanation": "Put the apostrophe between n and t (don't) and keep the base verb play."
+          },
+          {
+            "id": "cl-u2-2",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Error hunt — fix the question helper and end mark: are you like music",
+            "accepted": [
+              "Do you like music?"
+            ],
+            "spellingRuleId": "silent-e",
+            "targetId": "jhs1.u1.ordinary_questions_negatives",
+            "explanation": "Use Do (not Are) with ordinary verbs like like, and end with ?."
+          },
+          {
+            "id": "cl-u2-3",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Make it negative with the short form: We ___ (not / eat) fish.",
+            "accepted": [
+              "don't eat",
+              "We don't eat fish."
+            ],
+            "spellingRuleId": "do-contractions",
+            "targetId": "jhs1.u1.ordinary_questions_negatives",
+            "explanation": "Use don't (do + n't) directly before the plain verb eat."
+          },
+          {
+            "id": "cl-u2-4",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Fix BOTH errors (extra verb + s): We are walks to school.",
+            "accepted": [
+              "We walk to school."
+            ],
+            "spellingRuleId": "silent-e",
+            "targetId": "jhs1.u1.ordinary_positive",
+            "explanation": "After we, remove are and keep walk with no -s."
+          }
+        ],
+        "classmateQuiz": [
+          {
+            "id": "cq-u2-1",
+            "prompt": "Ask your partner a Do you...? question with one of these verbs, then swap roles!",
+            "promptJa": "次の動詞を使ってパートナーに Do you...? で質問してみよう。終わったら交代！",
+            "verbs": [
+              "read",
+              "like",
+              "walk",
+              "play"
+            ],
+            "modelQuestion": "Do you walk to school every day?",
+            "modelAnswer": "Yes, I do. / No, I don't."
+          },
+          {
+            "id": "cq-u2-2",
+            "prompt": "Ask a Where or When question using do + you + verb.",
+            "promptJa": "Where や When を使って、どこで・いつ〜するか聞いてみよう。",
+            "verbs": [
+              "eat",
+              "read",
+              "study",
+              "play"
+            ],
+            "modelQuestion": "Where do you eat lunch?",
+            "modelAnswer": "I usually eat lunch at school."
+          },
+          {
+            "id": "cq-u2-3",
+            "prompt": "Say one thing you do every day AND one thing you don't do.",
+            "promptJa": "毎日することと、しないこと（don't）をペアで1つずつ言い合おう。",
+            "verbs": [
+              "like",
+              "have",
+              "need",
+              "eat"
+            ],
+            "modelQuestion": "What do you do after dinner?",
+            "modelAnswer": "I read a book, and I don't play games late."
+          }
+        ],
         "topics": [
           {
             "part": "Everyday Actions",
@@ -4043,6 +4263,17 @@
             "pointIds": [
               "jhs1.u1.ordinary_positive"
             ],
+            "layers": {
+              "spellingRuleId": "silent-e",
+              "spellingLabel": "Silent e (like, write)",
+              "words": [
+                "like",
+                "read",
+                "walk",
+                "play"
+              ],
+              "sentenceLabel": "I / You / We / They + base verb"
+            },
             "lab": {
               "widget": "contrast_toggle",
               "cue": "Compare clean I/you/we/they verbs against common mistakes — zap each broken word.",
@@ -4097,6 +4328,17 @@
               "jhs1.u3.where",
               "jhs1.u3.when"
             ],
+            "layers": {
+              "spellingRuleId": "do-contractions",
+              "spellingLabel": "do / do not",
+              "words": [
+                "do",
+                "eat",
+                "read",
+                "need"
+              ],
+              "sentenceLabel": "Do you read? / Where do you eat?"
+            },
             "lab": {
               "widget": "syntax_morph",
               "cue": "Tap a sentence pattern to see how do and do not work with ordinary verbs.",
@@ -4229,6 +4471,16 @@
             "pointIds": [
               "jhs1.u1.ordinary_questions_negatives"
             ],
+            "layers": {
+              "spellingRuleId": "do-contractions",
+              "spellingLabel": "Apostrophe (do not → don't)",
+              "words": [
+                "do",
+                "like",
+                "have"
+              ],
+              "sentenceLabel": "We don't play here."
+            },
             "lab": {
               "widget": "ending_machine",
               "cue": "See which missing letter the apostrophe (') replaces in short forms.",
@@ -6082,6 +6334,99 @@
             "doesn't"
           ]
         },
+        "crossLayer": [
+          {
+            "id": "cl-u3-1",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Spell the verb for She (y → ies): She ___ (study) every day.",
+            "accepted": [
+              "studies",
+              "She studies every day."
+            ],
+            "spellingRuleId": "y-endings",
+            "targetId": "jhs1.u6.third_person_singular",
+            "explanation": "study ends in consonant d + y, so change y to i and add -es: studies."
+          },
+          {
+            "id": "cl-u3-2",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Spell the verb for He (-ch → -es): He ___ (watch) the game on Sunday.",
+            "accepted": [
+              "watches",
+              "He watches the game on Sunday."
+            ],
+            "spellingRuleId": "s-endings",
+            "targetId": "jhs1.u6.third_person_singular",
+            "explanation": "After ch, add -es (watches) for he, she, or it."
+          },
+          {
+            "id": "cl-u3-3",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Error hunt — fix capital, spelling, and end mark: she always study at home",
+            "accepted": [
+              "She always studies at home."
+            ],
+            "spellingRuleId": "y-endings",
+            "targetId": "jhs1.u6.third_person_singular",
+            "explanation": "Capitalize She, change study → studies (y → ies), and end with a full stop (.)."
+          },
+          {
+            "id": "cl-u3-4",
+            "type": "type_answer",
+            "checking": "exact",
+            "prompt": "Error hunt — fix the apostrophe and verb ending: He doesnt reads at school.",
+            "accepted": [
+              "He doesn't read at school."
+            ],
+            "spellingRuleId": "do-contractions",
+            "targetId": "jhs1.u6.third_person_singular",
+            "explanation": "Use doesn't (with an apostrophe) and drop -s back to plain read."
+          }
+        ],
+        "classmateQuiz": [
+          {
+            "id": "cq-u3-1",
+            "prompt": "Ask a classmate about their brother, sister, or friend's habit using Does + verb (pick a new verb each round!).",
+            "promptJa": "パートナーの家族や友だちの習慣を Does ...? で聞いてみよう（毎回ちがう動詞で！）。",
+            "verbs": [
+              "study",
+              "read",
+              "watch",
+              "play"
+            ],
+            "modelQuestion": "Does your sister study after dinner?",
+            "modelAnswer": "Yes, she does. She usually studies at 7."
+          },
+          {
+            "id": "cq-u3-2",
+            "prompt": "Check how often your classmate does this action: always, usually, sometimes, or never.",
+            "promptJa": "always / usually / sometimes / never を使ってどのくらいするか聞いてみよう。",
+            "verbs": [
+              "walk",
+              "eat",
+              "read",
+              "study"
+            ],
+            "modelQuestion": "How often does your friend walk to school?",
+            "modelAnswer": "He always walks to school, even on rainy days."
+          },
+          {
+            "id": "cq-u3-3",
+            "prompt": "Partner A says a 'He / She...' sentence aloud. Partner B turns it into a 'Does he/she...?' question!",
+            "promptJa": "Aが He / She の文を言い、Bがそれを Does ...? の質問に変えてみよう！",
+            "verbs": [
+              "watches",
+              "studies",
+              "goes",
+              "has"
+            ],
+            "modelQuestion": "She watches TV on Sunday. → Does she watch TV on Sunday?",
+            "modelAnswer": "Yes, she does! Remember to drop -es after Does."
+          }
+        ],
         "topics": [
           {
             "part": "He and She with Does",
@@ -6089,6 +6434,17 @@
             "pointIds": [
               "jhs1.u6.third_person_singular"
             ],
+            "layers": {
+              "spellingRuleId": "letter-teams",
+              "spellingLabel": "Letter teams (read, play, watch)",
+              "words": [
+                "do",
+                "read",
+                "play",
+                "watch"
+              ],
+              "sentenceLabel": "He reads. / Does he read?"
+            },
             "lab": {
               "widget": "syntax_morph",
               "cue": "Tap a person and form to watch the -s magnet jump onto the verb — or move onto Does / doesn't!",
@@ -6434,6 +6790,16 @@
             "part": "How Often",
             "shortTitle": "How Often",
             "pointIds": [],
+            "layers": {
+              "spellingRuleId": "letter-teams",
+              "spellingLabel": "Habit words (always, usually)",
+              "words": [
+                "read",
+                "walk",
+                "study"
+              ],
+              "sentenceLabel": "She always reads. / She is always ready."
+            },
             "lab": {
               "widget": "scale_slider",
               "cue": "Slide from 0% to 100% and switch between an ordinary verb and be to watch word position flip.",
@@ -6499,6 +6865,17 @@
             "pointIds": [
               "jhs1.u6.third_person_singular"
             ],
+            "layers": {
+              "spellingRuleId": "y-endings",
+              "spellingLabel": "-s, -es and y → ies",
+              "words": [
+                "study",
+                "watch",
+                "go",
+                "have"
+              ],
+              "sentenceLabel": "studies · watches · goes"
+            },
             "lab": {
               "widget": "ending_machine",
               "cue": "Feed a base verb into the ending machine to see why it takes -s, -es, or -ies.",
