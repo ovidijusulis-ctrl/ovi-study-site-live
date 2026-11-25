@@ -5,181 +5,906 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Sentence changer</title>
 <style>
-  :root { --ink:#102c37; --soft:rgba(18,49,63,.68); --page:#f6f7f1; --surface:#fff; --mint:#2aa99a; --mint-soft:#e3f4f1; --amber:#d57932; --amber-soft:#fbeadb; --line:rgba(16,44,55,.12); --blue:#3d6fb6; --blue-soft:#e6eef9; }
+  :root {
+    --ink: #102c37;
+    --soft: rgba(18, 49, 63, 0.72);
+    --page: #f6f7f1;
+    --surface: #ffffff;
+    --mint: #2aa99a;
+    --mint-dark: #136b60;
+    --mint-soft: #e3f4f1;
+    --amber: #d57932;
+    --amber-dark: #9c430c;
+    --amber-soft: #fbeadb;
+    --line: rgba(16, 44, 55, 0.13);
+    --blue: #3d6fb6;
+    --blue-soft: #e6eef9;
+  }
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: transparent; color: var(--ink); font: 17px/1.5 "Source Sans 3", system-ui, -apple-system, "Hiragino Sans", sans-serif; letter-spacing: 0; }
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px; box-shadow: 0 6px 24px rgba(16,44,55,.06); }
-  h2 { font-size: 1.05rem; margin: 0 0 2px; }
-  .hint { color: var(--soft); margin: 0 0 16px; font-size: .95rem; }
-  .row { margin: 0 0 12px; }
-  .label { font-size: .8rem; font-weight: 600; color: var(--soft); text-transform: uppercase; margin-bottom: 6px; }
+  [hidden] { display: none !important; }
+  html, body {
+    margin: 0;
+    background: transparent;
+    color: var(--ink);
+    font: 17px/1.5 "Source Sans 3", system-ui, -apple-system, "Hiragino Sans", sans-serif;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 6px 24px rgba(16, 44, 55, 0.06);
+  }
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px 12px;
+    margin-bottom: 14px;
+  }
+  .top-copy { min-width: 190px; flex: 1 1 200px; }
+  h2 { font-size: 1.08rem; margin: 0 0 2px; line-height: 1.3; }
+  .hint { color: var(--soft); margin: 0; font-size: 0.94rem; }
+  .top-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+  .row { margin: 0 0 11px; }
+  .label {
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    color: var(--soft);
+    text-transform: uppercase;
+    margin-bottom: 6px;
+  }
   .chips { display: flex; flex-wrap: wrap; gap: 8px; }
-  button.chip { appearance: none; border: 1px solid var(--line); background: var(--page); color: var(--ink); border-radius: 999px; min-height: 44px; padding: 8px 16px; font: inherit; font-size: 1rem; cursor: pointer; transition: background 150ms ease, border-color 150ms ease, transform 150ms ease; touch-action: manipulation; }
+  button.chip {
+    appearance: none;
+    border: 1px solid var(--line);
+    background: var(--page);
+    color: var(--ink);
+    border-radius: 999px;
+    min-height: 44px;
+    padding: 8px 15px;
+    font: inherit;
+    font-size: 0.98rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    transition: background 150ms ease, border-color 150ms ease, transform 120ms ease;
+    touch-action: manipulation;
+  }
   button.chip:hover { border-color: var(--mint); }
-  button.chip[aria-pressed="true"] { background: var(--mint-soft); border-color: var(--mint); font-weight: 600; }
-  button.chip:active { transform: scale(.97); }
-  button.chip:focus-visible { outline: 3px solid var(--mint); outline-offset: 2px; }
-  .stage { margin: 18px 0 8px; padding: 22px 12px; border-radius: 14px; background: var(--page); min-height: 112px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
-  .sentence { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 10px; font-size: clamp(1.4rem, 5vw, 2rem); font-weight: 600; }
-  .tok { padding: 2px 10px; border-radius: 10px; position: relative; transition: background 150ms ease; }
-  .tok.subject { background: var(--blue-soft); color: #234a80; }
-  .tok.helper { background: var(--amber-soft); color: #8a4413; }
-  .tok.verb { background: var(--mint-soft); color: #136b60; }
-  .tok.rest, .tok.mark { padding-left: 0; padding-right: 0; }
-  .tok.mark { margin-left: -10px; }
-  .s-end { color: var(--amber); text-decoration: underline; text-decoration-thickness: 3px; text-underline-offset: 5px; }
-  .fly { position: absolute; z-index: 2; font-weight: 700; color: #fff; background: var(--amber); border-radius: 999px; padding: 0 10px; font-size: 1.1rem; pointer-events: none; box-shadow: 0 4px 12px rgba(213,121,50,.4); }
-  .why { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; border-radius: 14px; border: 1px solid var(--line); font-size: 1rem; min-height: 52px; }
-  .why b { color: #8a4413; }
-  .lang { margin-left: auto; white-space: nowrap; flex: none; }
-  .top { display: flex; align-items: flex-start; gap: 12px; }
-  .done { margin-top: 10px; font-size: .9rem; color: #136b60; min-height: 1.4em; }
-  @media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
+  button.chip[aria-pressed="true"] {
+    background: var(--mint-soft);
+    border-color: var(--mint);
+    color: var(--mint-dark);
+    font-weight: 700;
+  }
+  button.chip.tool-btn {
+    padding: 8px 13px;
+    font-size: 0.92rem;
+    background: var(--surface);
+  }
+  button.chip.tool-btn.is-playing {
+    background: var(--amber-soft);
+    border-color: var(--amber);
+    color: var(--amber-dark);
+  }
+  button.chip:active { transform: scale(0.97); }
+  button.chip:focus-visible,
+  button.tok:focus-visible {
+    outline: 3px solid var(--mint);
+    outline-offset: 2px;
+  }
 
-  .check { margin-top: 18px; border-top: 1px solid var(--line); padding-top: 16px; }
-  .check h3 { font-size: 1rem; margin: 0 0 8px; }
-  .q { font-size: clamp(1.2rem, 4.5vw, 1.6rem); font-weight: 600; margin: 4px 0 12px; }
-  .q .gap { display: inline-block; min-width: 3.2em; border-bottom: 3px solid var(--mint); text-align: center; color: #136b60; }
-  button.chip.right { background: var(--mint-soft); border-color: var(--mint); }
-  button.chip.wrong { background: var(--amber-soft); border-color: var(--amber); }
-  .fb { min-height: 1.5em; margin-top: 10px; font-size: 1rem; }
-  .score { font-weight: 700; color: #136b60; }
+  .stage {
+    margin: 16px 0 8px;
+    padding: 44px 12px 20px;
+    border-radius: 16px;
+    background: var(--page);
+    border: 1px solid rgba(16, 44, 55, 0.08);
+    min-height: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  .sentence {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    gap: 8px 9px;
+    font-size: clamp(1.38rem, 5.2vw, 1.96rem);
+    font-weight: 600;
+    line-height: 1.35;
+  }
+  button.tok {
+    appearance: none;
+    border: 0;
+    font: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    padding: 3px 11px;
+    border-radius: 11px;
+    position: relative;
+    cursor: pointer;
+    touch-action: manipulation;
+    transition: transform 150ms ease, filter 150ms ease;
+  }
+  button.tok:hover { filter: brightness(0.97); transform: translateY(-1px); }
+  button.tok.subject { background: var(--blue-soft); color: #234a80; }
+  button.tok.helper { background: var(--amber-soft); color: #8a4413; }
+  button.tok.verb { background: var(--mint-soft); color: var(--mint-dark); }
+  button.tok.rest {
+    background: rgba(16, 44, 55, 0.05);
+    color: var(--ink);
+    padding: 3px 10px;
+  }
+  .tok.mark {
+    display: inline-block;
+    margin-left: -6px;
+    padding: 0;
+    color: var(--ink);
+    user-select: none;
+  }
+  .s-end {
+    display: inline-block;
+    padding: 0 4px;
+    margin-left: 1px;
+    border-radius: 7px;
+    background: rgba(213, 121, 50, 0.16);
+    color: #a84208;
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-thickness: 2.5px;
+    text-underline-offset: 4px;
+  }
+  .s-fly-letter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 4;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 8px;
+    background: var(--amber);
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 1.35;
+    pointer-events: none;
+    box-shadow: 0 6px 16px rgba(213, 121, 50, 0.42);
+    will-change: transform, opacity;
+  }
+  .tok.verb.is-settled {
+    animation: verb-settle 280ms ease;
+  }
+  @keyframes verb-settle {
+    0% { opacity: 0.45; transform: scale(0.94); }
+    100% { opacity: 1; transform: scale(1); }
+  }
+  .stage-subhint {
+    font-size: 0.82rem;
+    color: var(--soft);
+    text-align: center;
+  }
+  .stage-subhint .audio-btn-inline {
+    margin-left: 6px;
+  }
+
+  .why {
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 12px 14px;
+    border-radius: 14px;
+    border: 1px solid var(--line);
+    background: #fcfcf9;
+    font-size: 0.98rem;
+    min-height: 52px;
+  }
+  .why b { color: var(--amber-dark); }
+  .why-rule {
+    margin-top: 6px;
+    font-size: 0.9rem;
+    color: var(--soft);
+  }
+  .done {
+    margin-top: 10px;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--mint-dark);
+    min-height: 1.4em;
+  }
+
+  .check {
+    margin-top: 16px;
+    border-top: 1px solid var(--line);
+    padding-top: 16px;
+  }
+  .check-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px 12px;
+    margin-bottom: 10px;
+  }
+  .check h3 { font-size: 1rem; margin: 0; }
+  .dots {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 999px;
+    background: rgba(16, 44, 55, 0.16);
+    transition: transform 160ms ease, background 160ms ease;
+  }
+  .dot.is-current {
+    background: var(--amber);
+    transform: scale(1.18);
+  }
+  .dot.is-first { background: var(--mint); }
+  .dot.is-retry { background: #e8b36b; }
+  .dot-count {
+    font-size: 0.86rem;
+    font-weight: 600;
+    color: var(--soft);
+    margin-left: 4px;
+  }
+  .q {
+    font-size: clamp(1.18rem, 4.4vw, 1.52rem);
+    font-weight: 600;
+    margin: 4px 0 12px;
+  }
+  .q .gap {
+    display: inline-block;
+    min-width: 3.1em;
+    padding: 0 6px;
+    border-bottom: 3px solid var(--mint);
+    text-align: center;
+    color: var(--mint-dark);
+  }
+  button.chip.right {
+    background: var(--mint-soft);
+    border-color: var(--mint);
+    color: var(--mint-dark);
+    font-weight: 700;
+  }
+  button.chip.wrong {
+    background: var(--amber-soft);
+    border-color: var(--amber);
+    color: var(--amber-dark);
+  }
+  .fb {
+    min-height: 1.6em;
+    margin-top: 10px;
+    font-size: 0.96rem;
+    padding: 8px 12px;
+    border-radius: 12px;
+    display: none;
+  }
+  .fb.is-visible { display: block; }
+  .fb.is-right { background: var(--mint-soft); color: var(--mint-dark); font-weight: 600; }
+  .fb.is-wrong { background: var(--amber-soft); color: var(--amber-dark); }
+  .fb.is-summary { background: var(--page); border: 1px solid var(--line); color: var(--ink); }
+  .score { font-weight: 700; color: var(--mint-dark); font-size: 1.06rem; }
+  .retry-row { margin-top: 10px; display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
 </style>
 </head>
 <body>
 <div class="card" id="app">
   <div class="top">
-    <div><h2>Change the sentence</h2><p class="hint" id="hint">Pick who, what and how. Watch the -s.</p></div>
-    <button class="chip lang" id="lang" aria-pressed="false" title="日本語の説明">日本語</button>
+    <div class="top-copy">
+      <h2 id="title">Change the sentence</h2>
+      <p class="hint" id="hint">Pick who, what, and how. Watch the -s move.</p>
+    </div>
+    <div class="top-actions">
+      <button class="chip tool-btn" id="listen" type="button" aria-pressed="false" aria-label="Listen to this sentence">▶ <span id="listen-label">Listen</span></button>
+      <button class="chip tool-btn" id="sound" type="button" aria-pressed="true" aria-label="Toggle sound effects"></button>
+      <button class="chip tool-btn" id="lang" type="button" aria-pressed="false">日本語</button>
+    </div>
   </div>
+
   <div class="row"><div class="label" id="l-who">Who</div><div class="chips" id="who"></div></div>
   <div class="row"><div class="label" id="l-what">What</div><div class="chips" id="what"></div></div>
   <div class="row"><div class="label" id="l-how">How</div><div class="chips" id="how"></div></div>
-  <div class="stage" id="stage" aria-live="polite"><div class="sentence" id="sentence"></div></div>
+
+  <div class="stage" id="stage" aria-live="polite">
+    <div class="sentence" id="sentence"></div>
+    <div class="stage-subhint" id="tap-hint">Tap a highlighted word for dictionary help.</div>
+  </div>
+
   <div class="why" id="why"></div>
   <div class="done" id="done"></div>
+
   <div class="check" id="check">
-    <h3 id="check-title">Check yourself</h3>
+    <div class="check-head">
+      <h3 id="check-title">Check yourself</h3>
+      <div class="dots" id="dots" aria-label="Check progress"></div>
+    </div>
     <div class="q" id="q"></div>
     <div class="chips" id="opts"></div>
     <div class="fb" id="fb" aria-live="polite"></div>
+    <div class="retry-row" id="retry-row"></div>
   </div>
 </div>
+
+<audio id="sprite" preload="none" src="./audio/unit-clips.mp3" hidden></audio>
 <script src="sentence-engine.js"></script>
+<script src="audio-cues.js"></script>
 <script>
 (() => {
   const E = window.SentenceEngine;
-  const state = { subject: 'she', verb: 'have', form: 'positive', lang: 'en', tried: new Set() };
-  const LABELS = { en: { who: 'Who', what: 'What', how: 'How', hint: 'Pick who, what and how. Watch the -s.', forms: { positive: 'Yes ✓', negative: 'Not ✗', question: 'Question ?' }, done: 'You found all three he/she forms. Great!' },
-                   ja: { who: 'だれが', what: '何を', how: '形', hint: 'だれ・何・形を選んで、-s の動きを見よう。', forms: { positive: '肯定 ✓', negative: '否定 ✗', question: '疑問 ?' }, done: 'he / she の3つの形を見つけました！' } };
+  const CUES = window.LabAudioCues || { clips: {} };
   const $ = (id) => document.getElementById(id);
-  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  function chips(el, items, key, labelOf) {
-    el.innerHTML = '';
-    for (const item of items) {
-      const b = document.createElement('button');
-      b.className = 'chip'; b.type = 'button'; b.textContent = labelOf(item);
-      b.setAttribute('aria-pressed', String(state[key] === item.id));
-      b.addEventListener('click', () => { const before = render.lastRects(); state[key] = item.id; render(before); });
-      el.appendChild(b);
+  const initialLang = (() => {
+    const p = new URLSearchParams(window.location.search).get('lang');
+    return p && p.toLowerCase() === 'ja' ? 'ja' : 'en';
+  })();
+
+  const state = {
+    subject: 'she',
+    verb: 'have',
+    form: 'positive',
+    lang: initialLang,
+    muted: false,
+    triedThirdForms: new Set(['positive']),
+    activeFlyers: [],
+  };
+
+  const COPY = {
+    en: {
+      title: 'Change the sentence',
+      hint: 'Pick who, what, and how. Watch the -s move.',
+      listen: 'Listen',
+      stop: 'Stop',
+      who: 'Who',
+      what: 'What',
+      how: 'How',
+      tapHint: 'Tap a word above for dictionary help.',
+      forms: { positive: 'Yes ✓', negative: 'Not ✗', question: 'Question ?' },
+      done: 'Nice! You tested positive, negative, and question with he / she.',
+      checkTitle: 'Check yourself',
+      right: 'Right!',
+      firstTry: 'right on the first try',
+      tryAgain: 'Try again',
+      langBtn: '日本語',
+    },
+    ja: {
+      title: '文を変えてみよう',
+      hint: 'だれ・何・形を選んで、-s の動きを見よう。',
+      listen: 'きく',
+      stop: '止める',
+      who: 'だれが',
+      what: '何を',
+      how: '形',
+      tapHint: '上のことばをタップすると意味が見られます。',
+      forms: { positive: '肯定 ✓', negative: '否定 ✗', question: '疑問 ?' },
+      done: 'いいね！he / she の3つの形を全部試しました。',
+      checkTitle: '確認しよう',
+      right: '正解！',
+      firstTry: '問（一回目で正解）',
+      tryAgain: 'もう一度やる',
+      langBtn: 'EN',
+    },
+  };
+
+  let audioCtx = null;
+  function tone(freq, dur, gainPeak, delay = 0, type = 'triangle') {
+    if (state.muted) return;
+    try {
+      const Ctor = window.AudioContext || window.webkitAudioContext;
+      if (!Ctor) return;
+      if (!audioCtx) audioCtx = new Ctor();
+      if (audioCtx.state === 'suspended') audioCtx.resume().catch(() => {});
+      const now = audioCtx.currentTime + delay;
+      const osc = audioCtx.createOscillator();
+      const g = audioCtx.createGain();
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, now);
+      g.gain.setValueAtTime(0.0001, now);
+      g.gain.exponentialRampToValueAtTime(gainPeak, now + 0.012);
+      g.gain.exponentialRampToValueAtTime(0.0001, now + dur);
+      osc.connect(g);
+      g.connect(audioCtx.destination);
+      osc.start(now);
+      osc.stop(now + dur + 0.02);
+    } catch {}
+  }
+  const sfxTick = () => tone(440, 0.06, 0.025, 0, 'sine');
+  const sfxRight = () => { tone(523.25, 0.13, 0.045, 0); tone(659.25, 0.17, 0.05, 0.075); };
+  const sfxWrong = () => { tone(235, 0.09, 0.03, 0, 'sine'); tone(190, 0.12, 0.025, 0.055, 'sine'); };
+  const sfxDone = () => { tone(523.25, 0.14, 0.045, 0); tone(659.25, 0.14, 0.045, 0.085); tone(783.99, 0.22, 0.055, 0.17, 'sine'); };
+
+  const audioEl = $('sprite');
+  let stopTimer = null;
+  let playingAudio = false;
+
+  function stopSpeech() {
+    clearTimeout(stopTimer);
+    stopTimer = null;
+    audioEl.pause();
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    playingAudio = false;
+    $('listen').classList.remove('is-playing');
+    $('listen').setAttribute('aria-pressed', 'false');
+    $('listen-label').textContent = COPY[state.lang].listen;
+    $('listen').firstChild.textContent = '▶ ';
+  }
+
+  function speakSentence() {
+    if (playingAudio) { stopSpeech(); return; }
+    const text = E.sentence(E.build(state.subject, state.verb, state.form));
+    const cue = CUES.clips && CUES.clips[text];
+    playingAudio = true;
+    $('listen').classList.add('is-playing');
+    $('listen').setAttribute('aria-pressed', 'true');
+    $('listen-label').textContent = COPY[state.lang].stop;
+    $('listen').firstChild.textContent = '■ ';
+
+    if (cue && audioEl) {
+      const [start, end] = cue;
+      const playSegment = () => {
+        try {
+          audioEl.currentTime = start;
+          const p = audioEl.play();
+          if (p && p.catch) {
+            p.catch(() => fallbackSpeak(text));
+          }
+          clearTimeout(stopTimer);
+          stopTimer = setTimeout(stopSpeech, Math.max(250, Math.round((end - start + 0.08) * 1000)));
+        } catch {
+          fallbackSpeak(text);
+        }
+      };
+      if (audioEl.readyState >= 1) playSegment();
+      else {
+        const onMeta = () => { audioEl.removeEventListener('loadedmetadata', onMeta); playSegment(); };
+        audioEl.addEventListener('loadedmetadata', onMeta);
+        audioEl.load();
+      }
+      return;
+    }
+    fallbackSpeak(text);
+  }
+
+  function fallbackSpeak(text) {
+    if (!('speechSynthesis' in window)) { stopSpeech(); return; }
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US';
+      u.rate = 0.92;
+      u.onend = stopSpeech;
+      u.onerror = stopSpeech;
+      window.speechSynthesis.speak(u);
+    } catch {
+      stopSpeech();
     }
   }
 
-  function tokenEl(t) {
-    const span = document.createElement('span'); span.className = `tok ${t.role}`; span.dataset.role = t.role;
-    const v = E.VERBS.find((x) => x.id === state.verb), s = E.SUBJECTS.find((x) => x.id === state.subject);
-    // Show where the -s lives: at the end of the verb (has, goes, watches) or of does/doesn't.
-    if (t.role === 'verb' && s.third && t.text === v.s) {
-      const stem = v.id === 'have' ? 'ha' : v.id === 'study' ? 'stud' : v.base;
-      span.innerHTML = `${stem}<span class="s-end">${t.text.slice(stem.length)}</span>`;
-    } else if (t.role === 'helper' && /^does/i.test(t.text)) {
-      span.innerHTML = `${t.text.slice(0, 2)}<span class="s-end">${t.text.slice(2, 4)}</span>${t.text.slice(4)}`;
-    } else span.textContent = t.text;
-    return span;
+  function post(msg) {
+    if (window.parent !== window) window.parent.postMessage({ ...msg, block: 'sentence-changer', v: 2 }, '*');
   }
 
-  function render(before) {
-    const L = LABELS[state.lang];
-    $('l-who').textContent = L.who; $('l-what').textContent = L.what; $('l-how').textContent = L.how; $('hint').textContent = L.hint;
+  function lookupWordForToken(t) {
+    const clean = t.text.toLowerCase();
+    if (t.role === 'rest') {
+      if (clean === 'a cat') return 'cat';
+      if (clean === 'to school') return 'school';
+      if (clean === 'tv') return 'TV';
+      if (clean === 'english') return 'English';
+    }
+    return t.text;
+  }
+
+  function clearActiveFlip() {
+    while (state.activeFlyers.length) {
+      const item = state.activeFlyers.pop();
+      try { item.anim.cancel(); } catch {}
+      item.flyer.remove();
+      if (item.targetEl) item.targetEl.style.visibility = '';
+    }
+  }
+
+  function measureActiveSEnd() {
+    const el = document.querySelector('#sentence .s-end');
+    const stage = $('stage').getBoundingClientRect();
+    if (!el) return null;
+    const rect = el.getBoundingClientRect();
+    const cs = getComputedStyle(el);
+    return {
+      rect,
+      stage,
+      text: el.textContent,
+      fontSize: cs.fontSize,
+      fontWeight: cs.fontWeight,
+      lineHeight: cs.lineHeight,
+      fontFamily: cs.fontFamily,
+    };
+  }
+
+  function buildTokenElement(t, transition) {
+    if (t.role === 'mark') {
+      const mark = document.createElement('span');
+      mark.className = 'tok mark';
+      mark.textContent = t.text;
+      return mark;
+    }
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = `tok ${t.role}`;
+    btn.dataset.role = t.role;
+    const v = E.VERBS.find((x) => x.id === state.verb);
+    const s = E.SUBJECTS.find((x) => x.id === state.subject);
+    if (t.role === 'verb' && s.third && t.text === v.s) {
+      const p = E.verbParts(v.id);
+      const stem = document.createElement('span');
+      stem.className = 'stem';
+      stem.textContent = p.stem;
+      const end = document.createElement('span');
+      end.className = 's-end';
+      end.textContent = p.ending;
+      btn.append(stem, end);
+    } else if (t.role === 'helper' && /^does/i.test(t.text)) {
+      const head = document.createTextNode(t.text.slice(0, 2));
+      const end = document.createElement('span');
+      end.className = 's-end';
+      end.textContent = t.text.slice(2, 4);
+      const tail = document.createTextNode(t.text.slice(4));
+      btn.append(head, end, tail);
+    } else {
+      btn.textContent = t.text;
+    }
+    if (t.role === 'verb' && (transition === 'verb-to-helper' || transition === 'helper-to-verb')) {
+      btn.classList.add('is-settled');
+    }
+    btn.setAttribute('aria-label', `${t.text} — dictionary help`);
+    btn.addEventListener('click', () => {
+      sfxTick();
+      post({ type: 'ovi-block:lookup', word: lookupWordForToken(t) });
+    });
+    return btn;
+  }
+
+  function runFlipTransition(before, transition) {
+    if (!before) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    if (transition === 'none' || transition === 'fade-in') {
+      if (transition === 'fade-in') {
+        const dest = document.querySelector('#sentence .s-end');
+        if (dest) {
+          dest.animate([{ opacity: 0, transform: 'scale(0.85)' }, { opacity: 1, transform: 'scale(1)' }], { duration: 240, easing: 'ease-out' });
+        }
+      }
+      return;
+    }
+
+    const stage = $('stage');
+    const stageRect = stage.getBoundingClientRect();
+    const startX = before.rect.left - stageRect.left;
+    const startY = before.rect.top - stageRect.top;
+
+    if (transition === 'fade-out') {
+      const ghost = document.createElement('span');
+      ghost.className = 's-fly-letter';
+      ghost.textContent = before.text;
+      ghost.style.fontSize = before.fontSize;
+      ghost.style.fontFamily = before.fontFamily;
+      stage.appendChild(ghost);
+      const anim = ghost.animate([
+        { transform: `translate(${startX}px, ${startY}px)`, opacity: 1 },
+        { transform: `translate(${startX}px, ${Math.max(4, startY - 14)}px)`, opacity: 0 },
+      ], { duration: 300, easing: 'ease-out' });
+      const entry = { anim, flyer: ghost, targetEl: null };
+      state.activeFlyers.push(entry);
+      const clean = () => {
+        ghost.remove();
+        const idx = state.activeFlyers.indexOf(entry);
+        if (idx >= 0) state.activeFlyers.splice(idx, 1);
+      };
+      anim.onfinish = clean;
+      anim.oncancel = clean;
+      return;
+    }
+
+    const afterEl = document.querySelector('#sentence .s-end');
+    if (!afterEl) return;
+    const afterRect = afterEl.getBoundingClientRect();
+    const endX = afterRect.left - stageRect.left;
+    const endY = afterRect.top - stageRect.top;
+    if (Math.abs(endX - startX) < 3 && Math.abs(endY - startY) < 3) return;
+
+    const flyer = document.createElement('span');
+    flyer.className = 's-fly-letter';
+    flyer.textContent = before.text;
+    flyer.style.fontSize = before.fontSize;
+    flyer.style.fontFamily = before.fontFamily;
+    afterEl.style.visibility = 'hidden';
+    stage.appendChild(flyer);
+
+    const midX = (startX + endX) / 2;
+    const midY = Math.max(4, Math.min(startY, endY) - 34);
+    const destText = afterEl.textContent;
+    const swapMid = () => { if (flyer.isConnected) flyer.textContent = destText; };
+
+    const anim = flyer.animate([
+      { transform: `translate(${startX}px, ${startY}px) scale(1)` },
+      { transform: `translate(${midX}px, ${midY}px) scale(1.12)`, offset: 0.5 },
+      { transform: `translate(${endX}px, ${endY}px) scale(1)` },
+    ], { duration: 580, easing: 'cubic-bezier(0.22, 0.8, 0.28, 1)' });
+
+    const swapTimer = setTimeout(swapMid, 290);
+    const entry = { anim, flyer, targetEl: afterEl };
+    state.activeFlyers.push(entry);
+    const finish = () => {
+      clearTimeout(swapTimer);
+      flyer.remove();
+      if (afterEl.isConnected) afterEl.style.visibility = '';
+      const idx = state.activeFlyers.indexOf(entry);
+      if (idx >= 0) state.activeFlyers.splice(idx, 1);
+    };
+    anim.onfinish = finish;
+    anim.oncancel = finish;
+  }
+
+  function renderChips(container, items, key, labelOf) {
+    container.innerHTML = '';
+    for (const item of items) {
+      const b = document.createElement('button');
+      b.className = 'chip';
+      b.type = 'button';
+      b.textContent = labelOf(item);
+      b.setAttribute('aria-pressed', String(state[key] === item.id));
+      b.addEventListener('click', () => {
+        if (state[key] === item.id) return;
+        sfxTick();
+        stopSpeech();
+        clearActiveFlip();
+        const prev = { subject: state.subject, verb: state.verb, form: state.form };
+        const before = measureActiveSEnd();
+        state[key] = item.id;
+        const transition = E.classifyTransition(prev, { subject: state.subject, verb: state.verb, form: state.form });
+        render(before, transition);
+      });
+      container.appendChild(b);
+    }
+  }
+
+  function render(before = null, transition = 'none') {
+    const L = COPY[state.lang];
+    $('title').textContent = L.title;
+    $('hint').textContent = L.hint;
+    $('l-who').textContent = L.who;
+    $('l-what').textContent = L.what;
+    $('l-how').textContent = L.how;
+    $('tap-hint').textContent = L.tapHint;
+    $('lang').textContent = L.langBtn;
     $('lang').setAttribute('aria-pressed', String(state.lang === 'ja'));
-    chips($('who'), E.SUBJECTS, 'subject', (s) => s.text);
-    chips($('what'), E.VERBS, 'verb', (v) => `${v.emoji} ${v.base}`);
-    chips($('how'), E.FORMS.map((id) => ({ id })), 'form', (f) => L.forms[f.id]);
+    $('listen-label').textContent = playingAudio ? L.stop : L.listen;
+    $('sound').innerHTML = state.muted
+      ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="22" y1="9" x2="16" y2="15"></line><line x1="16" y1="9" x2="22" y2="15"></line></svg>'
+      : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+    $('sound').setAttribute('aria-pressed', String(!state.muted));
+
+    renderChips($('who'), E.SUBJECTS, 'subject', (s) => s.text);
+    renderChips($('what'), E.VERBS, 'verb', (v) => `${v.emoji} ${v.base}`);
+    renderChips($('how'), E.FORMS.map((id) => ({ id })), 'form', (f) => L.forms[f.id]);
+
     const tokens = E.build(state.subject, state.verb, state.form);
-    const box = $('sentence'); box.innerHTML = '';
-    tokens.forEach((t) => box.appendChild(tokenEl(t)));
-    $('why').innerHTML = `<span aria-hidden="true">💡</span><span>${E.explain(state.subject, state.verb, state.form, state.lang).replace(/(-s\b|\b[Dd]oes\b|\bdo\b|→\s*[a-z]+)/g, '<b>$1</b>')}</span>`;
-    const third = E.SUBJECTS.find((x) => x.id === state.subject).third;
-    if (third) state.tried.add(state.form);
-    $('done').textContent = state.tried.size === 3 ? L.done : '';
-    if (state.tried.size === 3 && !render.reported) { render.reported = true; post({ type: 'ovi-block:finished', score: null }); }
-    if (before && !reduce) flyS(before);
+    const sentenceBox = $('sentence');
+    sentenceBox.innerHTML = '';
+    tokens.forEach((t) => sentenceBox.appendChild(buildTokenElement(t, transition)));
+
+    const explanation = E.explain(state.subject, state.verb, state.form, state.lang)
+      .replace(/(-s\b|\b[Dd]oes\b|\bdo\b|→\s*[a-z]+)/g, '<b>$1</b>');
+    $('why').innerHTML = `<span aria-hidden="true">💡</span><div><div>${explanation}</div></div>`;
+
+    const subjObj = E.SUBJECTS.find((x) => x.id === state.subject);
+    if (subjObj.third) state.triedThirdForms.add(state.form);
+    $('done').textContent = state.triedThirdForms.size === 3 ? L.done : '';
+
+    if (before) runFlipTransition(before, transition);
+    syncCheckLanguage();
+    postResize();
+  }
+
+  function postResize() {
     post({ type: 'ovi-block:resize', height: document.documentElement.scrollHeight });
   }
 
-  // Where the -s sat before the change, so it can fly to where it sits now.
-  render.lastRects = () => {
-    const s = document.querySelector('#sentence .s-end'), stage = $('stage').getBoundingClientRect();
-    return s ? { rect: s.getBoundingClientRect(), stage } : null;
-  };
-  function flyS(before) {
-    const now = document.querySelector('#sentence .s-end');
-    if (!before || !now) return;
-    const to = now.getBoundingClientRect(), stage = $('stage').getBoundingClientRect();
-    if (Math.abs(to.left - before.rect.left) < 4 && Math.abs(to.top - before.rect.top) < 4) return;
-    const chip = document.createElement('div'); chip.className = 'fly'; chip.textContent = '-s';
-    $('stage').appendChild(chip);
-    const from = { x: before.rect.left - stage.left, y: before.rect.top - stage.top - 30 }, end = { x: to.left - stage.left, y: to.top - stage.top - 30 };
-    chip.animate([{ transform: `translate(${from.x}px, ${from.y}px)`, opacity: 1 }, { transform: `translate(${(from.x + end.x) / 2}px, ${Math.min(from.y, end.y) - 26}px)`, opacity: 1 }, { transform: `translate(${end.x}px, ${end.y}px)`, opacity: 0 }], { duration: 700, easing: 'cubic-bezier(.3,.7,.3,1)' }).onfinish = () => chip.remove();
+  // Check yourself
+  const QUESTIONS = [
+    {
+      q: 'She ___ a cat.',
+      opts: ['has', 'have', 'haves'],
+      a: 'has',
+      why: 'With she, use has (never *haves).',
+      ja: 'she のときは -s がついた special 形：has を使います。',
+    },
+    {
+      q: '___ he play soccer?',
+      opts: ['Does', 'Do', 'Is'],
+      a: 'Does',
+      why: 'With he, start yes/no questions with Does.',
+      ja: 'he の疑問文は Does で始めます（does が -s を持つ）。',
+    },
+    {
+      q: "She doesn't ___ to school.",
+      opts: ['go', 'goes', 'going'],
+      a: 'go',
+      why: "doesn't already has the -es, so go stays base.",
+      ja: "doesn't がすでに -es を持っているので、動詞は元の形 go。",
+    },
+    {
+      q: 'Ken ___ English every day.',
+      opts: ['studies', 'studys', 'study'],
+      a: 'studies',
+      why: 'With Ken (he), -y changes to -ies: studies.',
+      ja: 'Ken（彼）のとき、子音字+y の study は y を i に変えて studies。',
+    },
+  ];
+
+  let qIndex = 0;
+  let firstTryCount = 0;
+  let missedCurrent = false;
+  let outcomes = QUESTIONS.map(() => 'pending');
+
+  function renderDots() {
+    const box = $('dots');
+    box.innerHTML = '';
+    QUESTIONS.forEach((_, idx) => {
+      const dot = document.createElement('span');
+      const status = outcomes[idx];
+      dot.className = 'dot'
+        + (idx === qIndex ? ' is-current' : '')
+        + (status === 'first' ? ' is-first' : status === 'retry' ? ' is-retry' : '');
+      box.appendChild(dot);
+    });
+    const count = document.createElement('span');
+    count.className = 'dot-count';
+    count.textContent = `${Math.min(qIndex + 1, QUESTIONS.length)}/${QUESTIONS.length}`;
+    box.appendChild(count);
   }
 
-  // The only messages a block sends its page: its height and that it is finished. Nothing else, no student data.
-  function post(msg) { if (window.parent !== window) window.parent.postMessage({ ...msg, block: 'sentence-changer', v: 1 }, '*'); }
-  $('lang').addEventListener('click', () => { state.lang = state.lang === 'en' ? 'ja' : 'en'; render(); });
-  new ResizeObserver(() => post({ type: 'ovi-block:resize', height: document.documentElement.scrollHeight })).observe(document.body);
-  render();
-})();
-</script>
+  function syncCheckLanguage() {
+    $('check-title').textContent = COPY[state.lang].checkTitle;
+    if (qIndex >= QUESTIONS.length) renderCheckSummary();
+  }
 
-<script>
-(() => {
-  // Check yourself: four quick questions on the same idea; a wrong answer explains and lets the student try again.
-  const Q = [
-    { q: 'She ___ a cat.', opts: ['has', 'have'], a: 'has', why: 'With she, the verb gets -s: has.', ja: 'she のときは -s がつく：has' },
-    { q: '___ he play soccer?', opts: ['Does', 'Do'], a: 'Does', why: 'With he, the question starts with Does.', ja: 'he の疑問文は Does で始める' },
-    { q: "She doesn't ___ to school.", opts: ['go', 'goes'], a: 'go', why: "doesn't already has the -s, so the verb is go.", ja: "doesn't が -s を持っているので go" },
-    { q: "They ___ like TV.", opts: ["don't", "doesn't"], a: "don't", why: "With they, use don't (no -s).", ja: "they のときは don't" },
-  ];
-  const $ = (id) => document.getElementById(id);
-  let i = 0, firstTry = 0, missed = false;
-  const ja = () => document.getElementById('lang').getAttribute('aria-pressed') === 'true';
-  function show() {
-    const item = Q[i]; missed = false;
-    $('check-title').textContent = ja() ? `確認しよう (${i + 1}/${Q.length})` : `Check yourself (${i + 1}/${Q.length})`;
+  function showQuestion() {
+    const item = QUESTIONS[qIndex];
+    missedCurrent = false;
+    $('check-title').textContent = COPY[state.lang].checkTitle;
+    renderDots();
     $('q').innerHTML = item.q.replace('___', '<span class="gap">?</span>');
-    $('fb').textContent = '';
-    const box = $('opts'); box.innerHTML = '';
+    const fb = $('fb');
+    fb.className = 'fb';
+    fb.textContent = '';
+    $('retry-row').innerHTML = '';
+    const box = $('opts');
+    box.innerHTML = '';
     for (const o of item.opts) {
-      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.textContent = o;
-      b.addEventListener('click', () => answer(b, o)); box.appendChild(b);
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip';
+      b.textContent = o;
+      b.addEventListener('click', () => handleAnswer(b, o));
+      box.appendChild(b);
+    }
+    postResize();
+  }
+
+  function handleAnswer(btn, choice) {
+    const item = QUESTIONS[qIndex];
+    const fb = $('fb');
+    if (choice === item.a) {
+      Array.from($('opts').children).forEach((el) => { el.disabled = true; });
+      btn.classList.add('right');
+      if (!missedCurrent) {
+        firstTryCount++;
+        outcomes[qIndex] = 'first';
+      } else {
+        outcomes[qIndex] = 'retry';
+      }
+      sfxRight();
+      $('q').innerHTML = item.q.replace('___', `<span class="gap">${choice}</span>`);
+      fb.className = 'fb is-visible is-right';
+      fb.textContent = COPY[state.lang].right;
+      renderDots();
+      setTimeout(() => {
+        qIndex++;
+        if (qIndex < QUESTIONS.length) showQuestion();
+        else finishCheck();
+      }, 850);
+    } else {
+      btn.classList.add('wrong');
+      missedCurrent = true;
+      sfxWrong();
+      fb.className = 'fb is-visible is-wrong';
+      fb.textContent = state.lang === 'ja' ? item.ja : item.why;
+      postResize();
     }
   }
-  function answer(b, o) {
-    const item = Q[i];
-    if (o === item.a) {
-      b.classList.add('right'); if (!missed) firstTry++;
-      $('q').innerHTML = item.q.replace('___', `<span class="gap">${o}</span>`);
-      $('fb').textContent = ja() ? '正解！' : 'Right!';
-      setTimeout(() => { i++; if (i < Q.length) show(); else finish(); }, 900);
-    } else { b.classList.add('wrong'); missed = true; $('fb').textContent = ja() ? item.ja : item.why; }
+
+  function renderCheckSummary() {
+    const L = COPY[state.lang];
+    const fb = $('fb');
+    fb.className = 'fb is-visible is-summary';
+    fb.innerHTML = `<span class="score">${firstTryCount}/${QUESTIONS.length}</span> ${L.firstTry}`;
+    const row = $('retry-row');
+    row.innerHTML = '';
+    const again = document.createElement('button');
+    again.type = 'button';
+    again.className = 'chip tool-btn';
+    again.textContent = L.tryAgain;
+    again.addEventListener('click', () => {
+      sfxTick();
+      qIndex = 0;
+      firstTryCount = 0;
+      outcomes = QUESTIONS.map(() => 'pending');
+      showQuestion();
+    });
+    row.appendChild(again);
   }
-  function finish() {
-    $('q').textContent = ''; $('opts').innerHTML = '';
-    $('fb').innerHTML = `<span class="score">${firstTry}/${Q.length}</span> ${ja() ? '一回目で正解' : 'right on the first try'}`;
-    if (window.parent !== window) window.parent.postMessage({ type: 'ovi-block:finished', block: 'sentence-changer', v: 1, score: firstTry, of: Q.length }, '*');
+
+  function finishCheck() {
+    $('q').textContent = '';
+    $('opts').innerHTML = '';
+    qIndex = QUESTIONS.length;
+    renderDots();
+    sfxDone();
+    renderCheckSummary();
+    post({ type: 'ovi-block:finished', score: firstTryCount, of: QUESTIONS.length });
+    postResize();
   }
-  show();
+
+  $('listen').addEventListener('click', speakSentence);
+  $('sound').addEventListener('click', () => {
+    state.muted = !state.muted;
+    render();
+    if (!state.muted) sfxTick();
+  });
+  $('lang').addEventListener('click', () => {
+    sfxTick();
+    state.lang = state.lang === 'en' ? 'ja' : 'en';
+    render();
+  });
+
+  window.addEventListener('message', (event) => {
+    if (window.parent !== window && event.source !== window.parent) return;
+    const msg = event.data;
+    if (!msg || typeof msg !== 'object' || msg.type !== 'ovi-host:lang') return;
+    const next = msg.language === 'ja' ? 'ja' : 'en';
+    if (state.lang !== next) {
+      state.lang = next;
+      render();
+    }
+  });
+
+  new ResizeObserver(postResize).observe(document.body);
+  showQuestion();
+  render();
 })();
 </script>
 </body>

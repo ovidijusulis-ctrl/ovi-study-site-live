@@ -18,6 +18,42 @@
   ];
   const FORMS = ['positive', 'negative', 'question'];
 
+  const VERB_PARTS = {
+    have: { stem: 'ha', ending: 's', baseTail: 've' },
+    like: { stem: 'like', ending: 's', baseTail: '' },
+    play: { stem: 'play', ending: 's', baseTail: '' },
+    go: { stem: 'go', ending: 'es', baseTail: '' },
+    watch: { stem: 'watch', ending: 'es', baseTail: '' },
+    study: { stem: 'stud', ending: 'ies', baseTail: 'y' },
+  };
+
+  function verbParts(verbId) {
+    const v = VERBS.find((x) => x.id === verbId);
+    if (!v) throw new Error('unknown verb');
+    const parts = VERB_PARTS[v.id] || { stem: v.base, ending: v.s.slice(v.base.length), baseTail: '' };
+    return { base: v.base, s: v.s, stem: parts.stem, ending: parts.ending, baseTail: parts.baseTail };
+  }
+
+  function isThirdPerson(subjectId) {
+    const s = SUBJECTS.find((x) => x.id === subjectId);
+    if (!s) throw new Error('unknown subject');
+    return s.third;
+  }
+
+  function classifyTransition(prev, next) {
+    if (!prev || !next) return 'none';
+    if (prev.subject === next.subject && prev.form === next.form) return 'none';
+    const prevThird = isThirdPerson(prev.subject);
+    const nextThird = isThirdPerson(next.subject);
+    if (prevThird && !nextThird) return 'fade-out';
+    if (!prevThird && nextThird) return 'fade-in';
+    if (!prevThird && !nextThird) return 'none';
+    if (prev.form === 'positive' && next.form !== 'positive') return 'verb-to-helper';
+    if (prev.form !== 'positive' && next.form === 'positive') return 'helper-to-verb';
+    if (prev.form !== next.form) return 'helper-to-helper';
+    return 'none';
+  }
+
   // Tokens: { text, role } where role is subject | helper | verb | rest | mark. The screen colours by role.
   function build(subjectId, verbId, form) {
     const s = SUBJECTS.find((x) => x.id === subjectId), v = VERBS.find((x) => x.id === verbId);
@@ -40,6 +76,6 @@
     if (!s.third) return form === 'positive' ? `With ${s.text.toLowerCase() === 'i' ? 'I' : s.text.toLowerCase()}, the verb stays the same: ${v.base}.` : `With ${s.text.toLowerCase() === 'i' ? 'I' : s.text.toLowerCase()}, we use do, and the verb stays the same: ${v.base}.`;
     return form === 'positive' ? `With he and she, the verb gets -s: ${v.base} → ${v.s}.` : `Does takes the -s, so the verb goes back to its base: ${v.s} → ${v.base}.`;
   }
-  root.SentenceEngine = { SUBJECTS, VERBS, FORMS, build, sentence, explain };
+  root.SentenceEngine = { SUBJECTS, VERBS, FORMS, verbParts, classifyTransition, build, sentence, explain };
   if (typeof module !== 'undefined') module.exports = root.SentenceEngine;
 })(typeof window !== 'undefined' ? window : globalThis);

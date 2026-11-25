@@ -5,114 +5,801 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Where is the ball?</title>
 <style>
-  :root { --ink:#102c37; --soft:rgba(18,49,63,.68); --page:#f6f7f1; --surface:#fff; --mint:#2aa99a; --mint-soft:#e3f4f1; --amber:#d57932; --amber-soft:#fbeadb; --line:rgba(16,44,55,.12); }
+  :root {
+    --ink: #102c37;
+    --soft: rgba(18, 49, 63, 0.72);
+    --page: #f6f7f1;
+    --surface: #ffffff;
+    --mint: #2aa99a;
+    --mint-dark: #136b60;
+    --mint-soft: #e3f4f1;
+    --amber: #d57932;
+    --amber-dark: #9c430c;
+    --amber-soft: #fbeadb;
+    --line: rgba(16, 44, 55, 0.13);
+  }
   * { box-sizing: border-box; }
-  html, body { margin: 0; background: transparent; color: var(--ink); font: 17px/1.5 "Source Sans 3", system-ui, -apple-system, "Hiragino Sans", sans-serif; }
-  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px; box-shadow: 0 6px 24px rgba(16,44,55,.06); }
-  .top { display: flex; align-items: flex-start; gap: 12px; }
-  h2 { font-size: 1.05rem; margin: 0 0 2px; }
-  .sub { color: var(--soft); margin: 0 0 8px; font-size: .95rem; }
-  .tabs { margin-left: auto; display: flex; gap: 6px; flex: none; }
-  svg { width: 100%; max-width: 420px; display: block; margin: 0 auto; }
-  .ball { transition: transform 450ms cubic-bezier(.3,.7,.3,1); }
-  .front { transition: opacity 250ms ease; }
-  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 6px 0 14px; }
-  button.chip { appearance: none; border: 1px solid var(--line); background: var(--page); color: var(--ink); border-radius: 999px; min-height: 44px; padding: 8px 16px; font: inherit; font-size: 1rem; cursor: pointer; touch-action: manipulation; transition: background 150ms ease, border-color 150ms ease; }
-  button.chip[aria-pressed="true"] { background: var(--mint-soft); border-color: var(--mint); font-weight: 600; }
-  button.chip.right { background: var(--mint-soft); border-color: var(--mint); }
-  button.chip.wrong { background: var(--amber-soft); border-color: var(--amber); }
-  button.chip:focus-visible { outline: 3px solid var(--mint); outline-offset: 2px; }
-  .say { text-align: center; background: var(--page); border-radius: 14px; padding: 14px 10px; min-height: 84px; }
-  .en { font-size: clamp(1.3rem, 5vw, 1.8rem); font-weight: 700; }
-  .en b { color: #c25a1c; }
-  .ja { color: var(--soft); font-size: .95rem; margin-top: 4px; }
-  .score { color: #136b60; }
-  @media (prefers-reduced-motion: reduce) { .ball, .front, button.chip { transition: none; } }
+  [hidden] { display: none !important; }
+  html, body {
+    margin: 0;
+    background: transparent;
+    color: var(--ink);
+    font: 17px/1.5 "Source Sans 3", system-ui, -apple-system, "Hiragino Sans", sans-serif;
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 18px;
+    box-shadow: 0 6px 24px rgba(16, 44, 55, 0.06);
+  }
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 10px 12px;
+    margin-bottom: 10px;
+  }
+  .top-copy { flex: 1 1 180px; min-width: 170px; }
+  h2 { font-size: 1.08rem; margin: 0 0 2px; line-height: 1.3; }
+  .sub { color: var(--soft); margin: 0; font-size: 0.94rem; }
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 8px;
+  }
+  .tabs { display: inline-flex; gap: 6px; }
+  .check-meta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    min-height: 22px;
+    margin: 4px 0 2px;
+  }
+  .check-meta[hidden] { display: none; }
+  .dots { display: inline-flex; align-items: center; gap: 6px; }
+  .dot {
+    width: 11px;
+    height: 11px;
+    border-radius: 999px;
+    background: rgba(16, 44, 55, 0.16);
+    transition: transform 160ms ease, background 160ms ease;
+  }
+  .dot.is-current { background: var(--amber); transform: scale(1.18); }
+  .dot.is-first { background: var(--mint); }
+  .dot.is-retry { background: #e8b36b; }
+  .dot-count { font-size: 0.86rem; font-weight: 600; color: var(--soft); margin-left: 4px; }
+
+  .stage-wrap {
+    margin: 6px 0 10px;
+    border-radius: 16px;
+    background: var(--page);
+    border: 1px solid rgba(16, 44, 55, 0.08);
+    padding: 8px;
+  }
+  svg#stage-svg {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+    user-select: none;
+    touch-action: pan-y;
+  }
+  svg#stage-svg.can-drag { touch-action: none; }
+  .ball-group {
+    transition: transform 420ms cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  .ball-group.is-draggable { cursor: grab; }
+  .ball-group.is-dragging {
+    cursor: grabbing;
+    transition: none;
+  }
+  .front { transition: opacity 240ms ease; }
+  .zone-ring {
+    fill: rgba(42, 169, 154, 0.07);
+    stroke: rgba(42, 169, 154, 0.35);
+    stroke-width: 1.8;
+    stroke-dasharray: 4 3;
+    opacity: 0.55;
+    cursor: pointer;
+    transition: opacity 150ms ease, fill 150ms ease, stroke 150ms ease;
+  }
+  svg#stage-svg.is-dragging .zone-ring,
+  .zone-ring:hover,
+  .zone-ring:focus-visible {
+    opacity: 1;
+    fill: rgba(42, 169, 154, 0.14);
+    stroke: var(--mint);
+    outline: none;
+  }
+  .zone-ring.is-hot {
+    opacity: 1;
+    fill: rgba(213, 121, 50, 0.18);
+    stroke: var(--amber);
+    stroke-width: 2.5;
+  }
+  svg#stage-svg.is-check .zone-ring { display: none; }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+    margin: 8px 0 12px;
+  }
+  button.chip {
+    appearance: none;
+    border: 1px solid var(--line);
+    background: var(--page);
+    color: var(--ink);
+    border-radius: 999px;
+    min-height: 44px;
+    padding: 8px 15px;
+    font: inherit;
+    font-size: 0.98rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    touch-action: manipulation;
+    transition: background 150ms ease, border-color 150ms ease, transform 120ms ease;
+  }
+  button.chip:hover { border-color: var(--mint); }
+  button.chip[aria-pressed="true"] {
+    background: var(--mint-soft);
+    border-color: var(--mint);
+    color: var(--mint-dark);
+    font-weight: 700;
+  }
+  button.chip.tool-btn {
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    background: var(--surface);
+  }
+  button.chip.tool-btn.is-playing {
+    background: var(--amber-soft);
+    border-color: var(--amber);
+    color: var(--amber-dark);
+  }
+  button.chip.right {
+    background: var(--mint-soft);
+    border-color: var(--mint);
+    color: var(--mint-dark);
+    font-weight: 700;
+  }
+  button.chip.wrong {
+    background: var(--amber-soft);
+    border-color: var(--amber);
+    color: var(--amber-dark);
+  }
+  button.chip:active { transform: scale(0.97); }
+  button.chip:focus-visible,
+  button.prep-lookup:focus-visible {
+    outline: 3px solid var(--mint);
+    outline-offset: 2px;
+  }
+
+  .say {
+    text-align: center;
+    background: var(--page);
+    border: 1px solid rgba(16, 44, 55, 0.08);
+    border-radius: 14px;
+    padding: 13px 12px;
+    min-height: 82px;
+  }
+  .en { font-size: clamp(1.22rem, 4.8vw, 1.68rem); font-weight: 700; line-height: 1.4; }
+  .prep-lookup {
+    appearance: none;
+    border: 0;
+    background: var(--amber-soft);
+    color: var(--amber-dark);
+    font: inherit;
+    font-weight: 700;
+    padding: 1px 9px;
+    border-radius: 8px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+    cursor: pointer;
+  }
+  .ja {
+    color: var(--soft);
+    font-size: 0.96rem;
+    margin-top: 5px;
+    min-height: 1.35em;
+  }
+  .fb-wrong {
+    color: var(--amber-dark);
+    background: var(--amber-soft);
+    display: inline-block;
+    padding: 5px 12px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+  .score { color: var(--mint-dark); font-size: 1.15rem; }
+  .say-actions {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  .say-actions[hidden] { display: none; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ball-group, .front, button.chip, .zone-ring, .dot { transition: none !important; }
+  }
 </style>
 </head>
 <body>
 <div class="card">
   <div class="top">
-    <div><h2 id="title">Where is the ball?</h2><p class="sub" id="sub">Tap a word and watch the ball.</p></div>
-    <div class="tabs"><button class="chip" id="mode-explore" type="button" aria-pressed="true">Explore</button><button class="chip" id="mode-check" type="button" aria-pressed="false">Check</button></div>
+    <div class="top-copy">
+      <h2 id="title">Where is the ball?</h2>
+      <p class="sub" id="sub">Tap a word or drag the ball.</p>
+    </div>
+    <div class="controls">
+      <div class="tabs" role="tablist" aria-label="Activity mode">
+        <button class="chip" id="mode-explore" type="button" aria-pressed="true">Explore</button>
+        <button class="chip" id="mode-check" type="button" aria-pressed="false">Check</button>
+      </div>
+      <button class="chip tool-btn" id="listen" type="button" aria-pressed="false" aria-label="Listen to this sentence">▶ <span id="listen-label">Listen</span></button>
+      <button class="chip tool-btn" id="sound" type="button" aria-pressed="true" aria-label="Toggle sound effects"></button>
+    </div>
   </div>
-  <svg viewBox="0 0 320 250" role="img" aria-label="A ball and a box">
-    <defs><radialGradient id="ballg" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#ffb199"/><stop offset=".6" stop-color="#e2553a"/><stop offset="1" stop-color="#a83620"/></radialGradient></defs>
-    <ellipse cx="170" cy="232" rx="110" ry="11" fill="rgba(16,44,55,.10)"/>
-    <g id="slot-back"></g>
-    <polygon points="110,90 150,62 240,62 200,90" fill="#8a6440"/>
-    <polygon points="200,90 240,62 240,142 200,170" fill="#c49a6c"/>
-    <polygon points="110,90 200,90 200,170 110,170" fill="#7a5735" opacity=".9"/>
-    <g id="slot-in"></g>
-    <polygon class="front" id="front" points="110,90 200,90 200,170 110,170" fill="#e2bf8f" stroke="#b8905f" stroke-width="1"/>
-    <g id="slot-front"></g>
-    <circle class="ball" id="ball" cx="0" cy="0" r="19" fill="url(#ballg)"/>
-  </svg>
+
+  <div class="check-meta" id="check-meta" hidden>
+    <div class="dots" id="dots" aria-label="Check progress"></div>
+  </div>
+
+  <div class="stage-wrap">
+    <svg id="stage-svg" class="can-drag" viewBox="0 0 320 245" role="img" aria-label="A ball and a box">
+      <defs>
+        <radialGradient id="ballg" cx="35%" cy="30%" r="70%">
+          <stop offset="0" stop-color="#ffb199"/>
+          <stop offset="0.6" stop-color="#e2553a"/>
+          <stop offset="1" stop-color="#a83620"/>
+        </radialGradient>
+      </defs>
+      <ellipse cx="168" cy="224" rx="112" ry="11" fill="rgba(16,44,55,0.10)"/>
+      <g id="slot-back"></g>
+      <polygon points="108,86 148,58 238,58 198,86" fill="#8a6440"/>
+      <polygon points="198,86 238,58 238,138 198,166" fill="#c49a6c"/>
+      <polygon points="108,86 198,86 198,166 108,166" fill="#7a5735" opacity="0.9"/>
+      <g id="slot-in"></g>
+      <polygon class="front" id="front" points="108,86 198,86 198,166 108,166" fill="#e2bf8f" stroke="#b8905f" stroke-width="1"/>
+      <g id="zones"></g>
+      <g id="slot-front"></g>
+      <g class="ball-group is-draggable" id="ball" transform="translate(168, 52)">
+        <circle cx="0" cy="0" r="24" fill="transparent"/>
+        <circle cx="0" cy="0" r="19" fill="url(#ballg)"/>
+        <ellipse cx="-6" cy="-7" rx="5" ry="3.5" fill="rgba(255,255,255,0.32)" transform="rotate(-25 -6 -7)"/>
+      </g>
+    </svg>
+  </div>
+
   <div class="chips" id="chips"></div>
-  <div class="say" aria-live="polite"><div class="en" id="en"></div><div class="ja" id="ja"></div></div>
+
+  <div class="say" aria-live="polite">
+    <div class="en" id="en"></div>
+    <div class="ja" id="ja"></div>
+    <div class="say-actions" id="say-actions" hidden></div>
+  </div>
 </div>
+
+<audio id="sprite" preload="none" src="./audio/unit-clips.mp3" hidden></audio>
+<script src="audio-cues.js"></script>
 <script>
 (() => {
+  const CUES = window.LabAudioCues || { clips: {} };
   const P = [
-    { id: 'in', word: 'in', ja: 'ボールは箱の中にあります。', x: 155, y: 132, slot: 'in', see: true },
-    { id: 'on', word: 'on', ja: 'ボールは箱の上にあります。', x: 170, y: 57, slot: 'front' },
-    { id: 'under', word: 'under', ja: 'ボールは箱の下にあります。', x: 160, y: 206, slot: 'front' },
-    { id: 'behind', word: 'behind', ja: 'ボールは箱の後ろにあります。', x: 242, y: 70, slot: 'back' },
-    { id: 'front', word: 'in front of', ja: 'ボールは箱の前にあります。', x: 140, y: 178, slot: 'front' },
-    { id: 'next', word: 'next to', ja: 'ボールは箱の隣にあります。', x: 272, y: 150, slot: 'front' },
+    {
+      id: 'in', word: 'in',
+      ja: 'ボールは箱の中にあります。',
+      hintEn: 'inside the box (surrounded by four sides)',
+      hintJa: '箱の「中」にあるとき。',
+      x: 154, y: 126, slot: 'in', see: true,
+    },
+    {
+      id: 'on', word: 'on',
+      ja: 'ボールは箱の上にあります。',
+      hintEn: 'resting on the top surface of the box',
+      hintJa: '箱の「上」にのっているとき。',
+      x: 168, y: 52, slot: 'front',
+    },
+    {
+      id: 'under', word: 'under',
+      ja: 'ボールは箱の下にあります。',
+      hintEn: 'below / underneath the box',
+      hintJa: '箱の「下」にあるとき。',
+      x: 156, y: 202, slot: 'front',
+    },
+    {
+      id: 'behind', word: 'behind',
+      ja: 'ボールは箱の後ろにあります。',
+      hintEn: 'hidden at the back side of the box',
+      hintJa: '箱の「後ろ」にかくれて見えるとき。',
+      x: 242, y: 66, slot: 'back',
+    },
+    {
+      id: 'front', word: 'in front of',
+      ja: 'ボールは箱の前にあります。',
+      hintEn: 'in front of the front face of the box',
+      hintJa: '箱の「前」にあるとき。',
+      x: 128, y: 174, slot: 'front',
+    },
+    {
+      id: 'next', word: 'next to',
+      ja: 'ボールは箱の隣にあります。',
+      hintEn: 'beside / right at the side of the box',
+      hintJa: '箱の「となり」にあるとき。',
+      x: 274, y: 146, slot: 'front',
+    },
   ];
-  const $ = (id) => document.getElementById(id), ball = $('ball'), chips = $('chips');
+
+  const COPY = {
+    en: {
+      title: 'Where is the ball?',
+      exploreTab: 'Explore',
+      checkTab: 'Check',
+      exploreSub: 'Tap a word or drag the ball.',
+      checkSub: 'Pick the place that matches the picture.',
+      doneSub: 'Check finished.',
+      listen: 'Listen',
+      stop: 'Stop',
+      right: 'Right!',
+      tryAgain: 'Try again',
+      perfect: 'Perfect! All right on the first try.',
+      wrongHint: (picked, target) => `Not "${picked.word}" — the ball is ${target.hintEn}. Look again!`,
+      firstTry: 'right on the first try',
+      tapLookup: 'Tap the highlighted word for dictionary help.',
+    },
+    ja: {
+      title: 'ボールはどこ？',
+      exploreTab: '見てみる',
+      checkTab: '確認',
+      exploreSub: 'ことばを選ぶか、ボールを動かそう。',
+      checkSub: '絵に合う位置のことばを選ぼう。',
+      doneSub: '確認おわり。',
+      listen: 'きく',
+      stop: '止める',
+      right: '正解！',
+      tryAgain: 'もう一度やる',
+      perfect: 'パーフェクト！全問一回目で正解です。',
+      wrongHint: (picked, target) => `「${picked.word}」ではないよ。もう一度よく見てみよう！`,
+      firstTry: '問（一回目で正解）',
+      tapLookup: '太字のことばをタップすると意味が見られます。',
+    },
+  };
+
+  const initialLang = (() => {
+    const p = new URLSearchParams(window.location.search).get('lang');
+    return p && p.toLowerCase() === 'ja' ? 'ja' : 'en';
+  })();
+
+  const $ = (id) => document.getElementById(id);
+  const svg = $('stage-svg');
+  const ball = $('ball');
+  const chips = $('chips');
+  const zonesEl = $('zones');
+  const audioEl = $('sprite');
   const cap = (s) => s[0].toUpperCase() + s.slice(1);
-  let mode = 'explore', current = 'on', round = 0, firstTry = 0, missed = false, order = [];
-  const post = (msg) => { if (window.parent !== window) window.parent.postMessage({ ...msg, block: 'where-is-the-ball', v: 1 }, '*'); };
+
+  let lang = initialLang;
+  let muted = false;
+  let mode = 'explore';
+  let current = 'on';
+  let round = 0;
+  let firstTry = 0;
+  let missed = false;
+  let order = [];
+  let outcomes = ['pending', 'pending', 'pending', 'pending'];
+  let audioCtx = null;
+  let stopTimer = null;
+  let playingAudio = false;
+
+  const post = (msg) => {
+    if (window.parent !== window) window.parent.postMessage({ ...msg, block: 'where-is-the-ball', v: 2 }, '*');
+  };
+  const postResize = () => post({ type: 'ovi-block:resize', height: document.documentElement.scrollHeight });
+
+  function tone(freq, dur, gainPeak, delay = 0, type = 'triangle') {
+    if (muted) return;
+    try {
+      const Ctor = window.AudioContext || window.webkitAudioContext;
+      if (!Ctor) return;
+      if (!audioCtx) audioCtx = new Ctor();
+      if (audioCtx.state === 'suspended') audioCtx.resume().catch(() => {});
+      const now = audioCtx.currentTime + delay;
+      const osc = audioCtx.createOscillator();
+      const g = audioCtx.createGain();
+      osc.type = type;
+      osc.frequency.setValueAtTime(freq, now);
+      g.gain.setValueAtTime(0.0001, now);
+      g.gain.exponentialRampToValueAtTime(gainPeak, now + 0.012);
+      g.gain.exponentialRampToValueAtTime(0.0001, now + dur);
+      osc.connect(g);
+      g.connect(audioCtx.destination);
+      osc.start(now);
+      osc.stop(now + dur + 0.02);
+    } catch {}
+  }
+  const sfxTick = () => tone(480, 0.06, 0.025, 0, 'sine');
+  const sfxRight = () => { tone(523.25, 0.13, 0.045, 0); tone(659.25, 0.17, 0.05, 0.075); };
+  const sfxWrong = () => { tone(235, 0.09, 0.03, 0, 'sine'); tone(190, 0.12, 0.025, 0.055, 'sine'); };
+  const sfxDone = () => { tone(523.25, 0.14, 0.045, 0); tone(659.25, 0.14, 0.045, 0.085); tone(783.99, 0.22, 0.055, 0.17, 'sine'); };
+
+  function currentSentenceText() {
+    const p = P.find((x) => x.id === current) || P[1];
+    return `The ball is ${p.word} the box.`;
+  }
+
+  function stopSpeech() {
+    clearTimeout(stopTimer);
+    stopTimer = null;
+    audioEl.pause();
+    if ('speechSynthesis' in window) window.speechSynthesis.cancel();
+    playingAudio = false;
+    $('listen').classList.remove('is-playing');
+    $('listen').setAttribute('aria-pressed', 'false');
+    $('listen-label').textContent = COPY[lang].listen;
+    $('listen').firstChild.textContent = '▶ ';
+  }
+
+  function speakCurrent() {
+    if (playingAudio) { stopSpeech(); return; }
+    const text = mode === 'check' && round < 4 ? currentSentenceText() : currentSentenceText();
+    const cue = CUES.clips && CUES.clips[text];
+    playingAudio = true;
+    $('listen').classList.add('is-playing');
+    $('listen').setAttribute('aria-pressed', 'true');
+    $('listen-label').textContent = COPY[lang].stop;
+    $('listen').firstChild.textContent = '■ ';
+
+    if (cue && audioEl) {
+      const [start, end] = cue;
+      const playSegment = () => {
+        try {
+          audioEl.currentTime = start;
+          const pr = audioEl.play();
+          if (pr && pr.catch) pr.catch(() => fallbackSpeak(text));
+          clearTimeout(stopTimer);
+          stopTimer = setTimeout(stopSpeech, Math.max(250, Math.round((end - start + 0.08) * 1000)));
+        } catch {
+          fallbackSpeak(text);
+        }
+      };
+      if (audioEl.readyState >= 1) playSegment();
+      else {
+        const onMeta = () => { audioEl.removeEventListener('loadedmetadata', onMeta); playSegment(); };
+        audioEl.addEventListener('loadedmetadata', onMeta);
+        audioEl.load();
+      }
+      return;
+    }
+    fallbackSpeak(text);
+  }
+
+  function fallbackSpeak(text) {
+    if (!('speechSynthesis' in window)) { stopSpeech(); return; }
+    try {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'en-US';
+      u.rate = 0.92;
+      u.onend = stopSpeech;
+      u.onerror = stopSpeech;
+      window.speechSynthesis.speak(u);
+    } catch {
+      stopSpeech();
+    }
+  }
+
+  function createZones() {
+    zonesEl.innerHTML = '';
+    for (const p of P) {
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('cx', String(p.x));
+      circle.setAttribute('cy', String(p.y));
+      circle.setAttribute('r', '17');
+      circle.setAttribute('class', 'zone-ring');
+      circle.setAttribute('data-zone', p.id);
+      circle.setAttribute('tabindex', '0');
+      circle.setAttribute('role', 'button');
+      circle.setAttribute('aria-label', `Place ball ${p.word} the box`);
+      circle.addEventListener('click', () => {
+        if (mode !== 'explore') return;
+        sfxTick();
+        explore(p.id);
+      });
+      circle.addEventListener('keydown', (e) => {
+        if (mode === 'explore' && (e.key === 'Enter' || e.key === ' ')) {
+          e.preventDefault();
+          sfxTick();
+          explore(p.id);
+        }
+      });
+      zonesEl.appendChild(circle);
+    }
+  }
 
   function place(p) {
     $('slot-' + p.slot).appendChild(ball);
-    ball.style.transform = `translate(${p.x}px, ${p.y}px)`;
-    $('front').style.opacity = p.see ? '.45' : '1';
+    ball.setAttribute('transform', `translate(${p.x}, ${p.y})`);
+    ball.style.transform = '';
+    $('front').style.opacity = p.see ? '0.42' : '1';
   }
+
+  function renderExploreSentence(p) {
+    $('en').innerHTML = '';
+    $('en').append(document.createTextNode('The ball is '));
+    const lookup = document.createElement('button');
+    lookup.type = 'button';
+    lookup.className = 'prep-lookup';
+    lookup.textContent = p.word;
+    lookup.addEventListener('click', () => {
+      sfxTick();
+      post({ type: 'ovi-block:lookup', word: p.word });
+    });
+    $('en').append(lookup, document.createTextNode(' the box.'));
+    $('ja').textContent = lang === 'ja' ? p.ja : COPY[lang].tapLookup;
+    $('say-actions').hidden = true;
+    $('say-actions').innerHTML = '';
+  }
+
   function explore(id) {
-    const p = P.find((x) => x.id === id); current = id; place(p);
-    $('en').innerHTML = `The ball is <b>${p.word}</b> the box.`; $('ja').textContent = p.ja;
-    chips.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === id)));
+    const p = P.find((x) => x.id === id) || P[1];
+    current = p.id;
+    place(p);
+    renderExploreSentence(p);
+    chips.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === p.id)));
+    zonesEl.querySelectorAll('.zone-ring').forEach((z) => z.classList.toggle('is-hot', z.dataset.zone === p.id));
+    postResize();
   }
+
   function buttons(list, onTap) {
     chips.innerHTML = '';
     for (const p of list) {
-      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.dataset.id = p.id; b.textContent = cap(p.word);
-      b.addEventListener('click', () => onTap(p, b)); chips.appendChild(b);
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'chip';
+      b.dataset.id = p.id;
+      b.textContent = cap(p.word);
+      b.addEventListener('click', () => onTap(p, b));
+      chips.appendChild(b);
     }
   }
-  // Check: the ball moves by itself; the student names the place. Four rounds, each place at most once.
-  function startCheck() {
-    order = [...P].sort(() => Math.random() - 0.5).slice(0, 4); round = 0; firstTry = 0; nextRound();
+
+  function renderDots() {
+    const box = $('dots');
+    box.innerHTML = '';
+    outcomes.forEach((st, idx) => {
+      const dot = document.createElement('span');
+      dot.className = 'dot'
+        + (idx === round ? ' is-current' : '')
+        + (st === 'first' ? ' is-first' : st === 'retry' ? ' is-retry' : '');
+      box.appendChild(dot);
+    });
+    const c = document.createElement('span');
+    c.className = 'dot-count';
+    c.textContent = `${Math.min(round + 1, 4)}/4`;
+    box.appendChild(c);
   }
+
+  function startCheck() {
+    order = [...P].sort(() => Math.random() - 0.5).slice(0, 4);
+    round = 0;
+    firstTry = 0;
+    outcomes = ['pending', 'pending', 'pending', 'pending'];
+    $('check-meta').hidden = false;
+    nextRound();
+  }
+
   function nextRound() {
     missed = false;
-    const p = order[round]; place(p);
-    $('sub').textContent = `Where is the ball? (${round + 1}/4)`;
-    $('en').innerHTML = 'The ball is <b>___</b> the box.'; $('ja').textContent = '';
+    const p = order[round];
+    current = p.id;
+    place(p);
+    $('sub').textContent = COPY[lang].checkSub;
+    renderDots();
+    $('en').innerHTML = 'The ball is <b>___</b> the box.';
+    $('ja').textContent = '';
+    $('say-actions').hidden = true;
+    $('say-actions').innerHTML = '';
     const others = P.filter((x) => x.id !== p.id).sort(() => Math.random() - 0.5).slice(0, 3);
     buttons([p, ...others].sort(() => Math.random() - 0.5), (q, b) => {
       if (q.id === p.id) {
-        b.classList.add('right'); if (!missed) firstTry++;
-        $('en').innerHTML = `The ball is <b>${p.word}</b> the box.`; $('ja').textContent = p.ja;
-        setTimeout(() => { round++; round < 4 ? nextRound() : finish(); }, 900);
-      } else { b.classList.add('wrong'); missed = true; $('ja').textContent = `Not ${q.word}. Look again.`; }
+        Array.from(chips.children).forEach((el) => { el.disabled = true; });
+        b.classList.add('right');
+        if (!missed) { firstTry++; outcomes[round] = 'first'; }
+        else { outcomes[round] = 'retry'; }
+        sfxRight();
+        renderDots();
+        $('en').innerHTML = `The ball is <b>${p.word}</b> the box.`;
+        $('ja').textContent = lang === 'ja' ? `${COPY[lang].right} ${p.ja}` : COPY[lang].right;
+        setTimeout(() => {
+          round++;
+          if (round < 4) nextRound();
+          else finish();
+        }, 850);
+      } else {
+        b.classList.add('wrong');
+        missed = true;
+        sfxWrong();
+        $('ja').innerHTML = `<span class="fb-wrong">${COPY[lang].wrongHint(q, p)}</span>`;
+        postResize();
+      }
     });
+    postResize();
   }
+
   function finish() {
-    chips.innerHTML = ''; $('sub').textContent = 'Check finished.';
-    $('en').innerHTML = `<span class="score">${firstTry}/4</span>`; $('ja').textContent = firstTry === 4 ? 'Perfect! 全問正解' : 'Tap Check to try again.';
+    chips.innerHTML = '';
+    round = 4;
+    renderDots();
+    sfxDone();
+    $('sub').textContent = COPY[lang].doneSub;
+    $('en').innerHTML = `<span class="score">${firstTry}/4</span> ${COPY[lang].firstTry}`;
+    $('ja').textContent = firstTry === 4 ? COPY[lang].perfect : '';
+    const act = $('say-actions');
+    act.innerHTML = '';
+    act.hidden = false;
+    const again = document.createElement('button');
+    again.type = 'button';
+    again.className = 'chip tool-btn';
+    again.textContent = COPY[lang].tryAgain;
+    again.addEventListener('click', () => {
+      sfxTick();
+      startCheck();
+    });
+    act.appendChild(again);
     post({ type: 'ovi-block:finished', score: firstTry, of: 4 });
+    postResize();
   }
+
+  // Drag-and-drop discovery in Explore mode
+  let dragging = false;
+  let dragPointerId = null;
+
+  function clientToSvgPoint(clientX, clientY) {
+    const ctm = svg.getScreenCTM();
+    if (!ctm) return { x: 160, y: 120 };
+    const pt = svg.createSVGPoint();
+    pt.x = clientX;
+    pt.y = clientY;
+    const mapped = pt.matrixTransform(ctm.inverse());
+    return {
+      x: Math.min(Math.max(mapped.x, 22), 298),
+      y: Math.min(Math.max(mapped.y, 24), 222),
+    };
+  }
+
+  function nearestPlace(x, y) {
+    let best = P[0];
+    let bestD = Infinity;
+    for (const p of P) {
+      const dx = x - p.x;
+      const dy = y - p.y;
+      const d = dx * dx + dy * dy;
+      if (d < bestD) { bestD = d; best = p; }
+    }
+    return best;
+  }
+
+  ball.addEventListener('pointerdown', (e) => {
+    if (mode !== 'explore') return;
+    dragging = true;
+    dragPointerId = e.pointerId;
+    try { ball.setPointerCapture(e.pointerId); } catch {}
+    ball.classList.add('is-dragging');
+    svg.classList.add('is-dragging');
+    $('slot-front').appendChild(ball);
+    e.preventDefault();
+  });
+
+  ball.addEventListener('pointermove', (e) => {
+    if (!dragging || e.pointerId !== dragPointerId) return;
+    const pt = clientToSvgPoint(e.clientX, e.clientY);
+    ball.setAttribute('transform', `translate(${pt.x.toFixed(1)}, ${pt.y.toFixed(1)})`);
+    const near = nearestPlace(pt.x, pt.y);
+    $('front').style.opacity = near.see ? '0.42' : '1';
+    zonesEl.querySelectorAll('.zone-ring').forEach((z) => z.classList.toggle('is-hot', z.dataset.zone === near.id));
+    if (current !== near.id) {
+      current = near.id;
+      renderExploreSentence(near);
+      chips.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === near.id)));
+    }
+  });
+
+  function endDrag(e) {
+    if (!dragging || e.pointerId !== dragPointerId) return;
+    dragging = false;
+    try { ball.releasePointerCapture(e.pointerId); } catch {}
+    dragPointerId = null;
+    ball.classList.remove('is-dragging');
+    svg.classList.remove('is-dragging');
+    const pt = clientToSvgPoint(e.clientX, e.clientY);
+    const near = nearestPlace(pt.x, pt.y);
+    sfxTick();
+    explore(near.id);
+  }
+  ball.addEventListener('pointerup', endDrag);
+  ball.addEventListener('pointercancel', endDrag);
+
+  function renderSoundIcon() {
+    $('sound').innerHTML = muted
+      ? '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="22" y1="9" x2="16" y2="15"></line><line x1="16" y1="9" x2="22" y2="15"></line></svg>'
+      : '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M15.5 8.5a5 5 0 0 1 0 7"></path><path d="M18.5 5.5a9 9 0 0 1 0 13"></path></svg>';
+    $('sound').setAttribute('aria-pressed', String(!muted));
+  }
+
+  function syncLabels() {
+    const L = COPY[lang];
+    $('title').textContent = L.title;
+    $('mode-explore').textContent = L.exploreTab;
+    $('mode-check').textContent = L.checkTab;
+    $('listen-label').textContent = playingAudio ? L.stop : L.listen;
+    renderSoundIcon();
+    if (mode === 'explore') {
+      $('sub').textContent = L.exploreSub;
+      explore(current);
+    } else if (round < 4) {
+      $('sub').textContent = L.checkSub;
+    } else {
+      $('sub').textContent = L.doneSub;
+      $('en').innerHTML = `<span class="score">${firstTry}/4</span> ${L.firstTry}`;
+      $('ja').textContent = firstTry === 4 ? L.perfect : '';
+      const again = $('say-actions').querySelector('button');
+      if (again) again.textContent = L.tryAgain;
+    }
+  }
+
   function setMode(m) {
-    mode = m; $('mode-explore').setAttribute('aria-pressed', String(m === 'explore')); $('mode-check').setAttribute('aria-pressed', String(m === 'check'));
-    if (m === 'explore') { $('sub').textContent = 'Tap a word and watch the ball.'; buttons(P, (p) => explore(p.id)); explore(current); } else startCheck();
+    stopSpeech();
+    mode = m;
+    $('mode-explore').setAttribute('aria-pressed', String(m === 'explore'));
+    $('mode-check').setAttribute('aria-pressed', String(m === 'check'));
+    svg.classList.toggle('is-check', m === 'check');
+    svg.classList.toggle('can-drag', m === 'explore');
+    ball.classList.toggle('is-draggable', m === 'explore');
+    $('listen').hidden = m === 'check';
+    if (m === 'explore') {
+      $('check-meta').hidden = true;
+      $('sub').textContent = COPY[lang].exploreSub;
+      buttons(P, (p) => { sfxTick(); explore(p.id); });
+      explore(current);
+    } else {
+      startCheck();
+    }
   }
-  $('mode-explore').addEventListener('click', () => setMode('explore'));
-  $('mode-check').addEventListener('click', () => setMode('check'));
-  new ResizeObserver(() => post({ type: 'ovi-block:resize', height: document.documentElement.scrollHeight })).observe(document.body);
+
+  $('mode-explore').addEventListener('click', () => { sfxTick(); setMode('explore'); });
+  $('mode-check').addEventListener('click', () => { sfxTick(); setMode('check'); });
+  $('listen').addEventListener('click', speakCurrent);
+  $('sound').addEventListener('click', () => {
+    muted = !muted;
+    renderSoundIcon();
+    if (!muted) sfxTick();
+  });
+
+  window.addEventListener('message', (event) => {
+    if (window.parent !== window && event.source !== window.parent) return;
+    const msg = event.data;
+    if (!msg || typeof msg !== 'object' || msg.type !== 'ovi-host:lang') return;
+    const next = msg.language === 'ja' ? 'ja' : 'en';
+    if (lang !== next) {
+      lang = next;
+      syncLabels();
+    }
+  });
+
+  createZones();
+  new ResizeObserver(postResize).observe(document.body);
+  syncLabels();
   setMode('explore');
 })();
 </script>
