@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Where is the ball?</title>
+<style>
+  :root { --ink:#102c37; --soft:rgba(18,49,63,.68); --page:#f6f7f1; --surface:#fff; --mint:#2aa99a; --mint-soft:#e3f4f1; --amber:#d57932; --amber-soft:#fbeadb; --line:rgba(16,44,55,.12); }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: transparent; color: var(--ink); font: 17px/1.5 "Source Sans 3", system-ui, -apple-system, "Hiragino Sans", sans-serif; }
+  .card { background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: 20px; box-shadow: 0 6px 24px rgba(16,44,55,.06); }
+  .top { display: flex; align-items: flex-start; gap: 12px; }
+  h2 { font-size: 1.05rem; margin: 0 0 2px; }
+  .sub { color: var(--soft); margin: 0 0 8px; font-size: .95rem; }
+  .tabs { margin-left: auto; display: flex; gap: 6px; flex: none; }
+  svg { width: 100%; max-width: 420px; display: block; margin: 0 auto; }
+  .ball { transition: transform 450ms cubic-bezier(.3,.7,.3,1); }
+  .front { transition: opacity 250ms ease; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin: 6px 0 14px; }
+  button.chip { appearance: none; border: 1px solid var(--line); background: var(--page); color: var(--ink); border-radius: 999px; min-height: 44px; padding: 8px 16px; font: inherit; font-size: 1rem; cursor: pointer; touch-action: manipulation; transition: background 150ms ease, border-color 150ms ease; }
+  button.chip[aria-pressed="true"] { background: var(--mint-soft); border-color: var(--mint); font-weight: 600; }
+  button.chip.right { background: var(--mint-soft); border-color: var(--mint); }
+  button.chip.wrong { background: var(--amber-soft); border-color: var(--amber); }
+  button.chip:focus-visible { outline: 3px solid var(--mint); outline-offset: 2px; }
+  .say { text-align: center; background: var(--page); border-radius: 14px; padding: 14px 10px; min-height: 84px; }
+  .en { font-size: clamp(1.3rem, 5vw, 1.8rem); font-weight: 700; }
+  .en b { color: #c25a1c; }
+  .ja { color: var(--soft); font-size: .95rem; margin-top: 4px; }
+  .score { color: #136b60; }
+  @media (prefers-reduced-motion: reduce) { .ball, .front, button.chip { transition: none; } }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="top">
+    <div><h2 id="title">Where is the ball?</h2><p class="sub" id="sub">Tap a word and watch the ball.</p></div>
+    <div class="tabs"><button class="chip" id="mode-explore" type="button" aria-pressed="true">Explore</button><button class="chip" id="mode-check" type="button" aria-pressed="false">Check</button></div>
+  </div>
+  <svg viewBox="0 0 320 250" role="img" aria-label="A ball and a box">
+    <defs><radialGradient id="ballg" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#ffb199"/><stop offset=".6" stop-color="#e2553a"/><stop offset="1" stop-color="#a83620"/></radialGradient></defs>
+    <ellipse cx="170" cy="232" rx="110" ry="11" fill="rgba(16,44,55,.10)"/>
+    <g id="slot-back"></g>
+    <polygon points="110,90 150,62 240,62 200,90" fill="#8a6440"/>
+    <polygon points="200,90 240,62 240,142 200,170" fill="#c49a6c"/>
+    <polygon points="110,90 200,90 200,170 110,170" fill="#7a5735" opacity=".9"/>
+    <g id="slot-in"></g>
+    <polygon class="front" id="front" points="110,90 200,90 200,170 110,170" fill="#e2bf8f" stroke="#b8905f" stroke-width="1"/>
+    <g id="slot-front"></g>
+    <circle class="ball" id="ball" cx="0" cy="0" r="19" fill="url(#ballg)"/>
+  </svg>
+  <div class="chips" id="chips"></div>
+  <div class="say" aria-live="polite"><div class="en" id="en"></div><div class="ja" id="ja"></div></div>
+</div>
+<script>
+(() => {
+  const P = [
+    { id: 'in', word: 'in', ja: 'ボールは箱の中にあります。', x: 155, y: 132, slot: 'in', see: true },
+    { id: 'on', word: 'on', ja: 'ボールは箱の上にあります。', x: 170, y: 57, slot: 'front' },
+    { id: 'under', word: 'under', ja: 'ボールは箱の下にあります。', x: 160, y: 206, slot: 'front' },
+    { id: 'behind', word: 'behind', ja: 'ボールは箱の後ろにあります。', x: 242, y: 70, slot: 'back' },
+    { id: 'front', word: 'in front of', ja: 'ボールは箱の前にあります。', x: 140, y: 178, slot: 'front' },
+    { id: 'next', word: 'next to', ja: 'ボールは箱の隣にあります。', x: 272, y: 150, slot: 'front' },
+  ];
+  const $ = (id) => document.getElementById(id), ball = $('ball'), chips = $('chips');
+  const cap = (s) => s[0].toUpperCase() + s.slice(1);
+  let mode = 'explore', current = 'on', round = 0, firstTry = 0, missed = false, order = [];
+  const post = (msg) => { if (window.parent !== window) window.parent.postMessage({ ...msg, block: 'where-is-the-ball', v: 1 }, '*'); };
+
+  function place(p) {
+    $('slot-' + p.slot).appendChild(ball);
+    ball.style.transform = `translate(${p.x}px, ${p.y}px)`;
+    $('front').style.opacity = p.see ? '.45' : '1';
+  }
+  function explore(id) {
+    const p = P.find((x) => x.id === id); current = id; place(p);
+    $('en').innerHTML = `The ball is <b>${p.word}</b> the box.`; $('ja').textContent = p.ja;
+    chips.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === id)));
+  }
+  function buttons(list, onTap) {
+    chips.innerHTML = '';
+    for (const p of list) {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.dataset.id = p.id; b.textContent = cap(p.word);
+      b.addEventListener('click', () => onTap(p, b)); chips.appendChild(b);
+    }
+  }
+  // Check: the ball moves by itself; the student names the place. Four rounds, each place at most once.
+  function startCheck() {
+    order = [...P].sort(() => Math.random() - 0.5).slice(0, 4); round = 0; firstTry = 0; nextRound();
+  }
+  function nextRound() {
+    missed = false;
+    const p = order[round]; place(p);
+    $('sub').textContent = `Where is the ball? (${round + 1}/4)`;
+    $('en').innerHTML = 'The ball is <b>___</b> the box.'; $('ja').textContent = '';
+    const others = P.filter((x) => x.id !== p.id).sort(() => Math.random() - 0.5).slice(0, 3);
+    buttons([p, ...others].sort(() => Math.random() - 0.5), (q, b) => {
+      if (q.id === p.id) {
+        b.classList.add('right'); if (!missed) firstTry++;
+        $('en').innerHTML = `The ball is <b>${p.word}</b> the box.`; $('ja').textContent = p.ja;
+        setTimeout(() => { round++; round < 4 ? nextRound() : finish(); }, 900);
+      } else { b.classList.add('wrong'); missed = true; $('ja').textContent = `Not ${q.word}. Look again.`; }
+    });
+  }
+  function finish() {
+    chips.innerHTML = ''; $('sub').textContent = 'Check finished.';
+    $('en').innerHTML = `<span class="score">${firstTry}/4</span>`; $('ja').textContent = firstTry === 4 ? 'Perfect! 全問正解' : 'Tap Check to try again.';
+    post({ type: 'ovi-block:finished', score: firstTry, of: 4 });
+  }
+  function setMode(m) {
+    mode = m; $('mode-explore').setAttribute('aria-pressed', String(m === 'explore')); $('mode-check').setAttribute('aria-pressed', String(m === 'check'));
+    if (m === 'explore') { $('sub').textContent = 'Tap a word and watch the ball.'; buttons(P, (p) => explore(p.id)); explore(current); } else startCheck();
+  }
+  $('mode-explore').addEventListener('click', () => setMode('explore'));
+  $('mode-check').addEventListener('click', () => setMode('check'));
+  new ResizeObserver(() => post({ type: 'ovi-block:resize', height: document.documentElement.scrollHeight })).observe(document.body);
+  setMode('explore');
+})();
+</script>
+</body>
+</html>
