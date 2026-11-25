@@ -136,6 +136,7 @@
     background: var(--page);
     color: var(--ink);
     border-radius: 999px;
+    min-width: 44px;
     min-height: 44px;
     padding: 8px 15px;
     font: inherit;
@@ -310,28 +311,28 @@
       ja: 'ボールは箱の上にあります。',
       hintEn: 'resting on the top surface of the box',
       hintJa: '箱の「上」にのっているとき。',
-      x: 168, y: 52, slot: 'front',
+      x: 168, y: 50, slot: 'front',
     },
     {
       id: 'under', word: 'under',
       ja: 'ボールは箱の下にあります。',
       hintEn: 'below / underneath the box',
       hintJa: '箱の「下」にあるとき。',
-      x: 156, y: 202, slot: 'front',
+      x: 166, y: 204, slot: 'front',
     },
     {
       id: 'behind', word: 'behind',
       ja: 'ボールは箱の後ろにあります。',
       hintEn: 'hidden at the back side of the box',
       hintJa: '箱の「後ろ」にかくれて見えるとき。',
-      x: 242, y: 66, slot: 'back',
+      x: 244, y: 68, slot: 'back',
     },
     {
       id: 'front', word: 'in front of',
       ja: 'ボールは箱の前にあります。',
       hintEn: 'in front of the front face of the box',
       hintJa: '箱の「前」にあるとき。',
-      x: 128, y: 174, slot: 'front',
+      x: 112, y: 168, slot: 'front',
     },
     {
       id: 'next', word: 'next to',
@@ -505,7 +506,7 @@
       const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
       circle.setAttribute('cx', String(p.x));
       circle.setAttribute('cy', String(p.y));
-      circle.setAttribute('r', '17');
+      circle.setAttribute('r', '19');
       circle.setAttribute('class', 'zone-ring');
       circle.setAttribute('data-zone', p.id);
       circle.setAttribute('tabindex', '0');

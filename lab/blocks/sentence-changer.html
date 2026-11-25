@@ -68,6 +68,7 @@
     background: var(--page);
     color: var(--ink);
     border-radius: 999px;
+    min-width: 44px;
     min-height: 44px;
     padding: 8px 15px;
     font: inherit;
@@ -153,12 +154,34 @@
     color: var(--ink);
     padding: 3px 10px;
   }
-  .tok.mark {
+  .tok-end {
     display: inline-block;
-    margin-left: -6px;
-    padding: 0;
+    white-space: nowrap;
+  }
+  .tok-end button.tok.rest,
+  .tok-end button.tok.verb,
+  .tok-end button.tok.helper {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding-right: 1px;
+  }
+  .tok-punct {
+    display: inline-block;
+    padding: 3px 10px 3px 0;
+    border-radius: 0 11px 11px 0;
     color: var(--ink);
     user-select: none;
+  }
+  .tok-end .tok.rest + .tok-punct {
+    background: rgba(16, 44, 55, 0.05);
+  }
+  .tok-end .tok.verb + .tok-punct {
+    background: var(--mint-soft);
+    color: var(--mint-dark);
+  }
+  .tok-end .tok.helper + .tok-punct {
+    background: var(--amber-soft);
+    color: #8a4413;
   }
   .s-end {
     display: inline-block;
@@ -714,7 +737,24 @@
     const tokens = E.build(state.subject, state.verb, state.form);
     const sentenceBox = $('sentence');
     sentenceBox.innerHTML = '';
-    tokens.forEach((t) => sentenceBox.appendChild(buildTokenElement(t, transition)));
+    for (let idx = 0; idx < tokens.length; idx++) {
+      const t = tokens[idx];
+      if (t.role === 'mark') continue;
+      const nextTok = tokens[idx + 1];
+      const tokNode = buildTokenElement(t, transition);
+      if (nextTok && nextTok.role === 'mark') {
+        const endWrap = document.createElement('span');
+        endWrap.className = 'tok-end';
+        const punct = document.createElement('span');
+        punct.className = 'tok-punct';
+        punct.textContent = nextTok.text;
+        endWrap.append(tokNode, punct);
+        sentenceBox.appendChild(endWrap);
+        idx++;
+      } else {
+        sentenceBox.appendChild(tokNode);
+      }
+    }
 
     const explanation = E.explain(state.subject, state.verb, state.form, state.lang)
       .replace(/(-s\b|\b[Dd]oes\b|\bdo\b|→\s*[a-z]+)/g, '<b>$1</b>');
@@ -797,7 +837,7 @@
     missedCurrent = false;
     $('check-title').textContent = COPY[state.lang].checkTitle;
     renderDots();
-    $('q').innerHTML = item.q.replace('___', '<span class="gap">?</span>');
+    $('q').innerHTML = item.q.replace('___', '<span class="gap" aria-label="blank">___</span>');
     const fb = $('fb');
     fb.className = 'fb';
     fb.textContent = '';
