@@ -1,4 +1,4 @@
-// Pre-generated offline speech sprite cues (macOS Samantha, zero runtime cost).
+// Pre-generated speech sprite cues (microsoft/mai-voice-2-flash / en-US-Harper:MAI-Voice-2, OpenRouter).
 (function (root) {
   const data = {
   "src": "/lab/blocks/audio/unit-clips.mp3",
@@ -6,555 +6,555 @@
   "clips": {
     "I have a cat.": [
       0,
-      0.06
+      0.91
     ],
     "I don't have a cat.": [
-      0.46,
-      0.52
+      1.31,
+      2.38
     ],
     "Do I have a cat?": [
-      0.92,
-      0.98
+      2.78,
+      3.85
     ],
     "I like music.": [
-      1.38,
-      1.44
+      4.25,
+      5.34
     ],
     "I don't like music.": [
-      1.84,
-      1.9
+      5.74,
+      6.85
     ],
     "Do I like music?": [
-      2.3,
-      2.36
+      7.25,
+      8.42
     ],
     "I play soccer.": [
-      2.76,
-      2.82
+      8.82,
+      9.91
     ],
     "I don't play soccer.": [
-      3.22,
-      3.28
+      10.31,
+      11.58
     ],
     "Do I play soccer?": [
-      3.68,
-      3.74
+      11.98,
+      13.07
     ],
     "I go to school.": [
-      4.14,
-      4.2
+      13.47,
+      14.66
     ],
     "I don't go to school.": [
-      4.6,
-      4.66
+      15.06,
+      16.19
     ],
     "Do I go to school?": [
-      5.06,
-      5.12
+      16.59,
+      17.72
     ],
     "I watch TV.": [
-      5.52,
-      5.58
+      18.12,
+      19.19
     ],
     "I don't watch TV.": [
-      5.98,
-      6.04
+      19.59,
+      20.84
     ],
     "Do I watch TV?": [
-      6.44,
-      6.5
+      21.24,
+      22.41
     ],
     "I study English.": [
-      6.9,
-      6.96
+      22.81,
+      24.14
     ],
     "I don't study English.": [
-      7.36,
-      7.42
+      24.54,
+      25.89
     ],
     "Do I study English?": [
-      7.82,
-      7.88
+      26.29,
+      27.5
     ],
     "You have a cat.": [
-      8.28,
-      8.34
+      27.9,
+      29.03
     ],
     "You don't have a cat.": [
-      8.74,
-      8.8
+      29.43,
+      30.58
     ],
     "Do you have a cat?": [
-      9.2,
-      9.26
+      30.98,
+      32.01
     ],
     "You like music.": [
-      9.66,
-      9.72
+      32.41,
+      33.981
     ],
     "You don't like music.": [
-      10.12,
-      10.18
+      34.381,
+      35.341
     ],
     "Do you like music?": [
-      10.58,
-      10.64
+      35.741,
+      36.701
     ],
     "You play soccer.": [
-      11.04,
-      11.1
+      37.101,
+      38.031
     ],
     "You don't play soccer.": [
-      11.5,
-      11.56
+      38.431,
+      39.801
     ],
     "Do you play soccer?": [
-      11.96,
-      12.02
+      40.201,
+      41.271
     ],
     "You go to school.": [
-      12.42,
-      12.48
+      41.671,
+      42.721
     ],
     "You don't go to school.": [
-      12.88,
-      12.94
+      43.121,
+      44.331
     ],
     "Do you go to school?": [
-      13.34,
-      13.4
+      44.731,
+      45.821
     ],
     "You watch TV.": [
-      13.8,
-      13.86
+      46.221,
+      47.271
     ],
     "You don't watch TV.": [
-      14.26,
-      14.32
+      47.671,
+      48.981
     ],
     "Do you watch TV?": [
-      14.72,
-      14.78
+      49.381,
+      50.551
     ],
     "You study English.": [
-      15.18,
-      15.24
+      50.951,
+      52.261
     ],
     "You don't study English.": [
-      15.64,
-      15.7
+      52.661,
+      54.071
     ],
     "Do you study English?": [
-      16.1,
-      16.16
+      54.471,
+      55.701
     ],
     "He has a cat.": [
-      16.56,
-      16.62
+      56.101,
+      57.111
     ],
     "He doesn't have a cat.": [
-      17.02,
-      17.08
+      57.511,
+      58.801
     ],
     "Does he have a cat?": [
-      17.48,
-      17.54
+      59.201,
+      60.311
     ],
     "He likes music.": [
-      17.94,
-      18
+      60.711,
+      61.961
     ],
     "He doesn't like music.": [
-      18.4,
-      18.46
+      62.361,
+      63.661
     ],
     "Does he like music?": [
-      18.86,
-      18.92
+      64.061,
+      65.171
     ],
     "He plays soccer.": [
-      19.32,
-      19.38
+      65.571,
+      66.781
     ],
     "He doesn't play soccer.": [
-      19.78,
-      19.84
+      67.181,
+      68.691
     ],
     "Does he play soccer?": [
-      20.24,
-      20.3
+      69.091,
+      70.441
     ],
     "He goes to school.": [
-      20.7,
-      20.76
+      70.841,
+      72.311
     ],
     "He doesn't go to school.": [
-      21.16,
-      21.22
+      72.711,
+      74.281
     ],
     "Does he go to school?": [
-      21.62,
-      21.68
+      74.681,
+      76.151
     ],
     "He watches TV.": [
-      22.08,
-      22.14
+      76.551,
+      77.861
     ],
     "He doesn't watch TV.": [
-      22.54,
-      22.6
+      78.261,
+      79.631
     ],
     "Does he watch TV?": [
-      23,
-      23.06
+      80.031,
+      81.241
     ],
     "He studies English.": [
-      23.46,
-      23.52
+      81.641,
+      83.211
     ],
     "He doesn't study English.": [
-      23.92,
-      23.98
+      83.611,
+      85.081
     ],
     "Does he study English?": [
-      24.38,
-      24.44
+      85.481,
+      86.791
     ],
     "She has a cat.": [
-      24.84,
-      24.9
+      87.191,
+      88.281
     ],
     "She doesn't have a cat.": [
-      25.3,
-      25.36
+      88.681,
+      90.171
     ],
     "Does she have a cat?": [
-      25.76,
-      25.82
+      90.571,
+      91.668
     ],
     "She likes music.": [
-      26.22,
-      26.28
+      92.068,
+      93.502
     ],
     "She doesn't like music.": [
-      26.68,
-      26.74
+      93.902,
+      95.432
     ],
     "Does she like music?": [
-      27.14,
-      27.2
+      95.832,
+      97.02
     ],
     "She plays soccer.": [
-      27.6,
-      27.66
+      97.42,
+      98.53
     ],
     "She doesn't play soccer.": [
-      28.06,
-      28.12
+      98.93,
+      100.3
     ],
     "Does she play soccer?": [
-      28.52,
-      28.58
+      100.7,
+      101.937
     ],
     "She goes to school.": [
-      28.98,
-      29.04
+      102.337,
+      103.607
     ],
     "She doesn't go to school.": [
-      29.44,
-      29.5
+      104.007,
+      105.257
     ],
     "Does she go to school?": [
-      29.9,
-      29.96
+      105.657,
+      106.714
     ],
     "She watches TV.": [
-      30.36,
-      30.42
+      107.114,
+      108.284
     ],
     "She doesn't watch TV.": [
-      30.82,
-      30.88
+      108.684,
+      110.054
     ],
     "Does she watch TV?": [
-      31.28,
-      31.34
+      110.454,
+      111.684
     ],
     "She studies English.": [
-      31.74,
-      31.8
+      112.084,
+      113.454
     ],
     "She doesn't study English.": [
-      32.2,
-      32.26
+      113.854,
+      115.364
     ],
     "Does she study English?": [
-      32.66,
-      32.72
+      115.764,
+      117.119
     ],
     "We have a cat.": [
-      33.12,
-      33.18
+      117.519,
+      118.596
     ],
     "We don't have a cat.": [
-      33.58,
-      33.64
+      118.996,
+      120.188
     ],
     "Do we have a cat?": [
-      34.04,
-      34.1
+      120.588,
+      121.662
     ],
     "We like music.": [
-      34.5,
-      34.56
+      122.062,
+      123.255
     ],
     "We don't like music.": [
-      34.96,
-      35.02
+      123.655,
+      124.984
     ],
     "Do we like music?": [
-      35.42,
-      35.48
+      125.384,
+      126.434
     ],
     "We play soccer.": [
-      35.88,
-      35.94
+      126.834,
+      128.084
     ],
     "We don't play soccer.": [
-      36.34,
-      36.4
+      128.484,
+      129.774
     ],
     "Do we play soccer?": [
-      36.8,
-      36.86
+      130.174,
+      131.304
     ],
     "We go to school.": [
-      37.26,
-      37.32
+      131.704,
+      132.794
     ],
     "We don't go to school.": [
-      37.72,
-      37.78
+      133.194,
+      134.404
     ],
     "Do we go to school?": [
-      38.18,
-      38.24
+      134.804,
+      135.874
     ],
     "We watch TV.": [
-      38.64,
-      38.7
+      136.274,
+      137.404
     ],
     "We don't watch TV.": [
-      39.1,
-      39.16
+      137.804,
+      139.074
     ],
     "Do we watch TV?": [
-      39.56,
-      39.62
+      139.474,
+      140.604
     ],
     "We study English.": [
-      40.02,
-      40.08
+      141.004,
+      142.314
     ],
     "We don't study English.": [
-      40.48,
-      40.54
+      142.714,
+      144.124
     ],
     "Do we study English?": [
-      40.94,
-      41
+      144.524,
+      145.774
     ],
     "They have a cat.": [
-      41.4,
-      41.46
+      146.174,
+      147.384
     ],
     "They don't have a cat.": [
-      41.86,
-      41.92
+      147.784,
+      149.334
     ],
     "Do they have a cat?": [
-      42.32,
-      42.38
+      149.734,
+      151.104
     ],
     "They like music.": [
-      42.78,
-      42.84
+      151.504,
+      153.134
     ],
     "They don't like music.": [
-      43.24,
-      43.3
+      153.534,
+      155.104
     ],
     "Do they like music?": [
-      43.7,
-      43.76
+      155.504,
+      156.794
     ],
     "They play soccer.": [
-      44.16,
-      44.22
+      157.194,
+      158.264
     ],
     "They don't play soccer.": [
-      44.62,
-      44.68
+      158.664,
+      159.954
     ],
     "Do they play soccer?": [
-      45.08,
-      45.14
+      160.354,
+      161.525
     ],
     "They go to school.": [
-      45.54,
-      45.6
+      161.925,
+      163.215
     ],
     "They don't go to school.": [
-      46,
-      46.06
+      163.615,
+      164.825
     ],
     "Do they go to school?": [
-      46.46,
-      46.52
+      165.225,
+      166.375
     ],
     "They watch TV.": [
-      46.92,
-      46.98
+      166.775,
+      167.885
     ],
     "They don't watch TV.": [
-      47.38,
-      47.44
+      168.285,
+      169.635
     ],
     "Do they watch TV?": [
-      47.84,
-      47.9
+      170.035,
+      171.265
     ],
     "They study English.": [
-      48.3,
-      48.36
+      171.665,
+      173.395
     ],
     "They don't study English.": [
-      48.76,
-      48.82
+      173.795,
+      175.285
     ],
     "Do they study English?": [
-      49.22,
-      49.28
+      175.685,
+      177.055
     ],
     "The ball is in the box.": [
-      49.68,
-      49.74
+      177.455,
+      179.298
     ],
     "It is in the box.": [
-      50.14,
-      50.2
+      179.698,
+      181.025
     ],
     "The cat is in the box.": [
-      50.6,
-      50.66
+      181.425,
+      182.947
     ],
     "The ball is on the box.": [
-      51.06,
-      51.12
+      183.347,
+      184.854
     ],
     "It is on the box.": [
-      51.52,
-      51.58
+      185.254,
+      186.544
     ],
     "The cat is on the box.": [
-      51.98,
-      52.04
+      186.944,
+      188.794
     ],
     "The ball is under the box.": [
-      52.44,
-      52.5
+      189.194,
+      190.844
     ],
     "It is under the box.": [
-      52.9,
-      52.96
+      191.244,
+      192.494
     ],
     "The cat is under the box.": [
-      53.36,
-      53.42
+      192.894,
+      194.764
     ],
     "The ball is behind the box.": [
-      53.82,
-      53.88
+      195.164,
+      196.834
     ],
     "It is behind the box.": [
-      54.28,
-      54.34
+      197.234,
+      198.384
     ],
     "The cat is behind the box.": [
-      54.74,
-      54.8
+      198.784,
+      200.274
     ],
     "The ball is in front of the box.": [
-      55.2,
-      55.26
+      200.674,
+      202.344
     ],
     "It is in front of the box.": [
-      55.66,
-      55.72
+      202.744,
+      204.214
     ],
     "The cat is in front of the box.": [
-      56.12,
-      56.18
+      204.614,
+      206.444
     ],
     "The ball is next to the box.": [
-      56.58,
-      56.64
+      206.844,
+      208.614
     ],
     "It is next to the box.": [
-      57.04,
-      57.1
+      209.014,
+      210.464
     ],
     "The cat is next to the box.": [
-      57.5,
-      57.56
+      210.864,
+      213.014
     ],
     "Mina has a cat.": [
-      57.96,
-      58.02
+      213.414,
+      214.564
     ],
     "She has a small cat.": [
-      58.42,
-      58.48
+      214.964,
+      216.474
     ],
     "Yes, she does.": [
-      58.88,
-      58.94
+      216.874,
+      217.904
     ],
     "She doesn't have a dog.": [
-      59.34,
-      59.4
+      218.304,
+      219.654
     ],
     "No, she doesn't.": [
-      59.8,
-      59.86
+      220.054,
+      221.584
     ],
     "Where is the cat?": [
-      60.26,
-      60.32
+      221.984,
+      222.964
     ],
     "Where is the box?": [
-      60.72,
-      60.78
+      223.364,
+      224.244
     ],
     "Look under the table.": [
-      61.18,
-      61.24
+      224.644,
+      225.874
     ],
     "He doesn't play soccer on Monday.": [
-      61.64,
-      61.7
+      226.274,
+      228.164
     ],
     "Do you study English every day?": [
-      62.1,
-      62.16
+      228.564,
+      230.495
     ],
     "Yes, I do.": [
-      62.56,
-      62.62
+      230.895,
+      232.345
     ],
     "No, I don't.": [
-      63.02,
-      63.08
+      232.745,
+      234.757
     ]
   }
 };
