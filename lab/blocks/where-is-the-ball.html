@@ -269,11 +269,15 @@
       </defs>
       <ellipse cx="168" cy="224" rx="112" ry="11" fill="rgba(16,44,55,0.10)"/>
       <g id="slot-back"></g>
-      <polygon points="108,86 148,58 238,58 198,86" fill="#8a6440"/>
-      <polygon points="198,86 238,58 238,138 198,166" fill="#c49a6c"/>
-      <polygon points="108,86 198,86 198,166 108,166" fill="#7a5735" opacity="0.9"/>
+      <!-- Open-top cardboard box with back/side flaps and dark interior so "in" sits unmistakably inside -->
+      <polygon points="108,86 148,58 238,58 198,86" fill="#4f3722"/>
+      <polygon points="148,58 238,58 228,36 138,36" fill="#d7b17e" stroke="#9d774a" stroke-width="1"/>
+      <polygon points="108,86 148,58 138,38 98,64" fill="#c79f6b" stroke="#9d774a" stroke-width="1"/>
+      <polygon points="198,86 238,58 238,138 198,166" fill="#c49a6c" stroke="#9d774a" stroke-width="1"/>
+      <polygon points="108,86 198,86 198,166 108,166" fill="#5e4228"/>
       <g id="slot-in"></g>
-      <polygon class="front" id="front" points="108,86 198,86 198,166 108,166" fill="#e2bf8f" stroke="#b8905f" stroke-width="1"/>
+      <polygon class="front" id="front" points="108,86 198,86 198,166 108,166" fill="#e2bf8f" stroke="#b8905f" stroke-width="1.2"/>
+      <path d="M108,86 L198,86" stroke="#f7e4c5" stroke-width="2.2" fill="none"/>
       <g id="zones"></g>
       <g id="slot-front"></g>
       <g class="ball-group is-draggable" id="ball" transform="translate(168, 52)">
@@ -302,43 +306,55 @@
     {
       id: 'in', word: 'in',
       ja: 'ボールは箱の中にあります。',
-      hintEn: 'inside the box (surrounded by four sides)',
+      es: 'La pelota está dentro de la caja.',
+      hintEn: 'inside the open box',
       hintJa: '箱の「中」にあるとき。',
-      x: 154, y: 126, slot: 'in', see: true,
+      hintEs: 'dentro de la caja',
+      x: 158, y: 78, slot: 'in', see: false,
     },
     {
       id: 'on', word: 'on',
       ja: 'ボールは箱の上にあります。',
-      hintEn: 'resting on the top surface of the box',
+      es: 'La pelota está encima de la caja.',
+      hintEn: 'resting on the top edge of the box',
       hintJa: '箱の「上」にのっているとき。',
-      x: 168, y: 50, slot: 'front',
+      hintEs: 'encima de la caja',
+      x: 204, y: 88, slot: 'front',
     },
     {
       id: 'under', word: 'under',
       ja: 'ボールは箱の下にあります。',
+      es: 'La pelota está debajo de la caja.',
       hintEn: 'below / underneath the box',
       hintJa: '箱の「下」にあるとき。',
+      hintEs: 'debajo de la caja',
       x: 166, y: 204, slot: 'front',
     },
     {
       id: 'behind', word: 'behind',
       ja: 'ボールは箱の後ろにあります。',
+      es: 'La pelota está detrás de la caja.',
       hintEn: 'hidden at the back side of the box',
       hintJa: '箱の「後ろ」にかくれて見えるとき。',
-      x: 244, y: 68, slot: 'back',
+      hintEs: 'detrás de la caja',
+      x: 256, y: 64, slot: 'back',
     },
     {
       id: 'front', word: 'in front of',
       ja: 'ボールは箱の前にあります。',
+      es: 'La pelota está delante de la caja.',
       hintEn: 'in front of the front face of the box',
       hintJa: '箱の「前」にあるとき。',
-      x: 112, y: 168, slot: 'front',
+      hintEs: 'delante de la caja',
+      x: 120, y: 174, slot: 'front',
     },
     {
       id: 'next', word: 'next to',
       ja: 'ボールは箱の隣にあります。',
+      es: 'La pelota está al lado de la caja.',
       hintEn: 'beside / right at the side of the box',
       hintJa: '箱の「となり」にあるとき。',
+      hintEs: 'al lado de la caja',
       x: 274, y: 146, slot: 'front',
     },
   ];
@@ -354,7 +370,10 @@
       listen: 'Listen',
       stop: 'Stop',
       right: 'Right!',
+      nextQuestion: 'Next question →',
+      seeResults: 'See results →',
       tryAgain: 'Try again',
+      questionProgress: (i, n) => `Question ${i} of ${n}`,
       perfect: 'Perfect! All right on the first try.',
       wrongHint: (picked, target) => `Not "${picked.word}" — the ball is ${target.hintEn}. Look again!`,
       firstTry: 'right on the first try',
@@ -370,17 +389,39 @@
       listen: 'きく',
       stop: '止める',
       right: '正解！',
+      nextQuestion: '次の問題へ →',
+      seeResults: '結果を見る →',
       tryAgain: 'もう一度やる',
+      questionProgress: (i, n) => `第${i}問 / 全${n}問`,
       perfect: 'パーフェクト！全問一回目で正解です。',
-      wrongHint: (picked, target) => `「${picked.word}」ではないよ。もう一度よく見てみよう！`,
+      wrongHint: (picked, target) => `「${picked.word}」ではないよ（ヒント：${target.hintJa}）。もう一度よく見てみよう！`,
       firstTry: '問（一回目で正解）',
       tapLookup: '太字のことばをタップすると意味が見られます。',
+    },
+    es: {
+      title: '¿Dónde está la pelota?',
+      exploreTab: 'Explorar',
+      checkTab: 'Práctica',
+      exploreSub: 'Toca una palabra o arrastra la pelota.',
+      checkSub: 'Elige la palabra que coincide con el dibujo.',
+      doneSub: 'Práctica terminada.',
+      listen: 'Escuchar',
+      stop: 'Parar',
+      right: '¡Correcto!',
+      nextQuestion: 'Siguiente pregunta →',
+      seeResults: 'Ver resultados →',
+      tryAgain: 'Intentar de nuevo',
+      questionProgress: (i, n) => `Pregunta ${i} de ${n}`,
+      perfect: '¡Perfecto! Todas bien al primer intento.',
+      wrongHint: (picked, target) => `No es "${picked.word}" — la pelota está ${target.hintEs}. ¡Mira otra vez!`,
+      firstTry: 'bien al primer intento',
+      tapLookup: 'Toca la palabra resaltada para ver el significado.',
     },
   };
 
   const initialLang = (() => {
-    const p = new URLSearchParams(window.location.search).get('lang');
-    return p && p.toLowerCase() === 'ja' ? 'ja' : 'en';
+    const p = (new URLSearchParams(window.location.search).get('lang') || '').toLowerCase();
+    return p === 'ja' ? 'ja' : p === 'es' ? 'es' : 'en';
   })();
 
   const $ = (id) => document.getElementById(id);
@@ -547,7 +588,7 @@
       post({ type: 'ovi-block:lookup', word: p.word });
     });
     $('en').append(lookup, document.createTextNode(' the box.'));
-    $('ja').textContent = lang === 'ja' ? p.ja : COPY[lang].tapLookup;
+    $('ja').textContent = lang === 'ja' ? p.ja : lang === 'es' ? p.es : COPY[lang].tapLookup;
     $('say-actions').hidden = true;
     $('say-actions').innerHTML = '';
   }
@@ -587,7 +628,7 @@
     });
     const c = document.createElement('span');
     c.className = 'dot-count';
-    c.textContent = `${Math.min(round + 1, 4)}/4`;
+    c.textContent = round < 4 ? COPY[lang].questionProgress(round + 1, 4) : `${firstTry}/4`;
     box.appendChild(c);
   }
 
@@ -621,12 +662,22 @@
         sfxRight();
         renderDots();
         $('en').innerHTML = `The ball is <b>${p.word}</b> the box.`;
-        $('ja').textContent = lang === 'ja' ? `${COPY[lang].right} ${p.ja}` : COPY[lang].right;
-        setTimeout(() => {
+        $('ja').textContent = lang === 'ja' ? `${COPY[lang].right} ${p.ja}` : lang === 'es' ? `${COPY[lang].right} ${p.es}` : COPY[lang].right;
+        const act = $('say-actions');
+        act.innerHTML = '';
+        act.hidden = false;
+        const nextBtn = document.createElement('button');
+        nextBtn.type = 'button';
+        nextBtn.className = 'chip right';
+        nextBtn.textContent = round + 1 < 4 ? COPY[lang].nextQuestion : COPY[lang].seeResults;
+        nextBtn.addEventListener('click', () => {
+          sfxTick();
           round++;
           if (round < 4) nextRound();
           else finish();
-        }, 850);
+        });
+        act.appendChild(nextBtn);
+        postResize();
       } else {
         b.classList.add('wrong');
         missed = true;
@@ -790,11 +841,16 @@
   window.addEventListener('message', (event) => {
     if (window.parent !== window && event.source !== window.parent) return;
     const msg = event.data;
-    if (!msg || typeof msg !== 'object' || msg.type !== 'ovi-host:lang') return;
-    const next = msg.language === 'ja' ? 'ja' : 'en';
+    if (!msg || typeof msg !== 'object') return;
+    if (msg.type === 'ovi-host:ping') { postResize(); return; }
+    if (msg.type !== 'ovi-host:lang') return;
+    const raw = String(msg.language || '').toLowerCase();
+    const next = raw === 'ja' ? 'ja' : raw === 'es' ? 'es' : 'en';
     if (lang !== next) {
       lang = next;
       syncLabels();
+    } else {
+      postResize();
     }
   });
 

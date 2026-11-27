@@ -73,6 +73,11 @@
       if (!s.third) return form === 'positive' ? `${s.text} のときは、動詞はそのまま（${v.base}）。` : `${s.text} のときは do を使い、動詞はそのまま（${v.base}）。`;
       return form === 'positive' ? `he / she のときは、動詞に -s がつく（${v.base} → ${v.s}）。` : `does が -s を持っていくので、動詞は元の形に戻る（${v.s} → ${v.base}）。`;
     }
+    if (lang === 'es') {
+      const subj = s.text.toLowerCase() === 'i' ? 'I' : s.text.toLowerCase();
+      if (!s.third) return form === 'positive' ? `Con ${subj}, el verbo no cambia: ${v.base}.` : `Con ${subj}, usamos do y el verbo queda igual: ${v.base}.`;
+      return form === 'positive' ? `Con he y she, el verbo lleva -s: ${v.base} → ${v.s}.` : `Does ya lleva la -s, así que el verbo vuelve a su base: ${v.s} → ${v.base}.`;
+    }
     if (!s.third) return form === 'positive' ? `With ${s.text.toLowerCase() === 'i' ? 'I' : s.text.toLowerCase()}, the verb stays the same: ${v.base}.` : `With ${s.text.toLowerCase() === 'i' ? 'I' : s.text.toLowerCase()}, we use do, and the verb stays the same: ${v.base}.`;
     return form === 'positive' ? `With he and she, the verb gets -s: ${v.base} → ${v.s}.` : `Does takes the -s, so the verb goes back to its base: ${v.s} → ${v.base}.`;
   }

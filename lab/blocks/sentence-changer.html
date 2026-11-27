@@ -382,9 +382,13 @@
   const $ = (id) => document.getElementById(id);
 
   const initialLang = (() => {
-    const p = new URLSearchParams(window.location.search).get('lang');
-    return p && p.toLowerCase() === 'ja' ? 'ja' : 'en';
+    const p = (new URLSearchParams(window.location.search).get('lang') || '').toLowerCase();
+    return p === 'ja' ? 'ja' : p === 'es' ? 'es' : 'en';
   })();
+
+  if (window.parent !== window && $('lang')) {
+    $('lang').hidden = true;
+  }
 
   const state = {
     subject: 'she',
@@ -410,6 +414,9 @@
       done: 'Nice! You tested positive, negative, and question with he / she.',
       checkTitle: 'Check yourself',
       right: 'Right!',
+      nextQuestion: 'Next question →',
+      seeResults: 'See results →',
+      questionProgress: (i, n) => `Question ${i} of ${n}`,
       firstTry: 'right on the first try',
       tryAgain: 'Try again',
       langBtn: '日本語',
@@ -427,9 +434,32 @@
       done: 'いいね！he / she の3つの形を全部試しました。',
       checkTitle: '確認しよう',
       right: '正解！',
+      nextQuestion: '次の問題へ →',
+      seeResults: '結果を見る →',
+      questionProgress: (i, n) => `第${i}問 / 全${n}問`,
       firstTry: '問（一回目で正解）',
       tryAgain: 'もう一度やる',
       langBtn: 'EN',
+    },
+    es: {
+      title: 'Cambia la oración',
+      hint: 'Elige quién, qué y cómo. Mira cómo se mueve la -s.',
+      listen: 'Escuchar',
+      stop: 'Parar',
+      who: 'Quién',
+      what: 'Qué',
+      how: 'Forma',
+      tapHint: 'Toca una palabra arriba para ver su significado.',
+      forms: { positive: 'Sí ✓', negative: 'No ✗', question: 'Pregunta ?' },
+      done: '¡Bien! Ya probaste sí, no y pregunta con he / she.',
+      checkTitle: 'Comprueba',
+      right: '¡Correcto!',
+      nextQuestion: 'Siguiente pregunta →',
+      seeResults: 'Ver resultados →',
+      questionProgress: (i, n) => `Pregunta ${i} de ${n}`,
+      firstTry: 'bien al primer intento',
+      tryAgain: 'Intentar de nuevo',
+      langBtn: '日本語',
     },
   };
 
@@ -781,6 +811,7 @@
       a: 'has',
       why: 'With she, use has (never *haves).',
       ja: 'she のときは -s がついた special 形：has を使います。',
+      es: 'Con she, usa has (nunca *haves).',
     },
     {
       q: '___ he play soccer?',
@@ -788,6 +819,7 @@
       a: 'Does',
       why: 'With he, start yes/no questions with Does.',
       ja: 'he の疑問文は Does で始めます（does が -s を持つ）。',
+      es: 'Con he, empieza las preguntas con Does.',
     },
     {
       q: "She doesn't ___ to school.",
@@ -795,13 +827,15 @@
       a: 'go',
       why: "doesn't already has the -es, so go stays base.",
       ja: "doesn't がすでに -es を持っているので、動詞は元の形 go。",
+      es: "doesn't ya lleva -es, así que go queda en su forma base.",
     },
     {
-      q: 'Ken ___ English every day.',
+      q: 'Mina ___ English every day.',
       opts: ['studies', 'studys', 'study'],
       a: 'studies',
-      why: 'With Ken (he), -y changes to -ies: studies.',
-      ja: 'Ken（彼）のとき、子音字+y の study は y を i に変えて studies。',
+      why: 'With Mina (she), -y changes to -ies: studies.',
+      ja: 'Mina（彼女）のとき、子音字+y の study は y を i に変えて studies。',
+      es: 'Con Mina (ella), la -y cambia a -ies: studies.',
     },
   ];
 
@@ -823,12 +857,15 @@
     });
     const count = document.createElement('span');
     count.className = 'dot-count';
-    count.textContent = `${Math.min(qIndex + 1, QUESTIONS.length)}/${QUESTIONS.length}`;
+    count.textContent = qIndex < QUESTIONS.length
+      ? COPY[state.lang].questionProgress(qIndex + 1, QUESTIONS.length)
+      : `${firstTryCount}/${QUESTIONS.length}`;
     box.appendChild(count);
   }
 
   function syncCheckLanguage() {
     $('check-title').textContent = COPY[state.lang].checkTitle;
+    renderDots();
     if (qIndex >= QUESTIONS.length) renderCheckSummary();
   }
 
@@ -872,17 +909,26 @@
       fb.className = 'fb is-visible is-right';
       fb.textContent = COPY[state.lang].right;
       renderDots();
-      setTimeout(() => {
+      const row = $('retry-row');
+      row.innerHTML = '';
+      const nextBtn = document.createElement('button');
+      nextBtn.type = 'button';
+      nextBtn.className = 'chip right';
+      nextBtn.textContent = qIndex + 1 < QUESTIONS.length ? COPY[state.lang].nextQuestion : COPY[state.lang].seeResults;
+      nextBtn.addEventListener('click', () => {
+        sfxTick();
         qIndex++;
         if (qIndex < QUESTIONS.length) showQuestion();
         else finishCheck();
-      }, 850);
+      });
+      row.appendChild(nextBtn);
+      postResize();
     } else {
       btn.classList.add('wrong');
       missedCurrent = true;
       sfxWrong();
       fb.className = 'fb is-visible is-wrong';
-      fb.textContent = state.lang === 'ja' ? item.ja : item.why;
+      fb.textContent = state.lang === 'ja' ? item.ja : state.lang === 'es' ? item.es : item.why;
       postResize();
     }
   }
@@ -934,11 +980,16 @@
   window.addEventListener('message', (event) => {
     if (window.parent !== window && event.source !== window.parent) return;
     const msg = event.data;
-    if (!msg || typeof msg !== 'object' || msg.type !== 'ovi-host:lang') return;
-    const next = msg.language === 'ja' ? 'ja' : 'en';
+    if (!msg || typeof msg !== 'object') return;
+    if (msg.type === 'ovi-host:ping') { postResize(); return; }
+    if (msg.type !== 'ovi-host:lang') return;
+    const raw = String(msg.language || '').toLowerCase();
+    const next = raw === 'ja' ? 'ja' : raw === 'es' ? 'es' : 'en';
     if (state.lang !== next) {
       state.lang = next;
       render();
+    } else {
+      postResize();
     }
   });
 

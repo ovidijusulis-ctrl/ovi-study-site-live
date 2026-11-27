@@ -1,0 +1,855 @@
+{
+  "format": "ovi_lesson_v1",
+  "slug": "a1-grammar-people-and-belongings",
+  "episodeId": "a1-grammar-people-and-belongings",
+  "version": 1,
+  "title": "People and Belongings",
+  "level": "A1",
+  "date": "2026-11-27",
+  "access": "public",
+  "help": [
+    "ja",
+    "es"
+  ],
+  "type": "grammar",
+  "summary": "Use pronouns and spelling to show who helps and owns things.",
+  "sources": [
+    {
+      "label": "British Council: Personal pronouns",
+      "url": "https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/personal-pronouns",
+      "note": "Subject and object forms."
+    },
+    {
+      "label": "British Council: Possessive pronouns",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/possessives-pronouns",
+      "note": "My and mine, your and yours."
+    },
+    {
+      "label": "British Council: Demonstratives",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/english-grammar-reference/demonstratives",
+      "note": "This, that, these and those."
+    },
+    {
+      "label": "Cambridge Dictionary: Whose",
+      "url": "https://dictionary.cambridge.org/grammar/british-grammar/whose",
+      "note": "Asking who something belongs to."
+    },
+    {
+      "label": "British Council: Capital letters and apostrophes",
+      "url": "https://learnenglish.britishcouncil.org/free-resources/grammar/b1-b2/capital-letters-apostrophes",
+      "note": "Possessive 's, plural s', and contractions."
+    }
+  ],
+  "cover": {
+    "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-people-and-belongings/images/cover-fbe4a0e2cd67.webp",
+    "alt": "Warm sunlit school classroom lost-and-found table with a blue backpack, red fountain pen, folded paper map, open storybook, and a friendly small dog waiting nearby, cozy 2D storybook illustration, zero text"
+  },
+  "cards": {
+    "deckId": "deck_2369a4114a2de2d6",
+    "title": "Practice your saved words",
+    "contractVersion": "ovi_learning_cards_block_v2",
+    "views": [
+      "learn",
+      "test",
+      "words"
+    ],
+    "defaultView": "learn",
+    "collection": {
+      "browse": true,
+      "search": true,
+      "filters": [
+        "all",
+        "phrases",
+        "due",
+        "learning",
+        "new"
+      ],
+      "removePolicy": "detach_membership_preserve_item_and_review_history",
+      "undoRemoval": true
+    }
+  },
+  "blocks": [
+    {
+      "kind": "text",
+      "id": "blk_part_01_i_or_me_she_or_her",
+      "title": "Part 1: I or Me, She or Her",
+      "role": "part",
+      "paragraphs": [
+        "A pronoun takes the place of a name or noun.",
+        "| Subject | Object |\n|---|---|\n| **I** | **me** |\n| **you** | **you** |\n| **he** | **him** |\n| **she** | **her** |\n| **it** | **it** |\n| **we** | **us** |\n| **they** | **them** |",
+        "**Rule:** The subject tells who or what the sentence describes.\nUse objects for who gets help, or after **to**, **for**, **with**.",
+        "- Ken helps Emma. **He** helps **her**.\n- Emma helps Ken. **She** helps **him**.\n- Ben and I wait. **We** wait. This bag is for **us**.\n- Emma and Ben need maps. **They** need maps. Help **them**.\n- **You** help me. I help **you**.\n- **It** is here. Take **it**.",
+        "**Watch out:**\n- ✗ Is her here? ✓ **Is she here**? Questions use subjects, too.\n- ✗ Come with she. ✓ Come with **her**. Use an object."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-people-and-belongings/images/picture-1-6ede0ed1f593.webp",
+          "alt": "Friendly classmate handing a folded paper map across a sunny wooden table to another student smiling warmly, cozy 2D storybook illustration, zero text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_01_i_or_me_she_or_her_practice",
+      "title": "Practice: I or Me, She or Her",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_01_i_or_me_she_or_her",
+      "items": [
+        {
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "Ken is at the park. I see ___ every afternoon.",
+          "choices": [
+            "him",
+            "he",
+            "his"
+          ],
+          "answer": "him",
+          "explanation": "Ken gets the action of see, so use him.",
+          "hint": "Who sees, and who is seen?",
+          "targetId": "object_pronouns",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each subject form to its object form.",
+          "pairs": [
+            [
+              "I",
+              "me"
+            ],
+            [
+              "he",
+              "him"
+            ],
+            [
+              "she",
+              "her"
+            ],
+            [
+              "they",
+              "them"
+            ]
+          ],
+          "explanation": "I, he, she, and they change when someone helps them.",
+          "hint": "Try each right-hand word after Help.",
+          "targetId": "object_pronouns",
+          "checking": "grammar"
+        },
+        {
+          "type": "sort_buckets",
+          "instruction": "Sort the forms for who helps and who gets help.",
+          "buckets": [
+            {
+              "id": "subj",
+              "label": "Subject: who helps"
+            },
+            {
+              "id": "obj",
+              "label": "Object: who gets help"
+            }
+          ],
+          "cards": [
+            {
+              "id": "pr1",
+              "text": "she",
+              "bucket": "subj"
+            },
+            {
+              "id": "pr2",
+              "text": "them",
+              "bucket": "obj"
+            },
+            {
+              "id": "pr3",
+              "text": "we",
+              "bucket": "subj"
+            },
+            {
+              "id": "pr4",
+              "text": "him",
+              "bucket": "obj"
+            }
+          ],
+          "checking": "grammar",
+          "explanation": "Compare She helps and Please help him.",
+          "hint": "Try each word in ___ helps or Please help ___.",
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q3",
+          "answer": "pr1:subj; pr2:obj; pr3:subj; pr4:obj",
+          "targetId": "object_pronouns"
+        },
+        {
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Ken is waiting. Start with Please.",
+          "sourceJa": "彼と一緒に来てください。",
+          "answer": "Please come with him.",
+          "distractors": [
+            "he"
+          ],
+          "explanation": "Use him after with.",
+          "hint": "Which form can follow with?",
+          "targetId": "object_pronouns",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q_04",
+          "type": "error_spot",
+          "sentence": "Ben and I need help. Emma helps we with the map.",
+          "wrong": "we",
+          "correction": "us",
+          "explanation": "Ben and I get help, so use us.",
+          "hint": "Which people get Emma's help?",
+          "targetId": "object_pronouns",
+          "checking": "grammar"
+        },
+        {
+          "type": "dialogue_reply",
+          "instruction": "Choose the natural reply.",
+          "inputMode": "choice",
+          "turns": [
+            {
+              "speaker": "Ben",
+              "text": "Do you know my sister Emma?"
+            },
+            {
+              "speaker": "You",
+              "replyGap": true,
+              "cueJa": "（彼女を知っていると答える）"
+            }
+          ],
+          "choices": [
+            "Yes, I know her.",
+            "Yes, I know she.",
+            "Yes, I know him."
+          ],
+          "answer": "Yes, I know her.",
+          "checking": "grammar",
+          "explanation": "Emma is the object of know, so use her.",
+          "hint": "Think about Emma and her job in the reply.",
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q6",
+          "targetId": "object_pronouns"
+        },
+        {
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q_05",
+          "type": "type_answer",
+          "prompt": "Complete with me, him, her, us, or them: My teacher knows Emma and Ben. She helps ___.",
+          "accepted": [
+            "them"
+          ],
+          "hint": "How many people get help? Is the speaker included?",
+          "explanation": "Emma and Ben are two other people, so use them.",
+          "targetId": "object_pronouns",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_01_i_or_me_she_or_her_practice_q_06",
+          "type": "transform",
+          "instruction": "Replace Ben with he or him.",
+          "source": "I see Ben in the store.",
+          "accepted": [
+            "I see him in the store."
+          ],
+          "explanation": "Ben is the object of see, so use him.",
+          "hint": "Who sees, and who is seen?",
+          "targetId": "object_pronouns",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:belongings:practice:object_pronouns",
+      "activityVersion": "2723fffb1d770b89"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_02_my_book_this_book",
+      "title": "Part 2: My Book, This Book",
+      "role": "part",
+      "paragraphs": [
+        "These words show who things belong to.",
+        "| Owner | Before a noun |\n|---|---|\n| I | **my** book |\n| you | **your** book |\n| he | **his** book |\n| she | **her** book |\n| it | **its** bed |\n| we | **our** books |\n| they | **their** books |",
+        "Look here and over there.",
+        "| Place | One | Two or more |\n|---|---|---|\n| Near | **This** book is new. | **These** books are new. |\n| Far | **That** bag is blue. | **Those** bags are blue. |",
+        "**Rule:** Put **my**, **your**, **his**, **her**, **its**, **our**, **their** before nouns.",
+        "- **This** pen is in my hand.\n- **That** map on the wall is across the room.\n- **These** apples here are sweet.\n- Emma and Ben have **their** books.",
+        "**Watch out:**\n- ✗ This books. ✓ **These books**. Use these for two or more books.\n- ✗ Her helps. ✓ **She helps**. Her book, but she helps."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-people-and-belongings/images/picture-2-db35e04ba8b9.webp",
+          "alt": "A student holding an open blue notebook in hand while pointing across the classroom toward a backpack and map resting near a sunny window, cozy 2D storybook illustration, zero text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_02_my_book_this_book_practice",
+      "title": "Practice: My Book, This Book",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_02_my_book_this_book",
+      "items": [
+        {
+          "id": "blk_part_02_my_book_this_book_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "Look across the room! ___ bag on the chair is big.",
+          "choices": [
+            "That",
+            "This",
+            "These"
+          ],
+          "answer": "That",
+          "explanation": "Use that for one thing far from you.",
+          "hint": "Check the distance and the number of bags.",
+          "targetId": "possessive_adjectives",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_my_book_this_book_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each distance and number to the right word.",
+          "pairs": [
+            [
+              "one near pen",
+              "this pen"
+            ],
+            [
+              "two near pens",
+              "these pens"
+            ],
+            [
+              "one far bag",
+              "that bag"
+            ],
+            [
+              "two far bags",
+              "those bags"
+            ]
+          ],
+          "explanation": "This and these are near; that and those are far.",
+          "hint": "Check both distance and number.",
+          "targetId": "possessive_adjectives",
+          "checking": "grammar"
+        },
+        {
+          "type": "sort_buckets",
+          "instruction": "Sort by Near (here in your hand) or Far (over there).",
+          "buckets": [
+            {
+              "id": "near",
+              "label": "Near (here)"
+            },
+            {
+              "id": "far",
+              "label": "Far (over there)"
+            }
+          ],
+          "cards": [
+            {
+              "id": "dm1",
+              "text": "this pen",
+              "bucket": "near"
+            },
+            {
+              "id": "dm2",
+              "text": "those maps",
+              "bucket": "far"
+            },
+            {
+              "id": "dm3",
+              "text": "these apples",
+              "bucket": "near"
+            },
+            {
+              "id": "dm4",
+              "text": "that dog",
+              "bucket": "far"
+            }
+          ],
+          "checking": "grammar",
+          "explanation": "This and these point near you; that and those point farther away.",
+          "hint": "Imagine pointing to each thing.",
+          "id": "blk_part_02_my_book_this_book_practice_q3",
+          "answer": "dm1:near; dm2:far; dm3:near; dm4:far",
+          "targetId": "possessive_adjectives"
+        },
+        {
+          "id": "blk_part_02_my_book_this_book_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Put the words in order.",
+          "sourceJa": "手元にあるこれらの本は新しいです。",
+          "answer": "These books are new.",
+          "distractors": [
+            "is",
+            "this"
+          ],
+          "explanation": "Use these and are for nearby books.",
+          "hint": "Check whether there is one book or more.",
+          "targetId": "possessive_adjectives",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_my_book_this_book_practice_q_04",
+          "type": "error_spot",
+          "sentence": "Ben is a boy. This book belongs to Ben. This is her book.",
+          "wrong": "her",
+          "correction": "his",
+          "explanation": "The book belongs to Ben, so use his.",
+          "hint": "Which person owns this book?",
+          "targetId": "possessive_adjectives",
+          "checking": "grammar"
+        },
+        {
+          "type": "dialogue_reply",
+          "instruction": "Choose the reply that matches your teacher's prompt.",
+          "inputMode": "choice",
+          "turns": [
+            {
+              "speaker": "Teacher",
+              "text": "The dog looks tired."
+            },
+            {
+              "speaker": "You",
+              "replyGap": true,
+              "cueJa": "（その犬は自分のベッドで眠れると言う）"
+            }
+          ],
+          "choices": [
+            "It can sleep in its bed.",
+            "It can sleep in he bed.",
+            "It can sleep in it bed."
+          ],
+          "answer": "It can sleep in its bed.",
+          "checking": "grammar",
+          "explanation": "Use its before bed for this dog.",
+          "hint": "The bed belongs to the dog.",
+          "id": "blk_part_02_my_book_this_book_practice_q6",
+          "targetId": "possessive_adjectives"
+        },
+        {
+          "id": "blk_part_02_my_book_this_book_practice_q_05",
+          "type": "type_answer",
+          "prompt": "Write this, these, that, or those: Hold them in your hand → ___ pens are blue.",
+          "accepted": [
+            "These"
+          ],
+          "hint": "Check the distance and the number of pens.",
+          "explanation": "Use these for two or more nearby pens.",
+          "targetId": "possessive_adjectives",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_02_my_book_this_book_practice_q_06",
+          "type": "transform",
+          "instruction": "Emma is a girl. Complete: We see Emma and ___ cat.",
+          "source": "We see Emma. We see the cat. The cat belongs to Emma.",
+          "accepted": [
+            "We see Emma and her cat."
+          ],
+          "explanation": "Use her before cat to show Emma owns it.",
+          "hint": "Keep both Emma and the cat in the sentence.",
+          "targetId": "possessive_adjectives",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:belongings:practice:possessive_adjectives",
+      "activityVersion": "6ddbb293837b3453"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_03_whose_is_it",
+      "title": "Part 3: Whose Is It",
+      "role": "part",
+      "paragraphs": [
+        "You find a bag at school.",
+        "| Before a noun | Alone |\n|---|---|\n| **my** book | **mine** |\n| **your** book | **yours** |\n| **his** book | **his** |\n| **her** book | **hers** |\n| **its** bed | — |\n| **our** books | **ours** |\n| **their** books | **theirs** |",
+        "**Rule:** Ask **Whose + thing + is/are…**?",
+        "- **Whose bag is this**? — It is **mine**. — Here is **your bag**.\n- This is **my book**. This book is **mine**.\n- **Whose maps are these**? They are **theirs**.\n- Is this **yours**? Yes, it is. / No, it isn't.",
+        "**Watch out:**\n- ✗ Mine book. ✓ **My book**. Mine stands alone.\n- ✗ Who's bag? ✓ **Whose bag**? Write who is as who's.",
+        "**His** works both ways: **his book**; the book is **his**.\nUse **its** before a noun here, not alone."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-people-and-belongings/images/picture-3-5751900159a7.webp",
+          "alt": "Lost-and-found corner in a bright school hallway with a red pen, silver key, green hat, and blue bag arranged neatly on a bench, cozy 2D storybook illustration, zero text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_03_whose_is_it_practice",
+      "title": "Practice: Whose Is It",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_03_whose_is_it",
+      "items": [
+        {
+          "id": "blk_part_03_whose_is_it_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "___ hat is on the chair? — It's Ken's.",
+          "choices": [
+            "Whose",
+            "Who's",
+            "Who"
+          ],
+          "answer": "Whose",
+          "explanation": "Use whose to ask who the hat belongs to.",
+          "hint": "The answer tells you the owner.",
+          "targetId": "jhs1.u7.whose_possessive",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_whose_is_it_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match word + thing to the short word used alone.",
+          "pairs": [
+            [
+              "my bag",
+              "mine"
+            ],
+            [
+              "your pen",
+              "yours"
+            ],
+            [
+              "her book",
+              "hers"
+            ],
+            [
+              "their books",
+              "theirs"
+            ]
+          ],
+          "explanation": "Mine, yours, hers, and theirs can replace these word groups.",
+          "hint": "Keep the same owner on both sides.",
+          "targetId": "jhs1.u7.whose_possessive",
+          "checking": "grammar"
+        },
+        {
+          "type": "sort_buckets",
+          "instruction": "Sort words for belonging: before a noun or alone.",
+          "buckets": [
+            {
+              "id": "det",
+              "label": "Needs a thing (+ bag)"
+            },
+            {
+              "id": "pron",
+              "label": "Stands alone (no noun)"
+            }
+          ],
+          "cards": [
+            {
+              "id": "wh1",
+              "text": "my",
+              "bucket": "det"
+            },
+            {
+              "id": "wh2",
+              "text": "mine",
+              "bucket": "pron"
+            },
+            {
+              "id": "wh3",
+              "text": "her",
+              "bucket": "det"
+            },
+            {
+              "id": "wh4",
+              "text": "theirs",
+              "bucket": "pron"
+            }
+          ],
+          "checking": "grammar",
+          "explanation": "My and her need nouns here; mine and theirs stand alone.",
+          "hint": "Try each word in This bag is ___.",
+          "id": "blk_part_03_whose_is_it_practice_q3",
+          "answer": "wh1:det; wh2:pron; wh3:det; wh4:pron",
+          "targetId": "jhs1.u7.whose_possessive"
+        },
+        {
+          "id": "blk_part_03_whose_is_it_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Start with Whose. Put the words in order.",
+          "sourceJa": "ここにあるのはだれのバッグですか？",
+          "answer": "Whose bag is here?",
+          "distractors": [
+            "who's"
+          ],
+          "explanation": "Use Whose + thing + is here?",
+          "hint": "Put the owner-question word first, then the thing.",
+          "targetId": "jhs1.u7.whose_possessive",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_whose_is_it_practice_q_04",
+          "type": "error_spot",
+          "sentence": "Look, that red bag is mine bag!",
+          "wrong": "mine",
+          "correction": "my",
+          "explanation": "Use my before bag; mine stands alone.",
+          "hint": "Does a noun come right after the belonging word?",
+          "targetId": "jhs1.u7.whose_possessive",
+          "checking": "grammar"
+        },
+        {
+          "type": "dialogue_reply",
+          "instruction": "Reply clearly using mine.",
+          "inputMode": "type",
+          "turns": [
+            {
+              "speaker": "Emma",
+              "text": "Whose apple is this?"
+            },
+            {
+              "speaker": "You",
+              "replyGap": true,
+              "cueJa": "（私のです、と短く答える）"
+            }
+          ],
+          "accepted": [
+            "It is mine.",
+            "It's mine.",
+            "Mine."
+          ],
+          "checking": "grammar",
+          "explanation": "Mine shows the apple belongs to the speaker.",
+          "hint": "You do not need to repeat apple.",
+          "id": "blk_part_03_whose_is_it_practice_q6",
+          "targetId": "jhs1.u7.whose_possessive"
+        },
+        {
+          "id": "blk_part_03_whose_is_it_practice_q_05",
+          "type": "type_answer",
+          "prompt": "Finish with ours or theirs: We made those flashcards. They are ___.",
+          "accepted": [
+            "ours"
+          ],
+          "hint": "Does the owner group include the speaker?",
+          "explanation": "Use ours for things belonging to us.",
+          "targetId": "jhs1.u7.whose_possessive",
+          "checking": "grammar"
+        },
+        {
+          "id": "blk_part_03_whose_is_it_practice_q_06",
+          "type": "transform",
+          "instruction": "Make it shorter: end the sentence with hers.",
+          "source": "This is her book.",
+          "accepted": [
+            "This is hers."
+          ],
+          "explanation": "Hers can replace her book without another noun after it.",
+          "hint": "Think about whether book is still needed.",
+          "targetId": "jhs1.u7.whose_possessive",
+          "checking": "grammar"
+        }
+      ],
+      "activityId": "grammar-spelling:belongings:practice:jhs1.u7.whose_possessive",
+      "activityVersion": "1c85fdd2f68523c1"
+    },
+    {
+      "kind": "text",
+      "id": "blk_part_04_apostrophes_for_belonging",
+      "title": "Part 4: Apostrophes for Belonging",
+      "role": "part",
+      "paragraphs": [
+        "An apostrophe can show who something belongs to.",
+        "| Owners | Spelling |\n|---|---|\n| One student | **student's** |\n| Two students | **students'** |",
+        "**Rule:** Add **'s** for one owner.\nFor plural owners **ending in s**, add **'** after **s**.",
+        "- This is **Ken's** bag.\n- One **student's** books are here.\n- Two **students'** books are there.\n- Our dog sleeps in **its** bed. **It's** tired.\n- Look at **your** bag. **You're** ready.",
+        "**Watch out:**\n- ✗ The dog plays with it's ball. ✓ The dog plays with **its** ball.\n- ✗ Kens pen. ✓ **Ken's pen**. Ken is one owner.",
+        "**Spelling:** Write **it is tired** as **it's tired**.\n**Its** shows belonging.\n**Your** shows belonging; write **you are** as **you're**."
+      ],
+      "images": [
+        {
+          "src": "https://pub-13abeb101e2945d2a7f60234f6faf52e.r2.dev/materials/a1-grammar-people-and-belongings/images/picture-4-e13a06e19785.webp",
+          "alt": "Close-up of a dog sleeping happily in a warm round basket next to two colorful school bags hanging on wooden hooks with blank name tags, cozy 2D storybook illustration, zero text",
+          "afterParagraph": 0
+        }
+      ],
+      "audio": true
+    },
+    {
+      "kind": "practice",
+      "id": "blk_part_04_apostrophes_for_belonging_practice",
+      "title": "Practice: Apostrophes for Belonging",
+      "role": "test",
+      "mode": "practice",
+      "intro": "",
+      "checks": "blk_part_04_apostrophes_for_belonging",
+      "items": [
+        {
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q_01",
+          "type": "multiple_choice",
+          "prompt": "One student owns this red pen: This is ___.",
+          "choices": [
+            "the student's pen",
+            "the students' pen",
+            "the students pen"
+          ],
+          "answer": "the student's pen",
+          "explanation": "Add apostrophe s to student for one owner.",
+          "hint": "Count the owners, not the pens.",
+          "targetId": "spl.possessive_apostrophe",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q_02",
+          "type": "match_pairs",
+          "instruction": "Match each short form or owner to its meaning.",
+          "pairs": [
+            [
+              "it's",
+              "it is"
+            ],
+            [
+              "its",
+              "belonging to it"
+            ],
+            [
+              "you're",
+              "you are"
+            ],
+            [
+              "Ken's",
+              "belonging to Ken"
+            ]
+          ],
+          "explanation": "It's and you're are short forms; its and Ken's show belonging.",
+          "hint": "Which words can be made into two words?",
+          "targetId": "spl.possessive_apostrophe",
+          "checking": "grammar"
+        },
+        {
+          "type": "sort_buckets",
+          "instruction": "Sort by one owner or plural owners ending in s.",
+          "buckets": [
+            {
+              "id": "one",
+              "label": "One owner"
+            },
+            {
+              "id": "many",
+              "label": "Plural owners ending in s"
+            }
+          ],
+          "cards": [
+            {
+              "id": "ap1",
+              "text": "Emma's hat",
+              "bucket": "one"
+            },
+            {
+              "id": "ap2",
+              "text": "my friends' bags",
+              "bucket": "many"
+            },
+            {
+              "id": "ap3",
+              "text": "the cat's cup",
+              "bucket": "one"
+            },
+            {
+              "id": "ap4",
+              "text": "two teachers' desks",
+              "bucket": "many"
+            }
+          ],
+          "checking": "spelling",
+          "explanation": "Add an apostrophe after s for plural owners ending in s.",
+          "hint": "Find the owners before counting them.",
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q3",
+          "answer": "ap1:one; ap2:many; ap3:one; ap4:many",
+          "targetId": "spl.possessive_apostrophe"
+        },
+        {
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q_03",
+          "type": "word_bank",
+          "instruction": "Talk about the dog. Start with It is.",
+          "sourceJa": "その犬は自分のベッドの中にいます。",
+          "answer": "It is in its bed.",
+          "distractors": [
+            "it's"
+          ],
+          "explanation": "Its shows the bed belongs to the dog.",
+          "hint": "Say where the dog is and whose bed it is.",
+          "targetId": "spl.possessive_apostrophe",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q_04",
+          "type": "error_spot",
+          "sentence": "Your early for class today!",
+          "wrong": "Your",
+          "correction": "You're",
+          "explanation": "You're means you are.",
+          "hint": "Try saying the sentence with two words at the start.",
+          "targetId": "spl.possessive_apostrophe",
+          "checking": "spelling"
+        },
+        {
+          "type": "dialogue_reply",
+          "instruction": "Answer with Ken's + bag.",
+          "inputMode": "type",
+          "turns": [
+            {
+              "speaker": "Ben",
+              "text": "Whose blue bag is on the desk?"
+            },
+            {
+              "speaker": "You",
+              "replyGap": true,
+              "cueJa": "（ケンのかばんです、と答える）"
+            }
+          ],
+          "accepted": [
+            "It is Ken's bag.",
+            "It's Ken's bag."
+          ],
+          "checking": "spelling",
+          "explanation": "Ken's shows that one person owns the bag.",
+          "hint": "Give a full reply about the bag.",
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q6",
+          "targetId": "spl.possessive_apostrophe"
+        },
+        {
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q_05",
+          "type": "type_answer",
+          "prompt": "Write the belonging word for TWO students: Those are the ___ (students) books.",
+          "accepted": [
+            "students'"
+          ],
+          "hint": "Count the owners, then check the word's last letter.",
+          "explanation": "Students ends in s, so add an apostrophe after s.",
+          "targetId": "spl.possessive_apostrophe",
+          "checking": "spelling"
+        },
+        {
+          "id": "blk_part_04_apostrophes_for_belonging_practice_q_06",
+          "type": "transform",
+          "instruction": "Fix capitals, the short form, and the end mark.",
+          "source": "look, its warm in emma's room",
+          "accepted": [
+            "Look, it's warm in Emma's room."
+          ],
+          "explanation": "It's means it is; start sentences and names with capitals.",
+          "hint": "Check the first word, the name, and what its means.",
+          "targetId": "spl.possessive_apostrophe",
+          "checking": "spelling"
+        }
+      ],
+      "activityId": "grammar-spelling:belongings:practice:spl.possessive_apostrophe",
+      "activityVersion": "55a4c4c24575d6ec"
+    }
+  ]
+}
